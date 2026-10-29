@@ -82,28 +82,28 @@ export function getDongshinProductGroup(item) {
 const CATALOG_ROOM_SCENES = {
   // Group C: Eco Acoustic
   CH_5704: {
-    image: '/images/materials/dongshin_scenes/scene_ch_5704.webp',
+    image: '/images/Thumbnail_Image/materials/데코타일/동신/아트에코차음/동신에코차음우드/CH5704_시공예시.jpg',
     title: '미드센추리 모던 거실 & 다이닝',
     subtitle: '동신포리마 카탈로그 공식 연출 공간',
     productCodes: 'CH 5704 (우드)',
     catalogPage: 'p. 2~3'
   },
   CH_5703: {
-    image: '/images/materials/dongshin_scenes/scene_ch_5703.webp',
+    image: '/images/Thumbnail_Image/materials/데코타일/동신/아트에코차음/동신에코차음우드/CH5703_시공예시.jpg',
     title: '내추럴 리빙룸 & 휴게 라운지',
     subtitle: '동신포리마 카탈로그 공식 연출 공간',
     productCodes: 'CH 5703 (우드)',
     catalogPage: 'p. 4~5'
   },
   CH_6303: {
-    image: '/images/materials/dongshin_scenes/scene_ch_6303.webp',
+    image: '/images/Thumbnail_Image/materials/데코타일/동신/아트에코차음/동신에코차음사각/CH6303_시공예시.jpg',
     title: '모던 스톤 미니멀 오피스 & 라운지',
     subtitle: '동신포리마 카탈로그 공식 연출 공간',
     productCodes: 'CH 6303 (사각)',
     catalogPage: 'p. 6~7'
   },
   CH_6312: {
-    image: '/images/materials/dongshin_scenes/scene_ch_6312.webp',
+    image: '/images/Thumbnail_Image/materials/데코타일/동신/아트에코차음/동신에코차음사각/CH6312_시공예시.jpg',
     title: '프리미엄 다이닝 & 쇼룸 갤러리',
     subtitle: '동신포리마 카탈로그 공식 연출 공간',
     productCodes: 'CH 6312 (사각)',
@@ -112,35 +112,35 @@ const CATALOG_ROOM_SCENES = {
 
   // Group A: Art House
   AH_739_738: {
-    image: '/images/materials/dongshin_scenes/scene_ah_739_738.webp',
+    image: '/images/Thumbnail_Image/materials/데코타일/동신/아트하우스/동신 하우스 우드/AH739_AH738_시공예시.jpg',
     title: '감각적인 투톤 쪽마루 우드 거실',
     subtitle: '동신포리마 카탈로그 공식 복수 혼합 시공 사례',
     productCodes: 'AH 739 / AH 738 (리빙듀오)',
     catalogPage: 'p. 10~11'
   },
   AH_735: {
-    image: '/images/materials/dongshin_scenes/scene_ah_735.webp',
+    image: '/images/Thumbnail_Image/materials/데코타일/동신/아트하우스/동신 하우스 우드/AH735_시공예시.jpg',
     title: '따뜻한 온돌 감성 주거 리빙룸',
     subtitle: '동신포리마 카탈로그 공식 연출 공간',
     productCodes: 'AH 735 (리빙듀오)',
     catalogPage: 'p. 12~13'
   },
   AH_6106_6107: {
-    image: '/images/materials/dongshin_scenes/scene_ah_6106_6107.webp',
+    image: '/images/Thumbnail_Image/materials/데코타일/동신/아트하우스/동신 하우스 사각/AH6106_AH6107_시공예시.jpg',
     title: '모던 그레이 마블 호텔식 거실',
     subtitle: '동신포리마 카탈로그 공식 복수 혼합 시공 사례',
     productCodes: 'AH 6106 / AH 6107 (하우스마블)',
     catalogPage: 'p. 14'
   },
   AH_6100: {
-    image: '/images/materials/dongshin_scenes/scene_ah_6100.webp',
+    image: '/images/Thumbnail_Image/materials/데코타일/동신/아트하우스/동신 하우스 사각/AH6100_시공예시.jpg',
     title: '화사한 크림 마블 주거 공간',
     subtitle: '동신포리마 카탈로그 공식 연출 공간',
     productCodes: 'AH 6100 (하우스마블)',
     catalogPage: 'p. 15'
   },
   AH_6103_6108: {
-    image: '/images/materials/dongshin_scenes/scene_ah_6103_6108.webp',
+    image: '/images/Thumbnail_Image/materials/데코타일/동신/아트하우스/동신 하우스 사각/AH6103_AH6108_시공예시.jpg',
     title: '하이엔드 대리석 패턴 리빙 & 라운지',
     subtitle: '동신포리마 카탈로그 공식 복수 혼합 시공 사례',
     productCodes: 'AH 6103 / AH 6108 (하우스마블)',
@@ -149,35 +149,35 @@ const CATALOG_ROOM_SCENES = {
 
   // Group B: Art Tile 600 Square
   DS_619: {
-    image: '/images/materials/dongshin_scenes/scene_ds_619.webp',
+    image: '/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 600각/DS619_시공예시.jpg',
     title: '인더스트리얼 대형 쇼룸 & 로비',
     subtitle: '동신포리마 카탈로그 공식 연출 공간',
     productCodes: 'DS 619 (600 사각)',
     catalogPage: 'p. 18~19'
   },
   DS_626_627: {
-    image: '/images/materials/dongshin_scenes/scene_ds_626_627.webp',
+    image: '/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 600각/DS626_DS627_시공예시.jpg',
     title: '모던 텍스처 오피스 업무 공간',
     subtitle: '동신포리마 카탈로그 공식 복수 혼합 시공 사례',
     productCodes: 'DS 626 / DS 627 (600 사각)',
     catalogPage: 'p. 20'
   },
   DS_623_625: {
-    image: '/images/materials/dongshin_scenes/scene_ds_623_625.webp',
+    image: '/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 600각/DS623_DS625_시공예시.jpg',
     title: '클린 비즈니스 미팅룸 & 리셉션',
     subtitle: '동신포리마 카탈로그 공식 복수 혼합 시공 사례',
     productCodes: 'DS 623 / DS 625 (600 사각)',
     catalogPage: 'p. 21'
   },
   DS_612: {
-    image: '/images/materials/dongshin_scenes/scene_ds_612.webp',
+    image: '/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 600각/DS612_시공예시.jpg',
     title: '스톤 콘크리트 상업 스튜디오',
     subtitle: '동신포리마 카탈로그 공식 연출 공간',
     productCodes: 'DS 612 (600 사각)',
     catalogPage: 'p. 22'
   },
   DS_616: {
-    image: '/images/materials/dongshin_scenes/scene_ds_616.webp',
+    image: '/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 600각/DS616_시공예시.jpg',
     title: '다크 스톤 감각적인 카페 & 매장',
     subtitle: '동신포리마 카탈로그 공식 연출 공간',
     productCodes: 'DS 616 (600 사각)',
@@ -186,49 +186,49 @@ const CATALOG_ROOM_SCENES = {
 
   // Group B: Art Tile 457 Square
   AS_4147_4148: {
-    image: '/images/materials/dongshin_scenes/scene_as_4147_4148.webp',
+    image: '/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 450각/AS4147_AS4148_시공예시.jpg',
     title: '어반 콘크리트 멀티미디어 라운지',
     subtitle: '동신포리마 카탈로그 공식 복수 혼합 시공 사례',
     productCodes: 'AS 4147 / AS 4148 (콘크리트)',
     catalogPage: 'p. 24~25'
   },
   AS_4141_4142: {
-    image: '/images/materials/dongshin_scenes/scene_as_4141_4142.webp',
+    image: '/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 450각/AS4141_AS4142_시공예시.jpg',
     title: '앱스트랙 패턴 크리에이티브 공간',
     subtitle: '동신포리마 카탈로그 공식 복수 혼합 시공 사례',
     productCodes: 'AS 4141 / AS 4142 (앱스트랙)',
     catalogPage: 'p. 26'
   },
   AS_4114_4116: {
-    image: '/images/materials/dongshin_scenes/scene_as_4114_4116.webp',
+    image: '/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 450각/AS4114_AS4116_시공예시.jpg',
     title: '모던 기하학 패턴 카페테리아',
     subtitle: '동신포리마 카탈로그 공식 복수 혼합 시공 사례',
     productCodes: 'AS 4114 / AS 4116 (앱스트랙)',
     catalogPage: 'p. 27'
   },
   AS_1538_AH_6104: {
-    image: '/images/materials/dongshin_scenes/scene_as_1538_ah_6104.webp',
+    image: '/images/Thumbnail_Image/materials/데코타일/동신/아트하우스/동신 하우스 사각/AH6104_AS1538_시공예시.jpg',
     title: '클래식 마블 & 대리석 리셉션',
     subtitle: '동신포리마 카탈로그 공식 복수 혼합 시공 사례',
     productCodes: 'AS 1538 / AH 6104 (마블)',
     catalogPage: 'p. 28'
   },
   AS_1531_1533: {
-    image: '/images/materials/dongshin_scenes/scene_as_1531_1533.webp',
+    image: '/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 우드/AS1531_AS1533_시공예시.jpg',
     title: '웜 카펫 텍스처 비즈니스 라운지',
     subtitle: '동신포리마 카탈로그 공식 복수 혼합 시공 사례',
     productCodes: 'AS 1531 / AS 1533 (카펫)',
     catalogPage: 'p. 29'
   },
   AS_1922_1919: {
-    image: '/images/materials/dongshin_scenes/scene_as_1922_1919.webp',
+    image: '/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 450각/AS1922_AS1919_시공예시.jpg',
     title: '오피스 워크스테이션 & 코워킹 스페이스',
     subtitle: '동신포리마 카탈로그 공식 복수 혼합 시공 사례',
     productCodes: 'AS 1922 / AS 1919 (카펫)',
     catalogPage: 'p. 30'
   },
   AS_1810_1814: {
-    image: '/images/materials/dongshin_scenes/scene_as_1810_1814.webp',
+    image: '/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 450각/AS1810_AS1814_시공예시.jpg',
     title: '그라니트 화강암 질감 회의실',
     subtitle: '동신포리마 카탈로그 공식 복수 혼합 시공 사례',
     productCodes: 'AS 1810 / AS 1814 (그라니트)',
@@ -237,14 +237,14 @@ const CATALOG_ROOM_SCENES = {
 
   // Group B: Art Tile Wood
   AB_6727: {
-    image: '/images/materials/dongshin_scenes/scene_ab_6727.webp',
+    image: '/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 우드/AB6727_시공예시.jpg',
     title: '듀오라인 내추럴 원목 거실 & 서재',
     subtitle: '동신포리마 카탈로그 공식 연출 공간',
     productCodes: 'AB 6727 (듀오라인)',
     catalogPage: 'p. 32'
   },
   AB_6984: {
-    image: '/images/materials/dongshin_scenes/scene_ab_6984.webp',
+    image: '/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 우드/AB6984_시공예시.jpg',
     title: '앤틱 우드 빈티지 카페 & 쇼룸',
     subtitle: '동신포리마 카탈로그 공식 연출 공간',
     productCodes: 'AB 6984 (앤틱우드)',

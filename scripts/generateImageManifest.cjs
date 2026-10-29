@@ -73,7 +73,8 @@ function classifyProductImage(fileName) {
     lower.includes('2_2') ||
     lower.includes('2×2') ||
     lower.includes('확장') ||
-    lower.includes('expanded')
+    lower.includes('expanded') ||
+    /^oa\d+_1\.(jpe?g|png|webp|avif)$/i.test(fileName)
   ) {
     return '2x2';
   }
@@ -106,7 +107,8 @@ function classifyProductImage(fileName) {
     lower.includes('installation') ||
     lower.includes('interior') ||
     lower.includes('scene') ||
-    lower.includes('room')
+    lower.includes('room') ||
+    /^oa\d+_2\.(jpe?g|png|webp|avif)$/i.test(fileName)
   ) {
     return 'office';
   }

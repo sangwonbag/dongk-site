@@ -6081,214 +6081,494 @@ export const imageManifest = [
     "imageType": "material"
   },
   {
-    "fileName": "OA 317.jpg",
-    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/동신/동신 OA타일/OA 317.jpg",
+    "fileName": "OA317_0.webp",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/동신/동신 OA타일/OA317_0.webp",
     "category": "데코타일",
     "brand": "동신",
     "series": "동신 OA타일",
-    "extractedCode": "OA 317",
-    "normalizedFileName": "oa317jpg",
+    "extractedCode": "OA317",
+    "normalizedFileName": "oa3170webp",
     "imageType": "material"
   },
   {
-    "fileName": "OA 318.jpg",
-    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/동신/동신 OA타일/OA 318.jpg",
+    "fileName": "OA317_1.webp",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/동신/동신 OA타일/OA317_1.webp",
     "category": "데코타일",
     "brand": "동신",
     "series": "동신 OA타일",
-    "extractedCode": "OA 318",
-    "normalizedFileName": "oa318jpg",
+    "extractedCode": "OA317",
+    "normalizedFileName": "oa3171webp",
+    "imageType": "2x2"
+  },
+  {
+    "fileName": "OA318_0.webp",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/동신/동신 OA타일/OA318_0.webp",
+    "category": "데코타일",
+    "brand": "동신",
+    "series": "동신 OA타일",
+    "extractedCode": "OA318",
+    "normalizedFileName": "oa3180webp",
     "imageType": "material"
   },
   {
-    "fileName": "OA 323.jpg",
-    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/동신/동신 OA타일/OA 323.jpg",
+    "fileName": "OA318_1.webp",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/동신/동신 OA타일/OA318_1.webp",
     "category": "데코타일",
     "brand": "동신",
     "series": "동신 OA타일",
-    "extractedCode": "OA 323",
-    "normalizedFileName": "oa323jpg",
+    "extractedCode": "OA318",
+    "normalizedFileName": "oa3181webp",
+    "imageType": "2x2"
+  },
+  {
+    "fileName": "OA323_0.webp",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/동신/동신 OA타일/OA323_0.webp",
+    "category": "데코타일",
+    "brand": "동신",
+    "series": "동신 OA타일",
+    "extractedCode": "OA323",
+    "normalizedFileName": "oa3230webp",
     "imageType": "material"
   },
   {
-    "fileName": "OA 328.jpg",
-    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/동신/동신 OA타일/OA 328.jpg",
+    "fileName": "OA323_1.webp",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/동신/동신 OA타일/OA323_1.webp",
     "category": "데코타일",
     "brand": "동신",
     "series": "동신 OA타일",
-    "extractedCode": "OA 328",
-    "normalizedFileName": "oa328jpg",
+    "extractedCode": "OA323",
+    "normalizedFileName": "oa3231webp",
+    "imageType": "2x2"
+  },
+  {
+    "fileName": "OA323_2.webp",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/동신/동신 OA타일/OA323_2.webp",
+    "category": "데코타일",
+    "brand": "동신",
+    "series": "동신 OA타일",
+    "extractedCode": "OA323",
+    "normalizedFileName": "oa3232webp",
+    "imageType": "office"
+  },
+  {
+    "fileName": "OA328_0.webp",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/동신/동신 OA타일/OA328_0.webp",
+    "category": "데코타일",
+    "brand": "동신",
+    "series": "동신 OA타일",
+    "extractedCode": "OA328",
+    "normalizedFileName": "oa3280webp",
     "imageType": "material"
   },
   {
-    "fileName": "OA 329.jpg",
-    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/동신/동신 OA타일/OA 329.jpg",
+    "fileName": "OA328_1.webp",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/동신/동신 OA타일/OA328_1.webp",
     "category": "데코타일",
     "brand": "동신",
     "series": "동신 OA타일",
-    "extractedCode": "OA 329",
-    "normalizedFileName": "oa329jpg",
+    "extractedCode": "OA328",
+    "normalizedFileName": "oa3281webp",
+    "imageType": "2x2"
+  },
+  {
+    "fileName": "OA329_0.webp",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/동신/동신 OA타일/OA329_0.webp",
+    "category": "데코타일",
+    "brand": "동신",
+    "series": "동신 OA타일",
+    "extractedCode": "OA329",
+    "normalizedFileName": "oa3290webp",
     "imageType": "material"
   },
   {
-    "fileName": "OA 331.jpg",
-    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/동신/동신 OA타일/OA 331.jpg",
+    "fileName": "OA329_1.webp",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/동신/동신 OA타일/OA329_1.webp",
     "category": "데코타일",
     "brand": "동신",
     "series": "동신 OA타일",
-    "extractedCode": "OA 331",
-    "normalizedFileName": "oa331jpg",
+    "extractedCode": "OA329",
+    "normalizedFileName": "oa3291webp",
+    "imageType": "2x2"
+  },
+  {
+    "fileName": "OA331_0.webp",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/동신/동신 OA타일/OA331_0.webp",
+    "category": "데코타일",
+    "brand": "동신",
+    "series": "동신 OA타일",
+    "extractedCode": "OA331",
+    "normalizedFileName": "oa3310webp",
     "imageType": "material"
   },
   {
-    "fileName": "OA 334.jpg",
-    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/동신/동신 OA타일/OA 334.jpg",
+    "fileName": "OA331_1.webp",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/동신/동신 OA타일/OA331_1.webp",
     "category": "데코타일",
     "brand": "동신",
     "series": "동신 OA타일",
-    "extractedCode": "OA 334",
-    "normalizedFileName": "oa334jpg",
+    "extractedCode": "OA331",
+    "normalizedFileName": "oa3311webp",
+    "imageType": "2x2"
+  },
+  {
+    "fileName": "OA334_0.webp",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/동신/동신 OA타일/OA334_0.webp",
+    "category": "데코타일",
+    "brand": "동신",
+    "series": "동신 OA타일",
+    "extractedCode": "OA334",
+    "normalizedFileName": "oa3340webp",
     "imageType": "material"
   },
   {
-    "fileName": "OA 335.jpg",
-    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/동신/동신 OA타일/OA 335.jpg",
+    "fileName": "OA334_1.webp",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/동신/동신 OA타일/OA334_1.webp",
     "category": "데코타일",
     "brand": "동신",
     "series": "동신 OA타일",
-    "extractedCode": "OA 335",
-    "normalizedFileName": "oa335jpg",
+    "extractedCode": "OA334",
+    "normalizedFileName": "oa3341webp",
+    "imageType": "2x2"
+  },
+  {
+    "fileName": "OA335_0.webp",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/동신/동신 OA타일/OA335_0.webp",
+    "category": "데코타일",
+    "brand": "동신",
+    "series": "동신 OA타일",
+    "extractedCode": "OA335",
+    "normalizedFileName": "oa3350webp",
     "imageType": "material"
   },
   {
-    "fileName": "OA 336.jpg",
-    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/동신/동신 OA타일/OA 336.jpg",
+    "fileName": "OA335_1.webp",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/동신/동신 OA타일/OA335_1.webp",
     "category": "데코타일",
     "brand": "동신",
     "series": "동신 OA타일",
-    "extractedCode": "OA 336",
-    "normalizedFileName": "oa336jpg",
+    "extractedCode": "OA335",
+    "normalizedFileName": "oa3351webp",
+    "imageType": "2x2"
+  },
+  {
+    "fileName": "OA336_0.webp",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/동신/동신 OA타일/OA336_0.webp",
+    "category": "데코타일",
+    "brand": "동신",
+    "series": "동신 OA타일",
+    "extractedCode": "OA336",
+    "normalizedFileName": "oa3360webp",
     "imageType": "material"
   },
   {
-    "fileName": "OA 337.jpg",
-    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/동신/동신 OA타일/OA 337.jpg",
+    "fileName": "OA336_1.webp",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/동신/동신 OA타일/OA336_1.webp",
     "category": "데코타일",
     "brand": "동신",
     "series": "동신 OA타일",
-    "extractedCode": "OA 337",
-    "normalizedFileName": "oa337jpg",
+    "extractedCode": "OA336",
+    "normalizedFileName": "oa3361webp",
+    "imageType": "2x2"
+  },
+  {
+    "fileName": "OA336_2.webp",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/동신/동신 OA타일/OA336_2.webp",
+    "category": "데코타일",
+    "brand": "동신",
+    "series": "동신 OA타일",
+    "extractedCode": "OA336",
+    "normalizedFileName": "oa3362webp",
+    "imageType": "office"
+  },
+  {
+    "fileName": "OA337_0.webp",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/동신/동신 OA타일/OA337_0.webp",
+    "category": "데코타일",
+    "brand": "동신",
+    "series": "동신 OA타일",
+    "extractedCode": "OA337",
+    "normalizedFileName": "oa3370webp",
     "imageType": "material"
   },
   {
-    "fileName": "OA 338.jpg",
-    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/동신/동신 OA타일/OA 338.jpg",
+    "fileName": "OA337_1.webp",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/동신/동신 OA타일/OA337_1.webp",
     "category": "데코타일",
     "brand": "동신",
     "series": "동신 OA타일",
-    "extractedCode": "OA 338",
-    "normalizedFileName": "oa338jpg",
+    "extractedCode": "OA337",
+    "normalizedFileName": "oa3371webp",
+    "imageType": "2x2"
+  },
+  {
+    "fileName": "OA338_0.webp",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/동신/동신 OA타일/OA338_0.webp",
+    "category": "데코타일",
+    "brand": "동신",
+    "series": "동신 OA타일",
+    "extractedCode": "OA338",
+    "normalizedFileName": "oa3380webp",
     "imageType": "material"
   },
   {
-    "fileName": "OA 339.jpg",
-    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/동신/동신 OA타일/OA 339.jpg",
+    "fileName": "OA338_1.webp",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/동신/동신 OA타일/OA338_1.webp",
     "category": "데코타일",
     "brand": "동신",
     "series": "동신 OA타일",
-    "extractedCode": "OA 339",
-    "normalizedFileName": "oa339jpg",
+    "extractedCode": "OA338",
+    "normalizedFileName": "oa3381webp",
+    "imageType": "2x2"
+  },
+  {
+    "fileName": "OA338_2.webp",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/동신/동신 OA타일/OA338_2.webp",
+    "category": "데코타일",
+    "brand": "동신",
+    "series": "동신 OA타일",
+    "extractedCode": "OA338",
+    "normalizedFileName": "oa3382webp",
+    "imageType": "office"
+  },
+  {
+    "fileName": "OA339_0.webp",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/동신/동신 OA타일/OA339_0.webp",
+    "category": "데코타일",
+    "brand": "동신",
+    "series": "동신 OA타일",
+    "extractedCode": "OA339",
+    "normalizedFileName": "oa3390webp",
     "imageType": "material"
   },
   {
-    "fileName": "OA 340.jpg",
-    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/동신/동신 OA타일/OA 340.jpg",
+    "fileName": "OA339_1.webp",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/동신/동신 OA타일/OA339_1.webp",
     "category": "데코타일",
     "brand": "동신",
     "series": "동신 OA타일",
-    "extractedCode": "OA 340",
-    "normalizedFileName": "oa340jpg",
+    "extractedCode": "OA339",
+    "normalizedFileName": "oa3391webp",
+    "imageType": "2x2"
+  },
+  {
+    "fileName": "OA340_0.webp",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/동신/동신 OA타일/OA340_0.webp",
+    "category": "데코타일",
+    "brand": "동신",
+    "series": "동신 OA타일",
+    "extractedCode": "OA340",
+    "normalizedFileName": "oa3400webp",
     "imageType": "material"
   },
   {
-    "fileName": "OA 341.jpg",
-    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/동신/동신 OA타일/OA 341.jpg",
+    "fileName": "OA340_1.webp",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/동신/동신 OA타일/OA340_1.webp",
     "category": "데코타일",
     "brand": "동신",
     "series": "동신 OA타일",
-    "extractedCode": "OA 341",
-    "normalizedFileName": "oa341jpg",
+    "extractedCode": "OA340",
+    "normalizedFileName": "oa3401webp",
+    "imageType": "2x2"
+  },
+  {
+    "fileName": "OA340_2.webp",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/동신/동신 OA타일/OA340_2.webp",
+    "category": "데코타일",
+    "brand": "동신",
+    "series": "동신 OA타일",
+    "extractedCode": "OA340",
+    "normalizedFileName": "oa3402webp",
+    "imageType": "office"
+  },
+  {
+    "fileName": "OA341_0.webp",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/동신/동신 OA타일/OA341_0.webp",
+    "category": "데코타일",
+    "brand": "동신",
+    "series": "동신 OA타일",
+    "extractedCode": "OA341",
+    "normalizedFileName": "oa3410webp",
     "imageType": "material"
   },
   {
-    "fileName": "OA 342.jpg",
-    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/동신/동신 OA타일/OA 342.jpg",
+    "fileName": "OA341_1.webp",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/동신/동신 OA타일/OA341_1.webp",
     "category": "데코타일",
     "brand": "동신",
     "series": "동신 OA타일",
-    "extractedCode": "OA 342",
-    "normalizedFileName": "oa342jpg",
+    "extractedCode": "OA341",
+    "normalizedFileName": "oa3411webp",
+    "imageType": "2x2"
+  },
+  {
+    "fileName": "OA342_0.webp",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/동신/동신 OA타일/OA342_0.webp",
+    "category": "데코타일",
+    "brand": "동신",
+    "series": "동신 OA타일",
+    "extractedCode": "OA342",
+    "normalizedFileName": "oa3420webp",
     "imageType": "material"
   },
   {
-    "fileName": "OA 343.jpg",
-    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/동신/동신 OA타일/OA 343.jpg",
+    "fileName": "OA342_1.webp",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/동신/동신 OA타일/OA342_1.webp",
     "category": "데코타일",
     "brand": "동신",
     "series": "동신 OA타일",
-    "extractedCode": "OA 343",
-    "normalizedFileName": "oa343jpg",
+    "extractedCode": "OA342",
+    "normalizedFileName": "oa3421webp",
+    "imageType": "2x2"
+  },
+  {
+    "fileName": "OA343_0.webp",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/동신/동신 OA타일/OA343_0.webp",
+    "category": "데코타일",
+    "brand": "동신",
+    "series": "동신 OA타일",
+    "extractedCode": "OA343",
+    "normalizedFileName": "oa3430webp",
     "imageType": "material"
   },
   {
-    "fileName": "OA 344.jpg",
-    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/동신/동신 OA타일/OA 344.jpg",
+    "fileName": "OA343_1.webp",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/동신/동신 OA타일/OA343_1.webp",
     "category": "데코타일",
     "brand": "동신",
     "series": "동신 OA타일",
-    "extractedCode": "OA 344",
-    "normalizedFileName": "oa344jpg",
+    "extractedCode": "OA343",
+    "normalizedFileName": "oa3431webp",
+    "imageType": "2x2"
+  },
+  {
+    "fileName": "OA344_0.webp",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/동신/동신 OA타일/OA344_0.webp",
+    "category": "데코타일",
+    "brand": "동신",
+    "series": "동신 OA타일",
+    "extractedCode": "OA344",
+    "normalizedFileName": "oa3440webp",
     "imageType": "material"
   },
   {
-    "fileName": "OA 345.jpg",
-    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/동신/동신 OA타일/OA 345.jpg",
+    "fileName": "OA344_1.webp",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/동신/동신 OA타일/OA344_1.webp",
     "category": "데코타일",
     "brand": "동신",
     "series": "동신 OA타일",
-    "extractedCode": "OA 345",
-    "normalizedFileName": "oa345jpg",
+    "extractedCode": "OA344",
+    "normalizedFileName": "oa3441webp",
+    "imageType": "2x2"
+  },
+  {
+    "fileName": "OA345_0.webp",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/동신/동신 OA타일/OA345_0.webp",
+    "category": "데코타일",
+    "brand": "동신",
+    "series": "동신 OA타일",
+    "extractedCode": "OA345",
+    "normalizedFileName": "oa3450webp",
     "imageType": "material"
   },
   {
-    "fileName": "OA 346.jpg",
-    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/동신/동신 OA타일/OA 346.jpg",
+    "fileName": "OA345_1.webp",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/동신/동신 OA타일/OA345_1.webp",
     "category": "데코타일",
     "brand": "동신",
     "series": "동신 OA타일",
-    "extractedCode": "OA 346",
-    "normalizedFileName": "oa346jpg",
+    "extractedCode": "OA345",
+    "normalizedFileName": "oa3451webp",
+    "imageType": "2x2"
+  },
+  {
+    "fileName": "OA345_2.webp",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/동신/동신 OA타일/OA345_2.webp",
+    "category": "데코타일",
+    "brand": "동신",
+    "series": "동신 OA타일",
+    "extractedCode": "OA345",
+    "normalizedFileName": "oa3452webp",
+    "imageType": "office"
+  },
+  {
+    "fileName": "OA346_0.webp",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/동신/동신 OA타일/OA346_0.webp",
+    "category": "데코타일",
+    "brand": "동신",
+    "series": "동신 OA타일",
+    "extractedCode": "OA346",
+    "normalizedFileName": "oa3460webp",
     "imageType": "material"
   },
   {
-    "fileName": "OA 347.jpg",
-    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/동신/동신 OA타일/OA 347.jpg",
+    "fileName": "OA346_1.webp",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/동신/동신 OA타일/OA346_1.webp",
     "category": "데코타일",
     "brand": "동신",
     "series": "동신 OA타일",
-    "extractedCode": "OA 347",
-    "normalizedFileName": "oa347jpg",
+    "extractedCode": "OA346",
+    "normalizedFileName": "oa3461webp",
+    "imageType": "2x2"
+  },
+  {
+    "fileName": "OA346_2.webp",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/동신/동신 OA타일/OA346_2.webp",
+    "category": "데코타일",
+    "brand": "동신",
+    "series": "동신 OA타일",
+    "extractedCode": "OA346",
+    "normalizedFileName": "oa3462webp",
+    "imageType": "office"
+  },
+  {
+    "fileName": "OA347_0.webp",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/동신/동신 OA타일/OA347_0.webp",
+    "category": "데코타일",
+    "brand": "동신",
+    "series": "동신 OA타일",
+    "extractedCode": "OA347",
+    "normalizedFileName": "oa3470webp",
     "imageType": "material"
   },
   {
-    "fileName": "OA 348.jpg",
-    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/동신/동신 OA타일/OA 348.jpg",
+    "fileName": "OA347_1.webp",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/동신/동신 OA타일/OA347_1.webp",
     "category": "데코타일",
     "brand": "동신",
     "series": "동신 OA타일",
-    "extractedCode": "OA 348",
-    "normalizedFileName": "oa348jpg",
+    "extractedCode": "OA347",
+    "normalizedFileName": "oa3471webp",
+    "imageType": "2x2"
+  },
+  {
+    "fileName": "OA347_2.webp",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/동신/동신 OA타일/OA347_2.webp",
+    "category": "데코타일",
+    "brand": "동신",
+    "series": "동신 OA타일",
+    "extractedCode": "OA347",
+    "normalizedFileName": "oa3472webp",
+    "imageType": "office"
+  },
+  {
+    "fileName": "OA348_0.webp",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/동신/동신 OA타일/OA348_0.webp",
+    "category": "데코타일",
+    "brand": "동신",
+    "series": "동신 OA타일",
+    "extractedCode": "OA348",
+    "normalizedFileName": "oa3480webp",
     "imageType": "material"
+  },
+  {
+    "fileName": "OA348_1.webp",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/동신/동신 OA타일/OA348_1.webp",
+    "category": "데코타일",
+    "brand": "동신",
+    "series": "동신 OA타일",
+    "extractedCode": "OA348",
+    "normalizedFileName": "oa3481webp",
+    "imageType": "2x2"
   },
   {
     "fileName": "CH6300.jpg",
@@ -6301,6 +6581,16 @@ export const imageManifest = [
     "imageType": "material"
   },
   {
+    "fileName": "CH6300_2x2.png",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/동신/아트에코차음/동신에코차음사각/CH6300_2x2.png",
+    "category": "데코타일",
+    "brand": "동신",
+    "series": "아트에코차음/동신에코차음사각",
+    "extractedCode": "CH6300",
+    "normalizedFileName": "ch63002x2png",
+    "imageType": "2x2"
+  },
+  {
     "fileName": "CH6301.jpg",
     "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/동신/아트에코차음/동신에코차음사각/CH6301.jpg",
     "category": "데코타일",
@@ -6309,6 +6599,16 @@ export const imageManifest = [
     "extractedCode": "CH6301",
     "normalizedFileName": "ch6301jpg",
     "imageType": "material"
+  },
+  {
+    "fileName": "CH6301_2x2.png",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/동신/아트에코차음/동신에코차음사각/CH6301_2x2.png",
+    "category": "데코타일",
+    "brand": "동신",
+    "series": "아트에코차음/동신에코차음사각",
+    "extractedCode": "CH6301",
+    "normalizedFileName": "ch63012x2png",
+    "imageType": "2x2"
   },
   {
     "fileName": "CH6302.png",
@@ -6321,6 +6621,16 @@ export const imageManifest = [
     "imageType": "material"
   },
   {
+    "fileName": "CH6302_2x2.png",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/동신/아트에코차음/동신에코차음사각/CH6302_2x2.png",
+    "category": "데코타일",
+    "brand": "동신",
+    "series": "아트에코차음/동신에코차음사각",
+    "extractedCode": "CH6302",
+    "normalizedFileName": "ch63022x2png",
+    "imageType": "2x2"
+  },
+  {
     "fileName": "CH6303.jpg",
     "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/동신/아트에코차음/동신에코차음사각/CH6303.jpg",
     "category": "데코타일",
@@ -6329,6 +6639,16 @@ export const imageManifest = [
     "extractedCode": "CH6303",
     "normalizedFileName": "ch6303jpg",
     "imageType": "material"
+  },
+  {
+    "fileName": "CH6303_2x2.png",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/동신/아트에코차음/동신에코차음사각/CH6303_2x2.png",
+    "category": "데코타일",
+    "brand": "동신",
+    "series": "아트에코차음/동신에코차음사각",
+    "extractedCode": "CH6303",
+    "normalizedFileName": "ch63032x2png",
+    "imageType": "2x2"
   },
   {
     "fileName": "CH6303_시공예시.jpg",
@@ -6351,6 +6671,16 @@ export const imageManifest = [
     "imageType": "material"
   },
   {
+    "fileName": "CH6304_2x2.png",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/동신/아트에코차음/동신에코차음사각/CH6304_2x2.png",
+    "category": "데코타일",
+    "brand": "동신",
+    "series": "아트에코차음/동신에코차음사각",
+    "extractedCode": "CH6304",
+    "normalizedFileName": "ch63042x2png",
+    "imageType": "2x2"
+  },
+  {
     "fileName": "CH6305.png",
     "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/동신/아트에코차음/동신에코차음사각/CH6305.png",
     "category": "데코타일",
@@ -6359,6 +6689,16 @@ export const imageManifest = [
     "extractedCode": "CH6305",
     "normalizedFileName": "ch6305png",
     "imageType": "material"
+  },
+  {
+    "fileName": "CH6305_2x2.png",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/동신/아트에코차음/동신에코차음사각/CH6305_2x2.png",
+    "category": "데코타일",
+    "brand": "동신",
+    "series": "아트에코차음/동신에코차음사각",
+    "extractedCode": "CH6305",
+    "normalizedFileName": "ch63052x2png",
+    "imageType": "2x2"
   },
   {
     "fileName": "CH6306.jpg",
@@ -6371,6 +6711,16 @@ export const imageManifest = [
     "imageType": "material"
   },
   {
+    "fileName": "CH6306_2x2.png",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/동신/아트에코차음/동신에코차음사각/CH6306_2x2.png",
+    "category": "데코타일",
+    "brand": "동신",
+    "series": "아트에코차음/동신에코차음사각",
+    "extractedCode": "CH6306",
+    "normalizedFileName": "ch63062x2png",
+    "imageType": "2x2"
+  },
+  {
     "fileName": "CH6307.png",
     "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/동신/아트에코차음/동신에코차음사각/CH6307.png",
     "category": "데코타일",
@@ -6379,6 +6729,16 @@ export const imageManifest = [
     "extractedCode": "CH6307",
     "normalizedFileName": "ch6307png",
     "imageType": "material"
+  },
+  {
+    "fileName": "CH6307_2x2.png",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/동신/아트에코차음/동신에코차음사각/CH6307_2x2.png",
+    "category": "데코타일",
+    "brand": "동신",
+    "series": "아트에코차음/동신에코차음사각",
+    "extractedCode": "CH6307",
+    "normalizedFileName": "ch63072x2png",
+    "imageType": "2x2"
   },
   {
     "fileName": "CH6308.jpg",
@@ -6391,6 +6751,16 @@ export const imageManifest = [
     "imageType": "material"
   },
   {
+    "fileName": "CH6308_2x2.png",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/동신/아트에코차음/동신에코차음사각/CH6308_2x2.png",
+    "category": "데코타일",
+    "brand": "동신",
+    "series": "아트에코차음/동신에코차음사각",
+    "extractedCode": "CH6308",
+    "normalizedFileName": "ch63082x2png",
+    "imageType": "2x2"
+  },
+  {
     "fileName": "CH6309.jpg",
     "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/동신/아트에코차음/동신에코차음사각/CH6309.jpg",
     "category": "데코타일",
@@ -6399,6 +6769,16 @@ export const imageManifest = [
     "extractedCode": "CH6309",
     "normalizedFileName": "ch6309jpg",
     "imageType": "material"
+  },
+  {
+    "fileName": "CH6309_2x2.png",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/동신/아트에코차음/동신에코차음사각/CH6309_2x2.png",
+    "category": "데코타일",
+    "brand": "동신",
+    "series": "아트에코차음/동신에코차음사각",
+    "extractedCode": "CH6309",
+    "normalizedFileName": "ch63092x2png",
+    "imageType": "2x2"
   },
   {
     "fileName": "CH6310.jpg",
@@ -6411,6 +6791,16 @@ export const imageManifest = [
     "imageType": "material"
   },
   {
+    "fileName": "CH6310_2x2.png",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/동신/아트에코차음/동신에코차음사각/CH6310_2x2.png",
+    "category": "데코타일",
+    "brand": "동신",
+    "series": "아트에코차음/동신에코차음사각",
+    "extractedCode": "CH6310",
+    "normalizedFileName": "ch63102x2png",
+    "imageType": "2x2"
+  },
+  {
     "fileName": "CH6311.png",
     "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/동신/아트에코차음/동신에코차음사각/CH6311.png",
     "category": "데코타일",
@@ -6421,6 +6811,16 @@ export const imageManifest = [
     "imageType": "material"
   },
   {
+    "fileName": "CH6311_2x2.png",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/동신/아트에코차음/동신에코차음사각/CH6311_2x2.png",
+    "category": "데코타일",
+    "brand": "동신",
+    "series": "아트에코차음/동신에코차음사각",
+    "extractedCode": "CH6311",
+    "normalizedFileName": "ch63112x2png",
+    "imageType": "2x2"
+  },
+  {
     "fileName": "CH6312.jpg",
     "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/동신/아트에코차음/동신에코차음사각/CH6312.jpg",
     "category": "데코타일",
@@ -6429,6 +6829,16 @@ export const imageManifest = [
     "extractedCode": "CH6312",
     "normalizedFileName": "ch6312jpg",
     "imageType": "material"
+  },
+  {
+    "fileName": "CH6312_2x2.png",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/동신/아트에코차음/동신에코차음사각/CH6312_2x2.png",
+    "category": "데코타일",
+    "brand": "동신",
+    "series": "아트에코차음/동신에코차음사각",
+    "extractedCode": "CH6312",
+    "normalizedFileName": "ch63122x2png",
+    "imageType": "2x2"
   },
   {
     "fileName": "CH6312_시공예시.jpg",
@@ -6451,6 +6861,16 @@ export const imageManifest = [
     "imageType": "material"
   },
   {
+    "fileName": "CH5700_확장.png",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/동신/아트에코차음/동신에코차음우드/CH5700_확장.png",
+    "category": "데코타일",
+    "brand": "동신",
+    "series": "아트에코차음/동신에코차음우드",
+    "extractedCode": "CH5700",
+    "normalizedFileName": "ch5700확장png",
+    "imageType": "2x2"
+  },
+  {
     "fileName": "CH5701.jpg",
     "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/동신/아트에코차음/동신에코차음우드/CH5701.jpg",
     "category": "데코타일",
@@ -6461,6 +6881,16 @@ export const imageManifest = [
     "imageType": "material"
   },
   {
+    "fileName": "CH5701_확장.png",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/동신/아트에코차음/동신에코차음우드/CH5701_확장.png",
+    "category": "데코타일",
+    "brand": "동신",
+    "series": "아트에코차음/동신에코차음우드",
+    "extractedCode": "CH5701",
+    "normalizedFileName": "ch5701확장png",
+    "imageType": "2x2"
+  },
+  {
     "fileName": "CH5702.jpg",
     "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/동신/아트에코차음/동신에코차음우드/CH5702.jpg",
     "category": "데코타일",
@@ -6469,6 +6899,16 @@ export const imageManifest = [
     "extractedCode": "CH5702",
     "normalizedFileName": "ch5702jpg",
     "imageType": "material"
+  },
+  {
+    "fileName": "CH5702_확장.png",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/동신/아트에코차음/동신에코차음우드/CH5702_확장.png",
+    "category": "데코타일",
+    "brand": "동신",
+    "series": "아트에코차음/동신에코차음우드",
+    "extractedCode": "CH5702",
+    "normalizedFileName": "ch5702확장png",
+    "imageType": "2x2"
   },
   {
     "fileName": "CH5703.jpg",
@@ -6491,6 +6931,16 @@ export const imageManifest = [
     "imageType": "office"
   },
   {
+    "fileName": "CH5703_확장.png",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/동신/아트에코차음/동신에코차음우드/CH5703_확장.png",
+    "category": "데코타일",
+    "brand": "동신",
+    "series": "아트에코차음/동신에코차음우드",
+    "extractedCode": "CH5703",
+    "normalizedFileName": "ch5703확장png",
+    "imageType": "2x2"
+  },
+  {
     "fileName": "CH5704.jpg",
     "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/동신/아트에코차음/동신에코차음우드/CH5704.jpg",
     "category": "데코타일",
@@ -6511,6 +6961,16 @@ export const imageManifest = [
     "imageType": "office"
   },
   {
+    "fileName": "CH5704_확장.png",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/동신/아트에코차음/동신에코차음우드/CH5704_확장.png",
+    "category": "데코타일",
+    "brand": "동신",
+    "series": "아트에코차음/동신에코차음우드",
+    "extractedCode": "CH5704",
+    "normalizedFileName": "ch5704확장png",
+    "imageType": "2x2"
+  },
+  {
     "fileName": "CH5705.jpg",
     "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/동신/아트에코차음/동신에코차음우드/CH5705.jpg",
     "category": "데코타일",
@@ -6519,6 +6979,16 @@ export const imageManifest = [
     "extractedCode": "CH5705",
     "normalizedFileName": "ch5705jpg",
     "imageType": "material"
+  },
+  {
+    "fileName": "CH5705_확장.png",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/동신/아트에코차음/동신에코차음우드/CH5705_확장.png",
+    "category": "데코타일",
+    "brand": "동신",
+    "series": "아트에코차음/동신에코차음우드",
+    "extractedCode": "CH5705",
+    "normalizedFileName": "ch5705확장png",
+    "imageType": "2x2"
   },
   {
     "fileName": "CH5706.jpg",
@@ -6531,6 +7001,16 @@ export const imageManifest = [
     "imageType": "material"
   },
   {
+    "fileName": "CH5706_확장.png",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/동신/아트에코차음/동신에코차음우드/CH5706_확장.png",
+    "category": "데코타일",
+    "brand": "동신",
+    "series": "아트에코차음/동신에코차음우드",
+    "extractedCode": "CH5706",
+    "normalizedFileName": "ch5706확장png",
+    "imageType": "2x2"
+  },
+  {
     "fileName": "AS1001.jpg",
     "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 450각/AS1001.jpg",
     "category": "데코타일",
@@ -6539,6 +7019,16 @@ export const imageManifest = [
     "extractedCode": "AS1001",
     "normalizedFileName": "as1001jpg",
     "imageType": "material"
+  },
+  {
+    "fileName": "AS1001_2x2.png",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 450각/AS1001_2x2.png",
+    "category": "데코타일",
+    "brand": "동신",
+    "series": "아트타일/동신 아트 450각",
+    "extractedCode": "AS1001",
+    "normalizedFileName": "as10012x2png",
+    "imageType": "2x2"
   },
   {
     "fileName": "AS1002.jpg",
@@ -6551,6 +7041,16 @@ export const imageManifest = [
     "imageType": "material"
   },
   {
+    "fileName": "AS1002_2x2.png",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 450각/AS1002_2x2.png",
+    "category": "데코타일",
+    "brand": "동신",
+    "series": "아트타일/동신 아트 450각",
+    "extractedCode": "AS1002",
+    "normalizedFileName": "as10022x2png",
+    "imageType": "2x2"
+  },
+  {
     "fileName": "AS1301.png",
     "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 450각/AS1301.png",
     "category": "데코타일",
@@ -6559,6 +7059,16 @@ export const imageManifest = [
     "extractedCode": "AS1301",
     "normalizedFileName": "as1301png",
     "imageType": "material"
+  },
+  {
+    "fileName": "AS1301_2x2.png",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 450각/AS1301_2x2.png",
+    "category": "데코타일",
+    "brand": "동신",
+    "series": "아트타일/동신 아트 450각",
+    "extractedCode": "AS1301",
+    "normalizedFileName": "as13012x2png",
+    "imageType": "2x2"
   },
   {
     "fileName": "AS1525.jpg",
@@ -6571,6 +7081,16 @@ export const imageManifest = [
     "imageType": "material"
   },
   {
+    "fileName": "AS1525_2x2.png",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 450각/AS1525_2x2.png",
+    "category": "데코타일",
+    "brand": "동신",
+    "series": "아트타일/동신 아트 450각",
+    "extractedCode": "AS1525",
+    "normalizedFileName": "as15252x2png",
+    "imageType": "2x2"
+  },
+  {
     "fileName": "AS1526.jpg",
     "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 450각/AS1526.jpg",
     "category": "데코타일",
@@ -6579,6 +7099,16 @@ export const imageManifest = [
     "extractedCode": "AS1526",
     "normalizedFileName": "as1526jpg",
     "imageType": "material"
+  },
+  {
+    "fileName": "AS1526_2x2.png",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 450각/AS1526_2x2.png",
+    "category": "데코타일",
+    "brand": "동신",
+    "series": "아트타일/동신 아트 450각",
+    "extractedCode": "AS1526",
+    "normalizedFileName": "as15262x2png",
+    "imageType": "2x2"
   },
   {
     "fileName": "AS1528.jpg",
@@ -6591,6 +7121,16 @@ export const imageManifest = [
     "imageType": "material"
   },
   {
+    "fileName": "AS1528_2x2.png",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 450각/AS1528_2x2.png",
+    "category": "데코타일",
+    "brand": "동신",
+    "series": "아트타일/동신 아트 450각",
+    "extractedCode": "AS1528",
+    "normalizedFileName": "as15282x2png",
+    "imageType": "2x2"
+  },
+  {
     "fileName": "AS1531.jpg",
     "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 450각/AS1531.jpg",
     "category": "데코타일",
@@ -6599,6 +7139,16 @@ export const imageManifest = [
     "extractedCode": "AS1531",
     "normalizedFileName": "as1531jpg",
     "imageType": "material"
+  },
+  {
+    "fileName": "AS1531_2x2.png",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 450각/AS1531_2x2.png",
+    "category": "데코타일",
+    "brand": "동신",
+    "series": "아트타일/동신 아트 450각",
+    "extractedCode": "AS1531",
+    "normalizedFileName": "as15312x2png",
+    "imageType": "2x2"
   },
   {
     "fileName": "AS1533.jpg",
@@ -6611,6 +7161,16 @@ export const imageManifest = [
     "imageType": "material"
   },
   {
+    "fileName": "AS1533_2x2.png",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 450각/AS1533_2x2.png",
+    "category": "데코타일",
+    "brand": "동신",
+    "series": "아트타일/동신 아트 450각",
+    "extractedCode": "AS1533",
+    "normalizedFileName": "as15332x2png",
+    "imageType": "2x2"
+  },
+  {
     "fileName": "AS1536.jpg",
     "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 450각/AS1536.jpg",
     "category": "데코타일",
@@ -6619,6 +7179,16 @@ export const imageManifest = [
     "extractedCode": "AS1536",
     "normalizedFileName": "as1536jpg",
     "imageType": "material"
+  },
+  {
+    "fileName": "AS1536_2x2.png",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 450각/AS1536_2x2.png",
+    "category": "데코타일",
+    "brand": "동신",
+    "series": "아트타일/동신 아트 450각",
+    "extractedCode": "AS1536",
+    "normalizedFileName": "as15362x2png",
+    "imageType": "2x2"
   },
   {
     "fileName": "AS1538.jpg",
@@ -6631,6 +7201,16 @@ export const imageManifest = [
     "imageType": "material"
   },
   {
+    "fileName": "AS1538_2x2.png",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 450각/AS1538_2x2.png",
+    "category": "데코타일",
+    "brand": "동신",
+    "series": "아트타일/동신 아트 450각",
+    "extractedCode": "AS1538",
+    "normalizedFileName": "as15382x2png",
+    "imageType": "2x2"
+  },
+  {
     "fileName": "AS1539.jpg",
     "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 450각/AS1539.jpg",
     "category": "데코타일",
@@ -6639,6 +7219,16 @@ export const imageManifest = [
     "extractedCode": "AS1539",
     "normalizedFileName": "as1539jpg",
     "imageType": "material"
+  },
+  {
+    "fileName": "AS1539_2x2.png",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 450각/AS1539_2x2.png",
+    "category": "데코타일",
+    "brand": "동신",
+    "series": "아트타일/동신 아트 450각",
+    "extractedCode": "AS1539",
+    "normalizedFileName": "as15392x2png",
+    "imageType": "2x2"
   },
   {
     "fileName": "AS1540.jpg",
@@ -6651,6 +7241,16 @@ export const imageManifest = [
     "imageType": "material"
   },
   {
+    "fileName": "AS1540_2x2.png",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 450각/AS1540_2x2.png",
+    "category": "데코타일",
+    "brand": "동신",
+    "series": "아트타일/동신 아트 450각",
+    "extractedCode": "AS1540",
+    "normalizedFileName": "as15402x2png",
+    "imageType": "2x2"
+  },
+  {
     "fileName": "AS1541.jpg",
     "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 450각/AS1541.jpg",
     "category": "데코타일",
@@ -6659,6 +7259,16 @@ export const imageManifest = [
     "extractedCode": "AS1541",
     "normalizedFileName": "as1541jpg",
     "imageType": "material"
+  },
+  {
+    "fileName": "AS1541_2x2.png",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 450각/AS1541_2x2.png",
+    "category": "데코타일",
+    "brand": "동신",
+    "series": "아트타일/동신 아트 450각",
+    "extractedCode": "AS1541",
+    "normalizedFileName": "as15412x2png",
+    "imageType": "2x2"
   },
   {
     "fileName": "AS1542.jpg",
@@ -6671,6 +7281,16 @@ export const imageManifest = [
     "imageType": "material"
   },
   {
+    "fileName": "AS1542_2x2.png",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 450각/AS1542_2x2.png",
+    "category": "데코타일",
+    "brand": "동신",
+    "series": "아트타일/동신 아트 450각",
+    "extractedCode": "AS1542",
+    "normalizedFileName": "as15422x2png",
+    "imageType": "2x2"
+  },
+  {
     "fileName": "AS1703.jpg",
     "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 450각/AS1703.jpg",
     "category": "데코타일",
@@ -6681,6 +7301,16 @@ export const imageManifest = [
     "imageType": "material"
   },
   {
+    "fileName": "AS1703_2x2.png",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 450각/AS1703_2x2.png",
+    "category": "데코타일",
+    "brand": "동신",
+    "series": "아트타일/동신 아트 450각",
+    "extractedCode": "AS1703",
+    "normalizedFileName": "as17032x2png",
+    "imageType": "2x2"
+  },
+  {
     "fileName": "AS1810.jpg",
     "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 450각/AS1810.jpg",
     "category": "데코타일",
@@ -6689,6 +7319,16 @@ export const imageManifest = [
     "extractedCode": "AS1810",
     "normalizedFileName": "as1810jpg",
     "imageType": "material"
+  },
+  {
+    "fileName": "AS1810_2x2.png",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 450각/AS1810_2x2.png",
+    "category": "데코타일",
+    "brand": "동신",
+    "series": "아트타일/동신 아트 450각",
+    "extractedCode": "AS1810",
+    "normalizedFileName": "as18102x2png",
+    "imageType": "2x2"
   },
   {
     "fileName": "AS1810_AS1814_시공예시.jpg",
@@ -6721,6 +7361,16 @@ export const imageManifest = [
     "imageType": "material"
   },
   {
+    "fileName": "AS1814_2x2.png",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 450각/AS1814_2x2.png",
+    "category": "데코타일",
+    "brand": "동신",
+    "series": "아트타일/동신 아트 450각",
+    "extractedCode": "AS1814",
+    "normalizedFileName": "as18142x2png",
+    "imageType": "2x2"
+  },
+  {
     "fileName": "AS1919.jpg",
     "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 450각/AS1919.jpg",
     "category": "데코타일",
@@ -6731,6 +7381,16 @@ export const imageManifest = [
     "imageType": "material"
   },
   {
+    "fileName": "AS1919_2x2.png",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 450각/AS1919_2x2.png",
+    "category": "데코타일",
+    "brand": "동신",
+    "series": "아트타일/동신 아트 450각",
+    "extractedCode": "AS1919",
+    "normalizedFileName": "as19192x2png",
+    "imageType": "2x2"
+  },
+  {
     "fileName": "AS1922.jpg",
     "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 450각/AS1922.jpg",
     "category": "데코타일",
@@ -6739,6 +7399,16 @@ export const imageManifest = [
     "extractedCode": "AS1922",
     "normalizedFileName": "as1922jpg",
     "imageType": "material"
+  },
+  {
+    "fileName": "AS1922_2x2.png",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 450각/AS1922_2x2.png",
+    "category": "데코타일",
+    "brand": "동신",
+    "series": "아트타일/동신 아트 450각",
+    "extractedCode": "AS1922",
+    "normalizedFileName": "as19222x2png",
+    "imageType": "2x2"
   },
   {
     "fileName": "AS1922_AS1919_시공예시.jpg",
@@ -6771,6 +7441,16 @@ export const imageManifest = [
     "imageType": "material"
   },
   {
+    "fileName": "AS1923_2x2.png",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 450각/AS1923_2x2.png",
+    "category": "데코타일",
+    "brand": "동신",
+    "series": "아트타일/동신 아트 450각",
+    "extractedCode": "AS1923",
+    "normalizedFileName": "as19232x2png",
+    "imageType": "2x2"
+  },
+  {
     "fileName": "AS1924.jpg",
     "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 450각/AS1924.jpg",
     "category": "데코타일",
@@ -6779,6 +7459,16 @@ export const imageManifest = [
     "extractedCode": "AS1924",
     "normalizedFileName": "as1924jpg",
     "imageType": "material"
+  },
+  {
+    "fileName": "AS1924_2x2.png",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 450각/AS1924_2x2.png",
+    "category": "데코타일",
+    "brand": "동신",
+    "series": "아트타일/동신 아트 450각",
+    "extractedCode": "AS1924",
+    "normalizedFileName": "as19242x2png",
+    "imageType": "2x2"
   },
   {
     "fileName": "AS1938.jpg",
@@ -6791,6 +7481,16 @@ export const imageManifest = [
     "imageType": "material"
   },
   {
+    "fileName": "AS1938_2x2.png",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 450각/AS1938_2x2.png",
+    "category": "데코타일",
+    "brand": "동신",
+    "series": "아트타일/동신 아트 450각",
+    "extractedCode": "AS1938",
+    "normalizedFileName": "as19382x2png",
+    "imageType": "2x2"
+  },
+  {
     "fileName": "AS1941.jpg",
     "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 450각/AS1941.jpg",
     "category": "데코타일",
@@ -6799,6 +7499,16 @@ export const imageManifest = [
     "extractedCode": "AS1941",
     "normalizedFileName": "as1941jpg",
     "imageType": "material"
+  },
+  {
+    "fileName": "AS1941_2x2.png",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 450각/AS1941_2x2.png",
+    "category": "데코타일",
+    "brand": "동신",
+    "series": "아트타일/동신 아트 450각",
+    "extractedCode": "AS1941",
+    "normalizedFileName": "as19412x2png",
+    "imageType": "2x2"
   },
   {
     "fileName": "AS4004.jpg",
@@ -6811,6 +7521,16 @@ export const imageManifest = [
     "imageType": "material"
   },
   {
+    "fileName": "AS4004_2x2.png",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 450각/AS4004_2x2.png",
+    "category": "데코타일",
+    "brand": "동신",
+    "series": "아트타일/동신 아트 450각",
+    "extractedCode": "AS4004",
+    "normalizedFileName": "as40042x2png",
+    "imageType": "2x2"
+  },
+  {
     "fileName": "AS4012.jpg",
     "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 450각/AS4012.jpg",
     "category": "데코타일",
@@ -6821,6 +7541,16 @@ export const imageManifest = [
     "imageType": "material"
   },
   {
+    "fileName": "AS4012_2x2.png",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 450각/AS4012_2x2.png",
+    "category": "데코타일",
+    "brand": "동신",
+    "series": "아트타일/동신 아트 450각",
+    "extractedCode": "AS4012",
+    "normalizedFileName": "as40122x2png",
+    "imageType": "2x2"
+  },
+  {
     "fileName": "AS4114.jpg",
     "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 450각/AS4114.jpg",
     "category": "데코타일",
@@ -6829,6 +7559,16 @@ export const imageManifest = [
     "extractedCode": "AS4114",
     "normalizedFileName": "as4114jpg",
     "imageType": "material"
+  },
+  {
+    "fileName": "AS4114_2x2.png",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 450각/AS4114_2x2.png",
+    "category": "데코타일",
+    "brand": "동신",
+    "series": "아트타일/동신 아트 450각",
+    "extractedCode": "AS4114",
+    "normalizedFileName": "as41142x2png",
+    "imageType": "2x2"
   },
   {
     "fileName": "AS4114_AS4116_시공예시.jpg",
@@ -6861,6 +7601,16 @@ export const imageManifest = [
     "imageType": "material"
   },
   {
+    "fileName": "AS4116_2x2.png",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 450각/AS4116_2x2.png",
+    "category": "데코타일",
+    "brand": "동신",
+    "series": "아트타일/동신 아트 450각",
+    "extractedCode": "AS4116",
+    "normalizedFileName": "as41162x2png",
+    "imageType": "2x2"
+  },
+  {
     "fileName": "AS4120.jpg",
     "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 450각/AS4120.jpg",
     "category": "데코타일",
@@ -6869,6 +7619,16 @@ export const imageManifest = [
     "extractedCode": "AS4120",
     "normalizedFileName": "as4120jpg",
     "imageType": "material"
+  },
+  {
+    "fileName": "AS4120_2x2.png",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 450각/AS4120_2x2.png",
+    "category": "데코타일",
+    "brand": "동신",
+    "series": "아트타일/동신 아트 450각",
+    "extractedCode": "AS4120",
+    "normalizedFileName": "as41202x2png",
+    "imageType": "2x2"
   },
   {
     "fileName": "AS4126.jpg",
@@ -6881,6 +7641,16 @@ export const imageManifest = [
     "imageType": "material"
   },
   {
+    "fileName": "AS4126_2x2.png",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 450각/AS4126_2x2.png",
+    "category": "데코타일",
+    "brand": "동신",
+    "series": "아트타일/동신 아트 450각",
+    "extractedCode": "AS4126",
+    "normalizedFileName": "as41262x2png",
+    "imageType": "2x2"
+  },
+  {
     "fileName": "AS4127.jpg",
     "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 450각/AS4127.jpg",
     "category": "데코타일",
@@ -6889,6 +7659,16 @@ export const imageManifest = [
     "extractedCode": "AS4127",
     "normalizedFileName": "as4127jpg",
     "imageType": "material"
+  },
+  {
+    "fileName": "AS4127_2x2.png",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 450각/AS4127_2x2.png",
+    "category": "데코타일",
+    "brand": "동신",
+    "series": "아트타일/동신 아트 450각",
+    "extractedCode": "AS4127",
+    "normalizedFileName": "as41272x2png",
+    "imageType": "2x2"
   },
   {
     "fileName": "AS4128.jpg",
@@ -6901,6 +7681,16 @@ export const imageManifest = [
     "imageType": "material"
   },
   {
+    "fileName": "AS4128_2x2.png",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 450각/AS4128_2x2.png",
+    "category": "데코타일",
+    "brand": "동신",
+    "series": "아트타일/동신 아트 450각",
+    "extractedCode": "AS4128",
+    "normalizedFileName": "as41282x2png",
+    "imageType": "2x2"
+  },
+  {
     "fileName": "AS4130.jpg",
     "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 450각/AS4130.jpg",
     "category": "데코타일",
@@ -6909,6 +7699,16 @@ export const imageManifest = [
     "extractedCode": "AS4130",
     "normalizedFileName": "as4130jpg",
     "imageType": "material"
+  },
+  {
+    "fileName": "AS4130_2x2.png",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 450각/AS4130_2x2.png",
+    "category": "데코타일",
+    "brand": "동신",
+    "series": "아트타일/동신 아트 450각",
+    "extractedCode": "AS4130",
+    "normalizedFileName": "as41302x2png",
+    "imageType": "2x2"
   },
   {
     "fileName": "AS4139.jpg",
@@ -6921,6 +7721,16 @@ export const imageManifest = [
     "imageType": "material"
   },
   {
+    "fileName": "AS4139_2x2.png",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 450각/AS4139_2x2.png",
+    "category": "데코타일",
+    "brand": "동신",
+    "series": "아트타일/동신 아트 450각",
+    "extractedCode": "AS4139",
+    "normalizedFileName": "as41392x2png",
+    "imageType": "2x2"
+  },
+  {
     "fileName": "AS4140.jpg",
     "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 450각/AS4140.jpg",
     "category": "데코타일",
@@ -6931,6 +7741,16 @@ export const imageManifest = [
     "imageType": "material"
   },
   {
+    "fileName": "AS4140_2x2.png",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 450각/AS4140_2x2.png",
+    "category": "데코타일",
+    "brand": "동신",
+    "series": "아트타일/동신 아트 450각",
+    "extractedCode": "AS4140",
+    "normalizedFileName": "as41402x2png",
+    "imageType": "2x2"
+  },
+  {
     "fileName": "AS4141.jpg",
     "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 450각/AS4141.jpg",
     "category": "데코타일",
@@ -6939,6 +7759,16 @@ export const imageManifest = [
     "extractedCode": "AS4141",
     "normalizedFileName": "as4141jpg",
     "imageType": "material"
+  },
+  {
+    "fileName": "AS4141_2x2.png",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 450각/AS4141_2x2.png",
+    "category": "데코타일",
+    "brand": "동신",
+    "series": "아트타일/동신 아트 450각",
+    "extractedCode": "AS4141",
+    "normalizedFileName": "as41412x2png",
+    "imageType": "2x2"
   },
   {
     "fileName": "AS4141_AS4142_시공예시.jpg",
@@ -6971,6 +7801,16 @@ export const imageManifest = [
     "imageType": "material"
   },
   {
+    "fileName": "AS4142_2x2.png",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 450각/AS4142_2x2.png",
+    "category": "데코타일",
+    "brand": "동신",
+    "series": "아트타일/동신 아트 450각",
+    "extractedCode": "AS4142",
+    "normalizedFileName": "as41422x2png",
+    "imageType": "2x2"
+  },
+  {
     "fileName": "AS4147.jpg",
     "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 450각/AS4147.jpg",
     "category": "데코타일",
@@ -6979,6 +7819,16 @@ export const imageManifest = [
     "extractedCode": "AS4147",
     "normalizedFileName": "as4147jpg",
     "imageType": "material"
+  },
+  {
+    "fileName": "AS4147_2x2.png",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 450각/AS4147_2x2.png",
+    "category": "데코타일",
+    "brand": "동신",
+    "series": "아트타일/동신 아트 450각",
+    "extractedCode": "AS4147",
+    "normalizedFileName": "as41472x2png",
+    "imageType": "2x2"
   },
   {
     "fileName": "AS4147_AS4148_시공예시.jpg",
@@ -7011,6 +7861,16 @@ export const imageManifest = [
     "imageType": "material"
   },
   {
+    "fileName": "AS4148_2x2.png",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 450각/AS4148_2x2.png",
+    "category": "데코타일",
+    "brand": "동신",
+    "series": "아트타일/동신 아트 450각",
+    "extractedCode": "AS4148",
+    "normalizedFileName": "as41482x2png",
+    "imageType": "2x2"
+  },
+  {
     "fileName": "AS4149.jpg",
     "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 450각/AS4149.jpg",
     "category": "데코타일",
@@ -7019,6 +7879,16 @@ export const imageManifest = [
     "extractedCode": "AS4149",
     "normalizedFileName": "as4149jpg",
     "imageType": "material"
+  },
+  {
+    "fileName": "AS4149_2x2.png",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 450각/AS4149_2x2.png",
+    "category": "데코타일",
+    "brand": "동신",
+    "series": "아트타일/동신 아트 450각",
+    "extractedCode": "AS4149",
+    "normalizedFileName": "as41492x2png",
+    "imageType": "2x2"
   },
   {
     "fileName": "DS608.jpg",
@@ -7031,6 +7901,16 @@ export const imageManifest = [
     "imageType": "material"
   },
   {
+    "fileName": "DS608_2x2.png",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 600각/DS608_2x2.png",
+    "category": "데코타일",
+    "brand": "동신",
+    "series": "아트타일/동신 아트 600각",
+    "extractedCode": "DS608",
+    "normalizedFileName": "ds6082x2png",
+    "imageType": "2x2"
+  },
+  {
     "fileName": "DS611.jpg",
     "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 600각/DS611.jpg",
     "category": "데코타일",
@@ -7041,6 +7921,16 @@ export const imageManifest = [
     "imageType": "material"
   },
   {
+    "fileName": "DS611_2x2.png",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 600각/DS611_2x2.png",
+    "category": "데코타일",
+    "brand": "동신",
+    "series": "아트타일/동신 아트 600각",
+    "extractedCode": "DS611",
+    "normalizedFileName": "ds6112x2png",
+    "imageType": "2x2"
+  },
+  {
     "fileName": "DS612.jpg",
     "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 600각/DS612.jpg",
     "category": "데코타일",
@@ -7049,6 +7939,16 @@ export const imageManifest = [
     "extractedCode": "DS612",
     "normalizedFileName": "ds612jpg",
     "imageType": "material"
+  },
+  {
+    "fileName": "DS612_2x2.png",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 600각/DS612_2x2.png",
+    "category": "데코타일",
+    "brand": "동신",
+    "series": "아트타일/동신 아트 600각",
+    "extractedCode": "DS612",
+    "normalizedFileName": "ds6122x2png",
+    "imageType": "2x2"
   },
   {
     "fileName": "DS612_시공예시.jpg",
@@ -7071,6 +7971,16 @@ export const imageManifest = [
     "imageType": "material"
   },
   {
+    "fileName": "DS613_2x2.png",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 600각/DS613_2x2.png",
+    "category": "데코타일",
+    "brand": "동신",
+    "series": "아트타일/동신 아트 600각",
+    "extractedCode": "DS613",
+    "normalizedFileName": "ds6132x2png",
+    "imageType": "2x2"
+  },
+  {
     "fileName": "DS615.jpg",
     "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 600각/DS615.jpg",
     "category": "데코타일",
@@ -7081,6 +7991,16 @@ export const imageManifest = [
     "imageType": "material"
   },
   {
+    "fileName": "DS615_2x2.png",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 600각/DS615_2x2.png",
+    "category": "데코타일",
+    "brand": "동신",
+    "series": "아트타일/동신 아트 600각",
+    "extractedCode": "DS615",
+    "normalizedFileName": "ds6152x2png",
+    "imageType": "2x2"
+  },
+  {
     "fileName": "DS616.jpg",
     "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 600각/DS616.jpg",
     "category": "데코타일",
@@ -7089,6 +8009,16 @@ export const imageManifest = [
     "extractedCode": "DS616",
     "normalizedFileName": "ds616jpg",
     "imageType": "material"
+  },
+  {
+    "fileName": "DS616_2x2.png",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 600각/DS616_2x2.png",
+    "category": "데코타일",
+    "brand": "동신",
+    "series": "아트타일/동신 아트 600각",
+    "extractedCode": "DS616",
+    "normalizedFileName": "ds6162x2png",
+    "imageType": "2x2"
   },
   {
     "fileName": "DS616_시공예시.jpg",
@@ -7111,6 +8041,16 @@ export const imageManifest = [
     "imageType": "material"
   },
   {
+    "fileName": "DS618_2x2.png",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 600각/DS618_2x2.png",
+    "category": "데코타일",
+    "brand": "동신",
+    "series": "아트타일/동신 아트 600각",
+    "extractedCode": "DS618",
+    "normalizedFileName": "ds6182x2png",
+    "imageType": "2x2"
+  },
+  {
     "fileName": "DS619.jpg",
     "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 600각/DS619.jpg",
     "category": "데코타일",
@@ -7119,6 +8059,16 @@ export const imageManifest = [
     "extractedCode": "DS619",
     "normalizedFileName": "ds619jpg",
     "imageType": "material"
+  },
+  {
+    "fileName": "DS619_2x2.png",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 600각/DS619_2x2.png",
+    "category": "데코타일",
+    "brand": "동신",
+    "series": "아트타일/동신 아트 600각",
+    "extractedCode": "DS619",
+    "normalizedFileName": "ds6192x2png",
+    "imageType": "2x2"
   },
   {
     "fileName": "DS619_시공예시.jpg",
@@ -7141,6 +8091,16 @@ export const imageManifest = [
     "imageType": "material"
   },
   {
+    "fileName": "DS620_2x2.png",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 600각/DS620_2x2.png",
+    "category": "데코타일",
+    "brand": "동신",
+    "series": "아트타일/동신 아트 600각",
+    "extractedCode": "DS620",
+    "normalizedFileName": "ds6202x2png",
+    "imageType": "2x2"
+  },
+  {
     "fileName": "DS621.jpg",
     "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 600각/DS621.jpg",
     "category": "데코타일",
@@ -7151,6 +8111,16 @@ export const imageManifest = [
     "imageType": "material"
   },
   {
+    "fileName": "DS621_2x2.png",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 600각/DS621_2x2.png",
+    "category": "데코타일",
+    "brand": "동신",
+    "series": "아트타일/동신 아트 600각",
+    "extractedCode": "DS621",
+    "normalizedFileName": "ds6212x2png",
+    "imageType": "2x2"
+  },
+  {
     "fileName": "DS623.jpg",
     "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 600각/DS623.jpg",
     "category": "데코타일",
@@ -7159,6 +8129,16 @@ export const imageManifest = [
     "extractedCode": "DS623",
     "normalizedFileName": "ds623jpg",
     "imageType": "material"
+  },
+  {
+    "fileName": "DS623_2x2.png",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 600각/DS623_2x2.png",
+    "category": "데코타일",
+    "brand": "동신",
+    "series": "아트타일/동신 아트 600각",
+    "extractedCode": "DS623",
+    "normalizedFileName": "ds6232x2png",
+    "imageType": "2x2"
   },
   {
     "fileName": "DS623_DS625_시공예시.jpg",
@@ -7191,6 +8171,16 @@ export const imageManifest = [
     "imageType": "material"
   },
   {
+    "fileName": "DS625_2x2.png",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 600각/DS625_2x2.png",
+    "category": "데코타일",
+    "brand": "동신",
+    "series": "아트타일/동신 아트 600각",
+    "extractedCode": "DS625",
+    "normalizedFileName": "ds6252x2png",
+    "imageType": "2x2"
+  },
+  {
     "fileName": "DS626.jpg",
     "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 600각/DS626.jpg",
     "category": "데코타일",
@@ -7199,6 +8189,16 @@ export const imageManifest = [
     "extractedCode": "DS626",
     "normalizedFileName": "ds626jpg",
     "imageType": "material"
+  },
+  {
+    "fileName": "DS626_2x2.png",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 600각/DS626_2x2.png",
+    "category": "데코타일",
+    "brand": "동신",
+    "series": "아트타일/동신 아트 600각",
+    "extractedCode": "DS626",
+    "normalizedFileName": "ds6262x2png",
+    "imageType": "2x2"
   },
   {
     "fileName": "DS626_DS627_시공예시.jpg",
@@ -7231,6 +8231,16 @@ export const imageManifest = [
     "imageType": "material"
   },
   {
+    "fileName": "DS627_2x2.png",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 600각/DS627_2x2.png",
+    "category": "데코타일",
+    "brand": "동신",
+    "series": "아트타일/동신 아트 600각",
+    "extractedCode": "DS627",
+    "normalizedFileName": "ds6272x2png",
+    "imageType": "2x2"
+  },
+  {
     "fileName": "DS671.jpg",
     "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 600각/DS671.jpg",
     "category": "데코타일",
@@ -7239,6 +8249,16 @@ export const imageManifest = [
     "extractedCode": "DS671",
     "normalizedFileName": "ds671jpg",
     "imageType": "material"
+  },
+  {
+    "fileName": "DS671_2x2.png",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 600각/DS671_2x2.png",
+    "category": "데코타일",
+    "brand": "동신",
+    "series": "아트타일/동신 아트 600각",
+    "extractedCode": "DS671",
+    "normalizedFileName": "ds6712x2png",
+    "imageType": "2x2"
   },
   {
     "fileName": "DS673.jpg",
@@ -7251,6 +8271,16 @@ export const imageManifest = [
     "imageType": "material"
   },
   {
+    "fileName": "DS673_2x2.png",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 600각/DS673_2x2.png",
+    "category": "데코타일",
+    "brand": "동신",
+    "series": "아트타일/동신 아트 600각",
+    "extractedCode": "DS673",
+    "normalizedFileName": "ds6732x2png",
+    "imageType": "2x2"
+  },
+  {
     "fileName": "AB6711.png",
     "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 우드/AB6711.png",
     "category": "데코타일",
@@ -7259,6 +8289,16 @@ export const imageManifest = [
     "extractedCode": "AB6711",
     "normalizedFileName": "ab6711png",
     "imageType": "material"
+  },
+  {
+    "fileName": "AB6711_확장.png",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 우드/AB6711_확장.png",
+    "category": "데코타일",
+    "brand": "동신",
+    "series": "아트타일/동신 아트 우드",
+    "extractedCode": "AB6711",
+    "normalizedFileName": "ab6711확장png",
+    "imageType": "2x2"
   },
   {
     "fileName": "AB6712.png",
@@ -7271,6 +8311,16 @@ export const imageManifest = [
     "imageType": "material"
   },
   {
+    "fileName": "AB6712_확장.png",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 우드/AB6712_확장.png",
+    "category": "데코타일",
+    "brand": "동신",
+    "series": "아트타일/동신 아트 우드",
+    "extractedCode": "AB6712",
+    "normalizedFileName": "ab6712확장png",
+    "imageType": "2x2"
+  },
+  {
     "fileName": "AB6717.png",
     "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 우드/AB6717.png",
     "category": "데코타일",
@@ -7279,6 +8329,16 @@ export const imageManifest = [
     "extractedCode": "AB6717",
     "normalizedFileName": "ab6717png",
     "imageType": "material"
+  },
+  {
+    "fileName": "AB6717_확장.png",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 우드/AB6717_확장.png",
+    "category": "데코타일",
+    "brand": "동신",
+    "series": "아트타일/동신 아트 우드",
+    "extractedCode": "AB6717",
+    "normalizedFileName": "ab6717확장png",
+    "imageType": "2x2"
   },
   {
     "fileName": "AB6727.png",
@@ -7301,6 +8361,16 @@ export const imageManifest = [
     "imageType": "office"
   },
   {
+    "fileName": "AB6727_확장.png",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 우드/AB6727_확장.png",
+    "category": "데코타일",
+    "brand": "동신",
+    "series": "아트타일/동신 아트 우드",
+    "extractedCode": "AB6727",
+    "normalizedFileName": "ab6727확장png",
+    "imageType": "2x2"
+  },
+  {
     "fileName": "AB6739.png",
     "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 우드/AB6739.png",
     "category": "데코타일",
@@ -7309,6 +8379,16 @@ export const imageManifest = [
     "extractedCode": "AB6739",
     "normalizedFileName": "ab6739png",
     "imageType": "material"
+  },
+  {
+    "fileName": "AB6739_확장.png",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 우드/AB6739_확장.png",
+    "category": "데코타일",
+    "brand": "동신",
+    "series": "아트타일/동신 아트 우드",
+    "extractedCode": "AB6739",
+    "normalizedFileName": "ab6739확장png",
+    "imageType": "2x2"
   },
   {
     "fileName": "AB6740.png",
@@ -7321,6 +8401,16 @@ export const imageManifest = [
     "imageType": "material"
   },
   {
+    "fileName": "AB6740_확장.png",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 우드/AB6740_확장.png",
+    "category": "데코타일",
+    "brand": "동신",
+    "series": "아트타일/동신 아트 우드",
+    "extractedCode": "AB6740",
+    "normalizedFileName": "ab6740확장png",
+    "imageType": "2x2"
+  },
+  {
     "fileName": "AB6741.png",
     "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 우드/AB6741.png",
     "category": "데코타일",
@@ -7329,6 +8419,16 @@ export const imageManifest = [
     "extractedCode": "AB6741",
     "normalizedFileName": "ab6741png",
     "imageType": "material"
+  },
+  {
+    "fileName": "AB6741_확장.png",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 우드/AB6741_확장.png",
+    "category": "데코타일",
+    "brand": "동신",
+    "series": "아트타일/동신 아트 우드",
+    "extractedCode": "AB6741",
+    "normalizedFileName": "ab6741확장png",
+    "imageType": "2x2"
   },
   {
     "fileName": "AB6915.png",
@@ -7341,6 +8441,16 @@ export const imageManifest = [
     "imageType": "material"
   },
   {
+    "fileName": "AB6915_확장.png",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 우드/AB6915_확장.png",
+    "category": "데코타일",
+    "brand": "동신",
+    "series": "아트타일/동신 아트 우드",
+    "extractedCode": "AB6915",
+    "normalizedFileName": "ab6915확장png",
+    "imageType": "2x2"
+  },
+  {
     "fileName": "AB6933.png",
     "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 우드/AB6933.png",
     "category": "데코타일",
@@ -7349,6 +8459,16 @@ export const imageManifest = [
     "extractedCode": "AB6933",
     "normalizedFileName": "ab6933png",
     "imageType": "material"
+  },
+  {
+    "fileName": "AB6933_확장.png",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 우드/AB6933_확장.png",
+    "category": "데코타일",
+    "brand": "동신",
+    "series": "아트타일/동신 아트 우드",
+    "extractedCode": "AB6933",
+    "normalizedFileName": "ab6933확장png",
+    "imageType": "2x2"
   },
   {
     "fileName": "AB6978.png",
@@ -7361,6 +8481,16 @@ export const imageManifest = [
     "imageType": "material"
   },
   {
+    "fileName": "AB6978_확장.png",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 우드/AB6978_확장.png",
+    "category": "데코타일",
+    "brand": "동신",
+    "series": "아트타일/동신 아트 우드",
+    "extractedCode": "AB6978",
+    "normalizedFileName": "ab6978확장png",
+    "imageType": "2x2"
+  },
+  {
     "fileName": "AB6981.png",
     "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 우드/AB6981.png",
     "category": "데코타일",
@@ -7369,6 +8499,16 @@ export const imageManifest = [
     "extractedCode": "AB6981",
     "normalizedFileName": "ab6981png",
     "imageType": "material"
+  },
+  {
+    "fileName": "AB6981_확장.png",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 우드/AB6981_확장.png",
+    "category": "데코타일",
+    "brand": "동신",
+    "series": "아트타일/동신 아트 우드",
+    "extractedCode": "AB6981",
+    "normalizedFileName": "ab6981확장png",
+    "imageType": "2x2"
   },
   {
     "fileName": "AB6984.png",
@@ -7391,6 +8531,16 @@ export const imageManifest = [
     "imageType": "office"
   },
   {
+    "fileName": "AB6984_확장.png",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 우드/AB6984_확장.png",
+    "category": "데코타일",
+    "brand": "동신",
+    "series": "아트타일/동신 아트 우드",
+    "extractedCode": "AB6984",
+    "normalizedFileName": "ab6984확장png",
+    "imageType": "2x2"
+  },
+  {
     "fileName": "AB6989.png",
     "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 우드/AB6989.png",
     "category": "데코타일",
@@ -7401,6 +8551,16 @@ export const imageManifest = [
     "imageType": "material"
   },
   {
+    "fileName": "AB6989_확장.png",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 우드/AB6989_확장.png",
+    "category": "데코타일",
+    "brand": "동신",
+    "series": "아트타일/동신 아트 우드",
+    "extractedCode": "AB6989",
+    "normalizedFileName": "ab6989확장png",
+    "imageType": "2x2"
+  },
+  {
     "fileName": "AB6990.png",
     "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 우드/AB6990.png",
     "category": "데코타일",
@@ -7409,6 +8569,16 @@ export const imageManifest = [
     "extractedCode": "AB6990",
     "normalizedFileName": "ab6990png",
     "imageType": "material"
+  },
+  {
+    "fileName": "AB6990_확장.png",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 우드/AB6990_확장.png",
+    "category": "데코타일",
+    "brand": "동신",
+    "series": "아트타일/동신 아트 우드",
+    "extractedCode": "AB6990",
+    "normalizedFileName": "ab6990확장png",
+    "imageType": "2x2"
   },
   {
     "fileName": "AS1531_AS1533_시공예시.jpg",
@@ -7441,6 +8611,16 @@ export const imageManifest = [
     "imageType": "material"
   },
   {
+    "fileName": "AH6100_2x2.png",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/동신/아트하우스/동신 하우스 사각/AH6100_2x2.png",
+    "category": "데코타일",
+    "brand": "동신",
+    "series": "아트하우스/동신 하우스 사각",
+    "extractedCode": "AH6100",
+    "normalizedFileName": "ah61002x2png",
+    "imageType": "2x2"
+  },
+  {
     "fileName": "AH6100_시공예시.jpg",
     "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/동신/아트하우스/동신 하우스 사각/AH6100_시공예시.jpg",
     "category": "데코타일",
@@ -7461,6 +8641,16 @@ export const imageManifest = [
     "imageType": "material"
   },
   {
+    "fileName": "AH6101_2x2.png",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/동신/아트하우스/동신 하우스 사각/AH6101_2x2.png",
+    "category": "데코타일",
+    "brand": "동신",
+    "series": "아트하우스/동신 하우스 사각",
+    "extractedCode": "AH6101",
+    "normalizedFileName": "ah61012x2png",
+    "imageType": "2x2"
+  },
+  {
     "fileName": "AH6102.png",
     "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/동신/아트하우스/동신 하우스 사각/AH6102.png",
     "category": "데코타일",
@@ -7471,6 +8661,16 @@ export const imageManifest = [
     "imageType": "material"
   },
   {
+    "fileName": "AH6102_2x2.png",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/동신/아트하우스/동신 하우스 사각/AH6102_2x2.png",
+    "category": "데코타일",
+    "brand": "동신",
+    "series": "아트하우스/동신 하우스 사각",
+    "extractedCode": "AH6102",
+    "normalizedFileName": "ah61022x2png",
+    "imageType": "2x2"
+  },
+  {
     "fileName": "AH6103.jpg",
     "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/동신/아트하우스/동신 하우스 사각/AH6103.jpg",
     "category": "데코타일",
@@ -7479,6 +8679,16 @@ export const imageManifest = [
     "extractedCode": "AH6103",
     "normalizedFileName": "ah6103jpg",
     "imageType": "material"
+  },
+  {
+    "fileName": "AH6103_2x2.png",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/동신/아트하우스/동신 하우스 사각/AH6103_2x2.png",
+    "category": "데코타일",
+    "brand": "동신",
+    "series": "아트하우스/동신 하우스 사각",
+    "extractedCode": "AH6103",
+    "normalizedFileName": "ah61032x2png",
+    "imageType": "2x2"
   },
   {
     "fileName": "AH6103_AH6108_시공예시.jpg",
@@ -7511,6 +8721,16 @@ export const imageManifest = [
     "imageType": "material"
   },
   {
+    "fileName": "AH6104_2x2.png",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/동신/아트하우스/동신 하우스 사각/AH6104_2x2.png",
+    "category": "데코타일",
+    "brand": "동신",
+    "series": "아트하우스/동신 하우스 사각",
+    "extractedCode": "AH6104",
+    "normalizedFileName": "ah61042x2png",
+    "imageType": "2x2"
+  },
+  {
     "fileName": "AH6104_AS1538_시공예시.jpg",
     "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/동신/아트하우스/동신 하우스 사각/AH6104_AS1538_시공예시.jpg",
     "category": "데코타일",
@@ -7541,6 +8761,16 @@ export const imageManifest = [
     "imageType": "material"
   },
   {
+    "fileName": "AH6105_2x2.png",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/동신/아트하우스/동신 하우스 사각/AH6105_2x2.png",
+    "category": "데코타일",
+    "brand": "동신",
+    "series": "아트하우스/동신 하우스 사각",
+    "extractedCode": "AH6105",
+    "normalizedFileName": "ah61052x2png",
+    "imageType": "2x2"
+  },
+  {
     "fileName": "AH6106.jpg",
     "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/동신/아트하우스/동신 하우스 사각/AH6106.jpg",
     "category": "데코타일",
@@ -7549,6 +8779,16 @@ export const imageManifest = [
     "extractedCode": "AH6106",
     "normalizedFileName": "ah6106jpg",
     "imageType": "material"
+  },
+  {
+    "fileName": "AH6106_2x2.png",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/동신/아트하우스/동신 하우스 사각/AH6106_2x2.png",
+    "category": "데코타일",
+    "brand": "동신",
+    "series": "아트하우스/동신 하우스 사각",
+    "extractedCode": "AH6106",
+    "normalizedFileName": "ah61062x2png",
+    "imageType": "2x2"
   },
   {
     "fileName": "AH6106_AH6107_시공예시.jpg",
@@ -7581,6 +8821,16 @@ export const imageManifest = [
     "imageType": "material"
   },
   {
+    "fileName": "AH6107_2x2.png",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/동신/아트하우스/동신 하우스 사각/AH6107_2x2.png",
+    "category": "데코타일",
+    "brand": "동신",
+    "series": "아트하우스/동신 하우스 사각",
+    "extractedCode": "AH6107",
+    "normalizedFileName": "ah61072x2png",
+    "imageType": "2x2"
+  },
+  {
     "fileName": "AH6108.jpg",
     "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/동신/아트하우스/동신 하우스 사각/AH6108.jpg",
     "category": "데코타일",
@@ -7589,6 +8839,16 @@ export const imageManifest = [
     "extractedCode": "AH6108",
     "normalizedFileName": "ah6108jpg",
     "imageType": "material"
+  },
+  {
+    "fileName": "AH6108_2x2.png",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/동신/아트하우스/동신 하우스 사각/AH6108_2x2.png",
+    "category": "데코타일",
+    "brand": "동신",
+    "series": "아트하우스/동신 하우스 사각",
+    "extractedCode": "AH6108",
+    "normalizedFileName": "ah61082x2png",
+    "imageType": "2x2"
   },
   {
     "fileName": "AH6109.jpg",
@@ -7601,6 +8861,16 @@ export const imageManifest = [
     "imageType": "material"
   },
   {
+    "fileName": "AH6109_2x2.png",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/동신/아트하우스/동신 하우스 사각/AH6109_2x2.png",
+    "category": "데코타일",
+    "brand": "동신",
+    "series": "아트하우스/동신 하우스 사각",
+    "extractedCode": "AH6109",
+    "normalizedFileName": "ah61092x2png",
+    "imageType": "2x2"
+  },
+  {
     "fileName": "AH726.jpg",
     "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/동신/아트하우스/동신 하우스 우드/AH726.jpg",
     "category": "데코타일",
@@ -7609,6 +8879,16 @@ export const imageManifest = [
     "extractedCode": "AH726",
     "normalizedFileName": "ah726jpg",
     "imageType": "material"
+  },
+  {
+    "fileName": "AH726_확장.png",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/동신/아트하우스/동신 하우스 우드/AH726_확장.png",
+    "category": "데코타일",
+    "brand": "동신",
+    "series": "아트하우스/동신 하우스 우드",
+    "extractedCode": "AH726",
+    "normalizedFileName": "ah726확장png",
+    "imageType": "2x2"
   },
   {
     "fileName": "AH728.jpg",
@@ -7621,6 +8901,16 @@ export const imageManifest = [
     "imageType": "material"
   },
   {
+    "fileName": "AH728_확장.png",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/동신/아트하우스/동신 하우스 우드/AH728_확장.png",
+    "category": "데코타일",
+    "brand": "동신",
+    "series": "아트하우스/동신 하우스 우드",
+    "extractedCode": "AH728",
+    "normalizedFileName": "ah728확장png",
+    "imageType": "2x2"
+  },
+  {
     "fileName": "AH729.jpg",
     "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/동신/아트하우스/동신 하우스 우드/AH729.jpg",
     "category": "데코타일",
@@ -7629,6 +8919,16 @@ export const imageManifest = [
     "extractedCode": "AH729",
     "normalizedFileName": "ah729jpg",
     "imageType": "material"
+  },
+  {
+    "fileName": "AH729_확장.png",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/동신/아트하우스/동신 하우스 우드/AH729_확장.png",
+    "category": "데코타일",
+    "brand": "동신",
+    "series": "아트하우스/동신 하우스 우드",
+    "extractedCode": "AH729",
+    "normalizedFileName": "ah729확장png",
+    "imageType": "2x2"
   },
   {
     "fileName": "AH730.jpg",
@@ -7641,6 +8941,16 @@ export const imageManifest = [
     "imageType": "material"
   },
   {
+    "fileName": "AH730_확장.png",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/동신/아트하우스/동신 하우스 우드/AH730_확장.png",
+    "category": "데코타일",
+    "brand": "동신",
+    "series": "아트하우스/동신 하우스 우드",
+    "extractedCode": "AH730",
+    "normalizedFileName": "ah730확장png",
+    "imageType": "2x2"
+  },
+  {
     "fileName": "AH734.jpg",
     "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/동신/아트하우스/동신 하우스 우드/AH734.jpg",
     "category": "데코타일",
@@ -7649,6 +8959,16 @@ export const imageManifest = [
     "extractedCode": "AH734",
     "normalizedFileName": "ah734jpg",
     "imageType": "material"
+  },
+  {
+    "fileName": "AH734_확장.png",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/동신/아트하우스/동신 하우스 우드/AH734_확장.png",
+    "category": "데코타일",
+    "brand": "동신",
+    "series": "아트하우스/동신 하우스 우드",
+    "extractedCode": "AH734",
+    "normalizedFileName": "ah734확장png",
+    "imageType": "2x2"
   },
   {
     "fileName": "AH735.jpg",
@@ -7671,6 +8991,16 @@ export const imageManifest = [
     "imageType": "office"
   },
   {
+    "fileName": "AH735_확장.png",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/동신/아트하우스/동신 하우스 우드/AH735_확장.png",
+    "category": "데코타일",
+    "brand": "동신",
+    "series": "아트하우스/동신 하우스 우드",
+    "extractedCode": "AH735",
+    "normalizedFileName": "ah735확장png",
+    "imageType": "2x2"
+  },
+  {
     "fileName": "AH736.jpg",
     "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/동신/아트하우스/동신 하우스 우드/AH736.jpg",
     "category": "데코타일",
@@ -7679,6 +9009,16 @@ export const imageManifest = [
     "extractedCode": "AH736",
     "normalizedFileName": "ah736jpg",
     "imageType": "material"
+  },
+  {
+    "fileName": "AH736_확장.png",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/동신/아트하우스/동신 하우스 우드/AH736_확장.png",
+    "category": "데코타일",
+    "brand": "동신",
+    "series": "아트하우스/동신 하우스 우드",
+    "extractedCode": "AH736",
+    "normalizedFileName": "ah736확장png",
+    "imageType": "2x2"
   },
   {
     "fileName": "AH737.jpg",
@@ -7691,6 +9031,16 @@ export const imageManifest = [
     "imageType": "material"
   },
   {
+    "fileName": "AH737_확장.png",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/동신/아트하우스/동신 하우스 우드/AH737_확장.png",
+    "category": "데코타일",
+    "brand": "동신",
+    "series": "아트하우스/동신 하우스 우드",
+    "extractedCode": "AH737",
+    "normalizedFileName": "ah737확장png",
+    "imageType": "2x2"
+  },
+  {
     "fileName": "AH738.jpg",
     "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/동신/아트하우스/동신 하우스 우드/AH738.jpg",
     "category": "데코타일",
@@ -7699,6 +9049,16 @@ export const imageManifest = [
     "extractedCode": "AH738",
     "normalizedFileName": "ah738jpg",
     "imageType": "material"
+  },
+  {
+    "fileName": "AH738_확장.png",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/동신/아트하우스/동신 하우스 우드/AH738_확장.png",
+    "category": "데코타일",
+    "brand": "동신",
+    "series": "아트하우스/동신 하우스 우드",
+    "extractedCode": "AH738",
+    "normalizedFileName": "ah738확장png",
+    "imageType": "2x2"
   },
   {
     "fileName": "AH739.jpg",
@@ -7729,6 +9089,16 @@ export const imageManifest = [
     "extractedCode": "AH738",
     "normalizedFileName": "ah739ah738시공예시jpg",
     "imageType": "office"
+  },
+  {
+    "fileName": "AH739_확장.png",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/동신/아트하우스/동신 하우스 우드/AH739_확장.png",
+    "category": "데코타일",
+    "brand": "동신",
+    "series": "아트하우스/동신 하우스 우드",
+    "extractedCode": "AH739",
+    "normalizedFileName": "ah739확장png",
+    "imageType": "2x2"
   },
   {
     "fileName": "FG01_피네오골드.png",

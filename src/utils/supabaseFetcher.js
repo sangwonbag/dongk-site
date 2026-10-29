@@ -257,8 +257,9 @@ export function mapProductRow(p) {
   const categoryName = p.categories?.name || "";
 
   // Find matching Dongshin PDF product to enrich properties
-  const dongshinMatch = (brandName === '동신' && categoryName === '데코타일')
-    ? dongshinPolymer2026.find(d => d.code.toUpperCase() === code.toUpperCase())
+  const normCodeForDongshin = code.replace(/\s+/g, '').toUpperCase();
+  const dongshinMatch = (brandName === '동신' && (categoryName === '데코타일' || !categoryName))
+    ? dongshinPolymer2026.find(d => d.code.replace(/\s+/g, '').toUpperCase() === normCodeForDongshin)
     : null;
 
   const dbItem = {
@@ -344,6 +345,17 @@ export function mapProductRow(p) {
     mapped.catalog = dongshinMatch.catalog;
     mapped.productName = dongshinMatch.productName;
     mapped.name = dongshinMatch.code;
+    mapped.code = dongshinMatch.code;
+    mapped.line = dongshinMatch.line || mapped.line;
+    mapped.subCategory = dongshinMatch.subCategory || mapped.subCategory;
+    if (dongshinMatch.thumbnail) {
+      mapped.thumbnail = dongshinMatch.thumbnail;
+      mapped.image = dongshinMatch.image || dongshinMatch.thumbnail;
+    }
+    if (dongshinMatch.images && dongshinMatch.images.length > 0) {
+      mapped.images = dongshinMatch.images;
+      mapped.galleryImages = dongshinMatch.galleryImages || dongshinMatch.images;
+    }
   }
 
   if (localMatch) {

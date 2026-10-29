@@ -14,6 +14,7 @@ import {
   Sparkles
 } from 'lucide-react';
 import { DONGSHIN_COMMON_PRECAUTIONS } from '../../utils/dongshinDetailUtils';
+import { DONGSHIN_CATALOG_MAP } from '../../services/productDetailImageService';
 import './DongshinDetailStyles.css';
 
 export default function DongshinDetailSection({ item, info }) {
@@ -38,6 +39,11 @@ export default function DongshinDetailSection({ item, info }) {
 
   const isAcoustic = group === 'acoustic';
   const isArtHouse = group === 'arthouse';
+
+  const baseCode = String(productCode || item?.code || '').replace(/[^A-Za-z0-9]/g, '').toUpperCase();
+  const catalogImgs = DONGSHIN_CATALOG_MAP[baseCode] || item?.images || [];
+  const swatchImg = catalogImgs.find(u => !u.toLowerCase().includes('2x2') && !u.includes('확장') && !u.includes('시공')) || item?.thumbnail;
+  const expandedImg = catalogImgs.find(u => u.toLowerCase().includes('2x2') || u.includes('확장'));
 
   return (
     <div className="dongshin-detail-container">
@@ -143,6 +149,74 @@ export default function DongshinDetailSection({ item, info }) {
           </div>
         )}
       </section>
+
+      {/* ========================================================
+          SECTION 01-2. 자재 원장 및 확장(2x2/연속) 패턴 상세 프리뷰
+          ======================================================== */}
+      {(swatchImg || expandedImg) && (
+        <section className="detail-doc-section">
+          <div className="section-title-with-badge">
+            <h2 className="doc-section-title">자재 원장 및 확장 패턴 상세</h2>
+            <span className="dongshin-sub-pill">{productCode} 실제 텍스처 & 배열</span>
+          </div>
+          <div className="doc-accent-bar"></div>
+          <p className="doc-section-helper">
+            자재 1장 단품 원장 이미지와 여러 장을 연속 시공했을 때의 확장(2×2 / 우드 배열) 패턴입니다. 이미지를 클릭하면 크게 확대하여 확인하실 수 있습니다.
+          </p>
+          <div className="dongshin-scenes-grid" style={{ gridTemplateColumns: expandedImg && swatchImg ? 'repeat(auto-fit, minmax(280px, 1fr))' : '1fr' }}>
+            {swatchImg && (
+              <div
+                className="dongshin-scene-card"
+                onClick={() => setModalImage({ url: swatchImg, title: `${productName} (${productCode}) - 자재 단품 원장` })}
+              >
+                <div className="scene-img-wrapper" style={{ background: '#f8fafc', padding: '16px' }}>
+                  <img
+                    src={swatchImg}
+                    alt={`${productCode} 자재 원장`}
+                    className="scene-img"
+                    style={{ objectFit: 'contain' }}
+                    loading="lazy"
+                  />
+                  <span className="scene-match-badge badge-exact">1. 자재 단품 원장</span>
+                  <div className="scene-zoom-hint">
+                    <Maximize2 size={14} />
+                    <span>확대</span>
+                  </div>
+                </div>
+                <div className="scene-info-box">
+                  <h4 className="scene-title">{productCode} 자재 원장 (1 PCS)</h4>
+                  <p className="scene-subtitle">규격: {spec.size} · 표면 고유 결 및 색감</p>
+                </div>
+              </div>
+            )}
+            {expandedImg && (
+              <div
+                className="dongshin-scene-card"
+                onClick={() => setModalImage({ url: expandedImg, title: `${productName} (${productCode}) - 확장 / 2x2 연속 배열 패턴` })}
+              >
+                <div className="scene-img-wrapper" style={{ background: '#f8fafc', padding: '16px' }}>
+                  <img
+                    src={expandedImg}
+                    alt={`${productCode} 확장 패턴`}
+                    className="scene-img"
+                    style={{ objectFit: 'contain' }}
+                    loading="lazy"
+                  />
+                  <span className="scene-match-badge badge-exact">2. 확장 / 2×2 연속 배열</span>
+                  <div className="scene-zoom-hint">
+                    <Maximize2 size={14} />
+                    <span>확대</span>
+                  </div>
+                </div>
+                <div className="scene-info-box">
+                  <h4 className="scene-title">{productCode} 확장 배열 패턴</h4>
+                  <p className="scene-subtitle">연속 시공 시 자연스럽게 이어지는 바닥 패턴 연출</p>
+                </div>
+              </div>
+            )}
+          </div>
+        </section>
+      )}
 
       {/* ========================================================
           SECTION 02. 제품 특장점 (2열 카드 레이아웃)

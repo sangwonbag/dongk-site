@@ -199,11 +199,11 @@ const preprocessedFiles = allFiles.map(f => {
     const lower = fileName.toLowerCase();
     
     let index = 0; // Universal IMAGE_PRIORITY: material: 0, 2x2: 1, 90cross: 2, office: 3, other: 4
-    if (lower.includes('2x2') || lower.includes('2_2') || lower.includes('2×2')) {
+    if (lower.includes('2x2') || lower.includes('2_2') || lower.includes('2×2') || lower.includes('확장') || lower.includes('expanded') || /^oa\d+_1\.(jpe?g|png|webp)$/i.test(fileName)) {
         index = 1;
     } else if (lower.includes('90cross') || lower.includes('_cross') || lower.includes('크로스') || /(?:^|[_\-\s])cross(?:[_\-\s.]|$)/i.test(fileName)) {
         index = 2;
-    } else if (lower.includes('사무실') || lower.includes('상업공간') || lower.includes('시공') || lower.includes('시공예시') || lower.includes('installation') || lower.includes('office') || lower.includes('scene')) {
+    } else if (lower.includes('사무실') || lower.includes('상업공간') || lower.includes('시공') || lower.includes('시공예시') || lower.includes('installation') || lower.includes('office') || lower.includes('scene') || /^oa\d+_2\.(jpe?g|png|webp)$/i.test(fileName)) {
         index = 3;
     } else if (lower.includes('180cross') || lower.includes('회전') || /_([2-9])\.(jpe?g|png|webp)$/i.test(fileName)) {
         index = 4;
