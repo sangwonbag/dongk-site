@@ -253,156 +253,58 @@ const CATALOG_ROOM_SCENES = {
 };
 
 /**
- * Resolves space scene examples for a specific Dongshin product
+ * Resolves space scene examples for a specific Dongshin product.
+ * Strictly returns ONLY scenes where the current product code is an exact match.
  */
 function resolveDongshinRoomScenes(item, normCode, group) {
   const scenes = [];
 
-  // 1. Direct code matches
-  if (normCode.startsWith('CH57')) {
-    if (normCode === 'CH5704') {
-      scenes.push({ ...CATALOG_ROOM_SCENES.CH_5704, isExactMatch: true, badge: '선택 제품 공식 연출' });
-      scenes.push({ ...CATALOG_ROOM_SCENES.CH_5703, isExactMatch: false, badge: '차음 우드 라인업 연출' });
-      scenes.push({ ...CATALOG_ROOM_SCENES.CH_6303, isExactMatch: false, badge: '에코차음 사각 라인업' });
-    } else {
-      scenes.push({ ...CATALOG_ROOM_SCENES.CH_5703, isExactMatch: (normCode === 'CH5703'), badge: (normCode === 'CH5703' ? '선택 제품 공식 연출' : '차음 우드 라인업 연출') });
-      scenes.push({ ...CATALOG_ROOM_SCENES.CH_5704, isExactMatch: false, badge: '차음 우드 공간 연출' });
-      scenes.push({ ...CATALOG_ROOM_SCENES.CH_6312, isExactMatch: false, badge: '에코차음 사각 라인업' });
-    }
-  } else if (normCode.startsWith('CH63') || normCode.startsWith('CH')) {
-    if (normCode === 'CH6303') {
-      scenes.push({ ...CATALOG_ROOM_SCENES.CH_6303, isExactMatch: true, badge: '선택 제품 공식 연출' });
-      scenes.push({ ...CATALOG_ROOM_SCENES.CH_6312, isExactMatch: false, badge: '에코차음 사각 라인업' });
-      scenes.push({ ...CATALOG_ROOM_SCENES.CH_5703, isExactMatch: false, badge: '에코차음 우드 라인업' });
-    } else if (normCode === 'CH6312') {
-      scenes.push({ ...CATALOG_ROOM_SCENES.CH_6312, isExactMatch: true, badge: '선택 제품 공식 연출' });
-      scenes.push({ ...CATALOG_ROOM_SCENES.CH_6303, isExactMatch: false, badge: '에코차음 사각 라인업' });
-      scenes.push({ ...CATALOG_ROOM_SCENES.CH_5704, isExactMatch: false, badge: '에코차음 우드 라인업' });
-    } else {
-      scenes.push({ ...CATALOG_ROOM_SCENES.CH_6303, isExactMatch: false, badge: '에코차음 사각 공간 연출' });
-      scenes.push({ ...CATALOG_ROOM_SCENES.CH_6312, isExactMatch: false, badge: '에코차음 사각 공간 연출' });
-      scenes.push({ ...CATALOG_ROOM_SCENES.CH_5703, isExactMatch: false, badge: '에코차음 우드 라인업' });
-    }
-  } else if (normCode.startsWith('AH7')) {
-    // Art House Living Duo Wood
-    if (normCode === 'AH739' || normCode === 'AH738') {
-      scenes.push({ ...CATALOG_ROOM_SCENES.AH_739_738, isExactMatch: true, badge: '선택 제품 공식 혼합시공' });
-      scenes.push({ ...CATALOG_ROOM_SCENES.AH_735, isExactMatch: false, badge: '리빙듀오 공간 연출' });
-      scenes.push({ ...CATALOG_ROOM_SCENES.AH_6106_6107, isExactMatch: false, badge: '하우스마블 라인업' });
-    } else if (normCode === 'AH735') {
-      scenes.push({ ...CATALOG_ROOM_SCENES.AH_735, isExactMatch: true, badge: '선택 제품 공식 연출' });
-      scenes.push({ ...CATALOG_ROOM_SCENES.AH_739_738, isExactMatch: false, badge: '리빙듀오 혼합시공' });
-      scenes.push({ ...CATALOG_ROOM_SCENES.AH_6103_6108, isExactMatch: false, badge: '하우스마블 라인업' });
-    } else {
-      scenes.push({ ...CATALOG_ROOM_SCENES.AH_735, isExactMatch: false, badge: '리빙듀오 공간 연출' });
-      scenes.push({ ...CATALOG_ROOM_SCENES.AH_739_738, isExactMatch: false, badge: '리빙듀오 혼합시공' });
-      scenes.push({ ...CATALOG_ROOM_SCENES.AH_6100, isExactMatch: false, badge: '하우스마블 라인업' });
-    }
-  } else if (normCode.startsWith('AH61') || normCode.startsWith('AH')) {
-    // Art House House Marble Square
-    if (normCode === 'AH6106' || normCode === 'AH6107') {
-      scenes.push({ ...CATALOG_ROOM_SCENES.AH_6106_6107, isExactMatch: true, badge: '선택 제품 공식 혼합시공' });
-      scenes.push({ ...CATALOG_ROOM_SCENES.AH_6103_6108, isExactMatch: false, badge: '하우스마블 혼합시공' });
-      scenes.push({ ...CATALOG_ROOM_SCENES.AH_735, isExactMatch: false, badge: '리빙듀오 라인업' });
-    } else if (normCode === 'AH6100') {
-      scenes.push({ ...CATALOG_ROOM_SCENES.AH_6100, isExactMatch: true, badge: '선택 제품 공식 연출' });
-      scenes.push({ ...CATALOG_ROOM_SCENES.AH_6106_6107, isExactMatch: false, badge: '하우스마블 혼합시공' });
-      scenes.push({ ...CATALOG_ROOM_SCENES.AH_735, isExactMatch: false, badge: '리빙듀오 라인업' });
-    } else if (normCode === 'AH6103' || normCode === 'AH6108') {
-      scenes.push({ ...CATALOG_ROOM_SCENES.AH_6103_6108, isExactMatch: true, badge: '선택 제품 공식 혼합시공' });
-      scenes.push({ ...CATALOG_ROOM_SCENES.AH_6106_6107, isExactMatch: false, badge: '하우스마블 혼합시공' });
-      scenes.push({ ...CATALOG_ROOM_SCENES.AH_6100, isExactMatch: false, badge: '하우스마블 공간 연출' });
-    } else if (normCode === 'AH6104') {
-      scenes.push({ ...CATALOG_ROOM_SCENES.AS_1538_AH_6104, isExactMatch: true, badge: '선택 제품 공식 혼합시공' });
-      scenes.push({ ...CATALOG_ROOM_SCENES.AH_6103_6108, isExactMatch: false, badge: '하우스마블 혼합시공' });
-      scenes.push({ ...CATALOG_ROOM_SCENES.AH_735, isExactMatch: false, badge: '리빙듀오 라인업' });
-    } else {
-      scenes.push({ ...CATALOG_ROOM_SCENES.AH_6103_6108, isExactMatch: false, badge: '하우스마블 혼합시공' });
-      scenes.push({ ...CATALOG_ROOM_SCENES.AH_6106_6107, isExactMatch: false, badge: '하우스마블 혼합시공' });
-      scenes.push({ ...CATALOG_ROOM_SCENES.AH_735, isExactMatch: false, badge: '리빙듀오 라인업' });
-    }
-  } else if (normCode.startsWith('DS')) {
-    // Art Tile 600 Square
-    if (normCode === 'DS619') {
-      scenes.push({ ...CATALOG_ROOM_SCENES.DS_619, isExactMatch: true, badge: '선택 제품 공식 연출' });
-      scenes.push({ ...CATALOG_ROOM_SCENES.DS_626_627, isExactMatch: false, badge: '600 사각 혼합시공' });
-      scenes.push({ ...CATALOG_ROOM_SCENES.DS_616, isExactMatch: false, badge: '600 사각 공간 연출' });
-    } else if (normCode === 'DS626' || normCode === 'DS627') {
-      scenes.push({ ...CATALOG_ROOM_SCENES.DS_626_627, isExactMatch: true, badge: '선택 제품 공식 혼합시공' });
-      scenes.push({ ...CATALOG_ROOM_SCENES.DS_619, isExactMatch: false, badge: '600 사각 공간 연출' });
-      scenes.push({ ...CATALOG_ROOM_SCENES.DS_623_625, isExactMatch: false, badge: '600 사각 혼합시공' });
-    } else if (normCode === 'DS623' || normCode === 'DS625') {
-      scenes.push({ ...CATALOG_ROOM_SCENES.DS_623_625, isExactMatch: true, badge: '선택 제품 공식 혼합시공' });
-      scenes.push({ ...CATALOG_ROOM_SCENES.DS_619, isExactMatch: false, badge: '600 사각 공간 연출' });
-      scenes.push({ ...CATALOG_ROOM_SCENES.DS_626_627, isExactMatch: false, badge: '600 사각 혼합시공' });
-    } else if (normCode === 'DS612') {
-      scenes.push({ ...CATALOG_ROOM_SCENES.DS_612, isExactMatch: true, badge: '선택 제품 공식 연출' });
-      scenes.push({ ...CATALOG_ROOM_SCENES.DS_619, isExactMatch: false, badge: '600 사각 공간 연출' });
-      scenes.push({ ...CATALOG_ROOM_SCENES.DS_616, isExactMatch: false, badge: '600 사각 공간 연출' });
-    } else if (normCode === 'DS616') {
-      scenes.push({ ...CATALOG_ROOM_SCENES.DS_616, isExactMatch: true, badge: '선택 제품 공식 연출' });
-      scenes.push({ ...CATALOG_ROOM_SCENES.DS_619, isExactMatch: false, badge: '600 사각 공간 연출' });
-      scenes.push({ ...CATALOG_ROOM_SCENES.DS_626_627, isExactMatch: false, badge: '600 사각 혼합시공' });
-    } else {
-      scenes.push({ ...CATALOG_ROOM_SCENES.DS_619, isExactMatch: false, badge: '600 사각 공간 연출' });
-      scenes.push({ ...CATALOG_ROOM_SCENES.DS_626_627, isExactMatch: false, badge: '600 사각 혼합시공' });
-      scenes.push({ ...CATALOG_ROOM_SCENES.DS_623_625, isExactMatch: false, badge: '600 사각 혼합시공' });
-    }
-  } else if (normCode.startsWith('AS')) {
-    // Art Tile 457.2 Square
-    if (normCode === 'AS4147' || normCode === 'AS4148') {
-      scenes.push({ ...CATALOG_ROOM_SCENES.AS_4147_4148, isExactMatch: true, badge: '선택 제품 공식 혼합시공' });
-      scenes.push({ ...CATALOG_ROOM_SCENES.AS_4141_4142, isExactMatch: false, badge: '앱스트랙 혼합시공' });
-      scenes.push({ ...CATALOG_ROOM_SCENES.AS_1531_1533, isExactMatch: false, badge: '카펫 패턴 공간 연출' });
-    } else if (normCode === 'AS4141' || normCode === 'AS4142') {
-      scenes.push({ ...CATALOG_ROOM_SCENES.AS_4141_4142, isExactMatch: true, badge: '선택 제품 공식 혼합시공' });
-      scenes.push({ ...CATALOG_ROOM_SCENES.AS_4147_4148, isExactMatch: false, badge: '콘크리트 혼합시공' });
-      scenes.push({ ...CATALOG_ROOM_SCENES.AS_4114_4116, isExactMatch: false, badge: '앱스트랙 혼합시공' });
-    } else if (normCode === 'AS4114' || normCode === 'AS4116') {
-      scenes.push({ ...CATALOG_ROOM_SCENES.AS_4114_4116, isExactMatch: true, badge: '선택 제품 공식 혼합시공' });
-      scenes.push({ ...CATALOG_ROOM_SCENES.AS_4141_4142, isExactMatch: false, badge: '앱스트랙 혼합시공' });
-      scenes.push({ ...CATALOG_ROOM_SCENES.AS_4147_4148, isExactMatch: false, badge: '콘크리트 혼합시공' });
-    } else if (normCode === 'AS1538') {
-      scenes.push({ ...CATALOG_ROOM_SCENES.AS_1538_AH_6104, isExactMatch: true, badge: '선택 제품 공식 혼합시공' });
-      scenes.push({ ...CATALOG_ROOM_SCENES.AS_1531_1533, isExactMatch: false, badge: '카펫 패턴 혼합시공' });
-      scenes.push({ ...CATALOG_ROOM_SCENES.AS_4147_4148, isExactMatch: false, badge: '콘크리트 혼합시공' });
-    } else if (normCode === 'AS1531' || normCode === 'AS1533') {
-      scenes.push({ ...CATALOG_ROOM_SCENES.AS_1531_1533, isExactMatch: true, badge: '선택 제품 공식 혼합시공' });
-      scenes.push({ ...CATALOG_ROOM_SCENES.AS_1922_1919, isExactMatch: false, badge: '카펫 패턴 혼합시공' });
-      scenes.push({ ...CATALOG_ROOM_SCENES.AS_1538_AH_6104, isExactMatch: false, badge: '마블 패턴 혼합시공' });
-    } else if (normCode === 'AS1922' || normCode === 'AS1919') {
-      scenes.push({ ...CATALOG_ROOM_SCENES.AS_1922_1919, isExactMatch: true, badge: '선택 제품 공식 혼합시공' });
-      scenes.push({ ...CATALOG_ROOM_SCENES.AS_1531_1533, isExactMatch: false, badge: '카펫 패턴 혼합시공' });
-      scenes.push({ ...CATALOG_ROOM_SCENES.AS_1810_1814, isExactMatch: false, badge: '그라니트 혼합시공' });
-    } else if (normCode === 'AS1810' || normCode === 'AS1814') {
-      scenes.push({ ...CATALOG_ROOM_SCENES.AS_1810_1814, isExactMatch: true, badge: '선택 제품 공식 혼합시공' });
-      scenes.push({ ...CATALOG_ROOM_SCENES.AS_1922_1919, isExactMatch: false, badge: '카펫 패턴 혼합시공' });
-      scenes.push({ ...CATALOG_ROOM_SCENES.AS_4147_4148, isExactMatch: false, badge: '콘크리트 혼합시공' });
-    } else {
-      // General 457 square
-      scenes.push({ ...CATALOG_ROOM_SCENES.AS_4147_4148, isExactMatch: false, badge: '콘크리트 패턴 공간 연출' });
-      scenes.push({ ...CATALOG_ROOM_SCENES.AS_1531_1533, isExactMatch: false, badge: '카펫 패턴 공간 연출' });
-      scenes.push({ ...CATALOG_ROOM_SCENES.AS_1810_1814, isExactMatch: false, badge: '그라니트 패턴 공간 연출' });
-    }
-  } else if (normCode.startsWith('AB')) {
-    // Art Tile Wood
-    if (normCode === 'AB6727') {
-      scenes.push({ ...CATALOG_ROOM_SCENES.AB_6727, isExactMatch: true, badge: '선택 제품 공식 연출' });
-      scenes.push({ ...CATALOG_ROOM_SCENES.AB_6984, isExactMatch: false, badge: '앤틱우드 공간 연출' });
-      scenes.push({ ...CATALOG_ROOM_SCENES.DS_619, isExactMatch: false, badge: '600 사각 라인업' });
-    } else if (normCode === 'AB6984') {
-      scenes.push({ ...CATALOG_ROOM_SCENES.AB_6984, isExactMatch: true, badge: '선택 제품 공식 연출' });
-      scenes.push({ ...CATALOG_ROOM_SCENES.AB_6727, isExactMatch: false, badge: '듀오라인 공간 연출' });
-      scenes.push({ ...CATALOG_ROOM_SCENES.DS_619, isExactMatch: false, badge: '600 사각 라인업' });
-    } else if (normCode.startsWith('AB69')) {
-      scenes.push({ ...CATALOG_ROOM_SCENES.AB_6984, isExactMatch: false, badge: '앤틱우드 공간 연출' });
-      scenes.push({ ...CATALOG_ROOM_SCENES.AB_6727, isExactMatch: false, badge: '듀오라인 공간 연출' });
-      scenes.push({ ...CATALOG_ROOM_SCENES.DS_619, isExactMatch: false, badge: '600 사각 라인업' });
-    } else {
-      scenes.push({ ...CATALOG_ROOM_SCENES.AB_6727, isExactMatch: false, badge: '듀오라인 공간 연출' });
-      scenes.push({ ...CATALOG_ROOM_SCENES.AB_6984, isExactMatch: false, badge: '앤틱우드 공간 연출' });
-      scenes.push({ ...CATALOG_ROOM_SCENES.DS_619, isExactMatch: false, badge: '600 사각 라인업' });
-    }
+  if (normCode === 'CH5704') {
+    scenes.push({ ...CATALOG_ROOM_SCENES.CH_5704, isExactMatch: true, badge: '선택 제품 공식 연출' });
+  } else if (normCode === 'CH5703') {
+    scenes.push({ ...CATALOG_ROOM_SCENES.CH_5703, isExactMatch: true, badge: '선택 제품 공식 연출' });
+  } else if (normCode === 'CH6303') {
+    scenes.push({ ...CATALOG_ROOM_SCENES.CH_6303, isExactMatch: true, badge: '선택 제품 공식 연출' });
+  } else if (normCode === 'CH6312') {
+    scenes.push({ ...CATALOG_ROOM_SCENES.CH_6312, isExactMatch: true, badge: '선택 제품 공식 연출' });
+  } else if (normCode === 'AH739' || normCode === 'AH738') {
+    scenes.push({ ...CATALOG_ROOM_SCENES.AH_739_738, isExactMatch: true, badge: '선택 제품 공식 혼합시공' });
+  } else if (normCode === 'AH735') {
+    scenes.push({ ...CATALOG_ROOM_SCENES.AH_735, isExactMatch: true, badge: '선택 제품 공식 연출' });
+  } else if (normCode === 'AH6106' || normCode === 'AH6107') {
+    scenes.push({ ...CATALOG_ROOM_SCENES.AH_6106_6107, isExactMatch: true, badge: '선택 제품 공식 혼합시공' });
+  } else if (normCode === 'AH6100') {
+    scenes.push({ ...CATALOG_ROOM_SCENES.AH_6100, isExactMatch: true, badge: '선택 제품 공식 연출' });
+  } else if (normCode === 'AH6103' || normCode === 'AH6108') {
+    scenes.push({ ...CATALOG_ROOM_SCENES.AH_6103_6108, isExactMatch: true, badge: '선택 제품 공식 혼합시공' });
+  } else if (normCode === 'AH6104' || normCode === 'AS1538') {
+    scenes.push({ ...CATALOG_ROOM_SCENES.AS_1538_AH_6104, isExactMatch: true, badge: '선택 제품 공식 혼합시공' });
+  } else if (normCode === 'DS619') {
+    scenes.push({ ...CATALOG_ROOM_SCENES.DS_619, isExactMatch: true, badge: '선택 제품 공식 연출' });
+  } else if (normCode === 'DS626' || normCode === 'DS627') {
+    scenes.push({ ...CATALOG_ROOM_SCENES.DS_626_627, isExactMatch: true, badge: '선택 제품 공식 혼합시공' });
+  } else if (normCode === 'DS623' || normCode === 'DS625') {
+    scenes.push({ ...CATALOG_ROOM_SCENES.DS_623_625, isExactMatch: true, badge: '선택 제품 공식 혼합시공' });
+  } else if (normCode === 'DS612') {
+    scenes.push({ ...CATALOG_ROOM_SCENES.DS_612, isExactMatch: true, badge: '선택 제품 공식 연출' });
+  } else if (normCode === 'DS616') {
+    scenes.push({ ...CATALOG_ROOM_SCENES.DS_616, isExactMatch: true, badge: '선택 제품 공식 연출' });
+  } else if (normCode === 'AS4147' || normCode === 'AS4148') {
+    scenes.push({ ...CATALOG_ROOM_SCENES.AS_4147_4148, isExactMatch: true, badge: '선택 제품 공식 혼합시공' });
+  } else if (normCode === 'AS4141' || normCode === 'AS4142') {
+    scenes.push({ ...CATALOG_ROOM_SCENES.AS_4141_4142, isExactMatch: true, badge: '선택 제품 공식 혼합시공' });
+  } else if (normCode === 'AS4114' || normCode === 'AS4116') {
+    scenes.push({ ...CATALOG_ROOM_SCENES.AS_4114_4116, isExactMatch: true, badge: '선택 제품 공식 혼합시공' });
+  } else if (normCode === 'AS1531' || normCode === 'AS1533') {
+    scenes.push({ ...CATALOG_ROOM_SCENES.AS_1531_1533, isExactMatch: true, badge: '선택 제품 공식 혼합시공' });
+  } else if (normCode === 'AS1922' || normCode === 'AS1919') {
+    scenes.push({ ...CATALOG_ROOM_SCENES.AS_1922_1919, isExactMatch: true, badge: '선택 제품 공식 혼합시공' });
+  } else if (normCode === 'AS1810' || normCode === 'AS1814') {
+    scenes.push({ ...CATALOG_ROOM_SCENES.AS_1810_1814, isExactMatch: true, badge: '선택 제품 공식 혼합시공' });
+  } else if (normCode === 'AB6727') {
+    scenes.push({ ...CATALOG_ROOM_SCENES.AB_6727, isExactMatch: true, badge: '선택 제품 공식 연출' });
+  } else if (normCode === 'AB6984') {
+    scenes.push({ ...CATALOG_ROOM_SCENES.AB_6984, isExactMatch: true, badge: '선택 제품 공식 연출' });
   }
 
   return scenes;

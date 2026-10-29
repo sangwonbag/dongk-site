@@ -492,18 +492,15 @@ export const DONGSHIN_CATALOG_MAP = {
   ],
   'CH5700': [
     '/images/Thumbnail_Image/materials/데코타일/동신/아트에코차음/동신에코차음우드/CH5700.jpg',
-    '/images/Thumbnail_Image/materials/데코타일/동신/아트에코차음/동신에코차음우드/CH5700_확장.png',
-    '/images/Thumbnail_Image/materials/데코타일/동신/아트에코차음/동신에코차음우드/CH5703_시공예시.jpg'
+    '/images/Thumbnail_Image/materials/데코타일/동신/아트에코차음/동신에코차음우드/CH5700_확장.png'
   ],
   'CH5701': [
     '/images/Thumbnail_Image/materials/데코타일/동신/아트에코차음/동신에코차음우드/CH5701.jpg',
-    '/images/Thumbnail_Image/materials/데코타일/동신/아트에코차음/동신에코차음우드/CH5701_확장.png',
-    '/images/Thumbnail_Image/materials/데코타일/동신/아트에코차음/동신에코차음우드/CH5703_시공예시.jpg'
+    '/images/Thumbnail_Image/materials/데코타일/동신/아트에코차음/동신에코차음우드/CH5701_확장.png'
   ],
   'CH5702': [
     '/images/Thumbnail_Image/materials/데코타일/동신/아트에코차음/동신에코차음우드/CH5702.jpg',
-    '/images/Thumbnail_Image/materials/데코타일/동신/아트에코차음/동신에코차음우드/CH5702_확장.png',
-    '/images/Thumbnail_Image/materials/데코타일/동신/아트에코차음/동신에코차음우드/CH5703_시공예시.jpg'
+    '/images/Thumbnail_Image/materials/데코타일/동신/아트에코차음/동신에코차음우드/CH5702_확장.png'
   ],
   'CH5703': [
     '/images/Thumbnail_Image/materials/데코타일/동신/아트에코차음/동신에코차음우드/CH5703.jpg',
@@ -517,28 +514,23 @@ export const DONGSHIN_CATALOG_MAP = {
   ],
   'CH5705': [
     '/images/Thumbnail_Image/materials/데코타일/동신/아트에코차음/동신에코차음우드/CH5705.jpg',
-    '/images/Thumbnail_Image/materials/데코타일/동신/아트에코차음/동신에코차음우드/CH5705_확장.png',
-    '/images/Thumbnail_Image/materials/데코타일/동신/아트에코차음/동신에코차음우드/CH5704_시공예시.jpg'
+    '/images/Thumbnail_Image/materials/데코타일/동신/아트에코차음/동신에코차음우드/CH5705_확장.png'
   ],
   'CH5706': [
     '/images/Thumbnail_Image/materials/데코타일/동신/아트에코차음/동신에코차음우드/CH5706.jpg',
-    '/images/Thumbnail_Image/materials/데코타일/동신/아트에코차음/동신에코차음우드/CH5706_확장.png',
-    '/images/Thumbnail_Image/materials/데코타일/동신/아트에코차음/동신에코차음우드/CH5704_시공예시.jpg'
+    '/images/Thumbnail_Image/materials/데코타일/동신/아트에코차음/동신에코차음우드/CH5706_확장.png'
   ],
   'CH6300': [
     '/images/Thumbnail_Image/materials/데코타일/동신/아트에코차음/동신에코차음사각/CH6300.jpg',
-    '/images/Thumbnail_Image/materials/데코타일/동신/아트에코차음/동신에코차음사각/CH6300_2x2.png',
-    '/images/Thumbnail_Image/materials/데코타일/동신/아트에코차음/동신에코차음사각/CH6303_시공예시.jpg'
+    '/images/Thumbnail_Image/materials/데코타일/동신/아트에코차음/동신에코차음사각/CH6300_2x2.png'
   ],
   'CH6301': [
     '/images/Thumbnail_Image/materials/데코타일/동신/아트에코차음/동신에코차음사각/CH6301.jpg',
-    '/images/Thumbnail_Image/materials/데코타일/동신/아트에코차음/동신에코차음사각/CH6301_2x2.png',
-    '/images/Thumbnail_Image/materials/데코타일/동신/아트에코차음/동신에코차음사각/CH6303_시공예시.jpg'
+    '/images/Thumbnail_Image/materials/데코타일/동신/아트에코차음/동신에코차음사각/CH6301_2x2.png'
   ],
   'CH6302': [
     '/images/Thumbnail_Image/materials/데코타일/동신/아트에코차음/동신에코차음사각/CH6302.png',
-    '/images/Thumbnail_Image/materials/데코타일/동신/아트에코차음/동신에코차음사각/CH6302_2x2.png',
-    '/images/Thumbnail_Image/materials/데코타일/동신/아트에코차음/동신에코차음사각/CH6303_시공예시.jpg'
+    '/images/Thumbnail_Image/materials/데코타일/동신/아트에코차음/동신에코차음사각/CH6302_2x2.png'
   ],
   'CH6303': [
     '/images/Thumbnail_Image/materials/데코타일/동신/아트에코차음/동신에코차음사각/CH6303.jpg',
@@ -547,43 +539,35 @@ export const DONGSHIN_CATALOG_MAP = {
   ],
   'CH6304': [
     '/images/Thumbnail_Image/materials/데코타일/동신/아트에코차음/동신에코차음사각/CH6304.jpg',
-    '/images/Thumbnail_Image/materials/데코타일/동신/아트에코차음/동신에코차음사각/CH6304_2x2.png',
-    '/images/Thumbnail_Image/materials/데코타일/동신/아트에코차음/동신에코차음사각/CH6303_시공예시.jpg'
+    '/images/Thumbnail_Image/materials/데코타일/동신/아트에코차음/동신에코차음사각/CH6304_2x2.png'
   ],
   'CH6305': [
     '/images/Thumbnail_Image/materials/데코타일/동신/아트에코차음/동신에코차음사각/CH6305.png',
-    '/images/Thumbnail_Image/materials/데코타일/동신/아트에코차음/동신에코차음사각/CH6305_2x2.png',
-    '/images/Thumbnail_Image/materials/데코타일/동신/아트에코차음/동신에코차음사각/CH6303_시공예시.jpg'
+    '/images/Thumbnail_Image/materials/데코타일/동신/아트에코차음/동신에코차음사각/CH6305_2x2.png'
   ],
   'CH6306': [
     '/images/Thumbnail_Image/materials/데코타일/동신/아트에코차음/동신에코차음사각/CH6306.jpg',
-    '/images/Thumbnail_Image/materials/데코타일/동신/아트에코차음/동신에코차음사각/CH6306_2x2.png',
-    '/images/Thumbnail_Image/materials/데코타일/동신/아트에코차음/동신에코차음사각/CH6303_시공예시.jpg'
+    '/images/Thumbnail_Image/materials/데코타일/동신/아트에코차음/동신에코차음사각/CH6306_2x2.png'
   ],
   'CH6307': [
     '/images/Thumbnail_Image/materials/데코타일/동신/아트에코차음/동신에코차음사각/CH6307.png',
-    '/images/Thumbnail_Image/materials/데코타일/동신/아트에코차음/동신에코차음사각/CH6307_2x2.png',
-    '/images/Thumbnail_Image/materials/데코타일/동신/아트에코차음/동신에코차음사각/CH6312_시공예시.jpg'
+    '/images/Thumbnail_Image/materials/데코타일/동신/아트에코차음/동신에코차음사각/CH6307_2x2.png'
   ],
   'CH6308': [
     '/images/Thumbnail_Image/materials/데코타일/동신/아트에코차음/동신에코차음사각/CH6308.jpg',
-    '/images/Thumbnail_Image/materials/데코타일/동신/아트에코차음/동신에코차음사각/CH6308_2x2.png',
-    '/images/Thumbnail_Image/materials/데코타일/동신/아트에코차음/동신에코차음사각/CH6312_시공예시.jpg'
+    '/images/Thumbnail_Image/materials/데코타일/동신/아트에코차음/동신에코차음사각/CH6308_2x2.png'
   ],
   'CH6309': [
     '/images/Thumbnail_Image/materials/데코타일/동신/아트에코차음/동신에코차음사각/CH6309.jpg',
-    '/images/Thumbnail_Image/materials/데코타일/동신/아트에코차음/동신에코차음사각/CH6309_2x2.png',
-    '/images/Thumbnail_Image/materials/데코타일/동신/아트에코차음/동신에코차음사각/CH6312_시공예시.jpg'
+    '/images/Thumbnail_Image/materials/데코타일/동신/아트에코차음/동신에코차음사각/CH6309_2x2.png'
   ],
   'CH6310': [
     '/images/Thumbnail_Image/materials/데코타일/동신/아트에코차음/동신에코차음사각/CH6310.jpg',
-    '/images/Thumbnail_Image/materials/데코타일/동신/아트에코차음/동신에코차음사각/CH6310_2x2.png',
-    '/images/Thumbnail_Image/materials/데코타일/동신/아트에코차음/동신에코차음사각/CH6312_시공예시.jpg'
+    '/images/Thumbnail_Image/materials/데코타일/동신/아트에코차음/동신에코차음사각/CH6310_2x2.png'
   ],
   'CH6311': [
     '/images/Thumbnail_Image/materials/데코타일/동신/아트에코차음/동신에코차음사각/CH6311.png',
-    '/images/Thumbnail_Image/materials/데코타일/동신/아트에코차음/동신에코차음사각/CH6311_2x2.png',
-    '/images/Thumbnail_Image/materials/데코타일/동신/아트에코차음/동신에코차음사각/CH6312_시공예시.jpg'
+    '/images/Thumbnail_Image/materials/데코타일/동신/아트에코차음/동신에코차음사각/CH6311_2x2.png'
   ],
   'CH6312': [
     '/images/Thumbnail_Image/materials/데코타일/동신/아트에코차음/동신에코차음사각/CH6312.jpg',
@@ -592,28 +576,23 @@ export const DONGSHIN_CATALOG_MAP = {
   ],
   'AH726': [
     '/images/Thumbnail_Image/materials/데코타일/동신/아트하우스/동신 하우스 우드/AH726.jpg',
-    '/images/Thumbnail_Image/materials/데코타일/동신/아트하우스/동신 하우스 우드/AH726_확장.png',
-    '/images/Thumbnail_Image/materials/데코타일/동신/아트하우스/동신 하우스 우드/AH735_시공예시.jpg'
+    '/images/Thumbnail_Image/materials/데코타일/동신/아트하우스/동신 하우스 우드/AH726_확장.png'
   ],
   'AH728': [
     '/images/Thumbnail_Image/materials/데코타일/동신/아트하우스/동신 하우스 우드/AH728.jpg',
-    '/images/Thumbnail_Image/materials/데코타일/동신/아트하우스/동신 하우스 우드/AH728_확장.png',
-    '/images/Thumbnail_Image/materials/데코타일/동신/아트하우스/동신 하우스 우드/AH735_시공예시.jpg'
+    '/images/Thumbnail_Image/materials/데코타일/동신/아트하우스/동신 하우스 우드/AH728_확장.png'
   ],
   'AH729': [
     '/images/Thumbnail_Image/materials/데코타일/동신/아트하우스/동신 하우스 우드/AH729.jpg',
-    '/images/Thumbnail_Image/materials/데코타일/동신/아트하우스/동신 하우스 우드/AH729_확장.png',
-    '/images/Thumbnail_Image/materials/데코타일/동신/아트하우스/동신 하우스 우드/AH735_시공예시.jpg'
+    '/images/Thumbnail_Image/materials/데코타일/동신/아트하우스/동신 하우스 우드/AH729_확장.png'
   ],
   'AH730': [
     '/images/Thumbnail_Image/materials/데코타일/동신/아트하우스/동신 하우스 우드/AH730.jpg',
-    '/images/Thumbnail_Image/materials/데코타일/동신/아트하우스/동신 하우스 우드/AH730_확장.png',
-    '/images/Thumbnail_Image/materials/데코타일/동신/아트하우스/동신 하우스 우드/AH735_시공예시.jpg'
+    '/images/Thumbnail_Image/materials/데코타일/동신/아트하우스/동신 하우스 우드/AH730_확장.png'
   ],
   'AH734': [
     '/images/Thumbnail_Image/materials/데코타일/동신/아트하우스/동신 하우스 우드/AH734.jpg',
-    '/images/Thumbnail_Image/materials/데코타일/동신/아트하우스/동신 하우스 우드/AH734_확장.png',
-    '/images/Thumbnail_Image/materials/데코타일/동신/아트하우스/동신 하우스 우드/AH735_시공예시.jpg'
+    '/images/Thumbnail_Image/materials/데코타일/동신/아트하우스/동신 하우스 우드/AH734_확장.png'
   ],
   'AH735': [
     '/images/Thumbnail_Image/materials/데코타일/동신/아트하우스/동신 하우스 우드/AH735.jpg',
@@ -622,13 +601,11 @@ export const DONGSHIN_CATALOG_MAP = {
   ],
   'AH736': [
     '/images/Thumbnail_Image/materials/데코타일/동신/아트하우스/동신 하우스 우드/AH736.jpg',
-    '/images/Thumbnail_Image/materials/데코타일/동신/아트하우스/동신 하우스 우드/AH736_확장.png',
-    '/images/Thumbnail_Image/materials/데코타일/동신/아트하우스/동신 하우스 우드/AH739_AH738_시공예시.jpg'
+    '/images/Thumbnail_Image/materials/데코타일/동신/아트하우스/동신 하우스 우드/AH736_확장.png'
   ],
   'AH737': [
     '/images/Thumbnail_Image/materials/데코타일/동신/아트하우스/동신 하우스 우드/AH737.jpg',
-    '/images/Thumbnail_Image/materials/데코타일/동신/아트하우스/동신 하우스 우드/AH737_확장.png',
-    '/images/Thumbnail_Image/materials/데코타일/동신/아트하우스/동신 하우스 우드/AH739_AH738_시공예시.jpg'
+    '/images/Thumbnail_Image/materials/데코타일/동신/아트하우스/동신 하우스 우드/AH737_확장.png'
   ],
   'AH738': [
     '/images/Thumbnail_Image/materials/데코타일/동신/아트하우스/동신 하우스 우드/AH738.jpg',
@@ -647,13 +624,11 @@ export const DONGSHIN_CATALOG_MAP = {
   ],
   'AH6101': [
     '/images/Thumbnail_Image/materials/데코타일/동신/아트하우스/동신 하우스 사각/AH6101.jpg',
-    '/images/Thumbnail_Image/materials/데코타일/동신/아트하우스/동신 하우스 사각/AH6101_2x2.png',
-    '/images/Thumbnail_Image/materials/데코타일/동신/아트하우스/동신 하우스 사각/AH6100_시공예시.jpg'
+    '/images/Thumbnail_Image/materials/데코타일/동신/아트하우스/동신 하우스 사각/AH6101_2x2.png'
   ],
   'AH6102': [
     '/images/Thumbnail_Image/materials/데코타일/동신/아트하우스/동신 하우스 사각/AH6102.png',
-    '/images/Thumbnail_Image/materials/데코타일/동신/아트하우스/동신 하우스 사각/AH6102_2x2.png',
-    '/images/Thumbnail_Image/materials/데코타일/동신/아트하우스/동신 하우스 사각/AH6100_시공예시.jpg'
+    '/images/Thumbnail_Image/materials/데코타일/동신/아트하우스/동신 하우스 사각/AH6102_2x2.png'
   ],
   'AH6103': [
     '/images/Thumbnail_Image/materials/데코타일/동신/아트하우스/동신 하우스 사각/AH6103.jpg',
@@ -667,8 +642,7 @@ export const DONGSHIN_CATALOG_MAP = {
   ],
   'AH6105': [
     '/images/Thumbnail_Image/materials/데코타일/동신/아트하우스/동신 하우스 사각/AH6105.jpg',
-    '/images/Thumbnail_Image/materials/데코타일/동신/아트하우스/동신 하우스 사각/AH6105_2x2.png',
-    '/images/Thumbnail_Image/materials/데코타일/동신/아트하우스/동신 하우스 사각/AH6106_AH6107_시공예시.jpg'
+    '/images/Thumbnail_Image/materials/데코타일/동신/아트하우스/동신 하우스 사각/AH6105_2x2.png'
   ],
   'AH6106': [
     '/images/Thumbnail_Image/materials/데코타일/동신/아트하우스/동신 하우스 사각/AH6106.jpg',
@@ -687,18 +661,15 @@ export const DONGSHIN_CATALOG_MAP = {
   ],
   'AH6109': [
     '/images/Thumbnail_Image/materials/데코타일/동신/아트하우스/동신 하우스 사각/AH6109.jpg',
-    '/images/Thumbnail_Image/materials/데코타일/동신/아트하우스/동신 하우스 사각/AH6109_2x2.png',
-    '/images/Thumbnail_Image/materials/데코타일/동신/아트하우스/동신 하우스 사각/AH6106_AH6107_시공예시.jpg'
+    '/images/Thumbnail_Image/materials/데코타일/동신/아트하우스/동신 하우스 사각/AH6109_2x2.png'
   ],
   'DS608': [
     '/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 600각/DS608.jpg',
-    '/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 600각/DS608_2x2.png',
-    '/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 600각/DS612_시공예시.jpg'
+    '/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 600각/DS608_2x2.png'
   ],
   'DS611': [
     '/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 600각/DS611.jpg',
-    '/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 600각/DS611_2x2.png',
-    '/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 600각/DS612_시공예시.jpg'
+    '/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 600각/DS611_2x2.png'
   ],
   'DS612': [
     '/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 600각/DS612.jpg',
@@ -707,13 +678,11 @@ export const DONGSHIN_CATALOG_MAP = {
   ],
   'DS613': [
     '/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 600각/DS613.jpg',
-    '/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 600각/DS613_2x2.png',
-    '/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 600각/DS612_시공예시.jpg'
+    '/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 600각/DS613_2x2.png'
   ],
   'DS615': [
     '/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 600각/DS615.jpg',
-    '/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 600각/DS615_2x2.png',
-    '/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 600각/DS619_시공예시.jpg'
+    '/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 600각/DS615_2x2.png'
   ],
   'DS616': [
     '/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 600각/DS616.jpg',
@@ -722,8 +691,7 @@ export const DONGSHIN_CATALOG_MAP = {
   ],
   'DS618': [
     '/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 600각/DS618.jpg',
-    '/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 600각/DS618_2x2.png',
-    '/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 600각/DS619_시공예시.jpg'
+    '/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 600각/DS618_2x2.png'
   ],
   'DS619': [
     '/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 600각/DS619.jpg',
@@ -732,13 +700,11 @@ export const DONGSHIN_CATALOG_MAP = {
   ],
   'DS620': [
     '/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 600각/DS620.jpg',
-    '/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 600각/DS620_2x2.png',
-    '/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 600각/DS619_시공예시.jpg'
+    '/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 600각/DS620_2x2.png'
   ],
   'DS621': [
     '/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 600각/DS621.jpg',
-    '/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 600각/DS621_2x2.png',
-    '/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 600각/DS619_시공예시.jpg'
+    '/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 600각/DS621_2x2.png'
   ],
   'DS623': [
     '/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 600각/DS623.jpg',
@@ -762,38 +728,31 @@ export const DONGSHIN_CATALOG_MAP = {
   ],
   'DS671': [
     '/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 600각/DS671.jpg',
-    '/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 600각/DS671_2x2.png',
-    '/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 600각/DS626_DS627_시공예시.jpg'
+    '/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 600각/DS671_2x2.png'
   ],
   'DS673': [
     '/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 600각/DS673.jpg',
-    '/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 600각/DS673_2x2.png',
-    '/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 600각/DS626_DS627_시공예시.jpg'
+    '/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 600각/DS673_2x2.png'
   ],
   'AS4126': [
     '/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 450각/AS4126.jpg',
-    '/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 450각/AS4126_2x2.png',
-    '/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 450각/AS4114_AS4116_시공예시.jpg'
+    '/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 450각/AS4126_2x2.png'
   ],
   'AS4127': [
     '/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 450각/AS4127.jpg',
-    '/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 450각/AS4127_2x2.png',
-    '/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 450각/AS4114_AS4116_시공예시.jpg'
+    '/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 450각/AS4127_2x2.png'
   ],
   'AS4128': [
     '/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 450각/AS4128.jpg',
-    '/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 450각/AS4128_2x2.png',
-    '/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 450각/AS4114_AS4116_시공예시.jpg'
+    '/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 450각/AS4128_2x2.png'
   ],
   'AS4130': [
     '/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 450각/AS4130.jpg',
-    '/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 450각/AS4130_2x2.png',
-    '/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 450각/AS4114_AS4116_시공예시.jpg'
+    '/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 450각/AS4130_2x2.png'
   ],
   'AS4139': [
     '/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 450각/AS4139.jpg',
-    '/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 450각/AS4139_2x2.png',
-    '/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 450각/AS4141_AS4142_시공예시.jpg'
+    '/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 450각/AS4139_2x2.png'
   ],
   'AS4147': [
     '/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 450각/AS4147.jpg',
@@ -807,18 +766,15 @@ export const DONGSHIN_CATALOG_MAP = {
   ],
   'AS4149': [
     '/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 450각/AS4149.jpg',
-    '/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 450각/AS4149_2x2.png',
-    '/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 450각/AS4147_AS4148_시공예시.jpg'
+    '/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 450각/AS4149_2x2.png'
   ],
   'AS4004': [
     '/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 450각/AS4004.jpg',
-    '/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 450각/AS4004_2x2.png',
-    '/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 450각/AS4114_AS4116_시공예시.jpg'
+    '/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 450각/AS4004_2x2.png'
   ],
   'AS4012': [
     '/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 450각/AS4012.jpg',
-    '/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 450각/AS4012_2x2.png',
-    '/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 450각/AS4114_AS4116_시공예시.jpg'
+    '/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 450각/AS4012_2x2.png'
   ],
   'AS4114': [
     '/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 450각/AS4114.jpg',
@@ -832,13 +788,11 @@ export const DONGSHIN_CATALOG_MAP = {
   ],
   'AS4120': [
     '/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 450각/AS4120.jpg',
-    '/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 450각/AS4120_2x2.png',
-    '/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 450각/AS4114_AS4116_시공예시.jpg'
+    '/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 450각/AS4120_2x2.png'
   ],
   'AS4140': [
     '/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 450각/AS4140.jpg',
-    '/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 450각/AS4140_2x2.png',
-    '/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 450각/AS4141_AS4142_시공예시.jpg'
+    '/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 450각/AS4140_2x2.png'
   ],
   'AS4141': [
     '/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 450각/AS4141.jpg',
@@ -852,33 +806,27 @@ export const DONGSHIN_CATALOG_MAP = {
   ],
   'AS1001': [
     '/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 450각/AS1001.jpg',
-    '/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 450각/AS1001_2x2.png',
-    '/images/Thumbnail_Image/materials/데코타일/동신/아트하우스/동신 하우스 사각/AH6104_AS1538_시공예시.jpg'
+    '/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 450각/AS1001_2x2.png'
   ],
   'AS1002': [
     '/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 450각/AS1002.jpg',
-    '/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 450각/AS1002_2x2.png',
-    '/images/Thumbnail_Image/materials/데코타일/동신/아트하우스/동신 하우스 사각/AH6104_AS1538_시공예시.jpg'
+    '/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 450각/AS1002_2x2.png'
   ],
   'AS1301': [
     '/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 450각/AS1301.png',
-    '/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 450각/AS1301_2x2.png',
-    '/images/Thumbnail_Image/materials/데코타일/동신/아트하우스/동신 하우스 사각/AH6104_AS1538_시공예시.jpg'
+    '/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 450각/AS1301_2x2.png'
   ],
   'AS1525': [
     '/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 450각/AS1525.jpg',
-    '/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 450각/AS1525_2x2.png',
-    '/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 우드/AS1531_AS1533_시공예시.jpg'
+    '/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 450각/AS1525_2x2.png'
   ],
   'AS1526': [
     '/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 450각/AS1526.jpg',
-    '/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 450각/AS1526_2x2.png',
-    '/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 우드/AS1531_AS1533_시공예시.jpg'
+    '/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 450각/AS1526_2x2.png'
   ],
   'AS1528': [
     '/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 450각/AS1528.jpg',
-    '/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 450각/AS1528_2x2.png',
-    '/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 우드/AS1531_AS1533_시공예시.jpg'
+    '/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 450각/AS1528_2x2.png'
   ],
   'AS1531': [
     '/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 450각/AS1531.jpg',
@@ -892,8 +840,7 @@ export const DONGSHIN_CATALOG_MAP = {
   ],
   'AS1536': [
     '/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 450각/AS1536.jpg',
-    '/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 450각/AS1536_2x2.png',
-    '/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 우드/AS1531_AS1533_시공예시.jpg'
+    '/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 450각/AS1536_2x2.png'
   ],
   'AS1538': [
     '/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 450각/AS1538.jpg',
@@ -902,28 +849,23 @@ export const DONGSHIN_CATALOG_MAP = {
   ],
   'AS1539': [
     '/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 450각/AS1539.jpg',
-    '/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 450각/AS1539_2x2.png',
-    '/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 우드/AS1531_AS1533_시공예시.jpg'
+    '/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 450각/AS1539_2x2.png'
   ],
   'AS1540': [
     '/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 450각/AS1540.jpg',
-    '/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 450각/AS1540_2x2.png',
-    '/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 우드/AS1531_AS1533_시공예시.jpg'
+    '/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 450각/AS1540_2x2.png'
   ],
   'AS1541': [
     '/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 450각/AS1541.jpg',
-    '/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 450각/AS1541_2x2.png',
-    '/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 우드/AS1531_AS1533_시공예시.jpg'
+    '/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 450각/AS1541_2x2.png'
   ],
   'AS1542': [
     '/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 450각/AS1542.jpg',
-    '/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 450각/AS1542_2x2.png',
-    '/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 우드/AS1531_AS1533_시공예시.jpg'
+    '/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 450각/AS1542_2x2.png'
   ],
   'AS1703': [
     '/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 450각/AS1703.jpg',
-    '/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 450각/AS1703_2x2.png',
-    '/images/Thumbnail_Image/materials/데코타일/동신/아트하우스/동신 하우스 사각/AH6104_AS1538_시공예시.jpg'
+    '/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 450각/AS1703_2x2.png'
   ],
   'AS1919': [
     '/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 450각/AS1919.jpg',
@@ -937,23 +879,19 @@ export const DONGSHIN_CATALOG_MAP = {
   ],
   'AS1923': [
     '/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 450각/AS1923.jpg',
-    '/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 450각/AS1923_2x2.png',
-    '/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 450각/AS1922_AS1919_시공예시.jpg'
+    '/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 450각/AS1923_2x2.png'
   ],
   'AS1924': [
     '/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 450각/AS1924.jpg',
-    '/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 450각/AS1924_2x2.png',
-    '/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 450각/AS1922_AS1919_시공예시.jpg'
+    '/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 450각/AS1924_2x2.png'
   ],
   'AS1938': [
     '/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 450각/AS1938.jpg',
-    '/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 450각/AS1938_2x2.png',
-    '/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 450각/AS1922_AS1919_시공예시.jpg'
+    '/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 450각/AS1938_2x2.png'
   ],
   'AS1941': [
     '/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 450각/AS1941.jpg',
-    '/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 450각/AS1941_2x2.png',
-    '/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 450각/AS1922_AS1919_시공예시.jpg'
+    '/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 450각/AS1941_2x2.png'
   ],
   'AS1810': [
     '/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 450각/AS1810.jpg',
@@ -967,18 +905,15 @@ export const DONGSHIN_CATALOG_MAP = {
   ],
   'AB6711': [
     '/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 우드/AB6711.png',
-    '/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 우드/AB6711_확장.png',
-    '/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 우드/AB6727_시공예시.jpg'
+    '/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 우드/AB6711_확장.png'
   ],
   'AB6712': [
     '/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 우드/AB6712.png',
-    '/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 우드/AB6712_확장.png',
-    '/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 우드/AB6727_시공예시.jpg'
+    '/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 우드/AB6712_확장.png'
   ],
   'AB6717': [
     '/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 우드/AB6717.png',
-    '/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 우드/AB6717_확장.png',
-    '/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 우드/AB6727_시공예시.jpg'
+    '/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 우드/AB6717_확장.png'
   ],
   'AB6727': [
     '/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 우드/AB6727.png',
@@ -987,38 +922,31 @@ export const DONGSHIN_CATALOG_MAP = {
   ],
   'AB6739': [
     '/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 우드/AB6739.png',
-    '/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 우드/AB6739_확장.png',
-    '/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 우드/AB6727_시공예시.jpg'
+    '/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 우드/AB6739_확장.png'
   ],
   'AB6740': [
     '/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 우드/AB6740.png',
-    '/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 우드/AB6740_확장.png',
-    '/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 우드/AB6727_시공예시.jpg'
+    '/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 우드/AB6740_확장.png'
   ],
   'AB6741': [
     '/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 우드/AB6741.png',
-    '/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 우드/AB6741_확장.png',
-    '/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 우드/AB6727_시공예시.jpg'
+    '/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 우드/AB6741_확장.png'
   ],
   'AB6915': [
     '/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 우드/AB6915.png',
-    '/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 우드/AB6915_확장.png',
-    '/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 우드/AB6984_시공예시.jpg'
+    '/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 우드/AB6915_확장.png'
   ],
   'AB6933': [
     '/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 우드/AB6933.png',
-    '/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 우드/AB6933_확장.png',
-    '/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 우드/AB6984_시공예시.jpg'
+    '/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 우드/AB6933_확장.png'
   ],
   'AB6978': [
     '/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 우드/AB6978.png',
-    '/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 우드/AB6978_확장.png',
-    '/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 우드/AB6984_시공예시.jpg'
+    '/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 우드/AB6978_확장.png'
   ],
   'AB6981': [
     '/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 우드/AB6981.png',
-    '/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 우드/AB6981_확장.png',
-    '/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 우드/AB6984_시공예시.jpg'
+    '/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 우드/AB6981_확장.png'
   ],
   'AB6984': [
     '/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 우드/AB6984.png',
@@ -1027,13 +955,11 @@ export const DONGSHIN_CATALOG_MAP = {
   ],
   'AB6989': [
     '/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 우드/AB6989.png',
-    '/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 우드/AB6989_확장.png',
-    '/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 우드/AB6984_시공예시.jpg'
+    '/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 우드/AB6989_확장.png'
   ],
   'AB6990': [
     '/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 우드/AB6990.png',
-    '/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 우드/AB6990_확장.png',
-    '/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 우드/AB6984_시공예시.jpg'
+    '/images/Thumbnail_Image/materials/데코타일/동신/아트타일/동신 아트 우드/AB6990_확장.png'
   ]
 };
 
