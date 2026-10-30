@@ -23,7 +23,7 @@ const normalizeText = (value = "") =>
 
 const getMaterialMatchKey = (item) => {
   if (!item) return "";
-  const brand = normalizeText(item.brand);
+  const brand = normalizeText(item.brand).replace(/글라스$/g, '');
   const category = normalizeText(item.category);
   const line = normalizeText(item.line);
   const name = normalizeText(item.name || item.productName);
@@ -612,8 +612,8 @@ export async function fetchFilteredProducts({ category, brand, thickness, search
       query = query.order('sort_order', { ascending: true }).order('id', { ascending: false });
       query = query.range(from, to);
 
-      // Soft race: wait 1500ms max for live Supabase DB response
-      const softTimer = new Promise(resolve => setTimeout(() => resolve({ timeout: true }), 1500));
+      // Soft race: wait 4000ms max for live Supabase DB response
+      const softTimer = new Promise(resolve => setTimeout(() => resolve({ timeout: true }), 4000));
       const res = await Promise.race([query, softTimer]);
 
       if (res && !res.timeout && !res.error && res.data && Array.isArray(res.data) && res.data.length > 0) {
@@ -646,11 +646,8 @@ export async function fetchFilteredProducts({ category, brand, thickness, search
       console.warn('[fetchFilteredProducts] Supabase fetch exception or soft timeout, serving instant local fallback:', err);
     }
 
-    // Instant local fallback when Supabase is slow or errors out
+    // Instant local fallback when Supabase is slow or errors out (do not permanently poison cacheKey on transient timeout)
     const fallbackResult = await getLocalFallbackResult();
-    if (fallbackResult.length > 0) {
-      filteredProductsCache.set(cacheKey, fallbackResult);
-    }
     return fallbackResult;
   })();
 

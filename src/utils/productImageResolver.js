@@ -1,8 +1,9 @@
 import { getUniqueProductImages } from './galleryNormalizer.js';
 
 import { imageManifest as syncGeneratedManifest } from '../data/materialImageManifest.generated.js';
+import { imageManifest as syncMappedManifest } from '../data/imageManifest.js';
 
-let mappedImageManifestCache = null;
+let mappedImageManifestCache = syncMappedManifest;
 let generatedImageManifestCache = syncGeneratedManifest;
 let manifestPromise = null;
 
@@ -207,6 +208,11 @@ export function getProductImageCandidates(product) {
     const normDecoded = safeDecoded(norm);
     if (candidates.some(c => safeDecoded(c) === normDecoded)) return;
 
+    // Reject obsolete flat /KCC/KCC_pro/<code>.png paths (all valid KCC_pro files live inside subfolders)
+    if (/\/KCC\/KCC_pro\/[^/]+\.(png|jpe?g|webp)$/i.test(normDecoded)) {
+      return;
+    }
+
     // Strict lineup boundary checks to prevent cross-lineup image bleed
     if (lineup === 'sensray') {
       if (norm.includes('B0122J') && !codeNorm.includes('B0122')) {
@@ -248,19 +254,26 @@ export function getProductImageCandidates(product) {
     if (field) addCandidate(String(field));
   }
 
-  // Early return if product already has direct, valid DB images (drastically reduces CPU & loop overhead)
-  if (candidates.length > 0) {
-    return sortProductImagesByType(candidates, rawCode);
-  }
-
-  // Trigger background manifest loading if not already cached
-  const mappedManifest = mappedImageManifestCache;
+  // 2. Fast Indexed Generated manifest lookup (materialImageManifest.generated.js)
   const generatedManifest = generatedImageManifestCache;
-  if (!mappedManifest || !generatedManifest) {
-    ensureManifestsLoaded().catch(() => {});
+  if (generatedManifest && (codeNorm || nameNorm)) {
+    const indices = getGeneratedManifestIndices();
+    let genMatch = null;
+
+    if (codeNorm) {
+      genMatch = indices.codeIndex.get(codeNorm);
+    }
+    if (!genMatch && nameNorm) {
+      genMatch = indices.nameIndex.get(nameNorm);
+    }
+
+    if (genMatch && genMatch.fullPublicPath) {
+      addCandidate(genMatch.fullPublicPath);
+    }
   }
 
-  // 2. Mapped Manifest Hash (imageManifest.js) if loaded
+  // 3. Mapped Manifest Hash (imageManifest.js - Supabase Storage CDN fallback)
+  const mappedManifest = mappedImageManifestCache;
   if (mappedManifest) {
     const lookupKeys = [
       rawCode, cleanedCode, codeNorm,
@@ -279,28 +292,6 @@ export function getProductImageCandidates(product) {
           }
         }
       }
-    }
-  }
-
-  // If candidate found in mappedManifest, return early
-  if (candidates.length > 0) {
-    return sortProductImagesByType(candidates, rawCode);
-  }
-
-  // 3. Fast Indexed Generated manifest lookup (materialImageManifest.generated.js)
-  if (generatedManifest && (codeNorm || nameNorm)) {
-    const indices = getGeneratedManifestIndices();
-    let genMatch = null;
-
-    if (codeNorm) {
-      genMatch = indices.codeIndex.get(codeNorm);
-    }
-    if (!genMatch && nameNorm) {
-      genMatch = indices.nameIndex.get(nameNorm);
-    }
-
-    if (genMatch && genMatch.fullPublicPath) {
-      addCandidate(genMatch.fullPublicPath);
     }
   }
 
