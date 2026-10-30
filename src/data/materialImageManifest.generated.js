@@ -18,7 +18,17 @@ export const imageManifest = [
     "series": "KCC_pro/KCC프로 600각",
     "extractedCode": "30141M",
     "normalizedFileName": "30141m30142minstalljpg",
-    "imageType": "material"
+    "imageType": "office"
+  },
+  {
+    "fileName": "30141M_30142M_install.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 600각/30141M_30142M_install.jpg",
+    "category": "데코타일",
+    "brand": "KCC",
+    "series": "KCC_pro/KCC프로 600각",
+    "extractedCode": "30142M",
+    "normalizedFileName": "30141m30142minstalljpg",
+    "imageType": "office"
   },
   {
     "fileName": "30142M.webp",
@@ -58,7 +68,7 @@ export const imageManifest = [
     "series": "KCC_pro/KCC프로 600각",
     "extractedCode": "30152M",
     "normalizedFileName": "30152minstalljpg",
-    "imageType": "material"
+    "imageType": "office"
   },
   {
     "fileName": "30153M.webp",
@@ -118,7 +128,7 @@ export const imageManifest = [
     "series": "KCC_pro/KCC프로 600각",
     "extractedCode": "30163M",
     "normalizedFileName": "30163minstalljpg",
-    "imageType": "material"
+    "imageType": "office"
   },
   {
     "fileName": "30171M.webp",
@@ -138,7 +148,7 @@ export const imageManifest = [
     "series": "KCC_pro/KCC프로 600각",
     "extractedCode": "30171M",
     "normalizedFileName": "30171minstalljpg",
-    "imageType": "material"
+    "imageType": "office"
   },
   {
     "fileName": "30181M.webp",
@@ -168,7 +178,7 @@ export const imageManifest = [
     "series": "KCC_pro/KCC프로 600각",
     "extractedCode": "30182M",
     "normalizedFileName": "30182minstalljpg",
-    "imageType": "material"
+    "imageType": "office"
   },
   {
     "fileName": "30191M.webp",
@@ -208,7 +218,7 @@ export const imageManifest = [
     "series": "KCC_pro/KCC프로 600각",
     "extractedCode": "30193M",
     "normalizedFileName": "30193minstalljpg",
-    "imageType": "material"
+    "imageType": "office"
   },
   {
     "fileName": "30201M.webp",
@@ -228,7 +238,7 @@ export const imageManifest = [
     "series": "KCC_pro/KCC프로 600각",
     "extractedCode": "30201M",
     "normalizedFileName": "30201minstalljpg",
-    "imageType": "material"
+    "imageType": "office"
   },
   {
     "fileName": "33021M.webp",
@@ -248,7 +258,7 @@ export const imageManifest = [
     "series": "KCC_pro/KCC프로 600각",
     "extractedCode": "33021M",
     "normalizedFileName": "33021minstalljpg",
-    "imageType": "material"
+    "imageType": "office"
   },
   {
     "fileName": "33022M.webp",
@@ -298,7 +308,7 @@ export const imageManifest = [
     "series": "KCC_pro/KCC프로 600각",
     "extractedCode": "33032M",
     "normalizedFileName": "33032minstalljpg",
-    "imageType": "material"
+    "imageType": "office"
   },
   {
     "fileName": "33101M.webp",
@@ -328,7 +338,7 @@ export const imageManifest = [
     "series": "KCC_pro/KCC프로 600각",
     "extractedCode": "33102M",
     "normalizedFileName": "33102minstalljpg",
-    "imageType": "material"
+    "imageType": "office"
   },
   {
     "fileName": "33151M.webp",
@@ -348,7 +358,7 @@ export const imageManifest = [
     "series": "KCC_pro/KCC프로 600각",
     "extractedCode": "33151M",
     "normalizedFileName": "33151minstalljpg",
-    "imageType": "material"
+    "imageType": "office"
   },
   {
     "fileName": "33152M.webp",
@@ -378,7 +388,7 @@ export const imageManifest = [
     "series": "KCC_pro/KCC프로 사각/3.0T",
     "extractedCode": "30082P",
     "normalizedFileName": "30082pinstalljpg",
-    "imageType": "material"
+    "imageType": "office"
   },
   {
     "fileName": "30102P.webp",
@@ -398,7 +408,7 @@ export const imageManifest = [
     "series": "KCC_pro/KCC프로 사각/3.0T",
     "extractedCode": "30102P",
     "normalizedFileName": "30102pinstalljpg",
-    "imageType": "material"
+    "imageType": "office"
   },
   {
     "fileName": "30111P.webp",
@@ -428,7 +438,7 @@ export const imageManifest = [
     "series": "KCC_pro/KCC프로 사각/3.0T",
     "extractedCode": "30112P",
     "normalizedFileName": "30112pinstalljpg",
-    "imageType": "material"
+    "imageType": "office"
   },
   {
     "fileName": "30113P.webp",
@@ -468,7 +478,7 @@ export const imageManifest = [
     "series": "KCC_pro/KCC프로 사각/3.0T",
     "extractedCode": "30133P",
     "normalizedFileName": "30133pinstalljpg",
-    "imageType": "material"
+    "imageType": "office"
   },
   {
     "fileName": "30221P.webp",
@@ -488,7 +498,27 @@ export const imageManifest = [
     "series": "KCC_pro/KCC프로 사각/3.0T",
     "extractedCode": "30221P",
     "normalizedFileName": "30221p30222p30224pinstalljpg",
-    "imageType": "material"
+    "imageType": "office"
+  },
+  {
+    "fileName": "30221P_30222P_30224P_install.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 사각/3.0T/30221P_30222P_30224P_install.jpg",
+    "category": "데코타일",
+    "brand": "KCC",
+    "series": "KCC_pro/KCC프로 사각/3.0T",
+    "extractedCode": "30222P",
+    "normalizedFileName": "30221p30222p30224pinstalljpg",
+    "imageType": "office"
+  },
+  {
+    "fileName": "30221P_30222P_30224P_install.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 사각/3.0T/30221P_30222P_30224P_install.jpg",
+    "category": "데코타일",
+    "brand": "KCC",
+    "series": "KCC_pro/KCC프로 사각/3.0T",
+    "extractedCode": "30224P",
+    "normalizedFileName": "30221p30222p30224pinstalljpg",
+    "imageType": "office"
   },
   {
     "fileName": "30222P.webp",
@@ -518,7 +548,17 @@ export const imageManifest = [
     "series": "KCC_pro/KCC프로 사각/3.0T",
     "extractedCode": "30223P",
     "normalizedFileName": "30223p30225pinstalljpg",
-    "imageType": "material"
+    "imageType": "office"
+  },
+  {
+    "fileName": "30223P_30225P_install.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 사각/3.0T/30223P_30225P_install.jpg",
+    "category": "데코타일",
+    "brand": "KCC",
+    "series": "KCC_pro/KCC프로 사각/3.0T",
+    "extractedCode": "30225P",
+    "normalizedFileName": "30223p30225pinstalljpg",
+    "imageType": "office"
   },
   {
     "fileName": "30224P.webp",
@@ -598,7 +638,7 @@ export const imageManifest = [
     "series": "KCC_pro/KCC프로 사각/3.0T",
     "extractedCode": "33161P",
     "normalizedFileName": "33161pinstalljpg",
-    "imageType": "material"
+    "imageType": "office"
   },
   {
     "fileName": "33171P.webp",
@@ -618,7 +658,7 @@ export const imageManifest = [
     "series": "KCC_pro/KCC프로 사각/3.0T",
     "extractedCode": "33171P",
     "normalizedFileName": "33171pinstalljpg",
-    "imageType": "material"
+    "imageType": "office"
   },
   {
     "fileName": "33172P.webp",
@@ -668,7 +708,7 @@ export const imageManifest = [
     "series": "KCC_pro/KCC프로 사각/3.0T",
     "extractedCode": "33183P",
     "normalizedFileName": "33183pinstalljpg",
-    "imageType": "material"
+    "imageType": "office"
   },
   {
     "fileName": "33191P.webp",
@@ -718,7 +758,7 @@ export const imageManifest = [
     "series": "KCC_pro/KCC프로 사각/3.0T",
     "extractedCode": "33211P",
     "normalizedFileName": "33211pinstalljpg",
-    "imageType": "material"
+    "imageType": "office"
   },
   {
     "fileName": "B0111J.webp",
@@ -778,7 +818,7 @@ export const imageManifest = [
     "series": "KCC_pro/KCC프로 사각/5.0T",
     "extractedCode": "B0122J",
     "normalizedFileName": "b0122jinstalljpg",
-    "imageType": "material"
+    "imageType": "office"
   },
   {
     "fileName": "B3181J.webp",
@@ -908,7 +948,7 @@ export const imageManifest = [
     "series": "KCC_pro/KCC프로 우드",
     "extractedCode": "35052G",
     "normalizedFileName": "35052ginstalljpg",
-    "imageType": "material"
+    "imageType": "office"
   },
   {
     "fileName": "35062G.webp",
@@ -938,7 +978,7 @@ export const imageManifest = [
     "series": "KCC_pro/KCC프로 우드",
     "extractedCode": "35064G",
     "normalizedFileName": "35064ginstalljpg",
-    "imageType": "material"
+    "imageType": "office"
   },
   {
     "fileName": "38011G.webp",
@@ -988,7 +1028,7 @@ export const imageManifest = [
     "series": "KCC_pro/KCC프로 우드",
     "extractedCode": "38141G",
     "normalizedFileName": "38141ginstalljpg",
-    "imageType": "material"
+    "imageType": "office"
   },
   {
     "fileName": "38142G.webp",

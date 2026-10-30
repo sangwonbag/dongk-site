@@ -148,15 +148,15 @@ function extractCodesFromFilename(filename) {
         cleanName = cleanName
             .replace(/\.jpg_[0-9]+cross$/i, '')
             .replace(/_(?:thumbnail|detail)$/i, '')
-            .replace(/_(?:사무실|시공예시|시공|상업공간|패턴|확장|거실|침실|카페|매장|office|scene|room|2x2|90cross|180cross)$/i, '')
+            .replace(/_(?:사무실|시공예시|시공|상업공간|패턴|확장|거실|침실|카페|매장|office|scene|room|install|installation|2x2|90cross|180cross)$/i, '')
             .replace(/_(\d+)$/, '')
             .replace(/\s*\(\d+\)$/, '')
             .trim();
     } while (cleanName !== prevName);
 
-    // If combined like B0156M_B0158M or DS626_DS627 or AS1810_AS1814
+    // If combined like B0156M_B0158M or DS626_DS627 or AS1810_AS1814 or 30141M_30142M or 30221P_30222P_30224P
     const parts = cleanName.split('_');
-    const validCodeRegex = /^[A-Z]{1,5}\s*\d{3,5}(?:-\d+)?[A-Z]*$/i;
+    const validCodeRegex = /^(?:[A-Z]{1,5}\s*\d{3,5}(?:-\d+)?[A-Z]*|\d{3,6}(?:-\d+)?[A-Z]+)$/i;
     if (parts.length > 1 && parts.every(p => validCodeRegex.test(p.trim()))) {
         return parts.map(p => p.trim());
     }
@@ -203,7 +203,7 @@ const preprocessedFiles = allFiles.map(f => {
         index = 1;
     } else if (lower.includes('90cross') || lower.includes('_cross') || lower.includes('크로스') || /(?:^|[_\-\s])cross(?:[_\-\s.]|$)/i.test(fileName)) {
         index = 2;
-    } else if (lower.includes('사무실') || lower.includes('상업공간') || lower.includes('시공') || lower.includes('시공예시') || lower.includes('installation') || lower.includes('office') || lower.includes('scene') || /^oa\d+_2\.(jpe?g|png|webp)$/i.test(fileName)) {
+    } else if (lower.includes('사무실') || lower.includes('상업공간') || lower.includes('시공') || lower.includes('시공예시') || lower.includes('install') || lower.includes('installation') || lower.includes('office') || lower.includes('scene') || /^oa\d+_2\.(jpe?g|png|webp)$/i.test(fileName)) {
         index = 3;
     } else if (lower.includes('180cross') || lower.includes('회전') || /_([2-9])\.(jpe?g|png|webp)$/i.test(fileName)) {
         index = 4;

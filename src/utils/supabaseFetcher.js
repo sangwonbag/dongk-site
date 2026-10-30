@@ -275,7 +275,9 @@ export function mapProductRow(p) {
   const isSenseRay = code.startsWith('B') || (p.name || '').startsWith('KCC 센스레이') || p.line === '센스레이';
 
   let rawImg = p.image_url || null;
-  if (isSenseRay && rawImg && (rawImg.includes('/KCC_pro/') || rawImg.includes('KCC_pro') || rawImg.includes('센스타일') || rawImg.includes('TS55'))) {
+  const normCodeCheck = code.replace(/\s+/g, '').toUpperCase();
+  const hasOwnCodeInImg = normCodeCheck && rawImg && rawImg.toUpperCase().includes(normCodeCheck);
+  if (isSenseRay && rawImg && !hasOwnCodeInImg && (rawImg.includes('/KCC_pro/') || rawImg.includes('KCC_pro') || rawImg.includes('센스타일') || rawImg.includes('TS55'))) {
     rawImg = null;
   }
 

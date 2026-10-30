@@ -212,7 +212,8 @@ export function getProductImageCandidates(product) {
       if (norm.includes('B0122J') && !codeNorm.includes('B0122')) {
         return; // Prevent B0122J from being assigned to other SenseRay products
       }
-      if (norm.includes('/KCC_pro/') || norm.includes('KCC_pro') || norm.includes('센스타일') || norm.includes('TS55') || norm.includes('KCC_square')) {
+      const hasOwnCode = codeNorm && normDecoded.toUpperCase().includes(codeNorm);
+      if (!hasOwnCode && (norm.includes('/KCC_pro/') || norm.includes('KCC_pro') || norm.includes('센스타일') || norm.includes('TS55') || norm.includes('KCC_square'))) {
         return;
       }
     } else if (lineup === 'sensestyle-pro') {
@@ -386,6 +387,7 @@ export function classifyProductImage(url, productCode = '') {
     lower.includes('현장') ||
     lower.includes('office') ||
     lower.includes('commercial') ||
+    lower.includes('install') ||
     lower.includes('installation') ||
     lower.includes('interior') ||
     lower.includes('scene') ||

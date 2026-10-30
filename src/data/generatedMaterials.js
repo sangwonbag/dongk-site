@@ -12,10 +12,11 @@ export const materials = [
     "subLine": "센스타일 프로",
     "name": "KCC 센스타일 프로 그란데 테라조 30082P",
     "code": "30082P",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/30082P.png",
-    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/30082P.png",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 사각/3.0T/30082P.webp",
+    "image": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 사각/3.0T/30082P.webp",
     "images": [
-      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/30082P.png"
+      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 사각/3.0T/30082P.webp",
+      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 사각/3.0T/30082P_install.jpg"
     ],
     "price": 35000,
     "thickness": "3.0T",
@@ -38,12 +39,11 @@ export const materials = [
     "subLine": "센스타일 프로",
     "name": "KCC 센스타일 프로 믹스 쉐브론 30102P",
     "code": "30102P",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/30102P.png",
-    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/30102P.png",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 사각/3.0T/30102P.webp",
+    "image": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 사각/3.0T/30102P.webp",
     "images": [
-      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/30102P.png",
-      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/30102P_1.png",
-      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/30102P_2.png"
+      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 사각/3.0T/30102P.webp",
+      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 사각/3.0T/30102P_install.jpg"
     ],
     "price": 35000,
     "thickness": "3.0T",
@@ -66,10 +66,10 @@ export const materials = [
     "subLine": "센스타일 프로",
     "name": "KCC 센스타일 프로 텍스처 콘크리트 30111P",
     "code": "30111P",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/30111P.png",
-    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/30111P.png",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 사각/3.0T/30111P.webp",
+    "image": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 사각/3.0T/30111P.webp",
     "images": [
-      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/30111P.png"
+      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 사각/3.0T/30111P.webp"
     ],
     "price": 35000,
     "thickness": "3.0T",
@@ -92,10 +92,11 @@ export const materials = [
     "subLine": "센스타일 프로",
     "name": "KCC 센스타일 프로 텍스처 콘크리트 30112P",
     "code": "30112P",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/30112P.png",
-    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/30112P.png",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 사각/3.0T/30112P.webp",
+    "image": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 사각/3.0T/30112P.webp",
     "images": [
-      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/30112P.png"
+      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 사각/3.0T/30112P.webp",
+      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 사각/3.0T/30112P_install.jpg"
     ],
     "price": 35000,
     "thickness": "3.0T",
@@ -118,10 +119,10 @@ export const materials = [
     "subLine": "센스타일 프로",
     "name": "KCC 센스타일 프로 텍스처 콘크리트 30113P",
     "code": "30113P",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/30113P.png",
-    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/30113P.png",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 사각/3.0T/30113P.webp",
+    "image": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 사각/3.0T/30113P.webp",
     "images": [
-      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/30113P.png"
+      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 사각/3.0T/30113P.webp"
     ],
     "price": 35000,
     "thickness": "3.0T",
@@ -144,10 +145,10 @@ export const materials = [
     "subLine": "센스타일 프로",
     "name": "KCC 센스타일 프로 텍스처 콘크리트 30114P",
     "code": "30114P",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/30114P.png",
-    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/30114P.png",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 사각/3.0T/30114P.webp",
+    "image": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 사각/3.0T/30114P.webp",
     "images": [
-      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/30114P.png"
+      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 사각/3.0T/30114P.webp"
     ],
     "price": 35000,
     "thickness": "3.0T",
@@ -170,10 +171,11 @@ export const materials = [
     "subLine": "센스타일 프로",
     "name": "KCC 센스타일 프로 트래버틴 30133P",
     "code": "30133P",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/30133P.png",
-    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/30133P.png",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 사각/3.0T/30133P.webp",
+    "image": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 사각/3.0T/30133P.webp",
     "images": [
-      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/30133P.png"
+      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 사각/3.0T/30133P.webp",
+      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 사각/3.0T/30133P_install.jpg"
     ],
     "price": 35000,
     "thickness": "3.0T",
@@ -196,10 +198,11 @@ export const materials = [
     "subLine": "센스타일 프로",
     "name": "KCC 센스타일 프로 실키스톤 30141M",
     "code": "30141M",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/30141M.png",
-    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/30141M.png",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 600각/30141M.webp",
+    "image": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 600각/30141M.webp",
     "images": [
-      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/30141M.png"
+      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 600각/30141M.webp",
+      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 600각/30141M_30142M_install.jpg"
     ],
     "price": 35000,
     "thickness": "3.0T",
@@ -222,10 +225,11 @@ export const materials = [
     "subLine": "센스타일 프로",
     "name": "KCC 센스타일 프로 실키스톤 30142M",
     "code": "30142M",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/30142M.png",
-    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/30142M.png",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 600각/30142M.webp",
+    "image": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 600각/30142M.webp",
     "images": [
-      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/30142M.png"
+      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 600각/30142M.webp",
+      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 600각/30141M_30142M_install.jpg"
     ],
     "price": 35000,
     "thickness": "3.0T",
@@ -248,10 +252,10 @@ export const materials = [
     "subLine": "센스타일 프로",
     "name": "KCC 센스타일 프로 베이직 콘크리트 30151M",
     "code": "30151M",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/30151M.png",
-    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/30151M.png",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 600각/30151M.webp",
+    "image": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 600각/30151M.webp",
     "images": [
-      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/30151M.png"
+      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 600각/30151M.webp"
     ],
     "price": 35000,
     "thickness": "3.0T",
@@ -274,10 +278,11 @@ export const materials = [
     "subLine": "센스타일 프로",
     "name": "KCC 센스타일 프로 베이직 콘크리트 30152M",
     "code": "30152M",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/30152M.png",
-    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/30152M.png",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 600각/30152M.webp",
+    "image": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 600각/30152M.webp",
     "images": [
-      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/30152M.png"
+      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 600각/30152M.webp",
+      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 600각/30152M_install.jpg"
     ],
     "price": 35000,
     "thickness": "3.0T",
@@ -300,10 +305,10 @@ export const materials = [
     "subLine": "센스타일 프로",
     "name": "KCC 센스타일 프로 베이직 콘크리트 30153M",
     "code": "30153M",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/30153M.png",
-    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/30153M.png",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 600각/30153M.webp",
+    "image": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 600각/30153M.webp",
     "images": [
-      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/30153M.png"
+      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 600각/30153M.webp"
     ],
     "price": 35000,
     "thickness": "3.0T",
@@ -326,10 +331,10 @@ export const materials = [
     "subLine": "센스타일 프로",
     "name": "KCC 센스타일 프로 베이직 콘크리트 30154M",
     "code": "30154M",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/30154M.png",
-    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/30154M.png",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 600각/30154M.webp",
+    "image": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 600각/30154M.webp",
     "images": [
-      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/30154M.png"
+      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 600각/30154M.webp"
     ],
     "price": 35000,
     "thickness": "3.0T",
@@ -352,10 +357,10 @@ export const materials = [
     "subLine": "센스타일 프로",
     "name": "KCC 센스타일 프로 임페리얼 스톤 30161M",
     "code": "30161M",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/30161M.png",
-    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/30161M.png",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 600각/30161M.webp",
+    "image": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 600각/30161M.webp",
     "images": [
-      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/30161M.png"
+      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 600각/30161M.webp"
     ],
     "price": 35000,
     "thickness": "3.0T",
@@ -378,10 +383,10 @@ export const materials = [
     "subLine": "센스타일 프로",
     "name": "KCC 센스타일 프로 임페리얼 스톤 30162M",
     "code": "30162M",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/30162M.png",
-    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/30162M.png",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 600각/30162M.webp",
+    "image": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 600각/30162M.webp",
     "images": [
-      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/30162M.png"
+      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 600각/30162M.webp"
     ],
     "price": 35000,
     "thickness": "3.0T",
@@ -404,10 +409,11 @@ export const materials = [
     "subLine": "센스타일 프로",
     "name": "KCC 센스타일 프로 임페리얼 스톤 30163M",
     "code": "30163M",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/30163M.png",
-    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/30163M.png",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 600각/30163M.webp",
+    "image": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 600각/30163M.webp",
     "images": [
-      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/30163M.png"
+      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 600각/30163M.webp",
+      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 600각/30163M_install.jpg"
     ],
     "price": 35000,
     "thickness": "3.0T",
@@ -430,10 +436,11 @@ export const materials = [
     "subLine": "센스타일 프로",
     "name": "KCC 센스타일 프로 델리카토 30171M",
     "code": "30171M",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/30171M.png",
-    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/30171M.png",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 600각/30171M.webp",
+    "image": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 600각/30171M.webp",
     "images": [
-      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/30171M.png"
+      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 600각/30171M.webp",
+      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 600각/30171M_install.jpg"
     ],
     "price": 35000,
     "thickness": "3.0T",
@@ -456,10 +463,10 @@ export const materials = [
     "subLine": "센스타일 프로",
     "name": "KCC 센스타일 프로 마이크로 테라조 30181M",
     "code": "30181M",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/30181M.png",
-    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/30181M.png",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 600각/30181M.webp",
+    "image": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 600각/30181M.webp",
     "images": [
-      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/30181M.png"
+      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 600각/30181M.webp"
     ],
     "price": 35000,
     "thickness": "3.0T",
@@ -482,10 +489,11 @@ export const materials = [
     "subLine": "센스타일 프로",
     "name": "KCC 센스타일 프로 마이크로 테라조 30182M",
     "code": "30182M",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/30182M.png",
-    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/30182M.png",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 600각/30182M.webp",
+    "image": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 600각/30182M.webp",
     "images": [
-      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/30182M.png"
+      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 600각/30182M.webp",
+      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 600각/30182M_install.jpg"
     ],
     "price": 35000,
     "thickness": "3.0T",
@@ -508,10 +516,10 @@ export const materials = [
     "subLine": "센스타일 프로",
     "name": "KCC 센스타일 프로 로만스톤 30191M",
     "code": "30191M",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/30191M.png",
-    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/30191M.png",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 600각/30191M.webp",
+    "image": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 600각/30191M.webp",
     "images": [
-      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/30191M.png"
+      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 600각/30191M.webp"
     ],
     "price": 35000,
     "thickness": "3.0T",
@@ -534,10 +542,10 @@ export const materials = [
     "subLine": "센스타일 프로",
     "name": "KCC 센스타일 프로 로만스톤 30192M",
     "code": "30192M",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/30192M.png",
-    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/30192M.png",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 600각/30192M.webp",
+    "image": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 600각/30192M.webp",
     "images": [
-      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/30192M.png"
+      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 600각/30192M.webp"
     ],
     "price": 35000,
     "thickness": "3.0T",
@@ -560,10 +568,11 @@ export const materials = [
     "subLine": "센스타일 프로",
     "name": "KCC 센스타일 프로 로만스톤 30193M",
     "code": "30193M",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/30193M.png",
-    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/30193M.png",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 600각/30193M.webp",
+    "image": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 600각/30193M.webp",
     "images": [
-      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/30193M.png"
+      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 600각/30193M.webp",
+      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 600각/30193M_install.jpg"
     ],
     "price": 35000,
     "thickness": "3.0T",
@@ -586,10 +595,11 @@ export const materials = [
     "subLine": "센스타일 프로",
     "name": "KCC 센스타일 프로 화이트 라이노 30201M",
     "code": "30201M",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/30201M.png",
-    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/30201M.png",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 600각/30201M.webp",
+    "image": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 600각/30201M.webp",
     "images": [
-      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/30201M.png"
+      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 600각/30201M.webp",
+      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 600각/30201M_install.jpg"
     ],
     "price": 35000,
     "thickness": "3.0T",
@@ -612,11 +622,11 @@ export const materials = [
     "subLine": "센스타일 프로",
     "name": "KCC 센스타일 프로 네오 패브릭 30221P",
     "code": "30221P",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/30221P_0.png",
-    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/30221P_0.png",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 사각/3.0T/30221P.webp",
+    "image": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 사각/3.0T/30221P.webp",
     "images": [
-      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/30221P_0.png",
-      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/30221P_1.png"
+      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 사각/3.0T/30221P.webp",
+      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 사각/3.0T/30221P_30222P_30224P_install.jpg"
     ],
     "price": 35000,
     "thickness": "3.0T",
@@ -639,11 +649,11 @@ export const materials = [
     "subLine": "센스타일 프로",
     "name": "KCC 센스타일 프로 네오 패브릭 30222P",
     "code": "30222P",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/30222P.png",
-    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/30222P.png",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 사각/3.0T/30222P.webp",
+    "image": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 사각/3.0T/30222P.webp",
     "images": [
-      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/30222P.png",
-      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/30222P_1.png"
+      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 사각/3.0T/30222P.webp",
+      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 사각/3.0T/30221P_30222P_30224P_install.jpg"
     ],
     "price": 35000,
     "thickness": "3.0T",
@@ -666,11 +676,11 @@ export const materials = [
     "subLine": "센스타일 프로",
     "name": "KCC 센스타일 프로 네오 패브릭 30223P",
     "code": "30223P",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/30223P.png",
-    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/30223P.png",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 사각/3.0T/30223P.webp",
+    "image": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 사각/3.0T/30223P.webp",
     "images": [
-      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/30223P.png",
-      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/30223P_1.png"
+      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 사각/3.0T/30223P.webp",
+      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 사각/3.0T/30223P_30225P_install.jpg"
     ],
     "price": 35000,
     "thickness": "3.0T",
@@ -693,11 +703,11 @@ export const materials = [
     "subLine": "센스타일 프로",
     "name": "KCC 센스타일 프로 네오 패브릭 30224P",
     "code": "30224P",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/30224P.png",
-    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/30224P.png",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 사각/3.0T/30224P.webp",
+    "image": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 사각/3.0T/30224P.webp",
     "images": [
-      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/30224P.png",
-      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/30224P_1.png"
+      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 사각/3.0T/30224P.webp",
+      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 사각/3.0T/30221P_30222P_30224P_install.jpg"
     ],
     "price": 35000,
     "thickness": "3.0T",
@@ -720,11 +730,11 @@ export const materials = [
     "subLine": "센스타일 프로",
     "name": "KCC 센스타일 프로 네오 패브릭 30225P",
     "code": "30225P",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/30225P.png",
-    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/30225P.png",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 사각/3.0T/30225P.webp",
+    "image": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 사각/3.0T/30225P.webp",
     "images": [
-      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/30225P.png",
-      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/30225P_1.png"
+      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 사각/3.0T/30225P.webp",
+      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 사각/3.0T/30223P_30225P_install.jpg"
     ],
     "price": 35000,
     "thickness": "3.0T",
@@ -747,11 +757,10 @@ export const materials = [
     "subLine": "센스타일 프로",
     "name": "KCC 센스타일 프로 네오 패브릭 30226P",
     "code": "30226P",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/30226P_0.png",
-    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/30226P_0.png",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 사각/3.0T/30226P.webp",
+    "image": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 사각/3.0T/30226P.webp",
     "images": [
-      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/30226P_0.png",
-      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/30226P_1.png"
+      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 사각/3.0T/30226P.webp"
     ],
     "price": 35000,
     "thickness": "3.0T",
@@ -774,10 +783,10 @@ export const materials = [
     "subLine": "센스타일 프로",
     "name": "KCC 센스타일 프로 추상 33011P",
     "code": "33011P",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/33011P.png",
-    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/33011P.png",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 사각/3.0T/33011P.webp",
+    "image": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 사각/3.0T/33011P.webp",
     "images": [
-      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/33011P.png"
+      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 사각/3.0T/33011P.webp"
     ],
     "price": 35000,
     "thickness": "3.0T",
@@ -800,10 +809,11 @@ export const materials = [
     "subLine": "센스타일 프로",
     "name": "KCC 센스타일 프로 콘크리트 33021M",
     "code": "33021M",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/33021M.png",
-    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/33021M.png",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 600각/33021M.webp",
+    "image": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 600각/33021M.webp",
     "images": [
-      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/33021M.png"
+      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 600각/33021M.webp",
+      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 600각/33021M_install.jpg"
     ],
     "price": 35000,
     "thickness": "3.0T",
@@ -826,10 +836,10 @@ export const materials = [
     "subLine": "센스타일 프로",
     "name": "KCC 센스타일 프로 콘크리트 33022M",
     "code": "33022M",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/33022M.png",
-    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/33022M.png",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 600각/33022M.webp",
+    "image": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 600각/33022M.webp",
     "images": [
-      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/33022M.png"
+      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 600각/33022M.webp"
     ],
     "price": 35000,
     "thickness": "3.0T",
@@ -852,10 +862,10 @@ export const materials = [
     "subLine": "센스타일 프로",
     "name": "KCC 센스타일 프로 콘크리트 33023M",
     "code": "33023M",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/33023M.png",
-    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/33023M.png",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 600각/33023M.webp",
+    "image": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 600각/33023M.webp",
     "images": [
-      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/33023M.png"
+      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 600각/33023M.webp"
     ],
     "price": 35000,
     "thickness": "3.0T",
@@ -878,10 +888,10 @@ export const materials = [
     "subLine": "센스타일 프로",
     "name": "KCC 센스타일 프로 사하라 누아르 33031M",
     "code": "33031M",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/33031M.png",
-    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/33031M.png",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 600각/33031M.webp",
+    "image": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 600각/33031M.webp",
     "images": [
-      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/33031M.png"
+      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 600각/33031M.webp"
     ],
     "price": 35000,
     "thickness": "3.0T",
@@ -904,10 +914,11 @@ export const materials = [
     "subLine": "센스타일 프로",
     "name": "KCC 센스타일 프로 사하라 누아르 33032M",
     "code": "33032M",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/33032M.png",
-    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/33032M.png",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 600각/33032M.webp",
+    "image": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 600각/33032M.webp",
     "images": [
-      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/33032M.png"
+      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 600각/33032M.webp",
+      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 600각/33032M_install.jpg"
     ],
     "price": 35000,
     "thickness": "3.0T",
@@ -930,10 +941,10 @@ export const materials = [
     "subLine": "센스타일 프로",
     "name": "KCC 센스타일 프로 카펫 33101M",
     "code": "33101M",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/33101M.png",
-    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/33101M.png",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 600각/33101M.webp",
+    "image": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 600각/33101M.webp",
     "images": [
-      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/33101M.png"
+      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 600각/33101M.webp"
     ],
     "price": 35000,
     "thickness": "3.0T",
@@ -956,10 +967,11 @@ export const materials = [
     "subLine": "센스타일 프로",
     "name": "KCC 센스타일 프로 카펫 33102M",
     "code": "33102M",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/33102M.png",
-    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/33102M.png",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 600각/33102M.webp",
+    "image": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 600각/33102M.webp",
     "images": [
-      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/33102M.png"
+      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 600각/33102M.webp",
+      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 600각/33102M_install.jpg"
     ],
     "price": 35000,
     "thickness": "3.0T",
@@ -982,10 +994,10 @@ export const materials = [
     "subLine": "센스타일 프로",
     "name": "KCC 센스타일 프로 스트라이프 카펫 33121P",
     "code": "33121P",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/33121P.png",
-    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/33121P.png",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 사각/3.0T/33121P.webp",
+    "image": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 사각/3.0T/33121P.webp",
     "images": [
-      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/33121P.png"
+      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 사각/3.0T/33121P.webp"
     ],
     "price": 35000,
     "thickness": "3.0T",
@@ -1008,10 +1020,10 @@ export const materials = [
     "subLine": "센스타일 프로",
     "name": "KCC 센스타일 프로 스트라이프 카펫 33122P",
     "code": "33122P",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/33122P.png",
-    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/33122P.png",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 사각/3.0T/33122P.webp",
+    "image": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 사각/3.0T/33122P.webp",
     "images": [
-      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/33122P.png"
+      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 사각/3.0T/33122P.webp"
     ],
     "price": 35000,
     "thickness": "3.0T",
@@ -1034,10 +1046,11 @@ export const materials = [
     "subLine": "센스타일 프로",
     "name": "KCC 센스타일 프로 헤라 콘크리트 33151M",
     "code": "33151M",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/33151M.png",
-    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/33151M.png",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 600각/33151M.webp",
+    "image": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 600각/33151M.webp",
     "images": [
-      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/33151M.png"
+      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 600각/33151M.webp",
+      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 600각/33151M_install.jpg"
     ],
     "price": 35000,
     "thickness": "3.0T",
@@ -1060,10 +1073,10 @@ export const materials = [
     "subLine": "센스타일 프로",
     "name": "KCC 센스타일 프로 헤라 콘크리트 33152M",
     "code": "33152M",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/33152M.png",
-    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/33152M.png",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 600각/33152M.webp",
+    "image": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 600각/33152M.webp",
     "images": [
-      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/33152M.png"
+      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 600각/33152M.webp"
     ],
     "price": 35000,
     "thickness": "3.0T",
@@ -1086,10 +1099,11 @@ export const materials = [
     "subLine": "센스타일 프로",
     "name": "KCC 센스타일 프로 마블 33161P",
     "code": "33161P",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/33161P.png",
-    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/33161P.png",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 사각/3.0T/33161P.webp",
+    "image": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 사각/3.0T/33161P.webp",
     "images": [
-      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/33161P.png"
+      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 사각/3.0T/33161P.webp",
+      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 사각/3.0T/33161P_install.jpg"
     ],
     "price": 35000,
     "thickness": "3.0T",
@@ -1112,10 +1126,11 @@ export const materials = [
     "subLine": "센스타일 프로",
     "name": "KCC 센스타일 프로 리버스톤 33171P",
     "code": "33171P",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/33171P.png",
-    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/33171P.png",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 사각/3.0T/33171P.webp",
+    "image": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 사각/3.0T/33171P.webp",
     "images": [
-      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/33171P.png"
+      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 사각/3.0T/33171P.webp",
+      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 사각/3.0T/33171P_install.jpg"
     ],
     "price": 35000,
     "thickness": "3.0T",
@@ -1138,10 +1153,10 @@ export const materials = [
     "subLine": "센스타일 프로",
     "name": "KCC 센스타일 프로 리버스톤 33172P",
     "code": "33172P",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/33172P.png",
-    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/33172P.png",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 사각/3.0T/33172P.webp",
+    "image": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 사각/3.0T/33172P.webp",
     "images": [
-      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/33172P.png"
+      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 사각/3.0T/33172P.webp"
     ],
     "price": 35000,
     "thickness": "3.0T",
@@ -1164,10 +1179,10 @@ export const materials = [
     "subLine": "센스타일 프로",
     "name": "KCC 센스타일 프로 콘그레이 33181P",
     "code": "33181P",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/33181P.png",
-    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/33181P.png",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 사각/3.0T/33181P.webp",
+    "image": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 사각/3.0T/33181P.webp",
     "images": [
-      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/33181P.png"
+      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 사각/3.0T/33181P.webp"
     ],
     "price": 35000,
     "thickness": "3.0T",
@@ -1190,10 +1205,10 @@ export const materials = [
     "subLine": "센스타일 프로",
     "name": "KCC 센스타일 프로 콘그레이 33182P",
     "code": "33182P",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/33182P.png",
-    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/33182P.png",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 사각/3.0T/33182P.webp",
+    "image": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 사각/3.0T/33182P.webp",
     "images": [
-      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/33182P.png"
+      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 사각/3.0T/33182P.webp"
     ],
     "price": 35000,
     "thickness": "3.0T",
@@ -1216,10 +1231,11 @@ export const materials = [
     "subLine": "센스타일 프로",
     "name": "KCC 센스타일 프로 콘그레이 33183P",
     "code": "33183P",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/33183P.png",
-    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/33183P.png",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 사각/3.0T/33183P.webp",
+    "image": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 사각/3.0T/33183P.webp",
     "images": [
-      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/33183P.png"
+      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 사각/3.0T/33183P.webp",
+      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 사각/3.0T/33183P_install.jpg"
     ],
     "price": 35000,
     "thickness": "3.0T",
@@ -1242,10 +1258,10 @@ export const materials = [
     "subLine": "센스타일 프로",
     "name": "KCC 센스타일 프로 소프트 콘크리트 33191P",
     "code": "33191P",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/33191P.png",
-    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/33191P.png",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 사각/3.0T/33191P.webp",
+    "image": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 사각/3.0T/33191P.webp",
     "images": [
-      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/33191P.png"
+      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 사각/3.0T/33191P.webp"
     ],
     "price": 35000,
     "thickness": "3.0T",
@@ -1268,10 +1284,10 @@ export const materials = [
     "subLine": "센스타일 프로",
     "name": "KCC 센스타일 프로 소프트 콘크리트 33192P",
     "code": "33192P",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/33192P.png",
-    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/33192P.png",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 사각/3.0T/33192P.webp",
+    "image": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 사각/3.0T/33192P.webp",
     "images": [
-      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/33192P.png"
+      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 사각/3.0T/33192P.webp"
     ],
     "price": 35000,
     "thickness": "3.0T",
@@ -1294,10 +1310,10 @@ export const materials = [
     "subLine": "센스타일 프로",
     "name": "KCC 센스타일 프로 테라조 33201P",
     "code": "33201P",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/33201P.png",
-    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/33201P.png",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 사각/3.0T/33201P.webp",
+    "image": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 사각/3.0T/33201P.webp",
     "images": [
-      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/33201P.png"
+      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 사각/3.0T/33201P.webp"
     ],
     "price": 35000,
     "thickness": "3.0T",
@@ -1320,10 +1336,11 @@ export const materials = [
     "subLine": "센스타일 프로",
     "name": "KCC 센스타일 프로 카펫 33211P",
     "code": "33211P",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/33211P.png",
-    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/33211P.png",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 사각/3.0T/33211P.webp",
+    "image": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 사각/3.0T/33211P.webp",
     "images": [
-      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/33211P.png"
+      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 사각/3.0T/33211P.webp",
+      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 사각/3.0T/33211P_install.jpg"
     ],
     "price": 35000,
     "thickness": "3.0T",
@@ -1346,10 +1363,10 @@ export const materials = [
     "subLine": "센스타일 프로",
     "name": "KCC 센스타일 프로 앤틱 오크 35001G",
     "code": "35001G",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/35001G.png",
-    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/35001G.png",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 우드/35001G.webp",
+    "image": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 우드/35001G.webp",
     "images": [
-      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/35001G.png"
+      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 우드/35001G.webp"
     ],
     "price": 35000,
     "thickness": "3.0T",
@@ -1372,10 +1389,10 @@ export const materials = [
     "subLine": "센스타일 프로",
     "name": "KCC 센스타일 프로 크랙 오크 35011G",
     "code": "35011G",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/35011G.png",
-    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/35011G.png",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 우드/35011G.webp",
+    "image": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 우드/35011G.webp",
     "images": [
-      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/35011G.png"
+      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 우드/35011G.webp"
     ],
     "price": 35000,
     "thickness": "3.0T",
@@ -1398,10 +1415,10 @@ export const materials = [
     "subLine": "센스타일 프로",
     "name": "KCC 센스타일 프로 노르딕 오크 35022G",
     "code": "35022G",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/35022G.png",
-    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/35022G.png",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 우드/35022G.webp",
+    "image": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 우드/35022G.webp",
     "images": [
-      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/35022G.png"
+      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 우드/35022G.webp"
     ],
     "price": 35000,
     "thickness": "3.0T",
@@ -1424,10 +1441,10 @@ export const materials = [
     "subLine": "센스타일 프로",
     "name": "KCC 센스타일 프로 캐시드럴 오크 35042G",
     "code": "35042G",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/35042G.png",
-    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/35042G.png",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 우드/35042G.webp",
+    "image": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 우드/35042G.webp",
     "images": [
-      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/35042G.png"
+      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 우드/35042G.webp"
     ],
     "price": 35000,
     "thickness": "3.0T",
@@ -1450,10 +1467,10 @@ export const materials = [
     "subLine": "센스타일 프로",
     "name": "KCC 센스타일 프로 캐시드럴 오크 35043G",
     "code": "35043G",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/35043G.png",
-    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/35043G.png",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 우드/35043G.webp",
+    "image": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 우드/35043G.webp",
     "images": [
-      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/35043G.png"
+      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 우드/35043G.webp"
     ],
     "price": 35000,
     "thickness": "3.0T",
@@ -1476,10 +1493,10 @@ export const materials = [
     "subLine": "센스타일 프로",
     "name": "KCC 센스타일 프로 내추럴 오크 35051G",
     "code": "35051G",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/35051G.png",
-    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/35051G.png",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 우드/35051G.webp",
+    "image": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 우드/35051G.webp",
     "images": [
-      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/35051G.png"
+      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 우드/35051G.webp"
     ],
     "price": 35000,
     "thickness": "3.0T",
@@ -1502,10 +1519,11 @@ export const materials = [
     "subLine": "센스타일 프로",
     "name": "KCC 센스타일 프로 내추럴 오크 35052G",
     "code": "35052G",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/35052G.png",
-    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/35052G.png",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 우드/35052G.webp",
+    "image": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 우드/35052G.webp",
     "images": [
-      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/35052G.png"
+      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 우드/35052G.webp",
+      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 우드/35052G_install.jpg"
     ],
     "price": 35000,
     "thickness": "3.0T",
@@ -1528,10 +1546,10 @@ export const materials = [
     "subLine": "센스타일 프로",
     "name": "KCC 센스타일 프로 쏘우밀 오크 35062G",
     "code": "35062G",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/35062G.png",
-    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/35062G.png",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 우드/35062G.webp",
+    "image": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 우드/35062G.webp",
     "images": [
-      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/35062G.png"
+      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 우드/35062G.webp"
     ],
     "price": 35000,
     "thickness": "3.0T",
@@ -1554,10 +1572,11 @@ export const materials = [
     "subLine": "센스타일 프로",
     "name": "KCC 센스타일 프로 쏘우밀 오크 35064G",
     "code": "35064G",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/35064G.png",
-    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/35064G.png",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 우드/35064G.webp",
+    "image": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 우드/35064G.webp",
     "images": [
-      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/35064G.png"
+      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 우드/35064G.webp",
+      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 우드/35064G_install.jpg"
     ],
     "price": 35000,
     "thickness": "3.0T",
@@ -1580,10 +1599,10 @@ export const materials = [
     "subLine": "센스타일 프로",
     "name": "KCC 센스타일 프로 오크 38011G",
     "code": "38011G",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/38011G.png",
-    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/38011G.png",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 우드/38011G.webp",
+    "image": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 우드/38011G.webp",
     "images": [
-      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/38011G.png"
+      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 우드/38011G.webp"
     ],
     "price": 35000,
     "thickness": "3.0T",
@@ -1606,10 +1625,10 @@ export const materials = [
     "subLine": "센스타일 프로",
     "name": "KCC 센스타일 프로 오크 38021G",
     "code": "38021G",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/38021G.png",
-    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/38021G.png",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 우드/38021G.webp",
+    "image": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 우드/38021G.webp",
     "images": [
-      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/38021G.png"
+      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 우드/38021G.webp"
     ],
     "price": 35000,
     "thickness": "3.0T",
@@ -1632,10 +1651,10 @@ export const materials = [
     "subLine": "센스타일 프로",
     "name": "KCC 센스타일 프로 오크 38031G",
     "code": "38031G",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/38031G.png",
-    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/38031G.png",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 우드/38031G.webp",
+    "image": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 우드/38031G.webp",
     "images": [
-      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/38031G.png"
+      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 우드/38031G.webp"
     ],
     "price": 35000,
     "thickness": "3.0T",
@@ -1658,10 +1677,11 @@ export const materials = [
     "subLine": "센스타일 프로",
     "name": "KCC 센스타일 프로 오크 38141G",
     "code": "38141G",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/38141G.png",
-    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/38141G.png",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 우드/38141G.webp",
+    "image": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 우드/38141G.webp",
     "images": [
-      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/38141G.png"
+      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 우드/38141G.webp",
+      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 우드/38141G_install.jpg"
     ],
     "price": 35000,
     "thickness": "3.0T",
@@ -1684,10 +1704,10 @@ export const materials = [
     "subLine": "센스타일 프로",
     "name": "KCC 센스타일 프로 오크 38142G",
     "code": "38142G",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/38142G.png",
-    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/38142G.png",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 우드/38142G.webp",
+    "image": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 우드/38142G.webp",
     "images": [
-      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/38142G.png"
+      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 우드/38142G.webp"
     ],
     "price": 35000,
     "thickness": "3.0T",
@@ -1710,10 +1730,10 @@ export const materials = [
     "subLine": "센스타일 프로",
     "name": "KCC 센스타일 프로 오크 38191G",
     "code": "38191G",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/38191G.png",
-    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/38191G.png",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 우드/38191G.webp",
+    "image": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 우드/38191G.webp",
     "images": [
-      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/KCC/KCC_pro/38191G.png"
+      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 우드/38191G.webp"
     ],
     "price": 35000,
     "thickness": "3.0T",
@@ -1736,9 +1756,12 @@ export const materials = [
     "subLine": "센스레이 5.0",
     "name": "KCC 센스레이 텍스처 콘크리트 B0111J",
     "code": "B0111J",
-    "thumbnail": null,
-    "image": null,
-    "images": [],
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 사각/5.0T/B0111J.webp",
+    "image": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 사각/5.0T/B0111J.webp",
+    "images": [
+      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 사각/5.0T/B0111J.webp",
+      "/images/Thumbnail_Image/materials/데코타일/KCC/센스레이/KCC센스레이 450각/B0111J_시공예시.jpg"
+    ],
     "price": 35000,
     "thickness": "5.0T",
     "specs": {
@@ -1760,9 +1783,11 @@ export const materials = [
     "subLine": "센스레이 5.0",
     "name": "KCC 센스레이 텍스처 콘크리트 B0112J",
     "code": "B0112J",
-    "thumbnail": null,
-    "image": null,
-    "images": [],
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 사각/5.0T/B0112J.webp",
+    "image": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 사각/5.0T/B0112J.webp",
+    "images": [
+      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 사각/5.0T/B0112J.webp"
+    ],
     "price": 35000,
     "thickness": "5.0T",
     "specs": {
@@ -1784,9 +1809,12 @@ export const materials = [
     "subLine": "센스레이 5.0",
     "name": "KCC 센스레이 텍스처 콘크리트 B0113J",
     "code": "B0113J",
-    "thumbnail": null,
-    "image": null,
-    "images": [],
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 사각/5.0T/B0113J.webp",
+    "image": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 사각/5.0T/B0113J.webp",
+    "images": [
+      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 사각/5.0T/B0113J.webp",
+      "/images/Thumbnail_Image/materials/데코타일/KCC/센스레이/KCC센스레이 450각/B0113J_시공예시.jpg"
+    ],
     "price": 35000,
     "thickness": "5.0T",
     "specs": {
@@ -1808,9 +1836,11 @@ export const materials = [
     "subLine": "센스레이 5.0",
     "name": "KCC 센스레이 텍스처 콘크리트 B0114J",
     "code": "B0114J",
-    "thumbnail": null,
-    "image": null,
-    "images": [],
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 사각/5.0T/B0114J.webp",
+    "image": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 사각/5.0T/B0114J.webp",
+    "images": [
+      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 사각/5.0T/B0114J.webp"
+    ],
     "price": 35000,
     "thickness": "5.0T",
     "specs": {
@@ -1832,9 +1862,12 @@ export const materials = [
     "subLine": "센스레이 5.0",
     "name": "KCC 센스레이 어반 스톤 B0122J",
     "code": "B0122J",
-    "thumbnail": null,
-    "image": null,
-    "images": [],
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 사각/5.0T/B0122J.webp",
+    "image": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 사각/5.0T/B0122J.webp",
+    "images": [
+      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 사각/5.0T/B0122J.webp",
+      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 사각/5.0T/B0122J_install.jpg"
+    ],
     "price": 35000,
     "thickness": "5.0T",
     "specs": {
@@ -1856,9 +1889,12 @@ export const materials = [
     "subLine": "센스레이 5.0",
     "name": "KCC 센스레이 콘그레이 B3181J",
     "code": "B3181J",
-    "thumbnail": null,
-    "image": null,
-    "images": [],
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 사각/5.0T/B3181J.webp",
+    "image": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 사각/5.0T/B3181J.webp",
+    "images": [
+      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 사각/5.0T/B3181J.webp",
+      "/images/Thumbnail_Image/materials/데코타일/KCC/센스레이/KCC센스레이 450각/B3181J_시공예시.jpg"
+    ],
     "price": 35000,
     "thickness": "5.0T",
     "specs": {
@@ -1880,9 +1916,12 @@ export const materials = [
     "subLine": "센스레이 5.0",
     "name": "KCC 센스레이 콘그레이 B3182J",
     "code": "B3182J",
-    "thumbnail": null,
-    "image": null,
-    "images": [],
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 사각/5.0T/B3182J.webp",
+    "image": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 사각/5.0T/B3182J.webp",
+    "images": [
+      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 사각/5.0T/B3182J.webp",
+      "/images/Thumbnail_Image/materials/데코타일/KCC/센스레이/KCC센스레이 450각/B3182J_시공예시.jpg"
+    ],
     "price": 35000,
     "thickness": "5.0T",
     "specs": {
@@ -1904,9 +1943,11 @@ export const materials = [
     "subLine": "센스레이 5.0",
     "name": "KCC 센스레이 콘그레이 B3183J",
     "code": "B3183J",
-    "thumbnail": null,
-    "image": null,
-    "images": [],
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 사각/5.0T/B3183J.webp",
+    "image": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 사각/5.0T/B3183J.webp",
+    "images": [
+      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 사각/5.0T/B3183J.webp"
+    ],
     "price": 35000,
     "thickness": "5.0T",
     "specs": {
@@ -1928,9 +1969,11 @@ export const materials = [
     "subLine": "센스레이 5.0",
     "name": "KCC 센스레이 소프트 콘크리트 B3191J",
     "code": "B3191J",
-    "thumbnail": null,
-    "image": null,
-    "images": [],
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 사각/5.0T/B3191J.webp",
+    "image": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 사각/5.0T/B3191J.webp",
+    "images": [
+      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 사각/5.0T/B3191J.webp"
+    ],
     "price": 35000,
     "thickness": "5.0T",
     "specs": {
@@ -1952,9 +1995,11 @@ export const materials = [
     "subLine": "센스레이 5.0",
     "name": "KCC 센스레이 소프트 콘크리트 B3192J",
     "code": "B3192J",
-    "thumbnail": null,
-    "image": null,
-    "images": [],
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 사각/5.0T/B3192J.webp",
+    "image": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 사각/5.0T/B3192J.webp",
+    "images": [
+      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 사각/5.0T/B3192J.webp"
+    ],
     "price": 35000,
     "thickness": "5.0T",
     "specs": {

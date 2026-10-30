@@ -104,6 +104,7 @@ function classifyProductImage(fileName) {
     lower.includes('현장') ||
     lower.includes('office') ||
     lower.includes('commercial') ||
+    lower.includes('install') ||
     lower.includes('installation') ||
     lower.includes('interior') ||
     lower.includes('scene') ||
@@ -138,15 +139,15 @@ function extractCodes(filename) {
     cleanName = cleanName
       .replace(/\.jpg_[0-9]+cross$/i, '')
       .replace(/_(?:thumbnail|detail)$/i, '')
-      .replace(/_(?:사무실|시공|시공예시|상업공간|패턴|확장|거실|침실|카페|매장|office|scene|room|2x2|90cross|180cross)$/i, '')
+      .replace(/_(?:사무실|시공|시공예시|상업공간|패턴|확장|거실|침실|카페|매장|office|scene|room|install|installation|2x2|90cross|180cross)$/i, '')
       .replace(/_(\d+)$/, '')
       .replace(/\s*\(\d+\)$/, '')
       .trim();
   } while (cleanName !== prevName);
 
-  // If combined like B0156M_B0158M or DS626_DS627
+  // If combined like B0156M_B0158M or DS626_DS627 or 30141M_30142M or 30221P_30222P_30224P
   const parts = cleanName.split('_');
-  const validCodeRegex = /^[A-Z]{1,5}\s*\d{3,5}(?:-\d+)?[A-Z]*$/i;
+  const validCodeRegex = /^(?:[A-Z]{1,5}\s*\d{3,5}(?:-\d+)?[A-Z]*|\d{3,6}(?:-\d+)?[A-Z]+)$/i;
   if (parts.length > 1 && parts.every(p => validCodeRegex.test(p.trim()))) {
     return parts.map(p => p.trim());
   }

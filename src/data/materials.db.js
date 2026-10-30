@@ -1,7 +1,4 @@
 // src/data/materials.db.js
-// Auto-generated database for Tokyo Flooring (동경바닥재)
-// Updated with complete 2026 KCC SenseLay & Dongshin Polyma collections
-
 export const materials = [
   {
     "id": "NK20-4951",
@@ -176,10 +173,11 @@ export const materials = [
     "subLine": "센스타일 프로",
     "name": "KCC 센스타일 프로 그란데 테라조 30082P (3.0T)",
     "code": "30082P",
-    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/30082P.png",
-    "image": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/30082P.png",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 사각/3.0T/30082P.webp",
+    "image": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 사각/3.0T/30082P.webp",
     "images": [
-      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/30082P.png"
+      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 사각/3.0T/30082P.webp",
+      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 사각/3.0T/30082P_install.jpg"
     ],
     "price": 35000,
     "thickness": "3.0T",
@@ -206,7 +204,7 @@ export const materials = [
     "family": "센스타일 프로",
     "common_intro": "센스타일 프로는 KCC글라스의 상업용 LVT 바닥재로, 우드·스톤·마블·콘크리트·카펫 등 다양한 패턴을 제공한다. 특수 UV 코팅을 적용하여 스크래치 및 오염에 대한 저항성과 유지관리 편의성을 고려한 제품이다. 사무실, 상업시설, 음식점, 교육시설 등의 실내 바닥재로 활용할 수 있다.",
     "pattern_desc": "그란데 테라조 패턴을 적용한 450각 데코타일.",
-    "image_url": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/30082P.png"
+    "image_url": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 사각/3.0T/30082P.webp"
   },
   {
     "id": "데코타일-kcc-kcc_pro-30102p",
@@ -216,10 +214,11 @@ export const materials = [
     "subLine": "센스타일 프로",
     "name": "KCC 센스타일 프로 믹스 쉐브론 30102P (3.0T)",
     "code": "30102P",
-    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/30102P.png",
-    "image": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/30102P.png",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 사각/3.0T/30102P.webp",
+    "image": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 사각/3.0T/30102P.webp",
     "images": [
-      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/30102P.png"
+      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 사각/3.0T/30102P.webp",
+      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 사각/3.0T/30102P_install.jpg"
     ],
     "price": 35000,
     "thickness": "3.0T",
@@ -246,7 +245,7 @@ export const materials = [
     "family": "센스타일 프로",
     "common_intro": "센스타일 프로는 KCC글라스의 상업용 LVT 바닥재로, 우드·스톤·마블·콘크리트·카펫 등 다양한 패턴을 제공한다. 특수 UV 코팅을 적용하여 스크래치 및 오염에 대한 저항성과 유지관리 편의성을 고려한 제품이다. 사무실, 상업시설, 음식점, 교육시설 등의 실내 바닥재로 활용할 수 있다.",
     "pattern_desc": "믹스 쉐브론 패턴을 적용한 450각 데코타일.",
-    "image_url": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/30102P.png"
+    "image_url": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 사각/3.0T/30102P.webp"
   },
   {
     "id": "데코타일-kcc-kcc_pro-30111p",
@@ -256,10 +255,10 @@ export const materials = [
     "subLine": "센스타일 프로",
     "name": "KCC 센스타일 프로 텍스처 콘크리트 30111P (3.0T)",
     "code": "30111P",
-    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/30111P.png",
-    "image": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/30111P.png",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 사각/3.0T/30111P.webp",
+    "image": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 사각/3.0T/30111P.webp",
     "images": [
-      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/30111P.png"
+      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 사각/3.0T/30111P.webp"
     ],
     "price": 35000,
     "thickness": "3.0T",
@@ -286,7 +285,7 @@ export const materials = [
     "family": "센스타일 프로",
     "common_intro": "센스타일 프로는 KCC글라스의 상업용 LVT 바닥재로, 우드·스톤·마블·콘크리트·카펫 등 다양한 패턴을 제공한다. 특수 UV 코팅을 적용하여 스크래치 및 오염에 대한 저항성과 유지관리 편의성을 고려한 제품이다. 사무실, 상업시설, 음식점, 교육시설 등의 실내 바닥재로 활용할 수 있다.",
     "pattern_desc": "텍스처 콘크리트 패턴을 적용한 450각 데코타일.",
-    "image_url": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/30111P.png"
+    "image_url": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 사각/3.0T/30111P.webp"
   },
   {
     "id": "데코타일-kcc-kcc_pro-30112p",
@@ -296,10 +295,11 @@ export const materials = [
     "subLine": "센스타일 프로",
     "name": "KCC 센스타일 프로 텍스처 콘크리트 30112P (3.0T)",
     "code": "30112P",
-    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/30112P.png",
-    "image": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/30112P.png",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 사각/3.0T/30112P.webp",
+    "image": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 사각/3.0T/30112P.webp",
     "images": [
-      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/30112P.png"
+      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 사각/3.0T/30112P.webp",
+      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 사각/3.0T/30112P_install.jpg"
     ],
     "price": 35000,
     "thickness": "3.0T",
@@ -326,7 +326,7 @@ export const materials = [
     "family": "센스타일 프로",
     "common_intro": "센스타일 프로는 KCC글라스의 상업용 LVT 바닥재로, 우드·스톤·마블·콘크리트·카펫 등 다양한 패턴을 제공한다. 특수 UV 코팅을 적용하여 스크래치 및 오염에 대한 저항성과 유지관리 편의성을 고려한 제품이다. 사무실, 상업시설, 음식점, 교육시설 등의 실내 바닥재로 활용할 수 있다.",
     "pattern_desc": "텍스처 콘크리트 패턴을 적용한 450각 데코타일.",
-    "image_url": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/30112P.png"
+    "image_url": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 사각/3.0T/30112P.webp"
   },
   {
     "id": "데코타일-kcc-kcc_pro-30113p",
@@ -336,10 +336,10 @@ export const materials = [
     "subLine": "센스타일 프로",
     "name": "KCC 센스타일 프로 텍스처 콘크리트 30113P (3.0T)",
     "code": "30113P",
-    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/30113P.png",
-    "image": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/30113P.png",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 사각/3.0T/30113P.webp",
+    "image": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 사각/3.0T/30113P.webp",
     "images": [
-      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/30113P.png"
+      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 사각/3.0T/30113P.webp"
     ],
     "price": 35000,
     "thickness": "3.0T",
@@ -366,7 +366,7 @@ export const materials = [
     "family": "센스타일 프로",
     "common_intro": "센스타일 프로는 KCC글라스의 상업용 LVT 바닥재로, 우드·스톤·마블·콘크리트·카펫 등 다양한 패턴을 제공한다. 특수 UV 코팅을 적용하여 스크래치 및 오염에 대한 저항성과 유지관리 편의성을 고려한 제품이다. 사무실, 상업시설, 음식점, 교육시설 등의 실내 바닥재로 활용할 수 있다.",
     "pattern_desc": "텍스처 콘크리트 패턴을 적용한 450각 데코타일.",
-    "image_url": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/30113P.png"
+    "image_url": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 사각/3.0T/30113P.webp"
   },
   {
     "id": "데코타일-kcc-kcc_pro-30114p",
@@ -376,10 +376,10 @@ export const materials = [
     "subLine": "센스타일 프로",
     "name": "KCC 센스타일 프로 텍스처 콘크리트 30114P (3.0T)",
     "code": "30114P",
-    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/30114P.png",
-    "image": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/30114P.png",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 사각/3.0T/30114P.webp",
+    "image": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 사각/3.0T/30114P.webp",
     "images": [
-      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/30114P.png"
+      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 사각/3.0T/30114P.webp"
     ],
     "price": 35000,
     "thickness": "3.0T",
@@ -406,7 +406,7 @@ export const materials = [
     "family": "센스타일 프로",
     "common_intro": "센스타일 프로는 KCC글라스의 상업용 LVT 바닥재로, 우드·스톤·마블·콘크리트·카펫 등 다양한 패턴을 제공한다. 특수 UV 코팅을 적용하여 스크래치 및 오염에 대한 저항성과 유지관리 편의성을 고려한 제품이다. 사무실, 상업시설, 음식점, 교육시설 등의 실내 바닥재로 활용할 수 있다.",
     "pattern_desc": "텍스처 콘크리트 패턴을 적용한 450각 데코타일.",
-    "image_url": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/30114P.png"
+    "image_url": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 사각/3.0T/30114P.webp"
   },
   {
     "id": "데코타일-kcc-kcc_pro-30133p",
@@ -416,10 +416,11 @@ export const materials = [
     "subLine": "센스타일 프로",
     "name": "KCC 센스타일 프로 트래버틴 30133P (3.0T)",
     "code": "30133P",
-    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/30133P.png",
-    "image": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/30133P.png",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 사각/3.0T/30133P.webp",
+    "image": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 사각/3.0T/30133P.webp",
     "images": [
-      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/30133P.png"
+      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 사각/3.0T/30133P.webp",
+      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 사각/3.0T/30133P_install.jpg"
     ],
     "price": 35000,
     "thickness": "3.0T",
@@ -446,7 +447,7 @@ export const materials = [
     "family": "센스타일 프로",
     "common_intro": "센스타일 프로는 KCC글라스의 상업용 LVT 바닥재로, 우드·스톤·마블·콘크리트·카펫 등 다양한 패턴을 제공한다. 특수 UV 코팅을 적용하여 스크래치 및 오염에 대한 저항성과 유지관리 편의성을 고려한 제품이다. 사무실, 상업시설, 음식점, 교육시설 등의 실내 바닥재로 활용할 수 있다.",
     "pattern_desc": "트래버틴 패턴을 적용한 450각 데코타일.",
-    "image_url": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/30133P.png"
+    "image_url": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 사각/3.0T/30133P.webp"
   },
   {
     "id": "데코타일-kcc-kcc_pro-30141m",
@@ -456,10 +457,11 @@ export const materials = [
     "subLine": "센스타일 프로",
     "name": "KCC 센스타일 프로 실키스톤 30141M (3.0T)",
     "code": "30141M",
-    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/30141M.png",
-    "image": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/30141M.png",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 600각/30141M.webp",
+    "image": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 600각/30141M.webp",
     "images": [
-      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/30141M.png"
+      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 600각/30141M.webp",
+      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 600각/30141M_30142M_install.jpg"
     ],
     "price": 35000,
     "thickness": "3.0T",
@@ -486,7 +488,7 @@ export const materials = [
     "family": "센스타일 프로",
     "common_intro": "센스타일 프로는 KCC글라스의 상업용 LVT 바닥재로, 우드·스톤·마블·콘크리트·카펫 등 다양한 패턴을 제공한다. 특수 UV 코팅을 적용하여 스크래치 및 오염에 대한 저항성과 유지관리 편의성을 고려한 제품이다. 사무실, 상업시설, 음식점, 교육시설 등의 실내 바닥재로 활용할 수 있다.",
     "pattern_desc": "실키스톤 패턴을 적용한 600각 데코타일.",
-    "image_url": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/30141M.png"
+    "image_url": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 600각/30141M.webp"
   },
   {
     "id": "데코타일-kcc-kcc_pro-30142m",
@@ -496,10 +498,11 @@ export const materials = [
     "subLine": "센스타일 프로",
     "name": "KCC 센스타일 프로 실키스톤 30142M (3.0T)",
     "code": "30142M",
-    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/30142M.png",
-    "image": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/30142M.png",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 600각/30142M.webp",
+    "image": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 600각/30142M.webp",
     "images": [
-      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/30142M.png"
+      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 600각/30142M.webp",
+      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 600각/30141M_30142M_install.jpg"
     ],
     "price": 35000,
     "thickness": "3.0T",
@@ -526,7 +529,7 @@ export const materials = [
     "family": "센스타일 프로",
     "common_intro": "센스타일 프로는 KCC글라스의 상업용 LVT 바닥재로, 우드·스톤·마블·콘크리트·카펫 등 다양한 패턴을 제공한다. 특수 UV 코팅을 적용하여 스크래치 및 오염에 대한 저항성과 유지관리 편의성을 고려한 제품이다. 사무실, 상업시설, 음식점, 교육시설 등의 실내 바닥재로 활용할 수 있다.",
     "pattern_desc": "실키스톤 패턴을 적용한 600각 데코타일.",
-    "image_url": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/30142M.png"
+    "image_url": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 600각/30142M.webp"
   },
   {
     "id": "데코타일-kcc-kcc_pro-30151m",
@@ -536,10 +539,10 @@ export const materials = [
     "subLine": "센스타일 프로",
     "name": "KCC 센스타일 프로 베이직 콘크리트 30151M (3.0T)",
     "code": "30151M",
-    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/30151M.png",
-    "image": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/30151M.png",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 600각/30151M.webp",
+    "image": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 600각/30151M.webp",
     "images": [
-      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/30151M.png"
+      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 600각/30151M.webp"
     ],
     "price": 35000,
     "thickness": "3.0T",
@@ -566,7 +569,7 @@ export const materials = [
     "family": "센스타일 프로",
     "common_intro": "센스타일 프로는 KCC글라스의 상업용 LVT 바닥재로, 우드·스톤·마블·콘크리트·카펫 등 다양한 패턴을 제공한다. 특수 UV 코팅을 적용하여 스크래치 및 오염에 대한 저항성과 유지관리 편의성을 고려한 제품이다. 사무실, 상업시설, 음식점, 교육시설 등의 실내 바닥재로 활용할 수 있다.",
     "pattern_desc": "베이직 콘크리트 패턴을 적용한 600각 데코타일.",
-    "image_url": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/30151M.png"
+    "image_url": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 600각/30151M.webp"
   },
   {
     "id": "데코타일-kcc-kcc_pro-30152m",
@@ -576,10 +579,11 @@ export const materials = [
     "subLine": "센스타일 프로",
     "name": "KCC 센스타일 프로 베이직 콘크리트 30152M (3.0T)",
     "code": "30152M",
-    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/30152M.png",
-    "image": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/30152M.png",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 600각/30152M.webp",
+    "image": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 600각/30152M.webp",
     "images": [
-      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/30152M.png"
+      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 600각/30152M.webp",
+      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 600각/30152M_install.jpg"
     ],
     "price": 35000,
     "thickness": "3.0T",
@@ -606,7 +610,7 @@ export const materials = [
     "family": "센스타일 프로",
     "common_intro": "센스타일 프로는 KCC글라스의 상업용 LVT 바닥재로, 우드·스톤·마블·콘크리트·카펫 등 다양한 패턴을 제공한다. 특수 UV 코팅을 적용하여 스크래치 및 오염에 대한 저항성과 유지관리 편의성을 고려한 제품이다. 사무실, 상업시설, 음식점, 교육시설 등의 실내 바닥재로 활용할 수 있다.",
     "pattern_desc": "베이직 콘크리트 패턴을 적용한 600각 데코타일.",
-    "image_url": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/30152M.png"
+    "image_url": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 600각/30152M.webp"
   },
   {
     "id": "데코타일-kcc-kcc_pro-30153m",
@@ -616,10 +620,10 @@ export const materials = [
     "subLine": "센스타일 프로",
     "name": "KCC 센스타일 프로 베이직 콘크리트 30153M (3.0T)",
     "code": "30153M",
-    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/30153M.png",
-    "image": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/30153M.png",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 600각/30153M.webp",
+    "image": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 600각/30153M.webp",
     "images": [
-      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/30153M.png"
+      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 600각/30153M.webp"
     ],
     "price": 35000,
     "thickness": "3.0T",
@@ -646,7 +650,7 @@ export const materials = [
     "family": "센스타일 프로",
     "common_intro": "센스타일 프로는 KCC글라스의 상업용 LVT 바닥재로, 우드·스톤·마블·콘크리트·카펫 등 다양한 패턴을 제공한다. 특수 UV 코팅을 적용하여 스크래치 및 오염에 대한 저항성과 유지관리 편의성을 고려한 제품이다. 사무실, 상업시설, 음식점, 교육시설 등의 실내 바닥재로 활용할 수 있다.",
     "pattern_desc": "베이직 콘크리트 패턴을 적용한 600각 데코타일.",
-    "image_url": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/30153M.png"
+    "image_url": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 600각/30153M.webp"
   },
   {
     "id": "데코타일-kcc-kcc_pro-30154m",
@@ -656,10 +660,10 @@ export const materials = [
     "subLine": "센스타일 프로",
     "name": "KCC 센스타일 프로 베이직 콘크리트 30154M (3.0T)",
     "code": "30154M",
-    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/30154M.png",
-    "image": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/30154M.png",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 600각/30154M.webp",
+    "image": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 600각/30154M.webp",
     "images": [
-      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/30154M.png"
+      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 600각/30154M.webp"
     ],
     "price": 35000,
     "thickness": "3.0T",
@@ -686,7 +690,7 @@ export const materials = [
     "family": "센스타일 프로",
     "common_intro": "센스타일 프로는 KCC글라스의 상업용 LVT 바닥재로, 우드·스톤·마블·콘크리트·카펫 등 다양한 패턴을 제공한다. 특수 UV 코팅을 적용하여 스크래치 및 오염에 대한 저항성과 유지관리 편의성을 고려한 제품이다. 사무실, 상업시설, 음식점, 교육시설 등의 실내 바닥재로 활용할 수 있다.",
     "pattern_desc": "베이직 콘크리트 패턴을 적용한 600각 데코타일.",
-    "image_url": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/30154M.png"
+    "image_url": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 600각/30154M.webp"
   },
   {
     "id": "데코타일-kcc-kcc_pro-30161m",
@@ -696,10 +700,10 @@ export const materials = [
     "subLine": "센스타일 프로",
     "name": "KCC 센스타일 프로 임페리얼 스톤 30161M (3.0T)",
     "code": "30161M",
-    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/30161M.png",
-    "image": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/30161M.png",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 600각/30161M.webp",
+    "image": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 600각/30161M.webp",
     "images": [
-      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/30161M.png"
+      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 600각/30161M.webp"
     ],
     "price": 35000,
     "thickness": "3.0T",
@@ -726,7 +730,7 @@ export const materials = [
     "family": "센스타일 프로",
     "common_intro": "센스타일 프로는 KCC글라스의 상업용 LVT 바닥재로, 우드·스톤·마블·콘크리트·카펫 등 다양한 패턴을 제공한다. 특수 UV 코팅을 적용하여 스크래치 및 오염에 대한 저항성과 유지관리 편의성을 고려한 제품이다. 사무실, 상업시설, 음식점, 교육시설 등의 실내 바닥재로 활용할 수 있다.",
     "pattern_desc": "임페리얼 스톤 패턴을 적용한 600각 데코타일.",
-    "image_url": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/30161M.png"
+    "image_url": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 600각/30161M.webp"
   },
   {
     "id": "데코타일-kcc-kcc_pro-30162m",
@@ -736,10 +740,10 @@ export const materials = [
     "subLine": "센스타일 프로",
     "name": "KCC 센스타일 프로 임페리얼 스톤 30162M (3.0T)",
     "code": "30162M",
-    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/30162M.png",
-    "image": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/30162M.png",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 600각/30162M.webp",
+    "image": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 600각/30162M.webp",
     "images": [
-      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/30162M.png"
+      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 600각/30162M.webp"
     ],
     "price": 35000,
     "thickness": "3.0T",
@@ -766,7 +770,7 @@ export const materials = [
     "family": "센스타일 프로",
     "common_intro": "센스타일 프로는 KCC글라스의 상업용 LVT 바닥재로, 우드·스톤·마블·콘크리트·카펫 등 다양한 패턴을 제공한다. 특수 UV 코팅을 적용하여 스크래치 및 오염에 대한 저항성과 유지관리 편의성을 고려한 제품이다. 사무실, 상업시설, 음식점, 교육시설 등의 실내 바닥재로 활용할 수 있다.",
     "pattern_desc": "임페리얼 스톤 패턴을 적용한 600각 데코타일.",
-    "image_url": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/30162M.png"
+    "image_url": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 600각/30162M.webp"
   },
   {
     "id": "데코타일-kcc-kcc_pro-30163m",
@@ -776,10 +780,11 @@ export const materials = [
     "subLine": "센스타일 프로",
     "name": "KCC 센스타일 프로 임페리얼 스톤 30163M (3.0T)",
     "code": "30163M",
-    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/30163M.png",
-    "image": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/30163M.png",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 600각/30163M.webp",
+    "image": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 600각/30163M.webp",
     "images": [
-      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/30163M.png"
+      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 600각/30163M.webp",
+      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 600각/30163M_install.jpg"
     ],
     "price": 35000,
     "thickness": "3.0T",
@@ -806,7 +811,7 @@ export const materials = [
     "family": "센스타일 프로",
     "common_intro": "센스타일 프로는 KCC글라스의 상업용 LVT 바닥재로, 우드·스톤·마블·콘크리트·카펫 등 다양한 패턴을 제공한다. 특수 UV 코팅을 적용하여 스크래치 및 오염에 대한 저항성과 유지관리 편의성을 고려한 제품이다. 사무실, 상업시설, 음식점, 교육시설 등의 실내 바닥재로 활용할 수 있다.",
     "pattern_desc": "임페리얼 스톤 패턴을 적용한 600각 데코타일.",
-    "image_url": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/30163M.png"
+    "image_url": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 600각/30163M.webp"
   },
   {
     "id": "데코타일-kcc-kcc_pro-30171m",
@@ -816,10 +821,11 @@ export const materials = [
     "subLine": "센스타일 프로",
     "name": "KCC 센스타일 프로 델리카토 30171M (3.0T)",
     "code": "30171M",
-    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/30171M.png",
-    "image": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/30171M.png",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 600각/30171M.webp",
+    "image": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 600각/30171M.webp",
     "images": [
-      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/30171M.png"
+      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 600각/30171M.webp",
+      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 600각/30171M_install.jpg"
     ],
     "price": 35000,
     "thickness": "3.0T",
@@ -846,7 +852,7 @@ export const materials = [
     "family": "센스타일 프로",
     "common_intro": "센스타일 프로는 KCC글라스의 상업용 LVT 바닥재로, 우드·스톤·마블·콘크리트·카펫 등 다양한 패턴을 제공한다. 특수 UV 코팅을 적용하여 스크래치 및 오염에 대한 저항성과 유지관리 편의성을 고려한 제품이다. 사무실, 상업시설, 음식점, 교육시설 등의 실내 바닥재로 활용할 수 있다.",
     "pattern_desc": "델리카토 패턴을 적용한 600각 데코타일.",
-    "image_url": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/30171M.png"
+    "image_url": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 600각/30171M.webp"
   },
   {
     "id": "데코타일-kcc-kcc_pro-30181m",
@@ -856,10 +862,10 @@ export const materials = [
     "subLine": "센스타일 프로",
     "name": "KCC 센스타일 프로 마이크로 테라조 30181M (3.0T)",
     "code": "30181M",
-    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/30181M.png",
-    "image": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/30181M.png",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 600각/30181M.webp",
+    "image": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 600각/30181M.webp",
     "images": [
-      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/30181M.png"
+      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 600각/30181M.webp"
     ],
     "price": 35000,
     "thickness": "3.0T",
@@ -886,7 +892,7 @@ export const materials = [
     "family": "센스타일 프로",
     "common_intro": "센스타일 프로는 KCC글라스의 상업용 LVT 바닥재로, 우드·스톤·마블·콘크리트·카펫 등 다양한 패턴을 제공한다. 특수 UV 코팅을 적용하여 스크래치 및 오염에 대한 저항성과 유지관리 편의성을 고려한 제품이다. 사무실, 상업시설, 음식점, 교육시설 등의 실내 바닥재로 활용할 수 있다.",
     "pattern_desc": "마이크로 테라조 패턴을 적용한 600각 데코타일.",
-    "image_url": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/30181M.png"
+    "image_url": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 600각/30181M.webp"
   },
   {
     "id": "데코타일-kcc-kcc_pro-30182m",
@@ -896,10 +902,11 @@ export const materials = [
     "subLine": "센스타일 프로",
     "name": "KCC 센스타일 프로 마이크로 테라조 30182M (3.0T)",
     "code": "30182M",
-    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/30182M.png",
-    "image": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/30182M.png",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 600각/30182M.webp",
+    "image": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 600각/30182M.webp",
     "images": [
-      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/30182M.png"
+      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 600각/30182M.webp",
+      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 600각/30182M_install.jpg"
     ],
     "price": 35000,
     "thickness": "3.0T",
@@ -926,7 +933,7 @@ export const materials = [
     "family": "센스타일 프로",
     "common_intro": "센스타일 프로는 KCC글라스의 상업용 LVT 바닥재로, 우드·스톤·마블·콘크리트·카펫 등 다양한 패턴을 제공한다. 특수 UV 코팅을 적용하여 스크래치 및 오염에 대한 저항성과 유지관리 편의성을 고려한 제품이다. 사무실, 상업시설, 음식점, 교육시설 등의 실내 바닥재로 활용할 수 있다.",
     "pattern_desc": "마이크로 테라조 패턴을 적용한 600각 데코타일.",
-    "image_url": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/30182M.png"
+    "image_url": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 600각/30182M.webp"
   },
   {
     "id": "데코타일-kcc-kcc_pro-30191m",
@@ -936,10 +943,10 @@ export const materials = [
     "subLine": "센스타일 프로",
     "name": "KCC 센스타일 프로 로만스톤 30191M (3.0T)",
     "code": "30191M",
-    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/30191M.png",
-    "image": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/30191M.png",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 600각/30191M.webp",
+    "image": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 600각/30191M.webp",
     "images": [
-      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/30191M.png"
+      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 600각/30191M.webp"
     ],
     "price": 35000,
     "thickness": "3.0T",
@@ -966,7 +973,7 @@ export const materials = [
     "family": "센스타일 프로",
     "common_intro": "센스타일 프로는 KCC글라스의 상업용 LVT 바닥재로, 우드·스톤·마블·콘크리트·카펫 등 다양한 패턴을 제공한다. 특수 UV 코팅을 적용하여 스크래치 및 오염에 대한 저항성과 유지관리 편의성을 고려한 제품이다. 사무실, 상업시설, 음식점, 교육시설 등의 실내 바닥재로 활용할 수 있다.",
     "pattern_desc": "로만스톤 패턴을 적용한 600각 데코타일.",
-    "image_url": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/30191M.png"
+    "image_url": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 600각/30191M.webp"
   },
   {
     "id": "데코타일-kcc-kcc_pro-30192m",
@@ -976,10 +983,10 @@ export const materials = [
     "subLine": "센스타일 프로",
     "name": "KCC 센스타일 프로 로만스톤 30192M (3.0T)",
     "code": "30192M",
-    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/30192M.png",
-    "image": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/30192M.png",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 600각/30192M.webp",
+    "image": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 600각/30192M.webp",
     "images": [
-      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/30192M.png"
+      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 600각/30192M.webp"
     ],
     "price": 35000,
     "thickness": "3.0T",
@@ -1006,7 +1013,7 @@ export const materials = [
     "family": "센스타일 프로",
     "common_intro": "센스타일 프로는 KCC글라스의 상업용 LVT 바닥재로, 우드·스톤·마블·콘크리트·카펫 등 다양한 패턴을 제공한다. 특수 UV 코팅을 적용하여 스크래치 및 오염에 대한 저항성과 유지관리 편의성을 고려한 제품이다. 사무실, 상업시설, 음식점, 교육시설 등의 실내 바닥재로 활용할 수 있다.",
     "pattern_desc": "로만스톤 패턴을 적용한 600각 데코타일.",
-    "image_url": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/30192M.png"
+    "image_url": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 600각/30192M.webp"
   },
   {
     "id": "데코타일-kcc-kcc_pro-30193m",
@@ -1016,10 +1023,11 @@ export const materials = [
     "subLine": "센스타일 프로",
     "name": "KCC 센스타일 프로 로만스톤 30193M (3.0T)",
     "code": "30193M",
-    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/30193M.png",
-    "image": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/30193M.png",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 600각/30193M.webp",
+    "image": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 600각/30193M.webp",
     "images": [
-      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/30193M.png"
+      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 600각/30193M.webp",
+      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 600각/30193M_install.jpg"
     ],
     "price": 35000,
     "thickness": "3.0T",
@@ -1046,7 +1054,7 @@ export const materials = [
     "family": "센스타일 프로",
     "common_intro": "센스타일 프로는 KCC글라스의 상업용 LVT 바닥재로, 우드·스톤·마블·콘크리트·카펫 등 다양한 패턴을 제공한다. 특수 UV 코팅을 적용하여 스크래치 및 오염에 대한 저항성과 유지관리 편의성을 고려한 제품이다. 사무실, 상업시설, 음식점, 교육시설 등의 실내 바닥재로 활용할 수 있다.",
     "pattern_desc": "로만스톤 패턴을 적용한 600각 데코타일.",
-    "image_url": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/30193M.png"
+    "image_url": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 600각/30193M.webp"
   },
   {
     "id": "데코타일-kcc-kcc_pro-30201m",
@@ -1056,10 +1064,11 @@ export const materials = [
     "subLine": "센스타일 프로",
     "name": "KCC 센스타일 프로 화이트 라이노 30201M (3.0T)",
     "code": "30201M",
-    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/30201M.png",
-    "image": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/30201M.png",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 600각/30201M.webp",
+    "image": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 600각/30201M.webp",
     "images": [
-      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/30201M.png"
+      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 600각/30201M.webp",
+      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 600각/30201M_install.jpg"
     ],
     "price": 35000,
     "thickness": "3.0T",
@@ -1086,7 +1095,7 @@ export const materials = [
     "family": "센스타일 프로",
     "common_intro": "센스타일 프로는 KCC글라스의 상업용 LVT 바닥재로, 우드·스톤·마블·콘크리트·카펫 등 다양한 패턴을 제공한다. 특수 UV 코팅을 적용하여 스크래치 및 오염에 대한 저항성과 유지관리 편의성을 고려한 제품이다. 사무실, 상업시설, 음식점, 교육시설 등의 실내 바닥재로 활용할 수 있다.",
     "pattern_desc": "화이트 라이노 패턴을 적용한 600각 데코타일.",
-    "image_url": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/30201M.png"
+    "image_url": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 600각/30201M.webp"
   },
   {
     "id": "데코타일-kcc-kcc_pro-30221p",
@@ -1096,10 +1105,11 @@ export const materials = [
     "subLine": "센스타일 프로",
     "name": "KCC 센스타일 프로 네오 패브릭 30221P (3.0T)",
     "code": "30221P",
-    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/30221P.png",
-    "image": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/30221P.png",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 사각/3.0T/30221P.webp",
+    "image": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 사각/3.0T/30221P.webp",
     "images": [
-      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/30221P.png"
+      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 사각/3.0T/30221P.webp",
+      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 사각/3.0T/30221P_30222P_30224P_install.jpg"
     ],
     "price": 35000,
     "thickness": "3.0T",
@@ -1126,7 +1136,7 @@ export const materials = [
     "family": "센스타일 프로",
     "common_intro": "센스타일 프로는 KCC글라스의 상업용 LVT 바닥재로, 우드·스톤·마블·콘크리트·카펫 등 다양한 패턴을 제공한다. 특수 UV 코팅을 적용하여 스크래치 및 오염에 대한 저항성과 유지관리 편의성을 고려한 제품이다. 사무실, 상업시설, 음식점, 교육시설 등의 실내 바닥재로 활용할 수 있다.",
     "pattern_desc": "네오 패브릭 패턴을 적용한 450각 데코타일.",
-    "image_url": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/30221P.png"
+    "image_url": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 사각/3.0T/30221P.webp"
   },
   {
     "id": "데코타일-kcc-kcc_pro-30222p",
@@ -1136,10 +1146,11 @@ export const materials = [
     "subLine": "센스타일 프로",
     "name": "KCC 센스타일 프로 네오 패브릭 30222P (3.0T)",
     "code": "30222P",
-    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/30222P.png",
-    "image": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/30222P.png",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 사각/3.0T/30222P.webp",
+    "image": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 사각/3.0T/30222P.webp",
     "images": [
-      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/30222P.png"
+      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 사각/3.0T/30222P.webp",
+      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 사각/3.0T/30221P_30222P_30224P_install.jpg"
     ],
     "price": 35000,
     "thickness": "3.0T",
@@ -1166,7 +1177,7 @@ export const materials = [
     "family": "센스타일 프로",
     "common_intro": "센스타일 프로는 KCC글라스의 상업용 LVT 바닥재로, 우드·스톤·마블·콘크리트·카펫 등 다양한 패턴을 제공한다. 특수 UV 코팅을 적용하여 스크래치 및 오염에 대한 저항성과 유지관리 편의성을 고려한 제품이다. 사무실, 상업시설, 음식점, 교육시설 등의 실내 바닥재로 활용할 수 있다.",
     "pattern_desc": "네오 패브릭 패턴을 적용한 450각 데코타일.",
-    "image_url": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/30222P.png"
+    "image_url": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 사각/3.0T/30222P.webp"
   },
   {
     "id": "데코타일-kcc-kcc_pro-30223p",
@@ -1176,10 +1187,11 @@ export const materials = [
     "subLine": "센스타일 프로",
     "name": "KCC 센스타일 프로 네오 패브릭 30223P (3.0T)",
     "code": "30223P",
-    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/30223P.png",
-    "image": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/30223P.png",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 사각/3.0T/30223P.webp",
+    "image": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 사각/3.0T/30223P.webp",
     "images": [
-      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/30223P.png"
+      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 사각/3.0T/30223P.webp",
+      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 사각/3.0T/30223P_30225P_install.jpg"
     ],
     "price": 35000,
     "thickness": "3.0T",
@@ -1206,7 +1218,7 @@ export const materials = [
     "family": "센스타일 프로",
     "common_intro": "센스타일 프로는 KCC글라스의 상업용 LVT 바닥재로, 우드·스톤·마블·콘크리트·카펫 등 다양한 패턴을 제공한다. 특수 UV 코팅을 적용하여 스크래치 및 오염에 대한 저항성과 유지관리 편의성을 고려한 제품이다. 사무실, 상업시설, 음식점, 교육시설 등의 실내 바닥재로 활용할 수 있다.",
     "pattern_desc": "네오 패브릭 패턴을 적용한 450각 데코타일.",
-    "image_url": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/30223P.png"
+    "image_url": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 사각/3.0T/30223P.webp"
   },
   {
     "id": "데코타일-kcc-kcc_pro-30224p",
@@ -1216,10 +1228,11 @@ export const materials = [
     "subLine": "센스타일 프로",
     "name": "KCC 센스타일 프로 네오 패브릭 30224P (3.0T)",
     "code": "30224P",
-    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/30224P.png",
-    "image": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/30224P.png",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 사각/3.0T/30224P.webp",
+    "image": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 사각/3.0T/30224P.webp",
     "images": [
-      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/30224P.png"
+      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 사각/3.0T/30224P.webp",
+      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 사각/3.0T/30221P_30222P_30224P_install.jpg"
     ],
     "price": 35000,
     "thickness": "3.0T",
@@ -1246,7 +1259,7 @@ export const materials = [
     "family": "센스타일 프로",
     "common_intro": "센스타일 프로는 KCC글라스의 상업용 LVT 바닥재로, 우드·스톤·마블·콘크리트·카펫 등 다양한 패턴을 제공한다. 특수 UV 코팅을 적용하여 스크래치 및 오염에 대한 저항성과 유지관리 편의성을 고려한 제품이다. 사무실, 상업시설, 음식점, 교육시설 등의 실내 바닥재로 활용할 수 있다.",
     "pattern_desc": "네오 패브릭 패턴을 적용한 450각 데코타일.",
-    "image_url": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/30224P.png"
+    "image_url": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 사각/3.0T/30224P.webp"
   },
   {
     "id": "데코타일-kcc-kcc_pro-30225p",
@@ -1256,10 +1269,11 @@ export const materials = [
     "subLine": "센스타일 프로",
     "name": "KCC 센스타일 프로 네오 패브릭 30225P (3.0T)",
     "code": "30225P",
-    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/30225P.png",
-    "image": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/30225P.png",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 사각/3.0T/30225P.webp",
+    "image": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 사각/3.0T/30225P.webp",
     "images": [
-      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/30225P.png"
+      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 사각/3.0T/30225P.webp",
+      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 사각/3.0T/30223P_30225P_install.jpg"
     ],
     "price": 35000,
     "thickness": "3.0T",
@@ -1286,7 +1300,7 @@ export const materials = [
     "family": "센스타일 프로",
     "common_intro": "센스타일 프로는 KCC글라스의 상업용 LVT 바닥재로, 우드·스톤·마블·콘크리트·카펫 등 다양한 패턴을 제공한다. 특수 UV 코팅을 적용하여 스크래치 및 오염에 대한 저항성과 유지관리 편의성을 고려한 제품이다. 사무실, 상업시설, 음식점, 교육시설 등의 실내 바닥재로 활용할 수 있다.",
     "pattern_desc": "네오 패브릭 패턴을 적용한 450각 데코타일.",
-    "image_url": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/30225P.png"
+    "image_url": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 사각/3.0T/30225P.webp"
   },
   {
     "id": "데코타일-kcc-kcc_pro-30226p",
@@ -1296,10 +1310,10 @@ export const materials = [
     "subLine": "센스타일 프로",
     "name": "KCC 센스타일 프로 네오 패브릭 30226P (3.0T)",
     "code": "30226P",
-    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/30226P.png",
-    "image": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/30226P.png",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 사각/3.0T/30226P.webp",
+    "image": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 사각/3.0T/30226P.webp",
     "images": [
-      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/30226P.png"
+      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 사각/3.0T/30226P.webp"
     ],
     "price": 35000,
     "thickness": "3.0T",
@@ -1326,7 +1340,7 @@ export const materials = [
     "family": "센스타일 프로",
     "common_intro": "센스타일 프로는 KCC글라스의 상업용 LVT 바닥재로, 우드·스톤·마블·콘크리트·카펫 등 다양한 패턴을 제공한다. 특수 UV 코팅을 적용하여 스크래치 및 오염에 대한 저항성과 유지관리 편의성을 고려한 제품이다. 사무실, 상업시설, 음식점, 교육시설 등의 실내 바닥재로 활용할 수 있다.",
     "pattern_desc": "네오 패브릭 패턴을 적용한 450각 데코타일.",
-    "image_url": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/30226P.png"
+    "image_url": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 사각/3.0T/30226P.webp"
   },
   {
     "id": "데코타일-kcc-kcc_pro-33011p",
@@ -1336,10 +1350,10 @@ export const materials = [
     "subLine": "센스타일 프로",
     "name": "KCC 센스타일 프로 추상 33011P (3.0T)",
     "code": "33011P",
-    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/33011P.png",
-    "image": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/33011P.png",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 사각/3.0T/33011P.webp",
+    "image": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 사각/3.0T/33011P.webp",
     "images": [
-      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/33011P.png"
+      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 사각/3.0T/33011P.webp"
     ],
     "price": 35000,
     "thickness": "3.0T",
@@ -1366,7 +1380,7 @@ export const materials = [
     "family": "센스타일 프로",
     "common_intro": "센스타일 프로는 KCC글라스의 상업용 LVT 바닥재로, 우드·스톤·마블·콘크리트·카펫 등 다양한 패턴을 제공한다. 특수 UV 코팅을 적용하여 스크래치 및 오염에 대한 저항성과 유지관리 편의성을 고려한 제품이다. 사무실, 상업시설, 음식점, 교육시설 등의 실내 바닥재로 활용할 수 있다.",
     "pattern_desc": "추상 패턴을 적용한 450각 데코타일.",
-    "image_url": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/33011P.png"
+    "image_url": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 사각/3.0T/33011P.webp"
   },
   {
     "id": "데코타일-kcc-kcc_pro-33021m",
@@ -1376,10 +1390,11 @@ export const materials = [
     "subLine": "센스타일 프로",
     "name": "KCC 센스타일 프로 콘크리트 33021M (3.0T)",
     "code": "33021M",
-    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/33021M.png",
-    "image": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/33021M.png",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 600각/33021M.webp",
+    "image": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 600각/33021M.webp",
     "images": [
-      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/33021M.png"
+      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 600각/33021M.webp",
+      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 600각/33021M_install.jpg"
     ],
     "price": 35000,
     "thickness": "3.0T",
@@ -1406,7 +1421,7 @@ export const materials = [
     "family": "센스타일 프로",
     "common_intro": "센스타일 프로는 KCC글라스의 상업용 LVT 바닥재로, 우드·스톤·마블·콘크리트·카펫 등 다양한 패턴을 제공한다. 특수 UV 코팅을 적용하여 스크래치 및 오염에 대한 저항성과 유지관리 편의성을 고려한 제품이다. 사무실, 상업시설, 음식점, 교육시설 등의 실내 바닥재로 활용할 수 있다.",
     "pattern_desc": "콘크리트 패턴을 적용한 600각 데코타일.",
-    "image_url": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/33021M.png"
+    "image_url": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 600각/33021M.webp"
   },
   {
     "id": "데코타일-kcc-kcc_pro-33022m",
@@ -1416,10 +1431,10 @@ export const materials = [
     "subLine": "센스타일 프로",
     "name": "KCC 센스타일 프로 콘크리트 33022M (3.0T)",
     "code": "33022M",
-    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/33022M.png",
-    "image": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/33022M.png",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 600각/33022M.webp",
+    "image": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 600각/33022M.webp",
     "images": [
-      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/33022M.png"
+      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 600각/33022M.webp"
     ],
     "price": 35000,
     "thickness": "3.0T",
@@ -1446,7 +1461,7 @@ export const materials = [
     "family": "센스타일 프로",
     "common_intro": "센스타일 프로는 KCC글라스의 상업용 LVT 바닥재로, 우드·스톤·마블·콘크리트·카펫 등 다양한 패턴을 제공한다. 특수 UV 코팅을 적용하여 스크래치 및 오염에 대한 저항성과 유지관리 편의성을 고려한 제품이다. 사무실, 상업시설, 음식점, 교육시설 등의 실내 바닥재로 활용할 수 있다.",
     "pattern_desc": "콘크리트 패턴을 적용한 600각 데코타일.",
-    "image_url": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/33022M.png"
+    "image_url": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 600각/33022M.webp"
   },
   {
     "id": "데코타일-kcc-kcc_pro-33023m",
@@ -1456,10 +1471,10 @@ export const materials = [
     "subLine": "센스타일 프로",
     "name": "KCC 센스타일 프로 콘크리트 33023M (3.0T)",
     "code": "33023M",
-    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/33023M.png",
-    "image": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/33023M.png",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 600각/33023M.webp",
+    "image": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 600각/33023M.webp",
     "images": [
-      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/33023M.png"
+      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 600각/33023M.webp"
     ],
     "price": 35000,
     "thickness": "3.0T",
@@ -1486,7 +1501,7 @@ export const materials = [
     "family": "센스타일 프로",
     "common_intro": "센스타일 프로는 KCC글라스의 상업용 LVT 바닥재로, 우드·스톤·마블·콘크리트·카펫 등 다양한 패턴을 제공한다. 특수 UV 코팅을 적용하여 스크래치 및 오염에 대한 저항성과 유지관리 편의성을 고려한 제품이다. 사무실, 상업시설, 음식점, 교육시설 등의 실내 바닥재로 활용할 수 있다.",
     "pattern_desc": "콘크리트 패턴을 적용한 600각 데코타일.",
-    "image_url": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/33023M.png"
+    "image_url": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 600각/33023M.webp"
   },
   {
     "id": "데코타일-kcc-kcc_pro-33031m",
@@ -1496,10 +1511,10 @@ export const materials = [
     "subLine": "센스타일 프로",
     "name": "KCC 센스타일 프로 사하라 누아르 33031M (3.0T)",
     "code": "33031M",
-    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/33031M.png",
-    "image": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/33031M.png",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 600각/33031M.webp",
+    "image": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 600각/33031M.webp",
     "images": [
-      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/33031M.png"
+      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 600각/33031M.webp"
     ],
     "price": 35000,
     "thickness": "3.0T",
@@ -1526,7 +1541,7 @@ export const materials = [
     "family": "센스타일 프로",
     "common_intro": "센스타일 프로는 KCC글라스의 상업용 LVT 바닥재로, 우드·스톤·마블·콘크리트·카펫 등 다양한 패턴을 제공한다. 특수 UV 코팅을 적용하여 스크래치 및 오염에 대한 저항성과 유지관리 편의성을 고려한 제품이다. 사무실, 상업시설, 음식점, 교육시설 등의 실내 바닥재로 활용할 수 있다.",
     "pattern_desc": "사하라 누아르 패턴을 적용한 600각 데코타일.",
-    "image_url": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/33031M.png"
+    "image_url": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 600각/33031M.webp"
   },
   {
     "id": "데코타일-kcc-kcc_pro-33032m",
@@ -1536,10 +1551,11 @@ export const materials = [
     "subLine": "센스타일 프로",
     "name": "KCC 센스타일 프로 사하라 누아르 33032M (3.0T)",
     "code": "33032M",
-    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/33032M.png",
-    "image": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/33032M.png",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 600각/33032M.webp",
+    "image": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 600각/33032M.webp",
     "images": [
-      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/33032M.png"
+      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 600각/33032M.webp",
+      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 600각/33032M_install.jpg"
     ],
     "price": 35000,
     "thickness": "3.0T",
@@ -1566,7 +1582,7 @@ export const materials = [
     "family": "센스타일 프로",
     "common_intro": "센스타일 프로는 KCC글라스의 상업용 LVT 바닥재로, 우드·스톤·마블·콘크리트·카펫 등 다양한 패턴을 제공한다. 특수 UV 코팅을 적용하여 스크래치 및 오염에 대한 저항성과 유지관리 편의성을 고려한 제품이다. 사무실, 상업시설, 음식점, 교육시설 등의 실내 바닥재로 활용할 수 있다.",
     "pattern_desc": "사하라 누아르 패턴을 적용한 600각 데코타일.",
-    "image_url": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/33032M.png"
+    "image_url": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 600각/33032M.webp"
   },
   {
     "id": "데코타일-kcc-kcc_pro-33101m",
@@ -1576,10 +1592,10 @@ export const materials = [
     "subLine": "센스타일 프로",
     "name": "KCC 센스타일 프로 카펫 33101M (3.0T)",
     "code": "33101M",
-    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/33101M.png",
-    "image": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/33101M.png",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 600각/33101M.webp",
+    "image": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 600각/33101M.webp",
     "images": [
-      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/33101M.png"
+      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 600각/33101M.webp"
     ],
     "price": 35000,
     "thickness": "3.0T",
@@ -1606,7 +1622,7 @@ export const materials = [
     "family": "센스타일 프로",
     "common_intro": "센스타일 프로는 KCC글라스의 상업용 LVT 바닥재로, 우드·스톤·마블·콘크리트·카펫 등 다양한 패턴을 제공한다. 특수 UV 코팅을 적용하여 스크래치 및 오염에 대한 저항성과 유지관리 편의성을 고려한 제품이다. 사무실, 상업시설, 음식점, 교육시설 등의 실내 바닥재로 활용할 수 있다.",
     "pattern_desc": "카펫 패턴을 적용한 600각 데코타일.",
-    "image_url": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/33101M.png"
+    "image_url": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 600각/33101M.webp"
   },
   {
     "id": "데코타일-kcc-kcc_pro-33102m",
@@ -1616,10 +1632,11 @@ export const materials = [
     "subLine": "센스타일 프로",
     "name": "KCC 센스타일 프로 카펫 33102M (3.0T)",
     "code": "33102M",
-    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/33102M.png",
-    "image": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/33102M.png",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 600각/33102M.webp",
+    "image": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 600각/33102M.webp",
     "images": [
-      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/33102M.png"
+      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 600각/33102M.webp",
+      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 600각/33102M_install.jpg"
     ],
     "price": 35000,
     "thickness": "3.0T",
@@ -1646,7 +1663,7 @@ export const materials = [
     "family": "센스타일 프로",
     "common_intro": "센스타일 프로는 KCC글라스의 상업용 LVT 바닥재로, 우드·스톤·마블·콘크리트·카펫 등 다양한 패턴을 제공한다. 특수 UV 코팅을 적용하여 스크래치 및 오염에 대한 저항성과 유지관리 편의성을 고려한 제품이다. 사무실, 상업시설, 음식점, 교육시설 등의 실내 바닥재로 활용할 수 있다.",
     "pattern_desc": "카펫 패턴을 적용한 600각 데코타일.",
-    "image_url": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/33102M.png"
+    "image_url": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 600각/33102M.webp"
   },
   {
     "id": "데코타일-kcc-kcc_pro-33121p",
@@ -1656,10 +1673,10 @@ export const materials = [
     "subLine": "센스타일 프로",
     "name": "KCC 센스타일 프로 스트라이프 카펫 33121P (3.0T)",
     "code": "33121P",
-    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/33121P.png",
-    "image": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/33121P.png",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 사각/3.0T/33121P.webp",
+    "image": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 사각/3.0T/33121P.webp",
     "images": [
-      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/33121P.png"
+      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 사각/3.0T/33121P.webp"
     ],
     "price": 35000,
     "thickness": "3.0T",
@@ -1686,7 +1703,7 @@ export const materials = [
     "family": "센스타일 프로",
     "common_intro": "센스타일 프로는 KCC글라스의 상업용 LVT 바닥재로, 우드·스톤·마블·콘크리트·카펫 등 다양한 패턴을 제공한다. 특수 UV 코팅을 적용하여 스크래치 및 오염에 대한 저항성과 유지관리 편의성을 고려한 제품이다. 사무실, 상업시설, 음식점, 교육시설 등의 실내 바닥재로 활용할 수 있다.",
     "pattern_desc": "스트라이프 카펫 패턴을 적용한 450각 데코타일.",
-    "image_url": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/33121P.png"
+    "image_url": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 사각/3.0T/33121P.webp"
   },
   {
     "id": "데코타일-kcc-kcc_pro-33122p",
@@ -1696,10 +1713,10 @@ export const materials = [
     "subLine": "센스타일 프로",
     "name": "KCC 센스타일 프로 스트라이프 카펫 33122P (3.0T)",
     "code": "33122P",
-    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/33122P.png",
-    "image": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/33122P.png",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 사각/3.0T/33122P.webp",
+    "image": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 사각/3.0T/33122P.webp",
     "images": [
-      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/33122P.png"
+      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 사각/3.0T/33122P.webp"
     ],
     "price": 35000,
     "thickness": "3.0T",
@@ -1726,7 +1743,7 @@ export const materials = [
     "family": "센스타일 프로",
     "common_intro": "센스타일 프로는 KCC글라스의 상업용 LVT 바닥재로, 우드·스톤·마블·콘크리트·카펫 등 다양한 패턴을 제공한다. 특수 UV 코팅을 적용하여 스크래치 및 오염에 대한 저항성과 유지관리 편의성을 고려한 제품이다. 사무실, 상업시설, 음식점, 교육시설 등의 실내 바닥재로 활용할 수 있다.",
     "pattern_desc": "스트라이프 카펫 패턴을 적용한 450각 데코타일.",
-    "image_url": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/33122P.png"
+    "image_url": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 사각/3.0T/33122P.webp"
   },
   {
     "id": "데코타일-kcc-kcc_pro-33151m",
@@ -1736,10 +1753,11 @@ export const materials = [
     "subLine": "센스타일 프로",
     "name": "KCC 센스타일 프로 헤라 콘크리트 33151M (3.0T)",
     "code": "33151M",
-    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/33151M.png",
-    "image": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/33151M.png",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 600각/33151M.webp",
+    "image": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 600각/33151M.webp",
     "images": [
-      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/33151M.png"
+      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 600각/33151M.webp",
+      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 600각/33151M_install.jpg"
     ],
     "price": 35000,
     "thickness": "3.0T",
@@ -1766,7 +1784,7 @@ export const materials = [
     "family": "센스타일 프로",
     "common_intro": "센스타일 프로는 KCC글라스의 상업용 LVT 바닥재로, 우드·스톤·마블·콘크리트·카펫 등 다양한 패턴을 제공한다. 특수 UV 코팅을 적용하여 스크래치 및 오염에 대한 저항성과 유지관리 편의성을 고려한 제품이다. 사무실, 상업시설, 음식점, 교육시설 등의 실내 바닥재로 활용할 수 있다.",
     "pattern_desc": "헤라 콘크리트 패턴을 적용한 600각 데코타일.",
-    "image_url": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/33151M.png"
+    "image_url": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 600각/33151M.webp"
   },
   {
     "id": "데코타일-kcc-kcc_pro-33152m",
@@ -1776,10 +1794,10 @@ export const materials = [
     "subLine": "센스타일 프로",
     "name": "KCC 센스타일 프로 헤라 콘크리트 33152M (3.0T)",
     "code": "33152M",
-    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/33152M.png",
-    "image": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/33152M.png",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 600각/33152M.webp",
+    "image": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 600각/33152M.webp",
     "images": [
-      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/33152M.png"
+      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 600각/33152M.webp"
     ],
     "price": 35000,
     "thickness": "3.0T",
@@ -1806,7 +1824,7 @@ export const materials = [
     "family": "센스타일 프로",
     "common_intro": "센스타일 프로는 KCC글라스의 상업용 LVT 바닥재로, 우드·스톤·마블·콘크리트·카펫 등 다양한 패턴을 제공한다. 특수 UV 코팅을 적용하여 스크래치 및 오염에 대한 저항성과 유지관리 편의성을 고려한 제품이다. 사무실, 상업시설, 음식점, 교육시설 등의 실내 바닥재로 활용할 수 있다.",
     "pattern_desc": "헤라 콘크리트 패턴을 적용한 600각 데코타일.",
-    "image_url": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/33152M.png"
+    "image_url": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 600각/33152M.webp"
   },
   {
     "id": "데코타일-kcc-kcc_pro-33161p",
@@ -1816,10 +1834,11 @@ export const materials = [
     "subLine": "센스타일 프로",
     "name": "KCC 센스타일 프로 마블 33161P (3.0T)",
     "code": "33161P",
-    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/33161P.png",
-    "image": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/33161P.png",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 사각/3.0T/33161P.webp",
+    "image": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 사각/3.0T/33161P.webp",
     "images": [
-      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/33161P.png"
+      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 사각/3.0T/33161P.webp",
+      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 사각/3.0T/33161P_install.jpg"
     ],
     "price": 35000,
     "thickness": "3.0T",
@@ -1846,7 +1865,7 @@ export const materials = [
     "family": "센스타일 프로",
     "common_intro": "센스타일 프로는 KCC글라스의 상업용 LVT 바닥재로, 우드·스톤·마블·콘크리트·카펫 등 다양한 패턴을 제공한다. 특수 UV 코팅을 적용하여 스크래치 및 오염에 대한 저항성과 유지관리 편의성을 고려한 제품이다. 사무실, 상업시설, 음식점, 교육시설 등의 실내 바닥재로 활용할 수 있다.",
     "pattern_desc": "마블 패턴을 적용한 450각 데코타일.",
-    "image_url": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/33161P.png"
+    "image_url": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 사각/3.0T/33161P.webp"
   },
   {
     "id": "데코타일-kcc-kcc_pro-33171p",
@@ -1856,10 +1875,11 @@ export const materials = [
     "subLine": "센스타일 프로",
     "name": "KCC 센스타일 프로 리버스톤 33171P (3.0T)",
     "code": "33171P",
-    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/33171P.png",
-    "image": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/33171P.png",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 사각/3.0T/33171P.webp",
+    "image": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 사각/3.0T/33171P.webp",
     "images": [
-      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/33171P.png"
+      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 사각/3.0T/33171P.webp",
+      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 사각/3.0T/33171P_install.jpg"
     ],
     "price": 35000,
     "thickness": "3.0T",
@@ -1886,7 +1906,7 @@ export const materials = [
     "family": "센스타일 프로",
     "common_intro": "센스타일 프로는 KCC글라스의 상업용 LVT 바닥재로, 우드·스톤·마블·콘크리트·카펫 등 다양한 패턴을 제공한다. 특수 UV 코팅을 적용하여 스크래치 및 오염에 대한 저항성과 유지관리 편의성을 고려한 제품이다. 사무실, 상업시설, 음식점, 교육시설 등의 실내 바닥재로 활용할 수 있다.",
     "pattern_desc": "리버스톤 패턴을 적용한 450각 데코타일.",
-    "image_url": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/33171P.png"
+    "image_url": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 사각/3.0T/33171P.webp"
   },
   {
     "id": "데코타일-kcc-kcc_pro-33172p",
@@ -1896,10 +1916,10 @@ export const materials = [
     "subLine": "센스타일 프로",
     "name": "KCC 센스타일 프로 리버스톤 33172P (3.0T)",
     "code": "33172P",
-    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/33172P.png",
-    "image": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/33172P.png",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 사각/3.0T/33172P.webp",
+    "image": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 사각/3.0T/33172P.webp",
     "images": [
-      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/33172P.png"
+      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 사각/3.0T/33172P.webp"
     ],
     "price": 35000,
     "thickness": "3.0T",
@@ -1926,7 +1946,7 @@ export const materials = [
     "family": "센스타일 프로",
     "common_intro": "센스타일 프로는 KCC글라스의 상업용 LVT 바닥재로, 우드·스톤·마블·콘크리트·카펫 등 다양한 패턴을 제공한다. 특수 UV 코팅을 적용하여 스크래치 및 오염에 대한 저항성과 유지관리 편의성을 고려한 제품이다. 사무실, 상업시설, 음식점, 교육시설 등의 실내 바닥재로 활용할 수 있다.",
     "pattern_desc": "리버스톤 패턴을 적용한 450각 데코타일.",
-    "image_url": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/33172P.png"
+    "image_url": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 사각/3.0T/33172P.webp"
   },
   {
     "id": "데코타일-kcc-kcc_pro-33181p",
@@ -1936,10 +1956,10 @@ export const materials = [
     "subLine": "센스타일 프로",
     "name": "KCC 센스타일 프로 콘그레이 33181P (3.0T)",
     "code": "33181P",
-    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/33181P.png",
-    "image": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/33181P.png",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 사각/3.0T/33181P.webp",
+    "image": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 사각/3.0T/33181P.webp",
     "images": [
-      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/33181P.png"
+      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 사각/3.0T/33181P.webp"
     ],
     "price": 35000,
     "thickness": "3.0T",
@@ -1966,7 +1986,7 @@ export const materials = [
     "family": "센스타일 프로",
     "common_intro": "센스타일 프로는 KCC글라스의 상업용 LVT 바닥재로, 우드·스톤·마블·콘크리트·카펫 등 다양한 패턴을 제공한다. 특수 UV 코팅을 적용하여 스크래치 및 오염에 대한 저항성과 유지관리 편의성을 고려한 제품이다. 사무실, 상업시설, 음식점, 교육시설 등의 실내 바닥재로 활용할 수 있다.",
     "pattern_desc": "콘그레이 패턴을 적용한 450각 데코타일.",
-    "image_url": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/33181P.png"
+    "image_url": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 사각/3.0T/33181P.webp"
   },
   {
     "id": "데코타일-kcc-kcc_pro-33182p",
@@ -1976,10 +1996,10 @@ export const materials = [
     "subLine": "센스타일 프로",
     "name": "KCC 센스타일 프로 콘그레이 33182P (3.0T)",
     "code": "33182P",
-    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/33182P.png",
-    "image": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/33182P.png",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 사각/3.0T/33182P.webp",
+    "image": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 사각/3.0T/33182P.webp",
     "images": [
-      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/33182P.png"
+      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 사각/3.0T/33182P.webp"
     ],
     "price": 35000,
     "thickness": "3.0T",
@@ -2006,7 +2026,7 @@ export const materials = [
     "family": "센스타일 프로",
     "common_intro": "센스타일 프로는 KCC글라스의 상업용 LVT 바닥재로, 우드·스톤·마블·콘크리트·카펫 등 다양한 패턴을 제공한다. 특수 UV 코팅을 적용하여 스크래치 및 오염에 대한 저항성과 유지관리 편의성을 고려한 제품이다. 사무실, 상업시설, 음식점, 교육시설 등의 실내 바닥재로 활용할 수 있다.",
     "pattern_desc": "콘그레이 패턴을 적용한 450각 데코타일.",
-    "image_url": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/33182P.png"
+    "image_url": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 사각/3.0T/33182P.webp"
   },
   {
     "id": "데코타일-kcc-kcc_pro-33183p",
@@ -2016,10 +2036,11 @@ export const materials = [
     "subLine": "센스타일 프로",
     "name": "KCC 센스타일 프로 콘그레이 33183P (3.0T)",
     "code": "33183P",
-    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/33183P.png",
-    "image": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/33183P.png",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 사각/3.0T/33183P.webp",
+    "image": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 사각/3.0T/33183P.webp",
     "images": [
-      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/33183P.png"
+      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 사각/3.0T/33183P.webp",
+      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 사각/3.0T/33183P_install.jpg"
     ],
     "price": 35000,
     "thickness": "3.0T",
@@ -2046,7 +2067,7 @@ export const materials = [
     "family": "센스타일 프로",
     "common_intro": "센스타일 프로는 KCC글라스의 상업용 LVT 바닥재로, 우드·스톤·마블·콘크리트·카펫 등 다양한 패턴을 제공한다. 특수 UV 코팅을 적용하여 스크래치 및 오염에 대한 저항성과 유지관리 편의성을 고려한 제품이다. 사무실, 상업시설, 음식점, 교육시설 등의 실내 바닥재로 활용할 수 있다.",
     "pattern_desc": "콘그레이 패턴을 적용한 450각 데코타일.",
-    "image_url": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/33183P.png"
+    "image_url": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 사각/3.0T/33183P.webp"
   },
   {
     "id": "데코타일-kcc-kcc_pro-33191p",
@@ -2056,10 +2077,10 @@ export const materials = [
     "subLine": "센스타일 프로",
     "name": "KCC 센스타일 프로 소프트 콘크리트 33191P (3.0T)",
     "code": "33191P",
-    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/33191P.png",
-    "image": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/33191P.png",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 사각/3.0T/33191P.webp",
+    "image": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 사각/3.0T/33191P.webp",
     "images": [
-      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/33191P.png"
+      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 사각/3.0T/33191P.webp"
     ],
     "price": 35000,
     "thickness": "3.0T",
@@ -2086,7 +2107,7 @@ export const materials = [
     "family": "센스타일 프로",
     "common_intro": "센스타일 프로는 KCC글라스의 상업용 LVT 바닥재로, 우드·스톤·마블·콘크리트·카펫 등 다양한 패턴을 제공한다. 특수 UV 코팅을 적용하여 스크래치 및 오염에 대한 저항성과 유지관리 편의성을 고려한 제품이다. 사무실, 상업시설, 음식점, 교육시설 등의 실내 바닥재로 활용할 수 있다.",
     "pattern_desc": "소프트 콘크리트 패턴을 적용한 450각 데코타일.",
-    "image_url": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/33191P.png"
+    "image_url": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 사각/3.0T/33191P.webp"
   },
   {
     "id": "데코타일-kcc-kcc_pro-33192p",
@@ -2096,10 +2117,10 @@ export const materials = [
     "subLine": "센스타일 프로",
     "name": "KCC 센스타일 프로 소프트 콘크리트 33192P (3.0T)",
     "code": "33192P",
-    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/33192P.png",
-    "image": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/33192P.png",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 사각/3.0T/33192P.webp",
+    "image": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 사각/3.0T/33192P.webp",
     "images": [
-      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/33192P.png"
+      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 사각/3.0T/33192P.webp"
     ],
     "price": 35000,
     "thickness": "3.0T",
@@ -2126,7 +2147,7 @@ export const materials = [
     "family": "센스타일 프로",
     "common_intro": "센스타일 프로는 KCC글라스의 상업용 LVT 바닥재로, 우드·스톤·마블·콘크리트·카펫 등 다양한 패턴을 제공한다. 특수 UV 코팅을 적용하여 스크래치 및 오염에 대한 저항성과 유지관리 편의성을 고려한 제품이다. 사무실, 상업시설, 음식점, 교육시설 등의 실내 바닥재로 활용할 수 있다.",
     "pattern_desc": "소프트 콘크리트 패턴을 적용한 450각 데코타일.",
-    "image_url": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/33192P.png"
+    "image_url": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 사각/3.0T/33192P.webp"
   },
   {
     "id": "데코타일-kcc-kcc_pro-33201p",
@@ -2136,10 +2157,10 @@ export const materials = [
     "subLine": "센스타일 프로",
     "name": "KCC 센스타일 프로 테라조 33201P (3.0T)",
     "code": "33201P",
-    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/33201P.png",
-    "image": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/33201P.png",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 사각/3.0T/33201P.webp",
+    "image": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 사각/3.0T/33201P.webp",
     "images": [
-      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/33201P.png"
+      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 사각/3.0T/33201P.webp"
     ],
     "price": 35000,
     "thickness": "3.0T",
@@ -2166,7 +2187,7 @@ export const materials = [
     "family": "센스타일 프로",
     "common_intro": "센스타일 프로는 KCC글라스의 상업용 LVT 바닥재로, 우드·스톤·마블·콘크리트·카펫 등 다양한 패턴을 제공한다. 특수 UV 코팅을 적용하여 스크래치 및 오염에 대한 저항성과 유지관리 편의성을 고려한 제품이다. 사무실, 상업시설, 음식점, 교육시설 등의 실내 바닥재로 활용할 수 있다.",
     "pattern_desc": "테라조 패턴을 적용한 450각 데코타일.",
-    "image_url": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/33201P.png"
+    "image_url": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 사각/3.0T/33201P.webp"
   },
   {
     "id": "데코타일-kcc-kcc_pro-33211p",
@@ -2176,10 +2197,11 @@ export const materials = [
     "subLine": "센스타일 프로",
     "name": "KCC 센스타일 프로 카펫 33211P (3.0T)",
     "code": "33211P",
-    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/33211P.png",
-    "image": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/33211P.png",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 사각/3.0T/33211P.webp",
+    "image": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 사각/3.0T/33211P.webp",
     "images": [
-      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/33211P.png"
+      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 사각/3.0T/33211P.webp",
+      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 사각/3.0T/33211P_install.jpg"
     ],
     "price": 35000,
     "thickness": "3.0T",
@@ -2206,7 +2228,7 @@ export const materials = [
     "family": "센스타일 프로",
     "common_intro": "센스타일 프로는 KCC글라스의 상업용 LVT 바닥재로, 우드·스톤·마블·콘크리트·카펫 등 다양한 패턴을 제공한다. 특수 UV 코팅을 적용하여 스크래치 및 오염에 대한 저항성과 유지관리 편의성을 고려한 제품이다. 사무실, 상업시설, 음식점, 교육시설 등의 실내 바닥재로 활용할 수 있다.",
     "pattern_desc": "카펫 패턴을 적용한 450각 데코타일.",
-    "image_url": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/33211P.png"
+    "image_url": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 사각/3.0T/33211P.webp"
   },
   {
     "id": "데코타일-kcc-kcc_pro-35001g",
@@ -2216,10 +2238,10 @@ export const materials = [
     "subLine": "센스타일 프로",
     "name": "KCC 센스타일 프로 앤틱 오크 35001G (3.0T)",
     "code": "35001G",
-    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/35001G.png",
-    "image": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/35001G.png",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 우드/35001G.webp",
+    "image": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 우드/35001G.webp",
     "images": [
-      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/35001G.png"
+      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 우드/35001G.webp"
     ],
     "price": 35000,
     "thickness": "3.0T",
@@ -2246,7 +2268,7 @@ export const materials = [
     "family": "센스타일 프로",
     "common_intro": "센스타일 프로는 KCC글라스의 상업용 LVT 바닥재로, 우드·스톤·마블·콘크리트·카펫 등 다양한 패턴을 제공한다. 특수 UV 코팅을 적용하여 스크래치 및 오염에 대한 저항성과 유지관리 편의성을 고려한 제품이다. 사무실, 상업시설, 음식점, 교육시설 등의 실내 바닥재로 활용할 수 있다.",
     "pattern_desc": "앤틱 오크 패턴을 적용한 일반 우드 디자인 데코타일.",
-    "image_url": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/35001G.png"
+    "image_url": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 우드/35001G.webp"
   },
   {
     "id": "데코타일-kcc-kcc_pro-35011g",
@@ -2256,10 +2278,10 @@ export const materials = [
     "subLine": "센스타일 프로",
     "name": "KCC 센스타일 프로 크랙 오크 35011G (3.0T)",
     "code": "35011G",
-    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/35011G.png",
-    "image": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/35011G.png",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 우드/35011G.webp",
+    "image": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 우드/35011G.webp",
     "images": [
-      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/35011G.png"
+      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 우드/35011G.webp"
     ],
     "price": 35000,
     "thickness": "3.0T",
@@ -2286,7 +2308,7 @@ export const materials = [
     "family": "센스타일 프로",
     "common_intro": "센스타일 프로는 KCC글라스의 상업용 LVT 바닥재로, 우드·스톤·마블·콘크리트·카펫 등 다양한 패턴을 제공한다. 특수 UV 코팅을 적용하여 스크래치 및 오염에 대한 저항성과 유지관리 편의성을 고려한 제품이다. 사무실, 상업시설, 음식점, 교육시설 등의 실내 바닥재로 활용할 수 있다.",
     "pattern_desc": "크랙 오크 패턴을 적용한 일반 우드 디자인 데코타일.",
-    "image_url": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/35011G.png"
+    "image_url": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 우드/35011G.webp"
   },
   {
     "id": "데코타일-kcc-kcc_pro-35022g",
@@ -2296,10 +2318,10 @@ export const materials = [
     "subLine": "센스타일 프로",
     "name": "KCC 센스타일 프로 노르딕 오크 35022G (3.0T)",
     "code": "35022G",
-    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/35022G.png",
-    "image": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/35022G.png",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 우드/35022G.webp",
+    "image": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 우드/35022G.webp",
     "images": [
-      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/35022G.png"
+      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 우드/35022G.webp"
     ],
     "price": 35000,
     "thickness": "3.0T",
@@ -2326,7 +2348,7 @@ export const materials = [
     "family": "센스타일 프로",
     "common_intro": "센스타일 프로는 KCC글라스의 상업용 LVT 바닥재로, 우드·스톤·마블·콘크리트·카펫 등 다양한 패턴을 제공한다. 특수 UV 코팅을 적용하여 스크래치 및 오염에 대한 저항성과 유지관리 편의성을 고려한 제품이다. 사무실, 상업시설, 음식점, 교육시설 등의 실내 바닥재로 활용할 수 있다.",
     "pattern_desc": "노르딕 오크 패턴을 적용한 일반 우드 디자인 데코타일.",
-    "image_url": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/35022G.png"
+    "image_url": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 우드/35022G.webp"
   },
   {
     "id": "데코타일-kcc-kcc_pro-35042g",
@@ -2336,10 +2358,10 @@ export const materials = [
     "subLine": "센스타일 프로",
     "name": "KCC 센스타일 프로 캐시드럴 오크 35042G (3.0T)",
     "code": "35042G",
-    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/35042G.png",
-    "image": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/35042G.png",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 우드/35042G.webp",
+    "image": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 우드/35042G.webp",
     "images": [
-      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/35042G.png"
+      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 우드/35042G.webp"
     ],
     "price": 35000,
     "thickness": "3.0T",
@@ -2366,7 +2388,7 @@ export const materials = [
     "family": "센스타일 프로",
     "common_intro": "센스타일 프로는 KCC글라스의 상업용 LVT 바닥재로, 우드·스톤·마블·콘크리트·카펫 등 다양한 패턴을 제공한다. 특수 UV 코팅을 적용하여 스크래치 및 오염에 대한 저항성과 유지관리 편의성을 고려한 제품이다. 사무실, 상업시설, 음식점, 교육시설 등의 실내 바닥재로 활용할 수 있다.",
     "pattern_desc": "캐시드럴 오크 패턴을 적용한 일반 우드 디자인 데코타일.",
-    "image_url": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/35042G.png"
+    "image_url": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 우드/35042G.webp"
   },
   {
     "id": "데코타일-kcc-kcc_pro-35043g",
@@ -2376,10 +2398,10 @@ export const materials = [
     "subLine": "센스타일 프로",
     "name": "KCC 센스타일 프로 캐시드럴 오크 35043G (3.0T)",
     "code": "35043G",
-    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/35043G.png",
-    "image": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/35043G.png",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 우드/35043G.webp",
+    "image": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 우드/35043G.webp",
     "images": [
-      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/35043G.png"
+      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 우드/35043G.webp"
     ],
     "price": 35000,
     "thickness": "3.0T",
@@ -2406,7 +2428,7 @@ export const materials = [
     "family": "센스타일 프로",
     "common_intro": "센스타일 프로는 KCC글라스의 상업용 LVT 바닥재로, 우드·스톤·마블·콘크리트·카펫 등 다양한 패턴을 제공한다. 특수 UV 코팅을 적용하여 스크래치 및 오염에 대한 저항성과 유지관리 편의성을 고려한 제품이다. 사무실, 상업시설, 음식점, 교육시설 등의 실내 바닥재로 활용할 수 있다.",
     "pattern_desc": "캐시드럴 오크 패턴을 적용한 일반 우드 디자인 데코타일.",
-    "image_url": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/35043G.png"
+    "image_url": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 우드/35043G.webp"
   },
   {
     "id": "데코타일-kcc-kcc_pro-35051g",
@@ -2416,10 +2438,10 @@ export const materials = [
     "subLine": "센스타일 프로",
     "name": "KCC 센스타일 프로 내추럴 오크 35051G (3.0T)",
     "code": "35051G",
-    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/35051G.png",
-    "image": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/35051G.png",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 우드/35051G.webp",
+    "image": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 우드/35051G.webp",
     "images": [
-      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/35051G.png"
+      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 우드/35051G.webp"
     ],
     "price": 35000,
     "thickness": "3.0T",
@@ -2446,7 +2468,7 @@ export const materials = [
     "family": "센스타일 프로",
     "common_intro": "센스타일 프로는 KCC글라스의 상업용 LVT 바닥재로, 우드·스톤·마블·콘크리트·카펫 등 다양한 패턴을 제공한다. 특수 UV 코팅을 적용하여 스크래치 및 오염에 대한 저항성과 유지관리 편의성을 고려한 제품이다. 사무실, 상업시설, 음식점, 교육시설 등의 실내 바닥재로 활용할 수 있다.",
     "pattern_desc": "내추럴 오크 패턴을 적용한 일반 우드 디자인 데코타일.",
-    "image_url": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/35051G.png"
+    "image_url": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 우드/35051G.webp"
   },
   {
     "id": "데코타일-kcc-kcc_pro-35052g",
@@ -2456,10 +2478,11 @@ export const materials = [
     "subLine": "센스타일 프로",
     "name": "KCC 센스타일 프로 내추럴 오크 35052G (3.0T)",
     "code": "35052G",
-    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/35052G.png",
-    "image": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/35052G.png",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 우드/35052G.webp",
+    "image": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 우드/35052G.webp",
     "images": [
-      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/35052G.png"
+      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 우드/35052G.webp",
+      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 우드/35052G_install.jpg"
     ],
     "price": 35000,
     "thickness": "3.0T",
@@ -2486,7 +2509,7 @@ export const materials = [
     "family": "센스타일 프로",
     "common_intro": "센스타일 프로는 KCC글라스의 상업용 LVT 바닥재로, 우드·스톤·마블·콘크리트·카펫 등 다양한 패턴을 제공한다. 특수 UV 코팅을 적용하여 스크래치 및 오염에 대한 저항성과 유지관리 편의성을 고려한 제품이다. 사무실, 상업시설, 음식점, 교육시설 등의 실내 바닥재로 활용할 수 있다.",
     "pattern_desc": "내추럴 오크 패턴을 적용한 일반 우드 디자인 데코타일.",
-    "image_url": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/35052G.png"
+    "image_url": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 우드/35052G.webp"
   },
   {
     "id": "데코타일-kcc-kcc_pro-35062g",
@@ -2496,10 +2519,10 @@ export const materials = [
     "subLine": "센스타일 프로",
     "name": "KCC 센스타일 프로 쏘우밀 오크 35062G (3.0T)",
     "code": "35062G",
-    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/35062G.png",
-    "image": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/35062G.png",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 우드/35062G.webp",
+    "image": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 우드/35062G.webp",
     "images": [
-      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/35062G.png"
+      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 우드/35062G.webp"
     ],
     "price": 35000,
     "thickness": "3.0T",
@@ -2526,7 +2549,7 @@ export const materials = [
     "family": "센스타일 프로",
     "common_intro": "센스타일 프로는 KCC글라스의 상업용 LVT 바닥재로, 우드·스톤·마블·콘크리트·카펫 등 다양한 패턴을 제공한다. 특수 UV 코팅을 적용하여 스크래치 및 오염에 대한 저항성과 유지관리 편의성을 고려한 제품이다. 사무실, 상업시설, 음식점, 교육시설 등의 실내 바닥재로 활용할 수 있다.",
     "pattern_desc": "쏘우밀 오크 패턴을 적용한 일반 우드 디자인 데코타일.",
-    "image_url": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/35062G.png"
+    "image_url": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 우드/35062G.webp"
   },
   {
     "id": "데코타일-kcc-kcc_pro-35064g",
@@ -2536,10 +2559,11 @@ export const materials = [
     "subLine": "센스타일 프로",
     "name": "KCC 센스타일 프로 쏘우밀 오크 35064G (3.0T)",
     "code": "35064G",
-    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/35064G.png",
-    "image": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/35064G.png",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 우드/35064G.webp",
+    "image": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 우드/35064G.webp",
     "images": [
-      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/35064G.png"
+      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 우드/35064G.webp",
+      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 우드/35064G_install.jpg"
     ],
     "price": 35000,
     "thickness": "3.0T",
@@ -2566,7 +2590,7 @@ export const materials = [
     "family": "센스타일 프로",
     "common_intro": "센스타일 프로는 KCC글라스의 상업용 LVT 바닥재로, 우드·스톤·마블·콘크리트·카펫 등 다양한 패턴을 제공한다. 특수 UV 코팅을 적용하여 스크래치 및 오염에 대한 저항성과 유지관리 편의성을 고려한 제품이다. 사무실, 상업시설, 음식점, 교육시설 등의 실내 바닥재로 활용할 수 있다.",
     "pattern_desc": "쏘우밀 오크 패턴을 적용한 일반 우드 디자인 데코타일.",
-    "image_url": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/35064G.png"
+    "image_url": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 우드/35064G.webp"
   },
   {
     "id": "데코타일-kcc-kcc_pro-38011g",
@@ -2576,10 +2600,10 @@ export const materials = [
     "subLine": "센스타일 프로",
     "name": "KCC 센스타일 프로 오크 38011G (3.0T)",
     "code": "38011G",
-    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/38011G.png",
-    "image": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/38011G.png",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 우드/38011G.webp",
+    "image": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 우드/38011G.webp",
     "images": [
-      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/38011G.png"
+      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 우드/38011G.webp"
     ],
     "price": 35000,
     "thickness": "3.0T",
@@ -2606,7 +2630,7 @@ export const materials = [
     "family": "센스타일 프로",
     "common_intro": "센스타일 프로는 KCC글라스의 상업용 LVT 바닥재로, 우드·스톤·마블·콘크리트·카펫 등 다양한 패턴을 제공한다. 특수 UV 코팅을 적용하여 스크래치 및 오염에 대한 저항성과 유지관리 편의성을 고려한 제품이다. 사무실, 상업시설, 음식점, 교육시설 등의 실내 바닥재로 활용할 수 있다.",
     "pattern_desc": "오크 패턴을 적용한 일반 우드 디자인 데코타일.",
-    "image_url": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/38011G.png"
+    "image_url": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 우드/38011G.webp"
   },
   {
     "id": "데코타일-kcc-kcc_pro-38021g",
@@ -2616,10 +2640,10 @@ export const materials = [
     "subLine": "센스타일 프로",
     "name": "KCC 센스타일 프로 오크 38021G (3.0T)",
     "code": "38021G",
-    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/38021G.png",
-    "image": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/38021G.png",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 우드/38021G.webp",
+    "image": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 우드/38021G.webp",
     "images": [
-      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/38021G.png"
+      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 우드/38021G.webp"
     ],
     "price": 35000,
     "thickness": "3.0T",
@@ -2646,7 +2670,7 @@ export const materials = [
     "family": "센스타일 프로",
     "common_intro": "센스타일 프로는 KCC글라스의 상업용 LVT 바닥재로, 우드·스톤·마블·콘크리트·카펫 등 다양한 패턴을 제공한다. 특수 UV 코팅을 적용하여 스크래치 및 오염에 대한 저항성과 유지관리 편의성을 고려한 제품이다. 사무실, 상업시설, 음식점, 교육시설 등의 실내 바닥재로 활용할 수 있다.",
     "pattern_desc": "오크 패턴을 적용한 일반 우드 디자인 데코타일.",
-    "image_url": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/38021G.png"
+    "image_url": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 우드/38021G.webp"
   },
   {
     "id": "데코타일-kcc-kcc_pro-38031g",
@@ -2656,10 +2680,10 @@ export const materials = [
     "subLine": "센스타일 프로",
     "name": "KCC 센스타일 프로 오크 38031G (3.0T)",
     "code": "38031G",
-    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/38031G.png",
-    "image": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/38031G.png",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 우드/38031G.webp",
+    "image": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 우드/38031G.webp",
     "images": [
-      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/38031G.png"
+      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 우드/38031G.webp"
     ],
     "price": 35000,
     "thickness": "3.0T",
@@ -2686,7 +2710,7 @@ export const materials = [
     "family": "센스타일 프로",
     "common_intro": "센스타일 프로는 KCC글라스의 상업용 LVT 바닥재로, 우드·스톤·마블·콘크리트·카펫 등 다양한 패턴을 제공한다. 특수 UV 코팅을 적용하여 스크래치 및 오염에 대한 저항성과 유지관리 편의성을 고려한 제품이다. 사무실, 상업시설, 음식점, 교육시설 등의 실내 바닥재로 활용할 수 있다.",
     "pattern_desc": "오크 패턴을 적용한 일반 우드 디자인 데코타일.",
-    "image_url": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/38031G.png"
+    "image_url": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 우드/38031G.webp"
   },
   {
     "id": "데코타일-kcc-kcc_pro-38141g",
@@ -2696,10 +2720,11 @@ export const materials = [
     "subLine": "센스타일 프로",
     "name": "KCC 센스타일 프로 오크 38141G (3.0T)",
     "code": "38141G",
-    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/38141G.png",
-    "image": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/38141G.png",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 우드/38141G.webp",
+    "image": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 우드/38141G.webp",
     "images": [
-      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/38141G.png"
+      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 우드/38141G.webp",
+      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 우드/38141G_install.jpg"
     ],
     "price": 35000,
     "thickness": "3.0T",
@@ -2726,7 +2751,7 @@ export const materials = [
     "family": "센스타일 프로",
     "common_intro": "센스타일 프로는 KCC글라스의 상업용 LVT 바닥재로, 우드·스톤·마블·콘크리트·카펫 등 다양한 패턴을 제공한다. 특수 UV 코팅을 적용하여 스크래치 및 오염에 대한 저항성과 유지관리 편의성을 고려한 제품이다. 사무실, 상업시설, 음식점, 교육시설 등의 실내 바닥재로 활용할 수 있다.",
     "pattern_desc": "오크 패턴을 적용한 일반 우드 디자인 데코타일.",
-    "image_url": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/38141G.png"
+    "image_url": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 우드/38141G.webp"
   },
   {
     "id": "데코타일-kcc-kcc_pro-38142g",
@@ -2736,10 +2761,10 @@ export const materials = [
     "subLine": "센스타일 프로",
     "name": "KCC 센스타일 프로 오크 38142G (3.0T)",
     "code": "38142G",
-    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/38142G.png",
-    "image": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/38142G.png",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 우드/38142G.webp",
+    "image": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 우드/38142G.webp",
     "images": [
-      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/38142G.png"
+      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 우드/38142G.webp"
     ],
     "price": 35000,
     "thickness": "3.0T",
@@ -2766,7 +2791,7 @@ export const materials = [
     "family": "센스타일 프로",
     "common_intro": "센스타일 프로는 KCC글라스의 상업용 LVT 바닥재로, 우드·스톤·마블·콘크리트·카펫 등 다양한 패턴을 제공한다. 특수 UV 코팅을 적용하여 스크래치 및 오염에 대한 저항성과 유지관리 편의성을 고려한 제품이다. 사무실, 상업시설, 음식점, 교육시설 등의 실내 바닥재로 활용할 수 있다.",
     "pattern_desc": "오크 패턴을 적용한 일반 우드 디자인 데코타일.",
-    "image_url": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/38142G.png"
+    "image_url": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 우드/38142G.webp"
   },
   {
     "id": "데코타일-kcc-kcc_pro-38191g",
@@ -2776,10 +2801,10 @@ export const materials = [
     "subLine": "센스타일 프로",
     "name": "KCC 센스타일 프로 오크 38191G (3.0T)",
     "code": "38191G",
-    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/38191G.png",
-    "image": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/38191G.png",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 우드/38191G.webp",
+    "image": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 우드/38191G.webp",
     "images": [
-      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/38191G.png"
+      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 우드/38191G.webp"
     ],
     "price": 35000,
     "thickness": "3.0T",
@@ -2806,7 +2831,7 @@ export const materials = [
     "family": "센스타일 프로",
     "common_intro": "센스타일 프로는 KCC글라스의 상업용 LVT 바닥재로, 우드·스톤·마블·콘크리트·카펫 등 다양한 패턴을 제공한다. 특수 UV 코팅을 적용하여 스크래치 및 오염에 대한 저항성과 유지관리 편의성을 고려한 제품이다. 사무실, 상업시설, 음식점, 교육시설 등의 실내 바닥재로 활용할 수 있다.",
     "pattern_desc": "오크 패턴을 적용한 일반 우드 디자인 데코타일.",
-    "image_url": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/38191G.png"
+    "image_url": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 우드/38191G.webp"
   },
   {
     "id": "데코타일-kcc-kcc_pro-b0111j",
@@ -2830,10 +2855,10 @@ export const materials = [
       "shape": "라지 타일",
       "pcs_per_box": "6매"
     },
-    "image": "/images/Thumbnail_Image/materials/데코타일/KCC/센스레이/KCC센스레이 450각/B0111J.jpg",
-    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/KCC/센스레이/KCC센스레이 450각/B0111J.jpg",
+    "image": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 사각/5.0T/B0111J.webp",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 사각/5.0T/B0111J.webp",
     "images": [
-      "/images/Thumbnail_Image/materials/데코타일/KCC/센스레이/KCC센스레이 450각/B0111J.jpg",
+      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 사각/5.0T/B0111J.webp",
       "/images/Thumbnail_Image/materials/데코타일/KCC/센스레이/KCC센스레이 450각/B0111J_시공예시.jpg"
     ],
     "galleryImages": [
@@ -2842,7 +2867,7 @@ export const materials = [
     ],
     "common_intro": "KCC글라스 센스레이는 5.0mm 두께의 상업용 프리미엄 LVT 바닥재입니다. 내마모층과 Egis UV 코팅 공법을 적용해 유동인구가 많은 상업공간에서도 긁힘과 찍힘에 매우 강하며, 다양한 석재 및 우드 패턴 디자인을 제공합니다.",
     "description": "센스레이는 두께 5.0mm, 내마모층 0.5mm의 상업용 고내구성 PVC 타일 바닥재입니다.\n\n[라지 타일 규격 안내]\n규격: 457.2 × 914.4mm\n포장단위: 6매/박스\n시공면적: 2.51㎡\n권장 접착제: 센스풀 (2K-5000) 아크릴계 접착제 (표준도포량 0.3~0.4kg/㎡)\n바닥 습도 4.5% 이하 현장 시공 권장.",
-    "image_url": "/images/Thumbnail_Image/materials/데코타일/KCC/센스레이/KCC센스레이 450각/B0111J.jpg"
+    "image_url": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 사각/5.0T/B0111J.webp"
   },
   {
     "id": "데코타일-kcc-kcc_pro-b0112j",
@@ -2866,17 +2891,17 @@ export const materials = [
       "shape": "라지 타일",
       "pcs_per_box": "6매"
     },
-    "image": "/images/Thumbnail_Image/materials/데코타일/KCC/센스레이/KCC센스레이 450각/B0112J.jpg",
-    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/KCC/센스레이/KCC센스레이 450각/B0112J.jpg",
+    "image": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 사각/5.0T/B0112J.webp",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 사각/5.0T/B0112J.webp",
     "images": [
-      "/images/Thumbnail_Image/materials/데코타일/KCC/센스레이/KCC센스레이 450각/B0112J.jpg"
+      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 사각/5.0T/B0112J.webp"
     ],
     "galleryImages": [
       "/images/Thumbnail_Image/materials/데코타일/KCC/센스레이/KCC센스레이 450각/B0112J.jpg"
     ],
     "common_intro": "KCC글라스 센스레이는 5.0mm 두께의 상업용 프리미엄 LVT 바닥재입니다. 내마모층과 Egis UV 코팅 공법을 적용해 유동인구가 많은 상업공간에서도 긁힘과 찍힘에 매우 강하며, 다양한 석재 및 우드 패턴 디자인을 제공합니다.",
     "description": "센스레이는 두께 5.0mm, 내마모층 0.5mm의 상업용 고내구성 PVC 타일 바닥재입니다.\n\n[라지 타일 규격 안내]\n규격: 457.2 × 914.4mm\n포장단위: 6매/박스\n시공면적: 2.51㎡\n권장 접착제: 센스풀 (2K-5000) 아크릴계 접착제 (표준도포량 0.3~0.4kg/㎡)\n바닥 습도 4.5% 이하 현장 시공 권장.",
-    "image_url": "/images/Thumbnail_Image/materials/데코타일/KCC/센스레이/KCC센스레이 450각/B0112J.jpg"
+    "image_url": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 사각/5.0T/B0112J.webp"
   },
   {
     "id": "데코타일-kcc-kcc_pro-b0113j",
@@ -2900,10 +2925,10 @@ export const materials = [
       "shape": "라지 타일",
       "pcs_per_box": "6매"
     },
-    "image": "/images/Thumbnail_Image/materials/데코타일/KCC/센스레이/KCC센스레이 450각/B0113J.jpg",
-    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/KCC/센스레이/KCC센스레이 450각/B0113J.jpg",
+    "image": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 사각/5.0T/B0113J.webp",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 사각/5.0T/B0113J.webp",
     "images": [
-      "/images/Thumbnail_Image/materials/데코타일/KCC/센스레이/KCC센스레이 450각/B0113J.jpg",
+      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 사각/5.0T/B0113J.webp",
       "/images/Thumbnail_Image/materials/데코타일/KCC/센스레이/KCC센스레이 450각/B0113J_시공예시.jpg"
     ],
     "galleryImages": [
@@ -2912,7 +2937,7 @@ export const materials = [
     ],
     "common_intro": "KCC글라스 센스레이는 5.0mm 두께의 상업용 프리미엄 LVT 바닥재입니다. 내마모층과 Egis UV 코팅 공법을 적용해 유동인구가 많은 상업공간에서도 긁힘과 찍힘에 매우 강하며, 다양한 석재 및 우드 패턴 디자인을 제공합니다.",
     "description": "센스레이는 두께 5.0mm, 내마모층 0.5mm의 상업용 고내구성 PVC 타일 바닥재입니다.\n\n[라지 타일 규격 안내]\n규격: 457.2 × 914.4mm\n포장단위: 6매/박스\n시공면적: 2.51㎡\n권장 접착제: 센스풀 (2K-5000) 아크릴계 접착제 (표준도포량 0.3~0.4kg/㎡)\n바닥 습도 4.5% 이하 현장 시공 권장.",
-    "image_url": "/images/Thumbnail_Image/materials/데코타일/KCC/센스레이/KCC센스레이 450각/B0113J.jpg"
+    "image_url": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 사각/5.0T/B0113J.webp"
   },
   {
     "id": "데코타일-kcc-kcc_pro-b0114j",
@@ -2936,17 +2961,17 @@ export const materials = [
       "shape": "라지 타일",
       "pcs_per_box": "6매"
     },
-    "image": "/images/Thumbnail_Image/materials/데코타일/KCC/센스레이/KCC센스레이 450각/B0114J.jpg",
-    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/KCC/센스레이/KCC센스레이 450각/B0114J.jpg",
+    "image": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 사각/5.0T/B0114J.webp",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 사각/5.0T/B0114J.webp",
     "images": [
-      "/images/Thumbnail_Image/materials/데코타일/KCC/센스레이/KCC센스레이 450각/B0114J.jpg"
+      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 사각/5.0T/B0114J.webp"
     ],
     "galleryImages": [
       "/images/Thumbnail_Image/materials/데코타일/KCC/센스레이/KCC센스레이 450각/B0114J.jpg"
     ],
     "common_intro": "KCC글라스 센스레이는 5.0mm 두께의 상업용 프리미엄 LVT 바닥재입니다. 내마모층과 Egis UV 코팅 공법을 적용해 유동인구가 많은 상업공간에서도 긁힘과 찍힘에 매우 강하며, 다양한 석재 및 우드 패턴 디자인을 제공합니다.",
     "description": "센스레이는 두께 5.0mm, 내마모층 0.5mm의 상업용 고내구성 PVC 타일 바닥재입니다.\n\n[라지 타일 규격 안내]\n규격: 457.2 × 914.4mm\n포장단위: 6매/박스\n시공면적: 2.51㎡\n권장 접착제: 센스풀 (2K-5000) 아크릴계 접착제 (표준도포량 0.3~0.4kg/㎡)\n바닥 습도 4.5% 이하 현장 시공 권장.",
-    "image_url": "/images/Thumbnail_Image/materials/데코타일/KCC/센스레이/KCC센스레이 450각/B0114J.jpg"
+    "image_url": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 사각/5.0T/B0114J.webp"
   },
   {
     "id": "데코타일-kcc-kcc_pro-b0122j",
@@ -2956,10 +2981,11 @@ export const materials = [
     "subLine": "센스레이 450각",
     "name": "KCC 센스레이 어반 스톤 B0122J (5.0T)",
     "code": "B0122J",
-    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/KCC/센스레이/KCC센스레이 450각/B0123J.jpg",
-    "image": "/images/Thumbnail_Image/materials/데코타일/KCC/센스레이/KCC센스레이 450각/B0123J.jpg",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 사각/5.0T/B0122J.webp",
+    "image": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 사각/5.0T/B0122J.webp",
     "images": [
-      "/images/Thumbnail_Image/materials/데코타일/KCC/센스레이/KCC센스레이 450각/B0123J.jpg"
+      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 사각/5.0T/B0122J.webp",
+      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 사각/5.0T/B0122J_install.jpg"
     ],
     "price": 35000,
     "thickness": "5.0T",
@@ -2991,7 +3017,7 @@ export const materials = [
     "package": "6매/box · 2.51㎡",
     "size_text": "457.2 × 914.4mm",
     "unit": "6매/박스 (2.51㎡)",
-    "image_url": "/images/Thumbnail_Image/materials/데코타일/KCC/센스레이/B0122J.jpg"
+    "image_url": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 사각/5.0T/B0122J.webp"
   },
   {
     "id": "데코타일-kcc-kcc_pro-b3181j",
@@ -3015,10 +3041,10 @@ export const materials = [
       "shape": "라지 타일",
       "pcs_per_box": "6매"
     },
-    "image": "/images/Thumbnail_Image/materials/데코타일/KCC/센스레이/KCC센스레이 450각/B3181J.jpg",
-    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/KCC/센스레이/KCC센스레이 450각/B3181J.jpg",
+    "image": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 사각/5.0T/B3181J.webp",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 사각/5.0T/B3181J.webp",
     "images": [
-      "/images/Thumbnail_Image/materials/데코타일/KCC/센스레이/KCC센스레이 450각/B3181J.jpg",
+      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 사각/5.0T/B3181J.webp",
       "/images/Thumbnail_Image/materials/데코타일/KCC/센스레이/KCC센스레이 450각/B3181J_시공예시.jpg"
     ],
     "galleryImages": [
@@ -3027,7 +3053,7 @@ export const materials = [
     ],
     "common_intro": "KCC글라스 센스레이는 5.0mm 두께의 상업용 프리미엄 LVT 바닥재입니다. 내마모층과 Egis UV 코팅 공법을 적용해 유동인구가 많은 상업공간에서도 긁힘과 찍힘에 매우 강하며, 다양한 석재 및 우드 패턴 디자인을 제공합니다.",
     "description": "센스레이는 두께 5.0mm, 내마모층 0.5mm의 상업용 고내구성 PVC 타일 바닥재입니다.\n\n[라지 타일 규격 안내]\n규격: 457.2 × 914.4mm\n포장단위: 6매/박스\n시공면적: 2.51㎡\n권장 접착제: 센스풀 (2K-5000) 아크릴계 접착제 (표준도포량 0.3~0.4kg/㎡)\n바닥 습도 4.5% 이하 현장 시공 권장.",
-    "image_url": "/images/Thumbnail_Image/materials/데코타일/KCC/센스레이/KCC센스레이 450각/B3181J.jpg"
+    "image_url": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 사각/5.0T/B3181J.webp"
   },
   {
     "id": "데코타일-kcc-kcc_pro-b3182j",
@@ -3051,10 +3077,10 @@ export const materials = [
       "shape": "라지 타일",
       "pcs_per_box": "6매"
     },
-    "image": "/images/Thumbnail_Image/materials/데코타일/KCC/센스레이/KCC센스레이 450각/B3182J.jpg",
-    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/KCC/센스레이/KCC센스레이 450각/B3182J.jpg",
+    "image": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 사각/5.0T/B3182J.webp",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 사각/5.0T/B3182J.webp",
     "images": [
-      "/images/Thumbnail_Image/materials/데코타일/KCC/센스레이/KCC센스레이 450각/B3182J.jpg",
+      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 사각/5.0T/B3182J.webp",
       "/images/Thumbnail_Image/materials/데코타일/KCC/센스레이/KCC센스레이 450각/B3182J_시공예시.jpg"
     ],
     "galleryImages": [
@@ -3063,7 +3089,7 @@ export const materials = [
     ],
     "common_intro": "KCC글라스 센스레이는 5.0mm 두께의 상업용 프리미엄 LVT 바닥재입니다. 내마모층과 Egis UV 코팅 공법을 적용해 유동인구가 많은 상업공간에서도 긁힘과 찍힘에 매우 강하며, 다양한 석재 및 우드 패턴 디자인을 제공합니다.",
     "description": "센스레이는 두께 5.0mm, 내마모층 0.5mm의 상업용 고내구성 PVC 타일 바닥재입니다.\n\n[라지 타일 규격 안내]\n규격: 457.2 × 914.4mm\n포장단위: 6매/박스\n시공면적: 2.51㎡\n권장 접착제: 센스풀 (2K-5000) 아크릴계 접착제 (표준도포량 0.3~0.4kg/㎡)\n바닥 습도 4.5% 이하 현장 시공 권장.",
-    "image_url": "/images/Thumbnail_Image/materials/데코타일/KCC/센스레이/KCC센스레이 450각/B3182J.jpg"
+    "image_url": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 사각/5.0T/B3182J.webp"
   },
   {
     "id": "데코타일-kcc-kcc_pro-b3183j",
@@ -3087,17 +3113,17 @@ export const materials = [
       "shape": "라지 타일",
       "pcs_per_box": "6매"
     },
-    "image": "/images/Thumbnail_Image/materials/데코타일/KCC/센스레이/KCC센스레이 450각/B3183J.jpg",
-    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/KCC/센스레이/KCC센스레이 450각/B3183J.jpg",
+    "image": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 사각/5.0T/B3183J.webp",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 사각/5.0T/B3183J.webp",
     "images": [
-      "/images/Thumbnail_Image/materials/데코타일/KCC/센스레이/KCC센스레이 450각/B3183J.jpg"
+      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 사각/5.0T/B3183J.webp"
     ],
     "galleryImages": [
       "/images/Thumbnail_Image/materials/데코타일/KCC/센스레이/KCC센스레이 450각/B3183J.jpg"
     ],
     "common_intro": "KCC글라스 센스레이는 5.0mm 두께의 상업용 프리미엄 LVT 바닥재입니다. 내마모층과 Egis UV 코팅 공법을 적용해 유동인구가 많은 상업공간에서도 긁힘과 찍힘에 매우 강하며, 다양한 석재 및 우드 패턴 디자인을 제공합니다.",
     "description": "센스레이는 두께 5.0mm, 내마모층 0.5mm의 상업용 고내구성 PVC 타일 바닥재입니다.\n\n[라지 타일 규격 안내]\n규격: 457.2 × 914.4mm\n포장단위: 6매/박스\n시공면적: 2.51㎡\n권장 접착제: 센스풀 (2K-5000) 아크릴계 접착제 (표준도포량 0.3~0.4kg/㎡)\n바닥 습도 4.5% 이하 현장 시공 권장.",
-    "image_url": "/images/Thumbnail_Image/materials/데코타일/KCC/센스레이/KCC센스레이 450각/B3183J.jpg"
+    "image_url": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 사각/5.0T/B3183J.webp"
   },
   {
     "id": "데코타일-kcc-kcc_square-ts5502p",
@@ -111529,5 +111555,59 @@ export const materials = [
     "common_intro": "KCC글라스 센스레이는 5.0mm 두께의 상업용 프리미엄 LVT 바닥재입니다. 내마모층과 Egis UV 코팅 공법을 적용해 유동인구가 많은 상업공간에서도 긁힘과 찍힘에 매우 강하며, 다양한 석재 및 우드 패턴 디자인을 제공합니다.",
     "description": "센스레이는 두께 5.0mm, 내마모층 0.5mm의 상업용 고내구성 PVC 타일 바닥재입니다.\n\n[우드 플랭크 규격 안내]\n규격: 177.8 × 1,219.2mm\n포장단위: 10매/박스\n시공면적: 2.17㎡\n권장 접착제: 센스풀 (2K-5000) 아크릴계 접착제 (표준도포량 0.3~0.4kg/㎡)\n바닥 습도 4.5% 이하 현장 시공 권장.",
     "image_url": "/images/Thumbnail_Image/materials/데코타일/KCC/센스레이/KCC센스레이우드/B5234B.jpg"
+  },
+  {
+    "id": "데코타일-kcc-kcc_pro-b3191j",
+    "category": "데코타일",
+    "brand": "KCC",
+    "line": "센스레이(내수)",
+    "subLine": "센스레이(내수)",
+    "name": "KCC 센스레이 소프트 콘크리트 B3191J (5.0T)",
+    "code": "B3191J",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 사각/5.0T/B3191J.webp",
+    "image": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 사각/5.0T/B3191J.webp",
+    "image_url": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 사각/5.0T/B3191J.webp",
+    "images": [
+      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 사각/5.0T/B3191J.webp"
+    ],
+    "price": 49000,
+    "thickness": "5.0T",
+    "specs": {
+      "division": "센스레이(내수)",
+      "thickness": "5.0T",
+      "size": "457.2 × 914.4mm",
+      "packing": "8매 / 3.34㎡",
+      "area": "3.34㎡"
+    },
+    "shape": "라지 타일",
+    "pattern": "소프트 콘크리트",
+    "description": "KCC글라스 센스레이는 5.0mm 두께의 상업용 LVT 바닥재입니다."
+  },
+  {
+    "id": "데코타일-kcc-kcc_pro-b3192j",
+    "category": "데코타일",
+    "brand": "KCC",
+    "line": "센스레이(내수)",
+    "subLine": "센스레이(내수)",
+    "name": "KCC 센스레이 소프트 콘크리트 B3192J (5.0T)",
+    "code": "B3192J",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 사각/5.0T/B3192J.webp",
+    "image": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 사각/5.0T/B3192J.webp",
+    "image_url": "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 사각/5.0T/B3192J.webp",
+    "images": [
+      "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 사각/5.0T/B3192J.webp"
+    ],
+    "price": 49000,
+    "thickness": "5.0T",
+    "specs": {
+      "division": "센스레이(내수)",
+      "thickness": "5.0T",
+      "size": "457.2 × 914.4mm",
+      "packing": "8매 / 3.34㎡",
+      "area": "3.34㎡"
+    },
+    "shape": "라지 타일",
+    "pattern": "소프트 콘크리트",
+    "description": "KCC글라스 센스레이는 5.0mm 두께의 상업용 LVT 바닥재입니다."
   }
 ];
