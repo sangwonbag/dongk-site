@@ -7,7 +7,7 @@ import { getKccProductLineupPriority, getKccLineup } from '../utils/brandUtils.j
  * 마루, 벽지, 카페트타일: 기존 정책 유지
  */
 export const BRAND_PRIORITY_BY_CATEGORY = {
-  데코타일: ['KCC', '동신', '재영', '우성', '유성', 'LX', '녹수', '현대', '대진'],
+  데코타일: ['KCC', '동신', '재영', 'LX', '녹수', '현대', '대진'],
   장판: ['LX', 'KCC', '현대'],
   마루: ['동화', '이건마루', '이건', '구정'],
   벽지: ['LX', '개나리', '신한', '서울', '제일', '디아이디'],
@@ -15,7 +15,7 @@ export const BRAND_PRIORITY_BY_CATEGORY = {
   러버타일: ['현대', 'KCC'],
   부자재: [],
   // 영문/camelCase 별칭 지원
-  decotile: ['KCC', '동신', '재영', '우성', '유성', 'LX', '녹수', '현대', '대진'],
+  decotile: ['KCC', '동신', '재영', 'LX', '녹수', '현대', '대진'],
   sheetFlooring: ['LX', 'KCC', '현대'],
   maru: ['동화', '이건마루', '이건', '구정'],
   wallpaper: ['LX', '개나리', '신한', '서울', '제일', '디아이디'],

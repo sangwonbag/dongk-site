@@ -34,7 +34,7 @@ const CATEGORIES = getVisibleCategories(ALL_CATEGORIES);
 
 // 2. Brands specified by the user (데코타일: KCC 우선, 장판: LX 우선)
 const BRANDS_BY_CATEGORY = {
-  데코타일: ["KCC", "동신", "재영", "우성", "LX", "녹수", "현대", "대진"],
+  데코타일: ["KCC", "동신", "재영", "LX", "녹수", "현대", "대진"],
   장판: ["LX하우시스", "KCC", "현대"],
   마루: ["동화", "이건마루", "구정"],
   벽지: ["LX", "개나리", "서울", "제일", "신한", "현대벽지"],
@@ -360,6 +360,9 @@ export default function Materials() {
   useEffect(() => {
     if (HIDE_SUB_MATERIALS && (searchParams.get("category") === "부자재" || searchParams.get("category") === "부자재류")) {
       updateParams({ category: "데코타일", brand: "KCC" });
+    }
+    if ((searchParams.get("category") === "데코타일" || !searchParams.get("category")) && (searchParams.get("brand") === "우성" || searchParams.get("brand") === "유성")) {
+      updateParams({ category: "데코타일", brand: "KCC", line: "trendy-450" });
     }
   }, [searchParams]);
 
