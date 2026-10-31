@@ -7,11 +7,13 @@ import { getProductImageUrl, getProductImageCandidates } from '../../utils/produ
 import { useAuth } from '../../contexts/AuthContext';
 import { 
   ArrowLeft, Plus, Search, Edit2, Trash2, Save, X, Upload, 
-  Eye, EyeOff, Star, StarOff, Image as ImageIcon, Loader2, RefreshCw, AlertTriangle, CheckCircle
+  Eye, EyeOff, Star, StarOff, Image as ImageIcon, Loader2, RefreshCw, AlertTriangle, CheckCircle, Sparkles, Tag
 } from 'lucide-react';
 import { LoadingSpinner, EmptyState } from '../../components/ui';
 import ProductDetailImageManager from '../../components/admin/ProductDetailImageManager';
 import { getProductDetailImages, saveProductDetailImages } from '../../services/productDetailImageService';
+import { metadataByCode, metadataById } from '../../data/productSearchMetadata.generated';
+import { COLOR_TAXONOMY, PATTERN_TAXONOMY, FINISH_TAXONOMY } from '../../utils/materialSearchEngine';
 import './AdminProducts.css';
 
 export default function AdminProducts() {
@@ -53,6 +55,18 @@ export default function AdminProducts() {
   const [sortOrder, setSortOrder] = useState(0);
   const [imageUrl, setImageUrl] = useState('');
   const [detailImages, setDetailImages] = useState([]);
+
+  // AI Search Metadata Form States
+  const [colorFamily, setColorFamily] = useState('');
+  const [colorDetail, setColorDetail] = useState('');
+  const [patternType, setPatternType] = useState('');
+  const [texture, setTexture] = useState('');
+  const [finish, setFinish] = useState('무광');
+  const [styleTagsInput, setStyleTagsInput] = useState('');
+  const [spaceTagsInput, setSpaceTagsInput] = useState('');
+  const [searchAliasesInput, setSearchAliasesInput] = useState('');
+  const [isVerified, setIsVerified] = useState(false);
+  const [isBatchGenerating, setIsBatchGenerating] = useState(false);
 
   // Helper: calculate synchronous image status for a product
   const calcImageStatus = (p) => {
@@ -333,6 +347,7 @@ export default function AdminProducts() {
         updated_at: new Date().toISOString()
       };
 
+      let savedProductId = null;
       if (editingProduct) {
         const { error } = await supabase
           .from('products')
@@ -340,10 +355,10 @@ export default function AdminProducts() {
           .eq('id', editingProduct.id);
 
         if (error) throw error;
+        savedProductId = editingProduct.id;
         if (editingProduct?.id) {
           await saveProductDetailImages(editingProduct.id, detailImages).catch(e => console.warn('Detail images save warning:', e));
         }
-        alert('상품이 수정되었습니다.');
       } else {
         // Slug check
         let slug = baseSlug;
@@ -375,11 +390,58 @@ export default function AdminProducts() {
           .single();
 
         if (error) throw error;
+        savedProductId = newProd?.id;
         if (newProd?.id) {
           await saveProductDetailImages(newProd.id, detailImages).catch(e => console.warn('Detail images save warning:', e));
         }
-        alert('신규 상품이 등록되었습니다.');
       }
+
+      // Save AI Search Metadata
+      if (savedProductId) {
+        try {
+          const metaPayload = {
+            product_id: savedProductId,
+            product_code: productCode.trim() || null,
+            color_family: colorFamily || null,
+            color_detail: colorDetail.trim() || null,
+            pattern_type: patternType || null,
+            texture: texture.trim() || null,
+            finish: finish || null,
+            style_tags: styleTagsInput ? styleTagsInput.split(',').map(s => s.trim()).filter(Boolean) : [],
+            space_tags: spaceTagsInput ? spaceTagsInput.split(',').map(s => s.trim()).filter(Boolean) : [],
+            search_aliases: searchAliasesInput ? searchAliasesInput.split(',').map(s => s.trim()).filter(Boolean) : [],
+            is_verified: isVerified,
+            updated_at: new Date().toISOString()
+          };
+
+          await supabase.from('product_search_metadata').upsert(metaPayload, { onConflict: 'product_id' });
+
+          const updatedMeta = {
+            id: savedProductId,
+            code: metaPayload.product_code,
+            name,
+            colorFamily: metaPayload.color_family,
+            colorDetail: metaPayload.color_detail,
+            patternType: metaPayload.pattern_type,
+            texture: metaPayload.texture,
+            finish: metaPayload.finish,
+            moodTags: metaPayload.style_tags,
+            spaceTags: metaPayload.space_tags,
+            searchAliases: metaPayload.search_aliases,
+            isVerified: metaPayload.is_verified,
+            updatedAt: metaPayload.updated_at
+          };
+
+          if (metadataById) metadataById.set(String(savedProductId).toLowerCase(), updatedMeta);
+          if (metaPayload.product_code && metadataByCode) {
+            metadataByCode.set(metaPayload.product_code.toUpperCase(), updatedMeta);
+          }
+        } catch (mErr) {
+          console.warn('Metadata upsert notice:', mErr);
+        }
+      }
+
+      alert(editingProduct ? '상품이 수정되었습니다.' : '신규 상품이 등록되었습니다.');
 
       setIsModalOpen(false);
       fetchProducts(true);
@@ -421,6 +483,15 @@ export default function AdminProducts() {
     setImageUrl('');
     setPreviewImageError(false);
     setDetailImages([]);
+    setColorFamily('');
+    setColorDetail('');
+    setPatternType('');
+    setTexture('');
+    setFinish('무광');
+    setStyleTagsInput('');
+    setSpaceTagsInput('');
+    setSearchAliasesInput('');
+    setIsVerified(false);
     if (categories.length > 0) setCategoryId(categories[0].id);
     setIsModalOpen(true);
   };
@@ -439,6 +510,18 @@ export default function AdminProducts() {
     setImageUrl(p.image_url || '');
     setPreviewImageError(false);
     setDetailImages([]);
+
+    const codeKey = (p.product_code || '').trim().toUpperCase();
+    const meta = metadataByCode.get(codeKey) || metadataById.get(String(p.id).toLowerCase()) || {};
+    setColorFamily(meta.color_family && meta.color_family !== 'unknown' ? meta.color_family : '');
+    setColorDetail(meta.color_detail || '');
+    setPatternType(meta.pattern_type && meta.pattern_type !== 'unknown' ? meta.pattern_type : '');
+    setTexture(meta.texture || '');
+    setFinish(meta.finish || '무광');
+    setStyleTagsInput(Array.isArray(meta.style_tags) ? meta.style_tags.join(', ') : '');
+    setSpaceTagsInput(Array.isArray(meta.space_tags) ? meta.space_tags.join(', ') : '');
+    setSearchAliasesInput(Array.isArray(meta.search_aliases) ? meta.search_aliases.join(', ') : '');
+    setIsVerified(meta.is_verified || false);
 
     if (p?.id) {
       getProductDetailImages(p.id, p.product_code, p).then(imgs => {
@@ -690,6 +773,90 @@ export default function AdminProducts() {
                         <input type="checkbox" checked={isFeatured} onChange={e => setIsFeatured(e.target.checked)} />
                         <span>추천(베스트) 상품으로 지정</span>
                       </label>
+                    </div>
+
+                    {/* AI 검색 메타데이터 관리 필드셋 */}
+                    <div className="admin-metadata-fieldset" style={{ marginTop: '20px', padding: '16px', background: '#F8F9FA', borderRadius: '8px', border: '1px solid #E9ECEF' }}>
+                      <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', marginBottom: '12px' }}>
+                        <span style={{ fontSize: '14px', fontWeight: '700', color: '#343A40', display: 'flex', alignItems: 'center', gap: '6px' }}>
+                          <Sparkles size={16} color="#E03131" /> AI 검색 속성 & 태그 관리
+                        </span>
+                        <label className="checkbox-lbl" style={{ margin: 0, fontSize: '12px' }}>
+                          <input type="checkbox" checked={isVerified} onChange={e => setIsVerified(e.target.checked)} />
+                          <span style={{ color: isVerified ? '#2B8A3E' : '#868E96', fontWeight: isVerified ? '700' : '400' }}>
+                            {isVerified ? '✓ 관리자 검수 완료' : '미검수 (자동추출)'}
+                          </span>
+                        </label>
+                      </div>
+
+                      <div className="form-row-two" style={{ marginBottom: '10px' }}>
+                        <div className="field">
+                          <label style={{ fontSize: '12px' }}>대표 색상군</label>
+                          <select value={colorFamily} onChange={e => setColorFamily(e.target.value)}>
+                            <option value="">미지정 (Unknown)</option>
+                            {Object.keys(COLOR_TAXONOMY).map(c => <option key={c} value={c}>{c}</option>)}
+                          </select>
+                        </div>
+                        <div className="field">
+                          <label style={{ fontSize: '12px' }}>보조/세부 색상 (콤마 구분)</label>
+                          <input 
+                            type="text" 
+                            value={colorDetail} 
+                            onChange={e => setColorDetail(e.target.value)} 
+                            placeholder="예: 아이보리, 크림, 애쉬"
+                            style={{ fontSize: '12px' }}
+                          />
+                        </div>
+                      </div>
+
+                      <div className="form-row-two" style={{ marginBottom: '10px' }}>
+                        <div className="field">
+                          <label style={{ fontSize: '12px' }}>패턴/질감 분류</label>
+                          <select value={patternType} onChange={e => setPatternType(e.target.value)}>
+                            <option value="">미지정 (Unknown)</option>
+                            {Object.keys(PATTERN_TAXONOMY).map(p => <option key={p} value={p}>{p}</option>)}
+                          </select>
+                        </div>
+                        <div className="field">
+                          <label style={{ fontSize: '12px' }}>표면 마감</label>
+                          <select value={finish} onChange={e => setFinish(e.target.value)}>
+                            {Object.keys(FINISH_TAXONOMY).map(f => <option key={f} value={f}>{f}</option>)}
+                          </select>
+                        </div>
+                      </div>
+
+                      <div className="field" style={{ marginBottom: '10px' }}>
+                        <label style={{ fontSize: '12px' }}>분위기/스타일 태그 (콤마 구분)</label>
+                        <input 
+                          type="text" 
+                          value={styleTagsInput} 
+                          onChange={e => setStyleTagsInput(e.target.value)} 
+                          placeholder="예: 따뜻한 분위기, 모던한, 미니멀한, 내추럴한"
+                          style={{ fontSize: '12px' }}
+                        />
+                      </div>
+
+                      <div className="field" style={{ marginBottom: '10px' }}>
+                        <label style={{ fontSize: '12px' }}>추천 공간/용도 태그 (콤마 구분)</label>
+                        <input 
+                          type="text" 
+                          value={spaceTagsInput} 
+                          onChange={e => setSpaceTagsInput(e.target.value)} 
+                          placeholder="예: 사무실, 카페, 거실, 헬스장, 상업용"
+                          style={{ fontSize: '12px' }}
+                        />
+                      </div>
+
+                      <div className="field">
+                        <label style={{ fontSize: '12px' }}>검색 별칭 (Aliases)</label>
+                        <input 
+                          type="text" 
+                          value={searchAliasesInput} 
+                          onChange={e => setSearchAliasesInput(e.target.value)} 
+                          placeholder="예: 디아망 회벽, 센스타일 그란데"
+                          style={{ fontSize: '12px' }}
+                        />
+                      </div>
                     </div>
                   </div>
 

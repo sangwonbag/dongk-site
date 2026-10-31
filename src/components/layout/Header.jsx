@@ -338,7 +338,7 @@ export default function Header() {
             <form onSubmit={onSearch}>
               <input
                 type="text"
-                placeholder="제품번호, 브랜드, 자재명 검색"
+                placeholder="상품코드, 색상, 패턴, 공간 분위기 검색"
                 value={q}
                 onChange={(e) => {
                   const val = e.target.value;

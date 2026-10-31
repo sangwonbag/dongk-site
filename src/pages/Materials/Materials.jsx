@@ -1077,7 +1077,7 @@ export default function Materials() {
                 <input
                   type="text"
                   className="materials-search-input"
-                  placeholder="제품명, 브랜드, 제품번호, 라인업 검색 (예: 디아망, 8195, 30082P)"
+                  placeholder="상품코드, 색상, 패턴, 공간 분위기로 검색해 보세요"
                   value={searchQuery}
                   onChange={(e) => setSearchQuery(e.target.value)}
                   onFocus={() => setIsSearchFocused(true)}

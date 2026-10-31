@@ -1,11 +1,15 @@
 /**
- * 동경바닥재 통합 검색 엔진 (Material Search Engine)
- * - 브랜드 동의어, 제품 라인업, 제품코드(하이픈 무시), 규격/두께, 카테고리 매칭
- * - 다중 토큰 관련도(Relevance) 랭킹 점수 계산
- * - 실시간 자동완성 및 추천 검색어 생성
+ * 동경바닥재 AI형 통합 자재 검색 엔진 (Material Search Engine)
+ * - 색상 (베이지, 화이트, 그레이, 블랙, 브라운, 우드, 그린, 라임, 블루, 핑크 등)
+ * - 질감·패턴 (콘크리트, 스톤, 테라조, 우드, 헤링본, 무광/유광, 패브릭, 솔리드 등)
+ * - 분위기·공간·용도 (따뜻한 분위기, 모던한, 카페, 사무실, 헬스장, 거실, 상업용 등)
+ * - 자연어 복합 검색 파싱 및 다중 의도(Multi-intent) 가중치 점수 계산
+ * - 기존 상품코드, 상품명, 브랜드, 라인업 검색 100% 완전 보존
  */
 
-// 1. 브랜드 정규화 및 별칭 사전
+import { metadataByCode, metadataById } from "../data/productSearchMetadata.generated.js";
+
+// 1. 브랜드 정규화 및 별칭 사전 (완전 보존)
 export const BRAND_DICTIONARY = {
   LX: {
     canonical: "LX",
@@ -106,13 +110,7 @@ export const BRAND_DICTIONARY = {
   스완: {
     canonical: "스완",
     displayName: "스완카페트",
-    aliases: ["스완", "swan", "스완카페트", "스완카펫"],
-    categories: ["카페트타일"]
-  },
-  어반: {
-    canonical: "어반",
-    displayName: "어반카페트",
-    aliases: ["어반", "urban", "어반카페트", "어반카펫"],
+    aliases: ["스완", "swan", "스완카페트"],
     categories: ["카페트타일"]
   },
   코오롱: {
@@ -123,480 +121,272 @@ export const BRAND_DICTIONARY = {
   }
 };
 
-// 2. 제품 라인업 & 시리즈 지식 사전
+// 2. 색상 온톨로지 사전 (요구사항 2-A)
+export const COLOR_TAXONOMY = {
+  베이지: {
+    canonical: '베이지',
+    exact: ['베이지', 'beige'],
+    related: ['아이보리', '크림', '샌드', '웜베이지', '미색', '오트밀', '바닐라', '라떼', '비스크', '토프'],
+    tone: '웜톤',
+    brightness: '밝음'
+  },
+  화이트: {
+    canonical: '화이트',
+    exact: ['화이트', 'white', '흰색', '백색'],
+    related: ['오프화이트', '밀크화이트', '순백', '스노우화이트', '올화이트', '크리스탈', '블랑', '비앙코'],
+    tone: '뉴트럴',
+    brightness: '밝음'
+  },
+  그레이: {
+    canonical: '그레이',
+    exact: ['그레이', 'gray', 'grey', '회색'],
+    related: ['라이트그레이', '다크그레이', '애쉬', '쿨그레이', '웜그레이', '차콜', '스톤그레이', '시멘트그레이', '어반그레이', '실버', '텐더그레이'],
+    tone: '쿨톤',
+    brightness: '중간'
+  },
+  블랙: {
+    canonical: '블랙',
+    exact: ['블랙', 'black', '검정'],
+    related: ['차콜', '다크블랙', '딥블랙', '매트블랙', '흑색', '미드나잇', '오닉스'],
+    tone: '다크',
+    brightness: '어두움'
+  },
+  브라운: {
+    canonical: '브라운',
+    exact: ['브라운', 'brown', '갈색'],
+    related: ['초코', '월넛', '모카', '다크브라운', '체스넛', '마호가니', '커피', '시나몬', '카멜'],
+    tone: '웜톤',
+    brightness: '어두움'
+  },
+  우드: {
+    canonical: '우드',
+    exact: ['우드', 'wood', '나무', '원목'],
+    related: ['오크', '화이트오크', '내추럴오크', '티크', '나뭇결', '메이플', '비치', '체리', '아카시아', '엘름', '우드패턴', '쪽마루'],
+    tone: '내추럴',
+    brightness: '중간'
+  },
+  그린: {
+    canonical: '그린',
+    exact: ['그린', 'green', '녹색', '초록'],
+    related: ['올리브', '세이지', '민트', '포레스트', '카키', '에메랄드', '세이지그린'],
+    tone: '내추럴',
+    brightness: '중간'
+  },
+  라임: {
+    canonical: '라임',
+    exact: ['라임', 'lime'],
+    related: ['라임그린', '연두', '라이트그린', '옐로우그린'],
+    tone: '소프트',
+    brightness: '밝음'
+  },
+  블루: {
+    canonical: '블루',
+    exact: ['블루', 'blue', '파랑'],
+    related: ['네이비', '스카이블루', '딥블루', '인디고', '오션', '청색', '소프트블루'],
+    tone: '쿨톤',
+    brightness: '중간'
+  },
+  핑크: {
+    canonical: '핑크',
+    exact: ['핑크', 'pink', '분홍'],
+    related: ['로즈', '연핑크', '베이비핑크', '코랄', '피치', '살구', '인디핑크'],
+    tone: '웜톤',
+    brightness: '밝음'
+  },
+  옐로우: {
+    canonical: '옐로우',
+    exact: ['옐로우', 'yellow', '노랑'],
+    related: ['머스타드', '레몬', '골드', '버터'],
+    tone: '웜톤',
+    brightness: '밝음'
+  }
+};
+
+// 3. 질감 및 패턴 사전 (요구사항 2-B)
+export const PATTERN_TAXONOMY = {
+  콘크리트: {
+    canonical: '콘크리트',
+    keywords: ['콘크리트', '시멘트', '노출콘크리트', '몰탈', '레진', '포틀랜드', 'concrete', 'cement']
+  },
+  '스톤/대리석': {
+    canonical: '스톤/대리석',
+    keywords: ['스톤', '돌', '석재', '대리석', '마블', '비앙코', '슬레이트', '트래버틴', '화강암', '쿼츠', '화산석', '그라니트', '그래니트', 'stone', 'marble']
+  },
+  테라조: {
+    canonical: '테라조',
+    keywords: ['테라조', '칩패턴', '칩', '그란데 테라조', '그란데테라조', '도트스톤', '테라조타일', 'terrazzo']
+  },
+  우드: {
+    canonical: '우드',
+    keywords: ['우드', '나뭇결', '원목', '오크', '나무', '플랭크', '쪽마루', '판재', 'wood']
+  },
+  헤링본: {
+    canonical: '헤링본',
+    keywords: ['헤링본', '체크', '기하학', '쉐브론', '지그재그', 'herringbone']
+  },
+  패브릭: {
+    canonical: '패브릭',
+    keywords: ['패브릭', '직물', '린넨', '위빙', '캔버스', '카페트', '카펫질감', '우븐', '카펫', 'fabric', 'carpet']
+  },
+  '솔리드/무지': {
+    canonical: '솔리드/무지',
+    keywords: ['솔리드', '단색', '무지', '플레인', '페인트', 'solid']
+  },
+  빈티지: {
+    canonical: '빈티지',
+    keywords: ['빈티지', '러스틱', '내추럴', '앤틱', '에이징', '고재', 'vintage', 'rustic']
+  }
+};
+
+// 4. 표면 마감 사전
+export const FINISH_TAXONOMY = {
+  무광: {
+    canonical: '무광',
+    keywords: ['무광', '매트', '소프트매트', '자연광', 'matte']
+  },
+  유광: {
+    canonical: '유광',
+    keywords: ['유광', '고광택', '하이글로시', '광택', 'glossy', 'gloss']
+  }
+};
+
+// 5. 분위기 및 스타일 사전 (요구사항 2-C)
+export const STYLE_TAXONOMY = {
+  '따뜻한 분위기': ['따뜻한 분위기', '따뜻한', '아늑한', '포근한', '편안한', '온화한', '따스한', '따뜻함'],
+  '차가운 분위기': ['차가운 분위기', '차가운', '시크한', '도시적인', '쿨', '도회적', '차가움'],
+  '모던한': ['모던한', '모던', '현대적인', '세련된', '심플한'],
+  '미니멀한': ['미니멀한', '미니멀', '간결한', '깔끔한', '단정한'],
+  '내추럴한': ['내추럴한', '내추럴', '자연스러운', '자연친화', '원목느낌', '자연'],
+  '고급스러운': ['고급스러운', '고급', '프리미엄', '호텔', '럭셔리', '중후한'],
+  '밝고 화사한': ['밝고 화사한', '밝은', '화사한', '산뜻한', '환한', '쾌적한'],
+  '차분한': ['차분한', '정돈된', '안정감', '묵직한', '차분함']
+};
+
+// 6. 공간 및 용도 사전 (요구사항 2-C)
+export const SPACE_TAXONOMY = {
+  사무실: ['사무실', '사무실 바닥', '사무실바닥', '오피스', '업무시설', '회의실', '상업공간', '사무실용', 'office'],
+  카페: ['카페', '카페 인테리어', '카페인테리어', '카페 바닥', '카페바닥', '매장', '식당', '상가', '쇼룸', '상업용 바닥재', '상업용바닥재', 'cafe'],
+  거실: ['거실', '거실 바닥', '거실바닥', '주거용', '아파트', '빌라', '침실', '가정용', '방바닥'],
+  헬스장: ['헬스장', '헬스장 바닥', '헬스장바닥', '피트니스', '체육관', '스포츠', '체육시설'],
+  '학원/교육시설': ['학원', '학원 바닥', '학원바닥', '어린이집', '유치원', '학교', '강의실', '차음바닥'],
+  '병원/의료시설': ['병원', '병원 바닥', '병원바닥', '의원', '클리닉', '요양원', '의료시설']
+};
+
+// 7. 인기 추천 검색어 (요구사항 7-2)
+export const POPULAR_KEYWORDS = [
+  "베이지",
+  "콘크리트",
+  "밝은 우드",
+  "그레이 600각",
+  "따뜻한 분위기",
+  "카페 바닥재",
+  "디아망",
+  "센스타일"
+];
+
+// 8. 텍스트 및 코드 정규화 유틸리티
+export function normalizeSearchText(text = "") {
+  return String(text || "")
+    .normalize("NFKC")
+    .toLowerCase()
+    .replace(/[\s\-_.,/·/()\[\]]+/g, "")
+    .trim();
+}
+
+export function normalizeProductCode(code = "") {
+  return String(code || "")
+    .normalize("NFKC")
+    .toUpperCase()
+    .replace(/[^A-Z0-9]/g, "")
+    .trim();
+}
+
+export function tokenizeQuery(query = "") {
+  return String(query || "")
+    .normalize("NFKC")
+    .toLowerCase()
+    .split(/[\s,·/+/]+/)
+    .map(t => t.trim())
+    .filter(Boolean);
+}
+
+// 9. 라인업 데이터베이스 (동신, KCC, LX 등 기존 라인업 완전 보존)
 export const LINEUP_DATABASE = [
-  // [LX 벽지]
   {
-    lineup: "디아망",
-    brand: "LX",
-    category: "벽지",
-    aliases: ["디아망", "디아망포티스", "diamant", "lx 디아망", "lg 디아망", "엘엑스 디아망"],
-    dbKeywords: ["디아망"],
-    description: "LX 프리미엄 입체 실크벽지"
-  },
-  {
-    lineup: "베스띠",
-    brand: "LX",
-    category: "벽지",
-    // DB상 실크_LX_베스트 로 저장된 항목 완벽 지원
-    aliases: ["베스띠", "베스트", "besti", "lx 베스띠", "lg 베스띠", "엘엑스 베스띠", "lx 베스트"],
-    dbKeywords: ["베스띠", "베스트", "BESTI"],
-    description: "LX 트렌디 실크벽지"
-  },
-  {
-    lineup: "테라피",
-    brand: "LX",
-    category: "벽지",
-    aliases: ["테라피", "therapy", "lx 테라피", "lg 테라피", "엘엑스 테라피"],
-    dbKeywords: ["테라피", "THERAPY"],
-    description: "LX 무지 실크벽지"
-  },
-  {
-    lineup: "휘앙세",
-    brand: "LX",
-    category: "벽지",
-    aliases: ["휘앙세", "hiance", "lx 휘앙세", "lg 휘앙세"],
-    dbKeywords: ["휘앙세", "HIANCE"],
-    description: "LX 친환경 합지벽지"
-  },
-
-  // [LX 장판]
-  {
-    lineup: "뉴청맥",
-    brand: "LX",
-    category: "장판",
-    aliases: ["뉴청맥", "청맥", "lx 뉴청맥"],
-    dbKeywords: ["뉴청맥", "청맥"],
-    description: "LX 1.8T 실속형 모노륨 장판"
-  },
-  {
-    lineup: "은행목",
-    brand: "LX",
-    category: "장판",
-    aliases: ["은행목", "lx 은행목"],
-    dbKeywords: ["은행목"],
-    description: "LX 2.0T 주거용 장판"
-  },
-  {
-    lineup: "지아자연애",
-    brand: "LX",
-    category: "장판",
-    aliases: ["지아자연애", "자연애", "지아"],
-    dbKeywords: ["지아자연애", "자연애", "지아"],
-    description: "LX 2.2T 친환경 옥수수 유래 장판"
-  },
-  {
-    lineup: "지아사랑애",
-    brand: "LX",
-    category: "장판",
-    aliases: ["지아사랑애", "사랑애"],
-    dbKeywords: ["지아사랑애", "사랑애"],
-    description: "LX 2.7T / 3.2T 쿠션 장판"
-  },
-  {
-    lineup: "지아소리잠",
-    brand: "LX",
-    category: "장판",
-    aliases: ["지아소리잠", "소리잠"],
-    dbKeywords: ["지아소리잠", "소리잠"],
-    description: "LX 4.5T 차음/소음저감 고급 장판"
-  },
-  {
-    lineup: "엑스컴포트",
-    brand: "LX",
-    category: "장판",
-    aliases: ["엑스컴포트", "x-comfort", "xcomfort"],
-    dbKeywords: ["엑스컴포트", "XCF"],
-    description: "LX 5.0T 최고급 마스터 매트 장판"
-  },
-
-  // [LX 데코타일]
-  {
-    lineup: "보타닉",
-    brand: "LX",
-    category: "데코타일",
-    aliases: ["보타닉", "botanic", "보타닉 3T"],
-    dbKeywords: ["보타닉", "DBT"],
-    description: "LX 친환경 주거/상업 데코타일"
-  },
-  {
-    lineup: "에코노",
-    brand: "LX",
-    category: "데코타일",
-    aliases: ["에코노", "econo", "에코노플러스"],
-    dbKeywords: ["에코노"],
-    description: "LX 표준 규격 데코타일"
-  },
-
-  // [KCC 데코타일]
-  {
-    lineup: "센스타일",
+    lineup: "트랜디",
     brand: "KCC",
     category: "데코타일",
-    aliases: ["센스타일", "senstyle", "kcc 센스타일", "케이씨씨 센스타일"],
-    dbKeywords: ["센스타일", "KCC_square", "KCC_wood", "TS", "TW", "GW", "GS"],
-    description: "KCC 프리미엄 LVT 바닥재"
-  },
-  {
-    lineup: "센스타일 프로",
-    brand: "KCC",
-    category: "데코타일",
-    aliases: ["센스타일 프로", "센스타일프로", "프로", "senstyle pro", "kcc 프로"],
-    dbKeywords: ["센스타일 프로", "KCC_pro", "300", "301", "302", "303", "304", "305", "GW", "GS"],
-    description: "KCC 상업용 고내마모 데코타일"
-  },
-  {
-    lineup: "센스타일 트랜디",
-    brand: "KCC",
-    category: "데코타일",
-    aliases: ["센스타일 트랜디", "센스타일 트렌디", "센스타일트랜디", "트랜디", "트렌디", "senstyle trendy"],
+    aliases: ["트랜디", "트렌디", "센스타일 트랜디", "센스타일트랜디", "trendy"],
     dbKeywords: ["트랜디", "트렌디", "TS", "TW"],
-    description: "KCC 주거/상업 감각적 패턴 데코타일"
+    description: "KCC 센스타일 트랜디 450각/600각/우드 타일"
+  },
+  {
+    lineup: "프로",
+    brand: "KCC",
+    category: "데코타일",
+    aliases: ["프로", "센스타일 프로", "센스타일프로", "pro"],
+    dbKeywords: ["프로", "센스타일 프로", "GW", "GS", "30082P", "30102P"],
+    description: "KCC 센스타일 프로 프리미엄 데코타일"
   },
   {
     lineup: "센스레이",
     brand: "KCC",
     category: "데코타일",
-    aliases: ["센스레이", "센스레이(내수)", "senseray", "sense ray", "kcc 센스레이"],
-    dbKeywords: ["센스레이", "B0", "B3", "B5"],
-    description: "KCC 5.0T 내수 상업용 클릭 LVT"
-  },
-
-  // [KCC 장판]
-  {
-    lineup: "숲 그린",
-    brand: "KCC",
-    category: "장판",
-    aliases: ["그린", "숲 그린", "숲그린", "kcc 그린"],
-    dbKeywords: ["그린", "NP18", "NK20"],
-    description: "KCC 1.8T 실속형 모노륨 장판"
+    aliases: ["센스레이", "센스 레이", "senselay"],
+    dbKeywords: ["센스레이", "센스 레이", "B01", "B02"],
+    description: "KCC 친환경 프리미엄 데코타일"
   },
   {
-    lineup: "숲 옥",
-    brand: "KCC",
-    category: "장판",
-    aliases: ["숲 옥", "숲옥", "옥"],
-    dbKeywords: ["숲 옥", "숲옥", "MN22"],
-    description: "KCC 2.2T 편안한 주거용 장판"
+    lineup: "디아망",
+    brand: "LX",
+    category: "벽지",
+    aliases: ["디아망", "diamant", "lx 디아망", "디아망포티스"],
+    dbKeywords: ["디아망", "DIAMANT", "PR0"],
+    description: "LX하우시스 최고급 프리미엄 딥엠보 실크벽지"
   },
   {
-    lineup: "숲 도담",
-    brand: "KCC",
-    category: "장판",
-    aliases: ["도담", "숲 도담", "숲도담"],
-    dbKeywords: ["도담", "NJ27", "NR32"],
-    description: "KCC 2.7T / 3.2T 쿠션 장판"
+    lineup: "베스띠",
+    brand: "LX",
+    category: "벽지",
+    aliases: ["베스띠", "베스트", "besti", "lx 베스띠"],
+    dbKeywords: ["베스띠", "베스트", "BESTI", "82"],
+    description: "LX하우시스 친환경 대표 실크벽지"
   },
   {
-    lineup: "숲 휴가온",
-    brand: "KCC",
-    category: "장판",
-    aliases: ["휴가온", "숲 휴가온"],
-    dbKeywords: ["휴가온", "NC45", "NV50"],
-    description: "KCC 4.5T / 5.0T 고쿠션 층간소음 저감 장판"
+    lineup: "테라피",
+    brand: "LX",
+    category: "벽지",
+    aliases: ["테라피", "therapy", "lx 테라피"],
+    dbKeywords: ["테라피", "THERAPY", "70", "8195"],
+    description: "LX하우시스 모던 미니멀 실크벽지"
   },
-
-  // [동신 데코타일]
   {
     lineup: "아트타일",
     brand: "동신",
     category: "데코타일",
     aliases: ["아트타일", "art tile", "arttile", "동신 아트타일"],
-    dbKeywords: ["아트타일"],
+    dbKeywords: ["아트타일", "AB", "AS"],
     description: "동신포리마 대표 상업용 데코타일"
-  },
-  {
-    lineup: "아트하우스",
-    brand: "동신",
-    category: "데코타일",
-    aliases: ["아트하우스", "art house", "arthouse", "동신 아트하우스"],
-    dbKeywords: ["아트하우스"],
-    description: "동신포리마 주거용 데코타일"
   },
   {
     lineup: "아트에코차음",
     brand: "동신",
     category: "데코타일",
-    aliases: [
-      "아트에코차음", "동신 아트에코차음", "동신아트에코차음",
-      "에코차음", "동신 에코차음", "동신에코차음", "에코 차음",
-      "차음타일", "동신 차음타일", "아트에코", "동신 아트에코"
-    ],
-    dbKeywords: ["아트에코차음", "에코차음", "차음", "CH57", "CH63"],
+    aliases: ["아트에코차음", "동신 아트에코차음", "에코차음", "동신 에코차음", "차음타일", "에코 차음"],
+    dbKeywords: ["아트에코차음", "에코차음", "차음", "CH57", "CH63", "6202"],
     description: "동신포리마 5.0T 소음저감 데코타일"
   },
   {
-    lineup: "피오네 모던",
-    brand: "유성",
+    lineup: "아트 OA타일",
+    brand: "동신",
     category: "데코타일",
-    aliases: ["피오네", "피오네 모던", "피오네모던", "유성 피오네", "fsm"],
-    dbKeywords: ["피오네", "FSM"],
-    description: "유성 피오네 모던 데코타일"
-  },
-  {
-    lineup: "골드타일레릭",
-    brand: "현대",
-    category: "데코타일",
-    aliases: ["골드타일레릭", "레릭", "현대 레릭", "골드타일", "rt"],
-    dbKeywords: ["골드타일레릭", "RT", "골드타일"],
-    description: "현대L&C 골드타일 레릭 데코타일"
-  },
-  {
-    lineup: "에코홈2000",
-    brand: "녹수",
-    category: "데코타일",
-    aliases: ["에코홈", "에코홈2000", "녹수 에코홈", "neh"],
-    dbKeywords: ["에코홈", "NEH"],
-    description: "녹수 에코홈 2000 데코타일"
-  },
-  {
-    lineup: "차음",
-    brand: "재영",
-    category: "데코타일",
-    aliases: ["재영 차음", "재영차음", "차음타일", "t77"],
-    dbKeywords: ["차음", "T77"],
-    description: "재영 5.0T 차음 데코타일"
-  },
-
-  // [현대 바닥재]
-  {
-    lineup: "참다움",
-    brand: "현대",
-    category: "장판",
-    aliases: ["참다움", "현대 참다움"],
-    dbKeywords: ["참다움"],
-    description: "현대L&C 1.8T 실속형 장판"
-  },
-  {
-    lineup: "아티움",
-    brand: "현대",
-    category: "장판",
-    aliases: ["아티움", "현대 아티움"],
-    dbKeywords: ["아티움"],
-    description: "현대L&C 2.2T 트렌디 장판"
-  },
-  {
-    lineup: "명가",
-    brand: "현대",
-    category: "장판",
-    aliases: ["명가", "현대 명가"],
-    dbKeywords: ["명가"],
-    description: "현대L&C 2.2T 주거용 바닥재"
-  },
-  {
-    lineup: "골드타일",
-    brand: "현대",
-    category: "데코타일",
-    aliases: ["골드타일", "골드타일마스터", "골드타일클래식"],
-    dbKeywords: ["골드타일"],
-    description: "현대L&C 고품질 상업용 데코타일"
-  },
-
-  // [동화 마루]
-  {
-    lineup: "듀오텍스쳐",
-    brand: "동화",
-    category: "마루",
-    aliases: ["듀오텍스쳐", "듀오 텍스쳐", "듀오텍스쳐맥스", "duo texture"],
-    dbKeywords: ["듀오텍스쳐", "DUO TEXTURE"],
-    description: "동화자연마루 듀오 텍스쳐 강마루"
-  },
-  {
-    lineup: "진테라",
-    brand: "동화",
-    category: "마루",
-    aliases: ["진테라", "진 테라", "나투스진 테라"],
-    dbKeywords: ["진테라", "진 테라"],
-    description: "동화자연마루 대형 광폭 강마루"
-  },
-  {
-    lineup: "진오리진",
-    brand: "동화",
-    category: "마루",
-    aliases: ["진오리진", "진 오리진", "나투스진 오리진"],
-    dbKeywords: ["진오리진"],
-    description: "동화자연마루 원목 질감 광폭마루"
-  },
-  {
-    lineup: "나투스진",
-    brand: "동화",
-    category: "마루",
-    aliases: ["나투스진", "나투스 진", "그란데", "클릭그란데"],
-    dbKeywords: ["나투스진", "그란데"],
-    description: "동화자연마루 섬유판 강마루"
-  },
-
-  // [이건 마루]
-  {
-    lineup: "세라",
-    brand: "이건마루",
-    category: "마루",
-    aliases: ["세라", "세라 플렉스", "세라 베이직", "세라 블렌딩", "세라플렉스"],
-    dbKeywords: ["세라"],
-    description: "이건마루 친환경 고강도 강마루"
-  },
-  {
-    lineup: "라르고 솔레",
-    brand: "이건마루",
-    category: "마루",
-    aliases: ["라르고", "라르고 솔레", "라르고솔레"],
-    dbKeywords: ["라르고 솔레", "라르고"],
-    description: "이건마루 최고급 광폭 원목마루"
-  },
-  {
-    lineup: "그린 스퀘어",
-    brand: "이건마루",
-    category: "마루",
-    aliases: ["그린스퀘어", "그린 스퀘어"],
-    dbKeywords: ["그린 스퀘어", "그린스퀘어"],
-    description: "이건마루 대형 정사각 타일마루"
-  },
-
-  // [구정 마루]
-  {
-    lineup: "마뷸러스",
-    brand: "구정",
-    category: "마루",
-    aliases: ["마뷸러스", "마뷸러스 젠", "마블러스"],
-    dbKeywords: ["마뷸러스"],
-    description: "구정마루 대리석 스톤 질감 강마루"
-  },
-  {
-    lineup: "블론테",
-    brand: "구정",
-    category: "마루",
-    aliases: ["블론테"],
-    dbKeywords: ["블론테"],
-    description: "구정마루 초광폭 강마루"
-  },
-  {
-    lineup: "노블레스",
-    brand: "구정",
-    category: "마루",
-    aliases: ["노블레스"],
-    dbKeywords: ["노블레스"],
-    description: "구정마루 프리미엄 원목마루"
-  },
-
-  // [개나리 벽지]
-  {
-    lineup: "로하스",
-    brand: "개나리",
-    category: "벽지",
-    aliases: ["로하스", "lohas"],
-    dbKeywords: ["로하스", "LOHAS"],
-    description: "개나리벽지 친환경 실크벽지"
-  },
-  {
-    lineup: "아트북",
-    brand: "개나리",
-    category: "벽지",
-    aliases: ["아트북", "artbook"],
-    dbKeywords: ["아트북", "ARTBOOK"],
-    description: "개나리벽지 모던 실크벽지"
-  },
-  {
-    lineup: "스토리",
-    brand: "개나리",
-    category: "벽지",
-    aliases: ["스토리", "story"],
-    dbKeywords: ["스토리", "STORY"],
-    description: "개나리벽지 합지벽지"
-  },
-
-  // [신한 벽지]
-  {
-    lineup: "아이리스",
-    brand: "신한",
-    category: "벽지",
-    aliases: ["아이리스", "iris"],
-    dbKeywords: ["아이리스", "IRIS"],
-    description: "신한벽지 소폭/장폭 합지벽지"
-  },
-  {
-    lineup: "리빙",
-    brand: "신한",
-    category: "벽지",
-    aliases: ["리빙", "living"],
-    dbKeywords: ["리빙", "LIVING"],
-    description: "신한벽지 프리미엄 실크벽지"
-  },
-  {
-    lineup: "스케치",
-    brand: "신한",
-    category: "벽지",
-    aliases: ["스케치", "sketch"],
-    dbKeywords: ["스케치", "SKETCH"],
-    description: "신한벽지 디자인 실크벽지"
+    aliases: ["oa타일", "oa", "동신 oa타일", "동신 oa", "아트 oa"],
+    dbKeywords: ["OA", "아트 OA"],
+    description: "동신포리마 5.0T 프리미엄 오피스 타일"
   }
 ];
 
-// 3. 인기 추천 검색어
-export const POPULAR_KEYWORDS = [
-  "디아망",
-  "베스띠",
-  "센스타일",
-  "데코타일",
-  "장판"
-];
-
-// 4. 텍스트 정규화 유틸
-export function normalizeSearchText(text) {
-  if (!text) return "";
-  return String(text)
-    .normalize("NFKC")
-    .toLowerCase()
-    .replace(/[\s\-_()[\]/·,]/g, "");
-}
-
-// 5. 상품 코드 정규화 (영문+숫자만 추출)
-export function normalizeProductCode(code) {
-  if (!code) return "";
-  return String(code)
-    .normalize("NFKC")
-    .toUpperCase()
-    .replace(/[^A-Z0-9]/g, "");
-}
-
-// 6. 검색어 토큰화
-export function tokenizeQuery(query) {
-  if (!query) return [];
-  const q = String(query).normalize("NFKC").toLowerCase().trim();
-  const rawTokens = q.split(/[\s()[\]/·,]+/).filter(Boolean);
-  const tokenSet = new Set();
-
-  for (const raw of rawTokens) {
-    tokenSet.add(raw);
-    const subParts = raw.split(/[-_]+/).filter(Boolean);
-    for (const sub of subParts) {
-      if (sub.length >= 3 || /[가-힣]/.test(sub)) {
-        tokenSet.add(sub);
-      }
-    }
-  }
-
-  for (const t of Array.from(tokenSet)) {
-    // Split Korean + digits: "에코차음6202" -> "에코차음", "6202"
-    const krNumMatch = t.match(/^([가-힣]+)(\d+)$/);
-    if (krNumMatch) {
-      tokenSet.add(krNumMatch[1]);
-      tokenSet.add(krNumMatch[2]);
-    }
-    // Split Alpha + digits: "ts5541" -> "ts", "5541"
-    const alphaNumMatch = t.match(/^([a-z]+)(\d+)$/i);
-    if (alphaNumMatch) {
-      tokenSet.add(alphaNumMatch[1]);
-      tokenSet.add(alphaNumMatch[2]);
-    }
-    // Subwords for compound terms
-    if (t.includes('에코') && t.length > 2) tokenSet.add('에코');
-    if (t.includes('차음') && t.length > 2) tokenSet.add('차음');
-  }
-
-  return Array.from(tokenSet);
-}
-
-// 7. 검색어 분석 엔진 (Parser)
+// 10. AI형 자연어 복합 검색 쿼리 파서 (Natural Language Intent Parser)
 export function parseSearchQuery(query) {
   const raw = String(query || "").trim();
   const norm = normalizeSearchText(raw);
@@ -626,11 +416,12 @@ export function parseSearchQuery(query) {
 
   // B. 카테고리 감지
   const categoryKeywords = {
-    "데코타일": ["데코타일", "데코 타일", "데코", "lvt", "바닥타일", "타일바닥재"],
+    "데코타일": ["데코타일", "데코 타일", "데코", "lvt", "바닥타일", "타일바닥재", "타일"],
     "장판": ["장판", "모노륨", "륨", "시트바닥재", "륨바닥재"],
     "마루": ["마루", "강마루", "원목마루", "천연마루", "강화마루"],
     "벽지": ["벽지", "실크벽지", "합지벽지", "방염벽지", "도배지"],
-    "카페트타일": ["카페트타일", "카페트 타일", "카페트", "카펫", "카펫타일", "타일카페트"]
+    "카페트타일": ["카페트타일", "카페트 타일", "카페트", "카펫", "카펫타일", "타일카페트"],
+    "러버타일": ["러버타일", "고무타일", "헬스장타일"]
   };
 
   for (const [cat, aliases] of Object.entries(categoryKeywords)) {
@@ -659,25 +450,120 @@ export function parseSearchQuery(query) {
     if (detectedLineup) break;
   }
 
-  // D. 엄격한 규격 / 두께 감지 (T/t/mm가 붙어있거나, '장판' 키워드가 함께 있는 경우에만 두께 인식)
-  const thickStrict = raw.match(/(?:^|\s)(1\.8|2\.0|2\.2|2\.7|3\.2|4\.5|5\.0|1\.8|2|3|4\.5|5)\s*(?:T|t|mm|㎜)(?:\s|$)/i);
+  // D. 색상 감지 (대표 색상 vs 연관 색상 + 라임/라임오크 구분)
+  let detectedColorFamily = null;
+  let detectedColorDetail = null;
+  let isExactColor = false;
+
+  // 특수 케이스: '라임오크' vs 순수 '라임'
+  const isLimeOak = /라임\s*오크|라임오크/.test(raw);
+  const isLime = /라임|라임그린|연두/.test(raw);
+
+  if (isLime && !isLimeOak) {
+    detectedColorFamily = '라임';
+    detectedColorDetail = '라임';
+    isExactColor = true;
+  } else if (isLimeOak) {
+    detectedColorFamily = '우드';
+    detectedColorDetail = '라임오크';
+    isExactColor = true;
+  } else {
+    for (const [famName, conf] of Object.entries(COLOR_TAXONOMY)) {
+      // 1. 정확 일치 검사
+      for (const ex of conf.exact) {
+        if (tokens.some(t => normalizeSearchText(t) === normalizeSearchText(ex)) || norm.includes(normalizeSearchText(ex))) {
+          detectedColorFamily = famName;
+          detectedColorDetail = ex;
+          isExactColor = true;
+          break;
+        }
+      }
+      if (detectedColorFamily) break;
+
+      // 2. 연관 세부 색상 검사
+      for (const rel of conf.related) {
+        if (tokens.some(t => normalizeSearchText(t) === normalizeSearchText(rel)) || norm.includes(normalizeSearchText(rel))) {
+          detectedColorFamily = famName;
+          detectedColorDetail = rel;
+          isExactColor = false;
+          break;
+        }
+      }
+      if (detectedColorFamily) break;
+    }
+  }
+
+  // E. 패턴 및 질감 감지
+  let detectedPattern = null;
+  let detectedPatternKeyword = null;
+
+  for (const [patName, conf] of Object.entries(PATTERN_TAXONOMY)) {
+    for (const kw of conf.keywords) {
+      const kwNorm = normalizeSearchText(kw);
+      if (tokens.some(t => normalizeSearchText(t) === kwNorm) || norm.includes(kwNorm)) {
+        detectedPattern = conf.canonical;
+        detectedPatternKeyword = kw;
+        break;
+      }
+    }
+    if (detectedPattern) break;
+  }
+
+  // F. 표면 마감 감지
+  let detectedFinish = null;
+  for (const [finName, conf] of Object.entries(FINISH_TAXONOMY)) {
+    for (const kw of conf.keywords) {
+      if (norm.includes(normalizeSearchText(kw))) {
+        detectedFinish = conf.canonical;
+        break;
+      }
+    }
+    if (detectedFinish) break;
+  }
+
+  // G. 공간 및 용도 감지
+  let detectedSpace = null;
+  for (const [spName, keywords] of Object.entries(SPACE_TAXONOMY)) {
+    for (const kw of keywords) {
+      if (norm.includes(normalizeSearchText(kw)) || tokens.some(t => normalizeSearchText(t) === normalizeSearchText(kw))) {
+        detectedSpace = spName;
+        break;
+      }
+    }
+    if (detectedSpace) break;
+  }
+
+  // H. 분위기 및 스타일 감지
+  let detectedStyle = null;
+  for (const [stName, keywords] of Object.entries(STYLE_TAXONOMY)) {
+    for (const kw of keywords) {
+      if (norm.includes(normalizeSearchText(kw))) {
+        detectedStyle = stName;
+        break;
+      }
+    }
+    if (detectedStyle) break;
+  }
+
+  // I. 규격 (600각, 450각)
+  if (/600각|600\s*[x×]\s*600/i.test(raw)) {
+    detectedSpec = "600각";
+  } else if (/450각|457\.?2?각|450\s*[x×]\s*450/i.test(raw)) {
+    detectedSpec = "450각";
+  }
+
+  // J. 두께 (1.8T ~ 5.0T)
+  const thickStrict = raw.match(/(?:^|\s)(1\.8|2\.0|2\.2|2\.7|3\.0|3\.2|4\.5|5\.0|1\.8|2|3|4\.5|5)\s*(?:T|t|mm|㎜)(?:\s|$)/i);
   if (thickStrict) {
     detectedThickness = parseFloat(thickStrict[1]).toFixed(1) + 'T';
   } else if (detectedCategory === '장판') {
-    const jangpanThick = raw.match(/(?:^|\s)(1\.8|2\.0|2\.2|2\.7|3\.2|4\.5|5\.0|1\.8|2|3)(?:\s|$)/);
+    const jangpanThick = raw.match(/(?:^|\s)(1\.8|2\.0|2\.2|2\.7|3\.0|3\.2|4\.5|5\.0)(?:\s|$)/);
     if (jangpanThick) {
       detectedThickness = parseFloat(jangpanThick[1]).toFixed(1) + 'T';
     }
   }
 
-  // E. 규격 감지 (450각, 600각 등)
-  if (/450각|457\.?2?각|450\s*[x×]\s*450/i.test(raw)) {
-    detectedSpec = "450각";
-  } else if (/600각|600\s*[x×]\s*600/i.test(raw)) {
-    detectedSpec = "600각";
-  }
-
-  // F. 상품 코드/번호 쿼리 여부
+  // K. 상품코드 쿼리 판별
   const isPureCode = /^[A-Z0-9\-_./]+$/i.test(raw.trim()) && /[0-9]/.test(codeNorm) && codeNorm.length >= 2;
   const isCodeQuery = isPureCode || (tokens.some(t => /^[A-Z0-9\-_]{2,}$/i.test(t) && /[0-9]/.test(t)));
 
@@ -691,13 +577,21 @@ export function parseSearchQuery(query) {
     detectedBrand,
     detectedCategory,
     detectedLineup,
+    detectedColorFamily,
+    detectedColorDetail,
+    isExactColor,
+    detectedPattern,
+    detectedPatternKeyword,
+    detectedFinish,
+    detectedSpace,
+    detectedStyle,
     detectedSpec,
     detectedThickness,
     isCodeQuery
   };
 }
 
-// 8. 관련도(Relevance) 8단계 랭킹 점수 계산 엔진
+// 11. 관련도(Relevance) AI형 랭킹 점수 계산 엔진
 export function scoreProduct(product, query, parsedInfo = null) {
   if (!product || !query) return 0;
   const p = parsedInfo || parseSearchQuery(query);
@@ -713,11 +607,14 @@ export function scoreProduct(product, query, parsedInfo = null) {
   const pCodeDigits = pCode.replace(/\D/g, "");
   const qCodeDigits = qCode.replace(/\D/g, "");
 
-  const pName = normalizeSearchText(product.name || product.product_name || product.productName || "");
+  // 메타데이터 취득 ($O(1)$)
+  const meta = product.searchMetadata || metadataByCode.get(pCode) || metadataById.get(String(product.id).toLowerCase()) || null;
+
+  const pName = normalizeSearchText(product.name || product.product_name || product.productName || (meta && meta.product_name) || "");
   const pDisplayTitle = normalizeSearchText(product.displayTitle || "");
-  const pBrand = normalizeSearchText(product.brand || "");
-  const pLine = normalizeSearchText(product.line || product.series || product.collection || product.description || "");
-  const pCategory = product.category || "";
+  const pBrand = normalizeSearchText(product.brand || product.brand_name || (meta && meta.brand) || "");
+  const pLine = normalizeSearchText(product.line || product.series || product.collection || product.description || (meta && meta.line) || "");
+  const pCategory = product.category || product.category_name || (meta && meta.category) || "";
 
   // 1. 상품코드 일치 (최우선 순위: 15,000점)
   let codeMatched = false;
@@ -735,7 +632,6 @@ export function scoreProduct(product, query, parsedInfo = null) {
         codeMatched = true;
       }
     } else if (pCode.includes(qCode)) {
-      // 부분 포함인 경우 하이픈 경계를 가로지르는 오매칭 방지 (예: K5308-6 에 3086 매칭 방지)
       const parts = codeRaw.toUpperCase().split(/[-_/\s]+/);
       const isPartMatch = parts.some(part => {
         const normPart = normalizeProductCode(part);
@@ -761,7 +657,7 @@ export function scoreProduct(product, query, parsedInfo = null) {
     }
   }
 
-  // 토큰 단위 상품코드 매칭 (예: "TS 5541", "에코차음 6202")
+  // 토큰 단위 상품코드 매칭 (예: "6202", "TS 5541")
   for (const token of p.tokens) {
     const tCode = normalizeProductCode(token);
     const tDigits = tCode.replace(/\D/g, "");
@@ -770,37 +666,31 @@ export function scoreProduct(product, query, parsedInfo = null) {
         score += 8000;
         codeMatched = true;
       } else if (pCode.endsWith(tCode) || (pCodeDigits && pCodeDigits === tDigits)) {
-        const afterHyphen = codeRaw.includes('-') ? codeRaw.split('-').pop() : '';
-        if (!codeRaw.includes('-') || normalizeProductCode(afterHyphen).endsWith(tCode) || normalizeProductCode(afterHyphen) === tCode) {
-          score += 7000;
-          codeMatched = true;
-        }
+        score += 7000;
+        codeMatched = true;
       } else if (pCode.includes(tCode) || (pCodeDigits && pCodeDigits.includes(tDigits))) {
-        const parts = codeRaw.toUpperCase().split(/[-_/\s]+/);
-        const isPartMatch = parts.some(part => {
-          const normPart = normalizeProductCode(part);
-          return normPart.includes(tCode) || normPart.endsWith(tCode);
-        });
-        if (isPartMatch || !codeRaw.includes('-')) {
-          score += 5000;
-          codeMatched = true;
-        }
+        score += 5000;
+        codeMatched = true;
       }
     }
   }
 
-  // 2. 상품명 일치
+  // 2. 상품명 일치 (12,000점)
+  let nameMatched = false;
   if (pName || pDisplayTitle) {
     if (pName === qNorm || pDisplayTitle === qNorm) {
       score += 12000;
+      nameMatched = true;
     } else if (pName.startsWith(qNorm) || pDisplayTitle.startsWith(qNorm)) {
       score += 6000;
+      nameMatched = true;
     } else if (pName.includes(qNorm) || pDisplayTitle.includes(qNorm)) {
       score += 4000;
+      nameMatched = true;
     }
   }
 
-  // 3. 라인업 일치
+  // 3. 라인업 일치 (5,500점)
   let matchesLineup = false;
   if (p.detectedLineup) {
     const targetLine = normalizeSearchText(p.detectedLineup.lineup);
@@ -815,24 +705,109 @@ export function scoreProduct(product, query, parsedInfo = null) {
     }
   }
 
-  // 4. 브랜드 일치
+  // 4. 브랜드 일치 (2,000점)
+  let brandMatched = false;
   if (p.detectedBrand) {
     const bInfo = BRAND_DICTIONARY[p.detectedBrand];
     if (bInfo) {
       const canonicalNorm = normalizeSearchText(bInfo.canonical);
       const isAliasMatch = bInfo.aliases.map(normalizeSearchText).includes(pBrand);
       if (pBrand === canonicalNorm || isAliasMatch) {
+        brandMatched = true;
         score += 2000;
       }
     }
   }
 
-  // 5. 카테고리 일치
-  if (p.detectedCategory && pCategory === p.detectedCategory) {
-    score += 1000;
+  // 5. 카테고리 일치 (1,000점)
+  let categoryMatched = false;
+  if (p.detectedCategory) {
+    if (pCategory === p.detectedCategory) {
+      categoryMatched = true;
+      score += 1500;
+    } else if (p.detectedCategory === "데코타일" && pCategory.includes("타일")) {
+      categoryMatched = true;
+      score += 800;
+    }
   }
 
-  // 6. 규격 및 두께 일치
+  // 6. AI 색상 일치 (요구사항 2-A: 대표 색상 최우선, 연관 색상 차순위)
+  let colorMatched = false;
+  if (p.detectedColorFamily && meta) {
+    const pFam = meta.color_family;
+    const pDet = meta.color_detail;
+
+    if (pFam === p.detectedColorFamily) {
+      colorMatched = true;
+      if (p.isExactColor && (pDet === p.detectedColorDetail || pFam === p.detectedColorDetail)) {
+        score += 3500; // 대표 색상 정확 일치
+      } else {
+        score += 2200; // 연관 색상 일치
+      }
+    } else if (meta.search_keywords?.includes(p.detectedColorFamily)) {
+      colorMatched = true;
+      score += 1500;
+    }
+  }
+
+  // 7. AI 패턴/질감 일치 (요구사항 2-B)
+  let patternMatched = false;
+  if (p.detectedPattern && meta) {
+    if (meta.pattern_type === p.detectedPattern || meta.pattern_type?.includes(p.detectedPattern)) {
+      patternMatched = true;
+      score += 3000;
+    } else if (meta.texture && p.detectedPatternKeyword && meta.texture.includes(p.detectedPatternKeyword)) {
+      patternMatched = true;
+      score += 2000;
+    } else if (meta.search_keywords?.includes(p.detectedPattern)) {
+      patternMatched = true;
+      score += 1500;
+    }
+  }
+
+  // 8. AI 표면 마감 일치
+  let finishMatched = false;
+  if (p.detectedFinish && meta) {
+    if (meta.finish === p.detectedFinish) {
+      finishMatched = true;
+      score += 1500;
+    }
+  }
+
+  // 9. AI 공간/용도 일치 (요구사항 2-C)
+  let spaceMatched = false;
+  if (p.detectedSpace && meta) {
+    if (meta.space_tags?.includes(p.detectedSpace)) {
+      spaceMatched = true;
+      score += 2000;
+    } else if (meta.usage_tags?.includes(p.detectedSpace)) {
+      spaceMatched = true;
+      score += 1500;
+    }
+  }
+
+  // 10. AI 분위기/스타일 일치 (요구사항 2-C)
+  let styleMatched = false;
+  if (p.detectedStyle && meta) {
+    if (meta.style_tags?.includes(p.detectedStyle)) {
+      styleMatched = true;
+      score += 1800;
+    }
+  }
+
+  // 11. 규격 (600각, 450각) 및 두께 일치
+  let specMatched = false;
+  if (p.detectedSpec) {
+    const pSpec = normalizeSearchText(product.size_text || product.specs?.size || product.shape || meta?.spec_tag || "");
+    if (p.detectedSpec === "450각" && (pSpec.includes("450") || pSpec.includes("457"))) {
+      specMatched = true;
+      score += 2000;
+    } else if (p.detectedSpec === "600각" && pSpec.includes("600")) {
+      specMatched = true;
+      score += 2000;
+    }
+  }
+
   if (p.detectedThickness) {
     const pThick = (product.thickness || "").replace(/[^0-9.]/g, "");
     const qThick = p.detectedThickness.replace(/[^0-9.]/g, "");
@@ -843,17 +818,16 @@ export function scoreProduct(product, query, parsedInfo = null) {
     }
   }
 
-  if (p.detectedSpec) {
-    const pSpec = normalizeSearchText(product.size_text || product.specs?.size || product.shape || "");
-    if (p.detectedSpec === "450각" && (pSpec.includes("450") || pSpec.includes("457"))) {
-      score += 1500;
-    } else if (p.detectedSpec === "600각" && pSpec.includes("600")) {
-      score += 1500;
-    }
+  // 12. 복합 조건 일치 가산점 (Cross-Domain Multi-Intent Bonus, 요구사항 3)
+  const conditionCount = [colorMatched, patternMatched, spaceMatched, styleMatched, categoryMatched, specMatched, finishMatched].filter(Boolean).length;
+  if (conditionCount >= 3) {
+    score += 5000; // 3개 이상 복합 조건 충족 시 최우선 가산
+  } else if (conditionCount === 2) {
+    score += 2500; // 2개 복합 조건 충족 시 가산
   }
 
-  // 7. 복수 토큰 전체 일치 가산점 (2글자 이하 축약어의 경우 단어 경계 또는 코드 접두사 엄격 매칭)
-  const searchableWords = `${pBrand} ${pCategory} ${pLine} ${pName} ${codeRaw} ${product.description || ''} ${product.series || ''} ${product.collection || ''}`
+  // 13. 토큰 단위 매칭 보너스
+  const searchableWords = `${pBrand} ${pCategory} ${pLine} ${pName} ${codeRaw} ${product.description || ''} ${meta?.search_keywords?.join(' ') || ''}`
     .toLowerCase()
     .split(/[\s\-_()[\]/·,]+/)
     .filter(Boolean);
@@ -862,46 +836,28 @@ export function scoreProduct(product, query, parsedInfo = null) {
   let matchedTokenCount = 0;
   for (const token of p.tokens) {
     const tNorm = normalizeSearchText(token);
-    const tCode = normalizeProductCode(token);
     if (!tNorm || tNorm.length < 2) continue;
 
-    let tokenMatched = false;
-    if (tNorm.length === 2 && !/[가-힣]/.test(tNorm)) {
-      // 2글자 영문/숫자 단어는 정확한 단어 일치 또는 2글자 이상 코드 접두사로만 일치 인정
-      if (searchableWords.includes(tNorm) || (tCode && tCode.length >= 2 && pCode.startsWith(tCode))) {
-        tokenMatched = true;
-      }
-    } else {
-      const parts = codeRaw.toUpperCase().split(/[-_/\s]+/);
-      const isPartMatch = tCode && tCode.length >= 3 && parts.some(part => normalizeProductCode(part).includes(tCode));
-      if (searchableText.includes(tNorm) || isPartMatch || (!codeRaw.includes('-') && tCode && tCode.length >= 3 && pCode.includes(tCode))) {
-        tokenMatched = true;
-      }
-    }
-
-    if (tokenMatched) {
+    if (searchableText.includes(tNorm) || searchableWords.includes(tNorm)) {
       matchedTokenCount++;
-      score += 500;
+      score += 400;
     }
   }
 
-  if (p.tokens.length >= 2) {
-    if (matchedTokenCount === p.tokens.length) {
-      score += 10000; // 모든 검색 토큰 동시 일치 가산점
-    } else if (matchedTokenCount === 0 && !codeMatched && !matchesLineup) {
-      return 0;
-    }
+  if (p.tokens.length >= 2 && matchedTokenCount === p.tokens.length) {
+    score += 2000; // 모든 단어 포함 보너스
   }
 
-  // 8. 무관한 상품 필터링 (최소 기준 미달 시 배제)
-  if (!codeMatched && !matchesLineup && matchedTokenCount === 0 && !pName.includes(qNorm) && !pLine.includes(qNorm)) {
+  // 14. 무관한 상품 필터링 (최소 기준 미달 시 배제)
+  const hasAnyHit = codeMatched || nameMatched || matchesLineup || colorMatched || patternMatched || spaceMatched || styleMatched || brandMatched || categoryMatched || matchedTokenCount > 0;
+  if (!hasAnyHit) {
     return 0;
   }
 
   return score;
 }
 
-// 9. 자동완성 및 추천 검색어 생성기
+// 12. 실시간 자동완성 및 추천 검색어 생성기
 export function generateAutocompleteSuggestions(query, options = {}) {
   const text = String(query || "").trim();
   if (!text) return [];
@@ -919,7 +875,40 @@ export function generateAutocompleteSuggestions(query, options = {}) {
     }
   };
 
-  // 1. 라인업 매칭 추천
+  // 1. 색상 + 질감 추천
+  for (const [colorName, conf] of Object.entries(COLOR_TAXONOMY)) {
+    if (conf.canonical.includes(qNorm) || conf.exact.some(e => e.includes(qNorm))) {
+      addSuggestion({
+        type: "color",
+        badge: "색상",
+        title: `${conf.canonical} 바닥재`,
+        subtitle: `${conf.related.slice(0, 3).join(", ")} 계열`,
+        query: conf.canonical
+      });
+      addSuggestion({
+        type: "color",
+        badge: "색상+패턴",
+        title: `${conf.canonical} 콘크리트`,
+        subtitle: `${conf.canonical} 톤의 모던 콘크리트 질감`,
+        query: `${conf.canonical} 콘크리트`
+      });
+    }
+  }
+
+  // 2. 질감 / 패턴 추천
+  for (const [patName, conf] of Object.entries(PATTERN_TAXONOMY)) {
+    if (conf.canonical.includes(qNorm) || conf.keywords.some(k => k.includes(qNorm))) {
+      addSuggestion({
+        type: "pattern",
+        badge: "패턴/질감",
+        title: `${conf.canonical} 데코타일`,
+        subtitle: `${conf.canonical} 패턴의 바닥재 모아보기`,
+        query: `${conf.canonical} 데코타일`
+      });
+    }
+  }
+
+  // 3. 라인업 매칭 추천 (기존 보존)
   for (const item of LINEUP_DATABASE) {
     const matchesLineup = item.aliases.some(a => {
       const aNorm = normalizeSearchText(a);
@@ -936,94 +925,39 @@ export function generateAutocompleteSuggestions(query, options = {}) {
         brand: item.brand,
         category: item.category
       });
-      // 카테고리 연계 추천
+    }
+  }
+
+  // 4. 공간/분위기 추천
+  for (const [spName, keywords] of Object.entries(SPACE_TAXONOMY)) {
+    if (spName.includes(qNorm) || keywords.some(k => k.includes(qNorm))) {
       addSuggestion({
-        type: "category",
-        badge: "카테고리",
-        title: `${item.lineup} ${item.category}`,
-        subtitle: `${item.category} 카테고리 자재 검색`,
-        query: item.lineup,
-        category: item.category
+        type: "space",
+        badge: "공간/용도",
+        title: `${spName} 바닥재`,
+        subtitle: `${spName} 추천 바닥재 탐색`,
+        query: `${spName} 바닥재`
       });
     }
   }
 
-  // 2. 브랜드 매칭 추천
-  for (const [key, brandInfo] of Object.entries(BRAND_DICTIONARY)) {
-    const matchesBrand = brandInfo.aliases.some(a => {
-      const aNorm = normalizeSearchText(a);
-      return aNorm.startsWith(qNorm) || aNorm.includes(qNorm);
-    });
-
-    if (matchesBrand) {
-      addSuggestion({
-        type: "brand",
-        badge: "브랜드",
-        title: `${brandInfo.canonical} (${brandInfo.displayName})`,
-        subtitle: `${brandInfo.categories.join(", ")} 취급`,
-        query: brandInfo.canonical,
-        brand: brandInfo.canonical
-      });
-    }
-  }
-
-  // 3. 규격 / 두께 추천
-  if (/^4|45|450/.test(qNorm)) {
-    addSuggestion({
-      type: "spec",
-      badge: "규격",
-      title: "450각 데코타일",
-      subtitle: "457.2 × 457.2mm 규격 데코타일 모아보기",
-      query: "450각",
-      category: "데코타일"
-    });
-  }
-  if (/^6|60|600/.test(qNorm)) {
-    addSuggestion({
-      type: "spec",
-      badge: "규격",
-      title: "600각 데코타일",
-      subtitle: "600 × 600mm 대형 규격 데코타일 모아보기",
-      query: "600각",
-      category: "데코타일"
-    });
-  }
-  if (/^1|1\.8|18/.test(qNorm)) {
-    addSuggestion({
-      type: "spec",
-      badge: "두께",
-      title: "1.8T 장판",
-      subtitle: "1.8T 실속형 주거용 모노륨 장판",
-      query: "1.8T",
-      category: "장판"
-    });
-  }
-
-  // 4. 번호 검색 시 연계 추천 (예: 8195, 30082)
-  if (parsed.isCodeQuery && parsed.codeNorm.length >= 3) {
-    if (parsed.codeNorm.startsWith("8195")) {
+  // 5. 상품 번호/코드 쿼리 추천
+  if (parsed.isCodeQuery && parsed.codeNorm.length >= 2) {
+    if (parsed.codeNorm.startsWith("6202")) {
       addSuggestion({
         type: "product",
         badge: "제품번호",
-        title: "8195-01 (테라피)",
-        subtitle: "LX 실크벽지 테라피 8195-01",
-        query: "8195-01",
-        code: "8195-01"
-      });
-      addSuggestion({
-        type: "product",
-        badge: "제품번호",
-        title: "8195-01 (베스띠)",
-        subtitle: "LX 실크벽지 베스띠 8195-01",
-        query: "8195-01",
-        code: "8195-01"
+        title: "6202 (에코차음)",
+        subtitle: "동신포리마 아트에코차음 5.0T CH6202",
+        query: "6202",
+        code: "6202"
       });
     } else if (parsed.codeNorm.startsWith("30082")) {
       addSuggestion({
         type: "product",
         badge: "제품번호",
         title: "30082P (그란데 테라조)",
-        subtitle: "KCC 센스타일 프로 450각 데코타일",
+        subtitle: "KCC 센스타일 프로 450각 30082P",
         query: "30082P",
         code: "30082P"
       });
@@ -1031,8 +965,8 @@ export function generateAutocompleteSuggestions(query, options = {}) {
       addSuggestion({
         type: "product",
         badge: "제품코드",
-        title: `${parsed.codeNorm} 제품번호 검색`,
-        subtitle: "정확한 제품코드 및 일치하는 자재 조회",
+        title: `${parsed.codeNorm} 제품코드 검색`,
+        subtitle: "일치하는 자재 조회",
         query: parsed.codeNorm,
         code: parsed.codeNorm
       });

@@ -1,6 +1,6 @@
 import React, { useState, useMemo } from 'react';
 import { ShoppingCart } from 'lucide-react';
-import { useNavigate, Link } from 'react-router-dom';
+import { useNavigate, Link, useSearchParams } from 'react-router-dom';
 import { useEstimateCart } from '../../contexts/EstimateCartContext';
 import { useAuth } from '../../contexts/AuthContext';
 import { getProductImageCandidates, prefetchProductImage } from '../../utils/productImageResolver';
@@ -11,6 +11,7 @@ import { getDongshinMajorCategory, getDongshinDetailedLineup } from '../../utils
 import { Skeleton, ImagePlaceholder, ProductImage } from '../ui';
 import { isProductRecommended, getDisplayBrandName } from '../../constants/brandPriority';
 import './MaterialCard.css';
+import { metadataByCode, metadataById } from '../../data/productSearchMetadata.generated';
 
 
 const isDirectPricingCategory = (product) => {
@@ -32,10 +33,27 @@ const isDirectPricingCategory = (product) => {
 
 const MaterialCard = ({ material, priority = false }) => {
     const navigate = useNavigate();
+    const [searchParams] = useSearchParams();
+    const currentQuery = (searchParams.get('q') || searchParams.get('search') || '').trim();
     const { addToCart } = useEstimateCart();
     const { user: currentUser, openLoginModal } = useAuth();
     
     const [qty, setQty] = useState(1);
+
+    const meta = useMemo(() => {
+        const codeKey = (material?.code || material?.product_code || '').trim().toUpperCase();
+        return material?.searchMetadata || metadataByCode.get(codeKey) || metadataById.get(String(material?.id).toLowerCase()) || null;
+    }, [material]);
+
+    const displayTags = useMemo(() => {
+        if (!meta) return [];
+        const tags = [];
+        if (meta.color_family && meta.color_family !== 'unknown') tags.push({ text: meta.color_family, type: 'color' });
+        if (meta.pattern_type && meta.pattern_type !== 'unknown') tags.push({ text: meta.pattern_type, type: 'pattern' });
+        if (meta.finish && meta.finish !== 'unknown') tags.push({ text: meta.finish, type: 'finish' });
+        if (meta.spec_tag) tags.push({ text: meta.spec_tag, type: 'spec' });
+        return tags.slice(0, 3);
+    }, [meta]);
 
     const imageCandidates = useMemo(() => getProductImageCandidates(material), [material]);
     const coverUrl = imageCandidates[0] || "/images/no-image.svg";
@@ -290,6 +308,19 @@ const MaterialCard = ({ material, priority = false }) => {
                 >
                     {displayName}
                 </Link>
+
+                {displayTags.length > 0 && (
+                    <div className="card-tags-list">
+                        {displayTags.map(tag => {
+                            const isHighlighted = currentQuery && currentQuery.includes(tag.text);
+                            return (
+                                <span key={tag.text} className={`card-tag-chip ${isHighlighted ? 'highlighted' : ''}`}>
+                                    #{tag.text}
+                                </span>
+                            );
+                        })}
+                    </div>
+                )}
                 
                 {(material.brand === 'KCC' || material.brand === 'KCC글라스' || (material.brand && material.brand.includes('KCC'))) && material.category === '데코타일' ? (
                     <div className="card-meta">

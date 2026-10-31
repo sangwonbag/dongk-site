@@ -1338,6 +1338,30 @@ export async function searchMaterials(queryText, optionsOrSignal = null) {
           orConds.push(`size_text.ilike.%600%`, `description.ilike.%600%`);
         }
 
+        // 6. AI Color matching
+        if (parsed.detectedColorFamily) {
+          orConds.push(`name.ilike.%${parsed.detectedColorFamily}%`, `description.ilike.%${parsed.detectedColorFamily}%`);
+          if (parsed.detectedColorDetail && parsed.detectedColorDetail !== parsed.detectedColorFamily) {
+            orConds.push(`name.ilike.%${parsed.detectedColorDetail}%`, `description.ilike.%${parsed.detectedColorDetail}%`);
+          }
+        }
+
+        // 7. AI Pattern & Texture matching
+        if (parsed.detectedPattern) {
+          orConds.push(`name.ilike.%${parsed.detectedPattern}%`, `description.ilike.%${parsed.detectedPattern}%`);
+          if (parsed.detectedPatternKeyword && parsed.detectedPatternKeyword !== parsed.detectedPattern) {
+            orConds.push(`name.ilike.%${parsed.detectedPatternKeyword}%`, `description.ilike.%${parsed.detectedPatternKeyword}%`);
+          }
+        }
+
+        // 8. AI Space & Style matching
+        if (parsed.detectedSpace) {
+          orConds.push(`description.ilike.%${parsed.detectedSpace}%`, `name.ilike.%${parsed.detectedSpace}%`);
+        }
+        if (parsed.detectedStyle) {
+          orConds.push(`description.ilike.%${parsed.detectedStyle}%`);
+        }
+
         // 6. Fallback if empty
         if (orConds.length === 0) {
           const s = text.trim();
