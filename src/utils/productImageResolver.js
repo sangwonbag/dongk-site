@@ -1,7 +1,7 @@
 import { getUniqueProductImages } from './galleryNormalizer.js';
 
 import { imageManifest as syncGeneratedManifest } from '../data/materialImageManifest.generated.js';
-import { imageManifest as syncMappedManifest } from '../data/imageManifest.js';
+let syncMappedManifest = null;
 
 let mappedImageManifestCache = syncMappedManifest;
 let generatedImageManifestCache = syncGeneratedManifest;

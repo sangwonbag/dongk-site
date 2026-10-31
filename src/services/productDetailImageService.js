@@ -963,158 +963,199 @@ export const DONGSHIN_CATALOG_MAP = {
   ]
 };
 
-export async function getProductDetailImages(productId, productCode = '', product = null) {
-  try {
-    if (productId && supabase) {
-      const { data, error } = await supabase
-        .from('product_images')
-        .select('*')
-        .eq('product_id', Number(productId))
-        .eq('is_active', true)
-        .order('sort_order', { ascending: true });
+const detailImagesCache = new Map();
+const detailImagesInflight = new Map();
 
-      if (!error && data && data.length > 0) {
-        // 카탈로그 PDF 덤프 페이지는 제외
-        const validDbImages = data.filter(item => 
-          item.image_url && 
-          !item.image_url.includes('catalogs/kcc-sensetile-trendy') &&
-          !item.image_url.includes('/page_') &&
-          !item.image_url.endsWith('/.webp')
-        );
-
-        if (validDbImages.length > 0) {
-          return validDbImages.map((item, idx) => ({
-            id: item.id,
-            product_id: item.product_id,
-            url: item.image_url,
-            sort_order: item.sort_order ?? idx,
-            alt_text: item.alt_text || '',
-            image_type: item.image_type || 'detail'
-          }));
+// Pre-build O(1) index for imageManifest by normalized extractedCode
+let manifestByCodeMap = null;
+function getManifestByCode(baseCode) {
+  if (!manifestByCodeMap) {
+    manifestByCodeMap = new Map();
+    if (Array.isArray(imageManifest)) {
+      for (const img of imageManifest) {
+        if (!img.extractedCode || !img.fullPublicPath) continue;
+        const key = String(img.extractedCode).replace(/[^a-zA-Z0-9]/g, '').toUpperCase();
+        if (!key) continue;
+        let list = manifestByCodeMap.get(key);
+        if (!list) {
+          list = [];
+          manifestByCodeMap.set(key, list);
         }
+        list.push(img);
       }
     }
-  } catch (err) {
-    console.warn('[productDetailImageService] Database query failed, checking fallback:', err);
   }
+  const exact = manifestByCodeMap.get(baseCode) || [];
+  if (exact.length > 0 || baseCode.length < 4) return exact;
 
+  // Match TS5508 <-> TS5508P, but never TS5508 <-> TS5509
+  const matched = [];
+  for (const [imgKey, list] of manifestByCodeMap.entries()) {
+    if (
+      (imgKey.startsWith(baseCode) && !/\d/.test(imgKey.slice(baseCode.length))) ||
+      (baseCode.startsWith(imgKey) && !/\d/.test(baseCode.slice(imgKey.length)))
+    ) {
+      matched.push(...list);
+    }
+  }
+  return matched;
+}
+
+export async function getProductDetailImages(productId, productCode = '', product = null) {
   const rawCode = String(productCode || product?.code || product?.product_code || product?.name || '');
   const cleanCode = rawCode.replace(/[^a-zA-Z0-9가-힣]/g, '').toUpperCase();
   const baseCode = cleanCode.replace(/[^A-Z0-9]/g, '');
+  const cacheKey = `${productId || ''}:${baseCode || cleanCode}`;
 
-  // Priority Fallback for 동신 데코타일 카탈로그 이미지 매핑 (원장 -> 확장/2x2 -> 시공예시)
-  if (DONGSHIN_CATALOG_MAP[baseCode]) {
-    return DONGSHIN_CATALOG_MAP[baseCode].map((url, idx) => {
-      const lower = url.toLowerCase();
-      const is2x2 = lower.includes('2x2') || lower.includes('확장') || /\/oa\d+_1\.(jpe?g|png|webp)$/i.test(lower);
-      const isScene = lower.includes('시공') || /\/oa\d+_2\.(jpe?g|png|webp)$/i.test(lower);
-      return {
-        id: `fallback-dongshin-${baseCode}-${idx}`,
-        url,
-        sort_order: idx,
-        alt_text: `${productCode || baseCode} ${is2x2 ? '2x2 / 확장 패턴' : isScene ? '시공예시 공간' : '자재 원본'}`,
-        image_type: is2x2 ? '2x2' : isScene ? 'office' : 'material'
-      };
-    });
+  if (detailImagesCache.has(cacheKey)) {
+    return detailImagesCache.get(cacheKey);
+  }
+  if (detailImagesInflight.has(cacheKey)) {
+    return detailImagesInflight.get(cacheKey);
   }
 
-  // Dynamic Lookup from Auto-Generated Image Manifest (All KCC Products: Trendy, Pro, SenseRay, Jangpan)
-  if (Array.isArray(imageManifest) && baseCode && baseCode.length >= 3) {
-    const matchingEntries = imageManifest.filter(img => {
-      if (!img.extractedCode || !img.fullPublicPath) return false;
-      const imgKey = String(img.extractedCode).replace(/[^a-zA-Z0-9]/g, '').toUpperCase();
-      if (imgKey === baseCode) return true;
-      if (baseCode.length >= 4) {
-        // Match TS5508 <-> TS5508P, but never TS5508 <-> TS5509
-        if (imgKey.startsWith(baseCode) && !/\d/.test(imgKey.slice(baseCode.length))) return true;
-        if (baseCode.startsWith(imgKey) && !/\d/.test(baseCode.slice(imgKey.length))) return true;
-      }
-      return false;
-    });
+  const fetchPromise = (async () => {
+    try {
+      const numericId = Number(productId);
+      if (Number.isFinite(numericId) && numericId > 0 && supabase) {
+        const { data, error } = await supabase
+          .from('product_images')
+          .select('*')
+          .eq('product_id', numericId)
+          .eq('is_active', true)
+          .order('sort_order', { ascending: true });
 
-    if (matchingEntries.length > 0) {
-      const IMAGE_PRIORITY = {
-        material: 0,
-        original: 0,
-        '2x2': 1,
-        pattern2x2: 1,
-        expanded: 1,
-        '확장': 1,
-        '90cross': 2,
-        cross: 2,
-        office: 3,
-        installation: 3,
-        other: 4
-      };
-      const seenPaths = new Set();
-      const uniqueMatching = [];
-      for (const entry of matchingEntries) {
-        let decoded = entry.fullPublicPath;
-        try { decoded = decodeURI(entry.fullPublicPath); } catch {}
-        if (!seenPaths.has(decoded)) {
-          seenPaths.add(decoded);
-          uniqueMatching.push(entry);
+        if (!error && data && data.length > 0) {
+          // 카탈로그 PDF 덤프 페이지는 제외
+          const validDbImages = data.filter(item => 
+            item.image_url && 
+            !item.image_url.includes('catalogs/kcc-sensetile-trendy') &&
+            !item.image_url.includes('/page_') &&
+            !item.image_url.endsWith('/.webp')
+          );
+
+          if (validDbImages.length > 0) {
+            const res = validDbImages.map((item, idx) => ({
+              id: item.id,
+              product_id: item.product_id,
+              url: item.image_url,
+              sort_order: item.sort_order ?? idx,
+              alt_text: item.alt_text || '',
+              image_type: item.image_type || 'detail'
+            }));
+            detailImagesCache.set(cacheKey, res);
+            return res;
+          }
         }
       }
+    } catch (err) {
+      console.warn('[productDetailImageService] Database query failed, checking fallback:', err);
+    }
 
-      const sorted = [...uniqueMatching].sort((a, b) => {
-        const rA = IMAGE_PRIORITY[a.imageType] !== undefined ? IMAGE_PRIORITY[a.imageType] : 99;
-        const rB = IMAGE_PRIORITY[b.imageType] !== undefined ? IMAGE_PRIORITY[b.imageType] : 99;
-        return rA - rB;
+    // Priority Fallback for 동신 데코타일 카탈로그 이미지 매핑 (원장 -> 확장/2x2 -> 시공예시)
+    if (DONGSHIN_CATALOG_MAP[baseCode]) {
+      const res = DONGSHIN_CATALOG_MAP[baseCode].map((url, idx) => {
+        const lower = url.toLowerCase();
+        const is2x2 = lower.includes('2x2') || lower.includes('확장') || /\/oa\d+_1\.(jpe?g|png|webp)$/i.test(lower);
+        const isScene = lower.includes('시공') || /\/oa\d+_2\.(jpe?g|png|webp)$/i.test(lower);
+        return {
+          id: `fallback-dongshin-${baseCode}-${idx}`,
+          url,
+          sort_order: idx,
+          alt_text: `${productCode || baseCode} ${is2x2 ? '2x2 / 확장 패턴' : isScene ? '시공예시 공간' : '자재 원본'}`,
+          image_type: is2x2 ? '2x2' : isScene ? 'office' : 'material'
+        };
       });
-
-      return sorted.map((img, idx) => ({
-        id: `manifest-${img.extractedCode}-${idx}`,
-        url: img.fullPublicPath,
-        sort_order: idx,
-        alt_text: `${rawCode || img.extractedCode} ${img.imageType === 'material' || img.imageType === 'original' ? '자재 원본' : (img.imageType === '2x2' || img.imageType === 'pattern2x2' || img.imageType === 'expanded' || img.imageType === '확장') ? '2x2 / 패턴' : (img.imageType === '90cross' || img.imageType === 'cross') ? '90cross' : (img.imageType === 'office' || img.imageType === 'installation') ? '사무실 시공' : '상세 이미지'}`,
-        image_type: img.imageType || 'detail'
-      }));
+      detailImagesCache.set(cacheKey, res);
+      return res;
     }
-  }
 
-  // Fallback 3: 동신 데코타일 카탈로그 이미지 매핑
-  if (DONGSHIN_CATALOG_MAP[baseCode]) {
-    return DONGSHIN_CATALOG_MAP[baseCode].map((url, idx) => {
-      const lower = url.toLowerCase();
-      const is2x2 = lower.includes('2x2') || lower.includes('확장') || /\/oa\d+_1\.(jpe?g|png|webp)$/i.test(lower);
-      const isScene = lower.includes('시공') || /\/oa\d+_2\.(jpe?g|png|webp)$/i.test(lower);
-      return {
-        id: `fallback-dongshin-${baseCode}-${idx}`,
-        url,
-        sort_order: idx,
-        alt_text: `${productCode || baseCode} ${is2x2 ? '2x2 / 확장 패턴' : isScene ? '시공예시 공간' : '자재 원본'}`,
-        image_type: is2x2 ? '2x2' : isScene ? 'office' : 'material'
-      };
-    });
-  }
+    // Dynamic Lookup from Auto-Generated Image Manifest (All KCC Products: Trendy, Pro, SenseRay, Jangpan)
+    if (baseCode && baseCode.length >= 3) {
+      const matchingEntries = getManifestByCode(baseCode);
 
-  // Fallback 2: KCC 센스레이 카탈로그 이미지 매핑
-  for (const [key, urls] of Object.entries(KCC_SENSELAY_CATALOG_MAP)) {
-    if (cleanCode.includes(key.toUpperCase())) {
-      return urls.map((url, idx) => ({
-        id: `fallback-senselay-${key}-${idx}`,
-        url,
-        sort_order: idx,
-        alt_text: `${productCode || 'KCC 센스레이'} ${idx === 0 ? '자재 원본' : '시공예시 공간'}`,
-        image_type: idx === 0 ? 'material' : 'office'
-      }));
+      if (matchingEntries.length > 0) {
+        const IMAGE_PRIORITY = {
+          material: 0,
+          original: 0,
+          '2x2': 1,
+          pattern2x2: 1,
+          expanded: 1,
+          '확장': 1,
+          '90cross': 2,
+          cross: 2,
+          office: 3,
+          installation: 3,
+          other: 4
+        };
+        const seenPaths = new Set();
+        const uniqueMatching = [];
+        for (const entry of matchingEntries) {
+          let decoded = entry.fullPublicPath;
+          try { decoded = decodeURI(entry.fullPublicPath); } catch {}
+          if (!seenPaths.has(decoded)) {
+            seenPaths.add(decoded);
+            uniqueMatching.push(entry);
+          }
+        }
+
+        const sorted = [...uniqueMatching].sort((a, b) => {
+          const rA = IMAGE_PRIORITY[a.imageType] !== undefined ? IMAGE_PRIORITY[a.imageType] : 99;
+          const rB = IMAGE_PRIORITY[b.imageType] !== undefined ? IMAGE_PRIORITY[b.imageType] : 99;
+          return rA - rB;
+        });
+
+        const res = sorted.map((img, idx) => ({
+          id: `manifest-${img.extractedCode}-${idx}`,
+          url: img.fullPublicPath,
+          sort_order: idx,
+          alt_text: `${rawCode || img.extractedCode} ${img.imageType === 'material' || img.imageType === 'original' ? '자재 원본' : (img.imageType === '2x2' || img.imageType === 'pattern2x2' || img.imageType === 'expanded' || img.imageType === '확장') ? '2x2 / 패턴' : (img.imageType === '90cross' || img.imageType === 'cross') ? '90cross' : (img.imageType === 'office' || img.imageType === 'installation') ? '사무실 시공' : '상세 이미지'}`,
+          image_type: img.imageType || 'detail'
+        }));
+        detailImagesCache.set(cacheKey, res);
+        return res;
+      }
     }
-  }
 
-  // Fallback 1: KCC 센스타일 트랜디 카탈로그 이미지 매핑
-  for (const [key, urls] of Object.entries(KCC_TRENDY_CATALOG_MAP)) {
-    if (cleanCode.includes(key.toUpperCase())) {
-      return urls.map((url, idx) => ({
-        id: `fallback-${key}-${idx}`,
-        url,
-        sort_order: idx,
-        alt_text: `${productCode || 'KCC 센스타일 트랜디'} 상세 이미지 ${idx + 1}`
-      }));
+    // Fallback 2: KCC 센스레이 카탈로그 이미지 매핑
+    for (const [key, urls] of Object.entries(KCC_SENSELAY_CATALOG_MAP)) {
+      if (cleanCode.includes(key.toUpperCase())) {
+        const res = urls.map((url, idx) => ({
+          id: `fallback-senselay-${key}-${idx}`,
+          url,
+          sort_order: idx,
+          alt_text: `${productCode || 'KCC 센스레이'} ${idx === 0 ? '자재 원본' : '시공예시 공간'}`,
+          image_type: idx === 0 ? 'material' : 'office'
+        }));
+        detailImagesCache.set(cacheKey, res);
+        return res;
+      }
     }
-  }
 
-  return [];
+    // Fallback 1: KCC 센스타일 트랜디 카탈로그 이미지 매핑
+    for (const [key, urls] of Object.entries(KCC_TRENDY_CATALOG_MAP)) {
+      if (cleanCode.includes(key.toUpperCase())) {
+        const res = urls.map((url, idx) => ({
+          id: `fallback-${key}-${idx}`,
+          url,
+          sort_order: idx,
+          alt_text: `${productCode || 'KCC 센스타일 트랜디'} 상세 이미지 ${idx + 1}`
+        }));
+        detailImagesCache.set(cacheKey, res);
+        return res;
+      }
+    }
+
+    detailImagesCache.set(cacheKey, []);
+    return [];
+  })();
+
+  detailImagesInflight.set(cacheKey, fetchPromise);
+  try {
+    return await fetchPromise;
+  } finally {
+    detailImagesInflight.delete(cacheKey);
+  }
 }
 
 /**

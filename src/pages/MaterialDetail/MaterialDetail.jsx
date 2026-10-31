@@ -48,16 +48,9 @@ import { getProductDetailImages } from "../../services/productDetailImageService
 import { normalizeImagePath, getUniqueProductImages } from "../../utils/galleryNormalizer";
 import { fetchProductDetailBySlugOrId, getCachedProduct, productDetailMemoryCache } from "../../utils/supabaseFetcher";
 
-let cachedImageManifest = null;
+import { imageManifest as cachedImageManifest } from "../../data/materialImageManifest.generated";
 async function getLocalImageManifestData() {
-  if (cachedImageManifest) return cachedImageManifest;
-  try {
-    const mod = await import("../../data/materialImageManifest.generated");
-    cachedImageManifest = mod.imageManifest || [];
-  } catch {
-    cachedImageManifest = [];
-  }
-  return cachedImageManifest;
+  return cachedImageManifest || [];
 }
 
 import { isDecoTile, DECOTILE_NOTICE_TEXT } from "../../utils/decotileUtils";
@@ -655,7 +648,7 @@ export default function MaterialDetail() {
   const [detailImagesList, setDetailImagesList] = useState([]);
   const [isGalleryLightboxOpen, setIsGalleryLightboxOpen] = useState(false);
 
-  // Fetch product detail images from database or default catalogs
+  // Fetch product detail images from database or default catalogs (deduplicated by product identity)
   useEffect(() => {
     let isCancelled = false;
     if (item) {
@@ -674,7 +667,7 @@ export default function MaterialDetail() {
     return () => {
       isCancelled = true;
     };
-  }, [item]);
+  }, [item?.product_id, item?.id, item?.code]);
 
   // Sync state if navigating directly between products
   useEffect(() => {
@@ -693,7 +686,7 @@ export default function MaterialDetail() {
     } else {
       setSelectedOption(null);
     }
-  }, [item]);
+  }, [item?.id, item?.code]);
 
   // Scroll to top on id change
   useEffect(() => {
@@ -759,7 +752,7 @@ export default function MaterialDetail() {
       }
 
       try {
-        const fetchedItem = await fetchProductDetailBySlugOrId(routeParam, controller.signal, { forceRefresh: true });
+        const fetchedItem = await fetchProductDetailBySlugOrId(routeParam, controller.signal, { forceRefresh: retryKey > 0 });
 
         if (controller.signal.aborted || disposed) return;
 

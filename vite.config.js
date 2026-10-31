@@ -53,8 +53,14 @@ export default defineConfig({
           if (id.includes('src/data/generatedMaterials') || id.includes('src/data/materials.db')) {
             return 'fallback-materials-db';
           }
-          if (id.includes('src/data/materialImageManifest') || id.includes('src/generated/imageManifest') || id.includes('src/data/imageManifest')) {
+          if (id.includes('src/generated/imageManifest')) {
+            return 'fallback-image-hash-manifest';
+          }
+          if (id.includes('src/data/materialImageManifest')) {
             return 'fallback-image-manifest';
+          }
+          if (id.includes('src/data/imageManifest')) {
+            return 'legacy-image-manifest';
           }
           if (id.includes('node_modules')) {
             if (id.includes('@react-pdf')) {

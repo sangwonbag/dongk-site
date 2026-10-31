@@ -6,14 +6,34 @@ import { normalizeProductDetails, isSentenceDescription, getKccLineup } from './
 import { HIDE_SUB_MATERIALS, isSubMaterialCategory } from '../config/categoryConfig.js';
 
 let localMaterialsCache = null;
+let localMaterialsMap = null;
+
+// Pre-build O(1) lookup map for Dongshin Polymer 2026
+const dongshinMap = new Map();
+if (Array.isArray(dongshinPolymer2026)) {
+  for (const d of dongshinPolymer2026) {
+    if (d && d.code) {
+      dongshinMap.set(d.code.replace(/\s+/g, '').toUpperCase(), d);
+    }
+  }
+}
+
 async function getLocalMaterials() {
   if (localMaterialsCache) return localMaterialsCache;
   try {
     const mod = await import('../data/materials.db.js');
     localMaterialsCache = mod.materials || [];
+    localMaterialsMap = new Map();
+    for (const m of localMaterialsCache) {
+      const k = getMaterialMatchKey(m);
+      if (k && !localMaterialsMap.has(k)) {
+        localMaterialsMap.set(k, m);
+      }
+    }
   } catch (e) {
     console.error("Failed to dynamically import local materials db:", e);
     localMaterialsCache = [];
+    localMaterialsMap = new Map();
   }
   return localMaterialsCache;
 }
@@ -256,10 +276,10 @@ export function mapProductRow(p) {
   const brandName = (rawBrand === '이건' || rawBrand === '이건마루') ? '이건마루' : rawBrand;
   const categoryName = p.categories?.name || "";
 
-  // Find matching Dongshin PDF product to enrich properties
+  // Find matching Dongshin PDF product to enrich properties (O(1) Map lookup)
   const normCodeForDongshin = code.replace(/\s+/g, '').toUpperCase();
   const dongshinMatch = (brandName === '동신' && (categoryName === '데코타일' || !categoryName))
-    ? dongshinPolymer2026.find(d => d.code.replace(/\s+/g, '').toUpperCase() === normCodeForDongshin)
+    ? (dongshinMap.get(normCodeForDongshin) || null)
     : null;
 
   const dbItem = {
@@ -270,7 +290,7 @@ export function mapProductRow(p) {
     code: p.product_code || null
   };
   const dbKey = getMaterialMatchKey(dbItem);
-  const localMatch = localMaterialsCache ? localMaterialsCache.find(m => getMaterialMatchKey(m) === dbKey) : null;
+  const localMatch = localMaterialsMap ? (localMaterialsMap.get(dbKey) || null) : null;
 
   const isSenseRay = code.startsWith('B') || (p.name || '').startsWith('KCC 센스레이') || p.line === '센스레이';
 
@@ -489,9 +509,88 @@ export function withTimeout(promise, ms = 12000) {
   });
 }
 
+let cachedMappedLocalMaterials = null;
+async function getMappedLocalMaterials() {
+  if (cachedMappedLocalMaterials) return cachedMappedLocalMaterials;
+  const rawLocalMaterials = await getLocalMaterials();
+  const mappedLocal = (rawLocalMaterials || []).map(m => {
+    const mapped = {
+      id: m.id || m.code,
+      code: m.code || "",
+      name: m.name || "",
+      brand: m.brand || "",
+      category: m.category || "",
+      price: m.price || 0,
+      thickness: m.thickness || "",
+      specs: m.specs || {
+        thickness: m.thickness || "",
+        size: "",
+        packing: ""
+      },
+      thumbnail: m.thumbnail || null,
+      image: m.thumbnail || m.image || null,
+      images: m.images || [],
+      line: m.line || "",
+      type: m.type || "",
+      active: m.active ?? true
+    };
+
+    if (m.collection) mapped.collection = m.collection;
+    if (m.series) mapped.series = m.series;
+    if (m.subCategory) mapped.subCategory = m.subCategory;
+    if (m.catalog) mapped.catalog = m.catalog;
+    if (m.productName) mapped.productName = m.productName;
+    if (m.shape) mapped.shape = m.shape;
+    if (m.shape_kr) mapped.shape_kr = m.shape_kr;
+    if (m.family) mapped.family = m.family;
+    if (m.common_intro) mapped.common_intro = m.common_intro;
+    if (m.shape_intro) mapped.shape_intro = m.shape_intro;
+    if (m.pattern) mapped.pattern = m.pattern;
+    if (m.specs && m.specs.area) {
+      if (!mapped.specs) mapped.specs = {};
+      mapped.specs.area = m.specs.area;
+    }
+
+    return normalizeProductDetails(mapped);
+  });
+  cachedMappedLocalMaterials = deduplicateProducts(mappedLocal);
+  return cachedMappedLocalMaterials;
+}
+
+export function getCachedFilteredProducts({ category, brand, thickness, searchText, page = 0, pageSize = 2000 }) {
+  const safePage = Math.max(0, Number(page) || 0);
+  const safePageSize = Math.max(1, Number(pageSize) || 2000);
+  const cacheKey = `${category || 'all'}:${brand || 'all'}:${thickness || 'all'}:${searchText || ''}:${safePage}:${safePageSize}`;
+  return filteredProductsCache.get(cacheKey) || null;
+}
+
+export function getCachedSearchMaterials(queryText, options = {}) {
+  const text = String(queryText || '').trim();
+  if (!text) return null;
+  const categoryFilter = options.category && options.category !== 'all' ? options.category : null;
+  const brandFilter = options.brand && options.brand !== 'all' ? options.brand : null;
+  const thicknessFilter = options.thickness && options.thickness !== 'all' ? options.thickness : null;
+  const limit = options.limit || 100;
+  const cacheKey = `${text.toLowerCase()}:${categoryFilter || 'all'}:${brandFilter || 'all'}:${thicknessFilter || 'all'}:${limit}`;
+  const cached = searchMaterialsCache.get(cacheKey);
+  if (cached && Date.now() - cached.timestamp < SEARCH_CACHE_TTL) {
+    return cached.data;
+  }
+  return null;
+}
+
 export async function fetchFilteredProducts({ category, brand, thickness, searchText, page = 0, pageSize = 2000, signal }) {
   const safePage = Math.max(0, Number(page) || 0);
   const safePageSize = Math.max(1, Number(pageSize) || 2000);
+
+  const checkAbort = () => {
+    if (signal?.aborted) {
+      const abortErr = new Error('aborted');
+      abortErr.name = 'AbortError';
+      throw abortErr;
+    }
+  };
+  checkAbort();
 
   const cacheKey = `${category || 'all'}:${brand || 'all'}:${thickness || 'all'}:${searchText || ''}:${safePage}:${safePageSize}`;
   if (filteredProductsCache.has(cacheKey)) {
@@ -499,55 +598,15 @@ export async function fetchFilteredProducts({ category, brand, thickness, search
   }
 
   const getLocalFallbackResult = async () => {
-    const rawLocalMaterials = await getLocalMaterials();
-    const mappedLocal = (rawLocalMaterials || []).map(m => {
-      const mapped = {
-        id: m.id || m.code,
-        code: m.code || "",
-        name: m.name || "",
-        brand: m.brand || "",
-        category: m.category || "",
-        price: m.price || 0,
-        thickness: m.thickness || "",
-        specs: m.specs || {
-          thickness: m.thickness || "",
-          size: "",
-          packing: ""
-        },
-        thumbnail: m.thumbnail || null,
-        image: m.thumbnail || m.image || null,
-        images: m.images || [],
-        line: m.line || "",
-        type: m.type || "",
-        active: m.active ?? true
-      };
-
-      if (m.collection) mapped.collection = m.collection;
-      if (m.series) mapped.series = m.series;
-      if (m.subCategory) mapped.subCategory = m.subCategory;
-      if (m.catalog) mapped.catalog = m.catalog;
-      if (m.productName) mapped.productName = m.productName;
-      if (m.shape) mapped.shape = m.shape;
-      if (m.shape_kr) mapped.shape_kr = m.shape_kr;
-      if (m.family) mapped.family = m.family;
-      if (m.common_intro) mapped.common_intro = m.common_intro;
-      if (m.shape_intro) mapped.shape_intro = m.shape_intro;
-      if (m.pattern) mapped.pattern = m.pattern;
-      if (m.specs && m.specs.area) {
-        if (!mapped.specs) mapped.specs = {};
-        mapped.specs.area = m.specs.area;
-      }
-
-      return normalizeProductDetails(mapped);
-    });
-
-    const filtered = filterLocalProducts(deduplicateProducts(mappedLocal), { category, brand, thickness, searchText });
+    const allMapped = await getMappedLocalMaterials();
+    const filtered = filterLocalProducts(allMapped, { category, brand, thickness, searchText });
     const from = safePage * safePageSize;
     const paged = filtered.slice(from, from + safePageSize);
     const result = [...paged];
     result.items = paged;
     result.totalCount = filtered.length;
     result.hasMore = from + paged.length < filtered.length;
+    paged.forEach(item => setCachedProduct(item));
     return result;
   };
 
@@ -557,8 +616,11 @@ export async function fetchFilteredProducts({ category, brand, thickness, search
     return result;
   }
 
-  if (!signal && filteredProductsCache.has(`inflight:${cacheKey}`)) {
-    return filteredProductsCache.get(`inflight:${cacheKey}`);
+  // Deduplicate concurrent requests for the same cacheKey (including React StrictMode double-mounts)
+  if (filteredProductsCache.has(`inflight:${cacheKey}`)) {
+    const sharedRes = await filteredProductsCache.get(`inflight:${cacheKey}`);
+    checkAbort();
+    return sharedRes;
   }
 
   const fetchPromise = (async () => {
@@ -566,55 +628,74 @@ export async function fetchFilteredProducts({ category, brand, thickness, search
       const from = safePage * safePageSize;
       const to = from + safePageSize - 1;
 
-      let query = supabase
-        .from('products')
-        .select(`
-          id, slug, name, product_code, price, thickness, size_text, unit, image_url, description, is_featured, is_active, sort_order,
-          categories!inner ( id, name ),
-          brands!inner ( id, name )
-        `, { count: 'exact' })
-        .eq('is_active', true);
+      const buildQuery = () => {
+        let query = supabase
+          .from('products')
+          .select(`
+            id, slug, name, product_code, price, thickness, size_text, unit, image_url, description, is_featured, is_active, sort_order,
+            categories!inner ( id, name ),
+            brands!inner ( id, name )
+          `, { count: 'exact' })
+          .eq('is_active', true);
 
-      if (searchText) {
-        const s = searchText.trim();
-        query = query.or(`name.ilike.%${s}%,product_code.ilike.%${s}%,description.ilike.%${s}%`);
-      } else {
-        if (category && category !== 'all') {
-          query = query.eq('categories.name', category);
-        }
-        if (brand && brand !== 'all') {
-          const b = brand.toUpperCase();
-          if (b === 'LX') {
-            query = query.or('name.ilike.%LX%,name.ilike.%LG%', { foreignTable: 'brands' });
-          } else if (b === 'DID') {
-            query = query.or('name.ilike.%DID%,name.ilike.%디아이디%', { foreignTable: 'brands' });
-          } else if (b === '신한') {
-            query = query.like('brands.name', '%신한%');
-          } else if (b === '현대' || b === '현대벽지') {
-            query = query.like('brands.name', '%현대%');
-          } else if (b === '어반') {
-            query = query.or('name.ilike.%어반%,name.ilike.%URBAN%', { foreignTable: 'brands' });
-          } else if (b.includes('이건')) {
-            query = query.or('name.ilike.%이건%,name.ilike.%이건마루%', { foreignTable: 'brands' });
-          } else {
-            query = query.ilike('brands.name', `%${brand}%`);
+        if (searchText) {
+          const s = searchText.trim();
+          query = query.or(`name.ilike.%${s}%,product_code.ilike.%${s}%,description.ilike.%${s}%`);
+        } else {
+          if (category && category !== 'all') {
+            query = query.eq('categories.name', category);
+          }
+          if (brand && brand !== 'all') {
+            const b = brand.toUpperCase();
+            if (b === 'LX') {
+              query = query.or('name.ilike.%LX%,name.ilike.%LG%', { foreignTable: 'brands' });
+            } else if (b === 'DID') {
+              query = query.or('name.ilike.%DID%,name.ilike.%디아이디%', { foreignTable: 'brands' });
+            } else if (b === '신한') {
+              query = query.like('brands.name', '%신한%');
+            } else if (b === '현대' || b === '현대벽지') {
+              query = query.like('brands.name', '%현대%');
+            } else if (b === '어반') {
+              query = query.or('name.ilike.%어반%,name.ilike.%URBAN%', { foreignTable: 'brands' });
+            } else if (b.includes('이건')) {
+              query = query.or('name.ilike.%이건%,name.ilike.%이건마루%', { foreignTable: 'brands' });
+            } else {
+              query = query.ilike('brands.name', `%${brand}%`);
+            }
+          }
+          if (category === '장판' && thickness && thickness !== 'all') {
+            query = query.eq('thickness', thickness);
           }
         }
-        if (category === '장판' && thickness && thickness !== 'all') {
-          query = query.eq('thickness', thickness);
+
+        query = query.order('sort_order', { ascending: true }).order('id', { ascending: false });
+        return query.range(from, to);
+      };
+
+      // Pre-load local materials map in parallel if needed for enrichment
+      const localMapPromise = localMaterialsMap ? Promise.resolve() : getLocalMaterials().catch(() => {});
+
+      // Attempt 1 with 2500ms soft timeout, plus 1 automatic retry on transient network error
+      let res = null;
+      for (let attempt = 0; attempt < 2; attempt++) {
+        let timerId;
+        const softTimer = new Promise(resolve => {
+          timerId = setTimeout(() => resolve({ timeout: true }), attempt === 0 ? 2500 : 2000);
+        });
+        try {
+          res = await Promise.race([buildQuery(), softTimer]);
+        } finally {
+          clearTimeout(timerId);
+        }
+        if (res && !res.timeout && !res.error && Array.isArray(res.data)) {
+          break;
+        }
+        if (res?.timeout) {
+          break; // Don't wait another 2s if the first attempt already timed out
         }
       }
 
-      if (signal) {
-        query = query.abortSignal(signal);
-      }
-
-      query = query.order('sort_order', { ascending: true }).order('id', { ascending: false });
-      query = query.range(from, to);
-
-      // Soft race: wait 4000ms max for live Supabase DB response
-      const softTimer = new Promise(resolve => setTimeout(() => resolve({ timeout: true }), 4000));
-      const res = await Promise.race([query, softTimer]);
+      await localMapPromise;
 
       if (res && !res.timeout && !res.error && res.data && Array.isArray(res.data) && res.data.length > 0) {
         const mapped = deduplicateProducts(res.data.map(mapProductRow));
@@ -632,31 +713,20 @@ export async function fetchFilteredProducts({ category, brand, thickness, search
         filteredProductsCache.set(cacheKey, result);
         return result;
       }
-
-      if (res && res.error && (res.error.name === 'AbortError' || res.error.message?.includes('aborted'))) {
-        const abortErr = new Error('aborted');
-        abortErr.name = 'AbortError';
-        throw abortErr;
-      }
     } catch (err) {
-      if (err.name === 'AbortError' || err.message === 'aborted') {
-        filteredProductsCache.delete(`inflight:${cacheKey}`);
-        throw err;
-      }
       console.warn('[fetchFilteredProducts] Supabase fetch exception or soft timeout, serving instant local fallback:', err);
     }
 
-    // Instant local fallback when Supabase is slow or errors out (do not permanently poison cacheKey on transient timeout)
+    // Instant local fallback when Supabase is slow or errors out
     const fallbackResult = await getLocalFallbackResult();
     return fallbackResult;
   })();
 
-  if (!signal) {
-    filteredProductsCache.set(`inflight:${cacheKey}`, fetchPromise);
-  }
+  filteredProductsCache.set(`inflight:${cacheKey}`, fetchPromise);
 
   try {
     const res = await fetchPromise;
+    checkAbort();
     return res;
   } finally {
     filteredProductsCache.delete(`inflight:${cacheKey}`);
@@ -968,9 +1038,11 @@ export async function fetchProductDetailBySlugOrId(routeParam, signal = null, op
     if (cached) return cached;
   }
 
-  // Deduplicate concurrent in-flight requests for same key
-  if (!signal && productDetailInflightRequests.has(cleanKey)) {
-    return productDetailInflightRequests.get(cleanKey);
+  // Deduplicate concurrent in-flight requests for same key (including React StrictMode double-mounts)
+  if (productDetailInflightRequests.has(cleanKey)) {
+    const sharedRes = await productDetailInflightRequests.get(cleanKey);
+    checkAbort();
+    return sharedRes;
   }
 
   const fetchPromise = (async () => {
@@ -985,8 +1057,6 @@ export async function fetchProductDetailBySlugOrId(routeParam, signal = null, op
 
     if (supabase) {
       const controller = new AbortController();
-      const onAbort = () => controller.abort();
-      signal?.addEventListener('abort', onAbort, { once: true });
       let networkTimer;
 
       const queryFields = `
@@ -996,7 +1066,6 @@ export async function fetchProductDetailBySlugOrId(routeParam, signal = null, op
       `;
 
       const queryServer = async () => {
-        checkAbort();
         // Priority 1: Numeric ID (most common from list click /materials/123)
         if (/^\d+$/.test(slug)) {
           const { data, error } = await supabase
@@ -1005,7 +1074,6 @@ export async function fetchProductDetailBySlugOrId(routeParam, signal = null, op
             .eq('id', Number(slug))
             .maybeSingle()
             .abortSignal(controller.signal);
-          checkAbort();
           if (error) throw error;
           if (data) {
             return data.is_active === false ? { status: 'inactive' } : { status: 'found', row: data };
@@ -1018,7 +1086,6 @@ export async function fetchProductDetailBySlugOrId(routeParam, signal = null, op
             .eq('slug', slug)
             .maybeSingle()
             .abortSignal(controller.signal);
-          checkAbort();
           if (error) throw error;
           if (data) {
             return data.is_active === false ? { status: 'inactive' } : { status: 'found', row: data };
@@ -1027,14 +1094,12 @@ export async function fetchProductDetailBySlugOrId(routeParam, signal = null, op
 
         // Priority 3: Exact product_code match
         for (const candidate of codeCandidates) {
-          checkAbort();
           const { data, error } = await supabase
             .from('products')
             .select(queryFields)
             .ilike('product_code', candidate.replace(/[%_\\]/g, '\\$&'))
             .limit(10)
             .abortSignal(controller.signal);
-          checkAbort();
           if (error) throw error;
           if (data && data.length > 0) {
             const matches = data.filter(row => normalizeCode(row.product_code) === normalizeCode(candidate));
@@ -1050,6 +1115,8 @@ export async function fetchProductDetailBySlugOrId(routeParam, signal = null, op
         return { status: 'notFound' };
       };
 
+      const localMapPromise = localMaterialsMap ? Promise.resolve() : getLocalMaterials().catch(() => {});
+
       try {
         const outcome = await Promise.race([
           queryServer(),
@@ -1057,10 +1124,10 @@ export async function fetchProductDetailBySlugOrId(routeParam, signal = null, op
             networkTimer = setTimeout(() => {
               controller.abort();
               resolve({ status: 'timeout' });
-            }, 4000);
+            }, 3000);
           })
         ]);
-        checkAbort();
+        await localMapPromise;
         if (outcome?.status === 'found') {
           const mapped = mapProductRow(outcome.row);
           setCachedProduct(mapped);
@@ -1075,17 +1142,14 @@ export async function fetchProductDetailBySlugOrId(routeParam, signal = null, op
           failureReason = 'timeout';
         }
       } catch (error) {
-        checkAbort();
         console.warn('[product-detail] server failed, trying local exact match:', error);
       } finally {
         clearTimeout(networkTimer);
         controller.abort();
-        signal?.removeEventListener('abort', onAbort);
       }
     }
 
     // Local fallback check if Supabase is offline
-    checkAbort();
     let localTimer;
     try {
       const localResult = await Promise.race([
@@ -1094,7 +1158,6 @@ export async function fetchProductDetailBySlugOrId(routeParam, signal = null, op
           localTimer = setTimeout(() => resolve({ timedOut: true }), 2000);
         })
       ]);
-      checkAbort();
       if (localResult.timedOut) {
         throw Object.assign(new Error('상품 조회 시간이 초과되었습니다. 다시 시도해 주세요.'), { name: 'TimeoutError' });
       }
@@ -1111,7 +1174,7 @@ export async function fetchProductDetailBySlugOrId(routeParam, signal = null, op
         return mapped;
       }
 
-      if (failureReason === 'notFound') return null;
+      if (!supabase || failureReason === 'notFound') return null;
 
       const err = new Error('상품 서버에 연결하지 못했습니다. 다시 시도해 주세요.');
       err.name = failureReason === 'timeout' ? 'TimeoutError' : 'NetworkError';
@@ -1121,19 +1184,20 @@ export async function fetchProductDetailBySlugOrId(routeParam, signal = null, op
     }
   })();
 
-  if (!signal) {
-    productDetailInflightRequests.set(cleanKey, fetchPromise);
-  }
+  productDetailInflightRequests.set(cleanKey, fetchPromise);
 
   try {
-    return await fetchPromise;
+    const res = await fetchPromise;
+    checkAbort();
+    return res;
   } finally {
     productDetailInflightRequests.delete(cleanKey);
   }
 }
 
-// High-performance search cache with TTL: 5 minutes
+// High-performance search cache with TTL: 5 minutes & in-flight deduplication
 const searchMaterialsCache = new Map();
+const searchMaterialsInflight = new Map();
 const SEARCH_CACHE_TTL = 5 * 60 * 1000;
 
 /**
@@ -1178,6 +1242,12 @@ export async function searchMaterials(queryText, optionsOrSignal = null) {
     return cached.data;
   }
 
+  if (searchMaterialsInflight.has(cacheKey)) {
+    const sharedRes = await searchMaterialsInflight.get(cacheKey);
+    checkAbort();
+    return sharedRes;
+  }
+
   const parsed = parseSearchQuery(text);
 
   const rank = items => deduplicateProducts(items)
@@ -1188,148 +1258,157 @@ export async function searchMaterials(queryText, optionsOrSignal = null) {
     .sort((a, b) => b.score - a.score || String(a.item.code || '').localeCompare(String(b.item.code || ''), 'ko'))
     .map(entry => entry.item);
 
-  if (supabase) {
-    const controller = new AbortController();
-    const abort = () => controller.abort();
-    signal?.addEventListener('abort', abort, { once: true });
-    const timer = setTimeout(abort, 4000);
+  const searchPromise = (async () => {
+    if (supabase) {
+      const controller = new AbortController();
+      const timer = setTimeout(() => controller.abort(), 3000);
+      const localMapPromise = localMaterialsMap ? Promise.resolve() : getLocalMaterials().catch(() => {});
 
-    try {
-      let request = supabase
-        .from('products')
-        .select(`
-          id, slug, name, product_code, price, thickness, size_text, unit, image_url, description, is_featured, is_active, sort_order,
-          categories!inner ( id, name ),
-          brands!inner ( id, name )
-        `)
-        .eq('is_active', true)
-        .abortSignal(controller.signal);
+      try {
+        let request = supabase
+          .from('products')
+          .select(`
+            id, slug, name, product_code, price, thickness, size_text, unit, image_url, description, is_featured, is_active, sort_order,
+            categories!inner ( id, name ),
+            brands!inner ( id, name )
+          `)
+          .eq('is_active', true)
+          .abortSignal(controller.signal);
 
-      // Build target conditions using materialSearchEngine
-      const orConds = [];
+        // Build target conditions using materialSearchEngine
+        const orConds = [];
 
-      // 1. Lineup keywords (e.g. "디아망", "아트에코차음", "센스타일", etc.)
-      if (parsed.detectedLineup) {
-        for (const kw of parsed.detectedLineup.dbKeywords) {
-          orConds.push(`name.ilike.%${kw}%`, `description.ilike.%${kw}%`, `slug.ilike.%${kw}%`);
-        }
-      }
-
-      // 2. Product code and numeric matching (space/hyphen agnostic)
-      if (parsed.codeNorm) {
-        orConds.push(`product_code.ilike.%${parsed.codeNorm}%`, `name.ilike.%${parsed.codeNorm}%`);
-
-        // If code has letters + digits (e.g. "TS5541", "FSM6202", "RT6202")
-        const codeAlphaNum = parsed.codeNorm.match(/^([A-Z]+)(\d+)([A-Z]*)$/i);
-        if (codeAlphaNum) {
-          const prefix = codeAlphaNum[1];
-          const digits = codeAlphaNum[2];
-          orConds.push(`product_code.ilike.%${prefix}%${digits}%`, `name.ilike.%${prefix}%${digits}%`);
-          if (digits.length >= 3) {
-            orConds.push(`product_code.ilike.%${digits}%`, `name.ilike.%${digits}%`);
-          }
-        } else {
-          const digitsOnly = parsed.codeNorm.replace(/\D/g, '');
-          if (digitsOnly.length >= 3) {
-            orConds.push(`product_code.ilike.%${digitsOnly}%`, `name.ilike.%${digitsOnly}%`);
+        // 1. Lineup keywords (e.g. "디아망", "아트에코차음", "센스타일", etc.)
+        if (parsed.detectedLineup) {
+          for (const kw of parsed.detectedLineup.dbKeywords) {
+            orConds.push(`name.ilike.%${kw}%`, `description.ilike.%${kw}%`, `slug.ilike.%${kw}%`);
           }
         }
 
-        if (/^\d{6}$/.test(parsed.codeNorm)) {
-          const hyp = parsed.codeNorm.slice(0, 4) + '-' + parsed.codeNorm.slice(4);
-          orConds.push(`product_code.ilike.%${hyp}%`, `name.ilike.%${hyp}%`);
-        }
-      }
+        // 2. Product code and numeric matching (space/hyphen agnostic)
+        if (parsed.codeNorm) {
+          orConds.push(`product_code.ilike.%${parsed.codeNorm}%`, `name.ilike.%${parsed.codeNorm}%`);
 
-      // 3. Multi-token keywords (e.g. "에코", "차음", "트랜디", "센스타일", "5541")
-      for (const tok of parsed.tokens) {
-        if (!tok || tok.length < 2) continue;
-        const tokCode = tok.replace(/[^A-Za-z0-9]/g, '');
-        if (tokCode.length >= 2) {
-          orConds.push(`product_code.ilike.%${tokCode}%`, `name.ilike.%${tokCode}%`);
-          const numOnly = tok.replace(/\D/g, '');
-          if (numOnly.length >= 3) {
-            orConds.push(`product_code.ilike.%${numOnly}%`, `name.ilike.%${numOnly}%`);
+          // If code has letters + digits (e.g. "TS5541", "FSM6202", "RT6202")
+          const codeAlphaNum = parsed.codeNorm.match(/^([A-Z]+)(\d+)([A-Z]*)$/i);
+          if (codeAlphaNum) {
+            const prefix = codeAlphaNum[1];
+            const digits = codeAlphaNum[2];
+            orConds.push(`product_code.ilike.%${prefix}%${digits}%`, `name.ilike.%${prefix}%${digits}%`);
+            if (digits.length >= 3) {
+              orConds.push(`product_code.ilike.%${digits}%`, `name.ilike.%${digits}%`);
+            }
+          } else {
+            const digitsOnly = parsed.codeNorm.replace(/\D/g, '');
+            if (digitsOnly.length >= 3) {
+              orConds.push(`product_code.ilike.%${digitsOnly}%`, `name.ilike.%${digitsOnly}%`);
+            }
+          }
+
+          if (/^\d{6}$/.test(parsed.codeNorm)) {
+            const hyp = parsed.codeNorm.slice(0, 4) + '-' + parsed.codeNorm.slice(4);
+            orConds.push(`product_code.ilike.%${hyp}%`, `name.ilike.%${hyp}%`);
           }
         }
-        orConds.push(`name.ilike.%${tok}%`, `description.ilike.%${tok}%`, `slug.ilike.%${tok}%`);
-      }
 
-      // 4. Thickness matching
-      if (parsed.detectedThickness) {
-        const rawT = parsed.detectedThickness.replace('T', '');
-        orConds.push(`thickness.ilike.%${rawT}%`, `name.ilike.%${rawT}T%`, `description.ilike.%${rawT}%`);
-      }
-
-      // 5. Spec matching
-      if (parsed.detectedSpec === '450각') {
-        orConds.push(`size_text.ilike.%450%`, `size_text.ilike.%457%`, `description.ilike.%450%`);
-      } else if (parsed.detectedSpec === '600각') {
-        orConds.push(`size_text.ilike.%600%`, `description.ilike.%600%`);
-      }
-
-      // 6. Fallback if empty
-      if (orConds.length === 0) {
-        const s = text.trim();
-        orConds.push(`product_code.ilike.%${s}%`, `name.ilike.%${s}%`, `description.ilike.%${s}%`, `slug.ilike.%${s}%`);
-      }
-
-      request = request.or(Array.from(new Set(orConds)).join(','));
-
-      // Category filter (only apply if explicitly requested in options and not 'all')
-      if (categoryFilter && categoryFilter !== 'all') {
-        request = request.eq('categories.name', categoryFilter);
-      }
-
-      // Brand filter (only apply if explicitly requested in options and not 'all')
-      if (brandFilter && brandFilter !== 'all') {
-        const b = brandFilter.toUpperCase();
-        if (b === 'LX') {
-          request = request.or('name.ilike.%LX%,name.ilike.%LG%', { foreignTable: 'brands' });
-        } else {
-          request = request.ilike('brands.name', `%${brandFilter}%`);
+        // 3. Multi-token keywords (e.g. "에코", "차음", "트랜디", "센스타일", "5541")
+        for (const tok of parsed.tokens) {
+          if (!tok || tok.length < 2) continue;
+          const tokCode = tok.replace(/[^A-Za-z0-9]/g, '');
+          if (tokCode.length >= 2) {
+            orConds.push(`product_code.ilike.%${tokCode}%`, `name.ilike.%${tokCode}%`);
+            const numOnly = tok.replace(/\D/g, '');
+            if (numOnly.length >= 3) {
+              orConds.push(`product_code.ilike.%${numOnly}%`, `name.ilike.%${numOnly}%`);
+            }
+          }
+          orConds.push(`name.ilike.%${tok}%`, `description.ilike.%${tok}%`, `slug.ilike.%${tok}%`);
         }
+
+        // 4. Thickness matching
+        if (parsed.detectedThickness) {
+          const rawT = parsed.detectedThickness.replace('T', '');
+          orConds.push(`thickness.ilike.%${rawT}%`, `name.ilike.%${rawT}T%`, `description.ilike.%${rawT}%`);
+        }
+
+        // 5. Spec matching
+        if (parsed.detectedSpec === '450각') {
+          orConds.push(`size_text.ilike.%450%`, `size_text.ilike.%457%`, `description.ilike.%450%`);
+        } else if (parsed.detectedSpec === '600각') {
+          orConds.push(`size_text.ilike.%600%`, `description.ilike.%600%`);
+        }
+
+        // 6. Fallback if empty
+        if (orConds.length === 0) {
+          const s = text.trim();
+          orConds.push(`product_code.ilike.%${s}%`, `name.ilike.%${s}%`, `description.ilike.%${s}%`, `slug.ilike.%${s}%`);
+        }
+
+        request = request.or(Array.from(new Set(orConds)).join(','));
+
+        // Category filter (only apply if explicitly requested in options and not 'all')
+        if (categoryFilter && categoryFilter !== 'all') {
+          request = request.eq('categories.name', categoryFilter);
+        }
+
+        // Brand filter (only apply if explicitly requested in options and not 'all')
+        if (brandFilter && brandFilter !== 'all') {
+          const b = brandFilter.toUpperCase();
+          if (b === 'LX') {
+            request = request.or('name.ilike.%LX%,name.ilike.%LG%', { foreignTable: 'brands' });
+          } else {
+            request = request.ilike('brands.name', `%${brandFilter}%`);
+          }
+        }
+
+        if (thicknessFilter && thicknessFilter !== 'all') {
+          request = request.eq('thickness', thicknessFilter);
+        }
+
+        request = request.order('sort_order', { ascending: true }).limit(limit);
+
+        const { data, error } = await request;
+        if (error) throw error;
+        await localMapPromise;
+
+        if (data && data.length > 0) {
+          const ranked = rank(data.map(mapProductRow));
+          ranked.forEach(item => setCachedProduct(item));
+          searchMaterialsCache.set(cacheKey, { data: ranked, timestamp: Date.now() });
+          return ranked;
+        }
+      } catch (error) {
+        console.warn('[searchMaterials] Live search failed or soft timeout; using local catalogue:', error.message);
+      } finally {
+        clearTimeout(timer);
       }
-
-      if (thicknessFilter && thicknessFilter !== 'all') {
-        request = request.eq('thickness', thicknessFilter);
-      }
-
-      request = request.order('sort_order', { ascending: true }).limit(limit);
-
-      const { data, error } = await request;
-      checkAbort();
-      if (error) throw error;
-
-      if (data && data.length > 0) {
-        const ranked = rank(data.map(mapProductRow));
-        searchMaterialsCache.set(cacheKey, { data: ranked, timestamp: Date.now() });
-        return ranked;
-      }
-    } catch (error) {
-      checkAbort();
-      console.warn('[searchMaterials] Live search failed or soft timeout; using local catalogue:', error.message);
-    } finally {
-      clearTimeout(timer);
-      signal?.removeEventListener('abort', abort);
     }
-  }
 
-  // Local fallback
-  const local = await withTimeout(getLocalMaterials(), 4000);
-  checkAbort();
-  let filteredLocal = local.map(m => mapProductRow(m));
-  if (categoryFilter && categoryFilter !== 'all') {
-    filteredLocal = filteredLocal.filter(m => m.category === categoryFilter);
+    // Local fallback
+    const allMapped = await withTimeout(getMappedLocalMaterials(), 4000);
+    let filteredLocal = allMapped;
+    if (categoryFilter && categoryFilter !== 'all') {
+      filteredLocal = filteredLocal.filter(m => m.category === categoryFilter);
+    }
+    if (brandFilter && brandFilter !== 'all') {
+      const b = brandFilter.toUpperCase();
+      filteredLocal = filteredLocal.filter(m => (m.brand || '').toUpperCase().includes(b));
+    }
+    if (thicknessFilter && thicknessFilter !== 'all') {
+      filteredLocal = filteredLocal.filter(m => m.thickness === thicknessFilter);
+    }
+    const rankedLocal = rank(filteredLocal);
+    rankedLocal.forEach(item => setCachedProduct(item));
+    searchMaterialsCache.set(cacheKey, { data: rankedLocal, timestamp: Date.now() });
+    return rankedLocal;
+  })();
+
+  searchMaterialsInflight.set(cacheKey, searchPromise);
+  try {
+    const res = await searchPromise;
+    checkAbort();
+    return res;
+  } finally {
+    searchMaterialsInflight.delete(cacheKey);
   }
-  if (brandFilter && brandFilter !== 'all') {
-    const b = brandFilter.toUpperCase();
-    filteredLocal = filteredLocal.filter(m => (m.brand || '').toUpperCase().includes(b));
-  }
-  if (thicknessFilter && thicknessFilter !== 'all') {
-    filteredLocal = filteredLocal.filter(m => m.thickness === thicknessFilter);
-  }
-  const rankedLocal = rank(filteredLocal);
-  searchMaterialsCache.set(cacheKey, { data: rankedLocal, timestamp: Date.now() });
-  return rankedLocal;
 }

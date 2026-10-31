@@ -9781,6 +9781,396 @@ export const imageManifest = [
     "imageType": "material"
   },
   {
+    "fileName": "T2004C_2x2.png",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/재영/사각/457.2각/T2004C_2x2.png",
+    "category": "데코타일",
+    "brand": "재영",
+    "series": "사각/457.2각",
+    "extractedCode": "T2004C",
+    "normalizedFileName": "t2004c2x2png",
+    "imageType": "2x2"
+  },
+  {
+    "fileName": "T2013C_2x2.png",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/재영/사각/457.2각/T2013C_2x2.png",
+    "category": "데코타일",
+    "brand": "재영",
+    "series": "사각/457.2각",
+    "extractedCode": "T2013C",
+    "normalizedFileName": "t2013c2x2png",
+    "imageType": "2x2"
+  },
+  {
+    "fileName": "T2014C_2x2.png",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/재영/사각/457.2각/T2014C_2x2.png",
+    "category": "데코타일",
+    "brand": "재영",
+    "series": "사각/457.2각",
+    "extractedCode": "T2014C",
+    "normalizedFileName": "t2014c2x2png",
+    "imageType": "2x2"
+  },
+  {
+    "fileName": "T2105_2x2.png",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/재영/사각/457.2각/T2105_2x2.png",
+    "category": "데코타일",
+    "brand": "재영",
+    "series": "사각/457.2각",
+    "extractedCode": "T2105",
+    "normalizedFileName": "t21052x2png",
+    "imageType": "2x2"
+  },
+  {
+    "fileName": "T2106_2x2.png",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/재영/사각/457.2각/T2106_2x2.png",
+    "category": "데코타일",
+    "brand": "재영",
+    "series": "사각/457.2각",
+    "extractedCode": "T2106",
+    "normalizedFileName": "t21062x2png",
+    "imageType": "2x2"
+  },
+  {
+    "fileName": "T2108_2x2.png",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/재영/사각/457.2각/T2108_2x2.png",
+    "category": "데코타일",
+    "brand": "재영",
+    "series": "사각/457.2각",
+    "extractedCode": "T2108",
+    "normalizedFileName": "t21082x2png",
+    "imageType": "2x2"
+  },
+  {
+    "fileName": "T2114_2x2.png",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/재영/사각/457.2각/T2114_2x2.png",
+    "category": "데코타일",
+    "brand": "재영",
+    "series": "사각/457.2각",
+    "extractedCode": "T2114",
+    "normalizedFileName": "t21142x2png",
+    "imageType": "2x2"
+  },
+  {
+    "fileName": "T2115_2x2.png",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/재영/사각/457.2각/T2115_2x2.png",
+    "category": "데코타일",
+    "brand": "재영",
+    "series": "사각/457.2각",
+    "extractedCode": "T2115",
+    "normalizedFileName": "t21152x2png",
+    "imageType": "2x2"
+  },
+  {
+    "fileName": "T2118_2x2.png",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/재영/사각/457.2각/T2118_2x2.png",
+    "category": "데코타일",
+    "brand": "재영",
+    "series": "사각/457.2각",
+    "extractedCode": "T2118",
+    "normalizedFileName": "t21182x2png",
+    "imageType": "2x2"
+  },
+  {
+    "fileName": "T2121_2x2.png",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/재영/사각/457.2각/T2121_2x2.png",
+    "category": "데코타일",
+    "brand": "재영",
+    "series": "사각/457.2각",
+    "extractedCode": "T2121",
+    "normalizedFileName": "t21212x2png",
+    "imageType": "2x2"
+  },
+  {
+    "fileName": "T2123_2x2.png",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/재영/사각/457.2각/T2123_2x2.png",
+    "category": "데코타일",
+    "brand": "재영",
+    "series": "사각/457.2각",
+    "extractedCode": "T2123",
+    "normalizedFileName": "t21232x2png",
+    "imageType": "2x2"
+  },
+  {
+    "fileName": "T2133_2x2.png",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/재영/사각/457.2각/T2133_2x2.png",
+    "category": "데코타일",
+    "brand": "재영",
+    "series": "사각/457.2각",
+    "extractedCode": "T2133",
+    "normalizedFileName": "t21332x2png",
+    "imageType": "2x2"
+  },
+  {
+    "fileName": "T2201_2x2.png",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/재영/사각/457.2각/T2201_2x2.png",
+    "category": "데코타일",
+    "brand": "재영",
+    "series": "사각/457.2각",
+    "extractedCode": "T2201",
+    "normalizedFileName": "t22012x2png",
+    "imageType": "2x2"
+  },
+  {
+    "fileName": "T2202_2x2.png",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/재영/사각/457.2각/T2202_2x2.png",
+    "category": "데코타일",
+    "brand": "재영",
+    "series": "사각/457.2각",
+    "extractedCode": "T2202",
+    "normalizedFileName": "t22022x2png",
+    "imageType": "2x2"
+  },
+  {
+    "fileName": "T2203_2x2.png",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/재영/사각/457.2각/T2203_2x2.png",
+    "category": "데코타일",
+    "brand": "재영",
+    "series": "사각/457.2각",
+    "extractedCode": "T2203",
+    "normalizedFileName": "t22032x2png",
+    "imageType": "2x2"
+  },
+  {
+    "fileName": "T2208_2x2.png",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/재영/사각/457.2각/T2208_2x2.png",
+    "category": "데코타일",
+    "brand": "재영",
+    "series": "사각/457.2각",
+    "extractedCode": "T2208",
+    "normalizedFileName": "t22082x2png",
+    "imageType": "2x2"
+  },
+  {
+    "fileName": "T2211_2x2.png",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/재영/사각/457.2각/T2211_2x2.png",
+    "category": "데코타일",
+    "brand": "재영",
+    "series": "사각/457.2각",
+    "extractedCode": "T2211",
+    "normalizedFileName": "t22112x2png",
+    "imageType": "2x2"
+  },
+  {
+    "fileName": "T2212_2x2.png",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/재영/사각/457.2각/T2212_2x2.png",
+    "category": "데코타일",
+    "brand": "재영",
+    "series": "사각/457.2각",
+    "extractedCode": "T2212",
+    "normalizedFileName": "t22122x2png",
+    "imageType": "2x2"
+  },
+  {
+    "fileName": "T2214_2x2.png",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/재영/사각/457.2각/T2214_2x2.png",
+    "category": "데코타일",
+    "brand": "재영",
+    "series": "사각/457.2각",
+    "extractedCode": "T2214",
+    "normalizedFileName": "t22142x2png",
+    "imageType": "2x2"
+  },
+  {
+    "fileName": "T2215_2x2.png",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/재영/사각/457.2각/T2215_2x2.png",
+    "category": "데코타일",
+    "brand": "재영",
+    "series": "사각/457.2각",
+    "extractedCode": "T2215",
+    "normalizedFileName": "t22152x2png",
+    "imageType": "2x2"
+  },
+  {
+    "fileName": "T2222_2x2.png",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/재영/사각/457.2각/T2222_2x2.png",
+    "category": "데코타일",
+    "brand": "재영",
+    "series": "사각/457.2각",
+    "extractedCode": "T2222",
+    "normalizedFileName": "t22222x2png",
+    "imageType": "2x2"
+  },
+  {
+    "fileName": "T2223_2x2.png",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/재영/사각/457.2각/T2223_2x2.png",
+    "category": "데코타일",
+    "brand": "재영",
+    "series": "사각/457.2각",
+    "extractedCode": "T2223",
+    "normalizedFileName": "t22232x2png",
+    "imageType": "2x2"
+  },
+  {
+    "fileName": "T2224_2x2.png",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/재영/사각/457.2각/T2224_2x2.png",
+    "category": "데코타일",
+    "brand": "재영",
+    "series": "사각/457.2각",
+    "extractedCode": "T2224",
+    "normalizedFileName": "t22242x2png",
+    "imageType": "2x2"
+  },
+  {
+    "fileName": "T2225_2x2.png",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/재영/사각/457.2각/T2225_2x2.png",
+    "category": "데코타일",
+    "brand": "재영",
+    "series": "사각/457.2각",
+    "extractedCode": "T2225",
+    "normalizedFileName": "t22252x2png",
+    "imageType": "2x2"
+  },
+  {
+    "fileName": "T2302_2x2.png",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/재영/사각/457.2각/T2302_2x2.png",
+    "category": "데코타일",
+    "brand": "재영",
+    "series": "사각/457.2각",
+    "extractedCode": "T2302",
+    "normalizedFileName": "t23022x2png",
+    "imageType": "2x2"
+  },
+  {
+    "fileName": "T2303_2x2.png",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/재영/사각/457.2각/T2303_2x2.png",
+    "category": "데코타일",
+    "brand": "재영",
+    "series": "사각/457.2각",
+    "extractedCode": "T2303",
+    "normalizedFileName": "t23032x2png",
+    "imageType": "2x2"
+  },
+  {
+    "fileName": "T2310_2x2.png",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/재영/사각/457.2각/T2310_2x2.png",
+    "category": "데코타일",
+    "brand": "재영",
+    "series": "사각/457.2각",
+    "extractedCode": "T2310",
+    "normalizedFileName": "t23102x2png",
+    "imageType": "2x2"
+  },
+  {
+    "fileName": "T2313_2x2.png",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/재영/사각/457.2각/T2313_2x2.png",
+    "category": "데코타일",
+    "brand": "재영",
+    "series": "사각/457.2각",
+    "extractedCode": "T2313",
+    "normalizedFileName": "t23132x2png",
+    "imageType": "2x2"
+  },
+  {
+    "fileName": "T2321_2x2.png",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/재영/사각/457.2각/T2321_2x2.png",
+    "category": "데코타일",
+    "brand": "재영",
+    "series": "사각/457.2각",
+    "extractedCode": "T2321",
+    "normalizedFileName": "t23212x2png",
+    "imageType": "2x2"
+  },
+  {
+    "fileName": "T2322_2x2.png",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/재영/사각/457.2각/T2322_2x2.png",
+    "category": "데코타일",
+    "brand": "재영",
+    "series": "사각/457.2각",
+    "extractedCode": "T2322",
+    "normalizedFileName": "t23222x2png",
+    "imageType": "2x2"
+  },
+  {
+    "fileName": "T2401_2x2.png",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/재영/사각/457.2각/T2401_2x2.png",
+    "category": "데코타일",
+    "brand": "재영",
+    "series": "사각/457.2각",
+    "extractedCode": "T2401",
+    "normalizedFileName": "t24012x2png",
+    "imageType": "2x2"
+  },
+  {
+    "fileName": "T2402_2x2.png",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/재영/사각/457.2각/T2402_2x2.png",
+    "category": "데코타일",
+    "brand": "재영",
+    "series": "사각/457.2각",
+    "extractedCode": "T2402",
+    "normalizedFileName": "t24022x2png",
+    "imageType": "2x2"
+  },
+  {
+    "fileName": "T2415_2x2.png",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/재영/사각/457.2각/T2415_2x2.png",
+    "category": "데코타일",
+    "brand": "재영",
+    "series": "사각/457.2각",
+    "extractedCode": "T2415",
+    "normalizedFileName": "t24152x2png",
+    "imageType": "2x2"
+  },
+  {
+    "fileName": "T2422_2x2.png",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/재영/사각/457.2각/T2422_2x2.png",
+    "category": "데코타일",
+    "brand": "재영",
+    "series": "사각/457.2각",
+    "extractedCode": "T2422",
+    "normalizedFileName": "t24222x2png",
+    "imageType": "2x2"
+  },
+  {
+    "fileName": "T2431_2x2.png",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/재영/사각/457.2각/T2431_2x2.png",
+    "category": "데코타일",
+    "brand": "재영",
+    "series": "사각/457.2각",
+    "extractedCode": "T2431",
+    "normalizedFileName": "t24312x2png",
+    "imageType": "2x2"
+  },
+  {
+    "fileName": "T2433_2x2.png",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/재영/사각/457.2각/T2433_2x2.png",
+    "category": "데코타일",
+    "brand": "재영",
+    "series": "사각/457.2각",
+    "extractedCode": "T2433",
+    "normalizedFileName": "t24332x2png",
+    "imageType": "2x2"
+  },
+  {
+    "fileName": "T2441_2x2.png",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/재영/사각/457.2각/T2441_2x2.png",
+    "category": "데코타일",
+    "brand": "재영",
+    "series": "사각/457.2각",
+    "extractedCode": "T2441",
+    "normalizedFileName": "t24412x2png",
+    "imageType": "2x2"
+  },
+  {
+    "fileName": "T2442_2x2.png",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/재영/사각/457.2각/T2442_2x2.png",
+    "category": "데코타일",
+    "brand": "재영",
+    "series": "사각/457.2각",
+    "extractedCode": "T2442",
+    "normalizedFileName": "t24422x2png",
+    "imageType": "2x2"
+  },
+  {
+    "fileName": "T2514C_2x2.png",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/재영/사각/457.2각/T2514C_2x2.png",
+    "category": "데코타일",
+    "brand": "재영",
+    "series": "사각/457.2각",
+    "extractedCode": "T2514C",
+    "normalizedFileName": "t2514c2x2png",
+    "imageType": "2x2"
+  },
+  {
     "fileName": "T2302.jpg",
     "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/재영/사각/457.2각/그래니트/T2302.jpg",
     "category": "데코타일",
@@ -10161,6 +10551,116 @@ export const imageManifest = [
     "imageType": "material"
   },
   {
+    "fileName": "T2601_2x2.png",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/재영/사각/600각/T2601_2x2.png",
+    "category": "데코타일",
+    "brand": "재영",
+    "series": "사각/600각",
+    "extractedCode": "T2601",
+    "normalizedFileName": "t26012x2png",
+    "imageType": "2x2"
+  },
+  {
+    "fileName": "T2602_2x2.png",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/재영/사각/600각/T2602_2x2.png",
+    "category": "데코타일",
+    "brand": "재영",
+    "series": "사각/600각",
+    "extractedCode": "T2602",
+    "normalizedFileName": "t26022x2png",
+    "imageType": "2x2"
+  },
+  {
+    "fileName": "T2603_2x2.png",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/재영/사각/600각/T2603_2x2.png",
+    "category": "데코타일",
+    "brand": "재영",
+    "series": "사각/600각",
+    "extractedCode": "T2603",
+    "normalizedFileName": "t26032x2png",
+    "imageType": "2x2"
+  },
+  {
+    "fileName": "T2604_2x2.png",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/재영/사각/600각/T2604_2x2.png",
+    "category": "데코타일",
+    "brand": "재영",
+    "series": "사각/600각",
+    "extractedCode": "T2604",
+    "normalizedFileName": "t26042x2png",
+    "imageType": "2x2"
+  },
+  {
+    "fileName": "T2605_2x2.png",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/재영/사각/600각/T2605_2x2.png",
+    "category": "데코타일",
+    "brand": "재영",
+    "series": "사각/600각",
+    "extractedCode": "T2605",
+    "normalizedFileName": "t26052x2png",
+    "imageType": "2x2"
+  },
+  {
+    "fileName": "T2606_2x2.png",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/재영/사각/600각/T2606_2x2.png",
+    "category": "데코타일",
+    "brand": "재영",
+    "series": "사각/600각",
+    "extractedCode": "T2606",
+    "normalizedFileName": "t26062x2png",
+    "imageType": "2x2"
+  },
+  {
+    "fileName": "T2701_2x2.png",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/재영/사각/600각/T2701_2x2.png",
+    "category": "데코타일",
+    "brand": "재영",
+    "series": "사각/600각",
+    "extractedCode": "T2701",
+    "normalizedFileName": "t27012x2png",
+    "imageType": "2x2"
+  },
+  {
+    "fileName": "T2702_2x2.png",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/재영/사각/600각/T2702_2x2.png",
+    "category": "데코타일",
+    "brand": "재영",
+    "series": "사각/600각",
+    "extractedCode": "T2702",
+    "normalizedFileName": "t27022x2png",
+    "imageType": "2x2"
+  },
+  {
+    "fileName": "T2703_2x2.png",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/재영/사각/600각/T2703_2x2.png",
+    "category": "데코타일",
+    "brand": "재영",
+    "series": "사각/600각",
+    "extractedCode": "T2703",
+    "normalizedFileName": "t27032x2png",
+    "imageType": "2x2"
+  },
+  {
+    "fileName": "T2704_2x2.png",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/재영/사각/600각/T2704_2x2.png",
+    "category": "데코타일",
+    "brand": "재영",
+    "series": "사각/600각",
+    "extractedCode": "T2704",
+    "normalizedFileName": "t27042x2png",
+    "imageType": "2x2"
+  },
+  {
+    "fileName": "T2705_2x2.png",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/재영/사각/600각/T2705_2x2.png",
+    "category": "데코타일",
+    "brand": "재영",
+    "series": "사각/600각",
+    "extractedCode": "T2705",
+    "normalizedFileName": "t27052x2png",
+    "imageType": "2x2"
+  },
+  {
     "fileName": "T2313.jpg",
     "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/재영/사각/600각/슬레이트/T2313.jpg",
     "category": "데코타일",
@@ -10291,6 +10791,16 @@ export const imageManifest = [
     "imageType": "material"
   },
   {
+    "fileName": "P1601_확장.png",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/재영/우드/세미와일드 우드/P1601_확장.png",
+    "category": "데코타일",
+    "brand": "재영",
+    "series": "우드/세미와일드 우드",
+    "extractedCode": "P1601",
+    "normalizedFileName": "p1601확장png",
+    "imageType": "2x2"
+  },
+  {
     "fileName": "P1602.jpg",
     "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/재영/우드/세미와일드 우드/P1602.jpg",
     "category": "데코타일",
@@ -10299,6 +10809,16 @@ export const imageManifest = [
     "extractedCode": "P1602",
     "normalizedFileName": "p1602jpg",
     "imageType": "material"
+  },
+  {
+    "fileName": "P1602_확장.png",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/재영/우드/세미와일드 우드/P1602_확장.png",
+    "category": "데코타일",
+    "brand": "재영",
+    "series": "우드/세미와일드 우드",
+    "extractedCode": "P1602",
+    "normalizedFileName": "p1602확장png",
+    "imageType": "2x2"
   },
   {
     "fileName": "P1603.jpg",
@@ -10311,6 +10831,16 @@ export const imageManifest = [
     "imageType": "material"
   },
   {
+    "fileName": "P1603_확장.png",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/재영/우드/세미와일드 우드/P1603_확장.png",
+    "category": "데코타일",
+    "brand": "재영",
+    "series": "우드/세미와일드 우드",
+    "extractedCode": "P1603",
+    "normalizedFileName": "p1603확장png",
+    "imageType": "2x2"
+  },
+  {
     "fileName": "P1604.jpg",
     "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/재영/우드/세미와일드 우드/P1604.jpg",
     "category": "데코타일",
@@ -10319,6 +10849,16 @@ export const imageManifest = [
     "extractedCode": "P1604",
     "normalizedFileName": "p1604jpg",
     "imageType": "material"
+  },
+  {
+    "fileName": "P1604_확장.png",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/재영/우드/세미와일드 우드/P1604_확장.png",
+    "category": "데코타일",
+    "brand": "재영",
+    "series": "우드/세미와일드 우드",
+    "extractedCode": "P1604",
+    "normalizedFileName": "p1604확장png",
+    "imageType": "2x2"
   },
   {
     "fileName": "P1605.jpg",
@@ -10331,6 +10871,16 @@ export const imageManifest = [
     "imageType": "material"
   },
   {
+    "fileName": "P1605_확장.png",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/재영/우드/세미와일드 우드/P1605_확장.png",
+    "category": "데코타일",
+    "brand": "재영",
+    "series": "우드/세미와일드 우드",
+    "extractedCode": "P1605",
+    "normalizedFileName": "p1605확장png",
+    "imageType": "2x2"
+  },
+  {
     "fileName": "P1606.jpg",
     "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/재영/우드/세미와일드 우드/P1606.jpg",
     "category": "데코타일",
@@ -10341,6 +10891,16 @@ export const imageManifest = [
     "imageType": "material"
   },
   {
+    "fileName": "P1606_확장.png",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/재영/우드/세미와일드 우드/P1606_확장.png",
+    "category": "데코타일",
+    "brand": "재영",
+    "series": "우드/세미와일드 우드",
+    "extractedCode": "P1606",
+    "normalizedFileName": "p1606확장png",
+    "imageType": "2x2"
+  },
+  {
     "fileName": "P1607.jpg",
     "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/재영/우드/세미와일드 우드/P1607.jpg",
     "category": "데코타일",
@@ -10349,6 +10909,276 @@ export const imageManifest = [
     "extractedCode": "P1607",
     "normalizedFileName": "p1607jpg",
     "imageType": "material"
+  },
+  {
+    "fileName": "P1607_확장.png",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/재영/우드/세미와일드 우드/P1607_확장.png",
+    "category": "데코타일",
+    "brand": "재영",
+    "series": "우드/세미와일드 우드",
+    "extractedCode": "P1607",
+    "normalizedFileName": "p1607확장png",
+    "imageType": "2x2"
+  },
+  {
+    "fileName": "P1011.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/재영/우드/우드/P1011.jpg",
+    "category": "데코타일",
+    "brand": "재영",
+    "series": "우드/우드",
+    "extractedCode": "P1011",
+    "normalizedFileName": "p1011jpg",
+    "imageType": "material"
+  },
+  {
+    "fileName": "P1011_확장.png",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/재영/우드/우드/P1011_확장.png",
+    "category": "데코타일",
+    "brand": "재영",
+    "series": "우드/우드",
+    "extractedCode": "P1011",
+    "normalizedFileName": "p1011확장png",
+    "imageType": "2x2"
+  },
+  {
+    "fileName": "P1064.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/재영/우드/우드/P1064.jpg",
+    "category": "데코타일",
+    "brand": "재영",
+    "series": "우드/우드",
+    "extractedCode": "P1064",
+    "normalizedFileName": "p1064jpg",
+    "imageType": "material"
+  },
+  {
+    "fileName": "P1064_확장.png",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/재영/우드/우드/P1064_확장.png",
+    "category": "데코타일",
+    "brand": "재영",
+    "series": "우드/우드",
+    "extractedCode": "P1064",
+    "normalizedFileName": "p1064확장png",
+    "imageType": "2x2"
+  },
+  {
+    "fileName": "P1067.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/재영/우드/우드/P1067.jpg",
+    "category": "데코타일",
+    "brand": "재영",
+    "series": "우드/우드",
+    "extractedCode": "P1067",
+    "normalizedFileName": "p1067jpg",
+    "imageType": "material"
+  },
+  {
+    "fileName": "P1067_확장.png",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/재영/우드/우드/P1067_확장.png",
+    "category": "데코타일",
+    "brand": "재영",
+    "series": "우드/우드",
+    "extractedCode": "P1067",
+    "normalizedFileName": "p1067확장png",
+    "imageType": "2x2"
+  },
+  {
+    "fileName": "P1106.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/재영/우드/우드/P1106.jpg",
+    "category": "데코타일",
+    "brand": "재영",
+    "series": "우드/우드",
+    "extractedCode": "P1106",
+    "normalizedFileName": "p1106jpg",
+    "imageType": "material"
+  },
+  {
+    "fileName": "P1106_확장.png",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/재영/우드/우드/P1106_확장.png",
+    "category": "데코타일",
+    "brand": "재영",
+    "series": "우드/우드",
+    "extractedCode": "P1106",
+    "normalizedFileName": "p1106확장png",
+    "imageType": "2x2"
+  },
+  {
+    "fileName": "P1142.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/재영/우드/우드/P1142.jpg",
+    "category": "데코타일",
+    "brand": "재영",
+    "series": "우드/우드",
+    "extractedCode": "P1142",
+    "normalizedFileName": "p1142jpg",
+    "imageType": "material"
+  },
+  {
+    "fileName": "P1142_확장.png",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/재영/우드/우드/P1142_확장.png",
+    "category": "데코타일",
+    "brand": "재영",
+    "series": "우드/우드",
+    "extractedCode": "P1142",
+    "normalizedFileName": "p1142확장png",
+    "imageType": "2x2"
+  },
+  {
+    "fileName": "P1151.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/재영/우드/우드/P1151.jpg",
+    "category": "데코타일",
+    "brand": "재영",
+    "series": "우드/우드",
+    "extractedCode": "P1151",
+    "normalizedFileName": "p1151jpg",
+    "imageType": "material"
+  },
+  {
+    "fileName": "P1151_확장.png",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/재영/우드/우드/P1151_확장.png",
+    "category": "데코타일",
+    "brand": "재영",
+    "series": "우드/우드",
+    "extractedCode": "P1151",
+    "normalizedFileName": "p1151확장png",
+    "imageType": "2x2"
+  },
+  {
+    "fileName": "P1154.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/재영/우드/우드/P1154.jpg",
+    "category": "데코타일",
+    "brand": "재영",
+    "series": "우드/우드",
+    "extractedCode": "P1154",
+    "normalizedFileName": "p1154jpg",
+    "imageType": "material"
+  },
+  {
+    "fileName": "P1154_확장.png",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/재영/우드/우드/P1154_확장.png",
+    "category": "데코타일",
+    "brand": "재영",
+    "series": "우드/우드",
+    "extractedCode": "P1154",
+    "normalizedFileName": "p1154확장png",
+    "imageType": "2x2"
+  },
+  {
+    "fileName": "P1201.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/재영/우드/우드/P1201.jpg",
+    "category": "데코타일",
+    "brand": "재영",
+    "series": "우드/우드",
+    "extractedCode": "P1201",
+    "normalizedFileName": "p1201jpg",
+    "imageType": "material"
+  },
+  {
+    "fileName": "P1201_확장.png",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/재영/우드/우드/P1201_확장.png",
+    "category": "데코타일",
+    "brand": "재영",
+    "series": "우드/우드",
+    "extractedCode": "P1201",
+    "normalizedFileName": "p1201확장png",
+    "imageType": "2x2"
+  },
+  {
+    "fileName": "P1211.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/재영/우드/우드/P1211.jpg",
+    "category": "데코타일",
+    "brand": "재영",
+    "series": "우드/우드",
+    "extractedCode": "P1211",
+    "normalizedFileName": "p1211jpg",
+    "imageType": "material"
+  },
+  {
+    "fileName": "P1211_확장.png",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/재영/우드/우드/P1211_확장.png",
+    "category": "데코타일",
+    "brand": "재영",
+    "series": "우드/우드",
+    "extractedCode": "P1211",
+    "normalizedFileName": "p1211확장png",
+    "imageType": "2x2"
+  },
+  {
+    "fileName": "P1215.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/재영/우드/우드/P1215.jpg",
+    "category": "데코타일",
+    "brand": "재영",
+    "series": "우드/우드",
+    "extractedCode": "P1215",
+    "normalizedFileName": "p1215jpg",
+    "imageType": "material"
+  },
+  {
+    "fileName": "P1215_확장.png",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/재영/우드/우드/P1215_확장.png",
+    "category": "데코타일",
+    "brand": "재영",
+    "series": "우드/우드",
+    "extractedCode": "P1215",
+    "normalizedFileName": "p1215확장png",
+    "imageType": "2x2"
+  },
+  {
+    "fileName": "P1301.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/재영/우드/우드/P1301.jpg",
+    "category": "데코타일",
+    "brand": "재영",
+    "series": "우드/우드",
+    "extractedCode": "P1301",
+    "normalizedFileName": "p1301jpg",
+    "imageType": "material"
+  },
+  {
+    "fileName": "P1301_확장.png",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/재영/우드/우드/P1301_확장.png",
+    "category": "데코타일",
+    "brand": "재영",
+    "series": "우드/우드",
+    "extractedCode": "P1301",
+    "normalizedFileName": "p1301확장png",
+    "imageType": "2x2"
+  },
+  {
+    "fileName": "P1304.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/재영/우드/우드/P1304.jpg",
+    "category": "데코타일",
+    "brand": "재영",
+    "series": "우드/우드",
+    "extractedCode": "P1304",
+    "normalizedFileName": "p1304jpg",
+    "imageType": "material"
+  },
+  {
+    "fileName": "P1304_확장.png",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/재영/우드/우드/P1304_확장.png",
+    "category": "데코타일",
+    "brand": "재영",
+    "series": "우드/우드",
+    "extractedCode": "P1304",
+    "normalizedFileName": "p1304확장png",
+    "imageType": "2x2"
+  },
+  {
+    "fileName": "P1308.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/재영/우드/우드/P1308.jpg",
+    "category": "데코타일",
+    "brand": "재영",
+    "series": "우드/우드",
+    "extractedCode": "P1308",
+    "normalizedFileName": "p1308jpg",
+    "imageType": "material"
+  },
+  {
+    "fileName": "P1308_확장.png",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/재영/우드/우드/P1308_확장.png",
+    "category": "데코타일",
+    "brand": "재영",
+    "series": "우드/우드",
+    "extractedCode": "P1308",
+    "normalizedFileName": "p1308확장png",
+    "imageType": "2x2"
   },
   {
     "fileName": "P1106.jpg",
@@ -10491,6 +11321,16 @@ export const imageManifest = [
     "imageType": "material"
   },
   {
+    "fileName": "T7701_2x2.png",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/재영/차음/457.2각/T7701_2x2.png",
+    "category": "데코타일",
+    "brand": "재영",
+    "series": "차음/457.2각",
+    "extractedCode": "T7701",
+    "normalizedFileName": "t77012x2png",
+    "imageType": "2x2"
+  },
+  {
     "fileName": "T7702.jpg",
     "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/재영/차음/457.2각/T7702.jpg",
     "category": "데코타일",
@@ -10499,6 +11339,16 @@ export const imageManifest = [
     "extractedCode": "T7702",
     "normalizedFileName": "t7702jpg",
     "imageType": "material"
+  },
+  {
+    "fileName": "T7702_2x2.png",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/재영/차음/457.2각/T7702_2x2.png",
+    "category": "데코타일",
+    "brand": "재영",
+    "series": "차음/457.2각",
+    "extractedCode": "T7702",
+    "normalizedFileName": "t77022x2png",
+    "imageType": "2x2"
   },
   {
     "fileName": "T7704.jpg",
@@ -10511,6 +11361,16 @@ export const imageManifest = [
     "imageType": "material"
   },
   {
+    "fileName": "T7704_2x2.png",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/재영/차음/457.2각/T7704_2x2.png",
+    "category": "데코타일",
+    "brand": "재영",
+    "series": "차음/457.2각",
+    "extractedCode": "T7704",
+    "normalizedFileName": "t77042x2png",
+    "imageType": "2x2"
+  },
+  {
     "fileName": "T7705.jpg",
     "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/재영/차음/457.2각/T7705.jpg",
     "category": "데코타일",
@@ -10519,6 +11379,16 @@ export const imageManifest = [
     "extractedCode": "T7705",
     "normalizedFileName": "t7705jpg",
     "imageType": "material"
+  },
+  {
+    "fileName": "T7705_2x2.png",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/재영/차음/457.2각/T7705_2x2.png",
+    "category": "데코타일",
+    "brand": "재영",
+    "series": "차음/457.2각",
+    "extractedCode": "T7705",
+    "normalizedFileName": "t77052x2png",
+    "imageType": "2x2"
   },
   {
     "fileName": "P7151.jpg",
@@ -10531,6 +11401,16 @@ export const imageManifest = [
     "imageType": "material"
   },
   {
+    "fileName": "P7151_확장.png",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/재영/차음/우드/P7151_확장.png",
+    "category": "데코타일",
+    "brand": "재영",
+    "series": "차음/우드",
+    "extractedCode": "P7151",
+    "normalizedFileName": "p7151확장png",
+    "imageType": "2x2"
+  },
+  {
     "fileName": "P7211.jpg",
     "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/재영/차음/우드/P7211.jpg",
     "category": "데코타일",
@@ -10539,6 +11419,16 @@ export const imageManifest = [
     "extractedCode": "P7211",
     "normalizedFileName": "p7211jpg",
     "imageType": "material"
+  },
+  {
+    "fileName": "P7211_확장.png",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/재영/차음/우드/P7211_확장.png",
+    "category": "데코타일",
+    "brand": "재영",
+    "series": "차음/우드",
+    "extractedCode": "P7211",
+    "normalizedFileName": "p7211확장png",
+    "imageType": "2x2"
   },
   {
     "fileName": "P7215.jpg",
@@ -10551,6 +11441,16 @@ export const imageManifest = [
     "imageType": "material"
   },
   {
+    "fileName": "P7215_확장.png",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/재영/차음/우드/P7215_확장.png",
+    "category": "데코타일",
+    "brand": "재영",
+    "series": "차음/우드",
+    "extractedCode": "P7215",
+    "normalizedFileName": "p7215확장png",
+    "imageType": "2x2"
+  },
+  {
     "fileName": "P3064.jpg",
     "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/재영/홈우드/P3064.jpg",
     "category": "데코타일",
@@ -10559,6 +11459,16 @@ export const imageManifest = [
     "extractedCode": "P3064",
     "normalizedFileName": "p3064jpg",
     "imageType": "material"
+  },
+  {
+    "fileName": "P3064_확장.png",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/재영/홈우드/P3064_확장.png",
+    "category": "데코타일",
+    "brand": "재영",
+    "series": "홈우드",
+    "extractedCode": "P3064",
+    "normalizedFileName": "p3064확장png",
+    "imageType": "2x2"
   },
   {
     "fileName": "P3301.jpg",
@@ -10571,6 +11481,16 @@ export const imageManifest = [
     "imageType": "material"
   },
   {
+    "fileName": "P3301_확장.png",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/재영/홈우드/P3301_확장.png",
+    "category": "데코타일",
+    "brand": "재영",
+    "series": "홈우드",
+    "extractedCode": "P3301",
+    "normalizedFileName": "p3301확장png",
+    "imageType": "2x2"
+  },
+  {
     "fileName": "P3304.jpg",
     "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/재영/홈우드/P3304.jpg",
     "category": "데코타일",
@@ -10581,6 +11501,16 @@ export const imageManifest = [
     "imageType": "material"
   },
   {
+    "fileName": "P3304_확장.png",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/재영/홈우드/P3304_확장.png",
+    "category": "데코타일",
+    "brand": "재영",
+    "series": "홈우드",
+    "extractedCode": "P3304",
+    "normalizedFileName": "p3304확장png",
+    "imageType": "2x2"
+  },
+  {
     "fileName": "P3308.jpg",
     "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/재영/홈우드/P3308.jpg",
     "category": "데코타일",
@@ -10589,6 +11519,16 @@ export const imageManifest = [
     "extractedCode": "P3308",
     "normalizedFileName": "p3308jpg",
     "imageType": "material"
+  },
+  {
+    "fileName": "P3308_확장.png",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/재영/홈우드/P3308_확장.png",
+    "category": "데코타일",
+    "brand": "재영",
+    "series": "홈우드",
+    "extractedCode": "P3308",
+    "normalizedFileName": "p3308확장png",
+    "imageType": "2x2"
   },
   {
     "fileName": "RT-3201.jpg",

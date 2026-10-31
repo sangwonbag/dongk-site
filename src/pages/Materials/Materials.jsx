@@ -15,7 +15,7 @@ import {
   getEagonColorName 
 } from "../../utils/eagonUtils";
 import MaterialCard from "../../components/material/MaterialCard";
-import { fetchFilteredProducts, searchMaterials, withTimeout } from "../../utils/supabaseFetcher";
+import { fetchFilteredProducts, searchMaterials, getCachedFilteredProducts, getCachedSearchMaterials, withTimeout } from "../../utils/supabaseFetcher";
 import { getSearchScore, isProductNumberQuery, generateAutocompleteSuggestions, POPULAR_KEYWORDS, parseSearchQuery, scoreProduct } from "../../utils/searchUtils";
 import { sortProducts, SORT_OPTIONS } from "../../utils/sortUtils";
 import { sortBrandsByPriority, compareProductRecommendationPriority, getDisplayBrandName } from "../../constants/brandPriority";
@@ -127,11 +127,21 @@ const normalizeUrlThickness = (raw) => {
 export default function Materials() {
   const [searchParams, setSearchParams] = useSearchParams();
 
+  // Initial cache lookup for 0ms render on back-navigation or cached filter revisit
+  const initialSearch = (searchParams.get("q") || searchParams.get("search") || "").trim();
+  const initialCategory = searchParams.get("category") || (initialSearch ? "all" : "데코타일");
+  const initialBrand = searchParams.get("brand") || (searchParams.get("category") ? "all" : (initialSearch ? "all" : "KCC"));
+  const initialThickness = normalizeUrlThickness(searchParams.get("thickness")) || "all";
+  const initialCachedResult = initialSearch
+    ? getCachedSearchMaterials(initialSearch, { category: initialCategory, brand: initialBrand, thickness: initialThickness })
+    : getCachedFilteredProducts({ category: initialCategory, brand: initialBrand, thickness: initialThickness, page: 0, pageSize: 2000 });
+  const initialItems = initialCachedResult ? (Array.isArray(initialCachedResult) ? initialCachedResult : (initialCachedResult.items || [])) : [];
+
   // State management
-  const [materialsList, setMaterialsList] = useState([]);
-  const [loading, setLoading] = useState(true);
+  const [materialsList, setMaterialsList] = useState(() => initialItems);
+  const [loading, setLoading] = useState(() => !initialCachedResult);
   const [error, setError] = useState(null);
-  const [totalCount, setTotalCount] = useState(0);
+  const [totalCount, setTotalCount] = useState(() => (initialCachedResult && typeof initialCachedResult.totalCount === 'number') ? initialCachedResult.totalCount : initialItems.length);
   const [page, setPage] = useState(0);
   const [hasMore, setHasMore] = useState(false);
   const [loadingMore, setLoadingMore] = useState(false);
@@ -140,7 +150,6 @@ export default function Materials() {
   const fetchRequestIdRef = useRef(0);
 
   // Unified Search State
-  const initialSearch = (searchParams.get("q") || searchParams.get("search") || "").trim();
   const [searchQuery, setSearchQuery] = useState(initialSearch);
   const [debouncedQuery, setDebouncedQuery] = useState(initialSearch);
   const [isSearchFocused, setIsSearchFocused] = useState(false);
@@ -396,6 +405,29 @@ export default function Materials() {
     const requestId = ++fetchRequestIdRef.current;
     const controller = new AbortController();
 
+    // Check synchronous memory cache first so cached brand/category switches never flash a skeleton
+    const syncCached = debouncedQuery
+      ? getCachedSearchMaterials(debouncedQuery, { category: activeTab, brand: activeBrand, thickness: activeThickness })
+      : getCachedFilteredProducts({ category: activeTab, brand: activeBrand, thickness: activeThickness, page: 0, pageSize: 2000 });
+
+    if (syncCached) {
+      const items = Array.isArray(syncCached) ? syncCached : (syncCached.items || []);
+      setMaterialsList(items);
+      setTotalCount(typeof syncCached.totalCount === 'number' ? syncCached.totalCount : items.length);
+      setError(null);
+      setLoading(false);
+      return () => {
+        controller.abort();
+      };
+    }
+
+    // Watchdog timer to guarantee loading state never hangs indefinitely
+    const watchdog = setTimeout(() => {
+      if (requestId === fetchRequestIdRef.current) {
+        setLoading(false);
+      }
+    }, 6000);
+
     async function load() {
       setLoading(true);
       setError(null);
@@ -433,6 +465,7 @@ export default function Materials() {
           setError(err.message || "자재 정보를 불러오지 못했습니다.");
         }
       } finally {
+        clearTimeout(watchdog);
         if (requestId === fetchRequestIdRef.current) {
           setLoading(false);
         }
@@ -442,6 +475,7 @@ export default function Materials() {
     load();
 
     return () => {
+      clearTimeout(watchdog);
       controller.abort();
     };
   }, [activeTab, activeBrand, activeThickness, debouncedQuery]);

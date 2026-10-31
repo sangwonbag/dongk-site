@@ -141,10 +141,6 @@ function isProductSpecificFilename(filename) {
 export function getUniqueProductImages(images) {
   if (!Array.isArray(images)) return [];
 
-  if (!imageHashManifest) {
-    ensureImageHashManifestLoaded().catch(() => {});
-  }
-
   const seenPaths = new Set();
   const seenHashes = new Set();
   const seenFilenames = new Set();
@@ -166,27 +162,29 @@ export function getUniqueProductImages(images) {
     const canonicalPath = getCanonicalPath(src);
     const filename = getFilename(canonicalPath || rawNormalized);
 
-    // Look up SHA-256 hash in imageHashManifest
+    // Look up SHA-256 hash in imageHashManifest if already loaded
     let hash = '';
-    const lookupKeys = [
-      src,
-      rawNormalized,
-      '/' + rawNormalized,
-      canonicalPath,
-      '/' + canonicalPath,
-      'materials/' + canonicalPath,
-      '/materials/' + canonicalPath,
-      'images/thumbnail_image/' + canonicalPath,
-      '/images/thumbnail_image/' + canonicalPath,
-      'images/thumbnail_image/materials/' + canonicalPath,
-      '/images/thumbnail_image/materials/' + canonicalPath,
-      filename
-    ];
+    if (imageHashManifest) {
+      const lookupKeys = [
+        src,
+        rawNormalized,
+        '/' + rawNormalized,
+        canonicalPath,
+        '/' + canonicalPath,
+        'materials/' + canonicalPath,
+        '/materials/' + canonicalPath,
+        'images/thumbnail_image/' + canonicalPath,
+        '/images/thumbnail_image/' + canonicalPath,
+        'images/thumbnail_image/materials/' + canonicalPath,
+        '/images/thumbnail_image/materials/' + canonicalPath,
+        filename
+      ];
 
-    for (const k of lookupKeys) {
-      if (k && imageHashManifest && imageHashManifest[k]?.hash) {
-        hash = imageHashManifest[k].hash;
-        break;
+      for (const k of lookupKeys) {
+        if (k && imageHashManifest[k]?.hash) {
+          hash = imageHashManifest[k].hash;
+          break;
+        }
       }
     }
 
