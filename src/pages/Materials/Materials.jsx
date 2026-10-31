@@ -412,10 +412,11 @@ export default function Materials() {
           thickness: activeThickness,
           page: 0,
           pageSize: 2000,
+          allPages: true,
           signal: controller.signal
         });
 
-        if (requestId === fetchRequestIdRef.current) {
+        if (!controller.signal.aborted && requestId === fetchRequestIdRef.current) {
           const items = Array.isArray(res) ? res : (res.items || []);
           setMaterialsList(items);
           if (res && typeof res.totalCount === 'number') {
@@ -429,11 +430,11 @@ export default function Materials() {
           return;
         }
         console.error("[Materials] load error:", err);
-        if (requestId === fetchRequestIdRef.current) {
+        if (!controller.signal.aborted && requestId === fetchRequestIdRef.current) {
           setError(err.message || "자재 정보를 불러오지 못했습니다.");
         }
       } finally {
-        if (requestId === fetchRequestIdRef.current) {
+        if (!controller.signal.aborted && requestId === fetchRequestIdRef.current) {
           setLoading(false);
         }
       }
@@ -962,12 +963,13 @@ export default function Materials() {
     setError(null);
     setLoading(true);
 
-    (debouncedQuery ? searchMaterials(debouncedQuery) : fetchFilteredProducts({
+    (debouncedQuery ? searchMaterials(debouncedQuery, { category: activeTab, brand: activeBrand, thickness: activeThickness }) : fetchFilteredProducts({
       category: activeTab,
       brand: activeBrand,
       thickness: activeThickness,
       page: 0,
-      pageSize: 2000
+      pageSize: 2000,
+      allPages: true
     }))
       .then(res => {
         if (requestId === fetchRequestIdRef.current) {

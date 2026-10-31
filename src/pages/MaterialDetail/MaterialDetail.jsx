@@ -684,7 +684,16 @@ export default function MaterialDetail() {
       setLoading(false);
       setFetchStatus('success');
       setError(null);
+    } else {
+      setItem(null);
+      setLoading(true);
+      setFetchStatus('loading');
+      setError(null);
     }
+    setDetailImagesList([]);
+    setRawImages({});
+    setSelectedImageIndex(0);
+    setBrokenImages(new Set());
   }, [rawId, location.state]);
 
   useEffect(() => {
@@ -729,10 +738,11 @@ export default function MaterialDetail() {
     const controller = new AbortController();
     let disposed = false;
     let completed = false;
+    const currentInitial = location.state?.initialProduct || getCachedProduct(rawId);
     const watchdog = setTimeout(() => {
       if (disposed || completed) return;
       controller.abort();
-      if (!item) {
+      if (!currentInitial) {
         setItem(null);
         setFetchStatus('timeout');
         setError('상품 조회 시간이 초과되었습니다. 다시 시도해 주세요.');
@@ -752,14 +762,14 @@ export default function MaterialDetail() {
       }
 
       // If we don't have initial data, show loading state
-      if (!item) {
+      if (!currentInitial) {
         setLoading(true);
         setError(null);
         setFetchStatus('loading');
       }
 
       try {
-        const fetchedItem = await fetchProductDetailBySlugOrId(routeParam, controller.signal, { forceRefresh: true });
+        const fetchedItem = await fetchProductDetailBySlugOrId(routeParam, controller.signal, { forceRefresh: retryKey > 0 });
 
         if (controller.signal.aborted || disposed) return;
 
@@ -784,7 +794,7 @@ export default function MaterialDetail() {
         }
         console.error("[MaterialDetail] 상품 조회 실패:", err);
         // Only set error state if we didn't already have initial data to display
-        if (!item) {
+        if (!currentInitial) {
           setItem(null);
           setFetchStatus(err.name === "TimeoutError" ? "timeout" : "error");
           setError(
@@ -820,9 +830,12 @@ export default function MaterialDetail() {
     async function loadImages() {
       try {
         await getLocalImageManifestData();
-        const detailStr = await getDetailImage(item);
-        const thumbStr = await getThumbnailImage(item);
-        const galleryObjs = await getValidGalleryImages(item);
+        const imageResults = await Promise.allSettled([
+          getDetailImage(item), getThumbnailImage(item), getValidGalleryImages(item)
+        ]);
+        const [detailStr, thumbStr, galleryObjs] = imageResults.map(result =>
+          result.status === 'fulfilled' ? result.value : null
+        );
         let eagonImg = null;
 
         if (item.brand === '이건' || item.brand === '이건마루' || isEagonProduct(item)) {

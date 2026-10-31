@@ -1,4 +1,4 @@
-import { getSearchScore, isProductNumberQuery, normalizeSearchText } from './searchUtils.js';
+import { createSharedRequestPool } from './sharedRequest.js';
 import { parseSearchQuery, scoreProduct } from './materialSearchEngine.js';
 import { supabase } from '../lib/supabaseClient.js';
 import { dongshinPolymer2026 } from '../data/dongshinPolymer2026.js';
@@ -6,11 +6,17 @@ import { normalizeProductDetails, isSentenceDescription, getKccLineup } from './
 import { HIDE_SUB_MATERIALS, isSubMaterialCategory } from '../config/categoryConfig.js';
 
 let localMaterialsCache = null;
+let localMaterialsIndex = null;
 async function getLocalMaterials() {
   if (localMaterialsCache) return localMaterialsCache;
   try {
     const mod = await import('../data/materials.db.js');
     localMaterialsCache = mod.materials || [];
+    localMaterialsIndex = new Map();
+    for (const item of localMaterialsCache) {
+      const key = getMaterialMatchKey(item);
+      if (!localMaterialsIndex.has(key)) localMaterialsIndex.set(key, item);
+    }
   } catch (e) {
     console.error("Failed to dynamically import local materials db:", e);
     localMaterialsCache = [];
@@ -40,10 +46,13 @@ const getMaterialMatchKey = (item) => {
 let cachedProducts = null;
 let cachedHomeProducts = null;
 const filteredProductsCache = new Map();
+const runListRequest = createSharedRequestPool();
+const runDetailRequest = createSharedRequestPool();
+const runSearchRequest = createSharedRequestPool();
+const LIST_CACHE_TTL_MS = 5 * 60 * 1000;
 
 // Product Detail In-Memory Cache (TTL: 10 minutes) & In-flight request deduplication
 export const productDetailMemoryCache = new Map();
-const productDetailInflightRequests = new Map();
 const PRODUCT_CACHE_TTL_MS = 10 * 60 * 1000;
 
 export function setCachedProduct(item) {
@@ -69,13 +78,13 @@ export function getCachedProduct(key) {
   if (!key) return null;
   const cleanKey = String(key).trim().toLowerCase();
   const entry = productDetailMemoryCache.get(cleanKey);
-  if (entry) {
+  if (entry && Date.now() - entry.timestamp < PRODUCT_CACHE_TTL_MS) {
     return entry.data;
   }
   const norm = cleanKey.replace(/[^a-zA-Z0-9가-힣]/g, '');
   if (norm) {
     const normEntry = productDetailMemoryCache.get(norm);
-    if (normEntry) return normEntry.data;
+    if (normEntry && Date.now() - normEntry.timestamp < PRODUCT_CACHE_TTL_MS) return normEntry.data;
   }
   return null;
 }
@@ -83,7 +92,7 @@ export function getCachedProduct(key) {
 export function prefetchProductDetail(routeParam) {
   if (!routeParam) return;
   const cleanKey = String(routeParam).trim().toLowerCase();
-  if (productDetailMemoryCache.has(cleanKey)) return;
+  if (getCachedProduct(cleanKey)) return;
   fetchProductDetailBySlugOrId(routeParam).catch(() => {});
 }
 
@@ -196,7 +205,7 @@ export async function fetchAllProducts(forceRefresh = false) {
 
   if (fetchError || !data || data.length === 0) {
     console.warn("Supabase load failed or returned no data. Falling back to local materials database...", fetchError);
-    
+
     const rawLocalMaterials = await getLocalMaterials();
     // Map local materials to the frontend product structure
     cachedProducts = deduplicateProducts((rawLocalMaterials || []).map(m => {
@@ -270,7 +279,7 @@ export function mapProductRow(p) {
     code: p.product_code || null
   };
   const dbKey = getMaterialMatchKey(dbItem);
-  const localMatch = localMaterialsCache ? localMaterialsCache.find(m => getMaterialMatchKey(m) === dbKey) : null;
+  const localMatch = localMaterialsIndex?.get(dbKey) || null;
 
   const isSenseRay = code.startsWith('B') || (p.name || '').startsWith('KCC 센스레이') || p.line === '센스레이';
 
@@ -489,14 +498,19 @@ export function withTimeout(promise, ms = 12000) {
   });
 }
 
-export async function fetchFilteredProducts({ category, brand, thickness, searchText, page = 0, pageSize = 2000, signal }) {
+export function fetchFilteredProducts(options = {}) {
+  const { signal, ...filters } = options;
+  const key = JSON.stringify([filters.category || 'all', filters.brand || 'all', filters.thickness || 'all', filters.searchText || '', filters.page || 0, filters.pageSize ?? 2000, !!filters.allPages]);
+  return runListRequest(key, sharedSignal => loadFilteredProducts({ ...filters, signal: sharedSignal }), signal);
+}
+
+async function loadFilteredProducts({ category, brand, thickness, searchText, page = 0, pageSize = 2000, signal, allPages = false }) {
   const safePage = Math.max(0, Number(page) || 0);
   const safePageSize = Math.max(1, Number(pageSize) || 2000);
 
-  const cacheKey = `${category || 'all'}:${brand || 'all'}:${thickness || 'all'}:${searchText || ''}:${safePage}:${safePageSize}`;
-  if (filteredProductsCache.has(cacheKey)) {
-    return filteredProductsCache.get(cacheKey);
-  }
+  const cacheKey = `${category || 'all'}:${brand || 'all'}:${thickness || 'all'}:${searchText || ''}:${safePage}:${safePageSize}:${allPages}`;
+  const cached = filteredProductsCache.get(cacheKey);
+  if (cached && Date.now() - cached.timestamp < LIST_CACHE_TTL_MS) return cached.data;
 
   const getLocalFallbackResult = async () => {
     const rawLocalMaterials = await getLocalMaterials();
@@ -543,7 +557,7 @@ export async function fetchFilteredProducts({ category, brand, thickness, search
 
     const filtered = filterLocalProducts(deduplicateProducts(mappedLocal), { category, brand, thickness, searchText });
     const from = safePage * safePageSize;
-    const paged = filtered.slice(from, from + safePageSize);
+    const paged = allPages ? filtered : filtered.slice(from, from + safePageSize);
     const result = [...paged];
     result.items = paged;
     result.totalCount = filtered.length;
@@ -553,70 +567,85 @@ export async function fetchFilteredProducts({ category, brand, thickness, search
 
   if (!supabase) {
     const result = await getLocalFallbackResult();
-    filteredProductsCache.set(cacheKey, result);
+    filteredProductsCache.set(cacheKey, { data: result, timestamp: Date.now() });
     return result;
   }
 
-  if (!signal && filteredProductsCache.has(`inflight:${cacheKey}`)) {
-    return filteredProductsCache.get(`inflight:${cacheKey}`);
-  }
 
   const fetchPromise = (async () => {
     try {
       const from = safePage * safePageSize;
       const to = from + safePageSize - 1;
 
-      let query = supabase
-        .from('products')
-        .select(`
-          id, slug, name, product_code, price, thickness, size_text, unit, image_url, description, is_featured, is_active, sort_order,
-          categories!inner ( id, name ),
-          brands!inner ( id, name )
-        `, { count: 'exact' })
-        .eq('is_active', true);
+      const buildQuery = () => {
+        let query = supabase
+          .from('products')
+          .select(`
+            id, slug, name, product_code, price, thickness, size_text, unit, image_url, description, is_featured, is_active, sort_order,
+            categories!inner ( id, name ),
+            brands!inner ( id, name )
+          `, { count: 'exact' })
+          .eq('is_active', true);
 
-      if (searchText) {
-        const s = searchText.trim();
-        query = query.or(`name.ilike.%${s}%,product_code.ilike.%${s}%,description.ilike.%${s}%`);
-      } else {
-        if (category && category !== 'all') {
-          query = query.eq('categories.name', category);
-        }
-        if (brand && brand !== 'all') {
-          const b = brand.toUpperCase();
-          if (b === 'LX') {
-            query = query.or('name.ilike.%LX%,name.ilike.%LG%', { foreignTable: 'brands' });
-          } else if (b === 'DID') {
-            query = query.or('name.ilike.%DID%,name.ilike.%디아이디%', { foreignTable: 'brands' });
-          } else if (b === '신한') {
-            query = query.like('brands.name', '%신한%');
-          } else if (b === '현대' || b === '현대벽지') {
-            query = query.like('brands.name', '%현대%');
-          } else if (b === '어반') {
-            query = query.or('name.ilike.%어반%,name.ilike.%URBAN%', { foreignTable: 'brands' });
-          } else if (b.includes('이건')) {
-            query = query.or('name.ilike.%이건%,name.ilike.%이건마루%', { foreignTable: 'brands' });
-          } else {
-            query = query.ilike('brands.name', `%${brand}%`);
+        if (searchText) {
+          const s = searchText.trim();
+          query = query.or(`name.ilike.%${s}%,product_code.ilike.%${s}%,description.ilike.%${s}%`);
+        } else {
+          if (category && category !== 'all') {
+            query = query.eq('categories.name', category);
+          }
+          if (brand && brand !== 'all') {
+            const b = brand.toUpperCase();
+            if (b === 'LX') {
+              query = query.or('name.ilike.%LX%,name.ilike.%LG%', { foreignTable: 'brands' });
+            } else if (b === 'DID') {
+              query = query.or('name.ilike.%DID%,name.ilike.%디아이디%', { foreignTable: 'brands' });
+            } else if (b === '신한') {
+              query = query.like('brands.name', '%신한%');
+            } else if (b === '현대' || b === '현대벽지') {
+              query = query.like('brands.name', '%현대%');
+            } else if (b === '어반') {
+              query = query.or('name.ilike.%어반%,name.ilike.%URBAN%', { foreignTable: 'brands' });
+            } else if (b.includes('이건')) {
+              query = query.or('name.ilike.%이건%,name.ilike.%이건마루%', { foreignTable: 'brands' });
+            } else {
+              query = query.ilike('brands.name', `%${brand}%`);
+            }
+          }
+          if (category === '장판' && thickness && thickness !== 'all') {
+            query = query.eq('thickness', thickness);
           }
         }
-        if (category === '장판' && thickness && thickness !== 'all') {
-          query = query.eq('thickness', thickness);
+
+        if (signal) {
+          query = query.abortSignal(signal);
         }
+
+        query = query.order('sort_order', { ascending: true }).order('id', { ascending: false });
+        return query;
+      };
+      // Supabase may cap a response below the requested range. Advance by the
+      // actual row count and keep fetching until the exact count is covered.
+      const rows = [];
+      let offset = allPages ? 0 : from;
+      let count = null;
+      const end = allPages ? Infinity : to + 1;
+      while (offset < end) {
+        const response = await buildQuery().range(offset, Math.min(offset + 999, end - 1));
+        if (response.error) throw response.error;
+        if (!Array.isArray(response.data)) throw new Error('잘못된 상품 응답입니다. 다시 시도해 주세요.');
+        count = response.count ?? count;
+        if (!response.data.length) {
+          if (count != null && offset < Math.min(count, end)) throw new Error('상품 목록을 모두 받지 못했습니다. 다시 시도해 주세요.');
+          break;
+        }
+        rows.push(...response.data);
+        offset += response.data.length;
+        if (count != null && offset >= count) break;
       }
+      const res = { data: rows, count };
+      {
 
-      if (signal) {
-        query = query.abortSignal(signal);
-      }
-
-      query = query.order('sort_order', { ascending: true }).order('id', { ascending: false });
-      query = query.range(from, to);
-
-      // Soft race: wait 4000ms max for live Supabase DB response
-      const softTimer = new Promise(resolve => setTimeout(() => resolve({ timeout: true }), 4000));
-      const res = await Promise.race([query, softTimer]);
-
-      if (res && !res.timeout && !res.error && res.data && Array.isArray(res.data) && res.data.length > 0) {
         const mapped = deduplicateProducts(res.data.map(mapProductRow));
         const totalCount = res.count ?? mapped.length;
         const hasMore = from + res.data.length < totalCount;
@@ -629,38 +658,20 @@ export async function fetchFilteredProducts({ category, brand, thickness, search
         // Pre-populate individual product cache so navigating to detail page is instantaneous
         mapped.forEach(item => setCachedProduct(item));
 
-        filteredProductsCache.set(cacheKey, result);
+        filteredProductsCache.set(cacheKey, { data: result, timestamp: Date.now() });
         return result;
       }
 
-      if (res && res.error && (res.error.name === 'AbortError' || res.error.message?.includes('aborted'))) {
-        const abortErr = new Error('aborted');
-        abortErr.name = 'AbortError';
-        throw abortErr;
-      }
     } catch (err) {
-      if (err.name === 'AbortError' || err.message === 'aborted') {
-        filteredProductsCache.delete(`inflight:${cacheKey}`);
-        throw err;
-      }
-      console.warn('[fetchFilteredProducts] Supabase fetch exception or soft timeout, serving instant local fallback:', err);
+      // A live server error must not appear as a successful, potentially partial
+      // local catalog. The page already provides an error and retry action.
+      console.warn('[fetchFilteredProducts] request failed:', err);
+      throw err;
     }
 
-    // Instant local fallback when Supabase is slow or errors out (do not permanently poison cacheKey on transient timeout)
-    const fallbackResult = await getLocalFallbackResult();
-    return fallbackResult;
   })();
 
-  if (!signal) {
-    filteredProductsCache.set(`inflight:${cacheKey}`, fetchPromise);
-  }
-
-  try {
-    const res = await fetchPromise;
-    return res;
-  } finally {
-    filteredProductsCache.delete(`inflight:${cacheKey}`);
-  }
+  return fetchPromise;
 }
 
 function filterLocalProducts(list, { category, brand, thickness, searchText }) {
@@ -670,9 +681,9 @@ function filterLocalProducts(list, { category, brand, thickness, searchText }) {
   }
   if (searchText) {
     const s = searchText.trim().toLowerCase();
-    return workingList.filter(m => 
-      String(m.name).toLowerCase().includes(s) || 
-      String(m.code).toLowerCase().includes(s) || 
+    return workingList.filter(m =>
+      String(m.name).toLowerCase().includes(s) ||
+      String(m.code).toLowerCase().includes(s) ||
       String(m.brand).toLowerCase().includes(s) ||
       String(m.line).toLowerCase().includes(s)
     );
@@ -714,7 +725,8 @@ export function clearProductCache() {
   cachedProducts = null;
   filteredProductsCache.clear();
   productDetailMemoryCache.clear();
-  productDetailInflightRequests.clear();
+  cachedHomeProducts = null;
+  searchMaterialsCache.clear();
 }
 
 let cachedBrands = [];
@@ -741,9 +753,9 @@ export async function searchProductsServer(queryText, signal) {
     const all = await fetchAllProducts();
     const s = queryText.toLowerCase().trim();
     if (!s) return [];
-    return all.filter(m => 
-      String(m.name).toLowerCase().includes(s) || 
-      String(m.code).toLowerCase().includes(s) || 
+    return all.filter(m =>
+      String(m.name).toLowerCase().includes(s) ||
+      String(m.code).toLowerCase().includes(s) ||
       String(m.brand).toLowerCase().includes(s) ||
       String(m.description || m.line).toLowerCase().includes(s)
     );
@@ -760,8 +772,8 @@ export async function searchProductsServer(queryText, signal) {
     const remainingTokens = [];
 
     for (const token of tokens) {
-      const found = brandsList.find(b => 
-        b.name.toLowerCase() === token || 
+      const found = brandsList.find(b =>
+        b.name.toLowerCase() === token ||
         (token === 'lg' && b.name.toLowerCase() === 'lx') ||
         (token === '엘지' && b.name.toLowerCase() === 'lx')
       );
@@ -776,7 +788,7 @@ export async function searchProductsServer(queryText, signal) {
     const queries = [];
 
     // Prioritized sub-queries to prevent truncation of exact/prefix matches:
-    
+
     // Query 1: Exact matches on product code or name (highest priority)
     let q1 = supabase
       .from('products')
@@ -897,7 +909,7 @@ export async function searchProductsServer(queryText, signal) {
       if (name.includes(q) || nameClean.includes(qClean)) return 7;
       // 8. 브랜드 일치
       if (brand === q) return 8;
-      
+
       return 9; // 기타
     };
 
@@ -948,7 +960,12 @@ export function extractProductCodeFromParam(param) {
  * 3. Priority single-query lookup (direct ID query first if numeric, slug if string)
  * 4. Stale-while-revalidate support
  */
-export async function fetchProductDetailBySlugOrId(routeParam, signal = null, options = {}) {
+export function fetchProductDetailBySlugOrId(routeParam, signal = null, options = {}) {
+  const key = String(routeParam || '').trim().toLowerCase();
+  return runDetailRequest(key, sharedSignal => loadProductDetail(routeParam, sharedSignal, options), signal);
+}
+
+async function loadProductDetail(routeParam, signal = null, options = {}) {
   const { forceRefresh = false } = options;
   if (!routeParam) return null;
   let slug = String(routeParam).trim();
@@ -966,11 +983,6 @@ export async function fetchProductDetailBySlugOrId(routeParam, signal = null, op
   if (!forceRefresh) {
     const cached = getCachedProduct(cleanKey);
     if (cached) return cached;
-  }
-
-  // Deduplicate concurrent in-flight requests for same key
-  if (!signal && productDetailInflightRequests.has(cleanKey)) {
-    return productDetailInflightRequests.get(cleanKey);
   }
 
   const fetchPromise = (async () => {
@@ -1121,15 +1133,7 @@ export async function fetchProductDetailBySlugOrId(routeParam, signal = null, op
     }
   })();
 
-  if (!signal) {
-    productDetailInflightRequests.set(cleanKey, fetchPromise);
-  }
-
-  try {
-    return await fetchPromise;
-  } finally {
-    productDetailInflightRequests.delete(cleanKey);
-  }
+  return fetchPromise;
 }
 
 // High-performance search cache with TTL: 5 minutes
@@ -1140,7 +1144,15 @@ const SEARCH_CACHE_TTL = 5 * 60 * 1000;
  * High-performance full-catalog search for autocomplete and materials page.
  * Uses targeted PostgREST sub-conditions, relevance ranking, and soft-timeout local fallback.
  */
-export async function searchMaterials(queryText, optionsOrSignal = null) {
+export function searchMaterials(queryText, optionsOrSignal = null) {
+  const options = optionsOrSignal && 'aborted' in optionsOrSignal
+    ? { signal: optionsOrSignal } : (optionsOrSignal || {});
+  const { signal, ...filters } = options;
+  const key = JSON.stringify([queryText, filters.category, filters.brand, filters.thickness, filters.limit]);
+  return runSearchRequest(key, sharedSignal => loadSearchMaterials(queryText, { ...filters, signal: sharedSignal }), signal);
+}
+
+async function loadSearchMaterials(queryText, optionsOrSignal = null) {
   const text = String(queryText || '').trim();
   if (!text) return [];
 
@@ -1149,7 +1161,7 @@ export async function searchMaterials(queryText, optionsOrSignal = null) {
   let categoryFilter = null;
   let brandFilter = null;
   let thicknessFilter = null;
-  let limit = 100;
+  let limit = null;
 
   if (optionsOrSignal) {
     if (optionsOrSignal instanceof AbortSignal || optionsOrSignal.aborted !== undefined) {
@@ -1192,7 +1204,7 @@ export async function searchMaterials(queryText, optionsOrSignal = null) {
     const controller = new AbortController();
     const abort = () => controller.abort();
     signal?.addEventListener('abort', abort, { once: true });
-    const timer = setTimeout(abort, 4000);
+
 
     try {
       let request = supabase
@@ -1201,7 +1213,7 @@ export async function searchMaterials(queryText, optionsOrSignal = null) {
           id, slug, name, product_code, price, thickness, size_text, unit, image_url, description, is_featured, is_active, sort_order,
           categories!inner ( id, name ),
           brands!inner ( id, name )
-        `)
+        `, { count: 'exact' })
         .eq('is_active', true)
         .abortSignal(controller.signal);
 
@@ -1218,6 +1230,8 @@ export async function searchMaterials(queryText, optionsOrSignal = null) {
       // 2. Product code and numeric matching (space/hyphen agnostic)
       if (parsed.codeNorm) {
         orConds.push(`product_code.ilike.%${parsed.codeNorm}%`, `name.ilike.%${parsed.codeNorm}%`);
+        const identifier = parsed.codeNorm.replace(/[^A-Za-z0-9]/g, '');
+        if (identifier) orConds.push(`product_code.ilike.%${identifier.split('').join('%')}%`);
 
         // If code has letters + digits (e.g. "TS5541", "FSM6202", "RT6202")
         const codeAlphaNum = parsed.codeNorm.match(/^([A-Z]+)(\d+)([A-Z]*)$/i);
@@ -1295,22 +1309,30 @@ export async function searchMaterials(queryText, optionsOrSignal = null) {
         request = request.eq('thickness', thicknessFilter);
       }
 
-      request = request.order('sort_order', { ascending: true }).limit(limit);
-
-      const { data, error } = await request;
-      checkAbort();
-      if (error) throw error;
-
-      if (data && data.length > 0) {
-        const ranked = rank(data.map(mapProductRow));
+      request = request.order('sort_order', { ascending: true }).order('id', { ascending: true });
+      const data = [];
+      let offset = 0;
+      while (true) {
+        const response = await request.range(offset, offset + 999);
+        checkAbort();
+        if (response.error) throw response.error;
+        if (!Array.isArray(response.data)) throw new Error('잘못된 검색 응답입니다.');
+        data.push(...response.data);
+        offset += response.data.length;
+        if (response.count != null ? offset >= response.count : response.data.length < 1000) break;
+        if (!response.data.length) throw new Error('검색 결과를 모두 받지 못했습니다. 다시 시도해 주세요.');
+      }
+      {
+        const allRanked = rank(data.map(mapProductRow));
+        const ranked = limit ? allRanked.slice(0, limit) : allRanked;
         searchMaterialsCache.set(cacheKey, { data: ranked, timestamp: Date.now() });
         return ranked;
       }
     } catch (error) {
       checkAbort();
-      console.warn('[searchMaterials] Live search failed or soft timeout; using local catalogue:', error.message);
+      console.warn('[searchMaterials] Live search failed:', error.message);
+      throw error;
     } finally {
-      clearTimeout(timer);
       signal?.removeEventListener('abort', abort);
     }
   }
@@ -1318,7 +1340,7 @@ export async function searchMaterials(queryText, optionsOrSignal = null) {
   // Local fallback
   const local = await withTimeout(getLocalMaterials(), 4000);
   checkAbort();
-  let filteredLocal = local.map(m => mapProductRow(m));
+  let filteredLocal = local.map(m => normalizeProductDetails({ ...m }));
   if (categoryFilter && categoryFilter !== 'all') {
     filteredLocal = filteredLocal.filter(m => m.category === categoryFilter);
   }

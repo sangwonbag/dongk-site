@@ -56,10 +56,12 @@ export default function ProductImage({
     return list;
   }, [src, candidates]);
 
+  const urlsKey = JSON.stringify(urlsList);
+
   useEffect(() => {
     setCandidateIndex(0);
     setHasError(false);
-  }, [src, candidates]);
+  }, [urlsKey]);
 
   const currentSrc = urlsList[candidateIndex] || null;
 

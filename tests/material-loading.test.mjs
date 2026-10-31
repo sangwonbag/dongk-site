@@ -1,0 +1,45 @@
+import test from 'node:test';
+import assert from 'node:assert/strict';
+process.env.VITE_SUPABASE_URL = 'https://loading-test.supabase.co';
+process.env.VITE_SUPABASE_ANON_KEY = 'public-test-key';
+let calls = 0;
+let mode = 'rows';
+const row = i => ({ id: i, slug: `test-${i}`, product_code: `TEST${i}`, name: `Product ${i}`, is_active: true, categories: { name: '데코타일' }, brands: { name: 'TEST' } });
+globalThis.fetch = async input => {
+  calls++;
+  await new Promise(resolve => setTimeout(resolve, 15));
+  if (mode === 'error') return new Response(JSON.stringify({message:'offline'}), {status:503, headers:{'Content-Type':'application/json'}});
+  const url = new URL(input instanceof Request ? input.url : input);
+  const offset = Number(url.searchParams.get('offset') || 0);
+  const limit = Number(url.searchParams.get('limit') || 1000);
+  const total = mode === 'empty' ? 0 : 2105;
+  // Simulate a project whose response row cap is below 1000.
+  const length = Math.max(0, Math.min(500, limit, total - offset));
+  const rows = Array.from({length}, (_, i) => row(offset + i));
+  return new Response(JSON.stringify(rows), {status:200, headers:{'Content-Type':'application/json', 'Content-Range':`${offset}-${offset+length-1}/${total}`}});
+};
+const { fetchFilteredProducts, fetchProductDetailBySlugOrId, getCachedProduct, productDetailMemoryCache } = await import('../src/utils/supabaseFetcher.js');
+test('all pages, cancellation, revisit cache, empty response and failure are distinct', async () => {
+  const filters = {category:'데코타일',brand:'TEST',allPages:true};
+  const abort = new AbortController();
+  const first = fetchFilteredProducts({...filters,signal:abort.signal});
+  const rejection = assert.rejects(first,{name:'AbortError'});
+  abort.abort();
+  const results = await fetchFilteredProducts({...filters,signal:new AbortController().signal});
+  await rejection;
+  assert.equal(results.length,2105);
+  assert.equal(calls,5);
+  assert.equal(results.hasMore,false);
+  assert.equal((await fetchFilteredProducts(filters)).length,2105);
+  assert.equal(calls,5);
+  assert.equal((await fetchProductDetailBySlugOrId('test-0')).code,'TEST0');
+  assert.equal(calls,5,'fresh detail cached by listing needs no network');
+  productDetailMemoryCache.set('expired',{data:row(1),timestamp:Date.now()-11*60*1000});
+  assert.equal(getCachedProduct('expired'),null);
+  mode='empty';
+  assert.equal((await fetchFilteredProducts({...filters,brand:'EMPTY'})).length,0);
+  mode='error';
+  await assert.rejects(fetchFilteredProducts({...filters,brand:'ERROR'}));
+  mode='empty';
+  assert.equal((await fetchFilteredProducts({...filters,brand:'ERROR'})).length,0,'failure is not cached');
+});
