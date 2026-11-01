@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useRef, useMemo } from "react";
+import React, { useState, useEffect, useRef } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import MainLayout from "../../components/layout/MainLayout";
 import LazySection from "../../components/common/LazySection";
@@ -12,7 +12,6 @@ import {
   Pause, 
   ShoppingBag, 
   FileText, 
-  Sparkles, 
   CheckCircle2, 
   Building2, 
   Briefcase, 
@@ -40,51 +39,503 @@ const HOME_JSON_LD = {
   }
 };
 
-// KCC Flagship Lineups (Ordered: 센스타일 트랜디 -> 센스타일 프로 -> 센스레이)
+// Lightweight homepage snapshot of registered KCC Trendy products in materials.db.js.
+// Keep each product's image, specification and canonical detail ID together.
 const KCC_COLLECTION = [
   {
-    id: "trendy",
-    code: "TS5502P",
-    brand: "KCC",
-    lineup: "KCC 센스타일 트랜디",
-    subLine: "450각 · 600각 · 우드",
-    spec: "457.2 × 457.2mm (450각) · 3.0T",
-    packaging: "16매 / 3.34㎡(1BOX)",
-    badge: "동경바닥재 PICK",
-    description: "감각적인 직물·스톤·우드 질감의 주거 및 상업 공간 베스트셀러 데코타일",
-    image: "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/KCC_센스타일_트랜디_450각_이미지/TS5502P.webp",
-    detailUrl: "/materials/TS5502P",
-    browseUrl: "/materials?category=데코타일&brand=KCC&line=센스타일 트랜디"
+    "id": "데코타일-kcc-kcc_square-ts5502p",
+    "code": "TS5502P",
+    "brand": "KCC",
+    "lineup": "KCC 센스타일 트랜디 우븐 TS5502P",
+    "subLine": "450각",
+    "spec": "457.2×457.2mm · 3.0T",
+    "packaging": "16매 / 3.34㎡ (1BOX)",
+    "description": "센스타일 트랜디 450각 · 우븐",
+    "image": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/KCC_센스타일_트랜디_450각_이미지/TS5502P.webp",
+    "detailUrl": "/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC-kcc-kcc_square-ts5502p"
   },
   {
-    id: "pro",
-    code: "30141M",
-    brand: "KCC",
-    lineup: "KCC 센스타일 프로",
-    subLine: "600각 · 대형 타일",
-    spec: "600 × 600mm (600각) · 3.0T",
-    packaging: "9매 / 3.24㎡(1BOX)",
-    badge: "인기 데코타일",
-    description: "특수 UV 코팅과 스톤·마블·콘크리트 질감의 고강도 프리미엄 상업용 LVT 바닥재",
-    image: "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 600각/30141M.webp",
-    detailUrl: "/materials/30141M",
-    browseUrl: "/materials?category=데코타일&brand=KCC&line=센스타일 프로"
+    "id": "데코타일-kcc-kcc_square-ts5503p",
+    "code": "TS5503P",
+    "brand": "KCC",
+    "lineup": "KCC 센스타일 트랜디 우븐 TS5503P",
+    "subLine": "450각",
+    "spec": "457.2×457.2mm · 3.0T",
+    "packaging": "16매 / 3.34㎡ (1BOX)",
+    "description": "센스타일 트랜디 450각 · 우븐",
+    "image": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/KCC_센스타일_트랜디_450각_이미지/TS5503P.webp",
+    "detailUrl": "/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC-kcc-kcc_square-ts5503p"
   },
   {
-    id: "senselay",
-    code: "B0123J",
-    brand: "KCC",
-    lineup: "KCC 센스레이",
-    subLine: "5.0T 고두께 프리미엄",
-    spec: "457.2 × 914.4mm · 5.0T (고두께)",
-    packaging: "지정 접착제 (센스풀) 시공",
-    badge: "추천",
-    description: "5mm 고두께 설계로 뛰어난 치수 안정성과 내마모성을 제공하는 프리미엄 LVT",
-    image: "/images/Thumbnail_Image/materials/데코타일/KCC/센스레이/KCC센스레이 450각/B0123J.jpg",
-    detailUrl: "/materials/B0123J",
-    browseUrl: "/materials?category=데코타일&brand=KCC&line=센스레이(내수)"
+    "id": "데코타일-kcc-kcc_square-ts5510p",
+    "code": "TS5510P",
+    "brand": "KCC",
+    "lineup": "KCC 센스타일 트랜디 카펫 TS5510P",
+    "subLine": "450각",
+    "spec": "457.2×457.2mm · 3.0T",
+    "packaging": "16매 / 3.34㎡ (1BOX)",
+    "description": "센스타일 트랜디 450각 · 카펫",
+    "image": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/KCC_센스타일_트랜디_450각_이미지/TS5510P.webp",
+    "detailUrl": "/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC-kcc-kcc_square-ts5510p"
+  },
+  {
+    "id": "데코타일-kcc-kcc_square-ts5511p",
+    "code": "TS5511P",
+    "brand": "KCC",
+    "lineup": "KCC 센스타일 트랜디 카펫 TS5511P",
+    "subLine": "450각",
+    "spec": "457.2×457.2mm · 3.0T",
+    "packaging": "16매 / 3.34㎡ (1BOX)",
+    "description": "센스타일 트랜디 450각 · 카펫",
+    "image": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/KCC_센스타일_트랜디_450각_이미지/TS5511P.webp",
+    "detailUrl": "/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC-kcc-kcc_square-ts5511p"
+  },
+  {
+    "id": "데코타일-kcc-kcc_square-ts5516p",
+    "code": "TS5516P",
+    "brand": "KCC",
+    "lineup": "KCC 센스타일 트랜디 마블 TS5516P",
+    "subLine": "450각",
+    "spec": "457.2×457.2mm · 3.0T",
+    "packaging": "16매 / 3.34㎡ (1BOX)",
+    "description": "센스타일 트랜디 450각 · 마블",
+    "image": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/KCC_센스타일_트랜디_450각_이미지/TS5516P.webp",
+    "detailUrl": "/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC-kcc-kcc_square-ts5516p"
+  },
+  {
+    "id": "데코타일-kcc-kcc_square-ts5518p",
+    "code": "TS5518P",
+    "brand": "KCC",
+    "lineup": "KCC 센스타일 트랜디 콘크리트 TS5518P",
+    "subLine": "450각",
+    "spec": "457.2×457.2mm · 3.0T",
+    "packaging": "16매 / 3.34㎡ (1BOX)",
+    "description": "센스타일 트랜디 450각 · 콘크리트",
+    "image": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/KCC_센스타일_트랜디_450각_이미지/TS5518P.webp",
+    "detailUrl": "/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC-kcc-kcc_square-ts5518p"
+  },
+  {
+    "id": "데코타일-kcc-kcc_square-ts5519p",
+    "code": "TS5519P",
+    "brand": "KCC",
+    "lineup": "KCC 센스타일 트랜디 콘크리트 TS5519P",
+    "subLine": "450각",
+    "spec": "457.2×457.2mm · 3.0T",
+    "packaging": "16매 / 3.34㎡ (1BOX)",
+    "description": "센스타일 트랜디 450각 · 콘크리트",
+    "image": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/KCC_센스타일_트랜디_450각_이미지/TS5519P.webp",
+    "detailUrl": "/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC-kcc-kcc_square-ts5519p"
+  },
+  {
+    "id": "데코타일-kcc-kcc_square-ts5531m",
+    "code": "TS5531M",
+    "brand": "KCC",
+    "lineup": "KCC 센스타일 트랜디 오닉스 TS5531M",
+    "subLine": "600각",
+    "spec": "600×600mm · 3.0T",
+    "packaging": "9매 / 3.24㎡ (1BOX)",
+    "description": "센스타일 트랜디 600각 · 오닉스",
+    "image": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/KCC_센스타일_트랜디_600각_이미지/TS5531M.png",
+    "detailUrl": "/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC-kcc-kcc_square-ts5531m"
+  },
+  {
+    "id": "데코타일-kcc-kcc_square-ts5532m",
+    "code": "TS5532M",
+    "brand": "KCC",
+    "lineup": "KCC 센스타일 트랜디 파라디소 TS5532M",
+    "subLine": "600각",
+    "spec": "600×600mm · 3.0T",
+    "packaging": "9매 / 3.24㎡ (1BOX)",
+    "description": "센스타일 트랜디 600각 · 파라디소",
+    "image": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/KCC_센스타일_트랜디_600각_이미지/TS5532M.png",
+    "detailUrl": "/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC-kcc-kcc_square-ts5532m"
+  },
+  {
+    "id": "데코타일-kcc-kcc_square-ts5533m",
+    "code": "TS5533M",
+    "brand": "KCC",
+    "lineup": "KCC 센스타일 트랜디 파라디소 TS5533M",
+    "subLine": "600각",
+    "spec": "600×600mm · 3.0T",
+    "packaging": "9매 / 3.24㎡ (1BOX)",
+    "description": "센스타일 트랜디 600각 · 파라디소",
+    "image": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/KCC_센스타일_트랜디_600각_이미지/TS5533M.png",
+    "detailUrl": "/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC-kcc-kcc_square-ts5533m"
+  },
+  {
+    "id": "데코타일-kcc-kcc_square-ts5534m",
+    "code": "TS5534M",
+    "brand": "KCC",
+    "lineup": "KCC 센스타일 트랜디 파라디소 TS5534M",
+    "subLine": "600각",
+    "spec": "600×600mm · 3.0T",
+    "packaging": "9매 / 3.24㎡ (1BOX)",
+    "description": "센스타일 트랜디 600각 · 파라디소",
+    "image": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/KCC_센스타일_트랜디_600각_이미지/TS5534M.png",
+    "detailUrl": "/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC-kcc-kcc_square-ts5534m"
+  },
+  {
+    "id": "데코타일-kcc-kcc_square-ts5535m",
+    "code": "TS5535M",
+    "brand": "KCC",
+    "lineup": "KCC 센스타일 트랜디 어반 콘크리트 TS5535M",
+    "subLine": "600각",
+    "spec": "600×600mm · 3.0T",
+    "packaging": "9매 / 3.24㎡ (1BOX)",
+    "description": "센스타일 트랜디 600각 · 어반 콘크리트",
+    "image": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/KCC_센스타일_트랜디_600각_이미지/TS5535M.png",
+    "detailUrl": "/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC-kcc-kcc_square-ts5535m"
+  },
+  {
+    "id": "데코타일-kcc-kcc_square-ts5536m",
+    "code": "TS5536M",
+    "brand": "KCC",
+    "lineup": "KCC 센스타일 트랜디 어반 콘크리트 TS5536M",
+    "subLine": "600각",
+    "spec": "600×600mm · 3.0T",
+    "packaging": "9매 / 3.24㎡ (1BOX)",
+    "description": "센스타일 트랜디 600각 · 어반 콘크리트",
+    "image": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/KCC_센스타일_트랜디_600각_이미지/TS5536M.png",
+    "detailUrl": "/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC-kcc-kcc_square-ts5536m"
+  },
+  {
+    "id": "데코타일-kcc-kcc_square-ts5537m",
+    "code": "TS5537M",
+    "brand": "KCC",
+    "lineup": "KCC 센스타일 트랜디 어반 콘크리트 TS5537M",
+    "subLine": "600각",
+    "spec": "600×600mm · 3.0T",
+    "packaging": "9매 / 3.24㎡ (1BOX)",
+    "description": "센스타일 트랜디 600각 · 어반 콘크리트",
+    "image": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/KCC_센스타일_트랜디_600각_이미지/TS5537M.png",
+    "detailUrl": "/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC-kcc-kcc_square-ts5537m"
+  },
+  {
+    "id": "데코타일-kcc-kcc_square-ts5541p",
+    "code": "TS5541P",
+    "brand": "KCC",
+    "lineup": "KCC 센스타일 트랜디 슬레이트 TS5541P",
+    "subLine": "450각",
+    "spec": "457.2×457.2mm · 3.0T",
+    "packaging": "16매 / 3.34㎡ (1BOX)",
+    "description": "센스타일 트랜디 450각 · 슬레이트",
+    "image": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/KCC_센스타일_트랜디_450각_이미지/TS5541P.webp",
+    "detailUrl": "/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC-kcc-kcc_square-ts5541p"
+  },
+  {
+    "id": "데코타일-kcc-kcc_square-ts5542p",
+    "code": "TS5542P",
+    "brand": "KCC",
+    "lineup": "KCC 센스타일 트랜디 슬레이트 TS5542P",
+    "subLine": "450각",
+    "spec": "457.2×457.2mm · 3.0T",
+    "packaging": "16매 / 3.34㎡ (1BOX)",
+    "description": "센스타일 트랜디 450각 · 슬레이트",
+    "image": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/KCC_센스타일_트랜디_450각_이미지/TS5542P.webp",
+    "detailUrl": "/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC-kcc-kcc_square-ts5542p"
+  },
+  {
+    "id": "데코타일-kcc-kcc_square-ts5543p",
+    "code": "TS5543P",
+    "brand": "KCC",
+    "lineup": "KCC 센스타일 트랜디 슬레이트 TS5543P",
+    "subLine": "450각",
+    "spec": "457.2×457.2mm · 3.0T",
+    "packaging": "16매 / 3.34㎡ (1BOX)",
+    "description": "센스타일 트랜디 450각 · 슬레이트",
+    "image": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/KCC_센스타일_트랜디_450각_이미지/TS5543P.webp",
+    "detailUrl": "/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC-kcc-kcc_square-ts5543p"
+  },
+  {
+    "id": "데코타일-kcc-kcc_square-ts5544p",
+    "code": "TS5544P",
+    "brand": "KCC",
+    "lineup": "KCC 센스타일 트랜디 슬레이트 TS5544P",
+    "subLine": "450각",
+    "spec": "457.2×457.2mm · 3.0T",
+    "packaging": "16매 / 3.34㎡ (1BOX)",
+    "description": "센스타일 트랜디 450각 · 슬레이트",
+    "image": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/KCC_센스타일_트랜디_450각_이미지/TS5544P.webp",
+    "detailUrl": "/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC-kcc-kcc_square-ts5544p"
+  },
+  {
+    "id": "데코타일-kcc-kcc_square-ts5545p",
+    "code": "TS5545P",
+    "brand": "KCC",
+    "lineup": "KCC 센스타일 트랜디 테라죠 TS5545P",
+    "subLine": "450각",
+    "spec": "457.2×457.2mm · 3.0T",
+    "packaging": "16매 / 3.34㎡ (1BOX)",
+    "description": "센스타일 트랜디 450각 · 테라죠",
+    "image": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/KCC_센스타일_트랜디_450각_이미지/TS5545P.webp",
+    "detailUrl": "/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC-kcc-kcc_square-ts5545p"
+  },
+  {
+    "id": "데코타일-kcc-kcc_square-ts5546p",
+    "code": "TS5546P",
+    "brand": "KCC",
+    "lineup": "KCC 센스타일 트랜디 테라죠 TS5546P",
+    "subLine": "450각",
+    "spec": "457.2×457.2mm · 3.0T",
+    "packaging": "16매 / 3.34㎡ (1BOX)",
+    "description": "센스타일 트랜디 450각 · 테라죠",
+    "image": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/KCC_센스타일_트랜디_450각_이미지/TS5546P.webp",
+    "detailUrl": "/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC-kcc-kcc_square-ts5546p"
+  },
+  {
+    "id": "데코타일-kcc-kcc_square-ts5547p",
+    "code": "TS5547P",
+    "brand": "KCC",
+    "lineup": "KCC 센스타일 트랜디 비앙코 TS5547P",
+    "subLine": "450각",
+    "spec": "457.2×457.2mm · 3.0T",
+    "packaging": "16매 / 3.34㎡ (1BOX)",
+    "description": "센스타일 트랜디 450각 · 비앙코",
+    "image": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/KCC_센스타일_트랜디_450각_이미지/TS5547P.webp",
+    "detailUrl": "/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC-kcc-kcc_square-ts5547p"
+  },
+  {
+    "id": "데코타일-kcc-kcc_square-ts5548p",
+    "code": "TS5548P",
+    "brand": "KCC",
+    "lineup": "KCC 센스타일 트랜디 샌드스톤 TS5548P",
+    "subLine": "450각",
+    "spec": "457.2×457.2mm · 3.0T",
+    "packaging": "16매 / 3.34㎡ (1BOX)",
+    "description": "센스타일 트랜디 450각 · 샌드스톤",
+    "image": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/KCC_센스타일_트랜디_450각_이미지/TS5548P.webp",
+    "detailUrl": "/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC-kcc-kcc_square-ts5548p"
+  },
+  {
+    "id": "데코타일-kcc-kcc_square-ts5549p",
+    "code": "TS5549P",
+    "brand": "KCC",
+    "lineup": "KCC 센스타일 트랜디 샌드스톤 TS5549P",
+    "subLine": "450각",
+    "spec": "457.2×457.2mm · 3.0T",
+    "packaging": "16매 / 3.34㎡ (1BOX)",
+    "description": "센스타일 트랜디 450각 · 샌드스톤",
+    "image": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/KCC_센스타일_트랜디_450각_이미지/TS5549P.webp",
+    "detailUrl": "/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC-kcc-kcc_square-ts5549p"
+  },
+  {
+    "id": "데코타일-kcc-kcc_square-ts5550p",
+    "code": "TS5550P",
+    "brand": "KCC",
+    "lineup": "KCC 센스타일 트랜디 콘크리트 TS5550P",
+    "subLine": "450각",
+    "spec": "457.2×457.2mm · 3.0T",
+    "packaging": "16매 / 3.34㎡ (1BOX)",
+    "description": "센스타일 트랜디 450각 · 콘크리트",
+    "image": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/KCC_센스타일_트랜디_450각_이미지/TS5550P.webp",
+    "detailUrl": "/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC-kcc-kcc_square-ts5550p"
+  },
+  {
+    "id": "데코타일-kcc-kcc_square-ts5551p",
+    "code": "TS5551P",
+    "brand": "KCC",
+    "lineup": "KCC 센스타일 트랜디 베이직 카펫 TS5551P",
+    "subLine": "450각",
+    "spec": "457.2×457.2mm · 3.0T",
+    "packaging": "16매 / 3.34㎡ (1BOX)",
+    "description": "센스타일 트랜디 450각 · 베이직 카펫",
+    "image": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/KCC_센스타일_트랜디_450각_이미지/TS5551P.webp",
+    "detailUrl": "/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC-kcc-kcc_square-ts5551p"
+  },
+  {
+    "id": "데코타일-kcc-kcc_square-ts5552p",
+    "code": "TS5552P",
+    "brand": "KCC",
+    "lineup": "KCC 센스타일 트랜디 베이직 카펫 TS5552P",
+    "subLine": "450각",
+    "spec": "457.2×457.2mm · 3.0T",
+    "packaging": "16매 / 3.34㎡ (1BOX)",
+    "description": "센스타일 트랜디 450각 · 베이직 카펫",
+    "image": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/KCC_센스타일_트랜디_450각_이미지/TS5552P.webp",
+    "detailUrl": "/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC-kcc-kcc_square-ts5552p"
+  },
+  {
+    "id": "데코타일-kcc-kcc_wood-tw-5102g",
+    "code": "TW5102G",
+    "brand": "KCC",
+    "lineup": "KCC 센스타일 트랜디 파인 TW5102G",
+    "subLine": "우드",
+    "spec": "184×950mm · 3.0T",
+    "packaging": "19매 / 3.32㎡ (1BOX)",
+    "description": "센스타일 트랜디 우드 · 파인",
+    "image": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/KCC_센스타일_트랜디_우드_이미지/TW5102G.png",
+    "detailUrl": "/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC-kcc-kcc_wood-tw-5102g"
+  },
+  {
+    "id": "데코타일-kcc-kcc_wood-tw-5103g",
+    "code": "TW5103G",
+    "brand": "KCC",
+    "lineup": "KCC 센스타일 트랜디 워시 오크 TW5103G",
+    "subLine": "우드",
+    "spec": "184×950mm · 3.0T",
+    "packaging": "19매 / 3.32㎡ (1BOX)",
+    "description": "센스타일 트랜디 우드 · 워시 오크",
+    "image": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/KCC_센스타일_트랜디_우드_이미지/TW5103G.png",
+    "detailUrl": "/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC-kcc-kcc_wood-tw-5103g"
+  },
+  {
+    "id": "데코타일-kcc-kcc_wood-tw-5104g",
+    "code": "TW5104G",
+    "brand": "KCC",
+    "lineup": "KCC 센스타일 트랜디 오크 TW5104G",
+    "subLine": "우드",
+    "spec": "184×950mm · 3.0T",
+    "packaging": "19매 / 3.32㎡ (1BOX)",
+    "description": "센스타일 트랜디 우드 · 오크",
+    "image": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/KCC_센스타일_트랜디_우드_이미지/TW5104G.png",
+    "detailUrl": "/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC-kcc-kcc_wood-tw-5104g"
+  },
+  {
+    "id": "데코타일-kcc-kcc_wood-tw-5105g",
+    "code": "TW5105G",
+    "brand": "KCC",
+    "lineup": "KCC 센스타일 트랜디 오크 TW5105G",
+    "subLine": "우드",
+    "spec": "184×950mm · 3.0T",
+    "packaging": "19매 / 3.32㎡ (1BOX)",
+    "description": "센스타일 트랜디 우드 · 오크",
+    "image": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/KCC_센스타일_트랜디_우드_이미지/TW5105G.png",
+    "detailUrl": "/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC-kcc-kcc_wood-tw-5105g"
+  },
+  {
+    "id": "데코타일-kcc-kcc_wood-tw-5106g",
+    "code": "TW5106G",
+    "brand": "KCC",
+    "lineup": "KCC 센스타일 트랜디 엘름 TW5106G",
+    "subLine": "우드",
+    "spec": "184×950mm · 3.0T",
+    "packaging": "19매 / 3.32㎡ (1BOX)",
+    "description": "센스타일 트랜디 우드 · 엘름",
+    "image": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/KCC_센스타일_트랜디_우드_이미지/TW5106G.png",
+    "detailUrl": "/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC-kcc-kcc_wood-tw-5106g"
+  },
+  {
+    "id": "데코타일-kcc-kcc_wood-tw-5107g",
+    "code": "TW5107G",
+    "brand": "KCC",
+    "lineup": "KCC 센스타일 트랜디 오크 TW5107G",
+    "subLine": "우드",
+    "spec": "184×950mm · 3.0T",
+    "packaging": "19매 / 3.32㎡ (1BOX)",
+    "description": "센스타일 트랜디 우드 · 오크",
+    "image": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/KCC_센스타일_트랜디_우드_이미지/TW5107G.png",
+    "detailUrl": "/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC-kcc-kcc_wood-tw-5107g"
+  },
+  {
+    "id": "데코타일-kcc-kcc_wood-tw-5108g",
+    "code": "TW5108G",
+    "brand": "KCC",
+    "lineup": "KCC 센스타일 트랜디 오크 TW5108G",
+    "subLine": "우드",
+    "spec": "184×950mm · 3.0T",
+    "packaging": "19매 / 3.32㎡ (1BOX)",
+    "description": "센스타일 트랜디 우드 · 오크",
+    "image": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/KCC_센스타일_트랜디_우드_이미지/TW5108G.png",
+    "detailUrl": "/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC-kcc-kcc_wood-tw-5108g"
+  },
+  {
+    "id": "데코타일-kcc-kcc_wood-tw-5109g",
+    "code": "TW5109G",
+    "brand": "KCC",
+    "lineup": "KCC 센스타일 트랜디 메이플 TW5109G",
+    "subLine": "우드",
+    "spec": "184×950mm · 3.0T",
+    "packaging": "19매 / 3.32㎡ (1BOX)",
+    "description": "센스타일 트랜디 우드 · 메이플",
+    "image": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/KCC_센스타일_트랜디_우드_이미지/TW5109G.png",
+    "detailUrl": "/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC-kcc-kcc_wood-tw-5109g"
+  },
+  {
+    "id": "데코타일-kcc-kcc_wood-tw-5110g",
+    "code": "TW5110G",
+    "brand": "KCC",
+    "lineup": "KCC 센스타일 트랜디 오크 TW5110G",
+    "subLine": "우드",
+    "spec": "184×950mm · 3.0T",
+    "packaging": "19매 / 3.32㎡ (1BOX)",
+    "description": "센스타일 트랜디 우드 · 오크",
+    "image": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/KCC_센스타일_트랜디_우드_이미지/TW5110G.png",
+    "detailUrl": "/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC-kcc-kcc_wood-tw-5110g"
+  },
+  {
+    "id": "데코타일-kcc-kcc_wood-tw-5111g",
+    "code": "TW5111G",
+    "brand": "KCC",
+    "lineup": "KCC 센스타일 트랜디 워시 오크 TW5111G",
+    "subLine": "우드",
+    "spec": "184×950mm · 3.0T",
+    "packaging": "19매 / 3.32㎡ (1BOX)",
+    "description": "센스타일 트랜디 우드 · 워시 오크",
+    "image": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/KCC_센스타일_트랜디_우드_이미지/TW5111G.png",
+    "detailUrl": "/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC-kcc-kcc_wood-tw-5111g"
+  },
+  {
+    "id": "데코타일-kcc-kcc_wood-tw-5112g",
+    "code": "TW5112G",
+    "brand": "KCC",
+    "lineup": "KCC 센스타일 트랜디 오크 TW5112G",
+    "subLine": "우드",
+    "spec": "184×950mm · 3.0T",
+    "packaging": "19매 / 3.32㎡ (1BOX)",
+    "description": "센스타일 트랜디 우드 · 오크",
+    "image": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/KCC_센스타일_트랜디_우드_이미지/TW5112G.png",
+    "detailUrl": "/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC-kcc-kcc_wood-tw-5112g"
+  },
+  {
+    "id": "데코타일-kcc-kcc_wood-tw-5119g",
+    "code": "TW5119G",
+    "brand": "KCC",
+    "lineup": "KCC 센스타일 트랜디 오크 TW5119G",
+    "subLine": "우드",
+    "spec": "184×950mm · 3.0T",
+    "packaging": "19매 / 3.32㎡ (1BOX)",
+    "description": "센스타일 트랜디 우드 · 오크",
+    "image": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/KCC_센스타일_트랜디_우드_이미지/TW5119G.png",
+    "detailUrl": "/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC-kcc-kcc_wood-tw-5119g"
+  },
+  {
+    "id": "데코타일-kcc-kcc_wood-tw-5120g",
+    "code": "TW5120G",
+    "brand": "KCC",
+    "lineup": "KCC 센스타일 트랜디 오크 TW5120G",
+    "subLine": "우드",
+    "spec": "184×950mm · 3.0T",
+    "packaging": "19매 / 3.32㎡ (1BOX)",
+    "description": "센스타일 트랜디 우드 · 오크",
+    "image": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/KCC_센스타일_트랜디_우드_이미지/TW5120G.png",
+    "detailUrl": "/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC-kcc-kcc_wood-tw-5120g"
+  },
+  {
+    "id": "데코타일-kcc-센스타일_트랜디-ts5508p",
+    "code": "TS5508P",
+    "brand": "KCC",
+    "lineup": "KCC 센스타일 트랜디 브러쉬 카펫 TS5508P",
+    "subLine": "450각",
+    "spec": "457.2×457.2mm · 3.0T",
+    "packaging": "16매 / 3.34㎡ (1BOX)",
+    "description": "센스타일 트랜디 450각 · 브러쉬 카펫",
+    "image": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/KCC_센스타일_트랜디_450각_이미지/TS5508P.webp",
+    "detailUrl": "/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC-kcc-%EC%84%BC%EC%8A%A4%ED%83%80%EC%9D%BC_%ED%8A%B8%EB%9E%9C%EB%94%94-ts5508p"
   }
 ];
+
+const TRENDY_HISTORY_KEY = 'dk-home-trendy-products-v1';
+
+function pickTrendyProducts(previousIds = []) {
+  const previous = new Set(previousIds);
+  const fresh = KCC_COLLECTION.filter((item) => !previous.has(item.id));
+  const pool = [...(fresh.length >= 3 ? fresh : KCC_COLLECTION)];
+  for (let i = pool.length - 1; i > 0; i -= 1) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [pool[i], pool[j]] = [pool[j], pool[i]];
+  }
+  return pool.slice(0, 3);
+}
 
 // LX Flagship Sheet Flooring Lineups (Ordered: 뉴청맥 1.8T -> 지아자연애 2.2T -> 엑스컴포트 5.0T)
 const LX_JANGPAN_COLLECTION = [
@@ -96,7 +547,6 @@ const LX_JANGPAN_COLLECTION = [
     subLine: "1.8T · 베스트셀러 륨 장판",
     spec: "1.8mm(T) × 1,830mm · 1.8T",
     packaging: "35m / Roll",
-    badge: "동경바닥재 PICK",
     description: "합리적인 가격과 검증된 품질로 대중적인 신뢰를 받는 대표 베스트셀러 1.8T 주거용 륨 장판",
     image: "/images/Thumbnail_Image/materials/장판/LX/LX하우시스_뉴청맥_1.8T/CM21882.jpg",
     detailUrl: "/materials/CM21882",
@@ -110,7 +560,6 @@ const LX_JANGPAN_COLLECTION = [
     subLine: "2.2T · 친환경 프리미엄",
     spec: "2.2mm(T) × 1,830mm · 2.2T",
     packaging: "30m / Roll",
-    badge: "추천",
     description: "옥수수 유래 식물성 지아(Zea) 원료 층 적용, 친환경성과 풍부한 쿠션감을 갖춘 2.2T 프리미엄 장판",
     image: "/images/Thumbnail_Image/materials/장판/LX/LX하우시스_지아자연애_2.2T/ZJ43601-22.jpg",
     detailUrl: "/materials/ZJ43601-22",
@@ -124,7 +573,6 @@ const LX_JANGPAN_COLLECTION = [
     subLine: "5.0T · 최고급 고탄성 쿠션",
     spec: "5.0mm(T) × 1,830mm · 5.0T",
     packaging: "20m / Roll",
-    badge: "인기 장판",
     description: "5.0T 고탄성 2중 쿠션층으로 탁월한 충격 흡수와 층간소음 저감 효과를 제공하는 하이엔드 장판",
     image: "/images/Thumbnail_Image/materials/장판/LX/LX하우시스_엑스컴포트_5.0T/XCF3441.jpg",
     detailUrl: "/materials/XCF3441",
@@ -185,6 +633,24 @@ export default function Home() {
   const [videoError, setVideoError] = useState(false);
   const [scrollProgress, setScrollProgress] = useState(0);
   const [recommendedCategory, setRecommendedCategory] = useState("decotile");
+
+  // Use deterministic initial markup for prerendering; randomize once per home visit.
+  const [trendyProducts, setTrendyProducts] = useState(() => KCC_COLLECTION.slice(0, 3));
+  const trendyInitializedRef = useRef(false);
+  useEffect(() => {
+    if (trendyInitializedRef.current) return;
+    trendyInitializedRef.current = true;
+    let previousIds = [];
+    try {
+      const saved = JSON.parse(window.sessionStorage.getItem(TRENDY_HISTORY_KEY) || '[]');
+      if (Array.isArray(saved)) previousIds = saved;
+    } catch { /* Random selection also works when storage is unavailable. */ }
+    const selected = pickTrendyProducts(previousIds);
+    setTrendyProducts(selected);
+    try {
+      window.sessionStorage.setItem(TRENDY_HISTORY_KEY, JSON.stringify(selected.map((item) => item.id)));
+    } catch { /* Storage is optional. */ }
+  }, []);
 
   // Setup idle preload for seamless route switching
   useEffect(() => {
@@ -411,7 +877,7 @@ export default function Home() {
               </h2>
               <p className="section-sub-copy">
                 {recommendedCategory === "decotile"
-                  ? "동경바닥재가 추천하는 KCC 대표 상업·주거용 데코타일 라인업"
+                  ? "KCC 센스타일 트랜디의 다양한 패턴을 만나보세요."
                   : "동경바닥재가 추천하는 LX하우시스 대표 친환경·고기능 륨 장판 라인업"}
               </p>
 
@@ -423,7 +889,6 @@ export default function Home() {
                   onClick={() => setRecommendedCategory("decotile")}
                   aria-pressed={recommendedCategory === "decotile"}
                 >
-                  <span className="tab-badge">KCC 최우선</span>
                   <span>데코타일 추천</span>
                 </button>
                 <button
@@ -432,7 +897,6 @@ export default function Home() {
                   onClick={() => setRecommendedCategory("jangpan")}
                   aria-pressed={recommendedCategory === "jangpan"}
                 >
-                  <span className="tab-badge">LX하우시스 최우선</span>
                   <span>장판 추천</span>
                 </button>
               </div>
@@ -440,7 +904,7 @@ export default function Home() {
 
             {/* Flagship Cards Grid */}
             <div className="collection-cards-grid">
-              {(recommendedCategory === "decotile" ? KCC_COLLECTION : LX_JANGPAN_COLLECTION).map((item, idx) => (
+              {(recommendedCategory === "decotile" ? trendyProducts : LX_JANGPAN_COLLECTION).map((item, idx) => (
                 <article key={item.id} className="collection-card">
                   {/* Card Thumbnail Image with Hover Zoom */}
                   <div className="collection-card-media">
@@ -456,10 +920,6 @@ export default function Home() {
                         e.target.src = "/images/no-image.svg";
                       }}
                     />
-                    <div className="collection-card-badge">
-                      <Sparkles size={13} />
-                      <span>{item.badge}</span>
-                    </div>
                     <span className="collection-index-pill">0{idx + 1}</span>
                   </div>
 
