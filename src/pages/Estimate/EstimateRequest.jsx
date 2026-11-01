@@ -740,7 +740,7 @@ export default function EstimateRequest() {
   }
 
   return (
-    <MainLayout>
+    <MainLayout className="estimate-request-content">
       <SEO 
         title="견적문의 | 동경바닥재"
         description="원하는 자재와 현장 정보를 입력해 주시면 동경바닥재 담당자가 확인 후 맞춤 견적을 안내해 드립니다."

@@ -569,25 +569,36 @@
   border-radius: var(--radius-md);
 }
 
-/* Mobile Sticky Buttons */
-@media (max-width: 768px) {
-  .est-page {
-    padding-bottom: 120px;
+/* Reserve the bottom navigation and iOS safe area for mobile step actions. */
+@media (max-width: 767.98px) {
+  .estimate-request-content .est-page {
+    padding-bottom: calc(160px + env(safe-area-inset-bottom, 0px));
+  }
+
+  /* Prevent contact shortcuts from covering the inquiry controls. */
+  .estimate-request-content ~ .floating-buttons-container,
+  .estimate-request-content ~ .right-float-mobile {
+    display: none;
   }
   
-  .est-actions {
+  .estimate-request-content .est-actions {
     position: fixed;
-    bottom: 0;
+    bottom: calc(var(--mobile-bottom-nav-height, 58px) + env(safe-area-inset-bottom, 0px));
     left: 0;
     right: 0;
     margin: 0;
     padding: 16px;
     background: #ffffff;
     box-shadow: 0 -4px 20px rgba(0, 0, 0, 0.08);
-    z-index: 1000;
+    z-index: 1001;
     border-top: 1px solid var(--border);
   }
   
+  .estimate-request-content .est-actions button {
+    min-height: 48px;
+    min-width: 0;
+  }
+
   .form-row {
     flex-direction: column;
     gap: 0;
