@@ -66,7 +66,7 @@ const KCC_COLLECTION = [
     packaging: "9매 / 3.24㎡(1BOX)",
     badge: "인기 데코타일",
     description: "특수 UV 코팅과 스톤·마블·콘크리트 질감의 고강도 프리미엄 상업용 LVT 바닥재",
-    image: "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/30141M.png",
+    image: "/images/Thumbnail_Image/materials/데코타일/KCC/KCC_pro/KCC프로 600각/30141M.webp",
     detailUrl: "/materials/30141M",
     browseUrl: "/materials?category=데코타일&brand=KCC&line=센스타일 프로"
   },
