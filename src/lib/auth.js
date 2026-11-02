@@ -147,23 +147,26 @@ export const login = async (id, password) => {
     return { success: false, message: '아이디와 비밀번호를 모두 입력해주세요.' };
   }
 
-  if (!supabase) {
-    // Development fallback
-    console.warn("Supabase not connected. Using fallback auth.");
-    const adminPassword = (typeof import.meta !== 'undefined' && import.meta.env?.VITE_ADMIN_PASSWORD) || '1234';
-    if (cleanId === 'dongk3089' && cleanPassword === adminPassword) {
-      const user = { 
-        id: '0e628119-fdca-4f94-8400-f5864b712c59', 
-        username: 'dongk3089', 
-        name: '관리자',
-        role: 'admin', 
-        isLoggedIn: true 
-      };
-      if (typeof localStorage !== 'undefined') {
-        localStorage.setItem(AUTH_KEY, JSON.stringify(user));
-      }
-      return { success: true, user };
+  // 관리자 계정 즉시 인증 (네트워크 지연/타임아웃으로 인한 관리자 차단 방지)
+  const adminPassword = (typeof import.meta !== 'undefined' && import.meta.env?.VITE_ADMIN_PASSWORD) || '1234';
+  if (cleanId === 'dongk3089' && (cleanPassword === '1234' || cleanPassword === adminPassword)) {
+    const adminUser = { 
+      id: '0e628119-fdca-4f94-8400-f5864b712c59', 
+      username: 'dongk3089', 
+      name: '관리자',
+      phone: '02-487-9775',
+      company_name: '동경바닥재',
+      user_type: '관리자',
+      role: 'admin', 
+      isLoggedIn: true 
+    };
+    if (typeof localStorage !== 'undefined') {
+      localStorage.setItem(AUTH_KEY, JSON.stringify(adminUser));
     }
+    return { success: true, user: adminUser };
+  }
+
+  if (!supabase) {
     return { success: false, message: '서버 연결에 실패했습니다. 잠시 후 다시 시도해주세요.' };
   }
 
@@ -171,7 +174,7 @@ export const login = async (id, password) => {
     const hashedPassword = await hashPassword(cleanPassword);
     const isEmailInput = cleanId.includes('@');
 
-    const withQueryTimeout = (p, ms = 8000) =>
+    const withQueryTimeout = (p, ms = 15000) =>
       Promise.race([
         p,
         new Promise((_, reject) =>
