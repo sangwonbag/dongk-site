@@ -23,6 +23,7 @@ const OrderComplete = React.lazy(() => import("../pages/Cart/OrderComplete"));
 const OrderHistory = React.lazy(() => import("../pages/Cart/OrderHistory"));
 const Signup = React.lazy(() => import("../pages/Signup/Signup"));
 const LoginCallback = React.lazy(() => import("../pages/Login/LoginCallback"));
+const ResetPassword = React.lazy(() => import("../pages/Login/ResetPassword"));
 const MyPage = React.lazy(() => import("../pages/MyPage/MyPage"));
 const CustomerEstimateView = React.lazy(() => import("../pages/MyPage/CustomerEstimateView"));
 const PrivacyPolicy = React.lazy(() => import("../pages/PrivacyPolicy/PrivacyPolicy"));
@@ -114,6 +115,7 @@ export default function App() {
             <Route path="/customer-center" element={<Home />} />
             <Route path="/login" element={<Login />} />
             <Route path="/login-callback" element={<LoginCallback />} />
+            <Route path="/reset-password" element={<ResetPassword />} />
             <Route path="/signup" element={<Signup />} />
             <Route path="/mypage" element={<MyPage />} />
             <Route path="/mypage/estimates" element={<MyPage />} />

@@ -30,14 +30,17 @@ export default function AuthModal({ isOpen, onClose, onSuccess }) {
     e.preventDefault();
     setLoginError("");
 
-    if (!loginId.trim() || !loginPw.trim()) {
+    const submittedId = (loginId || e.currentTarget?.elements?.loginId?.value || "").trim();
+    const submittedPw = (loginPw || e.currentTarget?.elements?.loginPw?.value || "").trim();
+
+    if (!submittedId || !submittedPw) {
       setLoginError("아이디와 비밀번호를 모두 입력해주세요.");
       return;
     }
 
     setLoading(true);
     try {
-      const res = await authLogin(loginId.trim(), loginPw);
+      const res = await authLogin(submittedId, submittedPw);
       if (res.success) {
         if (onSuccess) onSuccess(res.user);
         onClose();

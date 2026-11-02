@@ -1,6 +1,6 @@
 /* eslint-disable react-refresh/only-export-components */
 import React, { createContext, useContext, useState, useEffect, useCallback } from 'react';
-import { getCurrentUser, login as authLogin, logout as authLogout, signup as authSignup } from '../lib/auth';
+import { getCurrentUser, login as authLogin, logout as authLogout, signup as authSignup, findUsernameByEmail, requestPasswordReset, updatePasswordWithSession } from '../lib/auth';
 import { supabase } from '../lib/supabaseClient';
 
 const AuthContext = createContext(null);
@@ -219,6 +219,9 @@ export function AuthProvider({ children }) {
     login,
     logout,
     signup,
+    findUsernameByEmail,
+    requestPasswordReset,
+    updatePasswordWithSession,
     openLoginModal,
     closeLoginModal,
     setUser,

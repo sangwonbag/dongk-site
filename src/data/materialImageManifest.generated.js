@@ -19791,6 +19791,146 @@ export const imageManifest = [
     "imageType": "material"
   },
   {
+    "fileName": "S5004.png",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/마루/한솔/울트라강/S5004.png",
+    "category": "마루",
+    "brand": "한솔",
+    "series": "울트라강",
+    "extractedCode": "S5004",
+    "normalizedFileName": "s5004png",
+    "imageType": "material"
+  },
+  {
+    "fileName": "S5006.png",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/마루/한솔/울트라강/S5006.png",
+    "category": "마루",
+    "brand": "한솔",
+    "series": "울트라강",
+    "extractedCode": "S5006",
+    "normalizedFileName": "s5006png",
+    "imageType": "material"
+  },
+  {
+    "fileName": "S5008.png",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/마루/한솔/울트라강/S5008.png",
+    "category": "마루",
+    "brand": "한솔",
+    "series": "울트라강",
+    "extractedCode": "S5008",
+    "normalizedFileName": "s5008png",
+    "imageType": "material"
+  },
+  {
+    "fileName": "S5009.png",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/마루/한솔/울트라강/S5009.png",
+    "category": "마루",
+    "brand": "한솔",
+    "series": "울트라강",
+    "extractedCode": "S5009",
+    "normalizedFileName": "s5009png",
+    "imageType": "material"
+  },
+  {
+    "fileName": "S5703.png",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/마루/한솔/울트라강/S5703.png",
+    "category": "마루",
+    "brand": "한솔",
+    "series": "울트라강",
+    "extractedCode": "S5703",
+    "normalizedFileName": "s5703png",
+    "imageType": "material"
+  },
+  {
+    "fileName": "S5710.png",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/마루/한솔/울트라강/S5710.png",
+    "category": "마루",
+    "brand": "한솔",
+    "series": "울트라강",
+    "extractedCode": "S5710",
+    "normalizedFileName": "s5710png",
+    "imageType": "material"
+  },
+  {
+    "fileName": "S8001.png",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/마루/한솔/울트라강/S8001.png",
+    "category": "마루",
+    "brand": "한솔",
+    "series": "울트라강",
+    "extractedCode": "S8001",
+    "normalizedFileName": "s8001png",
+    "imageType": "material"
+  },
+  {
+    "fileName": "S8024.png",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/마루/한솔/울트라강/S8024.png",
+    "category": "마루",
+    "brand": "한솔",
+    "series": "울트라강",
+    "extractedCode": "S8024",
+    "normalizedFileName": "s8024png",
+    "imageType": "material"
+  },
+  {
+    "fileName": "S8030.png",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/마루/한솔/울트라강/S8030.png",
+    "category": "마루",
+    "brand": "한솔",
+    "series": "울트라강",
+    "extractedCode": "S8030",
+    "normalizedFileName": "s8030png",
+    "imageType": "material"
+  },
+  {
+    "fileName": "S8032.png",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/마루/한솔/울트라강/S8032.png",
+    "category": "마루",
+    "brand": "한솔",
+    "series": "울트라강",
+    "extractedCode": "S8032",
+    "normalizedFileName": "s8032png",
+    "imageType": "material"
+  },
+  {
+    "fileName": "S8301.png",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/마루/한솔/울트라강/S8301.png",
+    "category": "마루",
+    "brand": "한솔",
+    "series": "울트라강",
+    "extractedCode": "S8301",
+    "normalizedFileName": "s8301png",
+    "imageType": "material"
+  },
+  {
+    "fileName": "S8302.png",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/마루/한솔/울트라강/S8302.png",
+    "category": "마루",
+    "brand": "한솔",
+    "series": "울트라강",
+    "extractedCode": "S8302",
+    "normalizedFileName": "s8302png",
+    "imageType": "material"
+  },
+  {
+    "fileName": "S8778.png",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/마루/한솔/울트라강/S8778.png",
+    "category": "마루",
+    "brand": "한솔",
+    "series": "울트라강",
+    "extractedCode": "S8778",
+    "normalizedFileName": "s8778png",
+    "imageType": "material"
+  },
+  {
+    "fileName": "S8792.png",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/마루/한솔/울트라강/S8792.png",
+    "category": "마루",
+    "brand": "한솔",
+    "series": "울트라강",
+    "extractedCode": "S8792",
+    "normalizedFileName": "s8792png",
+    "imageType": "material"
+  },
+  {
     "fileName": "PR002-01.jpg",
     "fullPublicPath": "/images/Thumbnail_Image/materials/벽지/LX/디아망/LX_디아망/PR002-01.jpg",
     "category": "벽지",
