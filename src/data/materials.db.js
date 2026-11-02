@@ -4848,10 +4848,10 @@ export const materials = [
     "subLine": "LX하우스_데코레이s",
     "name": "",
     "code": "내지_데코_DLT 3300",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/LX/LX%ED%95%98%EC%9A%B0%EC%8A%A4_%EB%8D%B0%EC%BD%94%EB%A0%88%EC%9D%B4s/%EB%82%B4%EC%A7%80_%EB%8D%B0%EC%BD%94_DLT%203300.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/LX/LX%ED%95%98%EC%9A%B0%EC%8A%A4_%EB%8D%B0%EC%BD%94%EB%A0%88%EC%9D%B4s/%EB%82%B4%EC%A7%80_%EB%8D%B0%EC%BD%94_DLT%203300.jpg",
+    "thumbnail": '/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/LX/LX%ED%95%98%EC%9A%B0%EC%8A%A4_%EB%8D%B0%EC%BD%94%EB%A0%88%EC%9D%B4s/DLT%203300.jpg',
+    "image": '/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/LX/LX%ED%95%98%EC%9A%B0%EC%8A%A4_%EB%8D%B0%EC%BD%94%EB%A0%88%EC%9D%B4s/DLT%203300.jpg',
     "images": [
-      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/LX/LX%ED%95%98%EC%9A%B0%EC%8A%A4_%EB%8D%B0%EC%BD%94%EB%A0%88%EC%9D%B4s/%EB%82%B4%EC%A7%80_%EB%8D%B0%EC%BD%94_DLT%203300.jpg"
+      '/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/LX/LX%ED%95%98%EC%9A%B0%EC%8A%A4_%EB%8D%B0%EC%BD%94%EB%A0%88%EC%9D%B4s/DLT%203300.jpg'
     ],
     "price": 44000,
     "thickness": "",
@@ -4873,10 +4873,10 @@ export const materials = [
     "subLine": "LX하우스_데코레이s",
     "name": "",
     "code": "내지_데코_DLT 3301",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/LX/LX%ED%95%98%EC%9A%B0%EC%8A%A4_%EB%8D%B0%EC%BD%94%EB%A0%88%EC%9D%B4s/%EB%82%B4%EC%A7%80_%EB%8D%B0%EC%BD%94_DLT%203301.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/LX/LX%ED%95%98%EC%9A%B0%EC%8A%A4_%EB%8D%B0%EC%BD%94%EB%A0%88%EC%9D%B4s/%EB%82%B4%EC%A7%80_%EB%8D%B0%EC%BD%94_DLT%203301.jpg",
+    "thumbnail": '/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/LX/LX%ED%95%98%EC%9A%B0%EC%8A%A4_%EB%8D%B0%EC%BD%94%EB%A0%88%EC%9D%B4s/DLT%203301.jpg',
+    "image": '/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/LX/LX%ED%95%98%EC%9A%B0%EC%8A%A4_%EB%8D%B0%EC%BD%94%EB%A0%88%EC%9D%B4s/DLT%203301.jpg',
     "images": [
-      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/LX/LX%ED%95%98%EC%9A%B0%EC%8A%A4_%EB%8D%B0%EC%BD%94%EB%A0%88%EC%9D%B4s/%EB%82%B4%EC%A7%80_%EB%8D%B0%EC%BD%94_DLT%203301.jpg"
+      '/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/LX/LX%ED%95%98%EC%9A%B0%EC%8A%A4_%EB%8D%B0%EC%BD%94%EB%A0%88%EC%9D%B4s/DLT%203301.jpg'
     ],
     "price": 44000,
     "thickness": "",
@@ -4898,10 +4898,10 @@ export const materials = [
     "subLine": "LX하우스_데코레이s",
     "name": "",
     "code": "내지_데코_DLT 3302",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/LX/LX%ED%95%98%EC%9A%B0%EC%8A%A4_%EB%8D%B0%EC%BD%94%EB%A0%88%EC%9D%B4s/%EB%82%B4%EC%A7%80_%EB%8D%B0%EC%BD%94_DLT%203302.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/LX/LX%ED%95%98%EC%9A%B0%EC%8A%A4_%EB%8D%B0%EC%BD%94%EB%A0%88%EC%9D%B4s/%EB%82%B4%EC%A7%80_%EB%8D%B0%EC%BD%94_DLT%203302.jpg",
+    "thumbnail": '/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/LX/LX%ED%95%98%EC%9A%B0%EC%8A%A4_%EB%8D%B0%EC%BD%94%EB%A0%88%EC%9D%B4s/DLT%203302.jpg',
+    "image": '/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/LX/LX%ED%95%98%EC%9A%B0%EC%8A%A4_%EB%8D%B0%EC%BD%94%EB%A0%88%EC%9D%B4s/DLT%203302.jpg',
     "images": [
-      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/LX/LX%ED%95%98%EC%9A%B0%EC%8A%A4_%EB%8D%B0%EC%BD%94%EB%A0%88%EC%9D%B4s/%EB%82%B4%EC%A7%80_%EB%8D%B0%EC%BD%94_DLT%203302.jpg"
+      '/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/LX/LX%ED%95%98%EC%9A%B0%EC%8A%A4_%EB%8D%B0%EC%BD%94%EB%A0%88%EC%9D%B4s/DLT%203302.jpg'
     ],
     "price": 44000,
     "thickness": "",
@@ -4923,10 +4923,10 @@ export const materials = [
     "subLine": "LX하우스_데코레이s",
     "name": "",
     "code": "내지_데코_DLT 3303",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/LX/LX%ED%95%98%EC%9A%B0%EC%8A%A4_%EB%8D%B0%EC%BD%94%EB%A0%88%EC%9D%B4s/%EB%82%B4%EC%A7%80_%EB%8D%B0%EC%BD%94_DLT%203303.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/LX/LX%ED%95%98%EC%9A%B0%EC%8A%A4_%EB%8D%B0%EC%BD%94%EB%A0%88%EC%9D%B4s/%EB%82%B4%EC%A7%80_%EB%8D%B0%EC%BD%94_DLT%203303.jpg",
+    "thumbnail": '/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/LX/LX%ED%95%98%EC%9A%B0%EC%8A%A4_%EB%8D%B0%EC%BD%94%EB%A0%88%EC%9D%B4s/DLT%203303.jpg',
+    "image": '/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/LX/LX%ED%95%98%EC%9A%B0%EC%8A%A4_%EB%8D%B0%EC%BD%94%EB%A0%88%EC%9D%B4s/DLT%203303.jpg',
     "images": [
-      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/LX/LX%ED%95%98%EC%9A%B0%EC%8A%A4_%EB%8D%B0%EC%BD%94%EB%A0%88%EC%9D%B4s/%EB%82%B4%EC%A7%80_%EB%8D%B0%EC%BD%94_DLT%203303.jpg"
+      '/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/LX/LX%ED%95%98%EC%9A%B0%EC%8A%A4_%EB%8D%B0%EC%BD%94%EB%A0%88%EC%9D%B4s/DLT%203303.jpg'
     ],
     "price": 44000,
     "thickness": "",
@@ -4948,10 +4948,10 @@ export const materials = [
     "subLine": "LX하우스_데코레이s",
     "name": "",
     "code": "내지_데코_DLT 3306",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/LX/LX%ED%95%98%EC%9A%B0%EC%8A%A4_%EB%8D%B0%EC%BD%94%EB%A0%88%EC%9D%B4s/%EB%82%B4%EC%A7%80_%EB%8D%B0%EC%BD%94_DLT%203306.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/LX/LX%ED%95%98%EC%9A%B0%EC%8A%A4_%EB%8D%B0%EC%BD%94%EB%A0%88%EC%9D%B4s/%EB%82%B4%EC%A7%80_%EB%8D%B0%EC%BD%94_DLT%203306.jpg",
+    "thumbnail": '/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/LX/LX%ED%95%98%EC%9A%B0%EC%8A%A4_%EB%8D%B0%EC%BD%94%EB%A0%88%EC%9D%B4s/DLT%203306.jpg',
+    "image": '/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/LX/LX%ED%95%98%EC%9A%B0%EC%8A%A4_%EB%8D%B0%EC%BD%94%EB%A0%88%EC%9D%B4s/DLT%203306.jpg',
     "images": [
-      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/LX/LX%ED%95%98%EC%9A%B0%EC%8A%A4_%EB%8D%B0%EC%BD%94%EB%A0%88%EC%9D%B4s/%EB%82%B4%EC%A7%80_%EB%8D%B0%EC%BD%94_DLT%203306.jpg"
+      '/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/LX/LX%ED%95%98%EC%9A%B0%EC%8A%A4_%EB%8D%B0%EC%BD%94%EB%A0%88%EC%9D%B4s/DLT%203306.jpg'
     ],
     "price": 44000,
     "thickness": "",
@@ -4973,10 +4973,10 @@ export const materials = [
     "subLine": "LX하우스_데코레이s",
     "name": "",
     "code": "내지_데코_DLT 3307",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/LX/LX%ED%95%98%EC%9A%B0%EC%8A%A4_%EB%8D%B0%EC%BD%94%EB%A0%88%EC%9D%B4s/%EB%82%B4%EC%A7%80_%EB%8D%B0%EC%BD%94_DLT%203307.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/LX/LX%ED%95%98%EC%9A%B0%EC%8A%A4_%EB%8D%B0%EC%BD%94%EB%A0%88%EC%9D%B4s/%EB%82%B4%EC%A7%80_%EB%8D%B0%EC%BD%94_DLT%203307.jpg",
+    "thumbnail": '/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/LX/LX%ED%95%98%EC%9A%B0%EC%8A%A4_%EB%8D%B0%EC%BD%94%EB%A0%88%EC%9D%B4s/DLT%203307.jpg',
+    "image": '/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/LX/LX%ED%95%98%EC%9A%B0%EC%8A%A4_%EB%8D%B0%EC%BD%94%EB%A0%88%EC%9D%B4s/DLT%203307.jpg',
     "images": [
-      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/LX/LX%ED%95%98%EC%9A%B0%EC%8A%A4_%EB%8D%B0%EC%BD%94%EB%A0%88%EC%9D%B4s/%EB%82%B4%EC%A7%80_%EB%8D%B0%EC%BD%94_DLT%203307.jpg"
+      '/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/LX/LX%ED%95%98%EC%9A%B0%EC%8A%A4_%EB%8D%B0%EC%BD%94%EB%A0%88%EC%9D%B4s/DLT%203307.jpg'
     ],
     "price": 44000,
     "thickness": "",
@@ -4998,10 +4998,10 @@ export const materials = [
     "subLine": "LX하우스_데코레이s",
     "name": "",
     "code": "내지_데코_DLT 3308",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/LX/LX%ED%95%98%EC%9A%B0%EC%8A%A4_%EB%8D%B0%EC%BD%94%EB%A0%88%EC%9D%B4s/%EB%82%B4%EC%A7%80_%EB%8D%B0%EC%BD%94_DLT%203308.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/LX/LX%ED%95%98%EC%9A%B0%EC%8A%A4_%EB%8D%B0%EC%BD%94%EB%A0%88%EC%9D%B4s/%EB%82%B4%EC%A7%80_%EB%8D%B0%EC%BD%94_DLT%203308.jpg",
+    "thumbnail": '/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/LX/LX%ED%95%98%EC%9A%B0%EC%8A%A4_%EB%8D%B0%EC%BD%94%EB%A0%88%EC%9D%B4s/DLT%203308.jpg',
+    "image": '/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/LX/LX%ED%95%98%EC%9A%B0%EC%8A%A4_%EB%8D%B0%EC%BD%94%EB%A0%88%EC%9D%B4s/DLT%203308.jpg',
     "images": [
-      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/LX/LX%ED%95%98%EC%9A%B0%EC%8A%A4_%EB%8D%B0%EC%BD%94%EB%A0%88%EC%9D%B4s/%EB%82%B4%EC%A7%80_%EB%8D%B0%EC%BD%94_DLT%203308.jpg"
+      '/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/LX/LX%ED%95%98%EC%9A%B0%EC%8A%A4_%EB%8D%B0%EC%BD%94%EB%A0%88%EC%9D%B4s/DLT%203308.jpg'
     ],
     "price": 44000,
     "thickness": "",
@@ -5023,10 +5023,10 @@ export const materials = [
     "subLine": "LX하우스_데코레이s",
     "name": "",
     "code": "내지_데코_DLT 3309",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/LX/LX%ED%95%98%EC%9A%B0%EC%8A%A4_%EB%8D%B0%EC%BD%94%EB%A0%88%EC%9D%B4s/%EB%82%B4%EC%A7%80_%EB%8D%B0%EC%BD%94_DLT%203309.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/LX/LX%ED%95%98%EC%9A%B0%EC%8A%A4_%EB%8D%B0%EC%BD%94%EB%A0%88%EC%9D%B4s/%EB%82%B4%EC%A7%80_%EB%8D%B0%EC%BD%94_DLT%203309.jpg",
+    "thumbnail": '/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/LX/LX%ED%95%98%EC%9A%B0%EC%8A%A4_%EB%8D%B0%EC%BD%94%EB%A0%88%EC%9D%B4s/DLT%203309.jpg',
+    "image": '/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/LX/LX%ED%95%98%EC%9A%B0%EC%8A%A4_%EB%8D%B0%EC%BD%94%EB%A0%88%EC%9D%B4s/DLT%203309.jpg',
     "images": [
-      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/LX/LX%ED%95%98%EC%9A%B0%EC%8A%A4_%EB%8D%B0%EC%BD%94%EB%A0%88%EC%9D%B4s/%EB%82%B4%EC%A7%80_%EB%8D%B0%EC%BD%94_DLT%203309.jpg"
+      '/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/LX/LX%ED%95%98%EC%9A%B0%EC%8A%A4_%EB%8D%B0%EC%BD%94%EB%A0%88%EC%9D%B4s/DLT%203309.jpg'
     ],
     "price": 44000,
     "thickness": "",
@@ -5048,10 +5048,10 @@ export const materials = [
     "subLine": "LX하우스_데코레이s",
     "name": "",
     "code": "내지_데코_DLT 3310",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/LX/LX%ED%95%98%EC%9A%B0%EC%8A%A4_%EB%8D%B0%EC%BD%94%EB%A0%88%EC%9D%B4s/%EB%82%B4%EC%A7%80_%EB%8D%B0%EC%BD%94_DLT%203310.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/LX/LX%ED%95%98%EC%9A%B0%EC%8A%A4_%EB%8D%B0%EC%BD%94%EB%A0%88%EC%9D%B4s/%EB%82%B4%EC%A7%80_%EB%8D%B0%EC%BD%94_DLT%203310.jpg",
+    "thumbnail": '/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/LX/LX%ED%95%98%EC%9A%B0%EC%8A%A4_%EB%8D%B0%EC%BD%94%EB%A0%88%EC%9D%B4s/DLT%203310.jpg',
+    "image": '/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/LX/LX%ED%95%98%EC%9A%B0%EC%8A%A4_%EB%8D%B0%EC%BD%94%EB%A0%88%EC%9D%B4s/DLT%203310.jpg',
     "images": [
-      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/LX/LX%ED%95%98%EC%9A%B0%EC%8A%A4_%EB%8D%B0%EC%BD%94%EB%A0%88%EC%9D%B4s/%EB%82%B4%EC%A7%80_%EB%8D%B0%EC%BD%94_DLT%203310.jpg"
+      '/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/LX/LX%ED%95%98%EC%9A%B0%EC%8A%A4_%EB%8D%B0%EC%BD%94%EB%A0%88%EC%9D%B4s/DLT%203310.jpg'
     ],
     "price": 44000,
     "thickness": "",
@@ -5073,10 +5073,10 @@ export const materials = [
     "subLine": "LX하우스_데코레이s",
     "name": "",
     "code": "내지_데코_DLT 3311",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/LX/LX%ED%95%98%EC%9A%B0%EC%8A%A4_%EB%8D%B0%EC%BD%94%EB%A0%88%EC%9D%B4s/%EB%82%B4%EC%A7%80_%EB%8D%B0%EC%BD%94_DLT%203311.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/LX/LX%ED%95%98%EC%9A%B0%EC%8A%A4_%EB%8D%B0%EC%BD%94%EB%A0%88%EC%9D%B4s/%EB%82%B4%EC%A7%80_%EB%8D%B0%EC%BD%94_DLT%203311.jpg",
+    "thumbnail": '/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/LX/LX%ED%95%98%EC%9A%B0%EC%8A%A4_%EB%8D%B0%EC%BD%94%EB%A0%88%EC%9D%B4s/DLT%203311.jpg',
+    "image": '/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/LX/LX%ED%95%98%EC%9A%B0%EC%8A%A4_%EB%8D%B0%EC%BD%94%EB%A0%88%EC%9D%B4s/DLT%203311.jpg',
     "images": [
-      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/LX/LX%ED%95%98%EC%9A%B0%EC%8A%A4_%EB%8D%B0%EC%BD%94%EB%A0%88%EC%9D%B4s/%EB%82%B4%EC%A7%80_%EB%8D%B0%EC%BD%94_DLT%203311.jpg"
+      '/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/LX/LX%ED%95%98%EC%9A%B0%EC%8A%A4_%EB%8D%B0%EC%BD%94%EB%A0%88%EC%9D%B4s/DLT%203311.jpg'
     ],
     "price": 44000,
     "thickness": "",
@@ -5098,10 +5098,10 @@ export const materials = [
     "subLine": "LX하우스_데코레이s",
     "name": "",
     "code": "내지_데코_DLT 3312",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/LX/LX%ED%95%98%EC%9A%B0%EC%8A%A4_%EB%8D%B0%EC%BD%94%EB%A0%88%EC%9D%B4s/%EB%82%B4%EC%A7%80_%EB%8D%B0%EC%BD%94_DLT%203312.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/LX/LX%ED%95%98%EC%9A%B0%EC%8A%A4_%EB%8D%B0%EC%BD%94%EB%A0%88%EC%9D%B4s/%EB%82%B4%EC%A7%80_%EB%8D%B0%EC%BD%94_DLT%203312.jpg",
+    "thumbnail": '/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/LX/LX%ED%95%98%EC%9A%B0%EC%8A%A4_%EB%8D%B0%EC%BD%94%EB%A0%88%EC%9D%B4s/DLT%203312.jpg',
+    "image": '/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/LX/LX%ED%95%98%EC%9A%B0%EC%8A%A4_%EB%8D%B0%EC%BD%94%EB%A0%88%EC%9D%B4s/DLT%203312.jpg',
     "images": [
-      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/LX/LX%ED%95%98%EC%9A%B0%EC%8A%A4_%EB%8D%B0%EC%BD%94%EB%A0%88%EC%9D%B4s/%EB%82%B4%EC%A7%80_%EB%8D%B0%EC%BD%94_DLT%203312.jpg"
+      '/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/LX/LX%ED%95%98%EC%9A%B0%EC%8A%A4_%EB%8D%B0%EC%BD%94%EB%A0%88%EC%9D%B4s/DLT%203312.jpg'
     ],
     "price": 44000,
     "thickness": "",
@@ -5123,10 +5123,10 @@ export const materials = [
     "subLine": "LX하우스_데코레이s",
     "name": "",
     "code": "내지_데코_DLT 3313",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/LX/LX%ED%95%98%EC%9A%B0%EC%8A%A4_%EB%8D%B0%EC%BD%94%EB%A0%88%EC%9D%B4s/%EB%82%B4%EC%A7%80_%EB%8D%B0%EC%BD%94_DLT%203313.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/LX/LX%ED%95%98%EC%9A%B0%EC%8A%A4_%EB%8D%B0%EC%BD%94%EB%A0%88%EC%9D%B4s/%EB%82%B4%EC%A7%80_%EB%8D%B0%EC%BD%94_DLT%203313.jpg",
+    "thumbnail": '/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/LX/LX%ED%95%98%EC%9A%B0%EC%8A%A4_%EB%8D%B0%EC%BD%94%EB%A0%88%EC%9D%B4s/DLT%203313.jpg',
+    "image": '/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/LX/LX%ED%95%98%EC%9A%B0%EC%8A%A4_%EB%8D%B0%EC%BD%94%EB%A0%88%EC%9D%B4s/DLT%203313.jpg',
     "images": [
-      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/LX/LX%ED%95%98%EC%9A%B0%EC%8A%A4_%EB%8D%B0%EC%BD%94%EB%A0%88%EC%9D%B4s/%EB%82%B4%EC%A7%80_%EB%8D%B0%EC%BD%94_DLT%203313.jpg"
+      '/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/LX/LX%ED%95%98%EC%9A%B0%EC%8A%A4_%EB%8D%B0%EC%BD%94%EB%A0%88%EC%9D%B4s/DLT%203313.jpg'
     ],
     "price": 44000,
     "thickness": "",
@@ -5148,10 +5148,10 @@ export const materials = [
     "subLine": "LX하우스_데코레이s",
     "name": "",
     "code": "내지_데코_DLT 3314",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/LX/LX%ED%95%98%EC%9A%B0%EC%8A%A4_%EB%8D%B0%EC%BD%94%EB%A0%88%EC%9D%B4s/%EB%82%B4%EC%A7%80_%EB%8D%B0%EC%BD%94_DLT%203314.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/LX/LX%ED%95%98%EC%9A%B0%EC%8A%A4_%EB%8D%B0%EC%BD%94%EB%A0%88%EC%9D%B4s/%EB%82%B4%EC%A7%80_%EB%8D%B0%EC%BD%94_DLT%203314.jpg",
+    "thumbnail": '/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/LX/LX%ED%95%98%EC%9A%B0%EC%8A%A4_%EB%8D%B0%EC%BD%94%EB%A0%88%EC%9D%B4s/DLT%203314.jpg',
+    "image": '/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/LX/LX%ED%95%98%EC%9A%B0%EC%8A%A4_%EB%8D%B0%EC%BD%94%EB%A0%88%EC%9D%B4s/DLT%203314.jpg',
     "images": [
-      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/LX/LX%ED%95%98%EC%9A%B0%EC%8A%A4_%EB%8D%B0%EC%BD%94%EB%A0%88%EC%9D%B4s/%EB%82%B4%EC%A7%80_%EB%8D%B0%EC%BD%94_DLT%203314.jpg"
+      '/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/LX/LX%ED%95%98%EC%9A%B0%EC%8A%A4_%EB%8D%B0%EC%BD%94%EB%A0%88%EC%9D%B4s/DLT%203314.jpg'
     ],
     "price": 44000,
     "thickness": "",
@@ -5173,10 +5173,10 @@ export const materials = [
     "subLine": "LX하우스_데코레이s",
     "name": "",
     "code": "내지_데코_DLT 3315",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/LX/LX%ED%95%98%EC%9A%B0%EC%8A%A4_%EB%8D%B0%EC%BD%94%EB%A0%88%EC%9D%B4s/%EB%82%B4%EC%A7%80_%EB%8D%B0%EC%BD%94_DLT%203315.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/LX/LX%ED%95%98%EC%9A%B0%EC%8A%A4_%EB%8D%B0%EC%BD%94%EB%A0%88%EC%9D%B4s/%EB%82%B4%EC%A7%80_%EB%8D%B0%EC%BD%94_DLT%203315.jpg",
+    "thumbnail": '/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/LX/LX%ED%95%98%EC%9A%B0%EC%8A%A4_%EB%8D%B0%EC%BD%94%EB%A0%88%EC%9D%B4s/DLT%203315.jpg',
+    "image": '/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/LX/LX%ED%95%98%EC%9A%B0%EC%8A%A4_%EB%8D%B0%EC%BD%94%EB%A0%88%EC%9D%B4s/DLT%203315.jpg',
     "images": [
-      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/LX/LX%ED%95%98%EC%9A%B0%EC%8A%A4_%EB%8D%B0%EC%BD%94%EB%A0%88%EC%9D%B4s/%EB%82%B4%EC%A7%80_%EB%8D%B0%EC%BD%94_DLT%203315.jpg"
+      '/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/LX/LX%ED%95%98%EC%9A%B0%EC%8A%A4_%EB%8D%B0%EC%BD%94%EB%A0%88%EC%9D%B4s/DLT%203315.jpg'
     ],
     "price": 44000,
     "thickness": "",
@@ -5198,10 +5198,10 @@ export const materials = [
     "subLine": "LX하우스_데코레이s",
     "name": "",
     "code": "내지_데코_DLT 3316",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/LX/LX%ED%95%98%EC%9A%B0%EC%8A%A4_%EB%8D%B0%EC%BD%94%EB%A0%88%EC%9D%B4s/%EB%82%B4%EC%A7%80_%EB%8D%B0%EC%BD%94_DLT%203316.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/LX/LX%ED%95%98%EC%9A%B0%EC%8A%A4_%EB%8D%B0%EC%BD%94%EB%A0%88%EC%9D%B4s/%EB%82%B4%EC%A7%80_%EB%8D%B0%EC%BD%94_DLT%203316.jpg",
+    "thumbnail": '/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/LX/LX%ED%95%98%EC%9A%B0%EC%8A%A4_%EB%8D%B0%EC%BD%94%EB%A0%88%EC%9D%B4s/DLT%203316.jpg',
+    "image": '/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/LX/LX%ED%95%98%EC%9A%B0%EC%8A%A4_%EB%8D%B0%EC%BD%94%EB%A0%88%EC%9D%B4s/DLT%203316.jpg',
     "images": [
-      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/LX/LX%ED%95%98%EC%9A%B0%EC%8A%A4_%EB%8D%B0%EC%BD%94%EB%A0%88%EC%9D%B4s/%EB%82%B4%EC%A7%80_%EB%8D%B0%EC%BD%94_DLT%203316.jpg"
+      '/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/LX/LX%ED%95%98%EC%9A%B0%EC%8A%A4_%EB%8D%B0%EC%BD%94%EB%A0%88%EC%9D%B4s/DLT%203316.jpg'
     ],
     "price": 44000,
     "thickness": "",
