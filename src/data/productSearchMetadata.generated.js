@@ -6471,7 +6471,7 @@ export const productSearchMetadata = [
     "product_id": "데코타일-lx-lx하우스스타일-zot-0761",
     "brand": "LX",
     "category": "데코타일",
-    "product_name": "",
+    "product_name": "LX 하우스스타일 ZOT 0761 (3.0T)",
     "product_code": "ZOT 0761",
     "series": "",
     "line": "LX하우스스타일",
@@ -6496,8 +6496,9 @@ export const productSearchMetadata = [
     "spec_tag": "600각",
     "search_aliases": [
       "ZOT 0761",
+      "LX 하우스스타일 ZOT 0761 (3.0T)",
       "LX ZOT 0761",
-      "LX "
+      "LX LX 하우스스타일 ZOT 0761 (3.0T)"
     ],
     "search_keywords": [
       "스톤/대리석",
@@ -6515,7 +6516,7 @@ export const productSearchMetadata = [
     "product_id": "데코타일-lx-lx하우스스타일-zot-0762",
     "brand": "LX",
     "category": "데코타일",
-    "product_name": "",
+    "product_name": "LX 하우스스타일 ZOT 0762 (3.0T)",
     "product_code": "ZOT 0762",
     "series": "",
     "line": "LX하우스스타일",
@@ -6540,8 +6541,9 @@ export const productSearchMetadata = [
     "spec_tag": "600각",
     "search_aliases": [
       "ZOT 0762",
+      "LX 하우스스타일 ZOT 0762 (3.0T)",
       "LX ZOT 0762",
-      "LX "
+      "LX LX 하우스스타일 ZOT 0762 (3.0T)"
     ],
     "search_keywords": [
       "스톤/대리석",
@@ -6559,7 +6561,7 @@ export const productSearchMetadata = [
     "product_id": "데코타일-lx-lx하우스스타일-zot-0767",
     "brand": "LX",
     "category": "데코타일",
-    "product_name": "",
+    "product_name": "LX 하우스스타일 ZOT 0767 (3.0T)",
     "product_code": "ZOT 0767",
     "series": "",
     "line": "LX하우스스타일",
@@ -6584,8 +6586,9 @@ export const productSearchMetadata = [
     "spec_tag": "600각",
     "search_aliases": [
       "ZOT 0767",
+      "LX 하우스스타일 ZOT 0767 (3.0T)",
       "LX ZOT 0767",
-      "LX "
+      "LX LX 하우스스타일 ZOT 0767 (3.0T)"
     ],
     "search_keywords": [
       "스톤/대리석",
@@ -6603,7 +6606,7 @@ export const productSearchMetadata = [
     "product_id": "데코타일-lx-lx하우스스타일-zot-0768",
     "brand": "LX",
     "category": "데코타일",
-    "product_name": "",
+    "product_name": "LX 하우스스타일 ZOT 0768 (3.0T)",
     "product_code": "ZOT 0768",
     "series": "",
     "line": "LX하우스스타일",
@@ -6628,8 +6631,9 @@ export const productSearchMetadata = [
     "spec_tag": "600각",
     "search_aliases": [
       "ZOT 0768",
+      "LX 하우스스타일 ZOT 0768 (3.0T)",
       "LX ZOT 0768",
-      "LX "
+      "LX LX 하우스스타일 ZOT 0768 (3.0T)"
     ],
     "search_keywords": [
       "스톤/대리석",
@@ -6647,7 +6651,7 @@ export const productSearchMetadata = [
     "product_id": "데코타일-lx-lx하우스스타일-zot-0769",
     "brand": "LX",
     "category": "데코타일",
-    "product_name": "",
+    "product_name": "LX 하우스스타일 ZOT 0769 (3.0T)",
     "product_code": "ZOT 0769",
     "series": "",
     "line": "LX하우스스타일",
@@ -6672,8 +6676,9 @@ export const productSearchMetadata = [
     "spec_tag": "600각",
     "search_aliases": [
       "ZOT 0769",
+      "LX 하우스스타일 ZOT 0769 (3.0T)",
       "LX ZOT 0769",
-      "LX "
+      "LX LX 하우스스타일 ZOT 0769 (3.0T)"
     ],
     "search_keywords": [
       "스톤/대리석",
@@ -6691,7 +6696,7 @@ export const productSearchMetadata = [
     "product_id": "데코타일-lx-lx하우스스타일-zot-0770",
     "brand": "LX",
     "category": "데코타일",
-    "product_name": "",
+    "product_name": "LX 하우스스타일 ZOT 0770 (3.0T)",
     "product_code": "ZOT 0770",
     "series": "",
     "line": "LX하우스스타일",
@@ -6716,8 +6721,9 @@ export const productSearchMetadata = [
     "spec_tag": "600각",
     "search_aliases": [
       "ZOT 0770",
+      "LX 하우스스타일 ZOT 0770 (3.0T)",
       "LX ZOT 0770",
-      "LX "
+      "LX LX 하우스스타일 ZOT 0770 (3.0T)"
     ],
     "search_keywords": [
       "스톤/대리석",
@@ -6735,7 +6741,7 @@ export const productSearchMetadata = [
     "product_id": "데코타일-lx-lx하우스스타일-zot-0771",
     "brand": "LX",
     "category": "데코타일",
-    "product_name": "",
+    "product_name": "LX 하우스스타일 ZOT 0771 (3.0T)",
     "product_code": "ZOT 0771",
     "series": "",
     "line": "LX하우스스타일",
@@ -6760,8 +6766,9 @@ export const productSearchMetadata = [
     "spec_tag": "600각",
     "search_aliases": [
       "ZOT 0771",
+      "LX 하우스스타일 ZOT 0771 (3.0T)",
       "LX ZOT 0771",
-      "LX "
+      "LX LX 하우스스타일 ZOT 0771 (3.0T)"
     ],
     "search_keywords": [
       "스톤/대리석",
@@ -6779,7 +6786,7 @@ export const productSearchMetadata = [
     "product_id": "데코타일-lx-lx하우스스타일-zow-0712",
     "brand": "LX",
     "category": "데코타일",
-    "product_name": "",
+    "product_name": "LX 하우스스타일 ZOW 0712 (3.0T)",
     "product_code": "ZOW 0712",
     "series": "",
     "line": "LX하우스스타일",
@@ -6801,8 +6808,9 @@ export const productSearchMetadata = [
     "spec_tag": null,
     "search_aliases": [
       "ZOW 0712",
+      "LX 하우스스타일 ZOW 0712 (3.0T)",
       "LX ZOW 0712",
-      "LX "
+      "LX LX 하우스스타일 ZOW 0712 (3.0T)"
     ],
     "search_keywords": [
       "무광",
@@ -6815,7 +6823,7 @@ export const productSearchMetadata = [
     "product_id": "데코타일-lx-lx하우스스타일-zow-0717",
     "brand": "LX",
     "category": "데코타일",
-    "product_name": "",
+    "product_name": "LX 하우스스타일 ZOW 0717 (3.0T)",
     "product_code": "ZOW 0717",
     "series": "",
     "line": "LX하우스스타일",
@@ -6837,8 +6845,9 @@ export const productSearchMetadata = [
     "spec_tag": null,
     "search_aliases": [
       "ZOW 0717",
+      "LX 하우스스타일 ZOW 0717 (3.0T)",
       "LX ZOW 0717",
-      "LX "
+      "LX LX 하우스스타일 ZOW 0717 (3.0T)"
     ],
     "search_keywords": [
       "무광",
@@ -6851,7 +6860,7 @@ export const productSearchMetadata = [
     "product_id": "데코타일-lx-lx하우스스타일-zow-0718",
     "brand": "LX",
     "category": "데코타일",
-    "product_name": "",
+    "product_name": "LX 하우스스타일 ZOW 0718 (3.0T)",
     "product_code": "ZOW 0718",
     "series": "",
     "line": "LX하우스스타일",
@@ -6873,8 +6882,9 @@ export const productSearchMetadata = [
     "spec_tag": null,
     "search_aliases": [
       "ZOW 0718",
+      "LX 하우스스타일 ZOW 0718 (3.0T)",
       "LX ZOW 0718",
-      "LX "
+      "LX LX 하우스스타일 ZOW 0718 (3.0T)"
     ],
     "search_keywords": [
       "무광",
@@ -6887,7 +6897,7 @@ export const productSearchMetadata = [
     "product_id": "데코타일-lx-lx하우스스타일-zow-0719",
     "brand": "LX",
     "category": "데코타일",
-    "product_name": "",
+    "product_name": "LX 하우스스타일 ZOW 0719 (3.0T)",
     "product_code": "ZOW 0719",
     "series": "",
     "line": "LX하우스스타일",
@@ -6909,8 +6919,9 @@ export const productSearchMetadata = [
     "spec_tag": null,
     "search_aliases": [
       "ZOW 0719",
+      "LX 하우스스타일 ZOW 0719 (3.0T)",
       "LX ZOW 0719",
-      "LX "
+      "LX LX 하우스스타일 ZOW 0719 (3.0T)"
     ],
     "search_keywords": [
       "무광",
@@ -6923,7 +6934,7 @@ export const productSearchMetadata = [
     "product_id": "데코타일-lx-lx하우스스타일-zow-0720",
     "brand": "LX",
     "category": "데코타일",
-    "product_name": "",
+    "product_name": "LX 하우스스타일 ZOW 0720 (3.0T)",
     "product_code": "ZOW 0720",
     "series": "",
     "line": "LX하우스스타일",
@@ -6945,8 +6956,9 @@ export const productSearchMetadata = [
     "spec_tag": null,
     "search_aliases": [
       "ZOW 0720",
+      "LX 하우스스타일 ZOW 0720 (3.0T)",
       "LX ZOW 0720",
-      "LX "
+      "LX LX 하우스스타일 ZOW 0720 (3.0T)"
     ],
     "search_keywords": [
       "무광",

@@ -13478,145 +13478,169 @@ export const imageManifest = {
   "ZOT 0761": {
     "thumbnail": "b5727530fd5139a592ba53095f07c139.jpg",
     "images": [
-      "b5727530fd5139a592ba53095f07c139.jpg"
+      "b5727530fd5139a592ba53095f07c139.jpg",
+      "5c22d23d5f6e9cf45495225fb5d838fc.png"
     ]
   },
   "ZOT0761": {
     "thumbnail": "b5727530fd5139a592ba53095f07c139.jpg",
     "images": [
-      "b5727530fd5139a592ba53095f07c139.jpg"
+      "b5727530fd5139a592ba53095f07c139.jpg",
+      "5c22d23d5f6e9cf45495225fb5d838fc.png"
     ]
   },
   "ZOT 0762": {
     "thumbnail": "41d44938fd0f710a1e7e465437746c96.jpg",
     "images": [
-      "41d44938fd0f710a1e7e465437746c96.jpg"
+      "41d44938fd0f710a1e7e465437746c96.jpg",
+      "24a93bf871a24b27e3bb8585a09f4909.png"
     ]
   },
   "ZOT0762": {
     "thumbnail": "41d44938fd0f710a1e7e465437746c96.jpg",
     "images": [
-      "41d44938fd0f710a1e7e465437746c96.jpg"
+      "41d44938fd0f710a1e7e465437746c96.jpg",
+      "24a93bf871a24b27e3bb8585a09f4909.png"
     ]
   },
   "ZOT 0767": {
     "thumbnail": "4bb719192b3f337fee864d3d7430c513.jpg",
     "images": [
-      "4bb719192b3f337fee864d3d7430c513.jpg"
+      "4bb719192b3f337fee864d3d7430c513.jpg",
+      "2b8003b9b8c2bbf8c0a5fb3a170837c4.png"
     ]
   },
   "ZOT0767": {
     "thumbnail": "4bb719192b3f337fee864d3d7430c513.jpg",
     "images": [
-      "4bb719192b3f337fee864d3d7430c513.jpg"
+      "4bb719192b3f337fee864d3d7430c513.jpg",
+      "2b8003b9b8c2bbf8c0a5fb3a170837c4.png"
     ]
   },
   "ZOT 0768": {
     "thumbnail": "03d9caf4809e6cf431da5ee04b581cad.jpg",
     "images": [
-      "03d9caf4809e6cf431da5ee04b581cad.jpg"
+      "03d9caf4809e6cf431da5ee04b581cad.jpg",
+      "98f93f924a447ac84cbd0aa06bc4f435.png"
     ]
   },
   "ZOT0768": {
     "thumbnail": "03d9caf4809e6cf431da5ee04b581cad.jpg",
     "images": [
-      "03d9caf4809e6cf431da5ee04b581cad.jpg"
+      "03d9caf4809e6cf431da5ee04b581cad.jpg",
+      "98f93f924a447ac84cbd0aa06bc4f435.png"
     ]
   },
   "ZOT 0769": {
     "thumbnail": "446cc99363ff642df5eb2a6c9dff84de.jpg",
     "images": [
-      "446cc99363ff642df5eb2a6c9dff84de.jpg"
+      "446cc99363ff642df5eb2a6c9dff84de.jpg",
+      "bd0d50b55dd4f8c080c45cc69a65b9fa.png"
     ]
   },
   "ZOT0769": {
     "thumbnail": "446cc99363ff642df5eb2a6c9dff84de.jpg",
     "images": [
-      "446cc99363ff642df5eb2a6c9dff84de.jpg"
+      "446cc99363ff642df5eb2a6c9dff84de.jpg",
+      "bd0d50b55dd4f8c080c45cc69a65b9fa.png"
     ]
   },
   "ZOT 0770": {
     "thumbnail": "bf5841ccc93a637bace7d97616efdbb8.jpg",
     "images": [
-      "bf5841ccc93a637bace7d97616efdbb8.jpg"
+      "bf5841ccc93a637bace7d97616efdbb8.jpg",
+      "8d1b179e4997c31d8d075ea646b2703b.png"
     ]
   },
   "ZOT0770": {
     "thumbnail": "bf5841ccc93a637bace7d97616efdbb8.jpg",
     "images": [
-      "bf5841ccc93a637bace7d97616efdbb8.jpg"
+      "bf5841ccc93a637bace7d97616efdbb8.jpg",
+      "8d1b179e4997c31d8d075ea646b2703b.png"
     ]
   },
   "ZOT 0771": {
     "thumbnail": "c3820e3b35f844af6182f3574b75d9c4.jpg",
     "images": [
-      "c3820e3b35f844af6182f3574b75d9c4.jpg"
+      "c3820e3b35f844af6182f3574b75d9c4.jpg",
+      "d9259a0565c55a06d7d7248789913550.png"
     ]
   },
   "ZOT0771": {
     "thumbnail": "c3820e3b35f844af6182f3574b75d9c4.jpg",
     "images": [
-      "c3820e3b35f844af6182f3574b75d9c4.jpg"
+      "c3820e3b35f844af6182f3574b75d9c4.jpg",
+      "d9259a0565c55a06d7d7248789913550.png"
     ]
   },
   "ZOW 0712": {
     "thumbnail": "a244cd4d18104369d0142461df9a31b2.jpg",
     "images": [
-      "a244cd4d18104369d0142461df9a31b2.jpg"
+      "a244cd4d18104369d0142461df9a31b2.jpg",
+      "2e2d13369dee96f60790b3e5c27f2e52.png"
     ]
   },
   "ZOW0712": {
     "thumbnail": "a244cd4d18104369d0142461df9a31b2.jpg",
     "images": [
-      "a244cd4d18104369d0142461df9a31b2.jpg"
+      "a244cd4d18104369d0142461df9a31b2.jpg",
+      "2e2d13369dee96f60790b3e5c27f2e52.png"
     ]
   },
   "ZOW 0717": {
     "thumbnail": "f40b6fb6c56e056c6d31af9e14993d11.jpg",
     "images": [
-      "f40b6fb6c56e056c6d31af9e14993d11.jpg"
+      "f40b6fb6c56e056c6d31af9e14993d11.jpg",
+      "2b55b740449bd591bab5f71fb158acf5.png"
     ]
   },
   "ZOW0717": {
     "thumbnail": "f40b6fb6c56e056c6d31af9e14993d11.jpg",
     "images": [
-      "f40b6fb6c56e056c6d31af9e14993d11.jpg"
+      "f40b6fb6c56e056c6d31af9e14993d11.jpg",
+      "2b55b740449bd591bab5f71fb158acf5.png"
     ]
   },
   "ZOW 0718": {
     "thumbnail": "d74373b89b0375dfd864558ffc01d873.jpg",
     "images": [
-      "d74373b89b0375dfd864558ffc01d873.jpg"
+      "d74373b89b0375dfd864558ffc01d873.jpg",
+      "54e9a3d7919a7e394d9f0fa18a576ef9.png"
     ]
   },
   "ZOW0718": {
     "thumbnail": "d74373b89b0375dfd864558ffc01d873.jpg",
     "images": [
-      "d74373b89b0375dfd864558ffc01d873.jpg"
+      "d74373b89b0375dfd864558ffc01d873.jpg",
+      "54e9a3d7919a7e394d9f0fa18a576ef9.png"
     ]
   },
   "ZOW 0719": {
     "thumbnail": "9e4fd6ee09edb053a7866c91b98a476c.jpg",
     "images": [
-      "9e4fd6ee09edb053a7866c91b98a476c.jpg"
+      "9e4fd6ee09edb053a7866c91b98a476c.jpg",
+      "82f2da51e0e6cafaa455708ad32ea84a.png"
     ]
   },
   "ZOW0719": {
     "thumbnail": "9e4fd6ee09edb053a7866c91b98a476c.jpg",
     "images": [
-      "9e4fd6ee09edb053a7866c91b98a476c.jpg"
+      "9e4fd6ee09edb053a7866c91b98a476c.jpg",
+      "82f2da51e0e6cafaa455708ad32ea84a.png"
     ]
   },
   "ZOW 0720": {
     "thumbnail": "6354e5de7f1cc40d2500f3d83111b020.jpg",
     "images": [
-      "6354e5de7f1cc40d2500f3d83111b020.jpg"
+      "6354e5de7f1cc40d2500f3d83111b020.jpg",
+      "904239c0ddb2e976f45169fd0d27c2a4.png"
     ]
   },
   "ZOW0720": {
     "thumbnail": "6354e5de7f1cc40d2500f3d83111b020.jpg",
     "images": [
-      "6354e5de7f1cc40d2500f3d83111b020.jpg"
+      "6354e5de7f1cc40d2500f3d83111b020.jpg",
+      "904239c0ddb2e976f45169fd0d27c2a4.png"
     ]
   },
   "DLX081": {

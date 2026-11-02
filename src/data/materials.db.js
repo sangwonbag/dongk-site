@@ -5221,12 +5221,13 @@ export const materials = [
     "brand": "LX",
     "line": "LX하우스스타일",
     "subLine": "LX하우스스타일",
-    "name": "",
+    "name": "LX 하우스스타일 ZOT 0761 (3.0T)",
     "code": "ZOT 0761",
     "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/LX/LX%ED%95%98%EC%9A%B0%EC%8A%A4%EC%8A%A4%ED%83%80%EC%9D%BC/ZOT%200761.jpg",
     "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/LX/LX%ED%95%98%EC%9A%B0%EC%8A%A4%EC%8A%A4%ED%83%80%EC%9D%BC/ZOT%200761.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/LX/LX%ED%95%98%EC%9A%B0%EC%8A%A4%EC%8A%A4%ED%83%80%EC%9D%BC/ZOT%200761.jpg"
+      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/LX/LX%ED%95%98%EC%9A%B0%EC%8A%A4%EC%8A%A4%ED%83%80%EC%9D%BC/ZOT%200761.jpg",
+      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/LX/LX%ED%95%98%EC%9A%B0%EC%8A%A4%EC%8A%A4%ED%83%80%EC%9D%BC/ZOT%200761_2x2.png"
     ],
     "price": 44000,
     "thickness": "3.0T",
@@ -5246,12 +5247,13 @@ export const materials = [
     "brand": "LX",
     "line": "LX하우스스타일",
     "subLine": "LX하우스스타일",
-    "name": "",
+    "name": "LX 하우스스타일 ZOT 0762 (3.0T)",
     "code": "ZOT 0762",
     "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/LX/LX%ED%95%98%EC%9A%B0%EC%8A%A4%EC%8A%A4%ED%83%80%EC%9D%BC/ZOT%200762.jpg",
     "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/LX/LX%ED%95%98%EC%9A%B0%EC%8A%A4%EC%8A%A4%ED%83%80%EC%9D%BC/ZOT%200762.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/LX/LX%ED%95%98%EC%9A%B0%EC%8A%A4%EC%8A%A4%ED%83%80%EC%9D%BC/ZOT%200762.jpg"
+      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/LX/LX%ED%95%98%EC%9A%B0%EC%8A%A4%EC%8A%A4%ED%83%80%EC%9D%BC/ZOT%200762.jpg",
+      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/LX/LX%ED%95%98%EC%9A%B0%EC%8A%A4%EC%8A%A4%ED%83%80%EC%9D%BC/ZOT%200762_2x2.png"
     ],
     "price": 44000,
     "thickness": "3.0T",
@@ -5271,12 +5273,13 @@ export const materials = [
     "brand": "LX",
     "line": "LX하우스스타일",
     "subLine": "LX하우스스타일",
-    "name": "",
+    "name": "LX 하우스스타일 ZOT 0767 (3.0T)",
     "code": "ZOT 0767",
     "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/LX/LX%ED%95%98%EC%9A%B0%EC%8A%A4%EC%8A%A4%ED%83%80%EC%9D%BC/ZOT%200767.jpg",
     "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/LX/LX%ED%95%98%EC%9A%B0%EC%8A%A4%EC%8A%A4%ED%83%80%EC%9D%BC/ZOT%200767.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/LX/LX%ED%95%98%EC%9A%B0%EC%8A%A4%EC%8A%A4%ED%83%80%EC%9D%BC/ZOT%200767.jpg"
+      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/LX/LX%ED%95%98%EC%9A%B0%EC%8A%A4%EC%8A%A4%ED%83%80%EC%9D%BC/ZOT%200767.jpg",
+      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/LX/LX%ED%95%98%EC%9A%B0%EC%8A%A4%EC%8A%A4%ED%83%80%EC%9D%BC/ZOT%200767_2x2.png"
     ],
     "price": 44000,
     "thickness": "3.0T",
@@ -5296,12 +5299,13 @@ export const materials = [
     "brand": "LX",
     "line": "LX하우스스타일",
     "subLine": "LX하우스스타일",
-    "name": "",
+    "name": "LX 하우스스타일 ZOT 0768 (3.0T)",
     "code": "ZOT 0768",
     "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/LX/LX%ED%95%98%EC%9A%B0%EC%8A%A4%EC%8A%A4%ED%83%80%EC%9D%BC/ZOT%200768.jpg",
     "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/LX/LX%ED%95%98%EC%9A%B0%EC%8A%A4%EC%8A%A4%ED%83%80%EC%9D%BC/ZOT%200768.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/LX/LX%ED%95%98%EC%9A%B0%EC%8A%A4%EC%8A%A4%ED%83%80%EC%9D%BC/ZOT%200768.jpg"
+      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/LX/LX%ED%95%98%EC%9A%B0%EC%8A%A4%EC%8A%A4%ED%83%80%EC%9D%BC/ZOT%200768.jpg",
+      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/LX/LX%ED%95%98%EC%9A%B0%EC%8A%A4%EC%8A%A4%ED%83%80%EC%9D%BC/ZOT%200768_2x2.png"
     ],
     "price": 44000,
     "thickness": "3.0T",
@@ -5321,12 +5325,13 @@ export const materials = [
     "brand": "LX",
     "line": "LX하우스스타일",
     "subLine": "LX하우스스타일",
-    "name": "",
+    "name": "LX 하우스스타일 ZOT 0769 (3.0T)",
     "code": "ZOT 0769",
     "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/LX/LX%ED%95%98%EC%9A%B0%EC%8A%A4%EC%8A%A4%ED%83%80%EC%9D%BC/ZOT%200769.jpg",
     "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/LX/LX%ED%95%98%EC%9A%B0%EC%8A%A4%EC%8A%A4%ED%83%80%EC%9D%BC/ZOT%200769.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/LX/LX%ED%95%98%EC%9A%B0%EC%8A%A4%EC%8A%A4%ED%83%80%EC%9D%BC/ZOT%200769.jpg"
+      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/LX/LX%ED%95%98%EC%9A%B0%EC%8A%A4%EC%8A%A4%ED%83%80%EC%9D%BC/ZOT%200769.jpg",
+      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/LX/LX%ED%95%98%EC%9A%B0%EC%8A%A4%EC%8A%A4%ED%83%80%EC%9D%BC/ZOT%200769_2x2.png"
     ],
     "price": 44000,
     "thickness": "3.0T",
@@ -5346,12 +5351,13 @@ export const materials = [
     "brand": "LX",
     "line": "LX하우스스타일",
     "subLine": "LX하우스스타일",
-    "name": "",
+    "name": "LX 하우스스타일 ZOT 0770 (3.0T)",
     "code": "ZOT 0770",
     "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/LX/LX%ED%95%98%EC%9A%B0%EC%8A%A4%EC%8A%A4%ED%83%80%EC%9D%BC/ZOT%200770.jpg",
     "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/LX/LX%ED%95%98%EC%9A%B0%EC%8A%A4%EC%8A%A4%ED%83%80%EC%9D%BC/ZOT%200770.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/LX/LX%ED%95%98%EC%9A%B0%EC%8A%A4%EC%8A%A4%ED%83%80%EC%9D%BC/ZOT%200770.jpg"
+      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/LX/LX%ED%95%98%EC%9A%B0%EC%8A%A4%EC%8A%A4%ED%83%80%EC%9D%BC/ZOT%200770.jpg",
+      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/LX/LX%ED%95%98%EC%9A%B0%EC%8A%A4%EC%8A%A4%ED%83%80%EC%9D%BC/ZOT%200770_2x2.png"
     ],
     "price": 44000,
     "thickness": "3.0T",
@@ -5371,12 +5377,13 @@ export const materials = [
     "brand": "LX",
     "line": "LX하우스스타일",
     "subLine": "LX하우스스타일",
-    "name": "",
+    "name": "LX 하우스스타일 ZOT 0771 (3.0T)",
     "code": "ZOT 0771",
     "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/LX/LX%ED%95%98%EC%9A%B0%EC%8A%A4%EC%8A%A4%ED%83%80%EC%9D%BC/ZOT%200771.jpg",
     "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/LX/LX%ED%95%98%EC%9A%B0%EC%8A%A4%EC%8A%A4%ED%83%80%EC%9D%BC/ZOT%200771.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/LX/LX%ED%95%98%EC%9A%B0%EC%8A%A4%EC%8A%A4%ED%83%80%EC%9D%BC/ZOT%200771.jpg"
+      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/LX/LX%ED%95%98%EC%9A%B0%EC%8A%A4%EC%8A%A4%ED%83%80%EC%9D%BC/ZOT%200771.jpg",
+      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/LX/LX%ED%95%98%EC%9A%B0%EC%8A%A4%EC%8A%A4%ED%83%80%EC%9D%BC/ZOT%200771_2x2.png"
     ],
     "price": 44000,
     "thickness": "3.0T",
@@ -5396,12 +5403,13 @@ export const materials = [
     "brand": "LX",
     "line": "LX하우스스타일",
     "subLine": "LX하우스스타일",
-    "name": "",
+    "name": "LX 하우스스타일 ZOW 0712 (3.0T)",
     "code": "ZOW 0712",
     "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/LX/LX%ED%95%98%EC%9A%B0%EC%8A%A4%EC%8A%A4%ED%83%80%EC%9D%BC/ZOW%200712.jpg",
     "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/LX/LX%ED%95%98%EC%9A%B0%EC%8A%A4%EC%8A%A4%ED%83%80%EC%9D%BC/ZOW%200712.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/LX/LX%ED%95%98%EC%9A%B0%EC%8A%A4%EC%8A%A4%ED%83%80%EC%9D%BC/ZOW%200712.jpg"
+      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/LX/LX%ED%95%98%EC%9A%B0%EC%8A%A4%EC%8A%A4%ED%83%80%EC%9D%BC/ZOW%200712.jpg",
+      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/LX/LX%ED%95%98%EC%9A%B0%EC%8A%A4%EC%8A%A4%ED%83%80%EC%9D%BC/ZOW%200712_%ED%99%95%EC%9E%A5.png"
     ],
     "price": 44000,
     "thickness": "3.0T",
@@ -5421,12 +5429,13 @@ export const materials = [
     "brand": "LX",
     "line": "LX하우스스타일",
     "subLine": "LX하우스스타일",
-    "name": "",
+    "name": "LX 하우스스타일 ZOW 0717 (3.0T)",
     "code": "ZOW 0717",
     "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/LX/LX%ED%95%98%EC%9A%B0%EC%8A%A4%EC%8A%A4%ED%83%80%EC%9D%BC/ZOW%200717.jpg",
     "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/LX/LX%ED%95%98%EC%9A%B0%EC%8A%A4%EC%8A%A4%ED%83%80%EC%9D%BC/ZOW%200717.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/LX/LX%ED%95%98%EC%9A%B0%EC%8A%A4%EC%8A%A4%ED%83%80%EC%9D%BC/ZOW%200717.jpg"
+      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/LX/LX%ED%95%98%EC%9A%B0%EC%8A%A4%EC%8A%A4%ED%83%80%EC%9D%BC/ZOW%200717.jpg",
+      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/LX/LX%ED%95%98%EC%9A%B0%EC%8A%A4%EC%8A%A4%ED%83%80%EC%9D%BC/ZOW%200717_%ED%99%95%EC%9E%A5.png"
     ],
     "price": 44000,
     "thickness": "3.0T",
@@ -5446,12 +5455,13 @@ export const materials = [
     "brand": "LX",
     "line": "LX하우스스타일",
     "subLine": "LX하우스스타일",
-    "name": "",
+    "name": "LX 하우스스타일 ZOW 0718 (3.0T)",
     "code": "ZOW 0718",
     "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/LX/LX%ED%95%98%EC%9A%B0%EC%8A%A4%EC%8A%A4%ED%83%80%EC%9D%BC/ZOW%200718.jpg",
     "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/LX/LX%ED%95%98%EC%9A%B0%EC%8A%A4%EC%8A%A4%ED%83%80%EC%9D%BC/ZOW%200718.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/LX/LX%ED%95%98%EC%9A%B0%EC%8A%A4%EC%8A%A4%ED%83%80%EC%9D%BC/ZOW%200718.jpg"
+      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/LX/LX%ED%95%98%EC%9A%B0%EC%8A%A4%EC%8A%A4%ED%83%80%EC%9D%BC/ZOW%200718.jpg",
+      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/LX/LX%ED%95%98%EC%9A%B0%EC%8A%A4%EC%8A%A4%ED%83%80%EC%9D%BC/ZOW%200718_%ED%99%95%EC%9E%A5.png"
     ],
     "price": 44000,
     "thickness": "3.0T",
@@ -5471,12 +5481,13 @@ export const materials = [
     "brand": "LX",
     "line": "LX하우스스타일",
     "subLine": "LX하우스스타일",
-    "name": "",
+    "name": "LX 하우스스타일 ZOW 0719 (3.0T)",
     "code": "ZOW 0719",
     "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/LX/LX%ED%95%98%EC%9A%B0%EC%8A%A4%EC%8A%A4%ED%83%80%EC%9D%BC/ZOW%200719.jpg",
     "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/LX/LX%ED%95%98%EC%9A%B0%EC%8A%A4%EC%8A%A4%ED%83%80%EC%9D%BC/ZOW%200719.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/LX/LX%ED%95%98%EC%9A%B0%EC%8A%A4%EC%8A%A4%ED%83%80%EC%9D%BC/ZOW%200719.jpg"
+      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/LX/LX%ED%95%98%EC%9A%B0%EC%8A%A4%EC%8A%A4%ED%83%80%EC%9D%BC/ZOW%200719.jpg",
+      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/LX/LX%ED%95%98%EC%9A%B0%EC%8A%A4%EC%8A%A4%ED%83%80%EC%9D%BC/ZOW%200719_%ED%99%95%EC%9E%A5.png"
     ],
     "price": 44000,
     "thickness": "3.0T",
@@ -5496,12 +5507,13 @@ export const materials = [
     "brand": "LX",
     "line": "LX하우스스타일",
     "subLine": "LX하우스스타일",
-    "name": "",
+    "name": "LX 하우스스타일 ZOW 0720 (3.0T)",
     "code": "ZOW 0720",
     "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/LX/LX%ED%95%98%EC%9A%B0%EC%8A%A4%EC%8A%A4%ED%83%80%EC%9D%BC/ZOW%200720.jpg",
     "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/LX/LX%ED%95%98%EC%9A%B0%EC%8A%A4%EC%8A%A4%ED%83%80%EC%9D%BC/ZOW%200720.jpg",
     "images": [
-      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/LX/LX%ED%95%98%EC%9A%B0%EC%8A%A4%EC%8A%A4%ED%83%80%EC%9D%BC/ZOW%200720.jpg"
+      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/LX/LX%ED%95%98%EC%9A%B0%EC%8A%A4%EC%8A%A4%ED%83%80%EC%9D%BC/ZOW%200720.jpg",
+      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/LX/LX%ED%95%98%EC%9A%B0%EC%8A%A4%EC%8A%A4%ED%83%80%EC%9D%BC/ZOW%200720_%ED%99%95%EC%9E%A5.png"
     ],
     "price": 44000,
     "thickness": "3.0T",

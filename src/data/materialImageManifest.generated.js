@@ -3901,6 +3901,16 @@ export const imageManifest = [
     "imageType": "material"
   },
   {
+    "fileName": "ZOT 0761_2x2.png",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/LX/LX하우스스타일/ZOT 0761_2x2.png",
+    "category": "데코타일",
+    "brand": "LX",
+    "series": "LX하우스스타일",
+    "extractedCode": "ZOT 0761",
+    "normalizedFileName": "zot07612x2png",
+    "imageType": "2x2"
+  },
+  {
     "fileName": "ZOT 0762.jpg",
     "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/LX/LX하우스스타일/ZOT 0762.jpg",
     "category": "데코타일",
@@ -3909,6 +3919,16 @@ export const imageManifest = [
     "extractedCode": "ZOT 0762",
     "normalizedFileName": "zot0762jpg",
     "imageType": "material"
+  },
+  {
+    "fileName": "ZOT 0762_2x2.png",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/LX/LX하우스스타일/ZOT 0762_2x2.png",
+    "category": "데코타일",
+    "brand": "LX",
+    "series": "LX하우스스타일",
+    "extractedCode": "ZOT 0762",
+    "normalizedFileName": "zot07622x2png",
+    "imageType": "2x2"
   },
   {
     "fileName": "ZOT 0767.jpg",
@@ -3921,6 +3941,16 @@ export const imageManifest = [
     "imageType": "material"
   },
   {
+    "fileName": "ZOT 0767_2x2.png",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/LX/LX하우스스타일/ZOT 0767_2x2.png",
+    "category": "데코타일",
+    "brand": "LX",
+    "series": "LX하우스스타일",
+    "extractedCode": "ZOT 0767",
+    "normalizedFileName": "zot07672x2png",
+    "imageType": "2x2"
+  },
+  {
     "fileName": "ZOT 0768.jpg",
     "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/LX/LX하우스스타일/ZOT 0768.jpg",
     "category": "데코타일",
@@ -3929,6 +3959,16 @@ export const imageManifest = [
     "extractedCode": "ZOT 0768",
     "normalizedFileName": "zot0768jpg",
     "imageType": "material"
+  },
+  {
+    "fileName": "ZOT 0768_2x2.png",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/LX/LX하우스스타일/ZOT 0768_2x2.png",
+    "category": "데코타일",
+    "brand": "LX",
+    "series": "LX하우스스타일",
+    "extractedCode": "ZOT 0768",
+    "normalizedFileName": "zot07682x2png",
+    "imageType": "2x2"
   },
   {
     "fileName": "ZOT 0769.jpg",
@@ -3941,6 +3981,16 @@ export const imageManifest = [
     "imageType": "material"
   },
   {
+    "fileName": "ZOT 0769_2x2.png",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/LX/LX하우스스타일/ZOT 0769_2x2.png",
+    "category": "데코타일",
+    "brand": "LX",
+    "series": "LX하우스스타일",
+    "extractedCode": "ZOT 0769",
+    "normalizedFileName": "zot07692x2png",
+    "imageType": "2x2"
+  },
+  {
     "fileName": "ZOT 0770.jpg",
     "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/LX/LX하우스스타일/ZOT 0770.jpg",
     "category": "데코타일",
@@ -3949,6 +3999,16 @@ export const imageManifest = [
     "extractedCode": "ZOT 0770",
     "normalizedFileName": "zot0770jpg",
     "imageType": "material"
+  },
+  {
+    "fileName": "ZOT 0770_2x2.png",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/LX/LX하우스스타일/ZOT 0770_2x2.png",
+    "category": "데코타일",
+    "brand": "LX",
+    "series": "LX하우스스타일",
+    "extractedCode": "ZOT 0770",
+    "normalizedFileName": "zot07702x2png",
+    "imageType": "2x2"
   },
   {
     "fileName": "ZOT 0771.jpg",
@@ -3961,6 +4021,16 @@ export const imageManifest = [
     "imageType": "material"
   },
   {
+    "fileName": "ZOT 0771_2x2.png",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/LX/LX하우스스타일/ZOT 0771_2x2.png",
+    "category": "데코타일",
+    "brand": "LX",
+    "series": "LX하우스스타일",
+    "extractedCode": "ZOT 0771",
+    "normalizedFileName": "zot07712x2png",
+    "imageType": "2x2"
+  },
+  {
     "fileName": "ZOW 0712.jpg",
     "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/LX/LX하우스스타일/ZOW 0712.jpg",
     "category": "데코타일",
@@ -3969,6 +4039,16 @@ export const imageManifest = [
     "extractedCode": "ZOW 0712",
     "normalizedFileName": "zow0712jpg",
     "imageType": "material"
+  },
+  {
+    "fileName": "ZOW 0712_확장.png",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/LX/LX하우스스타일/ZOW 0712_확장.png",
+    "category": "데코타일",
+    "brand": "LX",
+    "series": "LX하우스스타일",
+    "extractedCode": "ZOW 0712",
+    "normalizedFileName": "zow0712확장png",
+    "imageType": "2x2"
   },
   {
     "fileName": "ZOW 0717.jpg",
@@ -3981,6 +4061,16 @@ export const imageManifest = [
     "imageType": "material"
   },
   {
+    "fileName": "ZOW 0717_확장.png",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/LX/LX하우스스타일/ZOW 0717_확장.png",
+    "category": "데코타일",
+    "brand": "LX",
+    "series": "LX하우스스타일",
+    "extractedCode": "ZOW 0717",
+    "normalizedFileName": "zow0717확장png",
+    "imageType": "2x2"
+  },
+  {
     "fileName": "ZOW 0718.jpg",
     "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/LX/LX하우스스타일/ZOW 0718.jpg",
     "category": "데코타일",
@@ -3989,6 +4079,16 @@ export const imageManifest = [
     "extractedCode": "ZOW 0718",
     "normalizedFileName": "zow0718jpg",
     "imageType": "material"
+  },
+  {
+    "fileName": "ZOW 0718_확장.png",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/LX/LX하우스스타일/ZOW 0718_확장.png",
+    "category": "데코타일",
+    "brand": "LX",
+    "series": "LX하우스스타일",
+    "extractedCode": "ZOW 0718",
+    "normalizedFileName": "zow0718확장png",
+    "imageType": "2x2"
   },
   {
     "fileName": "ZOW 0719.jpg",
@@ -4001,6 +4101,16 @@ export const imageManifest = [
     "imageType": "material"
   },
   {
+    "fileName": "ZOW 0719_확장.png",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/LX/LX하우스스타일/ZOW 0719_확장.png",
+    "category": "데코타일",
+    "brand": "LX",
+    "series": "LX하우스스타일",
+    "extractedCode": "ZOW 0719",
+    "normalizedFileName": "zow0719확장png",
+    "imageType": "2x2"
+  },
+  {
     "fileName": "ZOW 0720.jpg",
     "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/LX/LX하우스스타일/ZOW 0720.jpg",
     "category": "데코타일",
@@ -4009,6 +4119,16 @@ export const imageManifest = [
     "extractedCode": "ZOW 0720",
     "normalizedFileName": "zow0720jpg",
     "imageType": "material"
+  },
+  {
+    "fileName": "ZOW 0720_확장.png",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/LX/LX하우스스타일/ZOW 0720_확장.png",
+    "category": "데코타일",
+    "brand": "LX",
+    "series": "LX하우스스타일",
+    "extractedCode": "ZOW 0720",
+    "normalizedFileName": "zow0720확장png",
+    "imageType": "2x2"
   },
   {
     "fileName": "DLX081.jpg",
