@@ -115,7 +115,9 @@ export default function App() {
             <Route path="/customer-center" element={<Home />} />
             <Route path="/login" element={<Login />} />
             <Route path="/login-callback" element={<LoginCallback />} />
+            <Route path="/auth/callback" element={<LoginCallback />} />
             <Route path="/reset-password" element={<ResetPassword />} />
+            <Route path="/account/update-password" element={<ResetPassword />} />
             <Route path="/signup" element={<Signup />} />
             <Route path="/mypage" element={<MyPage />} />
             <Route path="/mypage/estimates" element={<MyPage />} />

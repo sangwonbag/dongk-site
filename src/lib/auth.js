@@ -144,79 +144,68 @@ export const login = async (id, password) => {
   const cleanPassword = String(password || '').trim();
 
   if (!cleanId || !cleanPassword) {
-    return { success: false, message: '아이디와 비밀번호를 모두 입력해주세요.' };
-  }
-
-  // 관리자 계정 즉시 인증 (네트워크 지연/타임아웃으로 인한 관리자 차단 방지)
-  const adminPassword = (typeof import.meta !== 'undefined' && import.meta.env?.VITE_ADMIN_PASSWORD) || '1234';
-  if (cleanId === 'dongk3089' && (cleanPassword === '1234' || cleanPassword === adminPassword)) {
-    const adminUser = { 
-      id: '0e628119-fdca-4f94-8400-f5864b712c59', 
-      username: 'dongk3089', 
-      name: '관리자',
-      phone: '02-487-9775',
-      company_name: '동경바닥재',
-      user_type: '관리자',
-      role: 'admin', 
-      isLoggedIn: true 
-    };
-    if (typeof localStorage !== 'undefined') {
-      localStorage.setItem(AUTH_KEY, JSON.stringify(adminUser));
-    }
-    return { success: true, user: adminUser };
+    return { success: false, statusType: 'validation_error', message: '아이디와 비밀번호를 모두 입력해 주세요.' };
   }
 
   if (!supabase) {
-    return { success: false, message: '서버 연결에 실패했습니다. 잠시 후 다시 시도해주세요.' };
+    return { success: false, isNetworkError: true, statusType: 'network_error', message: '서버와 연결할 수 없습니다. 인터넷 연결을 확인한 후 다시 시도해 주세요.' };
   }
 
   try {
     const hashedPassword = await hashPassword(cleanPassword);
     const isEmailInput = cleanId.includes('@');
 
-    const withQueryTimeout = (p, ms = 15000) =>
-      Promise.race([
+    // 10초 기준 타임아웃 래퍼
+    const withQueryTimeout = (p, ms = 10000) => {
+      let timer;
+      return Promise.race([
         p,
-        new Promise((_, reject) =>
-          setTimeout(() => reject(new Error('네트워크 응답 시간이 초과되었습니다. 잠시 후 다시 시도해 주세요.')), ms)
-        )
-      ]);
+        new Promise((_, reject) => {
+          timer = setTimeout(() => {
+            const timeoutErr = new Error('인증 서버 응답 시간이 지연되고 있습니다. 잠시 후 다시 시도해 주세요.');
+            timeoutErr.isTimeout = true;
+            reject(timeoutErr);
+          }, ms);
+        })
+      ]).finally(() => clearTimeout(timer));
+    };
 
-    // 1. Primary Profile Search: Search by username (case-insensitive)
+    // 1. 단일 최적화 쿼리: 아이디(username) 또는 이메일(memo/username) 1회 즉시 조회
     let profileQuery = supabase
       .from('profiles')
-      .select('id, username, password, name, phone, company_name, user_type, role, memo')
-      .ilike('username', cleanId);
+      .select('id, username, password, name, phone, company_name, user_type, role, memo');
 
-    let { data: profileRow, error: pErr } = await withQueryTimeout(profileQuery.maybeSingle());
-
-    // 2. If not found by username and input looks like an email, search by memo (which stores email on signup)
-    if (!profileRow && isEmailInput) {
-      const { data: memoMatch, error: mErr } = await withQueryTimeout(
-        supabase
-          .from('profiles')
-          .select('id, username, password, name, phone, company_name, user_type, role, memo')
-          .ilike('memo', `%${cleanId}%`)
-          .maybeSingle()
-      );
-
-      if (!mErr && memoMatch) {
-        profileRow = memoMatch;
-      }
+    if (isEmailInput) {
+      profileQuery = profileQuery.or(`username.ilike.${cleanId},memo.ilike.%${cleanId}%`);
+    } else {
+      profileQuery = profileQuery.ilike('username', cleanId);
     }
 
-    // 3. If a profile was found
+    const { data: profileRow, error: pErr } = await withQueryTimeout(profileQuery.limit(1).maybeSingle(), 10000);
+
+    if (pErr) {
+      console.error('[Auth Error] Profile query error:', pErr);
+      return { 
+        success: false, 
+        isNetworkError: true, 
+        statusType: 'network_error', 
+        message: '서버와 연결할 수 없습니다. 인터넷 연결을 확인한 후 다시 시도해 주세요.' 
+      };
+    }
+
+    // 2. 일치하는 프로필이 확인된 경우
     if (profileRow) {
-      // Check if this account was created via Kakao OAuth (has NULL password and OAuth in memo)
+      // 카카오 OAuth 간편가입 계정인 경우 안내
       if (!profileRow.password && profileRow.memo && profileRow.memo.includes('OAuth')) {
         return {
           success: false,
           isKakaoAccount: true,
+          statusType: 'kakao_required',
           message: '카카오 간편 로그인으로 가입된 계정입니다. 아래 "카카오로 로그인" 버튼을 이용해 주세요.'
         };
       }
 
-      // Verify SHA-256 password hash
+      // SHA-256 비밀번호 해시 일치 확인
       if (profileRow.password === hashedPassword) {
         const { password: _, ...userSafe } = profileRow;
         const user = {
@@ -226,49 +215,46 @@ export const login = async (id, password) => {
         if (typeof localStorage !== 'undefined') {
           localStorage.setItem(AUTH_KEY, JSON.stringify(user));
         }
-        return { success: true, user };
+        return { success: true, user, statusType: 'success' };
       }
+
+      // 비밀번호 불일치
+      return { 
+        success: false, 
+        isAuthFailed: true, 
+        statusType: 'auth_failed', 
+        message: '아이디 또는 비밀번호가 올바르지 않습니다.' 
+      };
     }
 
-    // 4. If direct profile check failed, try Supabase Auth (for users created via Supabase Auth or email password reset)
+    // 3. 이메일 입력의 경우 Supabase Auth(이메일 기반 가입/비밀번호 재설정 계정) 추가 검증
     if (isEmailInput) {
       try {
         const { data: authData, error: authErr } = await withQueryTimeout(
           supabase.auth.signInWithPassword({
             email: cleanId,
             password: cleanPassword
-          })
+          }),
+          8000
         );
 
         if (!authErr && authData?.user) {
           const sUser = authData.user;
-          // Sync with profiles table
-          let userProfile = profileRow;
-          if (!userProfile) {
-            const { data: foundProf } = await supabase
-              .from('profiles')
-              .select('id, username, name, phone, company_name, user_type, role')
-              .eq('id', sUser.id)
-              .maybeSingle();
-            userProfile = foundProf;
-          }
-
-          // Also persist SHA-256 password in profiles for backward compatibility
-          try {
-            await supabase
-              .from('profiles')
-              .update({ password: hashedPassword })
-              .eq('id', sUser.id);
-          } catch {}
+          const { data: foundProf } = await supabase
+            .from('profiles')
+            .select('id, username, name, phone, company_name, user_type, role')
+            .eq('id', sUser.id)
+            .limit(1)
+            .maybeSingle();
 
           const user = {
             id: sUser.id,
-            username: userProfile?.username || cleanId,
-            name: userProfile?.name || sUser.user_metadata?.name || '회원',
-            phone: userProfile?.phone || sUser.user_metadata?.phone || '',
-            company_name: userProfile?.company_name || null,
-            user_type: userProfile?.user_type || '일반',
-            role: userProfile?.role || 'user',
+            username: foundProf?.username || cleanId,
+            name: foundProf?.name || sUser.user_metadata?.name || '회원',
+            phone: foundProf?.phone || sUser.user_metadata?.phone || '',
+            company_name: foundProf?.company_name || null,
+            user_type: foundProf?.user_type || '일반',
+            role: foundProf?.role || 'user',
             email: sUser.email || cleanId,
             isLoggedIn: true
           };
@@ -276,21 +262,62 @@ export const login = async (id, password) => {
           if (typeof localStorage !== 'undefined') {
             localStorage.setItem(AUTH_KEY, JSON.stringify(user));
           }
-          return { success: true, user };
+          return { success: true, user, statusType: 'success' };
         }
       } catch (authEx) {
-        console.warn('Supabase Auth attempt exception:', authEx);
+        if (authEx.isTimeout) {
+          return { 
+            success: false, 
+            isTimeout: true, 
+            statusType: 'timeout', 
+            message: '인증 응답 시간이 지연되고 있습니다. 잠시 후 다시 시도해 주세요.' 
+          };
+        }
       }
     }
 
-    // 5. If neither succeeded, return clear Korean message
-    return { success: false, message: '아이디 또는 비밀번호가 올바르지 않습니다.' };
+    // 일치하는 계정 없음
+    return { 
+      success: false, 
+      isAuthFailed: true, 
+      statusType: 'auth_failed', 
+      message: '아이디 또는 비밀번호가 올바르지 않습니다.' 
+    };
 
   } catch (err) {
     console.error('Login exception:', err);
-    return { success: false, message: `로그인 처리 중 오류가 발생했습니다. (${err.message || err.toString()})` };
+    if (err.isTimeout) {
+      return { 
+        success: false, 
+        isTimeout: true, 
+        statusType: 'timeout', 
+        message: '인증 서버 응답 시간이 지연되고 있습니다. 잠시 후 다시 시도해 주세요.' 
+      };
+    }
+    // 네트워크 오류 판별
+    if (typeof navigator !== 'undefined' && !navigator.onLine) {
+      return { 
+        success: false, 
+        isNetworkError: true, 
+        statusType: 'network_error', 
+        message: '서버와 연결할 수 없습니다. 인터넷 연결을 확인한 후 다시 시도해 주세요.' 
+      };
+    }
+    return { 
+      success: false, 
+      isNetworkError: true, 
+      statusType: 'network_error', 
+      message: '서버와 연결할 수 없습니다. 인터넷 연결을 확인한 후 다시 시도해 주세요.' 
+    };
   }
 };
+
+// In-memory rate limiting for account recovery requests (max 5 requests per 5 minutes per session)
+let findIdAttempts = 0;
+let lastFindIdReset = Date.now();
+
+let resetPwdAttempts = 0;
+let lastResetPwdReset = Date.now();
 
 /**
  * Find username by registered email.
@@ -305,12 +332,23 @@ export const findUsernameByEmail = async (email) => {
     return { success: false, message: '올바른 이메일 주소 형식을 입력해주세요.' };
   }
 
+  const now = Date.now();
+  if (now - lastFindIdReset > 5 * 60 * 1000) {
+    findIdAttempts = 0;
+    lastFindIdReset = now;
+  }
+  findIdAttempts++;
+  if (findIdAttempts > 5) {
+    return { success: false, message: '요청 횟수를 초과했습니다. 잠시 후(약 5분 후) 다시 시도해 주세요.' };
+  }
+
   try {
     // 1. Search in profiles by username (when username is an email) or memo (which stores email)
     let { data: profile, error } = await supabase
       .from('profiles')
       .select('username, memo, created_at')
       .or(`username.ilike.${cleanEmail},memo.ilike.%${cleanEmail}%`)
+      .limit(1)
       .maybeSingle();
 
     if (error) {
@@ -350,12 +388,23 @@ export const requestPasswordReset = async (email) => {
     return { success: false, message: '올바른 이메일 주소 형식을 입력해주세요.' };
   }
 
+  const now = Date.now();
+  if (now - lastResetPwdReset > 5 * 60 * 1000) {
+    resetPwdAttempts = 0;
+    lastResetPwdReset = now;
+  }
+  resetPwdAttempts++;
+  if (resetPwdAttempts > 5) {
+    return { success: false, message: '요청 횟수를 초과했습니다. 잠시 후(약 5분 후) 다시 시도해 주세요.' };
+  }
+
   try {
     // Check if account is a Kakao account
     const { data: profile } = await supabase
       .from('profiles')
       .select('username, memo')
       .or(`username.ilike.${cleanEmail},memo.ilike.%${cleanEmail}%`)
+      .limit(1)
       .maybeSingle();
 
     if (profile && profile.memo && profile.memo.includes('OAuth')) {
@@ -381,7 +430,7 @@ export const requestPasswordReset = async (email) => {
       if (error.status === 429 || error.code === 'over_email_send_rate_limit' || error.message?.includes('rate limit')) {
         return {
           success: false,
-          message: '이메일 발송 요청 한도를 초과했습니다. 잠시 후(약 1시간 후) 다시 시도해 주세요.'
+          message: '이메일 발송 요청 한도를 초과했습니다. 잠시 후 다시 시도해 주세요.'
         };
       }
       return { success: false, message: error.message || '비밀번호 재설정 이메일 발송에 실패했습니다.' };
@@ -389,7 +438,7 @@ export const requestPasswordReset = async (email) => {
 
     return {
       success: true,
-      message: '비밀번호 재설정 링크가 이메일로 발송되었습니다. 메일함(스팸함 포함)을 확인해 주세요.'
+      message: '가입하신 이메일로 비밀번호 재설정 안내를 요청했습니다. 메일함을 확인해 주세요.'
     };
 
   } catch (err) {

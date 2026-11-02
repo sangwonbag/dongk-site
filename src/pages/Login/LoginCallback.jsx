@@ -19,10 +19,29 @@ export default function LoginCallback() {
           throw new Error("Supabase 클라이언트가 초기화되지 않았습니다.");
         }
 
-        // 1. Get current OAuth session
+        // 0. PKCE code exchange check
+        const urlParams = new URLSearchParams(window.location.search);
+        const code = urlParams.get("code");
+        if (code && supabase.auth.exchangeCodeForSession) {
+          try {
+            await supabase.auth.exchangeCodeForSession(code);
+          } catch (codeErr) {
+            console.warn("PKCE code exchange notice:", codeErr);
+          }
+        }
+
+        // 1. Get current OAuth session (with short retry for token propagation)
         setStatusMsg("세션 정보를 가져오는 중입니다...");
-        const { data: { session }, error: sessionError } = await supabase.auth.getSession();
-        if (sessionError) throw sessionError;
+        let session = null;
+        for (let attempt = 0; attempt < 3; attempt++) {
+          const { data: sessionData, error: sessionError } = await supabase.auth.getSession();
+          if (sessionError) throw sessionError;
+          if (sessionData?.session?.user) {
+            session = sessionData.session;
+            break;
+          }
+          if (attempt < 2) await new Promise((r) => setTimeout(r, 300));
+        }
         
         if (!session || !session.user) {
           throw new Error("카카오 로그인 세션을 찾을 수 없습니다. 다시 시도해 주세요.");
@@ -36,7 +55,7 @@ export default function LoginCallback() {
         // 2. Check if profiles row exists for this user.id
         const { data: existingProfile, error: profileError } = await supabase
           .from("profiles")
-          .select("id, username, name, phone, company_name, user_type, role")
+          .select("id, username, name, phone, company_name, user_type, role, memo")
           .eq("id", user.id)
           .maybeSingle();
 
@@ -74,7 +93,8 @@ export default function LoginCallback() {
             phone: normalizedPhone,
             password: null, // Explicitly save password as null for OAuth
             user_type: "일반",
-            role: "user"
+            role: "user",
+            memo: "OAuth: kakao"
           };
 
           const { error: insertError } = await supabase
@@ -92,7 +112,8 @@ export default function LoginCallback() {
             name: displayName,
             phone: normalizedPhone,
             user_type: "일반",
-            role: "user"
+            role: "user",
+            memo: "OAuth: kakao"
           };
         }
 

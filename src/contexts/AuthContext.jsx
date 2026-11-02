@@ -11,22 +11,48 @@ export function AuthProvider({ children }) {
   const [isLoginModalOpen, setIsLoginModalOpen] = useState(false);
 
   const checkSession = useCallback(async () => {
-    setAuthStatus('checking');
     try {
+      // 1. 저장된 로컬 세션이 있다면 화면을 블로킹하지 않고 즉시 인증 상태 반영
+      const localUser = getCurrentUser();
+      if (localUser && localUser.isLoggedIn) {
+        setUser(localUser);
+        setAuthStatus('authenticated');
+
+        // 백그라운드에서 계정 유효성 비차단 확인 (화면 정지 없음)
+        if (supabase) {
+          supabase
+            .from('profiles')
+            .select('id, username, name, phone, company_name, user_type, role')
+            .eq('username', localUser.username)
+            .limit(1)
+            .maybeSingle()
+            .then(({ data: profile, error: profileErr }) => {
+              if (!profileErr && profile) {
+                const updatedUser = { ...localUser, ...profile, isLoggedIn: true };
+                localStorage.setItem('dk_auth_user', JSON.stringify(updatedUser));
+                setUser(updatedUser);
+              }
+            })
+            .catch(() => {});
+        }
+        return;
+      }
+
+      // 2. 로컬 계정이 없는 경우 Supabase OAuth 세션 1.5초 안전 확인
       if (supabase) {
-        // 1. Check Supabase Auth OAuth session with 3s timeout safety
         const sessionPromise = supabase.auth.getSession();
-        const timeoutPromise = new Promise((resolve) => setTimeout(() => resolve({ data: { session: null }, error: 'timeout' }), 3000));
-        const { data: sessionData, error: sessionError } = await Promise.race([sessionPromise, timeoutPromise]);
+        const timeoutPromise = new Promise((resolve) => setTimeout(() => resolve({ data: { session: null } }), 1500));
+        const { data: sessionData } = await Promise.race([sessionPromise, timeoutPromise]);
         
         const session = sessionData?.session;
-        if (!sessionError && session && session.user) {
+        if (session && session.user) {
           const sUser = session.user;
           try {
             const { data: profile } = await supabase
               .from('profiles')
               .select('id, username, name, phone, company_name, user_type, role')
               .eq('id', sUser.id)
+              .limit(1)
               .maybeSingle();
 
             const authData = {
@@ -49,57 +75,9 @@ export function AuthProvider({ children }) {
             console.warn('[AuthContext] Supabase profile fetch exception:', pErr);
           }
         }
-
-        // 2. Check local user session saved from custom login
-        const localUser = getCurrentUser();
-        if (localUser && localUser.isLoggedIn) {
-          try {
-            const { data: profile, error: profileErr } = await supabase
-              .from('profiles')
-              .select('id, username, name, phone, company_name, user_type, role')
-              .eq('username', localUser.username)
-              .maybeSingle();
-
-            if (!profileErr && profile) {
-              const updatedUser = {
-                ...localUser,
-                ...profile,
-                isLoggedIn: true
-              };
-              localStorage.setItem('dk_auth_user', JSON.stringify(updatedUser));
-              setUser(updatedUser);
-              setAuthStatus('authenticated');
-              return;
-            } else if (profileErr) {
-              // Network error during profile check; trust local user defensively
-              setUser(localUser);
-              setAuthStatus('authenticated');
-              return;
-            } else {
-              // Profile no longer exists on server
-              authLogout();
-              setUser(null);
-              setAuthStatus('unauthenticated');
-              return;
-            }
-          } catch (locProfileErr) {
-            console.warn('[AuthContext] Local user profile check exception:', locProfileErr);
-            setUser(localUser);
-            setAuthStatus('authenticated');
-            return;
-          }
-        }
-      } else {
-        // Fallback for missing Supabase client (development mode)
-        const localUser = getCurrentUser();
-        if (localUser && localUser.isLoggedIn) {
-          setUser(localUser);
-          setAuthStatus('authenticated');
-          return;
-        }
       }
 
-      // No active session found
+      // 활성 세션 없음
       setUser(null);
       setAuthStatus('unauthenticated');
     } catch (err) {
@@ -112,8 +90,6 @@ export function AuthProvider({ children }) {
         setUser(null);
         setAuthStatus('unauthenticated');
       }
-    } finally {
-      setAuthStatus(prev => prev === 'checking' ? 'unauthenticated' : prev);
     }
   }, []);
 
@@ -121,45 +97,50 @@ export function AuthProvider({ children }) {
     checkSession();
 
     if (supabase) {
-      const { data: { subscription } } = supabase.auth.onAuthStateChange(async (event, session) => {
-        try {
-          if (event === 'SIGNED_OUT') {
-            authLogout();
-            setUser(null);
-            setAuthStatus('unauthenticated');
-          } else if (event === 'SIGNED_IN' && session?.user) {
-            const sUser = session.user;
-            let profile = null;
-            try {
-              const res = await supabase
-                .from('profiles')
-                .select('id, username, name, phone, company_name, user_type, role')
-                .eq('id', sUser.id)
-                .maybeSingle();
-              profile = res.data;
-            } catch (e) {
-              console.warn('[AuthContext] onAuthStateChange profile fetch error:', e);
+      // onAuthStateChange 콜백 내부에서 직접적인 Supabase DB 조회를 지연(setTimeout) 실행하여
+      // Gotrue 내부 락과 PostgREST 쿼리 간의 교착 상태(Deadlock)를 원천 방지
+      const { data: { subscription } } = supabase.auth.onAuthStateChange((event, session) => {
+        setTimeout(async () => {
+          try {
+            if (event === 'SIGNED_OUT') {
+              authLogout();
+              setUser(null);
+              setAuthStatus('unauthenticated');
+            } else if (event === 'SIGNED_IN' && session?.user) {
+              const sUser = session.user;
+              let profile = null;
+              try {
+                const res = await supabase
+                  .from('profiles')
+                  .select('id, username, name, phone, company_name, user_type, role')
+                  .eq('id', sUser.id)
+                  .limit(1)
+                  .maybeSingle();
+                profile = res.data;
+              } catch (e) {
+                console.warn('[AuthContext] onAuthStateChange profile fetch error:', e);
+              }
+
+              const authData = {
+                id: sUser.id,
+                username: profile?.username || `oauth_${sUser.id.substring(0, 8)}`,
+                name: profile?.name || sUser.user_metadata?.name || '회원',
+                phone: profile?.phone || sUser.user_metadata?.phone || '',
+                company_name: profile?.company_name || null,
+                user_type: profile?.user_type || '일반',
+                role: profile?.role || 'user',
+                email: sUser.email || null,
+                isLoggedIn: true
+              };
+
+              localStorage.setItem('dk_auth_user', JSON.stringify(authData));
+              setUser(authData);
+              setAuthStatus('authenticated');
             }
-
-            const authData = {
-              id: sUser.id,
-              username: profile?.username || `oauth_${sUser.id.substring(0, 8)}`,
-              name: profile?.name || sUser.user_metadata?.name || '회원',
-              phone: profile?.phone || sUser.user_metadata?.phone || '',
-              company_name: profile?.company_name || null,
-              user_type: profile?.user_type || '일반',
-              role: profile?.role || 'user',
-              email: sUser.email || null,
-              isLoggedIn: true
-            };
-
-            localStorage.setItem('dk_auth_user', JSON.stringify(authData));
-            setUser(authData);
-            setAuthStatus('authenticated');
+          } catch (evtErr) {
+            console.error('[AuthContext] onAuthStateChange error:', evtErr);
           }
-        } catch (evtErr) {
-          console.error('[AuthContext] onAuthStateChange error:', evtErr);
-        }
+        }, 0);
       });
 
       return () => {

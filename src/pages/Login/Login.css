@@ -180,6 +180,15 @@
   position: relative;
 }
 
+.btn-login.auth_failed {
+  background-color: #ef4444;
+}
+
+.btn-login.network_error,
+.btn-login.timeout {
+  background-color: #f59e0b;
+}
+
 /* Account Recovery Links: 아이디 찾기 | 비밀번호 찾기 */
 .login-recovery-links {
   display: flex;

@@ -41,6 +41,23 @@ export default function Login() {
     const [isSubmitting, setIsSubmitting] = useState(false);
     const [errorMsg, setErrorMsg] = useState("");
     const [isKakaoHint, setIsKakaoHint] = useState(false);
+    const [loginButtonStatus, setLoginButtonStatus] = useState("idle"); // "idle" | "submitting" | "auth_failed" | "network_error" | "timeout"
+    const isSubmittingRef = React.useRef(false);
+
+    const getLoginButtonText = () => {
+        switch (loginButtonStatus) {
+            case "submitting":
+                return "로그인 중...";
+            case "auth_failed":
+                return "아이디 또는 비밀번호 오류";
+            case "network_error":
+                return "연결 오류 및 다시 시도";
+            case "timeout":
+                return "응답 지연 안내 및 다시 시도";
+            default:
+                return "로그인";
+        }
+    };
 
     // Modal State: null | 'find-id' | 'find-password'
     const [activeModal, setActiveModal] = useState(() => {
@@ -91,6 +108,8 @@ export default function Login() {
 
     const handleLogin = async (e) => {
         e.preventDefault();
+        if (isSubmitting || isSubmittingRef.current) return;
+
         setErrorMsg("");
         setIsKakaoHint(false);
 
@@ -109,10 +128,17 @@ export default function Login() {
             return;
         }
 
+        isSubmittingRef.current = true;
         setIsSubmitting(true);
+        setLoginButtonStatus("submitting");
 
         const watchdogTimer = setTimeout(() => {
-            setIsSubmitting(false);
+            if (isSubmittingRef.current) {
+                isSubmittingRef.current = false;
+                setIsSubmitting(false);
+                setLoginButtonStatus("timeout");
+                setErrorMsg("인증 서버 응답 시간이 지연되고 있습니다. 잠시 후 다시 시도해 주세요.");
+            }
         }, 10000);
 
         try {
@@ -141,15 +167,27 @@ export default function Login() {
                 nav(destination, { replace: true });
             } else {
                 setErrorMsg(result.message || "아이디 또는 비밀번호가 올바르지 않습니다.");
+                if (result.statusType === "network_error") {
+                    setLoginButtonStatus("network_error");
+                } else if (result.statusType === "timeout") {
+                    setLoginButtonStatus("timeout");
+                } else {
+                    setLoginButtonStatus("auth_failed");
+                }
                 if (result.isKakaoAccount) {
                     setIsKakaoHint(true);
                 }
+                // 비밀번호 입력란만 초기화하고 아이디는 유지
+                setPassword("");
             }
         } catch (err) {
             console.error("Login submit error:", err);
-            setErrorMsg(`로그인 처리 중 문제가 발생했습니다. (${err.message || err.toString()})`);
+            setErrorMsg("서버와 연결할 수 없습니다. 인터넷 연결을 확인한 후 다시 시도해 주세요.");
+            setLoginButtonStatus("network_error");
+            setPassword("");
         } finally {
             clearTimeout(watchdogTimer);
+            isSubmittingRef.current = false;
             setIsSubmitting(false);
         }
     };
@@ -223,7 +261,11 @@ export default function Login() {
                                     type="text" 
                                     placeholder="아이디 또는 이메일을 입력하세요" 
                                     value={userId}
-                                    onChange={(e) => setUserId(e.target.value)}
+                                    onChange={(e) => {
+                                        setUserId(e.target.value);
+                                        if (loginButtonStatus !== "idle") setLoginButtonStatus("idle");
+                                        if (errorMsg) setErrorMsg("");
+                                    }}
                                     className="login-input"
                                     autoComplete="username"
                                     autoCapitalize="none"
@@ -243,7 +285,11 @@ export default function Login() {
                                     type={showPassword ? "text" : "password"} 
                                     placeholder="비밀번호를 입력하세요" 
                                     value={password}
-                                    onChange={(e) => setPassword(e.target.value)}
+                                    onChange={(e) => {
+                                        setPassword(e.target.value);
+                                        if (loginButtonStatus !== "idle") setLoginButtonStatus("idle");
+                                        if (errorMsg) setErrorMsg("");
+                                    }}
                                     className="login-input with-eye"
                                     autoComplete="current-password"
                                     disabled={isSubmitting}
@@ -270,10 +316,10 @@ export default function Login() {
 
                         <button 
                             type="submit" 
-                            className={`btn-login ${isSubmitting ? "loading" : ""}`}
+                            className={`btn-login ${isSubmitting ? "loading" : ""} ${loginButtonStatus !== "idle" ? loginButtonStatus : ""}`}
                             disabled={isSubmitting}
                         >
-                            {isSubmitting ? "로그인 중..." : "로그인"}
+                            {getLoginButtonText()}
                         </button>
 
                         {/* Account Recovery Links */}
@@ -314,7 +360,7 @@ export default function Login() {
                             <svg className="kakao-icon" viewBox="0 0 24 24" width="18" height="18" style={{ marginRight: '8px' }}>
                                 <path fill="currentColor" d="M12 3c-4.97 0-9 3.185-9 7.115 0 2.558 1.707 4.8 4.27 6.054-.189.656-.68 2.361-.778 2.756-.122.499.182.493.385.357.16-.107 2.508-1.56 3.53-2.254.512.071 1.04.11 1.58.11 4.97 0 9-3.186 9-7.115C21 6.185 16.97 3 12 3z"/>
                             </svg>
-                            카카오로 로그인
+                            카카오로 시작하기
                         </button>
                         
                         <div className="login-footer">

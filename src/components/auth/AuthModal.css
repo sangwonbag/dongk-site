@@ -197,6 +197,39 @@
   font-size: 13px;
 }
 
+.auth-password-wrapper {
+  position: relative;
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.auth-password-wrapper input {
+  width: 100%;
+  padding-right: 40px;
+}
+
+.auth-eye-btn {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  background: none;
+  border: none;
+  color: var(--text-light);
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 4px;
+  border-radius: var(--radius-sm);
+  transition: var(--transition);
+}
+
+.auth-eye-btn:hover {
+  color: var(--primary);
+}
+
 /* Checkboxes */
 .auth-terms-checkbox {
   display: flex;
@@ -257,3 +290,204 @@
   color: var(--text-light);
   cursor: not-allowed;
 }
+
+.btn-auth-submit.auth_failed {
+  background-color: #ef4444;
+}
+
+.btn-auth-submit.network_error,
+.btn-auth-submit.timeout {
+  background-color: #f59e0b;
+}
+
+/* Recovery Links (아이디 찾기 | 비밀번호 찾기) */
+.auth-recovery-links {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  margin-top: 4px;
+}
+
+.auth-recovery-link-btn {
+  background: none;
+  border: none;
+  color: #64748b;
+  font-size: 13px;
+  font-weight: 500;
+  cursor: pointer;
+  padding: 4px 6px;
+  transition: color 0.15s ease;
+}
+
+.auth-recovery-link-btn:hover {
+  color: #0f172a;
+  text-decoration: underline;
+}
+
+.auth-recovery-divider {
+  color: #cbd5e1;
+  font-size: 12px;
+  user-select: none;
+}
+
+/* Divider '또는' */
+.auth-divider {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #94a3b8;
+  font-size: 12.5px;
+  margin: 2px 0;
+}
+
+.auth-divider::before,
+.auth-divider::after {
+  content: '';
+  flex: 1;
+  border-bottom: 1px solid #e2e8f0;
+}
+
+.auth-divider span {
+  padding: 0 12px;
+}
+
+/* Kakao Login Button */
+.btn-kakao-auth {
+  width: 100%;
+  height: 46px;
+  background-color: #FEE500;
+  color: #191919;
+  border: none;
+  border-radius: var(--radius-md);
+  font-size: 14px;
+  font-weight: 700;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.2s, box-shadow 0.2s, transform 0.1s;
+}
+
+.btn-kakao-auth:hover:not(:disabled) {
+  background-color: #FDD835;
+}
+
+.btn-kakao-auth:active:not(:disabled) {
+  transform: scale(0.99);
+}
+
+.btn-kakao-auth:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+/* Subview (아이디 찾기 / 비밀번호 찾기) */
+.auth-subview {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.auth-btn-back {
+  background: none;
+  border: none;
+  color: #64748b;
+  font-size: 13px;
+  font-weight: 600;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 4px 0;
+  margin-bottom: 4px;
+  width: fit-content;
+  transition: color 0.15s ease;
+}
+
+.auth-btn-back:hover {
+  color: #0f172a;
+}
+
+.auth-subview-title {
+  font-size: 18px;
+  font-weight: 800;
+  color: #0f172a;
+  margin: 0;
+}
+
+.auth-subview-desc {
+  font-size: 13px;
+  color: #64748b;
+  line-height: 1.5;
+  margin: 0 0 8px 0;
+}
+
+.auth-input-with-icon {
+  position: relative;
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.auth-field-icon {
+  position: absolute;
+  left: 12px;
+  color: #94a3b8;
+  pointer-events: none;
+}
+
+.auth-input-with-icon input {
+  padding-left: 38px;
+  width: 100%;
+}
+
+.auth-result-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 20px 16px;
+  background-color: #f8fafc;
+  border: 1px solid #e2e8f0;
+  border-radius: var(--radius-md);
+  margin-top: 8px;
+  gap: 10px;
+}
+
+.auth-result-icon {
+  margin-bottom: 2px;
+}
+
+.auth-result-title {
+  font-size: 16px;
+  font-weight: 750;
+  color: #0f172a;
+  margin: 0;
+}
+
+.auth-result-desc {
+  font-size: 13px;
+  color: #475569;
+  line-height: 1.5;
+  margin: 0;
+}
+
+.auth-masked-badge {
+  background-color: #ffffff;
+  border: 1px dashed #cbd5e1;
+  padding: 10px 20px;
+  border-radius: var(--radius-md);
+  font-size: 16px;
+  font-weight: 800;
+  letter-spacing: 1px;
+  color: #0f172a;
+  margin: 6px 0;
+}
+
+.auth-result-sub {
+  font-size: 12px;
+  color: #94a3b8;
+  margin: 0;
+}
+
