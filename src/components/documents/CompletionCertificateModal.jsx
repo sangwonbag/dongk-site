@@ -2,8 +2,8 @@ import React from 'react';
 import { Printer, Download, X, Award } from 'lucide-react';
 import './DocumentStyles.css';
 
-export default function CompletionCertificateModal({ order, onClose }) {
-  if (!order) return null;
+export default function CompletionCertificateModal({ isOpen = true, order, onClose }) {
+  if (!isOpen || !order) return null;
 
   const handlePrint = () => {
     window.print();

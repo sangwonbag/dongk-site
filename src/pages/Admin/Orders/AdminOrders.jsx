@@ -1439,18 +1439,22 @@ function AdminOrderCard({ order, currentUser, onSaveSuccess, highlight }) {
       )}
 
       {/* 출고증 문서 모달 */}
-      <ReleaseNoteModal
-        isOpen={showReleaseNote}
-        onClose={() => setShowReleaseNote(false)}
-        order={order}
-      />
+      {showReleaseNote && (
+        <ReleaseNoteModal
+          isOpen={showReleaseNote}
+          onClose={() => setShowReleaseNote(false)}
+          order={order}
+        />
+      )}
 
       {/* 시공확인서 문서 모달 */}
-      <CompletionCertificateModal
-        isOpen={showCompletionCert}
-        onClose={() => setShowCompletionCert(false)}
-        order={order}
-      />
+      {showCompletionCert && (
+        <CompletionCertificateModal
+          isOpen={showCompletionCert}
+          onClose={() => setShowCompletionCert(false)}
+          order={order}
+        />
+      )}
     </div>
   );
 }

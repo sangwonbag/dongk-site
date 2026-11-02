@@ -2,8 +2,8 @@ import React from 'react';
 import { Printer, Download, X, CheckCircle2 } from 'lucide-react';
 import './DocumentStyles.css';
 
-export default function ReleaseNoteModal({ order, onClose }) {
-  if (!order) return null;
+export default function ReleaseNoteModal({ isOpen = true, order, onClose }) {
+  if (!isOpen || !order) return null;
 
   const items = order.shipment_checklist && order.shipment_checklist.length > 0 
     ? order.shipment_checklist 
