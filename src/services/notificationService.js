@@ -44,33 +44,48 @@ export const sendOrderNotification = async (orderData, type = "admin") => {
       image_url: item.image_url
     }));
 
-    // 서버 사이드 API 호출
-    const response = await fetch('/api/send-order-email', {
-      method: 'POST',
-      headers: {
-        'Content-Type': 'application/json',
-      },
-      body: JSON.stringify({
-        type, // "admin" 또는 "customer"
-        recipient_email: targetEmail,
-        order_no,
-        customer_name,
-        company_name,
-        phone,
-        address,
-        address_detail,
-        memo,
-        delivery_request_date,
-        payment_method,
-        payment_status,
-        status,
-        total_amount,
-        items,
-        created_at
-      }),
-    });
+    // 서버 사이드 API 호출 (최대 6초 타임아웃 적용하여 주문 완료 블로킹 방지)
+    const controller = new AbortController();
+    const timeoutId = setTimeout(() => controller.abort(), 6000);
 
-    const result = await response.json();
+    let response;
+    try {
+      response = await fetch('/api/send-order-email', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        signal: controller.signal,
+        body: JSON.stringify({
+          type, // "admin" 또는 "customer"
+          recipient_email: targetEmail,
+          order_no,
+          customer_name,
+          company_name,
+          phone,
+          address,
+          address_detail,
+          memo,
+          delivery_request_date,
+          payment_method,
+          payment_status,
+          status,
+          total_amount,
+          items,
+          created_at
+        }),
+      });
+    } finally {
+      clearTimeout(timeoutId);
+    }
+
+    let result = null;
+    try {
+      result = await response.json();
+    } catch {
+      result = { success: false, error: `응답 해석 불가 (HTTP ${response?.status})` };
+    }
+
     if (!response.ok || !result.success) {
       console.warn('[NotificationService Warning] Email alert failed:', result.error || 'Unknown server error');
       return { 

@@ -6,7 +6,7 @@ import { useEstimateCart } from "../../contexts/EstimateCartContext";
 import { supabase } from "../../lib/supabaseClient";
 import { findUsernameByEmail, requestPasswordReset } from "../../lib/auth";
 import SEO from "../../components/seo/SEO";
-import { Eye, EyeOff, User, Lock, Mail, X, CheckCircle, AlertCircle, ArrowRight } from "lucide-react";
+import { Eye, EyeOff, Mail, X, CheckCircle, AlertCircle, ArrowRight } from "lucide-react";
 import "./Login.css";
 
 import { getSafeRedirectUrl } from "../../utils/urlUtils";
@@ -14,8 +14,25 @@ import { getSafeRedirectUrl } from "../../utils/urlUtils";
 export default function Login() {
     const nav = useNavigate();
     const location = useLocation();
-    const { login } = useAuth();
+    const { user, login } = useAuth();
     const { getPendingDirectOrder } = useEstimateCart();
+
+
+    // Auto-redirect if already logged in or right after authentication succeeds
+    React.useEffect(() => {
+        if (user && user.isLoggedIn) {
+            const searchParams = new URLSearchParams(location.search);
+            const rawRedirect = searchParams.get("redirect");
+            let target = (user.role === "admin" || user.role === "staff") ? "/admin" : "/";
+            if (rawRedirect) {
+                const safe = getSafeRedirectUrl(rawRedirect, target);
+                if (safe !== "/login" && !safe.startsWith("/login?") && !safe.startsWith("/login/")) {
+                    target = safe;
+                }
+            }
+            nav(target, { replace: true });
+        }
+    }, [user, location.search, nav]);
 
     // Login Form State
     const [userId, setUserId] = useState("");
@@ -94,22 +111,34 @@ export default function Login() {
 
         setIsSubmitting(true);
 
+        const watchdogTimer = setTimeout(() => {
+            setIsSubmitting(false);
+        }, 10000);
+
         try {
             const result = await login(submittedId, submittedPassword);
 
-            if (result.success) {
-                if (result.user.role === "admin" || result.user.role === "staff") {
-                    nav("/admin");
-                } else {
-                    const pending = getPendingDirectOrder();
-                    if (pending) {
-                        nav("/checkout");
-                    } else {
-                        const searchParams = new URLSearchParams(location.search);
-                        const redirectUrl = getSafeRedirectUrl(searchParams.get("redirect"), "/");
-                        nav(redirectUrl);
+            if (result.success && result.user) {
+                const searchParams = new URLSearchParams(location.search);
+                const rawRedirect = searchParams.get("redirect");
+                let destination = (result.user.role === "admin" || result.user.role === "staff") ? "/admin" : "/";
+
+                const pending = getPendingDirectOrder();
+                if (pending) {
+                    destination = "/checkout";
+                } else if (rawRedirect) {
+                    const safe = getSafeRedirectUrl(rawRedirect, destination);
+                    if (safe !== "/login" && !safe.startsWith("/login?") && !safe.startsWith("/login/")) {
+                        destination = safe;
                     }
                 }
+
+                // If destination points back to login, safely redirect to home or admin
+                if (destination === "/login" || destination.startsWith("/login?") || destination.startsWith("/login/")) {
+                    destination = (result.user.role === "admin" || result.user.role === "staff") ? "/admin" : "/";
+                }
+
+                nav(destination, { replace: true });
             } else {
                 setErrorMsg(result.message || "아이디 또는 비밀번호가 올바르지 않습니다.");
                 if (result.isKakaoAccount) {
@@ -120,6 +149,7 @@ export default function Login() {
             console.error("Login submit error:", err);
             setErrorMsg(`로그인 처리 중 문제가 발생했습니다. (${err.message || err.toString()})`);
         } finally {
+            clearTimeout(watchdogTimer);
             setIsSubmitting(false);
         }
     };
@@ -184,10 +214,9 @@ export default function Login() {
                     <h1 className="login-title">로그인</h1>
                     
                     <form onSubmit={handleLogin} className="login-form" noValidate>
-                        <div className="form-group">
+                        <div className="login-form-group">
                             <label className="login-label" htmlFor="login-username">아이디 또는 이메일</label>
                             <div className="login-input-wrapper">
-                                <User size={18} className="login-field-icon" />
                                 <input 
                                     id="login-username"
                                     name="username"
@@ -195,7 +224,7 @@ export default function Login() {
                                     placeholder="아이디 또는 이메일을 입력하세요" 
                                     value={userId}
                                     onChange={(e) => setUserId(e.target.value)}
-                                    className="login-input with-icon"
+                                    className="login-input"
                                     autoComplete="username"
                                     autoCapitalize="none"
                                     spellCheck="false"
@@ -205,10 +234,9 @@ export default function Login() {
                             </div>
                         </div>
 
-                        <div className="form-group">
+                        <div className="login-form-group">
                             <label className="login-label" htmlFor="login-password">비밀번호</label>
                             <div className="login-input-wrapper">
-                                <Lock size={18} className="login-field-icon" />
                                 <input 
                                     id="login-password"
                                     name="password"
@@ -216,7 +244,7 @@ export default function Login() {
                                     placeholder="비밀번호를 입력하세요" 
                                     value={password}
                                     onChange={(e) => setPassword(e.target.value)}
-                                    className="login-input with-icon with-eye"
+                                    className="login-input with-eye"
                                     autoComplete="current-password"
                                     disabled={isSubmitting}
                                     required

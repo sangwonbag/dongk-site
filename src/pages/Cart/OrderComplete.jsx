@@ -19,12 +19,12 @@ export default function OrderComplete() {
     if (location.state?.order) {
       setOrder(location.state.order);
     } else {
-      const saved = localStorage.getItem("last_completed_order");
+      const saved = localStorage.getItem("last_completed_order") || (typeof sessionStorage !== "undefined" ? sessionStorage.getItem("last_completed_order") : null);
       if (saved) {
         try {
           setOrder(JSON.parse(saved));
         } catch (e) {
-          console.error("Failed to parse saved order from localStorage:", e);
+          console.error("Failed to parse saved order:", e);
         }
       }
     }

@@ -3,6 +3,7 @@ import { useNavigate, useLocation } from "react-router-dom";
 import MainLayout from "../../components/layout/MainLayout";
 import { useEstimateCart } from "../../contexts/EstimateCartContext";
 import { useAuth } from "../../contexts/AuthContext";
+import { getCurrentUser } from "../../lib/auth";
 import { createOrder } from "../../services/orderService";
 import { sendOrderNotification } from "../../services/notificationService";
 import { OFFICE_ADDRESS, OFFICE_PHONE } from "../../constants/contact";
@@ -40,7 +41,7 @@ export default function Checkout() {
     removeFromCart,
     updateQuantity
   } = useEstimateCart();
-  const { user, openLoginModal } = useAuth();
+  const { user, loading: authLoading, openLoginModal } = useAuth();
 
   const hasAutoOpened = useRef(false);
 
@@ -67,6 +68,7 @@ export default function Checkout() {
   const [loading, setLoading] = useState(false);
   const [errorMsg, setErrorMsg] = useState("");
   const [isOrderSuccess, setIsOrderSuccess] = useState(false);
+  const isSubmittingRef = useRef(false);
 
   // --- 현장 배송 방식 및 부자재 추가 상태 ---
   const CARGO_BRANCHES = [
@@ -345,14 +347,15 @@ export default function Checkout() {
     setCheckoutItems(targetItems);
     setIsDirectOrder(isDirect);
 
-    // 로그인하지 않은 사용자라면 로그인 모달 유도
-    if (!user) {
+    // 로그인하지 않은 사용자라면 로그인 유도 (인증 검사 완료 및 로컬 세션 확인 후)
+    const activeUser = user || getCurrentUser();
+    if (!activeUser && !authLoading) {
       if (!hasAutoOpened.current) {
         hasAutoOpened.current = true;
         openLoginModal();
       }
     }
-  }, [globalCartItems, navigate, openLoginModal, location.state, getPendingDirectOrder, isOrderSuccess, loading, user]);
+  }, [globalCartItems, navigate, openLoginModal, location.state, getPendingDirectOrder, isOrderSuccess, loading, user, authLoading]);
 
   // 2. Auto-populate customer info only once when user loaded to prevent reset on cart updates
   const hasPopulatedCustomer = useRef(false);
@@ -479,7 +482,17 @@ export default function Checkout() {
   // 주문 실행
   const handleOrderSubmit = async (e) => {
     e.preventDefault();
-    if (loading) return;
+    if (loading || isSubmittingRef.current || isOrderSuccess) {
+      console.warn("[Checkout] 이미 주문 처리 중이거나 완료된 주문입니다. 중복 요청을 방지합니다.");
+      return;
+    }
+
+    const activeLock = sessionStorage.getItem("order_submitting_lock");
+    if (activeLock && Date.now() - parseInt(activeLock, 10) < 6000) {
+      console.warn("[Checkout] 최근 6초 이내에 제출된 주문이 있어 중복 생성을 차단합니다.");
+      return;
+    }
+
     setErrorMsg("");
 
     // 로그인 여부 검사
@@ -535,7 +548,20 @@ export default function Checkout() {
       return;
     }
 
+    isSubmittingRef.current = true;
+    sessionStorage.setItem("order_submitting_lock", Date.now().toString());
     setLoading(true);
+
+    // 15초 안전 워치독 타이머 (네트워크 지연이나 예외 시 로딩 상태 자동 해제)
+    const watchdogTimer = setTimeout(() => {
+      if (isSubmittingRef.current) {
+        console.warn("[Checkout] 주문 응답 15초 워치독 동작 - 로딩 해제");
+        isSubmittingRef.current = false;
+        setLoading(false);
+        setErrorMsg("주문 처리 시간이 지연되고 있습니다. 네트워크 상태를 확인하시거나 고객센터(010-8227-9055)로 확인해 주세요.");
+      }
+    }, 15000);
+
     try {
       // Calculate delivery labels and metadata
       let deliveryLabel = "대신화물 지점 배송";
@@ -608,13 +634,14 @@ export default function Checkout() {
         accessory_recommendation_skipped: accSkipped
       };
 
-      // 주문 생성 API 호출
+      // 주문 생성 API 호출 (DB orders + order_items 삽입)
       const orderData = await createOrder({
         cartItems: checkoutItems,
         customer: orderPayloadCustomer,
         paymentMethod
       });
 
+      clearTimeout(watchdogTimer);
       setIsOrderSuccess(true);
 
       // 장바구니 및 바로구매 임시 정보 초기화
@@ -633,41 +660,36 @@ export default function Checkout() {
       // Clear session storage values
       sessionStorage.removeItem("checkout_delivery_method");
       sessionStorage.removeItem("checkout_freight_branch");
-       sessionStorage.removeItem("checkout_kyungdong_branch");
+      sessionStorage.removeItem("checkout_kyungdong_branch");
       sessionStorage.removeItem("checkout_custom_accessories");
 
-      // 비동기 알림 발송
-      try {
-        const adminNotif = await sendOrderNotification(orderData, "admin");
-        if (!adminNotif.success) {
-          console.warn("[Checkout Warning] 관리자 주문 접수 알림 전송 실패:", adminNotif.error);
-        }
-      } catch (notifErr) {
-        console.warn("[Checkout Exception] 관리자 주문 접수 알림 전송 중 오류:", notifErr);
-      }
-
-      if (customer.email && customer.email.trim() !== "") {
-        try {
-          const customerNotif = await sendOrderNotification(orderData, "customer");
-          if (!customerNotif.success) {
-            console.warn("[Checkout Warning] 고객 주문 확인 이메일 전송 실패:", customerNotif.error);
-          }
-        } catch (notifErr) {
-          console.warn("[Checkout Exception] 고객 주문 확인 이메일 전송 중 오류:", notifErr);
-        }
-      }
-
+      // 주문 완료 정보 localStorage 및 sessionStorage 백업 (새로고침/직접접근 대비)
       try {
         localStorage.setItem("last_completed_order", JSON.stringify(orderData));
+        sessionStorage.setItem("last_completed_order", JSON.stringify(orderData));
       } catch (storageErr) {
-        console.warn("[Checkout Warning] localStorage 저장 실패:", storageErr);
+        console.warn("[Checkout Warning] storage 저장 실패:", storageErr);
       }
+
+      // 비동기 알림 백그라운드 발송 (사용자 화면 전환을 차단하지 않음)
+      Promise.allSettled([
+        sendOrderNotification(orderData, "admin"),
+        customer.email && customer.email.trim() ? sendOrderNotification(orderData, "customer") : Promise.resolve()
+      ]).catch(notifErr => {
+        console.warn("[Checkout Warning] 백그라운드 알림 이메일 전송 예외:", notifErr);
+      });
+
+      // 지체 없이 즉시 주문 완료 화면으로 전환
       navigate("/order-complete", { state: { order: orderData }, replace: true });
     } catch (err) {
+      clearTimeout(watchdogTimer);
       console.error("[Checkout Error]", err);
       setErrorMsg(err.message || "주문 처리 중 에러가 발생했습니다. 다시 시도해 주세요.");
       alert(`주문 실패: ${err.message || "서버 오류"}`);
     } finally {
+      clearTimeout(watchdogTimer);
+      sessionStorage.removeItem("order_submitting_lock");
+      isSubmittingRef.current = false;
       setLoading(false);
     }
   };

@@ -14,6 +14,10 @@ export const getSafeRedirectUrl = (rawUrl, fallback = '/') => {
     !trimmed.toLowerCase().startsWith('http:') &&
     !trimmed.toLowerCase().startsWith('https:')
   ) {
+    // Prevent redirect loops back to login routes
+    if (trimmed === '/login' || trimmed.startsWith('/login?') || trimmed.startsWith('/login/')) {
+      return fallback;
+    }
     return trimmed;
   }
   return fallback;

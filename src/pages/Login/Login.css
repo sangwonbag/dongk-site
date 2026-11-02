@@ -31,7 +31,7 @@
   gap: 18px;
 }
 
-.form-group {
+.login-form-group {
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -51,33 +51,25 @@
   width: 100%;
 }
 
-.login-field-icon {
-  position: absolute;
-  left: 14px;
-  color: #9ca3af;
-  pointer-events: none;
-  flex-shrink: 0;
-}
-
 .login-input {
   width: 100%;
-  padding: 13px 14px;
+  height: 48px;
+  line-height: normal;
+  padding: 0 16px;
   border: 1px solid #d1d5db;
   border-radius: 8px;
-  font-size: 0.95rem;
+  font-size: 15px;
   outline: none;
   background-color: #ffffff;
   color: #111827;
   transition: border-color 0.2s, box-shadow 0.2s;
   box-sizing: border-box;
-}
-
-.login-input.with-icon {
-  padding-left: 42px;
+  -webkit-appearance: none;
+  appearance: none;
 }
 
 .login-input.with-eye {
-  padding-right: 42px;
+  padding-right: 46px;
 }
 
 .login-input:focus {
@@ -91,9 +83,22 @@
   cursor: not-allowed;
 }
 
+/* Autofill styling: ensure clean background and crisp text */
+.login-input:-webkit-autofill,
+.login-input:-webkit-autofill:hover,
+.login-input:-webkit-autofill:focus,
+.login-input:-webkit-autofill:active {
+  -webkit-box-shadow: 0 0 0 1000px #ffffff inset !important;
+  -webkit-text-fill-color: #111827 !important;
+  transition: background-color 5000s ease-in-out 0s;
+  box-sizing: border-box !important;
+}
+
 .login-eye-btn {
   position: absolute;
   right: 12px;
+  top: 50%;
+  transform: translateY(-50%);
   background: none;
   border: none;
   color: #6b7280;
@@ -104,10 +109,18 @@
   justify-content: center;
   border-radius: 4px;
   transition: color 0.15s ease;
+  z-index: 2;
 }
 
 .login-eye-btn:hover {
   color: #111827;
+}
+
+@media (max-width: 640px) {
+  .login-input {
+    font-size: 16px; /* Prevents auto-zoom in mobile Safari */
+    height: 48px;
+  }
 }
 
 /* Error Banner */

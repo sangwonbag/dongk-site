@@ -152,7 +152,13 @@ export const login = async (id, password) => {
     console.warn("Supabase not connected. Using fallback auth.");
     const adminPassword = (typeof import.meta !== 'undefined' && import.meta.env?.VITE_ADMIN_PASSWORD) || '1234';
     if (cleanId === 'dongk3089' && cleanPassword === adminPassword) {
-      const user = { id: 'dongk3089', username: 'dongk3089', role: 'admin', isLoggedIn: true };
+      const user = { 
+        id: '0e628119-fdca-4f94-8400-f5864b712c59', 
+        username: 'dongk3089', 
+        name: '관리자',
+        role: 'admin', 
+        isLoggedIn: true 
+      };
       if (typeof localStorage !== 'undefined') {
         localStorage.setItem(AUTH_KEY, JSON.stringify(user));
       }
@@ -165,21 +171,31 @@ export const login = async (id, password) => {
     const hashedPassword = await hashPassword(cleanPassword);
     const isEmailInput = cleanId.includes('@');
 
+    const withQueryTimeout = (p, ms = 8000) =>
+      Promise.race([
+        p,
+        new Promise((_, reject) =>
+          setTimeout(() => reject(new Error('네트워크 응답 시간이 초과되었습니다. 잠시 후 다시 시도해 주세요.')), ms)
+        )
+      ]);
+
     // 1. Primary Profile Search: Search by username (case-insensitive)
     let profileQuery = supabase
       .from('profiles')
       .select('id, username, password, name, phone, company_name, user_type, role, memo')
       .ilike('username', cleanId);
 
-    let { data: profileRow, error: pErr } = await profileQuery.maybeSingle();
+    let { data: profileRow, error: pErr } = await withQueryTimeout(profileQuery.maybeSingle());
 
     // 2. If not found by username and input looks like an email, search by memo (which stores email on signup)
     if (!profileRow && isEmailInput) {
-      const { data: memoMatch, error: mErr } = await supabase
-        .from('profiles')
-        .select('id, username, password, name, phone, company_name, user_type, role, memo')
-        .ilike('memo', `%${cleanId}%`)
-        .maybeSingle();
+      const { data: memoMatch, error: mErr } = await withQueryTimeout(
+        supabase
+          .from('profiles')
+          .select('id, username, password, name, phone, company_name, user_type, role, memo')
+          .ilike('memo', `%${cleanId}%`)
+          .maybeSingle()
+      );
 
       if (!mErr && memoMatch) {
         profileRow = memoMatch;
@@ -214,10 +230,12 @@ export const login = async (id, password) => {
     // 4. If direct profile check failed, try Supabase Auth (for users created via Supabase Auth or email password reset)
     if (isEmailInput) {
       try {
-        const { data: authData, error: authErr } = await supabase.auth.signInWithPassword({
-          email: cleanId,
-          password: cleanPassword
-        });
+        const { data: authData, error: authErr } = await withQueryTimeout(
+          supabase.auth.signInWithPassword({
+            email: cleanId,
+            password: cleanPassword
+          })
+        );
 
         if (!authErr && authData?.user) {
           const sUser = authData.user;

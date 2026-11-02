@@ -145,10 +145,15 @@ const mapOrderToKo = (order) => {
     }
   }
 
+  let mappedPaymentMethod = PAYMENT_METHOD_EN_TO_KO[order.payment_method] || order.payment_method;
+  if (order.memo && order.memo.includes('[결제방식: 동경바닥재 매장 방문결제]')) {
+    mappedPaymentMethod = '동경바닥재 방문결제';
+  }
+
   return {
     ...order,
     status: STATUS_EN_TO_KO[order.status] || order.status,
-    payment_method: PAYMENT_METHOD_EN_TO_KO[order.payment_method] || order.payment_method,
+    payment_method: mappedPaymentMethod,
     payment_status: PAYMENT_STATUS_EN_TO_KO[order.payment_status] || order.payment_status,
     memo: memoText,
     admin_memo: adminMemoText,
@@ -189,6 +194,114 @@ const handleSupabaseError = (error, contextMsg) => {
   throw new Error(`${contextMsg}: ${error.message || '서버 오류가 발생했습니다.'}`);
 };
 
+// 쿼리 타임아웃 래퍼
+const withTimeout = (promise, ms = 10000, contextMsg = '데이터베이스 요청') => {
+  return Promise.race([
+    promise,
+    new Promise((_, reject) =>
+      setTimeout(() => reject(new Error(`${contextMsg} 시간이 초과되었습니다 (타임아웃). 잠시 후 다시 시도해 주세요.`)), ms)
+    )
+  ]);
+};
+
+const UUID_REGEX = /^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$/i;
+const DEFAULT_STORE_USER_ID = '0e628119-fdca-4f94-8400-f5864b712c59';
+
+/**
+ * orders.user_id는 NOT NULL 및 profiles.id(UUID) 외래키 제약조건이 있으므로,
+ * 로그인 상태, 비회원 주문, fallback 계정 등에 상관없이 유효한 UUID를 안전하게 확인하고 반환합니다.
+ */
+const resolveValidUserId = async (user, customerEmail) => {
+  // 1. 이미 유효한 UUID 형식의 user.id인 경우 즉시 반환
+  if (user?.id && UUID_REGEX.test(user.id)) {
+    return user.id;
+  }
+
+  // 2. user 객체가 있으나 id가 문자열 아이디(예: 'dongk3089')인 경우 profiles에서 UUID 조회
+  if (user) {
+    const searchKey = user.username || user.id;
+    if (searchKey) {
+      try {
+        const { data: matchedProfile } = await withTimeout(
+          supabase
+            .from('profiles')
+            .select('id')
+            .ilike('username', searchKey)
+            .limit(1)
+            .maybeSingle(),
+          4000
+        );
+        if (matchedProfile?.id && UUID_REGEX.test(matchedProfile.id)) {
+          return matchedProfile.id;
+        }
+      } catch (err) {
+        console.warn('[OrderService] Profile lookup by username warning:', err);
+      }
+    }
+  }
+
+  // 3. 주문서에 입력된 고객 이메일로 가입된 프로필이 있는지 조회
+  if (customerEmail && customerEmail.trim()) {
+    try {
+      const cleanEmail = customerEmail.trim();
+      const { data: emailProfile } = await withTimeout(
+        supabase
+          .from('profiles')
+          .select('id')
+          .or(`username.ilike.${cleanEmail},memo.ilike.%${cleanEmail}%`)
+          .limit(1)
+          .maybeSingle(),
+        4000
+      );
+      if (emailProfile?.id && UUID_REGEX.test(emailProfile.id)) {
+        return emailProfile.id;
+      }
+    } catch (err) {
+      console.warn('[OrderService] Profile lookup by email warning:', err);
+    }
+  }
+
+  // 4. 비회원이거나 프로필을 찾을 수 없는 경우: 대표 관리자/시스템 계정 UUID 할당 (외래키 제약조건 준수)
+  try {
+    const { data: adminProfile } = await withTimeout(
+      supabase
+        .from('profiles')
+        .select('id')
+        .or('username.eq.dongk3089,role.eq.admin')
+        .limit(1)
+        .maybeSingle(),
+      4000
+    );
+    if (adminProfile?.id && UUID_REGEX.test(adminProfile.id)) {
+      return adminProfile.id;
+    }
+  } catch (err) {
+    console.warn('[OrderService] Admin profile fallback warning:', err);
+  }
+
+  return DEFAULT_STORE_USER_ID;
+};
+
+// 스키마 컬럼 캐싱 (매 주문마다 3회씩 중복 조회 방지)
+let cachedHasShippingColumns = false;
+let isSchemaChecked = false;
+
+const checkOrderTableSchema = async () => {
+  if (isSchemaChecked) return;
+  try {
+    const { error: colErr } = await withTimeout(
+      supabase.from('orders').select('delivery_method').limit(1),
+      3000
+    );
+    if (!colErr) {
+      cachedHasShippingColumns = true;
+    }
+  } catch {
+    cachedHasShippingColumns = false;
+  }
+  isSchemaChecked = true;
+};
+
 /**
  * 1. 주문 생성
  * - orders 테이블에 주문 헤더 추가
@@ -205,7 +318,7 @@ export const createOrder = async ({ cartItems, customer, paymentMethod }) => {
   }
 
   const user = getCurrentUser();
-  const userId = user ? user.id : null;
+  const validUserId = await resolveValidUserId(user, customer?.email);
 
   // 총액 자동 계산
   const totalAmount = cartItems.reduce((sum, item) => {
@@ -215,50 +328,37 @@ export const createOrder = async ({ cartItems, customer, paymentMethod }) => {
   }, 0);
 
   // 희망배송일(delivery_date) 및 희망시간(delivery_time)이 존재한다면 memo에 기록
-  let finalMemo = customer.memo || null;
+  let finalMemo = customer.memo || '';
   if (customer.delivery_date) {
     const timeTag = customer.delivery_time ? ` [희망시간: ${customer.delivery_time}]` : "";
-    finalMemo = `[희망배송일: ${customer.delivery_date}]${timeTag} ${customer.memo || ''}`.trim();
+    finalMemo = `[희망배송일: ${customer.delivery_date}]${timeTag} ${finalMemo}`.trim();
   }
 
-  // 이메일 컬럼명 동적 판별 (customer_email 또는 email)
-  let emailColName = null;
-  try {
-    const { error: colError1 } = await supabase
-      .from('orders')
-      .select('customer_email')
-      .limit(1);
-    if (!colError1) {
-      emailColName = 'customer_email';
-    } else {
-      const { error: colError2 } = await supabase
-        .from('orders')
-        .select('email')
-        .limit(1);
-      if (!colError2) {
-        emailColName = 'email';
-      }
+  // 비회원 주문인 경우 메모에 표시
+  if (!user || !user.isLoggedIn) {
+    if (!finalMemo.includes('[비회원 주문]')) {
+      finalMemo = `[비회원 주문] ${finalMemo}`.trim();
     }
-  } catch (e) {
-    console.warn('[OrderService] Email column dynamic scan warning:', e);
   }
 
-  // 배송정보 신규 컬럼들 존재 여부 동적 감지
-  let hasShippingColumns = false;
-  try {
-    const { error: checkColError } = await supabase
-      .from('orders')
-      .select('delivery_method')
-      .limit(1);
-    if (!checkColError) {
-      hasShippingColumns = true;
-    }
-  } catch (e) {
-    console.warn('[OrderService] Shipping columns check failed:', e);
+  // 방문결제 선택 시 Supabase DB 체크 제약조건(orders_payment_method_check)을 만족하기 위해
+  // 컬럼에는 'bank_transfer'로 안전하게 적재하고 memo에 [결제방식: 동경바닥재 매장 방문결제] 태그를 부착하여 UI에서 복원합니다.
+  const isStorePayment = (
+    paymentMethod === '동경바닥재 방문결제' ||
+    paymentMethod === '방문결제' ||
+    paymentMethod === '현장결제' ||
+    paymentMethod === 'store_payment'
+  );
+
+  if (isStorePayment && !finalMemo.includes('[결제방식: 동경바닥재 매장 방문결제]')) {
+    finalMemo = `[결제방식: 동경바닥재 매장 방문결제] ${finalMemo}`.trim();
   }
+
+  // 1회성 스키마 확인
+  await checkOrderTableSchema();
 
   const insertPayload = {
-    user_id: userId,
+    user_id: validUserId,
     customer_name: customer.name,
     company_name: customer.company_name || null,
     phone: customer.phone,
@@ -270,11 +370,16 @@ export const createOrder = async ({ cartItems, customer, paymentMethod }) => {
     shipping_fee: 0,
     total_amount: totalAmount,
     status: 'submitted', // 접수완료
-    payment_method: (PAYMENT_METHOD_KO_TO_EN[paymentMethod] === 'store_payment' ? 'store_payment' : 'bank_transfer'),
-    payment_status: 'unpaid' // 미입금
+    payment_method: 'bank_transfer', // DB check constraint(orders_payment_method_check) 준수
+    payment_status: 'unpaid', // 미입금
+    // 통합 동기화 컬럼들 동시 기록
+    customer_phone: customer.phone,
+    customer_address: `${customer.address} ${customer.address_detail || ''}`.trim(),
+    customer_email: customer.email || null,
+    preferred_delivery_date: customer.delivery_date || null
   };
 
-  if (hasShippingColumns) {
+  if (cachedHasShippingColumns) {
     insertPayload.delivery_method = customer.delivery_method || 'cargo';
     insertPayload.delivery_method_label = customer.delivery_method_label || '대신화물 지점 배송';
     insertPayload.delivery_fee = customer.delivery_fee || '별도 안내';
@@ -291,22 +396,21 @@ export const createOrder = async ({ cartItems, customer, paymentMethod }) => {
     insertPayload.accessory_recommendation_shown = customer.accessory_recommendation_shown ?? false;
     insertPayload.accessory_recommendation_skipped = customer.accessory_recommendation_skipped ?? false;
   } else {
-    // 컬럼이 아직 마이그레이션 전인 경우 memo 컬럼의 하단 꼬리표에 포맷팅하여 적재 (Graceful fallback)
+    // memo 컬럼의 하단 꼬리표에 포맷팅하여 적재 (Graceful fallback)
     const fallbackText = `\n[배송방식] ${customer.delivery_method_label || '대신화물 지점 배송'} | 배송비: ${customer.delivery_fee || '별도 안내'} (${customer.delivery_fee_status || 'unconfirmed'})\n[${customer.delivery_method === "kyungdong" ? "경동" : "대신"}화물지점] ${customer.freight_branch_name || '없음'} (${customer.freight_branch_address || ''} / ${customer.freight_branch_phone || ''})\n[무료배송여부] ${customer.free_shipping_eligible ? '대상' : '대상아님'} (적용브랜드: ${customer.free_shipping_brand || '없음'}, 합계평수: ${customer.free_shipping_area || 0}평)\n[부자재안내] 노출여부: ${customer.accessory_recommendation_shown ? '노출됨' : '노출안됨'}, 건너뜀여부: ${customer.accessory_recommendation_skipped ? '건너뜀' : '선택완료'}`;
     insertPayload.memo = (insertPayload.memo ? insertPayload.memo + fallbackText : fallbackText.trim());
   }
 
-  // 이메일 컬럼이 실존하고 입력값이 있을 시 페이로드에 동적 가산
-  if (emailColName && customer.email) {
-    insertPayload[emailColName] = customer.email;
-  }
-
-  // 1. orders 테이블 insert
-  const { data: orderData, error: orderError } = await supabase
-    .from('orders')
-    .insert(insertPayload)
-    .select('*')
-    .single();
+  // 1. orders 테이블 insert (최대 10초 타임아웃)
+  const { data: orderData, error: orderError } = await withTimeout(
+    supabase
+      .from('orders')
+      .insert(insertPayload)
+      .select('*')
+      .single(),
+    10000,
+    '주문 헤더 저장'
+  );
 
   if (orderError) {
     return handleSupabaseError(orderError, '주문 생성에 실패했습니다.');
@@ -337,20 +441,24 @@ export const createOrder = async ({ cartItems, customer, paymentMethod }) => {
     };
   });
 
-  // 3. order_items 테이블 insert
-  const { error: itemsError } = await supabase
-    .from('order_items')
-    .insert(itemsToInsert);
+  // 3. order_items 테이블 insert (최대 10초 타임아웃)
+  const { error: itemsError } = await withTimeout(
+    supabase
+      .from('order_items')
+      .insert(itemsToInsert),
+    10000,
+    '주문 상세 상품 저장'
+  );
 
   if (itemsError) {
     // order_items 저장 실패 시 롤백 수행 (주문 상태를 'cancelled'로 변경)
     console.warn('[OrderService Warning] order_items insert failed. Rolling back order status to cancelled...');
-    const { error: rollbackError } = await supabase
-      .from('orders')
-      .update({ status: 'cancelled', memo: `[시스템오류] 상세 품목 저장 실패로 취소 처리됨 (${itemsError.message})` })
-      .eq('id', orderId);
-
-    if (rollbackError) {
+    try {
+      await supabase
+        .from('orders')
+        .update({ status: 'cancelled', memo: `[시스템오류] 상세 품목 저장 실패로 취소 처리됨 (${itemsError.message})` })
+        .eq('id', orderId);
+    } catch (rollbackError) {
       console.error('[OrderService Error] Rollback update failed:', rollbackError);
     }
 
@@ -378,14 +486,20 @@ export const getMyOrders = async () => {
     throw new Error('로그인이 필요합니다.');
   }
 
-  const { data, error } = await supabase
-    .from('orders')
-    .select(`
-      *,
-      order_items (*)
-    `)
-    .eq('user_id', user.id)
-    .order('created_at', { ascending: false });
+  const validUserId = await resolveValidUserId(user, user.email);
+
+  const { data, error } = await withTimeout(
+    supabase
+      .from('orders')
+      .select(`
+        *,
+        order_items (*)
+      `)
+      .eq('user_id', validUserId)
+      .order('created_at', { ascending: false }),
+    8000,
+    '내 주문 목록 조회'
+  );
 
   if (error) {
     return handleSupabaseError(error, '내 주문 목록을 가져오는 중 오류가 발생했습니다.');
@@ -407,13 +521,17 @@ export const getAdminOrders = async () => {
     throw new Error('관리자 권한이 없습니다.');
   }
 
-  const { data, error } = await supabase
-    .from('orders')
-    .select(`
-      *,
-      order_items (*)
-    `)
-    .order('created_at', { ascending: false });
+  const { data, error } = await withTimeout(
+    supabase
+      .from('orders')
+      .select(`
+        *,
+        order_items (*)
+      `)
+      .order('created_at', { ascending: false }),
+    10000,
+    '전체 주문 목록 조회'
+  );
 
   if (error) {
     return handleSupabaseError(error, '전체 주문 목록을 가져오는 중 오류가 발생했습니다.');

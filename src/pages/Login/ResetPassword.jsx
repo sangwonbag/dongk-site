@@ -3,7 +3,7 @@ import { useNavigate } from "react-router-dom";
 import MainLayout from "../../components/layout/MainLayout";
 import { supabase } from "../../lib/supabaseClient";
 import { updatePasswordWithSession } from "../../lib/auth";
-import { Eye, EyeOff, Lock, CheckCircle, AlertCircle, ArrowLeft } from "lucide-react";
+import { Eye, EyeOff, CheckCircle, AlertCircle, ArrowLeft } from "lucide-react";
 import SEO from "../../components/seo/SEO";
 import "./ResetPassword.css";
 
@@ -162,7 +162,6 @@ export default function ResetPassword() {
                 <div className="form-group-pwd">
                   <label htmlFor="newPassword">새 비밀번호</label>
                   <div className="pwd-input-wrapper">
-                    <Lock size={18} className="pwd-icon-left" />
                     <input
                       id="newPassword"
                       type={showNewPassword ? "text" : "password"}
@@ -188,7 +187,6 @@ export default function ResetPassword() {
                 <div className="form-group-pwd">
                   <label htmlFor="confirmPassword">새 비밀번호 확인</label>
                   <div className="pwd-input-wrapper">
-                    <Lock size={18} className="pwd-icon-left" />
                     <input
                       id="confirmPassword"
                       type={showConfirmPassword ? "text" : "password"}
