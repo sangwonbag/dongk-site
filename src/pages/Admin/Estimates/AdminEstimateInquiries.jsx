@@ -555,9 +555,23 @@ export default function AdminEstimateInquiries() {
                         <td className="td-name font-semibold">
                           {item.customer_name || '미입력'}
                           {item.user_id ? (
-                            <span className="badge-member-tag" style={{ backgroundColor: '#e0f2fe', color: '#0369a1', fontSize: '11px', fontWeight: '700', padding: '2px 6px', borderRadius: '4px', marginLeft: '6px', display: 'inline-block' }}>회원 접수</span>
+                            <span className="badge-member-tag" style={{ backgroundColor: '#e0f2fe', color: '#0369a1', fontSize: '11px', fontWeight: '700', padding: '2px 6px', borderRadius: '4px', marginLeft: '6px', display: 'inline-block' }}>회원</span>
                           ) : (
-                            <span className="badge-guest-tag" style={{ backgroundColor: '#f1f5f9', color: '#64748b', fontSize: '11px', fontWeight: '600', padding: '2px 6px', borderRadius: '4px', marginLeft: '6px', display: 'inline-block' }}>비회원 접수</span>
+                            <span className="badge-guest-tag" style={{ backgroundColor: '#f1f5f9', color: '#64748b', fontSize: '11px', fontWeight: '600', padding: '2px 6px', borderRadius: '4px', marginLeft: '6px', display: 'inline-block' }}>비회원</span>
+                          )}
+                          {item.work_type && (
+                            <span className="badge-work-type" style={{
+                              backgroundColor: item.work_type === '철거만' ? '#fef3c7' : item.work_type === '자재만 구매' ? '#f1f5f9' : item.work_type === '철거 + 시공' ? '#ede9fe' : '#ecfdf5',
+                              color: item.work_type === '철거만' ? '#92400e' : item.work_type === '자재만 구매' ? '#475569' : item.work_type === '철거 + 시공' ? '#6b21a8' : '#065f46',
+                              fontSize: '11px',
+                              fontWeight: '700',
+                              padding: '2px 6px',
+                              borderRadius: '4px',
+                              marginLeft: '6px',
+                              display: 'inline-block'
+                            }}>
+                              {item.work_type}
+                            </span>
                           )}
                         </td>
                         <td className="td-phone font-mono">{item.phone || '미입력'}</td>

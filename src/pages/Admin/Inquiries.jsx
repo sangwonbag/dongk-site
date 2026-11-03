@@ -303,6 +303,34 @@ export default function Inquiries() {
                       <td className="name-cell font-bold">
                         {inq.customer_name || inq.name || '비회원'}
                         {isNew && <span className="new-tag">N</span>}
+                        {(() => {
+                          let wt = inq.work_type;
+                          if (!wt && inq.inquiry_details) {
+                            try {
+                              const p = typeof inq.inquiry_details === 'string' ? JSON.parse(inq.inquiry_details) : inq.inquiry_details;
+                              wt = p.work_type;
+                            } catch(e) {}
+                          }
+                          if (!wt && inq.message && inq.message.includes('[작업유형:')) {
+                            const match = inq.message.match(/\[작업유형:\s*([^\]]+)\]/);
+                            if (match) wt = match[1];
+                          }
+                          if (!wt) return null;
+                          return (
+                            <span style={{
+                              backgroundColor: wt === '철거만' ? '#fef3c7' : wt === '자재만 구매' ? '#f1f5f9' : wt === '철거 + 시공' ? '#ede9fe' : '#ecfdf5',
+                              color: wt === '철거만' ? '#92400e' : wt === '자재만 구매' ? '#475569' : wt === '철거 + 시공' ? '#6b21a8' : '#065f46',
+                              fontSize: '11px',
+                              fontWeight: '700',
+                              padding: '2px 6px',
+                              borderRadius: '4px',
+                              marginLeft: '6px',
+                              display: 'inline-block'
+                            }}>
+                              {wt}
+                            </span>
+                          );
+                        })()}
                       </td>
                       <td className="phone-cell">{inq.phone || '-'}</td>
                       <td className="email-cell">{inq.email || '-'}</td>

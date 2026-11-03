@@ -35,7 +35,7 @@ import './EstimateRequest.css';
 
 const ACCESSORY_OPTIONS = ['걸레받이', '본드', '실리콘', '논슬립', '마감재', '문턱/재료분리대'];
 const SITE_TYPES = ['아파트', '빌라', '상가', '사무실', '병원/학원', '공장', '기타'];
-const WORK_TYPES = ['자재만 구매', '자재 + 시공', '철거 포함', '상담 후 결정'];
+const WORK_TYPES = ['자재만 구매', '자재 + 시공', '철거만', '철거 + 시공', '상담 후 결정'];
 const CONSULTATION_TYPES = ['전화 상담', '카카오톡 1:1 상담', '방문 상담'];
 const DEMOLITION_OPTIONS = [
   '상담 후 결정',
@@ -128,7 +128,11 @@ export default function EstimateRequest() {
           }
 
           if (parsed.customer) setCustomer(prev => ({ ...prev, ...parsed.customer }));
-          if (parsed.site) setSite(prev => ({ ...prev, ...parsed.site }));
+          if (parsed.site) {
+            let wt = parsed.site.workType;
+            if (wt === '철거 포함') wt = '철거 + 시공';
+            setSite(prev => ({ ...prev, ...parsed.site, workType: wt || prev.workType }));
+          }
           if (parsed.selectedMaterial) setSelectedMaterial(parsed.selectedMaterial);
           if (Array.isArray(parsed.accessories)) setAccessories(parsed.accessories);
           if (parsed.extraAccessory !== undefined) setExtraAccessory(parsed.extraAccessory);
@@ -328,10 +332,52 @@ export default function EstimateRequest() {
     }
   }, [cartItems]);
 
+  const handleWorkTypeChange = (newType) => {
+    setSite(prev => {
+      let updatedDemolition = prev.demolition;
+      if (newType === '자재만 구매') {
+        updatedDemolition = '철거 불필요 (빈 바닥 / 덧방 시공)';
+      } else if (newType === '철거만' || newType === '철거 + 시공') {
+        updatedDemolition = '철거 필요 (시공 전 기존 바닥 철거)';
+      }
+      return {
+        ...prev,
+        workType: newType,
+        demolition: updatedDemolition
+      };
+    });
+  };
+
+  const getAreaLabel = () => {
+    switch (site.workType) {
+      case '자재만 구매': return '예상 면적 / 수량 (선택)';
+      case '철거만': return '철거 예정 평수 (선택)';
+      case '철거 + 시공': return '시공 / 철거 예정 평수 (선택)';
+      case '상담 후 결정': return '대략적인 평수 (선택)';
+      case '자재 + 시공':
+      default: return '시공 예정 평수 (선택)';
+    }
+  };
+
+  const getDateLabel = () => {
+    switch (site.workType) {
+      case '자재만 구매': return '희망 배송 / 수령일 (선택)';
+      case '철거만': return '철거 희망일 (선택)';
+      case '철거 + 시공': return '공사 희망일 (선택)';
+      case '상담 후 결정': return '희망 일정 (선택)';
+      case '자재 + 시공':
+      default: return '시공 희망일 (선택)';
+    }
+  };
+
   const handleQtyChange = (itemId, newQty) => {
     let qty = parseFloat(newQty);
     if (isNaN(qty)) qty = 0;
-    updateQuantity(itemId, qty, { isManual: true });
+    if (selectedMaterial && String(itemId) === String(selectedMaterial.id)) {
+      setSelectedMaterial(prev => ({ ...prev, quantity: qty }));
+    } else {
+      updateQuantity(itemId, qty, { isManual: true });
+    }
   };
 
   const handleNext = () => {
@@ -362,6 +408,12 @@ export default function EstimateRequest() {
     // Step 2 -> 3 transition: Sync automatic quantities
     if (step === 2 && site.areaPyeong) {
       syncAutomaticQuantities(site.areaPyeong);
+      if (selectedMaterial) {
+        setSelectedMaterial(prev => ({
+          ...prev,
+          quantity: parseFloat(site.areaPyeong) || prev.quantity || 1
+        }));
+      }
     }
 
     setStep(s => s + 1);
@@ -934,7 +986,7 @@ export default function EstimateRequest() {
                 </div>
                 <div className="form-group half">
                   <label>작업 유형 <span className="req">*</span></label>
-                  <select value={site.workType} onChange={e => setSite({...site, workType: e.target.value})}>
+                  <select value={site.workType} onChange={e => handleWorkTypeChange(e.target.value)}>
                     {WORK_TYPES.map(t => <option key={t} value={t}>{t}</option>)}
                   </select>
                 </div>
@@ -942,7 +994,7 @@ export default function EstimateRequest() {
 
               <div className="form-row">
                 <div className="form-group half">
-                  <label>시공 예정 평수 (선택)</label>
+                  <label>{getAreaLabel()}</label>
                   <div className="input-with-unit">
                     <input 
                       type="number" 
@@ -956,7 +1008,7 @@ export default function EstimateRequest() {
                 </div>
 
                 <div className="form-group half">
-                  <label>시공 희망일 (선택)</label>
+                  <label>{getDateLabel()}</label>
                   <input 
                     type="date" 
                     value={site.preferredDate} 
@@ -967,9 +1019,23 @@ export default function EstimateRequest() {
 
               <div className="form-group">
                 <label>기존 바닥 철거 여부 <span className="req">*</span></label>
-                <select value={site.demolition} onChange={e => setSite({...site, demolition: e.target.value})}>
+                <select 
+                  value={site.demolition} 
+                  onChange={e => setSite({...site, demolition: e.target.value})}
+                  disabled={site.workType === '자재만 구매'}
+                >
                   {DEMOLITION_OPTIONS.map(opt => <option key={opt} value={opt}>{opt}</option>)}
                 </select>
+                {site.workType === '자재만 구매' && (
+                  <span style={{ fontSize: '12px', color: '#64748b', marginTop: '4px', display: 'block' }}>
+                    ※ 자재만 구매하시는 경우 바닥 철거 작업은 제외됩니다.
+                  </span>
+                )}
+                {site.workType === '철거만' && (
+                  <span style={{ fontSize: '12px', color: '#2563eb', marginTop: '4px', display: 'block' }}>
+                    ※ 기존 바닥 철거 전용 견적으로 접수되며 현장 맞춤 상담을 안내해 드립니다.
+                  </span>
+                )}
               </div>
 
               <div className="form-row">
@@ -1023,12 +1089,24 @@ export default function EstimateRequest() {
               {allDisplayItems.length === 0 ? (
                 <div className="empty-cart-guide-card">
                   <AlertCircle size={28} className="guide-icon" />
-                  <h4>아직 선택된 자재가 없습니다</h4>
-                  <p>상단의 <strong>'자재 검색 및 추가'</strong> 버튼을 눌러 원하시는 자재를 추가하실 수 있습니다.</p>
-                  <div className="guide-subtext">
-                    💡 특정 자재를 아직 결정하지 못하셨다면 자재를 선택하지 않고 바로 다음 단계로 넘어가실 수 있습니다.
-                    원하시는 느낌이나 바닥 용도를 다음 단계의 요청사항에 적어주시면 전문 담당자가 맞춤 추천해 드립니다.
-                  </div>
+                  {site.workType === '철거만' ? (
+                    <>
+                      <h4>철거만 진행 시 자재 선택은 필수가 아닙니다</h4>
+                      <p>철거 작업만 의뢰하시는 경우 자재 선택 없이 바로 다음 단계(요청사항)로 넘어가실 수 있습니다.</p>
+                      <div className="guide-subtext">
+                        💡 철거할 바닥재 종류(데코타일, 장판, 마루, 데코우드 등)나 현장 상황은 다음 단계의 요청사항에 작성해 주시면 더욱 정확한 견적을 안내해 드립니다.
+                      </div>
+                    </>
+                  ) : (
+                    <>
+                      <h4>아직 선택된 자재가 없습니다</h4>
+                      <p>상단의 <strong>'자재 검색 및 추가'</strong> 버튼을 눌러 원하시는 자재를 추가하실 수 있습니다.</p>
+                      <div className="guide-subtext">
+                        💡 특정 자재를 아직 결정하지 못하셨다면 자재를 선택하지 않고 바로 다음 단계로 넘어가실 수 있습니다.
+                        원하시는 느낌이나 바닥 용도를 다음 단계의 요청사항에 적어주시면 전문 담당자가 맞춤 추천해 드립니다.
+                      </div>
+                    </>
+                  )}
                 </div>
               ) : (
                 <div className="est-items-container">
@@ -1051,14 +1129,8 @@ export default function EstimateRequest() {
                           <div className="qty-control-box">
                             <button 
                               type="button" 
-                              onClick={() => {
-                                if (selectedMaterial && String(item.id) === String(selectedMaterial.id)) {
-                                  // Selected material standalone item
-                                  return;
-                                }
-                                handleQtyChange(item.id, Math.max(1, (item.quantity || 1) - 1));
-                              }}
-                              disabled={selectedMaterial && String(item.id) === String(selectedMaterial.id)}
+                              onClick={() => handleQtyChange(item.id, Math.max(1, (item.quantity || 1) - 1))}
+                              aria-label="수량 감소"
                             >
                               <Minus size={14}/>
                             </button>
@@ -1066,27 +1138,20 @@ export default function EstimateRequest() {
                               type="number" 
                               step="any" 
                               value={item.quantity === 0 ? '' : item.quantity} 
-                              onChange={(e) => {
-                                if (selectedMaterial && String(item.id) === String(selectedMaterial.id)) return;
-                                handleQtyChange(item.id, e.target.value);
-                              }}
+                              onChange={(e) => handleQtyChange(item.id, e.target.value)}
                               onBlur={(e) => {
-                                if (selectedMaterial && String(item.id) === String(selectedMaterial.id)) return;
                                 let val = parseFloat(e.target.value);
                                 if (isNaN(val) || val <= 0) val = 1;
                                 else if (val > 1000) val = 1000;
                                 else val = Math.round(val * 100) / 100;
                                 handleQtyChange(item.id, val);
                               }}
-                              disabled={selectedMaterial && String(item.id) === String(selectedMaterial.id)}
+                              aria-label="수량 입력"
                             />
                             <button 
                               type="button" 
-                              onClick={() => {
-                                if (selectedMaterial && String(item.id) === String(selectedMaterial.id)) return;
-                                handleQtyChange(item.id, (item.quantity || 1) + 1);
-                              }}
-                              disabled={selectedMaterial && String(item.id) === String(selectedMaterial.id)}
+                              onClick={() => handleQtyChange(item.id, (item.quantity || 1) + 1)}
+                              aria-label="수량 증가"
                             >
                               <Plus size={14}/>
                             </button>

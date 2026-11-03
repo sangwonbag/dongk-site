@@ -807,105 +807,178 @@ export async function fetchBrands() {
   }
 }
 
-export async function searchProductsServer(queryText, signal) {
+export async function searchProductsServer(queryText, signal, options = {}) {
+  const targetCategory = options.category && options.category !== 'all' ? options.category : null;
+  const targetBrand = options.brand && options.brand !== 'all' ? options.brand : null;
+  const limitCount = options.limit || 40;
+
   if (!supabase) {
     console.warn("Supabase client not initialized. Falling back to local search.");
     const all = await fetchAllProducts();
-    const s = queryText.toLowerCase().trim();
-    if (!s) return [];
-    return all.filter(m => 
-      String(m.name).toLowerCase().includes(s) || 
-      String(m.code).toLowerCase().includes(s) || 
-      String(m.brand).toLowerCase().includes(s) ||
-      String(m.description || m.line).toLowerCase().includes(s)
-    );
+    const s = (queryText || '').toLowerCase().trim();
+    return all.filter(m => {
+      const catMatch = !targetCategory || m.category === targetCategory;
+      const brandMatch = !targetBrand || (m.brand || '').toLowerCase().includes(targetBrand.toLowerCase());
+      if (!s) return catMatch && brandMatch;
+      const textMatch = 
+        String(m.name || '').toLowerCase().includes(s) || 
+        String(m.code || '').toLowerCase().includes(s) || 
+        String(m.brand || '').toLowerCase().includes(s) ||
+        String(m.description || m.line || '').toLowerCase().includes(s);
+      return catMatch && brandMatch && textMatch;
+    }).slice(0, limitCount);
   }
 
-  const s = queryText.trim();
-  if (!s) return [];
+  const rawQuery = (queryText || '').trim();
 
   try {
     const brandsList = await fetchBrands();
-    const tokens = s.toLowerCase().split(/[\s\-_()]+/).filter(Boolean);
+    const tokens = rawQuery.toLowerCase().split(/[\s\-_()]+/).filter(Boolean);
 
     let matchedBrand = null;
+    let matchedCategory = targetCategory;
     const remainingTokens = [];
 
-    for (const token of tokens) {
-      const found = brandsList.find(b => 
-        b.name.toLowerCase() === token || 
-        (token === 'lg' && b.name.toLowerCase() === 'lx') ||
-        (token === '엘지' && b.name.toLowerCase() === 'lx')
+    const BRAND_ALIAS_MAP = {
+      'lg': 'lx', '엘지': 'lx', '엘엑스': 'lx',
+      '한솔': '한솔홈데코', '한솔마루': '한솔홈데코', 'hansol': '한솔홈데코',
+      'kcc': 'kcc', '케이씨씨': 'kcc',
+      '이건': '이건', '이건마루': '이건', 'eagon': '이건',
+      '동화': '동화', 'dongwha': '동화',
+      '구정': '구정', '구정마루': '구정', 'kujung': '구정',
+      '현대': '현대', 'hyundai': '현대',
+      '대진': '대진', '유성': '유성', '재영': '재영', '동신': '동신', '녹수': '녹수',
+      '신한': '신한', '신한벽지': '신한',
+      '개나리': '개나리', '개나리벽지': '개나리',
+      'did': '디아이디', '디아이디': '디아이디',
+      '스완': '스완', 'swan': '스완',
+      '코오롱': '코오롱', 'kolon': '코오롱',
+      '어반': '어반', 'urban': '어반'
+    };
+
+    const CATEGORY_MAP = {
+      '데코': '데코타일', '데코타일': '데코타일', '바닥타일': '데코타일',
+      '장판': '장판', '모노륨': '장판', '륨': '장판',
+      '마루': '마루', '강마루': '마루', '원목마루': '마루',
+      '벽지': '벽지', '실크벽지': '벽지', '합지벽지': '벽지',
+      '카페트': '카페트타일', '카펫': '카페트타일', '타일카페트': '카페트타일', '카페트바닥재': '카페트타일', '카페트타일': '카페트타일'
+    };
+
+    if (targetBrand) {
+      matchedBrand = brandsList.find(b => 
+        b.name.toLowerCase() === targetBrand.toLowerCase() ||
+        (targetBrand.toLowerCase() === 'lx' && (b.name === 'LX' || b.name === 'LX하우시스')) ||
+        (targetBrand.toLowerCase() === '한솔' && b.name.includes('한솔'))
       );
-      if (found && !matchedBrand) {
-        matchedBrand = found;
-      } else {
-        remainingTokens.push(token);
+    }
+
+    for (const token of tokens) {
+      if (!matchedCategory && CATEGORY_MAP[token]) {
+        matchedCategory = CATEGORY_MAP[token];
+        continue;
       }
+
+      if (!matchedBrand) {
+        const canonicalBrand = BRAND_ALIAS_MAP[token] || token;
+        const found = brandsList.find(b => {
+          const bName = b.name.toLowerCase();
+          return bName === canonicalBrand ||
+                 bName.includes(canonicalBrand) ||
+                 (canonicalBrand === 'lx' && (bName.includes('lx') || bName.includes('lg')));
+        });
+        if (found) {
+          matchedBrand = found;
+          continue;
+        }
+      }
+
+      remainingTokens.push(token);
     }
 
     const searchVal = remainingTokens.join(' ').trim();
+    const cleanSearchVal = searchVal.replace(/[\s\-_()]/g, '');
+
+    const selectFields = matchedCategory
+      ? `id, slug, name, product_code, price, thickness, size_text, unit, image_url, description, is_active,
+         categories!inner ( id, name ),
+         brands ( id, name )`
+      : `id, slug, name, product_code, price, thickness, size_text, unit, image_url, description, is_active,
+         categories ( id, name ),
+         brands ( id, name )`;
+
+    const applyCommonFilters = (query) => {
+      let q = query.eq('is_active', true);
+      if (matchedBrand) {
+        q = q.eq('brand_id', matchedBrand.id);
+      }
+      if (matchedCategory) {
+        q = q.eq('categories.name', matchedCategory);
+      }
+      if (signal) {
+        q = q.abortSignal(signal);
+      }
+      return q;
+    };
+
+    // If no searchVal but category or brand is selected, return listings
+    if (!searchVal) {
+      let q = supabase.from('products').select(selectFields);
+      q = applyCommonFilters(q);
+      const { data, error } = await q.order('id', { ascending: false }).limit(limitCount);
+      if (error) {
+        if (error.message?.includes('aborted')) {
+          const abortErr = new Error('aborted');
+          abortErr.name = 'AbortError';
+          throw abortErr;
+        }
+        console.error('[searchProductsServer category browse error]:', error);
+        return [];
+      }
+      const mapped = (data || []).map(mapProductRow);
+      return deduplicateProducts(mapped);
+    }
+
     const queries = [];
 
-    // Prioritized sub-queries to prevent truncation of exact/prefix matches:
-    
-    // Query 1: Exact matches on product code or name (highest priority)
-    let q1 = supabase
-      .from('products')
-      .select(`
-        id, slug, name, product_code, price, thickness, size_text, unit, image_url, description, is_active,
-        categories ( id, name ),
-        brands ( id, name )
-      `)
-      .eq('is_active', true);
-    if (matchedBrand) q1 = q1.eq('brand_id', matchedBrand.id);
-    if (searchVal) q1 = q1.or(`product_code.eq.${searchVal},name.eq.${searchVal}`);
-    if (signal) q1 = q1.abortSignal(signal);
+    // Query 1: Exact match on product_code or name (including clean/unspaced variant)
+    let q1 = supabase.from('products').select(selectFields);
+    q1 = applyCommonFilters(q1);
+    if (cleanSearchVal && cleanSearchVal !== searchVal) {
+      q1 = q1.or(`product_code.eq.${searchVal},product_code.eq.${cleanSearchVal},name.eq.${searchVal},name.eq.${cleanSearchVal}`);
+    } else {
+      q1 = q1.or(`product_code.eq.${searchVal},name.eq.${searchVal}`);
+    }
     queries.push(q1.limit(20));
 
-    if (searchVal) {
-      // Query 2: Product code prefix match
-      let q2 = supabase
-        .from('products')
-        .select(`
-          id, slug, name, product_code, price, thickness, size_text, unit, image_url, description, is_active,
-          categories ( id, name ),
-          brands ( id, name )
-        `)
-        .eq('is_active', true);
-      if (matchedBrand) q2 = q2.eq('brand_id', matchedBrand.id);
+    // Query 2: Product code prefix match
+    let q2 = supabase.from('products').select(selectFields);
+    q2 = applyCommonFilters(q2);
+    if (cleanSearchVal && cleanSearchVal !== searchVal) {
+      q2 = q2.or(`product_code.ilike.${searchVal}%,product_code.ilike.${cleanSearchVal}%`);
+    } else {
       q2 = q2.ilike('product_code', `${searchVal}%`);
-      if (signal) q2 = q2.abortSignal(signal);
-      queries.push(q2.limit(20));
-
-      // Query 3: Product name prefix match
-      let q3 = supabase
-        .from('products')
-        .select(`
-          id, slug, name, product_code, price, thickness, size_text, unit, image_url, description, is_active,
-          categories ( id, name ),
-          brands ( id, name )
-        `)
-        .eq('is_active', true);
-      if (matchedBrand) q3 = q3.eq('brand_id', matchedBrand.id);
-      q3 = q3.ilike('name', `${searchVal}%`);
-      if (signal) q3 = q3.abortSignal(signal);
-      queries.push(q3.limit(20));
-
-      // Query 4: Contains matches on product code, name, or description
-      let q4 = supabase
-        .from('products')
-        .select(`
-          id, slug, name, product_code, price, thickness, size_text, unit, image_url, description, is_active,
-          categories ( id, name ),
-          brands ( id, name )
-        `)
-        .eq('is_active', true);
-      if (matchedBrand) q4 = q4.eq('brand_id', matchedBrand.id);
-      q4 = q4.or(`product_code.ilike.%${searchVal}%,name.ilike.%${searchVal}%,description.ilike.%${searchVal}%`);
-      if (signal) q4 = q4.abortSignal(signal);
-      queries.push(q4.limit(20));
     }
+    queries.push(q2.limit(20));
+
+    // Query 3: Product name prefix match
+    let q3 = supabase.from('products').select(selectFields);
+    q3 = applyCommonFilters(q3);
+    if (cleanSearchVal && cleanSearchVal !== searchVal) {
+      q3 = q3.or(`name.ilike.${searchVal}%,name.ilike.${cleanSearchVal}%`);
+    } else {
+      q3 = q3.ilike('name', `${searchVal}%`);
+    }
+    queries.push(q3.limit(20));
+
+    // Query 4: Contains matches on product code, name, or description
+    let q4 = supabase.from('products').select(selectFields);
+    q4 = applyCommonFilters(q4);
+    if (cleanSearchVal && cleanSearchVal !== searchVal) {
+      q4 = q4.or(`product_code.ilike.%${searchVal}%,product_code.ilike.%${cleanSearchVal}%,name.ilike.%${searchVal}%,name.ilike.%${cleanSearchVal}%,description.ilike.%${searchVal}%`);
+    } else {
+      q4 = q4.or(`product_code.ilike.%${searchVal}%,name.ilike.%${searchVal}%,description.ilike.%${searchVal}%`);
+    }
+    queries.push(q4.limit(25));
 
     const results = await Promise.allSettled(queries);
     const merged = [];
@@ -953,36 +1026,34 @@ export async function searchProductsServer(queryText, signal) {
       const codeClean = code.replace(/[\s\-_()]/g, "");
       const nameClean = name.replace(/[\s\-_()]/g, "");
 
-      // 1. 상품코드 완전 일치
-      if (code === q) return 1;
-      // 2. 상품코드 공백·하이픈 제거 후 완전 일치
-      if (codeClean === qClean) return 2;
-      // 3. 상품코드 시작 일치
-      if (code.startsWith(q) || codeClean.startsWith(qClean)) return 3;
+      // 1. 상품코드 완전 일치 (공백/하이픈 제거 포함)
+      if (code === q || codeClean === qClean) return 1;
+      // 2. 상품코드 시작 일치
+      if (code.startsWith(q) || codeClean.startsWith(qClean)) return 2;
+      // 3. 상품코드 포함
+      if (code.includes(q) || codeClean.includes(qClean)) return 3;
       // 4. 상품명 완전 일치
       if (name === q || nameClean === qClean) return 4;
       // 5. 상품명 시작 일치
       if (name.startsWith(q) || nameClean.startsWith(qClean)) return 5;
-      // 6. 상품코드 포함
-      if (code.includes(q) || codeClean.includes(qClean)) return 6;
-      // 7. 상품명 포함
-      if (name.includes(q) || nameClean.includes(qClean)) return 7;
-      // 8. 브랜드 일치
-      if (brand === q) return 8;
+      // 6. 상품명 포함
+      if (name.includes(q) || nameClean.includes(qClean)) return 6;
+      // 7. 브랜드 일치
+      if (brand === q) return 7;
       
-      return 9; // 기타
+      return 8; // 기타
     };
 
     return deduplicated
       .sort((a, b) => {
-        const tierA = getMatchTier(a, s);
-        const tierB = getMatchTier(b, s);
+        const tierA = getMatchTier(a, searchVal || rawQuery);
+        const tierB = getMatchTier(b, searchVal || rawQuery);
         if (tierA !== tierB) {
           return tierA - tierB;
         }
         return (a.code || "").localeCompare(b.code || "", 'ko');
       })
-      .slice(0, 20);
+      .slice(0, limitCount);
 
   } catch (err) {
     if (err.name === 'AbortError' || err.message === 'aborted') {
@@ -994,9 +1065,6 @@ export async function searchProductsServer(queryText, signal) {
   }
 }
 
-/**
- * Helper to extract clean product code candidate from slug/param
- */
 export function extractProductCodeFromParam(param) {
   if (!param) return '';
   let decoded = String(param).trim();

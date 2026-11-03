@@ -44,35 +44,87 @@ export const createEstimateInquiry = async (payload) => {
     supply_amount: item.supply_amount || 0
   }));
 
-  // [운영 가이드] 오직 RPC 단일 경로 트랜잭션으로만 저장하며, 클라이언트 fallback은 제거
-  const { data: rpcData, error: rpcError } = await supabase.rpc('create_estimate_with_items', {
-    p_customer_type: payload.customer_type || null,
-    p_customer_name: payload.customer_name,
-    p_phone: payload.phone,
-    p_email: payload.email || null,
-    p_site_address: payload.site_address,
-    p_site_detail_address: payload.site_detail_address || null,
-    p_preferred_date: payload.preferred_date || null,
-    p_consultation_type: payload.consultation_type || '전화 상담',
-    p_site_type: payload.site_type || '아파트',
-    p_work_type: payload.work_type || '상담 후 결정',
-    p_area_pyeong: payload.area_pyeong ? Number(payload.area_pyeong) : null,
-    p_has_elevator: payload.has_elevator === true,
-    p_parking_available: payload.parking_available === true,
-    p_accessory_options: payload.accessory_options || [],
-    p_extra_accessory_text: payload.extra_accessory_text || null,
-    p_request_memo: payload.request_memo || null,
-    p_subtotal: payload.subtotal || 0,
-    p_total: payload.total || 0,
-    p_items: itemsToInsert
-  });
+  // 1. Try RPC create_estimate_with_items first
+  let rpcData = null;
+  let rpcError = null;
 
-  if (rpcError) {
-    return handleSupabaseError(rpcError, '견적요청 저장에 실패했습니다. (DB 오류)');
+  try {
+    const res = await supabase.rpc('create_estimate_with_items', {
+      p_customer_type: payload.customer_type || null,
+      p_customer_name: payload.customer_name,
+      p_phone: payload.phone,
+      p_email: payload.email || null,
+      p_site_address: payload.site_address,
+      p_site_detail_address: payload.site_detail_address || null,
+      p_preferred_date: payload.preferred_date || null,
+      p_consultation_type: payload.consultation_type || '전화 상담',
+      p_site_type: payload.site_type || '아파트',
+      p_work_type: payload.work_type || '상담 후 결정',
+      p_area_pyeong: payload.area_pyeong ? Number(payload.area_pyeong) : null,
+      p_has_elevator: payload.has_elevator === true,
+      p_parking_available: payload.parking_available === true,
+      p_accessory_options: payload.accessory_options || [],
+      p_extra_accessory_text: payload.extra_accessory_text || null,
+      p_request_memo: payload.request_memo || null,
+      p_subtotal: payload.subtotal || 0,
+      p_total: payload.total || 0,
+      p_items: itemsToInsert
+    });
+    rpcData = res.data;
+    rpcError = res.error;
+  } catch (err) {
+    rpcError = err;
   }
 
-  if (!rpcData) {
-    throw new Error('견적요청 저장 후 데이터가 생성되지 않았습니다.');
+  // 2. Safe Fallback: If RPC is not available in Supabase, insert into inquiries table
+  if (rpcError || !rpcData) {
+    console.warn('[EstimateInquiryService] RPC create_estimate_with_items unavailable. Falling back to inquiries table:', rpcError?.message || rpcError);
+    
+    const formattedMsg = [
+      `[작업유형: ${payload.work_type || '상담 후 결정'}] [현장: ${payload.site_type || '아파트'}]`,
+      payload.area_pyeong ? `[예상평수: ${payload.area_pyeong}평]` : null,
+      payload.preferred_date ? `[희망일: ${payload.preferred_date}]` : null,
+      payload.consultation_type ? `[상담방법: ${payload.consultation_type}]` : null,
+      itemsToInsert.length > 0 ? `\n[선택 자재 목록]\n` + itemsToInsert.map(i => `- ${i.brand || ''} ${i.product_name} (${i.product_code || '-'}) : ${i.quantity}평`).join('\n') : null,
+      payload.accessory_options?.length > 0 ? `\n[선택 부자재]: ${payload.accessory_options.join(', ')}` : null,
+      payload.extra_accessory_text ? `[추가 부자재]: ${payload.extra_accessory_text}` : null,
+      payload.request_memo ? `\n[고객 요청사항]\n${payload.request_memo}` : null
+    ].filter(Boolean).join('\n');
+
+    const inquiryRow = {
+      customer_name: payload.customer_name,
+      name: payload.customer_name,
+      phone: payload.phone,
+      email: payload.email || null,
+      address: [payload.site_address, payload.site_detail_address].filter(Boolean).join(' '),
+      message: formattedMsg,
+      inquiry_details: JSON.stringify({
+        ...payload,
+        user_id: userId,
+        selected_items: itemsToInsert
+      }),
+      product_name: itemsToInsert.map(i => i.product_name).join(', ') || '자재 미지정',
+      product_code: itemsToInsert.map(i => i.product_code).filter(Boolean).join(', ') || null,
+      status: 'new',
+      created_at: new Date().toISOString()
+    };
+
+    const { data: inqData, error: inqError } = await supabase
+      .from('inquiries')
+      .insert([inquiryRow])
+      .select()
+      .single();
+
+    if (inqError) {
+      return handleSupabaseError(inqError, '견적요청 저장에 실패했습니다. (DB 오류)');
+    }
+
+    return {
+      id: inqData.id,
+      estimate_no: 'EST-' + String(inqData.id).padStart(6, '0'),
+      user_id: userId,
+      ...inqData
+    };
   }
 
   // 로그인 사용자 user_id 연결 보장 (estimates 테이블의 user_id 컬럼에 연결)
@@ -115,17 +167,53 @@ export const getEstimateInquiries = async () => {
     fetchError = err;
   }
 
-  // 2. Fallback to basic query if join is not available
+  // 2. Fallback to basic query if join is not available, or inquiries table if estimates table is missing
   if (fetchError || !estimatesData) {
-    const { data: simpleData, error: simpleErr } = await supabase
-      .from('estimates')
-      .select('*')
-      .order('created_at', { ascending: false });
+    try {
+      const { data: simpleData, error: simpleErr } = await supabase
+        .from('estimates')
+        .select('*')
+        .order('created_at', { ascending: false });
 
-    if (simpleErr) {
-      return handleSupabaseError(simpleErr, '견적문의 목록을 가져오는 중 오류가 발생했습니다.');
+      if (!simpleErr && simpleData) {
+        estimatesData = simpleData;
+      } else {
+        // Fallback to inquiries table
+        const { data: inqData, error: inqErr } = await supabase
+          .from('inquiries')
+          .select('*')
+          .order('created_at', { ascending: false });
+
+        if (inqErr) throw inqErr;
+
+        estimatesData = (inqData || []).map(row => {
+          let details = {};
+          try {
+            details = typeof row.inquiry_details === 'string' ? JSON.parse(row.inquiry_details) : (row.inquiry_details || {});
+          } catch(e) {}
+          return {
+            id: row.id,
+            estimate_no: 'EST-' + String(row.id).padStart(6, '0'),
+            customer_name: row.customer_name || row.name,
+            phone: row.phone,
+            email: row.email,
+            site_address: row.address,
+            work_type: details.work_type || '상담 후 결정',
+            site_type: details.site_type || '아파트',
+            area_pyeong: details.area_pyeong,
+            preferred_date: details.preferred_date,
+            consultation_type: details.consultation_type || '전화 상담',
+            request_memo: row.message,
+            admin_memo: row.admin_memo,
+            status: row.status === 'new' ? '신규 접수' : (row.status || '신규 접수'),
+            created_at: row.created_at,
+            selected_items: details.selected_items || []
+          };
+        });
+      }
+    } catch (fallbackErr) {
+      return handleSupabaseError(fallbackErr, '견적문의 목록을 가져오는 중 오류가 발생했습니다.');
     }
-    estimatesData = simpleData || [];
   }
 
   // Normalize selected_items: if estimate_items child records exist, populate selected_items
