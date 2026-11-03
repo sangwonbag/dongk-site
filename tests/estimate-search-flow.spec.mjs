@@ -19,14 +19,13 @@ test.describe('Estimate Request & Material Search Modal Flow', () => {
     await page.fill('input[placeholder*="010"]', '010-1234-5678');
     await page.click('button:has-text("다음 단계")');
 
-    // STEP 2: Verify 5 work types
+    // STEP 2: Verify 4 work types
     const workTypeSelect = page.locator('select').nth(1);
     const options = await workTypeSelect.locator('option').allInnerTexts();
     expect(options).toEqual([
-      '자재만 구매',
-      '자재 + 시공',
+      '시공',
       '철거만',
-      '철거 + 시공',
+      '철거 후 시공',
       '상담 후 결정'
     ]);
 
@@ -35,13 +34,13 @@ test.describe('Estimate Request & Material Search Modal Flow', () => {
     await expect(page.locator('text=철거 예정 평수 (선택)')).toBeVisible();
     await expect(page.locator('text=철거 희망일 (선택)')).toBeVisible();
 
-    // Select '자재만 구매'
-    await workTypeSelect.selectOption('자재만 구매');
-    await expect(page.locator('text=예상 면적 / 수량 (선택)')).toBeVisible();
-    await expect(page.locator('text=희망 배송 / 수령일 (선택)')).toBeVisible();
+    // Select '철거 후 시공'
+    await workTypeSelect.selectOption('철거 후 시공');
+    await expect(page.locator('text=시공 / 철거 예정 평수 (선택)')).toBeVisible();
+    await expect(page.locator('text=공사 희망일 (선택)')).toBeVisible();
 
-    // Select '자재 + 시공'
-    await workTypeSelect.selectOption('자재 + 시공');
+    // Select '시공'
+    await workTypeSelect.selectOption('시공');
     await expect(page.locator('text=시공 예정 평수 (선택)')).toBeVisible();
 
     // Enter address and move to STEP 3

@@ -561,8 +561,8 @@ export default function AdminEstimateInquiries() {
                           )}
                           {item.work_type && (
                             <span className="badge-work-type" style={{
-                              backgroundColor: item.work_type === '철거만' ? '#fef3c7' : item.work_type === '자재만 구매' ? '#f1f5f9' : item.work_type === '철거 + 시공' ? '#ede9fe' : '#ecfdf5',
-                              color: item.work_type === '철거만' ? '#92400e' : item.work_type === '자재만 구매' ? '#475569' : item.work_type === '철거 + 시공' ? '#6b21a8' : '#065f46',
+                              backgroundColor: item.work_type === '철거만' ? '#fef3c7' : (item.work_type === '철거 후 시공' || item.work_type === '철거 + 시공' || item.work_type === '철거 포함') ? '#ede9fe' : item.work_type === '상담 후 결정' ? '#f1f5f9' : '#ecfdf5',
+                              color: item.work_type === '철거만' ? '#92400e' : (item.work_type === '철거 후 시공' || item.work_type === '철거 + 시공' || item.work_type === '철거 포함') ? '#6b21a8' : item.work_type === '상담 후 결정' ? '#475569' : '#065f46',
                               fontSize: '11px',
                               fontWeight: '700',
                               padding: '2px 6px',

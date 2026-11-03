@@ -265,6 +265,7 @@ const MaterialCard = ({ material, priority = false }) => {
                     candidates={imageCandidates}
                     alt={displayName || material.code}
                     className="material-thumb"
+                    fit={material.category === "부자재" ? "contain" : "cover"}
                     priority={priority}
                 />
                 {material.isNew && <span className="badge-new">NEW</span>}

@@ -335,16 +335,41 @@ export function getMaterialTypeAndLine(m) {
   }
 
   // Additional custom normalization for Dongwha lines
-  if (m.brand === "동화") {
-    const cleanLower = displayLine.toLowerCase().replace(/\s+/g, '');
-    if (cleanLower === '듀오스퀘어') {
-      displayLine = '듀오스퀘어';
-    } else if (cleanLower === '듀오텍스쳐맥스') {
+  if (m.brand === "동화" || (m.brand && m.brand.includes("동화"))) {
+    const rawText = `${displayLine} ${m.line || ''} ${m.description || ''} ${m.slug || ''}`.toLowerCase().replace(/[\s_·]/g, '');
+    if (rawText.includes('듀오텍스쳐맥스') || rawText.includes('duotexturemax') || rawText.includes('듀오텍스쳐에스')) {
+      materialType = "강마루";
       displayLine = '듀오텍스쳐맥스';
-    } else if (cleanLower === '듀오텍스쳐') {
+    } else if (rawText.includes('듀오텍스쳐') || rawText.includes('duotexture') || rawText.includes('kangtexture') || rawText.includes('듀오마스틱')) {
+      materialType = "강마루";
       displayLine = '듀오텍스쳐';
-    } else if (cleanLower === '듀오오리진') {
-      displayLine = '듀오오리진';
+    } else if (rawText.includes('듀오스퀘어')) {
+      materialType = "강마루";
+      displayLine = '듀오스퀘어';
+    } else if (rawText.includes('진그란데')) {
+      materialType = "강마루";
+      displayLine = '진그란데';
+    } else if (rawText.includes('진오리진') || rawText.includes('진오리지널')) {
+      materialType = "강마루";
+      displayLine = '진오리진';
+    } else if (rawText.includes('진테라맥스') || rawText.includes('진테라진테라맥스') || rawText.includes('진테라진와이드빅스')) {
+      materialType = "강마루";
+      displayLine = '진테라 맥스';
+    } else if (rawText.includes('진테라')) {
+      materialType = "강마루";
+      displayLine = '진테라';
+    } else if (rawText.includes('클릭스톤') || rawText.includes('플리츠톤')) {
+      materialType = "강화마루";
+      displayLine = '클릭스톤';
+    } else if (rawText.includes('클릭s') || rawText.includes('클릭-s') || rawText.includes('울트라-s') || rawText.includes('울트라스')) {
+      materialType = "강화마루";
+      displayLine = '클릭-s';
+    } else if (rawText.includes('크로젠') || rawText.includes('스탠다드')) {
+      materialType = "강화마루";
+      displayLine = '크로젠';
+    } else if (rawText.includes('클릭') || rawText.includes('울트라')) {
+      materialType = "강화마루";
+      displayLine = '클릭';
     }
   }
 
@@ -556,7 +581,7 @@ export function getCleanProductCode(product) {
     return '';
   }
 
-  c = c.replace(/\s*\(\d+(\.\d+)?(T|MM)?\)$/i, '').trim();
+  c = c.replace(/\s*\(2\)\s*$/i, '').replace(/\s*\(\d+(\.\d+)?(T|MM)?\)$/i, '').trim();
   return c;
 }
 
@@ -568,7 +593,7 @@ export function getCleanProductName(product, explicitCode) {
   if (c && KCC_20_PATTERN_MAP[c]) return KCC_20_PATTERN_MAP[c];
 
   const rawName = product.product_name ?? product.name ?? product.title ?? '';
-  let name = String(rawName).trim();
+  let name = String(rawName).replace(/\s*\(2\)\s*$/i, '').trim();
   if (!name) return '';
 
   const normName = name.replace(/\s*\(\d+(\.\d+)?(T|MM)?\)$/i, '').trim();
@@ -651,7 +676,15 @@ export function formatProductTitle(product) {
 
   let identity = '';
   if (code && name && code.toLowerCase() !== name.toLowerCase()) {
-    identity = `${code} | ${name}`;
+    const cleanC = code.toLowerCase().replace(/[\s\-_()]/g, '');
+    const cleanN = name.toLowerCase().replace(/[\s\-_()]/g, '');
+    if (cleanN.includes(cleanC)) {
+      identity = name;
+    } else if (cleanC.includes(cleanN)) {
+      identity = code;
+    } else {
+      identity = `${code} | ${name}`;
+    }
   } else if (code) {
     identity = code;
   } else if (name) {

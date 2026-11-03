@@ -35,7 +35,7 @@ import './EstimateRequest.css';
 
 const ACCESSORY_OPTIONS = ['걸레받이', '본드', '실리콘', '논슬립', '마감재', '문턱/재료분리대'];
 const SITE_TYPES = ['아파트', '빌라', '상가', '사무실', '병원/학원', '공장', '기타'];
-const WORK_TYPES = ['자재만 구매', '자재 + 시공', '철거만', '철거 + 시공', '상담 후 결정'];
+const WORK_TYPES = ['시공', '철거만', '철거 후 시공', '상담 후 결정'];
 const CONSULTATION_TYPES = ['전화 상담', '카카오톡 1:1 상담', '방문 상담'];
 const DEMOLITION_OPTIONS = [
   '상담 후 결정',
@@ -74,7 +74,7 @@ export default function EstimateRequest() {
     detailAddress: '',
     preferredDate: '',
     type: '아파트',
-    workType: '자재 + 시공',
+    workType: '시공',
     areaPyeong: '',
     hasElevator: false,
     parkingAvailable: false,
@@ -130,7 +130,8 @@ export default function EstimateRequest() {
           if (parsed.customer) setCustomer(prev => ({ ...prev, ...parsed.customer }));
           if (parsed.site) {
             let wt = parsed.site.workType;
-            if (wt === '철거 포함') wt = '철거 + 시공';
+            if (wt === '자재 + 시공' || wt === '자재만 구매') wt = '시공';
+            if (wt === '철거 포함' || wt === '철거 + 시공') wt = '철거 후 시공';
             setSite(prev => ({ ...prev, ...parsed.site, workType: wt || prev.workType }));
           }
           if (parsed.selectedMaterial) setSelectedMaterial(parsed.selectedMaterial);
@@ -335,9 +336,9 @@ export default function EstimateRequest() {
   const handleWorkTypeChange = (newType) => {
     setSite(prev => {
       let updatedDemolition = prev.demolition;
-      if (newType === '자재만 구매') {
+      if (newType === '시공') {
         updatedDemolition = '철거 불필요 (빈 바닥 / 덧방 시공)';
-      } else if (newType === '철거만' || newType === '철거 + 시공') {
+      } else if (newType === '철거만' || newType === '철거 후 시공') {
         updatedDemolition = '철거 필요 (시공 전 기존 바닥 철거)';
       }
       return {
@@ -350,22 +351,20 @@ export default function EstimateRequest() {
 
   const getAreaLabel = () => {
     switch (site.workType) {
-      case '자재만 구매': return '예상 면적 / 수량 (선택)';
       case '철거만': return '철거 예정 평수 (선택)';
-      case '철거 + 시공': return '시공 / 철거 예정 평수 (선택)';
+      case '철거 후 시공': return '시공 / 철거 예정 평수 (선택)';
       case '상담 후 결정': return '대략적인 평수 (선택)';
-      case '자재 + 시공':
+      case '시공':
       default: return '시공 예정 평수 (선택)';
     }
   };
 
   const getDateLabel = () => {
     switch (site.workType) {
-      case '자재만 구매': return '희망 배송 / 수령일 (선택)';
       case '철거만': return '철거 희망일 (선택)';
-      case '철거 + 시공': return '공사 희망일 (선택)';
+      case '철거 후 시공': return '공사 희망일 (선택)';
       case '상담 후 결정': return '희망 일정 (선택)';
-      case '자재 + 시공':
+      case '시공':
       default: return '시공 희망일 (선택)';
     }
   };

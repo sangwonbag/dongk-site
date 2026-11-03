@@ -318,8 +318,8 @@ export default function Inquiries() {
                           if (!wt) return null;
                           return (
                             <span style={{
-                              backgroundColor: wt === '철거만' ? '#fef3c7' : wt === '자재만 구매' ? '#f1f5f9' : wt === '철거 + 시공' ? '#ede9fe' : '#ecfdf5',
-                              color: wt === '철거만' ? '#92400e' : wt === '자재만 구매' ? '#475569' : wt === '철거 + 시공' ? '#6b21a8' : '#065f46',
+                              backgroundColor: wt === '철거만' ? '#fef3c7' : (wt === '철거 후 시공' || wt === '철거 + 시공' || wt === '철거 포함') ? '#ede9fe' : wt === '상담 후 결정' ? '#f1f5f9' : '#ecfdf5',
+                              color: wt === '철거만' ? '#92400e' : (wt === '철거 후 시공' || wt === '철거 + 시공' || wt === '철거 포함') ? '#6b21a8' : wt === '상담 후 결정' ? '#475569' : '#065f46',
                               fontSize: '11px',
                               fontWeight: '700',
                               padding: '2px 6px',

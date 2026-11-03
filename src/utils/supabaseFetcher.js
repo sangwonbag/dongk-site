@@ -2,7 +2,7 @@ import { getSearchScore, isProductNumberQuery, normalizeSearchText } from './sea
 import { parseSearchQuery, scoreProduct } from './materialSearchEngine.js';
 import { supabase } from '../lib/supabaseClient.js';
 import { dongshinPolymer2026 } from '../data/dongshinPolymer2026.js';
-import { normalizeProductDetails, isSentenceDescription, getKccLineup } from './brandUtils.js';
+import { normalizeProductDetails, isSentenceDescription, getKccLineup, getMaterialTypeAndLine } from './brandUtils.js';
 import { HIDE_SUB_MATERIALS, isSubMaterialCategory } from '../config/categoryConfig.js';
 
 let localMaterialsCache = null;
@@ -254,6 +254,12 @@ export async function fetchAllProducts(forceRefresh = false) {
         mapped.specs.area = m.specs.area;
       }
 
+      if (mapped.category === '마루') {
+        const typeLine = getMaterialTypeAndLine(m);
+        mapped.materialType = typeLine.materialType || '강마루';
+        mapped.displayLine = typeLine.displayLine || mapped.line;
+      }
+
       return normalizeProductDetails(mapped);
     }));
 
@@ -312,6 +318,9 @@ export function mapProductRow(p) {
 
   // Accurately determine line, series, and collection
   let resolvedLine = validLine;
+  if (!resolvedLine && (brandName.includes('동화') || categoryName === '마루')) {
+    resolvedLine = p.description || p.line || '';
+  }
   let resolvedSeries = p.series || (localMatch && localMatch.series) || "";
   let resolvedCollection = p.collection || (localMatch && localMatch.collection) || "";
 
@@ -424,15 +433,33 @@ export function mapProductRow(p) {
     }
   }
 
+  if (mapped.category === '마루') {
+    const typeLine = getMaterialTypeAndLine({
+      ...mapped,
+      description: p.description,
+      slug: p.slug
+    });
+    mapped.materialType = typeLine.materialType || '강마루';
+    mapped.displayLine = typeLine.displayLine || mapped.line;
+  }
+
   return normalizeProductDetails(mapped);
 }
 
 // Product data can contain both a swatch thumbnail entry and an interior/detail
 // photo entry for the same code. Keep only one listing card, preferring the swatch.
 const listingImagePriority = (product) => {
-  const url = String(
+  let url = String(
     product?.thumbnail_url || product?.thumbnail || product?.image_url || product?.image || ''
   );
+  try {
+    url = decodeURIComponent(url);
+  } catch (e) {
+    // ignore decode error
+  }
+  // High-resolution pattern/texture swatch (with (2) or full swatch) takes top priority
+  if (/\(2\)\.(?:png|jpg|webp)$/i.test(url)) return 4;
+  if (/duo\s*texture/i.test(url) && !/kang\s*texture/i.test(url)) return 3;
   if (/(?:thumbnail[_/-]?image|(?:^|[/_-])thumb(?:nail)?(?:[/_-]|$))/i.test(url)) return 2;
   if (/(?:detail[_/-]?image|(?:^|[/_-])detail(?:[/_-]|$))/i.test(url)) return 0;
   return 1;
@@ -449,13 +476,27 @@ export function deduplicateProducts(productList) {
     const category = normalizeText(m.category);
     const line = normalizeText(m.line);
     const name = normalizeText(m.name || m.productName);
-    const code = normalizeText(m.code || m.product_code)
+    let code = normalizeText(m.code || m.product_code)
       .replace(/\(\d+(?:\.\d+)?t\)$/i, "");
+
+    const isDongwha = brand.includes('동화') || brand.includes('dongwha');
+    if (isDongwha) {
+      code = code.replace(/\s*\(2\)\s*$/i, '')
+                 .replace(/\s*\(kang\s*texture\)\s*$/i, '')
+                 .replace(/\s*\(duo\s*texture\)\s*$/i, '')
+                 .trim();
+    }
+
     const id = m.id || m.product_id;
 
     let key = "";
     if (code) {
-      key = brand + "_" + category + "_" + code;
+      if (isDongwha) {
+        const normTypeLine = getMaterialTypeAndLine(m);
+        key = brand + "_" + category + "_" + (normTypeLine.displayLine || line) + "_" + code;
+      } else {
+        key = brand + "_" + category + "_" + code;
+      }
     } else if (name) {
       key = brand + "_" + category + "_" + line + "_" + name;
     } else {
@@ -470,6 +511,25 @@ export function deduplicateProducts(productList) {
       const other = incomingPreferred ? existing : m;
       const merged = { ...preferred };
 
+      // Clean (2) and texture tags from code and name
+      if (isDongwha) {
+        if (merged.code) merged.code = merged.code.replace(/\s*\(2\)\s*$/i, '').replace(/\s*\(kang\s*texture\)\s*$/i, '').replace(/\s*\(duo\s*texture\)\s*$/i, '').trim();
+        if (merged.name) merged.name = merged.name.replace(/\s*\(2\)\s*$/i, '').replace(/\s*\(kang\s*texture\)\s*$/i, '').replace(/\s*\(duo\s*texture\)\s*$/i, '').trim();
+      }
+
+      // Merge images safely: preferred thumbnail first, then others
+      const imgSet = new Set();
+      const addImg = (u) => { if (u && typeof u === 'string' && u.trim() && !u.includes('no-image')) imgSet.add(u.trim()); };
+      addImg(preferred.thumbnail);
+      addImg(preferred.image);
+      (preferred.images || []).forEach(addImg);
+      addImg(other.thumbnail);
+      addImg(other.image);
+      (other.images || []).forEach(addImg);
+      if (imgSet.size > 0) {
+        merged.images = Array.from(imgSet);
+      }
+
       // Retain details and option lists from the other entry where necessary.
       if (other.sizeOptions?.length > (merged.sizeOptions?.length || 0)) {
         merged.sizeOptions = other.sizeOptions;
@@ -483,6 +543,10 @@ export function deduplicateProducts(productList) {
       }
       deduplicatedProducts[index] = merged;
     } else {
+      if (isDongwha) {
+        if (m.code) m.code = m.code.replace(/\s*\(2\)\s*$/i, '').replace(/\s*\(kang\s*texture\)\s*$/i, '').replace(/\s*\(duo\s*texture\)\s*$/i, '').trim();
+        if (m.name) m.name = m.name.replace(/\s*\(2\)\s*$/i, '').replace(/\s*\(kang\s*texture\)\s*$/i, '').replace(/\s*\(duo\s*texture\)\s*$/i, '').trim();
+      }
       seenProducts.set(key, deduplicatedProducts.length);
       deduplicatedProducts.push(m);
     }

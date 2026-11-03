@@ -85,8 +85,8 @@ const getNormalizedLine = (m, activeTab, activeBrand) => {
     return line && !isSentenceDescription(line) ? line : "";
   }
 
-  if (m.brand === "동화") {
-    return line;
+  if (m.brand === "동화" || (m.brand && m.brand.includes("동화"))) {
+    return getMaterialTypeAndLine(m).displayLine || line;
   }
   if ((m.brand === "KCC" || (m.brand || "").includes("KCC")) && m.category === "데코타일") {
     return getKccLineup(m);
