@@ -15,6 +15,7 @@ import {
   getEagonColorName 
 } from "../../utils/eagonUtils";
 import { HANSOL_GROUPS, HANSOL_SPECS_BY_GROUP, HANSOL_SPEC_LABEL_MAP, isHansolProduct, getHansolGroup, getHansolSpec } from "../../utils/hansolUtils";
+import { isLxEconoPlusProduct, getLxEconoPlusSpecType } from "../../utils/lxEconoPlusUtils";
 import MaterialCard from "../../components/material/MaterialCard";
 import { fetchFilteredProducts, searchMaterials, getCachedFilteredProducts, getCachedSearchMaterials, withTimeout } from "../../utils/supabaseFetcher";
 import { getSearchScore, isProductNumberQuery, generateAutocompleteSuggestions, POPULAR_KEYWORDS, parseSearchQuery, scoreProduct } from "../../utils/searchUtils";
@@ -225,6 +226,9 @@ export default function Materials() {
   const activeHansolGroup = isHansolBrand ? (searchParams.get("line") || "all") : "all";
   const activeHansolSpec = isHansolBrand ? (searchParams.get("spec") || "all") : "all";
 
+  const isLxDecotile = (activeTab === "데코타일" && (activeBrand === "LX" || activeBrand === "LX하우시스"));
+  const activeLxEconoSpec = (isLxDecotile && activeLine === "에코노플러스") ? (searchParams.get("spec") || "all") : "all";
+
   const activeDongshinMajor = (activeTab === "데코타일" && (activeBrand === "동신" || activeBrand === "동신포리마"))
     ? (searchParams.get("line") || "all")
     : "all";
@@ -256,6 +260,7 @@ export default function Materials() {
       if (activeEagonSpec !== "all") count++;
     } else {
       if (activeLine !== "all" && activeBrand !== "동신" && activeBrand !== "동신포리마") count++;
+      if (isLxDecotile && activeLine === "에코노플러스" && activeLxEconoSpec !== "all") count++;
       if (activeDongshinMajor !== "all") count++;
       if (activeDongshinDetail !== "all") count++;
     }
@@ -717,6 +722,21 @@ export default function Materials() {
     }
   }, [activeThickness, visibleLines, activeLine, activeTab]);
 
+  // Calculate item counts for LX EconoPlus specs (600각 77종, 450각 16종, 우드 11종)
+  const lxEconoSpecCounts = useMemo(() => {
+    if (!isLxDecotile || activeLine !== "에코노플러스" || !materialsList) return {};
+    const counts = { 'all': 0, '600각': 0, '450각': 0, '우드': 0 };
+    materialsList.forEach((m) => {
+      if (!m || m.category !== "데코타일" || m.line !== "에코노플러스") return;
+      counts['all'] = (counts['all'] || 0) + 1;
+      const spec = m.spec_type || m.shape || getLxEconoPlusSpecType(m);
+      if (counts[spec] !== undefined) {
+        counts[spec] = (counts[spec] || 0) + 1;
+      }
+    });
+    return counts;
+  }, [isLxDecotile, activeLine, materialsList]);
+
   // Calculate item counts for each lineup
   const lineCounts = useMemo(() => {
     if (!materialsList || materialsList.length === 0) return {};
@@ -983,6 +1003,10 @@ export default function Materials() {
           } else {
             lineOk = (line === activeLine);
           }
+          if (lineOk && isLxDecotile && activeLine === "에코노플러스" && activeLxEconoSpec !== "all") {
+            const spec = m.spec_type || m.shape || getLxEconoPlusSpecType(m);
+            if (spec !== activeLxEconoSpec) lineOk = false;
+          }
         }
       }
 
@@ -1012,7 +1036,7 @@ export default function Materials() {
     });
 
     return result;
-  }, [materialsList, activeTab, activeBrand, isEagonBrand, activeEagonMajor, activeEagonLine, activeEagonSpec, activeMaterialType, activeLine, activeDongshinMajor, activeDongshinDetail, activeShape, activeThickness, visibleLines, searching, debouncedQuery]);
+  }, [materialsList, activeTab, activeBrand, isLxDecotile, activeLxEconoSpec, isEagonBrand, activeEagonMajor, activeEagonLine, activeEagonSpec, isHansolBrand, activeHansolGroup, activeHansolSpec, activeMaterialType, activeLine, activeDongshinMajor, activeDongshinDetail, activeShape, activeThickness, visibleLines, searching, debouncedQuery]);
 
   // Apply sorting pipeline on filtered products (Immutably using useMemo)
   const sortedProducts = useMemo(() => {
@@ -1027,8 +1051,8 @@ export default function Materials() {
   }, [filtered, sortOption, searching, debouncedQuery, activeTab]);
 
   const isFilteredSearch = useMemo(() => {
-    return activeLine !== "all" || activeDongshinMajor !== "all" || activeDongshinDetail !== "all" || activeShape !== "all" || activeThickness !== "all" || activeMaterialType !== "all" || (isEagonBrand && (activeEagonMajor !== "all" || activeEagonLine !== "all" || activeEagonSpec !== "all")) || searching;
-  }, [activeLine, activeDongshinMajor, activeDongshinDetail, activeShape, activeThickness, activeMaterialType, isEagonBrand, activeEagonMajor, activeEagonLine, activeEagonSpec, searching]);
+    return activeLine !== "all" || (isLxDecotile && activeLxEconoSpec !== "all") || activeDongshinMajor !== "all" || activeDongshinDetail !== "all" || activeShape !== "all" || activeThickness !== "all" || activeMaterialType !== "all" || (isEagonBrand && (activeEagonMajor !== "all" || activeEagonLine !== "all" || activeEagonSpec !== "all")) || (isHansolBrand && (activeHansolGroup !== "all" || activeHansolSpec !== "all")) || searching;
+  }, [activeLine, isLxDecotile, activeLxEconoSpec, activeDongshinMajor, activeDongshinDetail, activeShape, activeThickness, activeMaterialType, isEagonBrand, activeEagonMajor, activeEagonLine, activeEagonSpec, isHansolBrand, activeHansolGroup, activeHansolSpec, searching]);
 
   const displayTotalCount = useMemo(() => {
     if (searching || isFilteredSearch) return sortedProducts.length;
@@ -1266,12 +1290,20 @@ export default function Materials() {
                     )}
                   </>
                 ) : (
-                  activeLine !== "all" && (
-                    <span className="active-chip">
-                      라인업: {formatShapeOrPattern(activeLine)}
-                      <X size={14} className="chip-remove" onClick={() => setActiveLine("all")} />
-                    </span>
-                  )
+                  <>
+                    {activeLine !== "all" && (
+                      <span className="active-chip">
+                        라인업: {formatShapeOrPattern(activeLine)}
+                        <X size={14} className="chip-remove" onClick={() => { setActiveLine("all"); updateParams({ spec: null }); }} />
+                      </span>
+                    )}
+                    {isLxDecotile && activeLine === "에코노플러스" && activeLxEconoSpec !== "all" && (
+                      <span className="active-chip">
+                        규격: {activeLxEconoSpec}
+                        <X size={14} className="chip-remove" onClick={() => updateParams({ spec: null })} />
+                      </span>
+                    )}
+                  </>
                 )}
                 {debouncedQuery.trim() && (
                   <span className="active-chip">
@@ -1578,11 +1610,33 @@ export default function Materials() {
                   <button
                     key={lineName}
                     className={`material-type-chip ${activeLine === lineName ? "active" : ""}`}
-                    onClick={() => setActiveLine(lineName)}
+                    onClick={() => {
+                      setActiveLine(lineName);
+                      if (lineName !== "에코노플러스") updateParams({ spec: null });
+                    }}
                   >
                     {lineName === "all"
                       ? "전체 라인업"
                       : `${formatShapeOrPattern(lineName)}${lineCounts[lineName] ? ` (${lineCounts[lineName]})` : ''}`}
+                  </button>
+                ))}
+              </div>
+            )}
+
+            {/* LX EconoPlus Sub-filter: 전체 104종 / 600각 77종 / 450각 16종 / 우드 11종 */}
+            {!loading && isLxDecotile && activeLine === "에코노플러스" && (
+              <div className="materials-lineup-filter econoplus-spec-filter" style={{ marginTop: '10px' }}>
+                <span style={{ fontSize: '13px', fontWeight: '600', color: '#6b7280', alignSelf: 'center', marginRight: '6px' }}>규격:</span>
+                {['all', '600각', '450각', '우드'].map((specKey) => (
+                  <button
+                    key={specKey}
+                    type="button"
+                    className={`material-type-chip ${activeLxEconoSpec === specKey ? "active" : ""}`}
+                    onClick={() => updateParams({ spec: specKey === "all" ? null : specKey })}
+                  >
+                    {specKey === 'all'
+                      ? `전체 ${lxEconoSpecCounts['all'] || 104}종`
+                      : `${specKey} ${lxEconoSpecCounts[specKey] || 0}종`}
                   </button>
                 ))}
               </div>

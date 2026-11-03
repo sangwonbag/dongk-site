@@ -610,6 +610,20 @@ async function getMappedLocalMaterials() {
     if (m.common_intro) mapped.common_intro = m.common_intro;
     if (m.shape_intro) mapped.shape_intro = m.shape_intro;
     if (m.pattern) mapped.pattern = m.pattern;
+    if (m.spec_type) mapped.spec_type = m.spec_type;
+    if (m.pattern_name) mapped.pattern_name = m.pattern_name;
+    if (m.pattern_group) mapped.pattern_group = m.pattern_group;
+    if (m.size) mapped.size = m.size;
+    if (m.spec) mapped.spec = m.spec;
+    if (m.size_text) mapped.size_text = m.size_text;
+    if (m.package) mapped.package = m.package;
+    if (m.unit) mapped.unit = m.unit;
+    if (m.features) mapped.features = m.features;
+    if (m.hasTrueMatte !== undefined) mapped.hasTrueMatte = m.hasTrueMatte;
+    if (m.hasTrueView !== undefined) mapped.hasTrueView = m.hasTrueView;
+    if (m.cautions) mapped.cautions = m.cautions;
+    if (m.structure) mapped.structure = m.structure;
+    if (m.keywords) mapped.keywords = m.keywords;
     if (m.specs && m.specs.area) {
       if (!mapped.specs) mapped.specs = {};
       mapped.specs.area = m.specs.area;
@@ -764,9 +778,23 @@ export async function fetchFilteredProducts({ category, brand, thickness, search
       await localMapPromise;
 
       if (res && !res.timeout && !res.error && res.data && Array.isArray(res.data) && res.data.length > 0) {
-        const mapped = deduplicateProducts(res.data.map(mapProductRow));
-        const totalCount = res.count ?? mapped.length;
-        const hasMore = from + res.data.length < totalCount;
+        let mapped = deduplicateProducts(res.data.map(mapProductRow));
+
+        // Merge offline/local-master products that do not exist in remote Supabase table yet
+        const allMappedLocal = await getMappedLocalMaterials();
+        const filteredLocal = filterLocalProducts(allMappedLocal, { category, brand, thickness, searchText });
+        const existingCodes = new Set(mapped.map(p => (p.code || p.product_code || '').toUpperCase()).filter(Boolean));
+        const missingLocal = filteredLocal.filter(p => {
+          const c = (p.code || p.product_code || '').toUpperCase();
+          return !c || !existingCodes.has(c);
+        });
+
+        if (missingLocal.length > 0) {
+          mapped = deduplicateProducts([...mapped, ...missingLocal]);
+        }
+
+        const totalCount = (res.count ?? res.data.length) + missingLocal.length;
+        const hasMore = from + res.data.length < res.count;
 
         const result = [...mapped];
         result.items = mapped;

@@ -389,6 +389,14 @@ export const LINEUP_DATABASE = [
     aliases: ["oa타일", "oa", "동신 oa타일", "동신 oa", "아트 oa"],
     dbKeywords: ["OA", "아트 OA"],
     description: "동신포리마 5.0T 프리미엄 오피스 타일"
+  },
+  {
+    lineup: "에코노플러스",
+    brand: "LX",
+    category: "데코타일",
+    aliases: ["에코노플러스", "에코노 플러스", "에코노", "econo plus", "econoplus", "econo", "lx 에코노플러스", "lx에코노플러스"],
+    dbKeywords: ["에코노플러스", "에코노 플러스", "ECONO PLUS", "DET", "DEW"],
+    description: "LX하우시스 에코노플러스 3T 프리미엄 데코타일"
   }
 ];
 
@@ -750,7 +758,7 @@ export function scoreProduct(product, query, parsedInfo = null) {
       } else {
         score += 2200; // 연관 색상 일치
       }
-    } else if (meta.search_keywords?.includes(p.detectedColorFamily)) {
+    } else if (meta.search_keywords?.includes(p.detectedColorFamily) || (product.keywords && product.keywords.includes(p.detectedColorFamily))) {
       colorMatched = true;
       score += 1500;
     }
@@ -814,18 +822,21 @@ export function scoreProduct(product, query, parsedInfo = null) {
     }
   }
 
+  let thicknessMatched = false;
   if (p.detectedThickness) {
     const pThick = (product.thickness || "").replace(/[^0-9.]/g, "");
     const qThick = p.detectedThickness.replace(/[^0-9.]/g, "");
     const specThick = String(product.specs?.thickness || "").replace(/[^0-9.]/g, "");
     const descThick = (product.description || "").replace(/[^0-9.]/g, "");
-    if ((pThick && pThick === qThick) || (specThick && specThick === qThick) || (descThick && descThick.includes(qThick))) {
+    const kwThick = (product.keywords || []).some(k => k.replace(/[^0-9.]/g, "") === qThick || k.toUpperCase() === p.detectedThickness.toUpperCase());
+    if ((pThick && pThick === qThick) || (specThick && specThick === qThick) || (descThick && descThick.includes(qThick)) || kwThick) {
       score += 2500;
+      thicknessMatched = true;
     }
   }
 
   // 12. 복합 조건 일치 가산점 (Cross-Domain Multi-Intent Bonus, 요구사항 3)
-  const conditionCount = [colorMatched, patternMatched, spaceMatched, styleMatched, categoryMatched, specMatched, finishMatched].filter(Boolean).length;
+  const conditionCount = [colorMatched, patternMatched, spaceMatched, styleMatched, categoryMatched, specMatched, finishMatched, thicknessMatched].filter(Boolean).length;
   if (conditionCount >= 3) {
     score += 5000; // 3개 이상 복합 조건 충족 시 최우선 가산
   } else if (conditionCount === 2) {
@@ -855,7 +866,7 @@ export function scoreProduct(product, query, parsedInfo = null) {
   }
 
   // 14. 무관한 상품 필터링 (최소 기준 미달 시 배제)
-  const hasAnyHit = codeMatched || nameMatched || matchesLineup || colorMatched || patternMatched || spaceMatched || styleMatched || brandMatched || categoryMatched || matchedTokenCount > 0;
+  const hasAnyHit = codeMatched || nameMatched || matchesLineup || colorMatched || patternMatched || spaceMatched || styleMatched || brandMatched || categoryMatched || thicknessMatched || matchedTokenCount > 0;
   if (!hasAnyHit) {
     return 0;
   }

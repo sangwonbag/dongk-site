@@ -93,6 +93,10 @@ const MaterialCard = ({ material, priority = false }) => {
     const handleInquiry = (e) => {
         if (e) e.stopPropagation();
         const price = parsePrice(material.price) || 0;
+        if (price <= 0) {
+            alert("가격 확인이 필요한 자재입니다. 견적문의를 통해 문의해 주세요.");
+            return;
+        }
         
         const cartItem = {
             id: selectedOption ? `${material.id}-${selectedOption.label}` : material.id,
@@ -140,6 +144,10 @@ const MaterialCard = ({ material, priority = false }) => {
         }
         
         const price = parsePrice(material.price) || 0;
+        if (price <= 0) {
+            alert("가격 확인이 필요한 자재입니다. 견적문의를 통해 문의해 주세요.");
+            return;
+        }
 
         const cartItem = {
             id: selectedOption ? `${material.id}-${selectedOption.label}` : material.id,
@@ -181,6 +189,10 @@ const MaterialCard = ({ material, priority = false }) => {
         }
         
         const price = parsePrice(material.price) || 0;
+        if (price <= 0) {
+            alert("가격 확인이 필요한 자재입니다. 견적문의를 통해 문의해 주세요.");
+            return;
+        }
         if (price <= 0) {
             alert("가격 확인이 필요한 자재입니다.");
             return;

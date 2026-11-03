@@ -70,6 +70,11 @@ import {
   getHansolSpec, 
   HANSOL_SPEC_LABEL_MAP 
 } from "../../utils/hansolUtils";
+import { 
+  isLxEconoPlusProduct, 
+  getLxEconoPlusSpecType 
+} from "../../utils/lxEconoPlusUtils";
+import LxEconoPlusDetailSection from "../../components/material/LxEconoPlusDetailSection";
 import "./MaterialDetail.css";
 
 // Eagon flooring sub-classification / upper category helper
@@ -1404,6 +1409,11 @@ export default function MaterialDetail() {
       itemPrice = 0;
     }
 
+    if (itemPrice <= 0) {
+      alert("가격 확인이 필요한 자재입니다. 견적 요청을 이용해 주세요.");
+      return;
+    }
+
     const finalQty = Math.max(1, parseInt(qty, 10) || 1);
     const imgPath = getMaterialImagePath(item);
     const cartPayload = {
@@ -1835,6 +1845,16 @@ export default function MaterialDetail() {
                     <span className="divider">·</span>
                     <span className="line-name">{kccTrendyInfo?.group || item.shape_kr || item.shape || '450각'}</span>
                   </>
+                ) : isLxEconoPlusProduct(item) ? (
+                  <>
+                    <span className="brand-name">LX하우시스</span>
+                    <span className="divider">·</span>
+                    <span className="category-name">데코타일</span>
+                    <span className="divider">·</span>
+                    <span className="line-name">에코노플러스</span>
+                    <span className="divider">·</span>
+                    <span className="spec-name">{getLxEconoPlusSpecType(item)}</span>
+                  </>
                 ) : item.brand === 'KCC' ? (
                   <>
                     <span className="brand-name">KCC</span>
@@ -1856,7 +1876,7 @@ export default function MaterialDetail() {
                 )}
               </div>
 
-              <h1 className="showroom-product-title">{displayName}</h1>
+              <h1 className="showroom-product-title">{isLxEconoPlusProduct(item) ? `에코노플러스 ${item.code || ''} ${item.pattern_name || item.name || ''}`.trim() : displayName}</h1>
               {item.code && (
                 <div className="showroom-product-code">
                   <span>상품코드:</span> <strong>{item.code}</strong>
@@ -1911,7 +1931,7 @@ export default function MaterialDetail() {
                 <div className="tech-spec-item">
                   <span className="tech-label">{isKccTrendy ? "제품 규격" : isDongshinDeco ? "공식 규격" : (item.brand === 'KCC' && item.category === '데코타일' ? "전체 규격" : "규격")}</span>
                   <span className="tech-value">
-                    {isKccTrendy ? (kccTrendyInfo?.spec?.size || kccTrendyInfo?.size) : isDongshinDeco ? dongshinInfo?.spec?.size : (currentSpec || "상담 확인 필요")}
+                    {isLxEconoPlusProduct(item) ? (item.specs?.size || item.size || "600×600mm") : isKccTrendy ? (kccTrendyInfo?.spec?.size || kccTrendyInfo?.size) : isDongshinDeco ? dongshinInfo?.spec?.size : (currentSpec || "상담 확인 필요")}
                   </span>
                 </div>
                 <div className="tech-spec-item">
@@ -1923,13 +1943,13 @@ export default function MaterialDetail() {
                 <div className="tech-spec-item">
                   <span className="tech-label">{isKccTrendy ? "박스당 수량" : isDongshinDeco ? "박스당 수량" : (item.brand === 'KCC' && item.category === '데코타일' ? "포장 수량" : "박스 구성")}</span>
                   <span className="tech-value">
-                    {isKccTrendy ? (kccTrendyInfo?.spec?.pcs_per_box || kccTrendyInfo?.pcsPerBox) : isDongshinDeco ? dongshinInfo?.spec?.pcs_per_box : currentPacking}
+                    {isLxEconoPlusProduct(item) ? (item.specs?.pcs_per_box ? `${item.specs.pcs_per_box} / BOX` : (item.package || 'BOX')) : isKccTrendy ? (kccTrendyInfo?.spec?.pcs_per_box || kccTrendyInfo?.pcsPerBox) : isDongshinDeco ? dongshinInfo?.spec?.pcs_per_box : currentPacking}
                   </span>
                 </div>
                 <div className="tech-spec-item">
                   <span className="tech-label">{isKccTrendy ? "박스당 시공면적" : isDongshinDeco ? "박스당 시공면적" : (item.brand === 'KCC' && item.category === '데코타일' ? "BOX당 시공면적" : "시공 면적")}</span>
                   <span className="tech-value">
-                    {isKccTrendy ? (kccTrendyInfo?.spec?.area || kccTrendyInfo?.areaPerBox) : isDongshinDeco ? dongshinInfo?.spec?.area : (
+                    {isLxEconoPlusProduct(item) ? (item.specs?.area ? `${item.specs.area} (${item.specs?.box_pyeong || '약 0.98평'})` : "3.24㎡ (약 0.98평)") : isKccTrendy ? (kccTrendyInfo?.spec?.area || kccTrendyInfo?.areaPerBox) : isDongshinDeco ? dongshinInfo?.spec?.area : (
                       item.brand === 'KCC' && item.category === '데코타일' ? (
                         item.specs?.area || "3.32㎡"
                       ) : item.category === '장판' ? "M 단위 소요량 측정" : `1 ${getProductUnit(item)}당 시공 가능`
@@ -2517,6 +2537,8 @@ export default function MaterialDetail() {
                 </>
               ) : isDongshinDeco ? (
                 <DongshinDetailSection item={item} info={dongshinInfo} />
+              ) : isLxEconoPlusProduct(item) ? (
+                <LxEconoPlusDetailSection item={item} />
               ) : (
                 <>
                   {/* Features List Section */}

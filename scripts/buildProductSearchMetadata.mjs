@@ -236,7 +236,8 @@ export function extractProductMetadata(product) {
     enrichedName = lxNames[code];
   }
 
-  const combinedText = `${enrichedName} ${code} ${brand} ${category} ${line} ${desc} ${usage} ${size}`.toLowerCase();
+  const kwList = Array.isArray(product.keywords) ? product.keywords.join(' ') : '';
+  const combinedText = `${enrichedName} ${code} ${brand} ${category} ${line} ${desc} ${usage} ${size} ${kwList}`.toLowerCase();
 
   // A. 색상 추출
   let detectedFamily = null;
@@ -414,6 +415,9 @@ export function extractProductMetadata(product) {
   if (detectedTexture && detectedTexture !== detectedPattern) searchKeywords.add(detectedTexture);
   if (detectedFinish) searchKeywords.add(detectedFinish);
   if (specTag) searchKeywords.add(specTag);
+  if (Array.isArray(product.keywords)) {
+    for (const kw of product.keywords) searchKeywords.add(kw);
+  }
   for (const s of spaceTags) searchKeywords.add(s);
   for (const st of styleTags) searchKeywords.add(st);
 

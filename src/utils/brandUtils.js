@@ -664,6 +664,16 @@ export function formatProductTitle(product) {
     }
   }
 
+  if ((brand.includes('LX') || brand.includes('LX하우시스') || (product.name && product.name.includes('LX'))) && (product.category === '데코타일' || !product.category)) {
+    if (family.includes('에코노플러스') || (code && /^DE[TW]\d{4}/i.test(code)) || (product.id && String(product.id).includes('에코노플러스'))) {
+      const pattern = (product.pattern_name || product.pattern || product.name || '').trim();
+      if (code && pattern) {
+        return `${code} ${pattern}`;
+      }
+      if (code) return code;
+    }
+  }
+
   const name = getCleanProductName(product, code);
 
   let thickness = String(product.thickness || (product.specs && product.specs.thickness) || '').trim();

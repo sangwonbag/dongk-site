@@ -1021,13 +1021,12 @@ export default function EstimateRequest() {
                 <select 
                   value={site.demolition} 
                   onChange={e => setSite({...site, demolition: e.target.value})}
-                  disabled={site.workType === '자재만 구매'}
                 >
                   {DEMOLITION_OPTIONS.map(opt => <option key={opt} value={opt}>{opt}</option>)}
                 </select>
-                {site.workType === '자재만 구매' && (
+                {site.workType === '시공' && (
                   <span style={{ fontSize: '12px', color: '#64748b', marginTop: '4px', display: 'block' }}>
-                    ※ 자재만 구매하시는 경우 바닥 철거 작업은 제외됩니다.
+                    ※ 시공 견적으로 바닥 철거가 함께 필요한 경우 '철거 후 시공'을 선택해 주세요.
                   </span>
                 )}
                 {site.workType === '철거만' && (

@@ -4401,6 +4401,1046 @@ export const imageManifest = [
     "imageType": "material"
   },
   {
+    "fileName": "DET2116_그라니트.webp",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/450각/DET2116_그라니트.webp",
+    "category": "데코타일",
+    "brand": "LX",
+    "series": "에코노플러스/450각",
+    "extractedCode": "DET2116",
+    "normalizedFileName": "det2116그라니트webp",
+    "imageType": "material"
+  },
+  {
+    "fileName": "DET2125_그라니트.webp",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/450각/DET2125_그라니트.webp",
+    "category": "데코타일",
+    "brand": "LX",
+    "series": "에코노플러스/450각",
+    "extractedCode": "DET2125",
+    "normalizedFileName": "det2125그라니트webp",
+    "imageType": "material"
+  },
+  {
+    "fileName": "DET2251_마블.webp",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/450각/DET2251_마블.webp",
+    "category": "데코타일",
+    "brand": "LX",
+    "series": "에코노플러스/450각",
+    "extractedCode": "DET2251",
+    "normalizedFileName": "det2251마블webp",
+    "imageType": "material"
+  },
+  {
+    "fileName": "DET2407_세라믹.webp",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/450각/DET2407_세라믹.webp",
+    "category": "데코타일",
+    "brand": "LX",
+    "series": "에코노플러스/450각",
+    "extractedCode": "DET2407",
+    "normalizedFileName": "det2407세라믹webp",
+    "imageType": "material"
+  },
+  {
+    "fileName": "DET2493_노출콘크리트.webp",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/450각/DET2493_노출콘크리트.webp",
+    "category": "데코타일",
+    "brand": "LX",
+    "series": "에코노플러스/450각",
+    "extractedCode": "DET2493",
+    "normalizedFileName": "det2493노출콘크리트webp",
+    "imageType": "material"
+  },
+  {
+    "fileName": "DET2494_노출콘크리트.webp",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/450각/DET2494_노출콘크리트.webp",
+    "category": "데코타일",
+    "brand": "LX",
+    "series": "에코노플러스/450각",
+    "extractedCode": "DET2494",
+    "normalizedFileName": "det2494노출콘크리트webp",
+    "imageType": "material"
+  },
+  {
+    "fileName": "DET2821_패턴카펫.webp",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/450각/DET2821_패턴카펫.webp",
+    "category": "데코타일",
+    "brand": "LX",
+    "series": "에코노플러스/450각",
+    "extractedCode": "DET2821",
+    "normalizedFileName": "det2821패턴카펫webp",
+    "imageType": "material"
+  },
+  {
+    "fileName": "DET2823_패턴카펫.webp",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/450각/DET2823_패턴카펫.webp",
+    "category": "데코타일",
+    "brand": "LX",
+    "series": "에코노플러스/450각",
+    "extractedCode": "DET2823",
+    "normalizedFileName": "det2823패턴카펫webp",
+    "imageType": "material"
+  },
+  {
+    "fileName": "DET2862_패턴카펫.webp",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/450각/DET2862_패턴카펫.webp",
+    "category": "데코타일",
+    "brand": "LX",
+    "series": "에코노플러스/450각",
+    "extractedCode": "DET2862",
+    "normalizedFileName": "det2862패턴카펫webp",
+    "imageType": "material"
+  },
+  {
+    "fileName": "DET2870_올오버카펫.webp",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/450각/DET2870_올오버카펫.webp",
+    "category": "데코타일",
+    "brand": "LX",
+    "series": "에코노플러스/450각",
+    "extractedCode": "DET2870",
+    "normalizedFileName": "det2870올오버카펫webp",
+    "imageType": "material"
+  },
+  {
+    "fileName": "DET2871_올오버카펫.webp",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/450각/DET2871_올오버카펫.webp",
+    "category": "데코타일",
+    "brand": "LX",
+    "series": "에코노플러스/450각",
+    "extractedCode": "DET2871",
+    "normalizedFileName": "det2871올오버카펫webp",
+    "imageType": "material"
+  },
+  {
+    "fileName": "DET2872_올오버카펫.webp",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/450각/DET2872_올오버카펫.webp",
+    "category": "데코타일",
+    "brand": "LX",
+    "series": "에코노플러스/450각",
+    "extractedCode": "DET2872",
+    "normalizedFileName": "det2872올오버카펫webp",
+    "imageType": "material"
+  },
+  {
+    "fileName": "DET2904_노출콘크리트.webp",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/450각/DET2904_노출콘크리트.webp",
+    "category": "데코타일",
+    "brand": "LX",
+    "series": "에코노플러스/450각",
+    "extractedCode": "DET2904",
+    "normalizedFileName": "det2904노출콘크리트webp",
+    "imageType": "material"
+  },
+  {
+    "fileName": "DET2905_노출콘크리트.webp",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/450각/DET2905_노출콘크리트.webp",
+    "category": "데코타일",
+    "brand": "LX",
+    "series": "에코노플러스/450각",
+    "extractedCode": "DET2905",
+    "normalizedFileName": "det2905노출콘크리트webp",
+    "imageType": "material"
+  },
+  {
+    "fileName": "DET6239_마블.webp",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/450각/DET6239_마블.webp",
+    "category": "데코타일",
+    "brand": "LX",
+    "series": "에코노플러스/450각",
+    "extractedCode": "DET6239",
+    "normalizedFileName": "det6239마블webp",
+    "imageType": "material"
+  },
+  {
+    "fileName": "DET6240_마블.webp",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/450각/DET6240_마블.webp",
+    "category": "데코타일",
+    "brand": "LX",
+    "series": "에코노플러스/450각",
+    "extractedCode": "DET6240",
+    "normalizedFileName": "det6240마블webp",
+    "imageType": "material"
+  },
+  {
+    "fileName": "DET2981_패브릭.webp",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/600각/DET2981_패브릭.webp",
+    "category": "데코타일",
+    "brand": "LX",
+    "series": "에코노플러스/600각",
+    "extractedCode": "DET2981",
+    "normalizedFileName": "det2981패브릭webp",
+    "imageType": "material"
+  },
+  {
+    "fileName": "DET2983_패브릭.webp",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/600각/DET2983_패브릭.webp",
+    "category": "데코타일",
+    "brand": "LX",
+    "series": "에코노플러스/600각",
+    "extractedCode": "DET2983",
+    "normalizedFileName": "det2983패브릭webp",
+    "imageType": "material"
+  },
+  {
+    "fileName": "DET2991_패브릭.webp",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/600각/DET2991_패브릭.webp",
+    "category": "데코타일",
+    "brand": "LX",
+    "series": "에코노플러스/600각",
+    "extractedCode": "DET2991",
+    "normalizedFileName": "det2991패브릭webp",
+    "imageType": "material"
+  },
+  {
+    "fileName": "DET2992_패브릭.webp",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/600각/DET2992_패브릭.webp",
+    "category": "데코타일",
+    "brand": "LX",
+    "series": "에코노플러스/600각",
+    "extractedCode": "DET2992",
+    "normalizedFileName": "det2992패브릭webp",
+    "imageType": "material"
+  },
+  {
+    "fileName": "DET6008_솔리드카펫.webp",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/600각/DET6008_솔리드카펫.webp",
+    "category": "데코타일",
+    "brand": "LX",
+    "series": "에코노플러스/600각",
+    "extractedCode": "DET6008",
+    "normalizedFileName": "det6008솔리드카펫webp",
+    "imageType": "material"
+  },
+  {
+    "fileName": "DET6014_솔리드카펫.webp",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/600각/DET6014_솔리드카펫.webp",
+    "category": "데코타일",
+    "brand": "LX",
+    "series": "에코노플러스/600각",
+    "extractedCode": "DET6014",
+    "normalizedFileName": "det6014솔리드카펫webp",
+    "imageType": "material"
+  },
+  {
+    "fileName": "DET6064_패턴카펫.webp",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/600각/DET6064_패턴카펫.webp",
+    "category": "데코타일",
+    "brand": "LX",
+    "series": "에코노플러스/600각",
+    "extractedCode": "DET6064",
+    "normalizedFileName": "det6064패턴카펫webp",
+    "imageType": "material"
+  },
+  {
+    "fileName": "DET6075_패턴카펫.webp",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/600각/DET6075_패턴카펫.webp",
+    "category": "데코타일",
+    "brand": "LX",
+    "series": "에코노플러스/600각",
+    "extractedCode": "DET6075",
+    "normalizedFileName": "det6075패턴카펫webp",
+    "imageType": "material"
+  },
+  {
+    "fileName": "DET6076_패턴카펫.webp",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/600각/DET6076_패턴카펫.webp",
+    "category": "데코타일",
+    "brand": "LX",
+    "series": "에코노플러스/600각",
+    "extractedCode": "DET6076",
+    "normalizedFileName": "det6076패턴카펫webp",
+    "imageType": "material"
+  },
+  {
+    "fileName": "DET6203_비안코.webp",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/600각/DET6203_비안코.webp",
+    "category": "데코타일",
+    "brand": "LX",
+    "series": "에코노플러스/600각",
+    "extractedCode": "DET6203",
+    "normalizedFileName": "det6203비안코webp",
+    "imageType": "material"
+  },
+  {
+    "fileName": "DET6204_비안코.webp",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/600각/DET6204_비안코.webp",
+    "category": "데코타일",
+    "brand": "LX",
+    "series": "에코노플러스/600각",
+    "extractedCode": "DET6204",
+    "normalizedFileName": "det6204비안코webp",
+    "imageType": "material"
+  },
+  {
+    "fileName": "DET6207_피렌체마블.webp",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/600각/DET6207_피렌체마블.webp",
+    "category": "데코타일",
+    "brand": "LX",
+    "series": "에코노플러스/600각",
+    "extractedCode": "DET6207",
+    "normalizedFileName": "det6207피렌체마블webp",
+    "imageType": "material"
+  },
+  {
+    "fileName": "DET6208_피렌체마블.webp",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/600각/DET6208_피렌체마블.webp",
+    "category": "데코타일",
+    "brand": "LX",
+    "series": "에코노플러스/600각",
+    "extractedCode": "DET6208",
+    "normalizedFileName": "det6208피렌체마블webp",
+    "imageType": "material"
+  },
+  {
+    "fileName": "DET6229_마블.webp",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/600각/DET6229_마블.webp",
+    "category": "데코타일",
+    "brand": "LX",
+    "series": "에코노플러스/600각",
+    "extractedCode": "DET6229",
+    "normalizedFileName": "det6229마블webp",
+    "imageType": "material"
+  },
+  {
+    "fileName": "DET6235_메탈콘크리트.webp",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/600각/DET6235_메탈콘크리트.webp",
+    "category": "데코타일",
+    "brand": "LX",
+    "series": "에코노플러스/600각",
+    "extractedCode": "DET6235",
+    "normalizedFileName": "det6235메탈콘크리트webp",
+    "imageType": "material"
+  },
+  {
+    "fileName": "DET6236_메탈콘크리트.webp",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/600각/DET6236_메탈콘크리트.webp",
+    "category": "데코타일",
+    "brand": "LX",
+    "series": "에코노플러스/600각",
+    "extractedCode": "DET6236",
+    "normalizedFileName": "det6236메탈콘크리트webp",
+    "imageType": "material"
+  },
+  {
+    "fileName": "DET6237_노출콘크리트.webp",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/600각/DET6237_노출콘크리트.webp",
+    "category": "데코타일",
+    "brand": "LX",
+    "series": "에코노플러스/600각",
+    "extractedCode": "DET6237",
+    "normalizedFileName": "det6237노출콘크리트webp",
+    "imageType": "material"
+  },
+  {
+    "fileName": "DET6238_노출콘크리트.webp",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/600각/DET6238_노출콘크리트.webp",
+    "category": "데코타일",
+    "brand": "LX",
+    "series": "에코노플러스/600각",
+    "extractedCode": "DET6238",
+    "normalizedFileName": "det6238노출콘크리트webp",
+    "imageType": "material"
+  },
+  {
+    "fileName": "DET6242_메탈콘크리트.webp",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/600각/DET6242_메탈콘크리트.webp",
+    "category": "데코타일",
+    "brand": "LX",
+    "series": "에코노플러스/600각",
+    "extractedCode": "DET6242",
+    "normalizedFileName": "det6242메탈콘크리트webp",
+    "imageType": "material"
+  },
+  {
+    "fileName": "DET6243_메탈콘크리트.webp",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/600각/DET6243_메탈콘크리트.webp",
+    "category": "데코타일",
+    "brand": "LX",
+    "series": "에코노플러스/600각",
+    "extractedCode": "DET6243",
+    "normalizedFileName": "det6243메탈콘크리트webp",
+    "imageType": "material"
+  },
+  {
+    "fileName": "DET6244_메탈콘크리트.webp",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/600각/DET6244_메탈콘크리트.webp",
+    "category": "데코타일",
+    "brand": "LX",
+    "series": "에코노플러스/600각",
+    "extractedCode": "DET6244",
+    "normalizedFileName": "det6244메탈콘크리트webp",
+    "imageType": "material"
+  },
+  {
+    "fileName": "DET6245_스파클링메탈.webp",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/600각/DET6245_스파클링메탈.webp",
+    "category": "데코타일",
+    "brand": "LX",
+    "series": "에코노플러스/600각",
+    "extractedCode": "DET6245",
+    "normalizedFileName": "det6245스파클링메탈webp",
+    "imageType": "material"
+  },
+  {
+    "fileName": "DET6246_스파클링메탈.webp",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/600각/DET6246_스파클링메탈.webp",
+    "category": "데코타일",
+    "brand": "LX",
+    "series": "에코노플러스/600각",
+    "extractedCode": "DET6246",
+    "normalizedFileName": "det6246스파클링메탈webp",
+    "imageType": "material"
+  },
+  {
+    "fileName": "DET6247_스파클링메탈.webp",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/600각/DET6247_스파클링메탈.webp",
+    "category": "데코타일",
+    "brand": "LX",
+    "series": "에코노플러스/600각",
+    "extractedCode": "DET6247",
+    "normalizedFileName": "det6247스파클링메탈webp",
+    "imageType": "material"
+  },
+  {
+    "fileName": "DET6248_스파클링메탈.webp",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/600각/DET6248_스파클링메탈.webp",
+    "category": "데코타일",
+    "brand": "LX",
+    "series": "에코노플러스/600각",
+    "extractedCode": "DET6248",
+    "normalizedFileName": "det6248스파클링메탈webp",
+    "imageType": "material"
+  },
+  {
+    "fileName": "DET6251_노출콘크리트.webp",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/600각/DET6251_노출콘크리트.webp",
+    "category": "데코타일",
+    "brand": "LX",
+    "series": "에코노플러스/600각",
+    "extractedCode": "DET6251",
+    "normalizedFileName": "det6251노출콘크리트webp",
+    "imageType": "material"
+  },
+  {
+    "fileName": "DET6252_노출콘크리트.webp",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/600각/DET6252_노출콘크리트.webp",
+    "category": "데코타일",
+    "brand": "LX",
+    "series": "에코노플러스/600각",
+    "extractedCode": "DET6252",
+    "normalizedFileName": "det6252노출콘크리트webp",
+    "imageType": "material"
+  },
+  {
+    "fileName": "DET6256_크랙마블.webp",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/600각/DET6256_크랙마블.webp",
+    "category": "데코타일",
+    "brand": "LX",
+    "series": "에코노플러스/600각",
+    "extractedCode": "DET6256",
+    "normalizedFileName": "det6256크랙마블webp",
+    "imageType": "material"
+  },
+  {
+    "fileName": "DET6257_크랙마블.webp",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/600각/DET6257_크랙마블.webp",
+    "category": "데코타일",
+    "brand": "LX",
+    "series": "에코노플러스/600각",
+    "extractedCode": "DET6257",
+    "normalizedFileName": "det6257크랙마블webp",
+    "imageType": "material"
+  },
+  {
+    "fileName": "DET6258_크랙마블.webp",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/600각/DET6258_크랙마블.webp",
+    "category": "데코타일",
+    "brand": "LX",
+    "series": "에코노플러스/600각",
+    "extractedCode": "DET6258",
+    "normalizedFileName": "det6258크랙마블webp",
+    "imageType": "material"
+  },
+  {
+    "fileName": "DET6262_모던.webp",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/600각/DET6262_모던.webp",
+    "category": "데코타일",
+    "brand": "LX",
+    "series": "에코노플러스/600각",
+    "extractedCode": "DET6262",
+    "normalizedFileName": "det6262모던webp",
+    "imageType": "material"
+  },
+  {
+    "fileName": "DET6263_모던.webp",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/600각/DET6263_모던.webp",
+    "category": "데코타일",
+    "brand": "LX",
+    "series": "에코노플러스/600각",
+    "extractedCode": "DET6263",
+    "normalizedFileName": "det6263모던webp",
+    "imageType": "material"
+  },
+  {
+    "fileName": "DET6271_마블.webp",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/600각/DET6271_마블.webp",
+    "category": "데코타일",
+    "brand": "LX",
+    "series": "에코노플러스/600각",
+    "extractedCode": "DET6271",
+    "normalizedFileName": "det6271마블webp",
+    "imageType": "material"
+  },
+  {
+    "fileName": "DET6272_마블.webp",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/600각/DET6272_마블.webp",
+    "category": "데코타일",
+    "brand": "LX",
+    "series": "에코노플러스/600각",
+    "extractedCode": "DET6272",
+    "normalizedFileName": "det6272마블webp",
+    "imageType": "material"
+  },
+  {
+    "fileName": "DET6273_마블.webp",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/600각/DET6273_마블.webp",
+    "category": "데코타일",
+    "brand": "LX",
+    "series": "에코노플러스/600각",
+    "extractedCode": "DET6273",
+    "normalizedFileName": "det6273마블webp",
+    "imageType": "material"
+  },
+  {
+    "fileName": "DET6281_테라조.webp",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/600각/DET6281_테라조.webp",
+    "category": "데코타일",
+    "brand": "LX",
+    "series": "에코노플러스/600각",
+    "extractedCode": "DET6281",
+    "normalizedFileName": "det6281테라조webp",
+    "imageType": "material"
+  },
+  {
+    "fileName": "DET6282_테라조.webp",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/600각/DET6282_테라조.webp",
+    "category": "데코타일",
+    "brand": "LX",
+    "series": "에코노플러스/600각",
+    "extractedCode": "DET6282",
+    "normalizedFileName": "det6282테라조webp",
+    "imageType": "material"
+  },
+  {
+    "fileName": "DET6291_그라니트.webp",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/600각/DET6291_그라니트.webp",
+    "category": "데코타일",
+    "brand": "LX",
+    "series": "에코노플러스/600각",
+    "extractedCode": "DET6291",
+    "normalizedFileName": "det6291그라니트webp",
+    "imageType": "material"
+  },
+  {
+    "fileName": "DET6292_그라니트.webp",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/600각/DET6292_그라니트.webp",
+    "category": "데코타일",
+    "brand": "LX",
+    "series": "에코노플러스/600각",
+    "extractedCode": "DET6292",
+    "normalizedFileName": "det6292그라니트webp",
+    "imageType": "material"
+  },
+  {
+    "fileName": "DET6312_에이지드스틸.webp",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/600각/DET6312_에이지드스틸.webp",
+    "category": "데코타일",
+    "brand": "LX",
+    "series": "에코노플러스/600각",
+    "extractedCode": "DET6312",
+    "normalizedFileName": "det6312에이지드스틸webp",
+    "imageType": "material"
+  },
+  {
+    "fileName": "DET6325_우븐.webp",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/600각/DET6325_우븐.webp",
+    "category": "데코타일",
+    "brand": "LX",
+    "series": "에코노플러스/600각",
+    "extractedCode": "DET6325",
+    "normalizedFileName": "det6325우븐webp",
+    "imageType": "material"
+  },
+  {
+    "fileName": "DET6326_우븐.webp",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/600각/DET6326_우븐.webp",
+    "category": "데코타일",
+    "brand": "LX",
+    "series": "에코노플러스/600각",
+    "extractedCode": "DET6326",
+    "normalizedFileName": "det6326우븐webp",
+    "imageType": "material"
+  },
+  {
+    "fileName": "DET6330_우븐.webp",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/600각/DET6330_우븐.webp",
+    "category": "데코타일",
+    "brand": "LX",
+    "series": "에코노플러스/600각",
+    "extractedCode": "DET6330",
+    "normalizedFileName": "det6330우븐webp",
+    "imageType": "material"
+  },
+  {
+    "fileName": "DET6340_라인우븐.webp",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/600각/DET6340_라인우븐.webp",
+    "category": "데코타일",
+    "brand": "LX",
+    "series": "에코노플러스/600각",
+    "extractedCode": "DET6340",
+    "normalizedFileName": "det6340라인우븐webp",
+    "imageType": "material"
+  },
+  {
+    "fileName": "DET6341_라인우븐.webp",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/600각/DET6341_라인우븐.webp",
+    "category": "데코타일",
+    "brand": "LX",
+    "series": "에코노플러스/600각",
+    "extractedCode": "DET6341",
+    "normalizedFileName": "det6341라인우븐webp",
+    "imageType": "material"
+  },
+  {
+    "fileName": "DET6523_파켓우드.webp",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/600각/DET6523_파켓우드.webp",
+    "category": "데코타일",
+    "brand": "LX",
+    "series": "에코노플러스/600각",
+    "extractedCode": "DET6523",
+    "normalizedFileName": "det6523파켓우드webp",
+    "imageType": "material"
+  },
+  {
+    "fileName": "DET6550_어반콘크리트.webp",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/600각/DET6550_어반콘크리트.webp",
+    "category": "데코타일",
+    "brand": "LX",
+    "series": "에코노플러스/600각",
+    "extractedCode": "DET6550",
+    "normalizedFileName": "det6550어반콘크리트webp",
+    "imageType": "material"
+  },
+  {
+    "fileName": "DET6551_어반콘크리트.webp",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/600각/DET6551_어반콘크리트.webp",
+    "category": "데코타일",
+    "brand": "LX",
+    "series": "에코노플러스/600각",
+    "extractedCode": "DET6551",
+    "normalizedFileName": "det6551어반콘크리트webp",
+    "imageType": "material"
+  },
+  {
+    "fileName": "DET6552_어반콘크리트.webp",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/600각/DET6552_어반콘크리트.webp",
+    "category": "데코타일",
+    "brand": "LX",
+    "series": "에코노플러스/600각",
+    "extractedCode": "DET6552",
+    "normalizedFileName": "det6552어반콘크리트webp",
+    "imageType": "material"
+  },
+  {
+    "fileName": "DET6553_클레이콘크리트.webp",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/600각/DET6553_클레이콘크리트.webp",
+    "category": "데코타일",
+    "brand": "LX",
+    "series": "에코노플러스/600각",
+    "extractedCode": "DET6553",
+    "normalizedFileName": "det6553클레이콘크리트webp",
+    "imageType": "material"
+  },
+  {
+    "fileName": "DET6554_클레이콘크리트.webp",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/600각/DET6554_클레이콘크리트.webp",
+    "category": "데코타일",
+    "brand": "LX",
+    "series": "에코노플러스/600각",
+    "extractedCode": "DET6554",
+    "normalizedFileName": "det6554클레이콘크리트webp",
+    "imageType": "material"
+  },
+  {
+    "fileName": "DET6555_클레이콘크리트.webp",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/600각/DET6555_클레이콘크리트.webp",
+    "category": "데코타일",
+    "brand": "LX",
+    "series": "에코노플러스/600각",
+    "extractedCode": "DET6555",
+    "normalizedFileName": "det6555클레이콘크리트webp",
+    "imageType": "material"
+  },
+  {
+    "fileName": "DET6556_클레이콘크리트.webp",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/600각/DET6556_클레이콘크리트.webp",
+    "category": "데코타일",
+    "brand": "LX",
+    "series": "에코노플러스/600각",
+    "extractedCode": "DET6556",
+    "normalizedFileName": "det6556클레이콘크리트webp",
+    "imageType": "material"
+  },
+  {
+    "fileName": "DET6557_내추럴콘크리트.webp",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/600각/DET6557_내추럴콘크리트.webp",
+    "category": "데코타일",
+    "brand": "LX",
+    "series": "에코노플러스/600각",
+    "extractedCode": "DET6557",
+    "normalizedFileName": "det6557내추럴콘크리트webp",
+    "imageType": "material"
+  },
+  {
+    "fileName": "DET6558_내추럴콘크리트.webp",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/600각/DET6558_내추럴콘크리트.webp",
+    "category": "데코타일",
+    "brand": "LX",
+    "series": "에코노플러스/600각",
+    "extractedCode": "DET6558",
+    "normalizedFileName": "det6558내추럴콘크리트webp",
+    "imageType": "material"
+  },
+  {
+    "fileName": "DET6559_내추럴콘크리트.webp",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/600각/DET6559_내추럴콘크리트.webp",
+    "category": "데코타일",
+    "brand": "LX",
+    "series": "에코노플러스/600각",
+    "extractedCode": "DET6559",
+    "normalizedFileName": "det6559내추럴콘크리트webp",
+    "imageType": "material"
+  },
+  {
+    "fileName": "DET6560_라임스톤.webp",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/600각/DET6560_라임스톤.webp",
+    "category": "데코타일",
+    "brand": "LX",
+    "series": "에코노플러스/600각",
+    "extractedCode": "DET6560",
+    "normalizedFileName": "det6560라임스톤webp",
+    "imageType": "material"
+  },
+  {
+    "fileName": "DET6561_라임스톤.webp",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/600각/DET6561_라임스톤.webp",
+    "category": "데코타일",
+    "brand": "LX",
+    "series": "에코노플러스/600각",
+    "extractedCode": "DET6561",
+    "normalizedFileName": "det6561라임스톤webp",
+    "imageType": "material"
+  },
+  {
+    "fileName": "DET6562_라임스톤.webp",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/600각/DET6562_라임스톤.webp",
+    "category": "데코타일",
+    "brand": "LX",
+    "series": "에코노플러스/600각",
+    "extractedCode": "DET6562",
+    "normalizedFileName": "det6562라임스톤webp",
+    "imageType": "material"
+  },
+  {
+    "fileName": "DET6563_칩세라믹.webp",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/600각/DET6563_칩세라믹.webp",
+    "category": "데코타일",
+    "brand": "LX",
+    "series": "에코노플러스/600각",
+    "extractedCode": "DET6563",
+    "normalizedFileName": "det6563칩세라믹webp",
+    "imageType": "material"
+  },
+  {
+    "fileName": "DET6564_칩세라믹.webp",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/600각/DET6564_칩세라믹.webp",
+    "category": "데코타일",
+    "brand": "LX",
+    "series": "에코노플러스/600각",
+    "extractedCode": "DET6564",
+    "normalizedFileName": "det6564칩세라믹webp",
+    "imageType": "material"
+  },
+  {
+    "fileName": "DET6565_칩세라믹.webp",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/600각/DET6565_칩세라믹.webp",
+    "category": "데코타일",
+    "brand": "LX",
+    "series": "에코노플러스/600각",
+    "extractedCode": "DET6565",
+    "normalizedFileName": "det6565칩세라믹webp",
+    "imageType": "material"
+  },
+  {
+    "fileName": "DET6566_컴포트마블.webp",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/600각/DET6566_컴포트마블.webp",
+    "category": "데코타일",
+    "brand": "LX",
+    "series": "에코노플러스/600각",
+    "extractedCode": "DET6566",
+    "normalizedFileName": "det6566컴포트마블webp",
+    "imageType": "material"
+  },
+  {
+    "fileName": "DET6567_컴포트마블.webp",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/600각/DET6567_컴포트마블.webp",
+    "category": "데코타일",
+    "brand": "LX",
+    "series": "에코노플러스/600각",
+    "extractedCode": "DET6567",
+    "normalizedFileName": "det6567컴포트마블webp",
+    "imageType": "material"
+  },
+  {
+    "fileName": "DET6568_컴포트마블.webp",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/600각/DET6568_컴포트마블.webp",
+    "category": "데코타일",
+    "brand": "LX",
+    "series": "에코노플러스/600각",
+    "extractedCode": "DET6568",
+    "normalizedFileName": "det6568컴포트마블webp",
+    "imageType": "material"
+  },
+  {
+    "fileName": "DET6569_베이직테라조.webp",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/600각/DET6569_베이직테라조.webp",
+    "category": "데코타일",
+    "brand": "LX",
+    "series": "에코노플러스/600각",
+    "extractedCode": "DET6569",
+    "normalizedFileName": "det6569베이직테라조webp",
+    "imageType": "material"
+  },
+  {
+    "fileName": "DET6570_베이직테라조.webp",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/600각/DET6570_베이직테라조.webp",
+    "category": "데코타일",
+    "brand": "LX",
+    "series": "에코노플러스/600각",
+    "extractedCode": "DET6570",
+    "normalizedFileName": "det6570베이직테라조webp",
+    "imageType": "material"
+  },
+  {
+    "fileName": "DET6571_베이직테라조.webp",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/600각/DET6571_베이직테라조.webp",
+    "category": "데코타일",
+    "brand": "LX",
+    "series": "에코노플러스/600각",
+    "extractedCode": "DET6571",
+    "normalizedFileName": "det6571베이직테라조webp",
+    "imageType": "material"
+  },
+  {
+    "fileName": "DET6572_비안코테라조.webp",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/600각/DET6572_비안코테라조.webp",
+    "category": "데코타일",
+    "brand": "LX",
+    "series": "에코노플러스/600각",
+    "extractedCode": "DET6572",
+    "normalizedFileName": "det6572비안코테라조webp",
+    "imageType": "material"
+  },
+  {
+    "fileName": "DET6573_비안코테라조.webp",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/600각/DET6573_비안코테라조.webp",
+    "category": "데코타일",
+    "brand": "LX",
+    "series": "에코노플러스/600각",
+    "extractedCode": "DET6573",
+    "normalizedFileName": "det6573비안코테라조webp",
+    "imageType": "material"
+  },
+  {
+    "fileName": "DET6574_비안코테라조.webp",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/600각/DET6574_비안코테라조.webp",
+    "category": "데코타일",
+    "brand": "LX",
+    "series": "에코노플러스/600각",
+    "extractedCode": "DET6574",
+    "normalizedFileName": "det6574비안코테라조webp",
+    "imageType": "material"
+  },
+  {
+    "fileName": "DET6575_베이직카펫.webp",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/600각/DET6575_베이직카펫.webp",
+    "category": "데코타일",
+    "brand": "LX",
+    "series": "에코노플러스/600각",
+    "extractedCode": "DET6575",
+    "normalizedFileName": "det6575베이직카펫webp",
+    "imageType": "material"
+  },
+  {
+    "fileName": "DET6576_베이직카펫.webp",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/600각/DET6576_베이직카펫.webp",
+    "category": "데코타일",
+    "brand": "LX",
+    "series": "에코노플러스/600각",
+    "extractedCode": "DET6576",
+    "normalizedFileName": "det6576베이직카펫webp",
+    "imageType": "material"
+  },
+  {
+    "fileName": "DET6577_마운틴카펫.webp",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/600각/DET6577_마운틴카펫.webp",
+    "category": "데코타일",
+    "brand": "LX",
+    "series": "에코노플러스/600각",
+    "extractedCode": "DET6577",
+    "normalizedFileName": "det6577마운틴카펫webp",
+    "imageType": "material"
+  },
+  {
+    "fileName": "DET6578_마운틴카펫.webp",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/600각/DET6578_마운틴카펫.webp",
+    "category": "데코타일",
+    "brand": "LX",
+    "series": "에코노플러스/600각",
+    "extractedCode": "DET6578",
+    "normalizedFileName": "det6578마운틴카펫webp",
+    "imageType": "material"
+  },
+  {
+    "fileName": "DET6579_아트러그.webp",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/600각/DET6579_아트러그.webp",
+    "category": "데코타일",
+    "brand": "LX",
+    "series": "에코노플러스/600각",
+    "extractedCode": "DET6579",
+    "normalizedFileName": "det6579아트러그webp",
+    "imageType": "material"
+  },
+  {
+    "fileName": "DET6580_아트러그.webp",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/600각/DET6580_아트러그.webp",
+    "category": "데코타일",
+    "brand": "LX",
+    "series": "에코노플러스/600각",
+    "extractedCode": "DET6580",
+    "normalizedFileName": "det6580아트러그webp",
+    "imageType": "material"
+  },
+  {
+    "fileName": "DEW2620.webp",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/우드/DEW2620.webp",
+    "category": "데코타일",
+    "brand": "LX",
+    "series": "에코노플러스/우드",
+    "extractedCode": "DEW2620",
+    "normalizedFileName": "dew2620webp",
+    "imageType": "material"
+  },
+  {
+    "fileName": "DEW2631.webp",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/우드/DEW2631.webp",
+    "category": "데코타일",
+    "brand": "LX",
+    "series": "에코노플러스/우드",
+    "extractedCode": "DEW2631",
+    "normalizedFileName": "dew2631webp",
+    "imageType": "material"
+  },
+  {
+    "fileName": "DEW2632.webp",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/우드/DEW2632.webp",
+    "category": "데코타일",
+    "brand": "LX",
+    "series": "에코노플러스/우드",
+    "extractedCode": "DEW2632",
+    "normalizedFileName": "dew2632webp",
+    "imageType": "material"
+  },
+  {
+    "fileName": "DEW2671.webp",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/우드/DEW2671.webp",
+    "category": "데코타일",
+    "brand": "LX",
+    "series": "에코노플러스/우드",
+    "extractedCode": "DEW2671",
+    "normalizedFileName": "dew2671webp",
+    "imageType": "material"
+  },
+  {
+    "fileName": "DEW2672.webp",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/우드/DEW2672.webp",
+    "category": "데코타일",
+    "brand": "LX",
+    "series": "에코노플러스/우드",
+    "extractedCode": "DEW2672",
+    "normalizedFileName": "dew2672webp",
+    "imageType": "material"
+  },
+  {
+    "fileName": "DEW4206.webp",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/우드/DEW4206.webp",
+    "category": "데코타일",
+    "brand": "LX",
+    "series": "에코노플러스/우드",
+    "extractedCode": "DEW4206",
+    "normalizedFileName": "dew4206webp",
+    "imageType": "material"
+  },
+  {
+    "fileName": "DEW4608.webp",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/우드/DEW4608.webp",
+    "category": "데코타일",
+    "brand": "LX",
+    "series": "에코노플러스/우드",
+    "extractedCode": "DEW4608",
+    "normalizedFileName": "dew4608webp",
+    "imageType": "material"
+  },
+  {
+    "fileName": "DEW4707.webp",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/우드/DEW4707.webp",
+    "category": "데코타일",
+    "brand": "LX",
+    "series": "에코노플러스/우드",
+    "extractedCode": "DEW4707",
+    "normalizedFileName": "dew4707webp",
+    "imageType": "material"
+  },
+  {
+    "fileName": "DEW4709.webp",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/우드/DEW4709.webp",
+    "category": "데코타일",
+    "brand": "LX",
+    "series": "에코노플러스/우드",
+    "extractedCode": "DEW4709",
+    "normalizedFileName": "dew4709webp",
+    "imageType": "material"
+  },
+  {
+    "fileName": "DEW4752.webp",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/우드/DEW4752.webp",
+    "category": "데코타일",
+    "brand": "LX",
+    "series": "에코노플러스/우드",
+    "extractedCode": "DEW4752",
+    "normalizedFileName": "dew4752webp",
+    "imageType": "material"
+  },
+  {
+    "fileName": "DEW4792.webp",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/LX/에코노플러스/우드/DEW4792.webp",
+    "category": "데코타일",
+    "brand": "LX",
+    "series": "에코노플러스/우드",
+    "extractedCode": "DEW4792",
+    "normalizedFileName": "dew4792webp",
+    "imageType": "material"
+  },
+  {
     "fileName": "SGT-4011.jpg",
     "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/녹수/세타그립/450각/SGT-4011.jpg",
     "category": "데코타일",
