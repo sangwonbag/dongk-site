@@ -1,5 +1,5 @@
 // Dongkyung Flooring (동경바닥재) Service Worker
-const CACHE_NAME = 'dk-floor-v2';
+const CACHE_NAME = 'dk-floor-v3';
 const STATIC_ASSETS = [
   '/manifest.json',
   '/dk-apple-touch-icon-transparent.png',
