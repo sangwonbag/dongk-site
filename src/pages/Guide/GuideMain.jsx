@@ -1,5 +1,5 @@
 import React, { useState, useMemo } from "react";
-import { Link, useNavigate } from "react-router-dom";
+import { Link } from "react-router-dom";
 import SEO from "../../components/seo/SEO";
 import {
   GUIDE_CATEGORIES,
@@ -7,48 +7,16 @@ import {
   SPACE_RECOMMENDATIONS,
   ALL_GUIDE_FAQS
 } from "../../data/guideData";
-import { ChevronDown, ArrowRight, HelpCircle, Calculator, Compass, Sparkles } from "lucide-react";
+import { ChevronDown, ArrowRight, HelpCircle, Compass, Sparkles } from "lucide-react";
 import "./Guide.css";
 
 export default function GuideMain() {
-  const navigate = useNavigate();
   const [activeTab, setActiveTab] = useState("all");
   const [openFaqIndex, setOpenFaqIndex] = useState(null);
-  const [pyungInput, setPyungInput] = useState(24);
-  const [selectedType, setSelectedType] = useState("decotile");
 
   const toggleFaq = (idx) => {
     setOpenFaqIndex(openFaqIndex === idx ? null : idx);
   };
-
-  // Quick Calculator
-  const calcResult = useMemo(() => {
-    const p = Math.max(1, parseInt(pyungInput, 10) || 1);
-    if (selectedType === "decotile") {
-      const boxes = Math.ceil(p * 1.05); // 5% loss rate
-      const estPrice = boxes * 32000; // Estimated baseline
-      return {
-        unitLabel: `예상 필요 박스 수: 약 ${boxes}박스 (로스율 5% 포함)`,
-        priceLabel: `약 ${estPrice.toLocaleString()}원~`,
-        note: "* 현장 재단 구조 및 마감 방식에 따라 실제 박스 수가 차이 날 수 있습니다."
-      };
-    } else if (selectedType === "jangpan") {
-      const meters = (p * 3.3 / 1.8).toFixed(1);
-      const estPrice = Math.round(p * 28000);
-      return {
-        unitLabel: `예상 필요 길이: 약 ${meters}m (폭 1.8m 기준)`,
-        priceLabel: `약 ${estPrice.toLocaleString()}원~`,
-        note: "* 2.2T 장판 자재 단가 기준 예상치입니다."
-      };
-    } else {
-      const estPrice = Math.round(p * 110000);
-      return {
-        unitLabel: `예상 필요 면적: 약 ${p}평 (${(p * 3.3).toFixed(1)}㎡)`,
-        priceLabel: `약 ${estPrice.toLocaleString()}원~`,
-        note: "* 강마루 기본 자재 및 표준 시공비 기준 예상치입니다."
-      };
-    }
-  }, [pyungInput, selectedType]);
 
   const jsonLdFaq = useMemo(() => {
     return {
@@ -109,7 +77,7 @@ export default function GuideMain() {
       </div>
 
       {/* Section 1: 바닥재 종류 알아보기 */}
-      {(activeTab === "all" || activeTab === "types") && (
+      {(activeTab === "all" || activeTab === "types" || activeTab === "price" || activeTab === "thickness") && (
         <section className="guide-section">
           <h2 className="guide-section-title">
             <Compass size={22} style={{ color: "#c99c47" }} /> 바닥재 종류 알아보기
@@ -223,56 +191,6 @@ export default function GuideMain() {
                 </Link>
               </div>
             ))}
-          </div>
-        </section>
-      )}
-
-      {/* Section 4: 평수 및 필요 수량 간단 계산기 */}
-      {(activeTab === "all" || activeTab === "price") && (
-        <section className="guide-calc-widget">
-          <h2 className="guide-calc-header">
-            <Calculator size={22} inline style={{ marginRight: "8px", verticalAlign: "middle" }} />
-            간단 평수 자재 계산기
-          </h2>
-          <p className="guide-calc-desc">
-            시공할 공간 평수와 원하시는 바닥재 종류를 선택하시면 대략적인 필요 자재량을 예상해 드립니다.
-          </p>
-
-          <div className="guide-calc-form">
-            <div className="guide-calc-field">
-              <label>공간 평수 (평)</label>
-              <input
-                type="number"
-                min="1"
-                max="200"
-                value={pyungInput}
-                onChange={(e) => setPyungInput(e.target.value)}
-              />
-            </div>
-
-            <div className="guide-calc-field">
-              <label>바닥재 종류</label>
-              <select value={selectedType} onChange={(e) => setSelectedType(e.target.value)}>
-                <option value="decotile">데코타일 (3.0mm 기준)</option>
-                <option value="jangpan">장판 (2.2T 기준)</option>
-                <option value="maru">강마루 (기본 시공 포함)</option>
-              </select>
-            </div>
-          </div>
-
-          <div className="guide-calc-result">
-            <div>
-              <div style={{ fontSize: "14px", color: "#4b5563", marginBottom: "4px" }}>
-                {calcResult.unitLabel}
-              </div>
-              <div className="guide-result-value">{calcResult.priceLabel}</div>
-              <div style={{ fontSize: "12px", color: "#9ca3af", marginTop: "4px" }}>
-                {calcResult.note}
-              </div>
-            </div>
-            <button className="guide-calc-btn" onClick={() => navigate("/estimate/request")}>
-              맞춤 견적문의 접수하기 <ArrowRight size={16} />
-            </button>
           </div>
         </section>
       )}
