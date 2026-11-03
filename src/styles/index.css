@@ -21,7 +21,7 @@
   --bg-alt: #F7F7F5; /* 쇼룸 따뜻한 보조 배경 (Spruce Warm White) */
   --bg-showroom: #F7F7F5;
   --text: #171717; /* 메인 텍스트 */
-  --text-muted: #777777; /* 보조 텍스트 (회색) */
+  --text-muted: #595959; /* WCAG 2.2 AA compliant (6.2:1 contrast on white) */ /* 보조 텍스트 (회색) */
   --text-light: #999999; /* 비활성/플레이스홀더 */
   --border: #E5E5E5; /* 얇은 경계선 */
   --border-hover: #171717;
@@ -303,4 +303,20 @@ h1, h2, h3, h4, h5, h6 {
     bottom: 16px;
     min-width: auto;
   }
+}
+/* ==========================================================================
+   Accessible Focus Visible Indicators (WCAG 2.2 AA)
+   ========================================================================== */
+:focus-visible {
+  outline: 2px solid #B3925F !important;
+  outline-offset: 2px !important;
+}
+
+button:focus-visible,
+a:focus-visible,
+input:focus-visible,
+select:focus-visible,
+textarea:focus-visible {
+  outline: 2px solid #B3925F !important;
+  outline-offset: 2px !important;
 }

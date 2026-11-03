@@ -41,6 +41,8 @@ async function run() {
     { url: '/estimate', priority: '0.8', changefreq: 'monthly' },
     { url: '/privacy-policy', priority: '0.5', changefreq: 'yearly' },
     { url: '/terms-of-service', priority: '0.5', changefreq: 'yearly' },
+    { url: '/refund-policy', priority: '0.5', changefreq: 'yearly' },
+    { url: '/cookie-policy', priority: '0.5', changefreq: 'yearly' },
   ];
 
   // Load generated materials dataset

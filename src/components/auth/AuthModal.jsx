@@ -1,4 +1,4 @@
-import React, { useState, useRef } from "react";
+import React, { useState, useRef, useEffect } from "react";
 import { X, Eye, EyeOff, Mail, ArrowLeft, CheckCircle } from "lucide-react";
 import { useAuth } from "../../contexts/AuthContext";
 import { supabase } from "../../lib/supabaseClient";
@@ -35,9 +35,24 @@ export default function AuthModal({ isOpen, onClose, onSuccess }) {
     name: "",
     phone: "",
   });
+  const [agreeAge, setAgreeAge] = useState(false);
   const [agreeTerms, setAgreeTerms] = useState(false);
+  const [agreePrivacy, setAgreePrivacy] = useState(false);
+  const [agreeMarketing, setAgreeMarketing] = useState(false);
   const [signUpError, setSignUpError] = useState("");
   const [loading, setLoading] = useState(false);
+
+    // Keyboard accessibility: Escape key to close modal
+  useEffect(() => {
+    if (!isOpen) return;
+    const handleKeyDown = (e) => {
+      if (e.key === "Escape") {
+        onClose();
+      }
+    };
+    window.addEventListener("keydown", handleKeyDown);
+    return () => window.removeEventListener("keydown", handleKeyDown);
+  }, [isOpen, onClose]);
 
   if (!isOpen) return null;
 
@@ -88,6 +103,11 @@ export default function AuthModal({ isOpen, onClose, onSuccess }) {
       if (res.success && res.user) {
         if (onSuccess) onSuccess(res.user);
         onClose();
+        if (res.user.role === 'admin' || res.user.role === 'staff') {
+          if (typeof window !== 'undefined' && (window.location.pathname === '/' || window.location.pathname === '/login')) {
+            window.location.href = '/admin';
+          }
+        }
       } else {
         setLoginError(res.message || "아이디 또는 비밀번호가 올바르지 않습니다.");
         if (res.statusType === "network_error") {
@@ -186,8 +206,16 @@ export default function AuthModal({ isOpen, onClose, onSuccess }) {
       return;
     }
 
+    if (!agreeAge) {
+      setSignUpError("만 14세 이상 이용자 확인에 동의해주세요.");
+      return;
+    }
     if (!agreeTerms) {
-      setSignUpError("이용약관 및 개인정보 처리방침에 동의해주세요.");
+      setSignUpError("서비스 이용약관에 동의해주세요.");
+      return;
+    }
+    if (!agreePrivacy) {
+      setSignUpError("개인정보 수집 및 이용 동의에 동의해주세요.");
       return;
     }
 
@@ -201,7 +229,7 @@ export default function AuthModal({ isOpen, onClose, onSuccess }) {
         phone: phone.trim(),
         company_name: null,
         user_type: "일반",
-        marketing_agree: false,
+        marketing_agree: agreeMarketing,
         terms_agreed_at: nowStr,
         privacy_agreed_at: nowStr,
         age_confirmed_at: nowStr,
@@ -269,6 +297,8 @@ export default function AuthModal({ isOpen, onClose, onSuccess }) {
               <div className="auth-form-group">
                 <label>아이디</label>
                 <input
+                  id="loginId"
+                  name="loginId"
                   type="text"
                   placeholder="아이디를 입력하세요"
                   value={loginId}
@@ -287,6 +317,8 @@ export default function AuthModal({ isOpen, onClose, onSuccess }) {
                 <label>비밀번호</label>
                 <div className="auth-password-wrapper">
                   <input
+                    id="loginPw"
+                    name="loginPw"
                     type={showPassword ? "text" : "password"}
                     placeholder="비밀번호를 입력하세요"
                     value={loginPw}
@@ -606,15 +638,46 @@ export default function AuthModal({ isOpen, onClose, onSuccess }) {
                 />
               </div>
 
-              <div className="auth-terms-checkbox">
-                <label>
+              <div className="auth-agreements-block" style={{ margin: '14px 0', display: 'flex', flexDirection: 'column', gap: '8px', fontSize: '12.5px', color: '#4b5563' }}>
+                <label style={{ display: 'flex', alignItems: 'center', gap: '6px', cursor: 'pointer' }}>
+                  <input
+                    type="checkbox"
+                    checked={agreeAge}
+                    onChange={(e) => setAgreeAge(e.target.checked)}
+                    disabled={loading}
+                  />
+                  <span><strong style={{ color: '#b91c1c' }}>[필수]</strong> 만 14세 이상입니다.</span>
+                </label>
+                <label style={{ display: 'flex', alignItems: 'center', gap: '6px', cursor: 'pointer' }}>
                   <input
                     type="checkbox"
                     checked={agreeTerms}
                     onChange={(e) => setAgreeTerms(e.target.checked)}
                     disabled={loading}
                   />
-                  <span>이용약관 및 개인정보 처리방침에 동의합니다.</span>
+                  <span>
+                    <strong style={{ color: '#b91c1c' }}>[필수]</strong> <a href="/terms-of-service" target="_blank" rel="noopener noreferrer" style={{ textDecoration: 'underline', color: '#1e293b' }}>서비스 이용약관</a> 동의
+                  </span>
+                </label>
+                <label style={{ display: 'flex', alignItems: 'center', gap: '6px', cursor: 'pointer' }}>
+                  <input
+                    type="checkbox"
+                    checked={agreePrivacy}
+                    onChange={(e) => setAgreePrivacy(e.target.checked)}
+                    disabled={loading}
+                  />
+                  <span>
+                    <strong style={{ color: '#b91c1c' }}>[필수]</strong> <a href="/privacy" target="_blank" rel="noopener noreferrer" style={{ textDecoration: 'underline', color: '#1e293b' }}>개인정보 수집 및 이용</a> 동의
+                  </span>
+                </label>
+                <label style={{ display: 'flex', alignItems: 'center', gap: '6px', cursor: 'pointer' }}>
+                  <input
+                    type="checkbox"
+                    checked={agreeMarketing}
+                    onChange={(e) => setAgreeMarketing(e.target.checked)}
+                    disabled={loading}
+                  />
+                  <span><strong>[선택]</strong> 할인 및 신상품 마케팅 정보 수신 동의</span>
                 </label>
               </div>
 

@@ -14,6 +14,7 @@ import {
   getEagonMaterialType, 
   getEagonColorName 
 } from "../../utils/eagonUtils";
+import { HANSOL_GROUPS, HANSOL_SPECS_BY_GROUP, HANSOL_SPEC_LABEL_MAP, isHansolProduct, getHansolGroup, getHansolSpec } from "../../utils/hansolUtils";
 import MaterialCard from "../../components/material/MaterialCard";
 import { fetchFilteredProducts, searchMaterials, getCachedFilteredProducts, getCachedSearchMaterials, withTimeout } from "../../utils/supabaseFetcher";
 import { getSearchScore, isProductNumberQuery, generateAutocompleteSuggestions, POPULAR_KEYWORDS, parseSearchQuery, scoreProduct } from "../../utils/searchUtils";
@@ -36,7 +37,7 @@ const CATEGORIES = getVisibleCategories(ALL_CATEGORIES);
 const BRANDS_BY_CATEGORY = {
   데코타일: ["KCC", "동신", "재영", "LX", "녹수", "현대", "대진"],
   장판: ["LX하우시스", "KCC", "현대"],
-  마루: ["동화", "이건마루", "구정"],
+  마루: ["동화", "이건마루", "구정", "한솔홈데코"],
   벽지: ["LX", "개나리", "서울", "제일", "신한", "현대벽지"],
   카페트타일: ["스완", "어반"],
   부자재: []
@@ -220,6 +221,10 @@ export default function Materials() {
   const activeEagonLine = isEagonBrand ? (searchParams.get("line") || "all") : "all";
   const activeEagonSpec = isEagonBrand ? (searchParams.get("spec") || "all") : "all";
 
+  const isHansolBrand = (activeTab === "마루" && (activeBrand === "한솔홈데코" || activeBrand === "한솔" || activeBrand.includes("한솔")));
+  const activeHansolGroup = isHansolBrand ? (searchParams.get("line") || "all") : "all";
+  const activeHansolSpec = isHansolBrand ? (searchParams.get("spec") || "all") : "all";
+
   const activeDongshinMajor = (activeTab === "데코타일" && (activeBrand === "동신" || activeBrand === "동신포리마"))
     ? (searchParams.get("line") || "all")
     : "all";
@@ -242,7 +247,10 @@ export default function Materials() {
     if (activeBrand !== "all" && activeBrand !== "KCC" && activeBrand !== "이건마루") count++;
     if (activeThickness !== "all") count++;
     if (activeShape !== "all") count++;
-    if (isEagonBrand) {
+    if (isHansolBrand) {
+      if (activeHansolGroup !== "all") count++;
+      if (activeHansolSpec !== "all") count++;
+    } else if (isEagonBrand) {
       if (activeEagonMajor !== "all") count++;
       if (activeEagonLine !== "all") count++;
       if (activeEagonSpec !== "all") count++;
@@ -254,7 +262,7 @@ export default function Materials() {
     if (sortOption !== "default") count++;
     if (debouncedQuery.trim()) count++;
     return count;
-  }, [activeBrand, activeThickness, activeShape, activeLine, activeDongshinMajor, activeDongshinDetail, isEagonBrand, activeEagonMajor, activeEagonLine, activeEagonSpec, sortOption, debouncedQuery]);
+  }, [activeBrand, activeThickness, activeShape, activeLine, activeDongshinMajor, activeDongshinDetail, isEagonBrand, activeEagonMajor, activeEagonLine, activeEagonSpec, isHansolBrand, activeHansolGroup, activeHansolSpec, sortOption, debouncedQuery]);
 
   const handleResetFilters = useCallback(() => {
     updateParams({ search: null, q: null, brand: "all", type: null, line: null, detail: null, shape: null, thickness: null, spec: null, sort: null });
@@ -815,6 +823,37 @@ export default function Materials() {
     return counts;
   }, [isEagonBrand, activeEagonLine, materialsList]);
 
+  // HanSol Group and Spec Counts
+  const hansolGroupCounts = useMemo(() => {
+    if (!isHansolBrand || !materialsList) return {};
+    const counts = { "전체": 0, "SB스톤 컬렉션": 0, "SB강": 0, "울트라강": 0 };
+    materialsList.forEach(m => {
+      if (!m || !isHansolProduct(m)) return;
+      counts["전체"]++;
+      const grp = getHansolGroup(m);
+      if (counts[grp] !== undefined) counts[grp]++;
+    });
+    return counts;
+  }, [isHansolBrand, materialsList]);
+
+  const visibleHansolSpecs = useMemo(() => {
+    if (!isHansolBrand) return [];
+    return HANSOL_SPECS_BY_GROUP[activeHansolGroup] || HANSOL_SPECS_BY_GROUP["전체"];
+  }, [isHansolBrand, activeHansolGroup]);
+
+  const hansolSpecCounts = useMemo(() => {
+    if (!isHansolBrand || !materialsList) return {};
+    const counts = { "all": 0 };
+    materialsList.forEach(m => {
+      if (!m || !isHansolProduct(m)) return;
+      if (activeHansolGroup !== "all" && getHansolGroup(m) !== activeHansolGroup) return;
+      counts["all"]++;
+      const sp = getHansolSpec(m);
+      counts[sp] = (counts[sp] || 0) + 1;
+    });
+    return counts;
+  }, [isHansolBrand, activeHansolGroup, materialsList]);
+
   const visibleDongshinDetails = useMemo(() => {
     if (activeTab !== "데코타일" || (activeBrand !== "동신" && activeBrand !== "동신포리마")) return [];
     const list = DONGSHIN_DETAILED_LINEUPS_MAP[activeDongshinMajor] || DONGSHIN_DETAILED_LINEUPS_MAP["전체"];
@@ -885,6 +924,8 @@ export default function Materials() {
           brandOk = itemBrand.includes("어반") || itemBrand.includes("URBAN");
         } else if (b.includes("이건")) {
           brandOk = isEagonProduct(m);
+        } else if (b.includes("한솔")) {
+          brandOk = isHansolProduct(m);
         } else {
           brandOk = itemBrand === b || compBrand === b || itemBrand.includes(b) || compBrand.includes(b);
         }
@@ -900,6 +941,18 @@ export default function Materials() {
           return false;
         }
         if (activeEagonSpec !== "all" && getEagonSpecKey(m) !== activeEagonSpec) {
+          return false;
+        }
+        return tabOk && brandOk;
+      }
+
+      // HanSol specific hierarchical check (only when not searching)
+      if (!searching && isHansolBrand) {
+        if (!isHansolProduct(m)) return false;
+        if (activeHansolGroup !== "all" && getHansolGroup(m) !== activeHansolGroup) {
+          return false;
+        }
+        if (activeHansolSpec !== "all" && getHansolSpec(m) !== activeHansolSpec) {
           return false;
         }
         return tabOk && brandOk;
@@ -1178,6 +1231,21 @@ export default function Materials() {
                     {activeEagonSpec !== "all" && (
                       <span className="active-chip">
                         규격: {activeEagonSpec}
+                        <X size={14} className="chip-remove" onClick={() => updateParams({ spec: null })} />
+                      </span>
+                    )}
+                  </>
+                ) : isHansolBrand ? (
+                  <>
+                    {activeHansolGroup !== "all" && (
+                      <span className="active-chip">
+                        제품군: {activeHansolGroup}
+                        <X size={14} className="chip-remove" onClick={() => updateParams({ line: null, spec: null })} />
+                      </span>
+                    )}
+                    {activeHansolSpec !== "all" && (
+                      <span className="active-chip">
+                        규격: {HANSOL_SPEC_LABEL_MAP[activeHansolSpec] || activeHansolSpec}
                         <X size={14} className="chip-remove" onClick={() => updateParams({ spec: null })} />
                       </span>
                     )}
@@ -1466,8 +1534,45 @@ export default function Materials() {
               </>
             )}
 
-            {/* Lineup Filter (Non-Dongshin, Non-Eagon) */}
-            {!loading && !(activeTab === "데코타일" && (activeBrand === "동신" || activeBrand === "동신포리마")) && !isEagonBrand && visibleLines.length > 1 && (
+            {/* HanSol 2-Tier Group & Spec Filter */}
+            {!loading && isHansolBrand && (
+              <>
+                <div className="materials-lineup-filter hansol-group-filter">
+                  <span style={{ fontSize: '13px', fontWeight: '600', color: '#6b7280', alignSelf: 'center', marginRight: '6px' }}>제품군:</span>
+                  {HANSOL_GROUPS.map((grpName) => (
+                    <button
+                      key={grpName}
+                      className={`material-type-chip ${activeHansolGroup === (grpName === "전체" ? "all" : grpName) ? "active" : ""}`}
+                      onClick={() => updateParams({ line: grpName === "전체" ? null : grpName, spec: null })}
+                    >
+                      {grpName === "전체"
+                        ? `전체 (${hansolGroupCounts["전체"] || 68})`
+                        : `${grpName} (${hansolGroupCounts[grpName] || 0})`}
+                    </button>
+                  ))}
+                </div>
+
+                {visibleHansolSpecs.length > 1 && (
+                  <div className="materials-lineup-filter hansol-spec-filter" style={{ marginTop: '10px' }}>
+                    <span style={{ fontSize: '13px', fontWeight: '600', color: '#6b7280', alignSelf: 'center', marginRight: '6px' }}>규격:</span>
+                    {visibleHansolSpecs.map((specKey) => (
+                      <button
+                        key={specKey}
+                        className={`material-type-chip ${activeHansolSpec === specKey ? "active" : ""}`}
+                        onClick={() => updateParams({ spec: specKey === "all" ? null : specKey })}
+                      >
+                        {specKey === "all"
+                          ? `전체 규격 (${hansolSpecCounts["all"] || 0})`
+                          : `${HANSOL_SPEC_LABEL_MAP[specKey] || specKey} (${hansolSpecCounts[specKey] || 0})`}
+                      </button>
+                    ))}
+                  </div>
+                )}
+              </>
+            )}
+
+            {/* Lineup Filter (Non-Dongshin, Non-Eagon, Non-HanSol) */}
+            {!loading && !(activeTab === "데코타일" && (activeBrand === "동신" || activeBrand === "동신포리마")) && !isEagonBrand && !isHansolBrand && visibleLines.length > 1 && (
               <div className="materials-lineup-filter">
                 {visibleLines.map((lineName) => (
                   <button

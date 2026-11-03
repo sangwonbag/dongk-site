@@ -145,7 +145,7 @@ export default function BrandLogosCarousel() {
                 <div className="brand-logo-card">
                   <img 
                     src={brand.logo} 
-                    alt={brand.name} 
+                    alt={`${brand.name} 브랜드 로고`} 
                     draggable="false"
                     className="brand-logo-img"
                   />

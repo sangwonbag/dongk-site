@@ -376,8 +376,8 @@ export default function Cart() {
 
                   <div className="bank-transfer-info-box">
                     <strong>💳 무통장 입금 계좌</strong>
-                    국민은행 752601-04-269229<br />
-                    예금주: 주식회사 동경상사
+                    농협 301-0298-9197-81<br />
+                    예금주: (주)동경바닥재
                   </div>
 
                   <div className="summary-buttons">

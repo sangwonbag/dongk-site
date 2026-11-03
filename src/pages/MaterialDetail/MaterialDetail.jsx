@@ -64,6 +64,12 @@ import {
   getEagonSiblingProducts 
 } from "../../utils/eagonUtils";
 
+import { 
+  isHansolProduct, 
+  getHansolGroup, 
+  getHansolSpec, 
+  HANSOL_SPEC_LABEL_MAP 
+} from "../../utils/hansolUtils";
 import "./MaterialDetail.css";
 
 // Eagon flooring sub-classification / upper category helper
@@ -1688,7 +1694,7 @@ export default function MaterialDetail() {
                   <>
                     <img 
                       src={productImages[selectedImageIndex]} 
-                      alt={`${item.name} main`} 
+                      alt={`${item.brand ? `${item.brand} ` : ''}${displayName || item.name} ${item.thickness ? `${item.thickness} ` : ''}자재 상세 이미지`} 
                       fetchPriority="high"
                       loading="eager"
                       decoding="async"
@@ -1758,7 +1764,7 @@ export default function MaterialDetail() {
                           loading="lazy"
                           decoding="async"
                           onError={() => handleImageError(src)}
-                          alt={`${item.name} thumbnail-${idx + 1}`}
+                          alt={`${item.brand ? `${item.brand} ` : ''}${displayName || item.name} 상세 썸네일 ${idx + 1}`}
                           className="showroom-thumb-img"
                         />
                       </div>
@@ -1804,6 +1810,20 @@ export default function MaterialDetail() {
                       <>
                         <span className="divider">·</span>
                         <span className="spec-name">{getEagonSpecKey(item)}</span>
+                      </>
+                    )}
+                  </>
+                ) : isHansolProduct(item) ? (
+                  <>
+                    <span className="brand-name">한솔홈데코</span>
+                    <span className="divider">·</span>
+                    <span className="category-name">마루 (강마루)</span>
+                    <span className="divider">·</span>
+                    <span className="line-name">{getHansolGroup(item)}</span>
+                    {getHansolSpec(item) && (
+                      <>
+                        <span className="divider">·</span>
+                        <span className="spec-name">{HANSOL_SPEC_LABEL_MAP[getHansolSpec(item)] || getHansolSpec(item)}</span>
                       </>
                     )}
                   </>
@@ -2611,6 +2631,39 @@ export default function MaterialDetail() {
                                 <td>이건마루 친환경 황토풀 / 전용 마루 본드</td>
                                 <th>포장/입수</th>
                                 <td>상담 확인 필요</td>
+                              </tr>
+                            </>
+                          ) : isHansolProduct(item) ? (
+                            <>
+                              <tr>
+                                <th>제조 브랜드</th>
+                                <td>한솔홈데코</td>
+                                <th>카테고리</th>
+                                <td>마루 (강마루)</td>
+                              </tr>
+                              <tr>
+                                <th>제품군</th>
+                                <td>{getHansolGroup(item)}</td>
+                                <th>규격 라인업</th>
+                                <td>{HANSOL_SPEC_LABEL_MAP[getHansolSpec(item)] || item.subLine || item.line || "규격 확인"}</td>
+                              </tr>
+                              <tr>
+                                <th>두께 규격</th>
+                                <td>{item.thickness || "7.5T"}</td>
+                                <th>제품 기본 규격</th>
+                                <td>{item.specs?.size || item.size_text || item.spec || "규격 확인 필요"}</td>
+                              </tr>
+                              <tr>
+                                <th>포장 패킹 단위</th>
+                                <td>{item.specs?.packing || item.unit || item.package || "상담 확인 필요"}</td>
+                                <th>자재 식별 코드</th>
+                                <td>{item.code || item.product_code || item.name}</td>
+                              </tr>
+                              <tr>
+                                <th>권장 접착 자재</th>
+                                <td>접착식 시공 (SB마루 전용 친환경 접착제)</td>
+                                <th>패턴 분류</th>
+                                <td>{getHansolGroup(item) === "SB스톤 컬렉션" ? "스톤 (대리석 질감)" : "우드 (원목 질감)"}</td>
                               </tr>
                             </>
                           ) : item.category === '장판' ? (

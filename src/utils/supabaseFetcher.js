@@ -273,7 +273,7 @@ export async function fetchAllProducts(forceRefresh = false) {
 export function mapProductRow(p) {
   const code = p.product_code || "";
   const rawBrand = p.brands?.name || "";
-  const brandName = (rawBrand === '이건' || rawBrand === '이건마루') ? '이건마루' : rawBrand;
+  const brandName = (rawBrand === '이건' || rawBrand === '이건마루') ? '이건마루' : (rawBrand.includes('한솔') ? '한솔홈데코' : rawBrand);
   const categoryName = p.categories?.name || "";
 
   // Find matching Dongshin PDF product to enrich properties (O(1) Map lookup)
@@ -659,6 +659,8 @@ export async function fetchFilteredProducts({ category, brand, thickness, search
               query = query.or('name.ilike.%어반%,name.ilike.%URBAN%', { foreignTable: 'brands' });
             } else if (b.includes('이건')) {
               query = query.or('name.ilike.%이건%,name.ilike.%이건마루%', { foreignTable: 'brands' });
+            } else if (b.includes('한솔')) {
+              query = query.or('name.ilike.%한솔%,name.ilike.%한솔홈데코%', { foreignTable: 'brands' });
             } else {
               query = query.ilike('brands.name', `%${brand}%`);
             }

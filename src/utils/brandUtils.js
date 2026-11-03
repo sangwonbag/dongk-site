@@ -232,6 +232,7 @@ export const normalizeBrandName = (brandStr) => {
   if (b.includes("KCC") || upper.includes("KCC")) {
     return "KCC";
   }
+  if (b.includes("한솔")) return "한솔홈데코";
   if (b.includes("이건")) {
     return "이건마루";
   }
@@ -256,6 +257,7 @@ export const getComputedBrand = (item) => {
 
     const originalBrand = (item.brand || "기타").trim();
 
+    if (originalBrand.includes("한솔")) return "한솔홈데코";
     if (originalBrand.includes("이건")) {
         return "이건마루";
     }
@@ -289,6 +291,10 @@ export function getMaterialTypeAndLine(m) {
   let materialType = m.subCategory || m.materialType || "";
   let displayLine = m.line || "";
 
+  if (m.brand === "한솔" || m.brand === "한솔홈데코" || (m.brand && m.brand.includes("한솔"))) {
+    materialType = "강마루";
+    displayLine = m.group || (m.line ? (m.line.includes("스톤") ? "SB스톤 컬렉션" : m.line.includes("울트라") ? "울트라강" : "SB강") : "강마루");
+  }
   if (m.brand === "이건") {
     if (m.series) materialType = m.series;
   }

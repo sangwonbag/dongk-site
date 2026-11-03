@@ -62,7 +62,8 @@
 .footer-links {
     margin-bottom: 20px;
     display: flex;
-    gap: 12px;
+    flex-wrap: wrap;
+    gap: 8px 12px;
     align-items: center;
     font-size: 13px;
 }
@@ -73,8 +74,11 @@
     transition: color 0.2s;
 }
 
-.footer-links a:hover {
+.footer-links a:hover,
+.footer-links a:focus-visible {
     color: #ffffff;
+    outline: none;
+    text-decoration: underline;
 }
 
 .footer-links .privacy-policy-link {
@@ -83,6 +87,6 @@
 }
 
 .footer-link-divider {
-    color: rgba(255, 255, 255, 0.15);
+    color: rgba(255, 255, 255, 0.2);
     font-size: 11px;
-}
+}

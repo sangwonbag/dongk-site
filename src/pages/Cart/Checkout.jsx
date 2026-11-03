@@ -67,6 +67,8 @@ export default function Checkout() {
   const [needCarry, setNeedCarry] = useState(""); // optional: "" | yes | no
   const [loading, setLoading] = useState(false);
   const [errorMsg, setErrorMsg] = useState("");
+  const [agreeOrderTerms, setAgreeOrderTerms] = useState(false);
+  const [agreeDeliveryPrivacy, setAgreeDeliveryPrivacy] = useState(false);
   const [isOrderSuccess, setIsOrderSuccess] = useState(false);
   const isSubmittingRef = useRef(false);
 
@@ -498,6 +500,16 @@ export default function Checkout() {
     // 로그인 여부 검사
     if (!user) {
       openLoginModal();
+      return;
+    }
+
+    // 약관 및 개인정보 동의 검사
+    if (!agreeOrderTerms) {
+      setErrorMsg("구매조건 확인 및 환불·교환 정책에 동의해주세요.");
+      return;
+    }
+    if (!agreeDeliveryPrivacy) {
+      setErrorMsg("배송 정보 제공 및 개인정보 처리 위탁에 동의해주세요.");
       return;
     }
 
@@ -1548,6 +1560,45 @@ export default function Checkout() {
               )}
 
               {errorMsg && <div className="checkout-error-banner">{errorMsg}</div>}
+
+              <div className="checkout-agreements-box" style={{ margin: '16px 0', padding: '14px', background: '#f8fafc', border: '1px solid #e2e8f0', borderRadius: '8px', fontSize: '13px', display: 'flex', flexDirection: 'column', gap: '10px' }}>
+                <label style={{ display: 'flex', alignItems: 'flex-start', gap: '8px', cursor: 'pointer', color: '#1e293b' }}>
+                  <input
+                    type="checkbox"
+                    checked={agreeOrderTerms}
+                    onChange={(e) => setAgreeOrderTerms(e.target.checked)}
+                    disabled={loading}
+                    style={{ marginTop: '2px' }}
+                  />
+                  <span>
+                    <strong style={{ color: '#b91c1c' }}>[필수]</strong> 구매 조건 확인 및 주문 진행 동의 (
+                    <a href="/refund-policy" target="_blank" rel="noopener noreferrer" style={{ textDecoration: 'underline', color: '#0369a1' }}>
+                      환불·교환 규정
+                    </a>
+                    , 
+                    <a href="/terms-of-service" target="_blank" rel="noopener noreferrer" style={{ textDecoration: 'underline', color: '#0369a1', marginLeft: '4px' }}>
+                      이용약관
+                    </a>
+                    )
+                  </span>
+                </label>
+                <label style={{ display: 'flex', alignItems: 'flex-start', gap: '8px', cursor: 'pointer', color: '#1e293b' }}>
+                  <input
+                    type="checkbox"
+                    checked={agreeDeliveryPrivacy}
+                    onChange={(e) => setAgreeDeliveryPrivacy(e.target.checked)}
+                    disabled={loading}
+                    style={{ marginTop: '2px' }}
+                  />
+                  <span>
+                    <strong style={{ color: '#b91c1c' }}>[필수]</strong> 배송 위탁 및 개인정보 제공 동의 (
+                    <a href="/privacy" target="_blank" rel="noopener noreferrer" style={{ textDecoration: 'underline', color: '#0369a1' }}>
+                      개인정보처리방침
+                    </a>
+                    )
+                  </span>
+                </label>
+              </div>
 
               <button 
                 type="submit" 

@@ -404,6 +404,7 @@ export default function AdminOrders() {
    현장 진행 관리, Google Calendar 동기화, 작업자 배정, 출고증/시공확인서 문서 생성, 수금/미수금 관리 확장
    ========================================================== */
 function AdminOrderCard({ order, currentUser, onSaveSuccess, highlight }) {
+  const [hasConstruction, setHasConstruction] = useState(() => !!order.has_construction);
   const [isExpanded, setIsExpanded] = useState(highlight || false);
   const [status, setStatus] = useState(order.status);
   const [paymentStatus, setPaymentStatus] = useState(order.payment_status);
@@ -449,9 +450,7 @@ function AdminOrderCard({ order, currentUser, onSaveSuccess, highlight }) {
       prepared: false,
       note: ''
     }));
-    // Default accessories checklist items
-    items.push({ id: 'acc-glue', product_name: '데코타일 본드', product_code: 'ACC-GLUE', expected_qty: 1, actual_qty: 1, unit: '통', prepared: false, note: '' });
-    items.push({ id: 'acc-silicone', product_name: '마감 실리콘', product_code: 'ACC-SILICONE', expected_qty: 2, actual_qty: 2, unit: '개', prepared: false, note: '' });
+    // Only return real order items (accessories are not auto-injected)
     return items;
   });
 
@@ -478,6 +477,7 @@ function AdminOrderCard({ order, currentUser, onSaveSuccess, highlight }) {
     setStatus(order.status);
     setPaymentStatus(order.payment_status);
     setConstructionStatus(order.construction_status || '일정 미정');
+    setHasConstruction(!!order.has_construction);
     setShipmentStatus(order.shipment_status || '대기');
     setAdminMemo(order.admin_memo || "");
     setConstructionDate(order.construction_date || "");
@@ -520,13 +520,14 @@ function AdminOrderCard({ order, currentUser, onSaveSuccess, highlight }) {
 
   const { cleanMemo, deliveryDate, deliveryTime } = extractDeliveryDateAndTime(order.memo);
 
-  // 미수금 경과일 계산
+  // 미수금 경과일 계산 (입금완료 시 무조건 0원 및 완납 보장)
   const overdueInfo = useMemo(() => {
+    const isPaid = order.payment_status === '입금완료' || order.payment_status === 'paid' || paymentStatus === '입금완료';
     const finalBilling = order.final_billing_amount || order.total_amount || 0;
-    const totalPaid = order.total_paid_amount || 0;
-    const outstanding = order.outstanding_balance ?? Math.max(0, finalBilling - totalPaid);
+    const totalPaid = isPaid ? finalBilling : (order.total_paid_amount || 0);
+    const outstanding = isPaid ? 0 : (order.outstanding_balance ?? Math.max(0, finalBilling - totalPaid));
 
-    if (outstanding <= 0) return { days: 0, text: '완납 (잔액 0원)', style: { backgroundColor: '#dcfce7', color: '#15803d', border: '1px solid #86efac' } };
+    if (isPaid || outstanding <= 0) return { days: 0, text: '완납 (잔액 0원)', style: { backgroundColor: '#dcfce7', color: '#15803d', border: '1px solid #86efac' } };
 
     const refDateStr = order.construction_completed_at || order.construction_date || order.created_at;
     if (!refDateStr) return { days: 0, text: `미수 (${outstanding.toLocaleString()}원)`, style: { backgroundColor: '#fee2e2', color: '#b91c1c', border: '1px solid #fca5a5' } };
@@ -865,15 +866,25 @@ function AdminOrderCard({ order, currentUser, onSaveSuccess, highlight }) {
                  order.delivery_method === "pickup" ? "직접 수령" :
                   order.delivery_method === "kyungdong" ? "경동화물" : "대신화물"}
               </span>
-              <span className="badge-construction-status" style={{ backgroundColor: '#f1f5f9', color: '#0f172a', border: '1px solid #cbd5e1', fontSize: '11px', padding: '2px 8px', borderRadius: '4px', fontWeight: '700' }}>
-                시공: {constructionStatus}
-              </span>
+              {hasConstruction ? (
+                <>
+                  <span className="badge-type-constr" style={{ backgroundColor: '#eff6ff', color: '#1d4ed8', border: '1px solid #bfdbfe', fontSize: '11px', padding: '2px 8px', borderRadius: '4px', fontWeight: '800' }}>
+                    자재 + 시공
+                  </span>
+                  <span className="badge-construction-status" style={{ backgroundColor: '#f1f5f9', color: '#0f172a', border: '1px solid #cbd5e1', fontSize: '11px', padding: '2px 8px', borderRadius: '4px', fontWeight: '700' }}>
+                    시공: {constructionStatus}
+                  </span>
+                  <span className="badge-calendar-status" style={{ backgroundColor: calendarStatus === '등록 완료' ? '#e0f2fe' : (calendarStatus === '동기화 실패' ? '#fee2e2' : '#f1f5f9'), color: calendarStatus === '등록 완료' ? '#0369a1' : (calendarStatus === '동기화 실패' ? '#b91c1c' : '#475569'), border: '1px solid #cbd5e1', fontSize: '11px', padding: '2px 8px', borderRadius: '4px', fontWeight: '700' }}>
+                    📅 Calendar: {calendarStatus}
+                  </span>
+                </>
+              ) : (
+                <span className="badge-type-materials-only" style={{ backgroundColor: '#f3f4f6', color: '#374151', border: '1px solid #d1d5db', fontSize: '11px', padding: '2px 8px', borderRadius: '4px', fontWeight: '800' }}>
+                  자재만 주문
+                </span>
+              )}
               <span className="badge-shipment-status" style={{ backgroundColor: shipmentStatus === '출고완료' ? '#dcfce7' : '#fff7ed', color: shipmentStatus === '출고완료' ? '#15803d' : '#c2410c', border: '1px solid #fed7aa', fontSize: '11px', padding: '2px 8px', borderRadius: '4px', fontWeight: '700' }}>
                 출고: {shipmentStatus}
-              </span>
-              {/* Google Calendar 연동 상태 태그 */}
-              <span className="badge-calendar-status" style={{ backgroundColor: calendarStatus === '등록 완료' ? '#e0f2fe' : (calendarStatus === '동기화 실패' ? '#fee2e2' : '#f1f5f9'), color: calendarStatus === '등록 완료' ? '#0369a1' : (calendarStatus === '동기화 실패' ? '#b91c1c' : '#475569'), border: '1px solid #cbd5e1', fontSize: '11px', padding: '2px 8px', borderRadius: '4px', fontWeight: '700' }}>
-                📅 Calendar: {calendarStatus}
               </span>
             </div>
           </div>
@@ -1077,7 +1088,9 @@ function AdminOrderCard({ order, currentUser, onSaveSuccess, highlight }) {
               </div>
             </div>
 
-            {/* Section ③: 시공 일정 및 작업자 배정 + Google Calendar */}
+            {hasConstruction && (
+              <div className="admin-construction-sections" style={{ display: 'flex', flexDirection: 'column', gap: '24px' }}>
+                {/* Section ③: 시공 일정 및 작업자 배정 + Google Calendar */}
             <div className="op-section-card" style={{ backgroundColor: '#ffffff', border: '1px solid #e2e8f0', borderRadius: '8px', padding: '18px' }}>
               <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '12px', borderBottom: '1px solid #f1f5f9', paddingBottom: '8px' }}>
                 <h4 style={{ fontSize: '15px', fontWeight: '800', color: '#0f172a', margin: 0 }}>
@@ -1234,6 +1247,10 @@ function AdminOrderCard({ order, currentUser, onSaveSuccess, highlight }) {
                 <div>고객확인: {order.customer_confirmed_at ? formatDate(order.customer_confirmed_at) : '-'}</div>
               </div>
             </div>
+
+            
+              </div>
+            )}
 
             {/* Section ⑤: 수금 & 미수금 경과일 관리 */}
             <div className="op-section-card" style={{ backgroundColor: '#ffffff', border: '1px solid #e2e8f0', borderRadius: '8px', padding: '18px' }}>

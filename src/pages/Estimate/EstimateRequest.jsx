@@ -29,7 +29,7 @@ import { getComputedBrand, formatProductTitle, getProductUnit } from '../../util
 import { getMaterialImagePath } from '../../utils/materialImageResolver';
 import { getProductImageCandidates } from '../../utils/productImageResolver';
 import SEO from '../../components/seo/SEO';
-import { HIDE_SUB_MATERIALS } from '../../config/categoryConfig';
+import { HIDE_SUB_MATERIALS, ACCESSORIES_ENABLED } from '../../config/categoryConfig';
 import { supabase } from '../../lib/supabaseClient';
 import './EstimateRequest.css';
 
@@ -310,8 +310,9 @@ export default function EstimateRequest() {
     }
   };
 
-  // Auto-recommend accessories based on cart items
+  // Auto-recommend accessories based on cart items (disabled when ACCESSORIES_ENABLED is false)
   useEffect(() => {
+    if (!ACCESSORIES_ENABLED) return;
     if (cartItems.length > 0) {
       const cats = cartItems.map(item => item.category);
       if (cats.includes('데코타일') || cats.includes('장판')) {

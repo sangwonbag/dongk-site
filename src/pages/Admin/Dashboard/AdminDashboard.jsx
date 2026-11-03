@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import MainLayout from '../../../components/layout/MainLayout';
 import { supabase } from '../../../lib/supabaseClient';
+import { parseAdminMemoTags } from '../../../services/orderService';
 import { logout } from '../../../lib/auth';
 import { 
   FileText, 
@@ -68,10 +69,26 @@ export default function AdminDashboard() {
         console.warn('products table load fallback:', err);
       }
 
-      // Fetch Orders safely
+      // Fetch Orders safely (using only existing columns and parsing admin_memo tags)
       try {
-        const { data } = await supabase.from('orders').select('status, created_at, construction_date, construction_status, shipment_status, outstanding_balance, payment_status, total_amount, final_billing_amount, total_paid_amount');
-        orderRows = data || [];
+        const { data } = await supabase.from('orders').select('status, created_at, payment_status, total_amount, admin_memo');
+        orderRows = (data || []).map(row => {
+          const { tags } = parseAdminMemoTags(row.admin_memo || '');
+          const finalBilling = Math.max(0, (Number(row.total_amount) || 0) + (tags.extra_charge_amount || 0) - (tags.extra_discount_amount || 0));
+          const isPaid = row.payment_status === 'paid' || row.payment_status === '입금완료';
+          const totalPaid = isPaid ? finalBilling : (tags.payment_logs || []).reduce((sum, p) => sum + (Number(p.amount) || 0), 0);
+          const outstanding = isPaid ? 0 : Math.max(0, finalBilling - totalPaid);
+
+          return {
+            ...row,
+            construction_status: tags.construction_status || '일정 미정',
+            construction_date: tags.construction_date || null,
+            shipment_status: tags.shipment_status || '대기',
+            final_billing_amount: finalBilling,
+            total_paid_amount: totalPaid,
+            outstanding_balance: outstanding
+          };
+        });
       } catch (err) {
         console.warn('orders table load fallback:', err);
       }

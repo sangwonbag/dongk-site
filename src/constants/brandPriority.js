@@ -9,7 +9,7 @@ import { getKccProductLineupPriority, getKccLineup } from '../utils/brandUtils.j
 export const BRAND_PRIORITY_BY_CATEGORY = {
   데코타일: ['KCC', '동신', '재영', 'LX', '녹수', '현대', '대진'],
   장판: ['LX', 'KCC', '현대'],
-  마루: ['동화', '이건마루', '이건', '구정'],
+  마루: ['동화', '이건마루', '이건', '구정', '한솔홈데코', '한솔'],
   벽지: ['LX', '개나리', '신한', '서울', '제일', '디아이디'],
   카페트타일: ['스완', '어반', '코오롱'],
   러버타일: ['현대', 'KCC'],
@@ -17,7 +17,7 @@ export const BRAND_PRIORITY_BY_CATEGORY = {
   // 영문/camelCase 별칭 지원
   decotile: ['KCC', '동신', '재영', 'LX', '녹수', '현대', '대진'],
   sheetFlooring: ['LX', 'KCC', '현대'],
-  maru: ['동화', '이건마루', '이건', '구정'],
+  maru: ['동화', '이건마루', '이건', '구정', '한솔홈데코', '한솔'],
   wallpaper: ['LX', '개나리', '신한', '서울', '제일', '디아이디'],
   carpetTile: ['스완', '어반', '코오롱']
 };
@@ -126,6 +126,9 @@ export function getDisplayBrandName(brandOrItem, category = '') {
   }
   if (norm === '이건' || norm === '이건마루') {
     return '이건마루';
+  }
+  if (norm === '한솔' || norm === '한솔홈데코') {
+    return '한솔홈데코';
   }
   return rawBrand.trim() || norm;
 }

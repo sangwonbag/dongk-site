@@ -5,7 +5,7 @@ import './DocumentStyles.css';
 export default function ReleaseNoteModal({ isOpen = true, order, onClose }) {
   if (!isOpen || !order) return null;
 
-  const items = order.shipment_checklist && order.shipment_checklist.length > 0 
+  const rawItems = order.shipment_checklist && order.shipment_checklist.length > 0 
     ? order.shipment_checklist 
     : (order.order_items || []).map(i => ({
         product_name: i.product_name,
@@ -16,6 +16,14 @@ export default function ReleaseNoteModal({ isOpen = true, order, onClose }) {
         prepared: true,
         note: ''
       }));
+
+  // 실제 구매 자재만 필터링 (주문 내역에 없는 더미 부자재 자동 포함 차단)
+  const items = rawItems.filter(item => {
+    if (item.id === 'acc-glue' || item.id === 'acc-silicone' || item.product_code === 'ACC-GLUE' || item.product_code === 'ACC-SILICONE') {
+      return (order.order_items || []).some(oi => oi.product_code === item.product_code || oi.product_name === item.product_name);
+    }
+    return true;
+  });
 
   const handlePrint = () => {
     window.print();

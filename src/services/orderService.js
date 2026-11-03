@@ -64,11 +64,180 @@ const PAYMENT_STATUS_EN_TO_KO = {
   "refunded": "환불"
 };
 
+/**
+ * admin_memo 문자열에서 JSON 메타데이터 태그들을 파싱하고 순수 텍스트를 분리합니다.
+ */
+export const parseAdminMemoTags = (rawAdminMemo = '') => {
+  let cleanText = String(rawAdminMemo || '');
+  let tags = {
+    is_construction: false,
+    construction_status: '일정 미정',
+    construction_date: null,
+    construction_time_slot: null,
+    construction_manager: null,
+    construction_phone: null,
+    construction_memo: null,
+    construction_completed_at: null,
+    actual_completion_date: null,
+    actual_construction_area: null,
+    extra_tasks_desc: null,
+    extra_materials_desc: null,
+    site_notes: null,
+    
+    shipment_status: '대기',
+    shipment_prepared_at: null,
+    shipment_prepared_by: null,
+    shipment_checklist: [],
+    
+    extra_charge_amount: 0,
+    extra_charge_reason: '',
+    extra_discount_amount: 0,
+    
+    payment_logs: []
+  };
+
+  // 1. [시공관리] 태그
+  const constrMatch = cleanText.match(/\[시공관리\]\s*(\{.*?\})/);
+  if (constrMatch) {
+    try {
+      const parsed = JSON.parse(constrMatch[1]);
+      tags = { ...tags, ...parsed };
+    } catch (e) {
+      console.warn('[parseAdminMemoTags] 시공관리 태그 파싱 오류:', e);
+    }
+    cleanText = cleanText.replace(/\[시공관리\]\s*(\{.*?\})/, '').trim();
+  }
+
+  // 2. [출고정보] 태그
+  const shipMatch = cleanText.match(/\[출고정보\]\s*(\{.*?\})/);
+  if (shipMatch) {
+    try {
+      const parsed = JSON.parse(shipMatch[1]);
+      tags = { ...tags, ...parsed };
+    } catch (e) {
+      console.warn('[parseAdminMemoTags] 출고정보 태그 파싱 오류:', e);
+    }
+    cleanText = cleanText.replace(/\[출고정보\]\s*(\{.*?\})/, '').trim();
+  }
+
+  // 3. [추가정산] 태그
+  const billingMatch = cleanText.match(/\[추가정산\]\s*(\{.*?\})/);
+  if (billingMatch) {
+    try {
+      const parsed = JSON.parse(billingMatch[1]);
+      tags = { ...tags, ...parsed };
+    } catch (e) {
+      console.warn('[parseAdminMemoTags] 추가정산 태그 파싱 오류:', e);
+    }
+    cleanText = cleanText.replace(/\[추가정산\]\s*(\{.*?\})/, '').trim();
+  }
+
+  // 4. [입금내역] 태그
+  const payMatch = cleanText.match(/\[입금내역\]\s*(\[.*?\])/);
+  if (payMatch) {
+    try {
+      const parsed = JSON.parse(payMatch[1]);
+      if (Array.isArray(parsed)) tags.payment_logs = parsed;
+    } catch (e) {
+      console.warn('[parseAdminMemoTags] 입금내역 태그 파싱 오류:', e);
+    }
+    cleanText = cleanText.replace(/\[입금내역\]\s*(\[.*?\])/, '').trim();
+  }
+
+  return { cleanText, tags };
+};
+
+/**
+ * 순수 관리자 메모 텍스트와 메타데이터 태그들을 단일 admin_memo 문자열로 직렬화합니다.
+ */
+export const serializeAdminMemoTags = (cleanText = '', tags = {}) => {
+  const parts = [];
+  const text = String(cleanText || '').trim();
+  if (text) parts.push(text);
+
+  if (tags.is_construction || tags.construction_manager || tags.construction_date || (tags.construction_status && tags.construction_status !== '일정 미정')) {
+    const constrObj = {
+      is_construction: !!tags.is_construction,
+      status: tags.construction_status || '일정 미정',
+      date: tags.construction_date || null,
+      time_slot: tags.construction_time_slot || null,
+      manager: tags.construction_manager || null,
+      phone: tags.construction_phone || null,
+      memo: tags.construction_memo || null,
+      completed_at: tags.construction_completed_at || null,
+      actual_completion_date: tags.actual_completion_date || null,
+      actual_construction_area: tags.actual_construction_area || null,
+      extra_tasks_desc: tags.extra_tasks_desc || null,
+      extra_materials_desc: tags.extra_materials_desc || null,
+      site_notes: tags.site_notes || null
+    };
+    parts.push(`[시공관리] ${JSON.stringify(constrObj)}`);
+  }
+
+  if ((tags.shipment_status && tags.shipment_status !== '대기') || (tags.shipment_checklist && tags.shipment_checklist.length > 0)) {
+    const shipObj = {
+      status: tags.shipment_status || '대기',
+      prepared_at: tags.shipment_prepared_at || null,
+      prepared_by: tags.shipment_prepared_by || null,
+      checklist: tags.shipment_checklist || []
+    };
+    parts.push(`[출고정보] ${JSON.stringify(shipObj)}`);
+  }
+
+  if (tags.extra_charge_amount || tags.extra_discount_amount || tags.extra_charge_reason) {
+    const billingObj = {
+      extra_charge_amount: Number(tags.extra_charge_amount || 0),
+      extra_charge_reason: tags.extra_charge_reason || '',
+      extra_discount_amount: Number(tags.extra_discount_amount || 0)
+    };
+    parts.push(`[추가정산] ${JSON.stringify(billingObj)}`);
+  }
+
+  if (Array.isArray(tags.payment_logs) && tags.payment_logs.length > 0) {
+    parts.push(`[입금내역] ${JSON.stringify(tags.payment_logs)}`);
+  }
+
+  return parts.join('\n\n');
+};
+
+/**
+ * 주문이 '자재만 주문'인지 '자재 + 시공 주문'인지 명확히 판별합니다.
+ */
+export const isConstructionOrder = (order) => {
+  if (!order) return false;
+  
+  // 1. admin_memo 내 명시적 [시공관리] 태그
+  const adminMemo = order.admin_memo || '';
+  if (adminMemo.includes('[시공관리]')) {
+    const parsed = parseAdminMemoTags(adminMemo);
+    if (parsed.tags.is_construction) return true;
+  }
+
+  // 2. memo 또는 admin_memo 내 시공 관련 키워드 확인
+  const memo = (order.memo || '') + ' ' + adminMemo;
+  if (memo.includes('[시공]') || memo.includes('[시공상담전환]') || memo.includes('[시공신청]') || memo.includes('시공의뢰') || memo.includes('시공신청:')) {
+    return true;
+  }
+
+  // 3. 견적서 기반 시공 전환 건
+  if (order.source_estimate_id || order.internal_estimate_id) {
+    return true;
+  }
+
+  // 4. 기존 DB에 construction_manager나 construction_date가 이미 등록되어 있는 경우
+  if (order.construction_manager || order.construction_date) {
+    return true;
+  }
+
+  return false;
+};
+
 // DB 영문 데이터를 한글 데이터로 변환하는 헬퍼 함수 (관리자 메모 하이브리드 파싱 포함)
-const mapOrderToKo = (order) => {
+export const mapOrderToKo = (order) => {
   if (!order) return null;
   
-  let adminMemoText = order.admin_memo || '';
+  const { cleanText: parsedAdminMemo, tags } = parseAdminMemoTags(order.admin_memo || '');
+  let adminMemoText = parsedAdminMemo;
   let memoText = order.memo || '';
 
   // Extract from memo fallback if columns are missing
@@ -97,15 +266,14 @@ const mapOrderToKo = (order) => {
       
       if (delivery_method_label.includes("무료")) delivery_method = "free_shipping";
       else if (delivery_method_label.includes("경동")) delivery_method = "kyungdong";
-       else if (delivery_method_label.includes("퀵")) delivery_method = "quick";
-      else if (delivery_method_label.includes("직접")) delivery_method = "pickup";
+      else if (delivery_method_label.includes("퀵")) delivery_method = "quick";
+      else if (delivery_method_label.includes("방문") || delivery_method_label.includes("수령")) delivery_method = "pickup";
       else delivery_method = "cargo";
     }
 
-    const branchMatch = memoText.match(/\[(?:대신|경동)화물지점\]\s*([^\n(]+)\s*\(([^/]+)\/\s*([^)]*)\)/);
+    const branchMatch = memoText.match(/\[(?:대신|경동)화물지점\]\s*([^\n(]+)\s*\(([^,]+),\s*([^)]+)\)/);
     if (branchMatch) {
       freight_branch_name = branchMatch[1].trim();
-      if (freight_branch_name === '없음') freight_branch_name = null;
       freight_branch_address = branchMatch[2].trim();
       freight_branch_phone = branchMatch[3].trim();
     }
@@ -150,6 +318,61 @@ const mapOrderToKo = (order) => {
     mappedPaymentMethod = '동경바닥재 방문결제';
   }
 
+  // 금액 계산: 기본금액 + 추가금 - 할인금 = 최종청구액
+  const basicAmount = Number(order.total_amount || 0);
+  const extraCharge = Number(tags.extra_charge_amount || order.extra_charge_amount || 0);
+  const extraDiscount = Number(tags.extra_discount_amount || order.extra_discount_amount || 0);
+  const finalBilling = Math.max(0, basicAmount + extraCharge - extraDiscount);
+
+  const rawPaymentStatus = order.payment_status;
+  const isPaidStatus = rawPaymentStatus === 'paid' || rawPaymentStatus === '입금완료';
+
+  // 누적 입금액 산정
+  let paymentLogs = Array.isArray(tags.payment_logs) ? [...tags.payment_logs] : [];
+  let cumulativePaid = paymentLogs.reduce((sum, p) => sum + (Number(p.amount) || 0), 0);
+
+  if (isPaidStatus) {
+    // 입금완료 상태인 경우: 미수금은 무조건 0원, 총 입금액은 최종 청구액과 일치 보장
+    cumulativePaid = finalBilling;
+    if (paymentLogs.length === 0) {
+      paymentLogs = [{
+        id: `full-paid-${order.id}`,
+        amount: finalBilling,
+        payment_method: mappedPaymentMethod || '계좌이체',
+        paid_at: order.created_at || new Date().toISOString(),
+        memo: '전액 입금확인 (완납)',
+        created_by: '관리자'
+      }];
+    }
+  }
+
+  const outstanding = isPaidStatus ? 0 : Math.max(0, finalBilling - cumulativePaid);
+  const hasConstruction = isConstructionOrder(order);
+
+  // 출고 체크리스트: 실제 구매 자재만 기본 생성 (더미 부자재 자동 포함 차단)
+  const realOrderItems = Array.isArray(order.order_items) ? order.order_items : [];
+  let defaultChecklist = realOrderItems.map(item => ({
+    id: item.id || String(Math.random()),
+    product_name: item.product_name,
+    product_code: item.product_code || '-',
+    expected_qty: item.quantity,
+    actual_qty: item.quantity,
+    unit: item.unit || '평',
+    prepared: false,
+    note: ''
+  }));
+
+  // 기존 저장된 체크리스트가 있다면 사용하되, 더미 부자재(acc-glue, acc-silicone) 필터링
+  let currentChecklist = defaultChecklist;
+  if (tags.shipment_checklist && tags.shipment_checklist.length > 0) {
+    currentChecklist = tags.shipment_checklist.filter(item => {
+      if (item.id === 'acc-glue' || item.id === 'acc-silicone' || item.product_code === 'ACC-GLUE' || item.product_code === 'ACC-SILICONE') {
+        return realOrderItems.some(oi => oi.product_code === item.product_code || oi.product_name === item.product_name);
+      }
+      return true;
+    });
+  }
+
   return {
     ...order,
     status: STATUS_EN_TO_KO[order.status] || order.status,
@@ -158,17 +381,34 @@ const mapOrderToKo = (order) => {
     memo: memoText,
     admin_memo: adminMemoText,
     
-    construction_status: order.construction_status || '일정 미정',
-    shipment_status: order.shipment_status || '대기',
-    shipment_checklist: Array.isArray(order.shipment_checklist) ? order.shipment_checklist : (order.shipment_checklist ? JSON.parse(order.shipment_checklist) : []),
+    is_construction: hasConstruction,
+    has_construction: hasConstruction,
+    construction_status: tags.construction_status || order.construction_status || '일정 미정',
+    construction_date: tags.construction_date || order.construction_date || null,
+    construction_time_slot: tags.construction_time_slot || order.construction_time_slot || null,
+    construction_manager: tags.construction_manager || order.construction_manager || null,
+    construction_phone: tags.construction_phone || order.construction_phone || null,
+    construction_memo: tags.construction_memo || order.construction_memo || null,
+    construction_completed_at: tags.construction_completed_at || order.construction_completed_at || null,
+    actual_completion_date: tags.actual_completion_date || order.actual_completion_date || null,
+    actual_construction_area: tags.actual_construction_area || order.actual_construction_area || null,
+    extra_tasks_desc: tags.extra_tasks_desc || order.extra_tasks_desc || null,
+    extra_materials_desc: tags.extra_materials_desc || order.extra_materials_desc || null,
+    site_notes: tags.site_notes || order.site_notes || null,
+
+    shipment_status: tags.shipment_status || order.shipment_status || '대기',
+    shipment_prepared_at: tags.shipment_prepared_at || order.shipment_prepared_at || null,
+    shipment_prepared_by: tags.shipment_prepared_by || order.shipment_prepared_by || null,
+    shipment_checklist: currentChecklist,
     
-    approved_amount: order.approved_amount ?? order.total_amount ?? 0,
-    extra_charge_amount: order.extra_charge_amount ?? 0,
-    extra_charge_reason: order.extra_charge_reason || '',
-    extra_discount_amount: order.extra_discount_amount ?? 0,
-    final_billing_amount: order.final_billing_amount ?? ((order.approved_amount ?? order.total_amount ?? 0) + (order.extra_charge_amount ?? 0) - (order.extra_discount_amount ?? 0)),
-    total_paid_amount: order.total_paid_amount ?? (order.payment_status === 'paid' || order.payment_status === '입금완료' ? (order.final_billing_amount ?? order.total_amount ?? 0) : 0),
-    outstanding_balance: order.outstanding_balance ?? Math.max(0, (order.final_billing_amount ?? order.total_amount ?? 0) - (order.total_paid_amount ?? 0)),
+    approved_amount: basicAmount,
+    extra_charge_amount: extraCharge,
+    extra_charge_reason: tags.extra_charge_reason || '',
+    extra_discount_amount: extraDiscount,
+    final_billing_amount: finalBilling,
+    total_paid_amount: cumulativePaid,
+    outstanding_balance: outstanding,
+    payment_logs: paymentLogs,
 
     delivery_method,
     delivery_method_label,
@@ -592,6 +832,10 @@ export const updatePaymentStatus = async (orderId, paymentStatus) => {
  * 6. 관리자 주문 정보 일괄 업데이트 (상태, 결제상태, 관리자메모)
  * - admin_memo 컬럼이 실존하는지 동적 확인하여 분기 처리하는 하이브리드 로직을 내장합니다.
  */
+/**
+ * 6. 관리자 주문 상세 저장 (상태, 결제상태, 관리자메모)
+ * - 메타데이터 태그를 보존하고 실존 컬럼만 업데이트하여 DB 오류를 방지합니다.
+ */
 export const updateOrderAdminFields = async (orderId, { status, paymentStatus, adminMemo }) => {
   if (!supabase) {
     throw new Error('Supabase 클라이언트가 초기화되지 않았습니다.');
@@ -600,53 +844,43 @@ export const updateOrderAdminFields = async (orderId, { status, paymentStatus, a
   const engStatus = STATUS_KO_TO_EN[status] || status;
   const engPaymentStatus = PAYMENT_STATUS_KO_TO_EN[paymentStatus] || paymentStatus;
 
-  // 1. admin_memo 컬럼 존재 여부 판단
-  let hasAdminMemoColumn = false;
-  try {
-    const { error: columnError } = await supabase
-      .from('orders')
-      .select('admin_memo')
-      .limit(1);
-    if (!columnError) {
-      hasAdminMemoColumn = true;
+  // 기존 주문의 admin_memo를 가져와 태그 파싱
+  const { data: currentOrder } = await supabase
+    .from('orders')
+    .select('admin_memo, memo, total_amount')
+    .eq('id', orderId)
+    .maybeSingle();
+
+  const { cleanText: _, tags } = parseAdminMemoTags(currentOrder?.admin_memo || '');
+
+  // 만약 결제상태가 '입금완료'로 변경되었는데 payment_logs가 비어있다면 완납 로그 기록
+  if (paymentStatus === '입금완료' || engPaymentStatus === 'paid') {
+    const finalBilling = Math.max(0, (Number(currentOrder?.total_amount) || 0) + (tags.extra_charge_amount || 0) - (tags.extra_discount_amount || 0));
+    if (!tags.payment_logs || tags.payment_logs.length === 0) {
+      tags.payment_logs = [{
+        id: 'full-paid-' + Date.now(),
+        amount: finalBilling,
+        payment_method: '계좌이체',
+        paid_at: new Date().toISOString(),
+        memo: '관리자 수동 입금완료 확인',
+        created_by: '관리자'
+      }];
     }
-  } catch (err) {
-    console.warn('[OrderService] admin_memo column check failed:', err);
+  } else if (paymentStatus === '미입금' || engPaymentStatus === 'unpaid') {
+    tags.payment_logs = [];
   }
 
-  let updatePayload = {
-    status: engStatus,
-    payment_status: engPaymentStatus
-  };
-
-  if (hasAdminMemoColumn) {
-    updatePayload.admin_memo = adminMemo || null;
-  } else {
-    // admin_memo 컬럼이 없는 경우, 기존 memo 컬럼에 가공하여 보관
-    const { data: orderData } = await supabase
-      .from('orders')
-      .select('memo')
-      .eq('id', orderId)
-      .maybeSingle();
-    
-    let originalMemo = orderData?.memo || '';
-    const match = originalMemo.match(/(?:\r?\n)?\[관리자 메모\].*$/s);
-    if (match) {
-      originalMemo = originalMemo.substring(0, match.index).trim();
-    }
-    
-    if (adminMemo && adminMemo.trim() !== '') {
-      updatePayload.memo = `${originalMemo}\n[관리자 메모] ${adminMemo.trim()}`.trim();
-    } else {
-      updatePayload.memo = originalMemo || null;
-    }
-  }
+  const updatedAdminMemo = serializeAdminMemoTags(adminMemo, tags);
 
   const { data, error } = await supabase
     .from('orders')
-    .update(updatePayload)
+    .update({
+      status: engStatus,
+      payment_status: engPaymentStatus,
+      admin_memo: updatedAdminMemo || null
+    })
     .eq('id', orderId)
-    .select()
+    .select(`*, order_items (*)`)
     .single();
 
   if (error) {
@@ -656,10 +890,6 @@ export const updateOrderAdminFields = async (orderId, { status, paymentStatus, a
   return mapOrderToKo(data);
 };
 
-/**
- * 7. 주문 확인 상태 변경 (admin_checked, admin_checked_at, admin_checked_by)
- * - admin_checked 컬럼이 실존하는지 동적 확인하여 분기 처리하는 하이브리드 로직을 내장합니다.
- */
 export const updateOrderChecked = async (orderId, username) => {
   if (!supabase) {
     throw new Error('Supabase 클라이언트가 초기화되지 않았습니다.');
@@ -789,30 +1019,44 @@ export const updateOrderConstructionStatus = async (orderId, constructionStatus,
 /**
  * 10. 자재 출고 체크리스트 업데이트 및 출고 완료 처리
  */
+/**
+ * 10. 자재 출고 체크리스트 업데이트 및 출고 완료 처리
+ */
 export const updateOrderShipmentChecklist = async (orderId, checklistItems, isCompleted = false, username = 'admin') => {
   if (!supabase) throw new Error('Supabase 클라이언트가 초기화되지 않았습니다.');
 
-  const hasUnprepared = checklistItems.some(item => !item.prepared);
+  // 더미 부자재(acc-glue, acc-silicone) 필터링 (주문 자재가 아닌 경우 저장 제외)
+  const cleanChecklist = checklistItems.filter(item => {
+    if (item.id === 'acc-glue' || item.id === 'acc-silicone') {
+      return false;
+    }
+    return true;
+  });
+
+  const hasUnprepared = cleanChecklist.some(item => !item.prepared);
   const shipmentStatus = isCompleted 
     ? (hasUnprepared ? '누락있음' : '출고완료')
-    : (checklistItems.some(item => item.prepared) ? '준비중' : '대기');
+    : (cleanChecklist.some(item => item.prepared) ? '준비중' : '대기');
 
-  const updatePayload = {
-    shipment_checklist: checklistItems,
-    shipment_status: shipmentStatus
-  };
+  const { data: orderData } = await supabase
+    .from('orders')
+    .select('admin_memo')
+    .eq('id', orderId)
+    .single();
 
+  const { cleanText, tags } = parseAdminMemoTags(orderData?.admin_memo || '');
+  tags.shipment_checklist = cleanChecklist;
+  tags.shipment_status = shipmentStatus;
   if (isCompleted) {
-    updatePayload.shipment_prepared_at = new Date().toISOString();
-    updatePayload.shipment_prepared_by = username;
-    updatePayload.construction_status = '출고 완료';
-  } else if (shipmentStatus === '준비중') {
-    updatePayload.construction_status = '출고 준비';
+    tags.shipment_prepared_at = new Date().toISOString();
+    tags.shipment_prepared_by = username;
   }
+
+  const updatedAdminMemo = serializeAdminMemoTags(cleanText, tags);
 
   const { data, error } = await supabase
     .from('orders')
-    .update(updatePayload)
+    .update({ admin_memo: updatedAdminMemo })
     .eq('id', orderId)
     .select(`*, order_items (*)`)
     .single();
@@ -825,7 +1069,7 @@ export const updateOrderShipmentChecklist = async (orderId, checklistItems, isCo
 };
 
 /**
- * 11. 시공 완료 및 최종 청구금액 저장
+ * 11. 시공 완료 및 최종 기록 저장
  */
 export const saveOrderConstructionCompletion = async (orderId, {
   actual_completion_date,
@@ -839,52 +1083,45 @@ export const saveOrderConstructionCompletion = async (orderId, {
 }) => {
   if (!supabase) throw new Error('Supabase 클라이언트가 초기화되지 않았습니다.');
 
-  // Fetch current order to preserve original approved_amount & total_paid_amount
-  const { data: currentOrder, error: fetchErr } = await supabase
+  const { data: orderData } = await supabase
     .from('orders')
-    .select('total_amount, approved_amount, total_paid_amount')
+    .select('id, total_amount, payment_status, admin_memo')
     .eq('id', orderId)
     .single();
 
-  if (fetchErr || !currentOrder) {
-    throw new Error('주문 정보를 찾을 수 없습니다.');
-  }
+  if (!orderData) throw new Error('주문 정보를 찾을 수 없습니다.');
 
-  const approvedAmount = parseFloat(currentOrder.approved_amount || currentOrder.total_amount || 0);
-  const extraCharge = Math.max(0, parseFloat(extra_charge_amount) || 0);
-  const extraDiscount = Math.max(0, parseFloat(extra_discount_amount) || 0);
-  const finalBilling = approvedAmount + extraCharge - extraDiscount;
-  const currentPaid = parseFloat(currentOrder.total_paid_amount || 0);
-  const outstanding = Math.max(0, finalBilling - currentPaid);
+  const { cleanText, tags } = parseAdminMemoTags(orderData.admin_memo || '');
+  tags.is_construction = true;
+  tags.construction_status = '시공 완료';
+  tags.construction_completed_at = new Date().toISOString();
+  tags.actual_completion_date = actual_completion_date || new Date().toISOString().split('T')[0];
+  tags.actual_construction_area = actual_construction_area ? parseFloat(actual_construction_area) : null;
+  tags.extra_tasks_desc = extra_tasks_desc || null;
+  tags.extra_materials_desc = extra_materials_desc || null;
+  tags.site_notes = site_notes || null;
+  tags.extra_charge_amount = Math.max(0, Number(extra_charge_amount) || 0);
+  tags.extra_charge_reason = extra_charge_reason || '';
+  tags.extra_discount_amount = Math.max(0, Number(extra_discount_amount) || 0);
 
-  let newPaymentStatus = currentOrder.payment_status || 'unpaid';
-  if (outstanding <= 0 && currentPaid > 0) {
+  const finalBilling = Math.max(0, (Number(orderData.total_amount) || 0) + tags.extra_charge_amount - tags.extra_discount_amount);
+  const currentPaid = (tags.payment_logs || []).reduce((sum, p) => sum + (Number(p.amount) || 0), 0);
+
+  let newPaymentStatus = orderData.payment_status || 'unpaid';
+  if (currentPaid >= finalBilling && finalBilling > 0) {
     newPaymentStatus = 'paid';
-  } else if (currentPaid > 0 && outstanding > 0) {
+  } else if (currentPaid > 0) {
     newPaymentStatus = 'partial';
   }
 
-  const updatePayload = {
-    actual_completion_date: actual_completion_date || new Date().toISOString().split('T')[0],
-    actual_construction_area: actual_construction_area ? parseFloat(actual_construction_area) : null,
-    extra_tasks_desc: extra_tasks_desc || null,
-    extra_materials_desc: extra_materials_desc || null,
-    site_notes: site_notes || null,
-    approved_amount: approvedAmount,
-    extra_charge_amount: extraCharge,
-    extra_charge_reason: extra_charge_reason || null,
-    extra_discount_amount: extraDiscount,
-    final_billing_amount: finalBilling,
-    total_paid_amount: currentPaid,
-    outstanding_balance: outstanding,
-    payment_status: PAYMENT_STATUS_KO_TO_EN[newPaymentStatus] || newPaymentStatus,
-    construction_status: '시공 완료',
-    construction_completed_at: new Date().toISOString()
-  };
+  const updatedAdminMemo = serializeAdminMemoTags(cleanText, tags);
 
   const { data, error } = await supabase
     .from('orders')
-    .update(updatePayload)
+    .update({
+      payment_status: newPaymentStatus,
+      admin_memo: updatedAdminMemo
+    })
     .eq('id', orderId)
     .select(`*, order_items (*)`)
     .single();
@@ -898,6 +1135,7 @@ export const saveOrderConstructionCompletion = async (orderId, {
 
 /**
  * 12. 입금 이력 등록 및 미수금 자동 산정
+ * - 실존 컬럼만 select/update하고 입금 내역은 admin_memo 태그에 안전하게 누적 보관합니다.
  */
 export const addOrderPayment = async (orderId, {
   amount,
@@ -912,10 +1150,10 @@ export const addOrderPayment = async (orderId, {
     throw new Error('올바른 입금 금액을 입력해 주세요.');
   }
 
-  // 1. Fetch order details
+  // 1. Fetch current order with only safe existing columns
   const { data: orderData, error: orderErr } = await supabase
     .from('orders')
-    .select('approved_amount, total_amount, extra_charge_amount, extra_discount_amount, final_billing_amount, total_paid_amount')
+    .select('id, total_amount, payment_status, admin_memo')
     .eq('id', orderId)
     .single();
 
@@ -923,12 +1161,22 @@ export const addOrderPayment = async (orderId, {
     throw new Error('주문 정보를 찾을 수 없습니다.');
   }
 
-  const approvedAmount = parseFloat(orderData.approved_amount || orderData.total_amount || 0);
-  const extraCharge = parseFloat(orderData.extra_charge_amount || 0);
-  const extraDiscount = parseFloat(orderData.extra_discount_amount || 0);
-  const finalBilling = parseFloat(orderData.final_billing_amount || (approvedAmount + extraCharge - extraDiscount));
-  const prevPaid = parseFloat(orderData.total_paid_amount || 0);
-  const newTotalPaid = prevPaid + numericAmount;
+  const { cleanText, tags } = parseAdminMemoTags(orderData.admin_memo || '');
+  const finalBilling = Math.max(0, (Number(orderData.total_amount) || 0) + (tags.extra_charge_amount || 0) - (tags.extra_discount_amount || 0));
+
+  const newLog = {
+    id: 'pay-' + Date.now() + '-' + Math.random().toString(36).substr(2, 4),
+    amount: numericAmount,
+    payment_method,
+    paid_at: paid_at || new Date().toISOString(),
+    memo: memo || null,
+    created_by: username
+  };
+
+  const existingLogs = Array.isArray(tags.payment_logs) ? tags.payment_logs : [];
+  tags.payment_logs = [newLog, ...existingLogs];
+
+  const newTotalPaid = tags.payment_logs.reduce((sum, p) => sum + (Number(p.amount) || 0), 0);
   const newOutstanding = Math.max(0, finalBilling - newTotalPaid);
 
   let newPaymentStatus = 'unpaid';
@@ -938,10 +1186,9 @@ export const addOrderPayment = async (orderId, {
     newPaymentStatus = 'partial';
   }
 
-  // 2. Insert into `order_payments`
-  const { error: paymentErr } = await supabase
-    .from('order_payments')
-    .insert({
+  // Optional fallback insert into order_payments if table exists
+  try {
+    await supabase.from('order_payments').insert({
       order_id: orderId,
       amount: numericAmount,
       payment_method,
@@ -949,20 +1196,15 @@ export const addOrderPayment = async (orderId, {
       memo: memo || null,
       created_by: username
     });
+  } catch (ignored) {}
 
-  if (paymentErr) {
-    console.warn('[addOrderPayment Warning] order_payments insert failed:', paymentErr);
-  }
+  const updatedAdminMemo = serializeAdminMemoTags(cleanText, tags);
 
-  // 3. Update `orders` header with total_paid_amount, outstanding_balance, payment_status
   const { data: updatedOrder, error: updateErr } = await supabase
     .from('orders')
     .update({
-      approved_amount: approvedAmount,
-      final_billing_amount: finalBilling,
-      total_paid_amount: newTotalPaid,
-      outstanding_balance: newOutstanding,
-      payment_status: PAYMENT_STATUS_KO_TO_EN[newPaymentStatus] || newPaymentStatus
+      payment_status: newPaymentStatus,
+      admin_memo: updatedAdminMemo
     })
     .eq('id', orderId)
     .select(`*, order_items (*)`)
@@ -979,25 +1221,105 @@ export const addOrderPayment = async (orderId, {
  * 13. 주문 입금 이력 목록 조회
  */
 export const getOrderPayments = async (orderId) => {
-  if (!supabase) return [];
+  if (!supabase || !orderId) return [];
 
-  const { data, error } = await supabase
-    .from('order_payments')
-    .select('*')
-    .eq('order_id', orderId)
-    .order('paid_at', { ascending: false });
+  try {
+    // 1순위: admin_memo 태그에서 입금 내역 추출
+    const { data: orderData } = await supabase
+      .from('orders')
+      .select('admin_memo, payment_status, total_amount, created_at, payment_method')
+      .eq('id', orderId)
+      .maybeSingle();
 
-  if (error) {
-    console.warn('[getOrderPayments warning]', error);
-    return [];
+    if (orderData) {
+      const { tags } = parseAdminMemoTags(orderData.admin_memo || '');
+      if (tags.payment_logs && tags.payment_logs.length > 0) {
+        return tags.payment_logs;
+      }
+
+      // 만약 payment_status가 paid(입금완료)라면 기본 완납 기록 제공
+      if (orderData.payment_status === 'paid' || orderData.payment_status === '입금완료') {
+        const finalBilling = Math.max(0, (Number(orderData.total_amount) || 0) + (tags.extra_charge_amount || 0) - (tags.extra_discount_amount || 0));
+        return [{
+          id: `full-paid-${orderId}`,
+          amount: finalBilling,
+          payment_method: PAYMENT_METHOD_EN_TO_KO[orderData.payment_method] || orderData.payment_method || '계좌이체',
+          paid_at: orderData.created_at || new Date().toISOString(),
+          memo: '전액 입금확인 (완납)',
+          created_by: '관리자'
+        }];
+      }
+    }
+
+    // 2순위: order_payments 테이블 fallback 시도
+    const { data: tableData, error: tableErr } = await supabase
+      .from('order_payments')
+      .select('*')
+      .eq('order_id', orderId)
+      .order('paid_at', { ascending: false });
+
+    if (!tableErr && tableData && tableData.length > 0) {
+      return tableData;
+    }
+  } catch (err) {
+    console.warn('[getOrderPayments warning]', err);
   }
 
-  return data || [];
+  return [];
 };
 
 /**
- * 14. 고객용 주문 정보 보안 마스킹 (내부 관리자 메모, 원가, 출고 작성자 등 제거)
+ * 추가금 및 할인 금액 정산 저장
  */
+export const saveBillingAdjustment = async (orderId, {
+  extraChargeAmount = 0,
+  extraChargeReason = '',
+  extraDiscountAmount = 0
+}) => {
+  if (!supabase) throw new Error('Supabase 클라이언트가 초기화되지 않았습니다.');
+
+  const { data: orderData } = await supabase
+    .from('orders')
+    .select('id, total_amount, payment_status, admin_memo')
+    .eq('id', orderId)
+    .single();
+
+  if (!orderData) throw new Error('주문 정보를 찾을 수 없습니다.');
+
+  const { cleanText, tags } = parseAdminMemoTags(orderData.admin_memo || '');
+  tags.extra_charge_amount = Math.max(0, Number(extraChargeAmount) || 0);
+  tags.extra_charge_reason = extraChargeReason || '';
+  tags.extra_discount_amount = Math.max(0, Number(extraDiscountAmount) || 0);
+
+  const finalBilling = Math.max(0, (Number(orderData.total_amount) || 0) + tags.extra_charge_amount - tags.extra_discount_amount);
+  const currentPaid = (tags.payment_logs || []).reduce((sum, p) => sum + (Number(p.amount) || 0), 0);
+
+  let newPaymentStatus = orderData.payment_status || 'unpaid';
+  if (currentPaid >= finalBilling && finalBilling > 0) {
+    newPaymentStatus = 'paid';
+  } else if (currentPaid > 0) {
+    newPaymentStatus = 'partial';
+  }
+
+  const updatedAdminMemo = serializeAdminMemoTags(cleanText, tags);
+
+  const { data, error } = await supabase
+    .from('orders')
+    .update({
+      payment_status: newPaymentStatus,
+      admin_memo: updatedAdminMemo
+    })
+    .eq('id', orderId)
+    .select(`*, order_items (*)`)
+    .single();
+
+  if (error) {
+    return handleSupabaseError(error, '정산 정보 저장에 실패했습니다.');
+  }
+
+  return mapOrderToKo(data);
+};
+
 export const sanitizeOrderForCustomer = (order) => {
   if (!order) return null;
   const mapped = mapOrderToKo(order);

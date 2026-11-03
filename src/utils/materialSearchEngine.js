@@ -53,6 +53,12 @@ export const BRAND_DICTIONARY = {
     aliases: ["구정", "구정마루", "kujung"],
     categories: ["마루"]
   },
+  한솔홈데코: {
+    canonical: "한솔홈데코",
+    displayName: "한솔홈데코",
+    aliases: ["한솔", "한솔홈데코", "hansol", "sb마루", "sb스톤", "울트라강", "sb강"],
+    categories: ["마루"]
+  },
   개나리: {
     canonical: "개나리",
     displayName: "개나리벽지",

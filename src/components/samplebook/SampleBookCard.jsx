@@ -28,7 +28,7 @@ const SampleBookCard = ({ book, onClick }) => {
                 {coverSrc ? (
                     <img
                         src={coverSrc}
-                        alt={book.title}
+                        alt={`${book.brand ? `${book.brand} ` : ''}${book.title} 샘플북 표지`}
                         loading="lazy"
                         onError={(e) => {
                             e.target.style.display = 'none';

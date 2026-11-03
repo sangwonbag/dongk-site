@@ -27,11 +27,13 @@ export default function Signup() {
 
     // Agreement checkbox states
     const [agreeAll, setAgreeAll] = useState(false);
+    const [agreeAge, setAgreeAge] = useState(false);
     const [agreeTerms, setAgreeTerms] = useState(false);
     const [agreePrivacy, setAgreePrivacy] = useState(false);
     const [agreeMarketing, setAgreeMarketing] = useState(false);
 
     // Agreement error states
+    const [agreeAgeError, setAgreeAgeError] = useState("");
     const [agreeTermsError, setAgreeTermsError] = useState("");
     const [agreePrivacyError, setAgreePrivacyError] = useState("");
 
@@ -220,12 +222,12 @@ export default function Signup() {
     };
 
     useEffect(() => {
-        if (agreeTerms && agreePrivacy && agreeMarketing) {
+        if (agreeAge && agreeTerms && agreePrivacy && agreeMarketing) {
             setAgreeAll(true);
         } else {
             setAgreeAll(false);
         }
-    }, [agreeTerms, agreePrivacy, agreeMarketing]);
+    }, [agreeAge, agreeTerms, agreePrivacy, agreeMarketing]);
 
     // Open terms modal helper
     const openTermsModal = (key) => {
@@ -261,10 +263,15 @@ export default function Signup() {
     const handleSignupSubmit = async (e) => {
         e.preventDefault();
         setSubmitError("");
+        setAgreeAgeError("");
         setAgreeTermsError("");
         setAgreePrivacyError("");
 
         let hasAgreementError = false;
+        if (!agreeAge) {
+            setAgreeAgeError("만 14세 이상임을 확인해주세요.");
+            hasAgreementError = true;
+        }
         if (!agreeTerms) {
             setAgreeTermsError("이용약관에 동의해주세요.");
             hasAgreementError = true;
@@ -500,6 +507,24 @@ export default function Signup() {
                                 <div className="divider-line" />
 
                                 <div className="agree-wrapper">
+                                    <div className="agree-item-container">
+                                        <div className="agree-item">
+                                            <label className="check-label-sub">
+                                                <input
+                                                    type="checkbox"
+                                                    checked={agreeAge}
+                                                    onChange={(e) => {
+                                                        setAgreeAge(e.target.checked);
+                                                        if (e.target.checked) setAgreeAgeError("");
+                                                    }}
+                                                />
+                                                <span><span className="required-txt">[필수]</span> 만 14세 이상 이용자 확인</span>
+                                            </label>
+                                            <button type="button" className="view-terms-btn" onClick={() => openTermsModal("age")}>보기</button>
+                                        </div>
+                                        {agreeAgeError && <div className="agree-error-text">{agreeAgeError}</div>}
+                                    </div>
+
                                     <div className="agree-item-container">
                                         <div className="agree-item">
                                             <label className="check-label-sub">

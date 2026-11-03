@@ -40,7 +40,7 @@ export default function HeroOverlay() {
             </div>
             <div className="badge-text">
               <span className="badge-title">자재 직공급</span>
-              <span className="badge-desc">LX, KCC 등 유명 브랜드 친환경 정품 최저가 공급</span>
+              <span className="badge-desc">LX, KCC 등 주요 브랜드 친환경 정품 도매 공급</span>
             </div>
           </div>
 

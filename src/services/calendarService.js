@@ -13,6 +13,10 @@ export const syncGoogleCalendarEvent = async (order) => {
     throw new Error('올바른 주문 정보를 전달해 주세요.');
   }
 
+  if (order.has_construction === false || order.is_construction === false) {
+    throw new Error('자재만 주문한 건은 시공 캘린더 일정을 생성하지 않습니다.');
+  }
+
   const primaryItemName = order.order_items?.[0]?.product_name || '자재';
   const addressShort = (order.address || '현장미정').split(' ').slice(0, 2).join(' ');
   const title = `[동경바닥재] ${order.customer_name || '고객'} / ${addressShort} / ${primaryItemName}`;

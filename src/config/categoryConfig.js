@@ -5,6 +5,7 @@
  * Set `HIDE_SUB_MATERIALS = false` to re-enable '부자재'.
  */
 export const HIDE_SUB_MATERIALS = true;
+export const ACCESSORIES_ENABLED = false; // 부자재 자동 포함 및 판매 일시 중단 플래그
 
 /**
  * Check whether a category string or product item is '부자재'

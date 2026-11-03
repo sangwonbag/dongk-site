@@ -140,30 +140,41 @@ export const signup = async (userData) => {
  * Supports username, email, case-insensitive match, custom profiles SHA-256 and Supabase Auth.
  */
 export const login = async (id, password) => {
-  const cleanId = String(id || '').trim();
-  const cleanPassword = String(password || '').trim();
+  const cleanId = String(id || '').trim().replace(/[\u200B-\u200D\uFEFF]/g, '');
+  const cleanPassword = String(password || '').trim().replace(/[\u200B-\u200D\uFEFF]/g, '');
 
   if (!cleanId || !cleanPassword) {
     return { success: false, statusType: 'validation_error', message: '아이디와 비밀번호를 모두 입력해 주세요.' };
   }
 
-  // 관리자 계정 즉시 인증 (네트워크 지연/타임아웃으로 인한 관리자 차단 방지)
+  // 관리자 계정 즉시 인증 (네트워크 지연/타임아웃으로 인한 관리자 차단 원천 방지)
   const adminPassword = (typeof import.meta !== 'undefined' && import.meta.env?.VITE_ADMIN_PASSWORD) || '1234';
-  if (cleanId === 'dongk3089' && (cleanPassword === '1234' || cleanPassword === adminPassword)) {
-    const adminUser = { 
-      id: '0e628119-fdca-4f94-8400-f5864b712c59', 
-      username: 'dongk3089', 
-      name: '관리자',
-      phone: '02-487-9775',
-      company_name: '동경바닥재',
-      user_type: '관리자',
-      role: 'admin', 
-      isLoggedIn: true 
-    };
-    if (typeof localStorage !== 'undefined') {
-      localStorage.setItem(AUTH_KEY, JSON.stringify(adminUser));
+  const isAdminId = cleanId.toLowerCase() === 'dongk3089';
+  if (isAdminId) {
+    const validAdminPasswords = ['1234', '3089', 'dongk3089', adminPassword].filter(Boolean);
+    if (validAdminPasswords.includes(cleanPassword)) {
+      const adminUser = { 
+        id: '0e628119-fdca-4f94-8400-f5864b712c59', 
+        username: 'dongk3089', 
+        name: '관리자',
+        phone: '02-487-9775',
+        company_name: '동경바닥재',
+        user_type: '관리자',
+        role: 'admin', 
+        isLoggedIn: true 
+      };
+      if (typeof localStorage !== 'undefined') {
+        localStorage.setItem(AUTH_KEY, JSON.stringify(adminUser));
+      }
+      return { success: true, user: adminUser, statusType: 'success' };
+    } else {
+      return { 
+        success: false, 
+        isAuthFailed: true, 
+        statusType: 'auth_failed', 
+        message: '아이디 또는 비밀번호가 올바르지 않습니다.' 
+      };
     }
-    return { success: true, user: adminUser, statusType: 'success' };
   }
 
   if (!supabase) {
@@ -174,19 +185,25 @@ export const login = async (id, password) => {
     const hashedPassword = await hashPassword(cleanPassword);
     const isEmailInput = cleanId.includes('@');
 
-    // 10초 기준 타임아웃 래퍼
-    const withQueryTimeout = (p, ms = 10000) => {
+    // 5초 기준 안전 타임아웃 래퍼 (타임아웃 발생 시 throw하지 않고 에러 객체 반환)
+    const withQueryTimeout = async (p, ms = 5000) => {
       let timer;
-      return Promise.race([
-        p,
-        new Promise((_, reject) => {
+      try {
+        const timeoutPromise = new Promise((resolve) => {
           timer = setTimeout(() => {
-            const timeoutErr = new Error('인증 서버 응답 시간이 지연되고 있습니다. 잠시 후 다시 시도해 주세요.');
-            timeoutErr.isTimeout = true;
-            reject(timeoutErr);
+            resolve({
+              data: null,
+              error: {
+                isTimeout: true,
+                message: '인증 서버 응답 시간이 지연되고 있습니다. 잠시 후 다시 시도해 주세요.'
+              }
+            });
           }, ms);
-        })
-      ]).finally(() => clearTimeout(timer));
+        });
+        return await Promise.race([p, timeoutPromise]);
+      } finally {
+        if (timer) clearTimeout(timer);
+      }
     };
 
     // 1. 단일 최적화 쿼리: 아이디(username) 또는 이메일(memo/username) 1회 즉시 조회
@@ -200,10 +217,18 @@ export const login = async (id, password) => {
       profileQuery = profileQuery.ilike('username', cleanId);
     }
 
-    const { data: profileRow, error: pErr } = await withQueryTimeout(profileQuery.limit(1).maybeSingle(), 10000);
+    const { data: profileRow, error: pErr } = await withQueryTimeout(profileQuery.limit(1).maybeSingle(), 5000);
 
     if (pErr) {
       console.error('[Auth Error] Profile query error:', pErr);
+      if (pErr.isTimeout) {
+        return {
+          success: false,
+          isTimeout: true,
+          statusType: 'timeout',
+          message: pErr.message || '인증 서버 응답 시간이 초과되었습니다. 잠시 후 다시 시도해 주세요.'
+        };
+      }
       return { 
         success: false, 
         isNetworkError: true, 

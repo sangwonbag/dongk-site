@@ -257,6 +257,20 @@ async function runPrerender() {
       description: '동경바닥재 서비스 이용약관 안내',
       canonical: `${BASE_URL}/terms-of-service`
     },
+    {
+      route: '/refund-policy',
+      outPath: path.join(distDir, 'refund-policy', 'index.html'),
+      title: '환불·교환·취소정책 | 동경바닥재',
+      description: '동경바닥재 주문 취소, 환불 및 교환/반품 규정 안내',
+      canonical: `${BASE_URL}/refund-policy`
+    },
+    {
+      route: '/cookie-policy',
+      outPath: path.join(distDir, 'cookie-policy', 'index.html'),
+      title: '쿠키 및 스토리지 정책 | 동경바닥재',
+      description: '동경바닥재 쿠키 및 브라우저 로컬 저장소 이용 정책 안내',
+      canonical: `${BASE_URL}/cookie-policy`
+    },
     // Private noindex SPA routes & sub-routes
     { route: '/estimate/request', outPath: path.join(distDir, 'estimate', 'request', 'index.html'), title: '자동견적 | 동경바닥재', noindex: true },
     { route: '/quote', outPath: path.join(distDir, 'quote', 'index.html'), title: '자동견적 | 동경바닥재', noindex: true },

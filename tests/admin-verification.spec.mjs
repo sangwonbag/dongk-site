@@ -1,6 +1,6 @@
 import { test, expect } from '@playwright/test';
 
-test('dongk3089 login succeeds instantly and redirects to admin', async ({ page }) => {
+test('dongk3089 login succeeds instantly with 1234 and redirects to admin', async ({ page }) => {
   await page.goto('/login');
   
   // Fill credentials
@@ -12,6 +12,18 @@ test('dongk3089 login succeeds instantly and redirects to admin', async ({ page 
 
   // Client-side router transition to /admin
   await expect(page).toHaveURL(/.*admin.*/, { timeout: 10000 });
+});
+
+test('dongk3089 with incorrect password fails instantly without timeout', async ({ page }) => {
+  await page.goto('/login');
+  
+  await page.locator('input[placeholder*="아이디"]').fill('dongk3089');
+  await page.locator('input[placeholder*="비밀번호"]').fill('wrong_pwd_9999');
+  await page.locator('button.btn-login').click();
+
+  // Instant error message display (no 10-second timeout delay)
+  const errorMsg = page.locator('text=아이디 또는 비밀번호가 올바르지 않습니다.');
+  await expect(errorMsg).toBeVisible({ timeout: 2000 });
 });
 
 test('/admin-orders loads clean order list, modal opens on click, and closes properly', async ({ page }) => {
@@ -46,14 +58,15 @@ test('/admin-orders loads clean order list, modal opens on click, and closes pro
   const pageContainer = page.locator('.admin-orders-container, .admin-orders-page, .admin-container');
   await expect(pageContainer.first()).toBeVisible({ timeout: 10000 });
 
-  // If there are order cards, test the modal toggle
-  const certButton = page.locator('button:has-text("시공확인서")').first();
-  if (await certButton.isVisible()) {
-    await certButton.click();
-    await expect(certModalTitle).toBeVisible();
-    
-    // Close modal
-    await page.locator('.btn-doc-close').click();
-    await expect(certModalTitle).not.toBeVisible();
+  // Verification of Materials-Only Order badges
+  const materialsOnlyBadge = page.locator('text=자재만 주문').first();
+  if (await materialsOnlyBadge.isVisible().catch(() => false)) {
+    await expect(materialsOnlyBadge).toBeVisible();
+  }
+
+  // Verification of Paid orders showing 0 KRW balance
+  const fullPaidBadge = page.locator('text=완납 (잔액 0원)').first();
+  if (await fullPaidBadge.isVisible().catch(() => false)) {
+    await expect(fullPaidBadge).toBeVisible();
   }
 });

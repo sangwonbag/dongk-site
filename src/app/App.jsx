@@ -28,6 +28,8 @@ const MyPage = React.lazy(() => import("../pages/MyPage/MyPage"));
 const CustomerEstimateView = React.lazy(() => import("../pages/MyPage/CustomerEstimateView"));
 const PrivacyPolicy = React.lazy(() => import("../pages/PrivacyPolicy/PrivacyPolicy"));
 const TermsOfService = React.lazy(() => import("../pages/TermsOfService/TermsOfService"));
+const RefundPolicy = React.lazy(() => import("../pages/RefundPolicy/RefundPolicy"));
+const CookiePolicy = React.lazy(() => import("../pages/CookiePolicy/CookiePolicy"));
 
 // Admin & back-office pages: Standard React.lazy without custom wrappers/retry/timeout logic
 const Inquiries = React.lazy(() => import("../pages/Admin/Inquiries"));
@@ -44,6 +46,7 @@ const AdminOrders = React.lazy(() => import("../pages/Admin/Orders/AdminOrders")
 
 // Global Components
 import IntroSplash from "../components/layout/IntroSplash";
+import CookieConsentBanner from "../components/common/CookieConsentBanner";
 import { logPageView } from "../lib/analytics";
 
 export default function App() {
@@ -78,6 +81,8 @@ export default function App() {
     const pending = getPendingDirectOrder();
     if (pending) {
       navigate("/checkout");
+    } else if (u?.role === 'admin' || u?.role === 'staff') {
+      navigate('/admin');
     }
   };
 
@@ -85,6 +90,7 @@ export default function App() {
     <>
       {showIntro && <IntroSplash onFinish={() => setShowIntro(false)} />}
       <AuthModal isOpen={isLoginModalOpen} onClose={closeLoginModal} onSuccess={handleAuthSuccess} />
+      <CookieConsentBanner />
       {toast.visible && (
         <div className="estimate-toast">
           <span>{toast.message}</span>
@@ -124,7 +130,12 @@ export default function App() {
             <Route path="/mypage/estimates/:id" element={<CustomerEstimateView />} />
             <Route path="/privacy" element={<PrivacyPolicy />} />
             <Route path="/privacy-policy" element={<PrivacyPolicy />} />
+            <Route path="/terms" element={<TermsOfService />} />
             <Route path="/terms-of-service" element={<TermsOfService />} />
+            <Route path="/refund" element={<RefundPolicy />} />
+            <Route path="/refund-policy" element={<RefundPolicy />} />
+            <Route path="/cookies" element={<CookiePolicy />} />
+            <Route path="/cookie-policy" element={<CookiePolicy />} />
             
             {/* Admin Protected Routes */}
             <Route path="/admin" element={<AdminRoute><AdminDashboard /></AdminRoute>} />
