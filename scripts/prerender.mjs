@@ -105,6 +105,7 @@ async function runPrerender() {
         'address': { '@type': 'PostalAddress', 'addressCountry': 'KR' }
       },
       contentHtml: `
+        <noscript>
         <header style="padding: 20px; text-align: center;">
           <h1>동경바닥재 - 프리미엄 바닥재 유통 전문</h1>
           <p>KCC, LX하우시스, 동신포리마, 이건마루, 재영 등 전 브랜드 정품 자재 공급</p>
@@ -118,6 +119,7 @@ async function runPrerender() {
             <li><a href="/materials?category=벽지">벽지 (LX 베스띠, 개나리, 서울벽지)</a></li>
           </ul>
         </main>
+        </noscript>
       `
     },
     {
