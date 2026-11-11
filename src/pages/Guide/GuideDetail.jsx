@@ -59,27 +59,20 @@ export default function GuideDetail() {
   };
 
   // Calculator computation
+  // Search-facing guides show quantities and invite a quote; do not publish estimated prices.
   const calcResult = useMemo(() => {
     const p = Math.max(1, parseInt(calcPyung, 10) || 1);
     if (article?.calculatorType === "decotile-quantity") {
-      const boxes = Math.ceil(p * 1.05); // 5% loss rate
-      const estPrice = boxes * 32000;
+      const boxes = Math.ceil(p * 1.05);
       return {
         boxText: `약 ${boxes}박스 (실평수 ${p}평 + 로스율 5% 포함)`,
-        priceText: `예상 자재비 약 ${estPrice.toLocaleString()}원~`,
-        tip: "* 시공 공간 모양이 다각형이거나 복도가 긴 경우 로스율 8~10% 적용을 권장합니다."
-      };
-    } else {
-      const estJangpan = Math.round(p * 28000);
-      const estDeco = Math.ceil(p * 1.05) * 32000;
-      const estMaru = Math.round(p * 110000);
-      return {
-        jangpanText: `2.2T 장판: 약 ${estJangpan.toLocaleString()}원~`,
-        decoText: `3.0T 데코타일: 약 ${estDeco.toLocaleString()}원~`,
-        maruText: `강마루(시공포함): 약 ${estMaru.toLocaleString()}원~`,
-        tip: "* 자재 브랜드 및 두께, 현장 철거 상태에 따라 변동될 수 있습니다."
+        tip: "* 실제 필요 수량은 현장 형태와 자재 포장규격에 따라 달라질 수 있습니다."
       };
     }
+    return {
+      boxText: `${p}평 현장에 맞는 자재·시공 조건을 상담으로 확인할 수 있습니다.`,
+      tip: "* 제품, 현장 조건, 수량에 따른 금액은 견적문의로 안내합니다."
+    };
   }, [calcPyung, article]);
 
   if (!article) {
@@ -105,7 +98,7 @@ export default function GuideDetail() {
           "@type": "ListItem",
           "position": i + 1,
           "name": b.label,
-          "item": b.link ? `https://dkfloor.kr${b.link}` : `https://dkfloor.kr/guide/${article.slug}`
+          "item": b.link ? `https://dkfloor.co.kr${b.link}` : `https://dkfloor.co.kr/guide/${article.slug}`
         }))
       },
       {
@@ -125,7 +118,7 @@ export default function GuideDetail() {
       <SEO
         title={article.metaTitle || `${article.title} | 동경바닥재`}
         description={article.metaDescription}
-        canonical={`https://dkfloor.kr/guide/${article.slug}`}
+        canonical={`https://dkfloor.co.kr/guide/${article.slug}`}
         jsonLd={jsonLdSchema}
       />
 
@@ -221,10 +214,10 @@ export default function GuideDetail() {
         <section className="guide-calc-widget">
           <h2 className="guide-calc-header">
             <Calculator size={22} inline style={{ marginRight: "8px", verticalAlign: "middle" }} />
-            {article.calculatorType === "decotile-quantity" ? "데코타일 필요 박스 수 계산기" : "공간 평수 기준 금액 계산기"}
+            {article.calculatorType === "decotile-quantity" ? "데코타일 필요 박스 수 계산기" : "공간 평수 기준 맞춤 견적문의"}
           </h2>
           <p className="guide-calc-desc">
-            시공할 평수를 입력하시면 필요 수량과 대략적인 자재 예상가를 즉시 계산해 드립니다.
+            평수를 입력해 예상 자재 수량을 확인하고 실제 납품·시공 금액은 견적문의로 안내받으세요.
           </p>
 
           <div className="guide-calc-form" style={{ maxWidth: "320px" }}>
@@ -242,23 +235,10 @@ export default function GuideDetail() {
 
           <div className="guide-calc-result">
             <div>
-              {article.calculatorType === "decotile-quantity" ? (
-                <>
-                  <div className="guide-result-value">{calcResult.boxText}</div>
-                  <div style={{ fontSize: "15px", color: "#4b5563", marginTop: "4px" }}>
-                    {calcResult.priceText}
-                  </div>
-                </>
-              ) : (
-                <>
-                  <div style={{ fontSize: "15px", fontWeight: "700", color: "#111827", marginBottom: "6px" }}>
-                    {calcPyung}평 기준 예상 가격비교:
-                  </div>
-                  <div style={{ fontSize: "15px", color: "#374151" }}>{calcResult.jangpanText}</div>
-                  <div style={{ fontSize: "15px", color: "#374151" }}>{calcResult.decoText}</div>
-                  <div style={{ fontSize: "15px", color: "#374151" }}>{calcResult.maruText}</div>
-                </>
-              )}
+              <div className="guide-result-value">{calcResult.boxText}</div>
+              <div style={{ fontSize: "15px", color: "#374151", marginTop: "6px" }}>
+                개별 상품 가격 및 시공비는 공개하지 않으며 상담 후 안내합니다.
+              </div>
               <div style={{ fontSize: "12px", color: "#9ca3af", marginTop: "8px" }}>
                 {calcResult.tip}
               </div>
@@ -287,7 +267,7 @@ export default function GuideDetail() {
           ) : products.length > 0 ? (
             <div className="guide-products-grid">
               {products.map(product => (
-                <MaterialCard key={product.id} material={product} />
+                <MaterialCard key={product.id} material={product} hidePrice />
               ))}
             </div>
           ) : (
