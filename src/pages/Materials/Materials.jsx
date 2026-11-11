@@ -16,6 +16,7 @@ import {
 } from "../../utils/eagonUtils";
 import { HANSOL_GROUPS, HANSOL_SPECS_BY_GROUP, HANSOL_SPEC_LABEL_MAP, isHansolProduct, getHansolGroup, getHansolSpec } from "../../utils/hansolUtils";
 import { isLxEconoPlusProduct, getLxEconoPlusSpecType } from "../../utils/lxEconoPlusUtils";
+import { LX_PRESTIGE_SPECS, getLxPrestigeSpecType } from "../../utils/lxPrestigeUtils";
 import MaterialCard from "../../components/material/MaterialCard";
 import { fetchFilteredProducts, searchMaterials, getCachedFilteredProducts, getCachedSearchMaterials, withTimeout } from "../../utils/supabaseFetcher";
 import { getSearchScore, isProductNumberQuery, generateAutocompleteSuggestions, POPULAR_KEYWORDS, parseSearchQuery, scoreProduct } from "../../utils/searchUtils";
@@ -228,6 +229,7 @@ export default function Materials() {
 
   const isLxDecotile = (activeTab === "데코타일" && (activeBrand === "LX" || activeBrand === "LX하우시스"));
   const activeLxEconoSpec = (isLxDecotile && activeLine === "에코노플러스") ? (searchParams.get("spec") || "all") : "all";
+  const activeLxPrestigeSpec = (isLxDecotile && activeLine === "프레스티지") ? (searchParams.get("spec") || "all") : "all";
 
   const activeDongshinMajor = (activeTab === "데코타일" && (activeBrand === "동신" || activeBrand === "동신포리마"))
     ? (searchParams.get("line") || "all")
@@ -261,13 +263,14 @@ export default function Materials() {
     } else {
       if (activeLine !== "all" && activeBrand !== "동신" && activeBrand !== "동신포리마") count++;
       if (isLxDecotile && activeLine === "에코노플러스" && activeLxEconoSpec !== "all") count++;
+      if (isLxDecotile && activeLine === "프레스티지" && activeLxPrestigeSpec !== "all") count++;
       if (activeDongshinMajor !== "all") count++;
       if (activeDongshinDetail !== "all") count++;
     }
     if (sortOption !== "default") count++;
     if (debouncedQuery.trim()) count++;
     return count;
-  }, [activeBrand, activeThickness, activeShape, activeLine, activeDongshinMajor, activeDongshinDetail, isEagonBrand, activeEagonMajor, activeEagonLine, activeEagonSpec, isHansolBrand, activeHansolGroup, activeHansolSpec, sortOption, debouncedQuery]);
+  }, [activeBrand, activeThickness, activeShape, activeLine, activeLxEconoSpec, activeLxPrestigeSpec, isLxDecotile, activeDongshinMajor, activeDongshinDetail, isEagonBrand, activeEagonMajor, activeEagonLine, activeEagonSpec, isHansolBrand, activeHansolGroup, activeHansolSpec, sortOption, debouncedQuery]);
 
   const handleResetFilters = useCallback(() => {
     updateParams({ search: null, q: null, brand: "all", type: null, line: null, detail: null, shape: null, thickness: null, spec: null, sort: null });
@@ -737,6 +740,21 @@ export default function Materials() {
     return counts;
   }, [isLxDecotile, activeLine, materialsList]);
 
+  // Calculate item counts for LX Prestige specs (전체 14, 600각 8, 장방형 스톤 2, 우드 4)
+  const lxPrestigeSpecCounts = useMemo(() => {
+    if (!isLxDecotile || activeLine !== "프레스티지" || !materialsList) return {};
+    const counts = { 'all': 0, '600각': 0, '장방형 스톤': 0, '우드': 0 };
+    materialsList.forEach((m) => {
+      if (!m || m.category !== "데코타일" || m.line !== "프레스티지") return;
+      counts['all'] = (counts['all'] || 0) + 1;
+      const spec = getLxPrestigeSpecType(m);
+      if (counts[spec] !== undefined) {
+        counts[spec] = (counts[spec] || 0) + 1;
+      }
+    });
+    return counts;
+  }, [isLxDecotile, activeLine, materialsList]);
+
   // Calculate item counts for each lineup
   const lineCounts = useMemo(() => {
     if (!materialsList || materialsList.length === 0) return {};
@@ -1007,6 +1025,10 @@ export default function Materials() {
             const spec = m.spec_type || m.shape || getLxEconoPlusSpecType(m);
             if (spec !== activeLxEconoSpec) lineOk = false;
           }
+          if (lineOk && isLxDecotile && activeLine === "프레스티지" && activeLxPrestigeSpec !== "all") {
+            const spec = getLxPrestigeSpecType(m);
+            if (spec !== activeLxPrestigeSpec) lineOk = false;
+          }
         }
       }
 
@@ -1036,13 +1058,18 @@ export default function Materials() {
     });
 
     return result;
-  }, [materialsList, activeTab, activeBrand, isLxDecotile, activeLxEconoSpec, isEagonBrand, activeEagonMajor, activeEagonLine, activeEagonSpec, isHansolBrand, activeHansolGroup, activeHansolSpec, activeMaterialType, activeLine, activeDongshinMajor, activeDongshinDetail, activeShape, activeThickness, visibleLines, searching, debouncedQuery]);
+  }, [materialsList, activeTab, activeBrand, isLxDecotile, activeLxEconoSpec, activeLxPrestigeSpec, isEagonBrand, activeEagonMajor, activeEagonLine, activeEagonSpec, isHansolBrand, activeHansolGroup, activeHansolSpec, activeMaterialType, activeLine, activeDongshinMajor, activeDongshinDetail, activeShape, activeThickness, visibleLines, searching, debouncedQuery]);
 
   // Apply sorting pipeline on filtered products (Immutably using useMemo)
   const sortedProducts = useMemo(() => {
     if (searching && sortOption === "default") {
+      const parsed = parseSearchQuery(debouncedQuery);
+      const scoreMap = new Map();
+      for (const item of filtered) {
+        scoreMap.set(item, scoreProduct(item, debouncedQuery, parsed));
+      }
       return [...filtered].sort((a, b) => {
-        const scoreDiff = scoreProduct(b, debouncedQuery) - scoreProduct(a, debouncedQuery);
+        const scoreDiff = (scoreMap.get(b) || 0) - (scoreMap.get(a) || 0);
         if (scoreDiff !== 0) return scoreDiff;
         return compareProductRecommendationPriority(a, b, activeTab);
       });
@@ -1300,6 +1327,12 @@ export default function Materials() {
                     {isLxDecotile && activeLine === "에코노플러스" && activeLxEconoSpec !== "all" && (
                       <span className="active-chip">
                         규격: {activeLxEconoSpec}
+                        <X size={14} className="chip-remove" onClick={() => updateParams({ spec: null })} />
+                      </span>
+                    )}
+                    {isLxDecotile && activeLine === "프레스티지" && activeLxPrestigeSpec !== "all" && (
+                      <span className="active-chip">
+                        규격: {activeLxPrestigeSpec}
                         <X size={14} className="chip-remove" onClick={() => updateParams({ spec: null })} />
                       </span>
                     )}
@@ -1612,7 +1645,7 @@ export default function Materials() {
                     className={`material-type-chip ${activeLine === lineName ? "active" : ""}`}
                     onClick={() => {
                       setActiveLine(lineName);
-                      if (lineName !== "에코노플러스") updateParams({ spec: null });
+                      if (lineName !== "에코노플러스" && lineName !== "프레스티지") updateParams({ spec: null });
                     }}
                   >
                     {lineName === "all"
@@ -1637,6 +1670,25 @@ export default function Materials() {
                     {specKey === 'all'
                       ? `전체 ${lxEconoSpecCounts['all'] || 104}종`
                       : `${specKey} ${lxEconoSpecCounts[specKey] || 0}종`}
+                  </button>
+                ))}
+              </div>
+            )}
+
+            {/* LX Prestige 5T Sub-filter: 전체(14) / 600각(8) / 장방형 스톤(2) / 우드(4) */}
+            {!loading && isLxDecotile && activeLine === "프레스티지" && (
+              <div className="materials-lineup-filter prestige-spec-filter" style={{ marginTop: '10px' }}>
+                <span style={{ fontSize: '13px', fontWeight: '600', color: '#6b7280', alignSelf: 'center', marginRight: '6px' }}>규격:</span>
+                {LX_PRESTIGE_SPECS.map((specKey) => (
+                  <button
+                    key={specKey}
+                    type="button"
+                    className={`material-type-chip ${activeLxPrestigeSpec === specKey ? "active" : ""}`}
+                    onClick={() => updateParams({ spec: specKey === "all" ? null : specKey })}
+                  >
+                    {specKey === 'all'
+                      ? `전체(${lxPrestigeSpecCounts['all'] ?? 14})`
+                      : `${specKey}(${lxPrestigeSpecCounts[specKey] ?? 0})`}
                   </button>
                 ))}
               </div>

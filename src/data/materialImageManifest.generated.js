@@ -5441,6 +5441,146 @@ export const imageManifest = [
     "imageType": "material"
   },
   {
+    "fileName": "PTT6910_메탈.webp",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/LX/프레스티지/PTT6910_메탈.webp",
+    "category": "데코타일",
+    "brand": "LX",
+    "series": "프레스티지",
+    "extractedCode": "PTT6910",
+    "normalizedFileName": "ptt6910메탈webp",
+    "imageType": "material"
+  },
+  {
+    "fileName": "PTT6912_메탈.webp",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/LX/프레스티지/PTT6912_메탈.webp",
+    "category": "데코타일",
+    "brand": "LX",
+    "series": "프레스티지",
+    "extractedCode": "PTT6912",
+    "normalizedFileName": "ptt6912메탈webp",
+    "imageType": "material"
+  },
+  {
+    "fileName": "PTT6913_펄콘크리트.webp",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/LX/프레스티지/PTT6913_펄콘크리트.webp",
+    "category": "데코타일",
+    "brand": "LX",
+    "series": "프레스티지",
+    "extractedCode": "PTT6913",
+    "normalizedFileName": "ptt6913펄콘크리트webp",
+    "imageType": "material"
+  },
+  {
+    "fileName": "PTT6917_비안코.webp",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/LX/프레스티지/PTT6917_비안코.webp",
+    "category": "데코타일",
+    "brand": "LX",
+    "series": "프레스티지",
+    "extractedCode": "PTT6917",
+    "normalizedFileName": "ptt6917비안코webp",
+    "imageType": "material"
+  },
+  {
+    "fileName": "PTT6950_미스티콘크리트.webp",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/LX/프레스티지/PTT6950_미스티콘크리트.webp",
+    "category": "데코타일",
+    "brand": "LX",
+    "series": "프레스티지",
+    "extractedCode": "PTT6950",
+    "normalizedFileName": "ptt6950미스티콘크리트webp",
+    "imageType": "material"
+  },
+  {
+    "fileName": "PTT6951_모던그레이.webp",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/LX/프레스티지/PTT6951_모던그레이.webp",
+    "category": "데코타일",
+    "brand": "LX",
+    "series": "프레스티지",
+    "extractedCode": "PTT6951",
+    "normalizedFileName": "ptt6951모던그레이webp",
+    "imageType": "material"
+  },
+  {
+    "fileName": "PTT6952_샌드베이지.webp",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/LX/프레스티지/PTT6952_샌드베이지.webp",
+    "category": "데코타일",
+    "brand": "LX",
+    "series": "프레스티지",
+    "extractedCode": "PTT6952",
+    "normalizedFileName": "ptt6952샌드베이지webp",
+    "imageType": "material"
+  },
+  {
+    "fileName": "PTT6953_솔리드칩.webp",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/LX/프레스티지/PTT6953_솔리드칩.webp",
+    "category": "데코타일",
+    "brand": "LX",
+    "series": "프레스티지",
+    "extractedCode": "PTT6953",
+    "normalizedFileName": "ptt6953솔리드칩webp",
+    "imageType": "material"
+  },
+  {
+    "fileName": "PTT8696_아이스골드.webp",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/LX/프레스티지/PTT8696_아이스골드.webp",
+    "category": "데코타일",
+    "brand": "LX",
+    "series": "프레스티지",
+    "extractedCode": "PTT8696",
+    "normalizedFileName": "ptt8696아이스골드webp",
+    "imageType": "material"
+  },
+  {
+    "fileName": "PTT8698_더스크브론즈.webp",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/LX/프레스티지/PTT8698_더스크브론즈.webp",
+    "category": "데코타일",
+    "brand": "LX",
+    "series": "프레스티지",
+    "extractedCode": "PTT8698",
+    "normalizedFileName": "ptt8698더스크브론즈webp",
+    "imageType": "material"
+  },
+  {
+    "fileName": "PTW7902_솔트오크.webp",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/LX/프레스티지/PTW7902_솔트오크.webp",
+    "category": "데코타일",
+    "brand": "LX",
+    "series": "프레스티지",
+    "extractedCode": "PTW7902",
+    "normalizedFileName": "ptw7902솔트오크webp",
+    "imageType": "material"
+  },
+  {
+    "fileName": "PTW7904_파인.webp",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/LX/프레스티지/PTW7904_파인.webp",
+    "category": "데코타일",
+    "brand": "LX",
+    "series": "프레스티지",
+    "extractedCode": "PTW7904",
+    "normalizedFileName": "ptw7904파인webp",
+    "imageType": "material"
+  },
+  {
+    "fileName": "PTW7961_어반사하라.webp",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/LX/프레스티지/PTW7961_어반사하라.webp",
+    "category": "데코타일",
+    "brand": "LX",
+    "series": "프레스티지",
+    "extractedCode": "PTW7961",
+    "normalizedFileName": "ptw7961어반사하라webp",
+    "imageType": "material"
+  },
+  {
+    "fileName": "PTW7964_아메리칸오크.webp",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/LX/프레스티지/PTW7964_아메리칸오크.webp",
+    "category": "데코타일",
+    "brand": "LX",
+    "series": "프레스티지",
+    "extractedCode": "PTW7964",
+    "normalizedFileName": "ptw7964아메리칸오크webp",
+    "imageType": "material"
+  },
+  {
     "fileName": "SGT-4011.jpg",
     "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/녹수/세타그립/450각/SGT-4011.jpg",
     "category": "데코타일",

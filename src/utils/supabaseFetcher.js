@@ -43,7 +43,7 @@ const normalizeText = (value = "") =>
 
 const getMaterialMatchKey = (item) => {
   if (!item) return "";
-  const brand = normalizeText(item.brand).replace(/글라스$/g, '');
+  const brand = normalizeText(item.brand).replace(/글라스$/g, '').replace(/하우시스$/g, '');
   const category = normalizeText(item.category);
   const line = normalizeText(item.line);
   const name = normalizeText(item.name || item.productName);
@@ -410,9 +410,41 @@ export function mapProductRow(p) {
     if (localMatch.pattern) {
       mapped.pattern = localMatch.pattern;
     }
-    if (localMatch.specs && localMatch.specs.area) {
-      if (!mapped.specs) mapped.specs = {};
-      mapped.specs.area = localMatch.specs.area;
+    if (localMatch.specs) {
+      mapped.specs = {
+        ...localMatch.specs,
+        ...(mapped.specs || {}),
+        size: mapped.specs?.size || localMatch.specs.size || '',
+        thickness: mapped.specs?.thickness || localMatch.specs.thickness || '',
+        packing: mapped.specs?.packing || localMatch.specs.packing || ''
+      };
+    }
+    if (localMatch.spec_type) mapped.spec_type = localMatch.spec_type;
+    if (localMatch.pattern_name) mapped.pattern_name = localMatch.pattern_name;
+    if (localMatch.pattern_group) mapped.pattern_group = localMatch.pattern_group;
+    if (localMatch.hasEir !== undefined) mapped.hasEir = localMatch.hasEir;
+    if (localMatch.isPriceInquiry !== undefined) mapped.isPriceInquiry = localMatch.isPriceInquiry;
+    if (localMatch.features) mapped.features = localMatch.features;
+    if (localMatch.cautions) mapped.cautions = localMatch.cautions;
+    if (localMatch.structure) mapped.structure = localMatch.structure;
+    if (localMatch.keywords) mapped.keywords = localMatch.keywords;
+    if (localMatch.subLine) mapped.subLine = localMatch.subLine;
+    if (localMatch.family) mapped.family = localMatch.family;
+    if (localMatch.package) mapped.package = localMatch.package;
+    if (localMatch.hasTrueMatte !== undefined) mapped.hasTrueMatte = localMatch.hasTrueMatte;
+    if (localMatch.hasTrueView !== undefined) mapped.hasTrueView = localMatch.hasTrueView;
+  }
+
+  if (mapped.category === '데코타일' && (mapped.brand === 'LX' || (mapped.brand || '').toUpperCase().includes('LX'))) {
+    const codeUpper = String(mapped.code || '').toUpperCase();
+    const rawDescUpper = String(p.description || '').toUpperCase();
+    if (/^PT[TW]\d{4}$/i.test(codeUpper) || rawDescUpper.includes('프레스티지') || rawDescUpper.includes('PRESTG')) {
+      mapped.line = '프레스티지';
+      mapped.subLine = mapped.subLine || '프레스티지 5T';
+      mapped.series = mapped.series || '프레스티지 5T (PRESTG)';
+      mapped.family = mapped.family || '프레스티지';
+    } else if (/^DE[TW]\d{4}$/i.test(codeUpper) || rawDescUpper.includes('에코노플러스')) {
+      mapped.line = '에코노플러스';
     }
   }
 
@@ -472,7 +504,7 @@ export function deduplicateProducts(productList) {
 
   for (const m of productList) {
     if (!m) continue;
-    const brand = normalizeText(m.brand);
+    const brand = normalizeText(m.brand).replace(/글라스$/g, '').replace(/하우시스$/g, '');
     const category = normalizeText(m.category);
     const line = normalizeText(m.line);
     const name = normalizeText(m.name || m.productName);
@@ -621,6 +653,9 @@ async function getMappedLocalMaterials() {
     if (m.features) mapped.features = m.features;
     if (m.hasTrueMatte !== undefined) mapped.hasTrueMatte = m.hasTrueMatte;
     if (m.hasTrueView !== undefined) mapped.hasTrueView = m.hasTrueView;
+    if (m.hasEir !== undefined) mapped.hasEir = m.hasEir;
+    if (m.isPriceInquiry !== undefined) mapped.isPriceInquiry = m.isPriceInquiry;
+    if (m.subLine) mapped.subLine = m.subLine;
     if (m.cautions) mapped.cautions = m.cautions;
     if (m.structure) mapped.structure = m.structure;
     if (m.keywords) mapped.keywords = m.keywords;
@@ -1557,11 +1592,25 @@ export async function searchMaterials(queryText, optionsOrSignal = null) {
         if (error) throw error;
         await localMapPromise;
 
-        if (data && data.length > 0) {
-          const ranked = rank(data.map(mapProductRow));
-          ranked.forEach(item => setCachedProduct(item));
-          searchMaterialsCache.set(cacheKey, { data: ranked, timestamp: Date.now() });
-          return ranked;
+        const mappedRemote = (data && data.length > 0) ? data.map(mapProductRow) : [];
+        const allMappedLocal = await getMappedLocalMaterials().catch(() => []);
+        let filteredLocal = allMappedLocal || [];
+        if (categoryFilter && categoryFilter !== 'all') {
+          filteredLocal = filteredLocal.filter(m => m.category === categoryFilter);
+        }
+        if (brandFilter && brandFilter !== 'all') {
+          const b = brandFilter.toUpperCase();
+          filteredLocal = filteredLocal.filter(m => (m.brand || '').toUpperCase().includes(b));
+        }
+        if (thicknessFilter && thicknessFilter !== 'all') {
+          filteredLocal = filteredLocal.filter(m => m.thickness === thicknessFilter);
+        }
+
+        const combinedRanked = rank([...mappedRemote, ...filteredLocal]);
+        if (combinedRanked.length > 0 || (data && data.length > 0)) {
+          combinedRanked.forEach(item => setCachedProduct(item));
+          searchMaterialsCache.set(cacheKey, { data: combinedRanked, timestamp: Date.now() });
+          return combinedRanked;
         }
       } catch (error) {
         console.warn('[searchMaterials] Live search failed or soft timeout; using local catalogue:', error.message);

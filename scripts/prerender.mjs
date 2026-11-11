@@ -103,24 +103,7 @@ async function runPrerender() {
         'telephone': '1668-5244',
         'priceRange': '₩₩',
         'address': { '@type': 'PostalAddress', 'addressCountry': 'KR' }
-      },
-      contentHtml: `
-        <noscript>
-        <header style="padding: 20px; text-align: center;">
-          <h1>동경바닥재 - 프리미엄 바닥재 유통 전문</h1>
-          <p>KCC, LX하우시스, 동신포리마, 이건마루, 재영 등 전 브랜드 정품 자재 공급</p>
-        </header>
-        <main style="padding: 20px; max-width: 1200px; margin: 0 auto;">
-          <h2>주요 제품 카테고리</h2>
-          <ul>
-            <li><a href="/materials?category=데코타일">데코타일 (KCC 센스타일, 동신 아미스, LX 에코노)</a></li>
-            <li><a href="/materials?category=장판">장판 (LX 지아자연애, KCC 숲, 현대 륨)</a></li>
-            <li><a href="/materials?category=마루">마루 (이건마루, 구정마루, LX 강마루)</a></li>
-            <li><a href="/materials?category=벽지">벽지 (LX 베스띠, 개나리, 서울벽지)</a></li>
-          </ul>
-        </main>
-        </noscript>
-      `
+      }
     },
     {
       route: '/materials',
@@ -135,52 +118,28 @@ async function runPrerender() {
           { '@type': 'ListItem', 'position': 1, 'name': '홈', 'item': `${BASE_URL}/` },
           { '@type': 'ListItem', 'position': 2, 'name': '자재찾기', 'item': `${BASE_URL}/materials` }
         ]
-      },
-      contentHtml: `
-        <main style="padding: 20px; max-width: 1200px; margin: 0 auto;">
-          <h1>자재찾기 - 동경바닥재</h1>
-          <p>브랜드, 규격, 카테고리별 프리미엄 바닥재 자재 조회</p>
-        </main>
-      `
+      }
     },
     {
       route: '/samplebooks',
       outPath: path.join(distDir, 'samplebooks', 'index.html'),
       title: '샘플북 조회 | 동경바닥재 - 브랜드별 E-카탈로그 및 Sample Book',
       description: 'KCC, LX, 동신, 재영, 이건, 구정 등 바닥재 대표 제조사의 E-카탈로그 및 샘플북을 고해상도로 편리하게 조회하세요.',
-      canonical: `${BASE_URL}/samplebooks`,
-      contentHtml: `
-        <main style="padding: 20px; max-width: 1200px; margin: 0 auto;">
-          <h1>샘플북 및 E-카탈로그</h1>
-          <p>KCC 센스타일, LX하우시스, 동신포리마, 이건마루 고해상도 샘플북</p>
-        </main>
-      `
+      canonical: `${BASE_URL}/samplebooks`
     },
     {
       route: '/cases',
       outPath: path.join(distDir, 'cases', 'index.html'),
       title: '시공사례 | 동경바닥재 - 데코타일·마루·장판 실제 바닥 시공 포트폴리오',
       description: '동경바닥재의 실제 주거, 사무, 상업 공간 바닥재(데코타일, 마루, 장판, 카페트타일) 시공사례 포트폴리오를 확인하세요.',
-      canonical: `${BASE_URL}/cases`,
-      contentHtml: `
-        <main style="padding: 20px; max-width: 1200px; margin: 0 auto;">
-          <h1>실제 바닥 시공사례 포트폴리오</h1>
-          <p>아파트, 오피스, 상가 건물 데코타일, 마루, 장판 시공사례</p>
-        </main>
-      `
+      canonical: `${BASE_URL}/cases`
     },
     {
       route: '/estimate',
       outPath: path.join(distDir, 'estimate', 'index.html'),
       title: '바닥재·벽지 자재 견적문의 | 동경바닥재',
       description: '제품명·코드·규격과 현장 정보로 동경바닥재에 자재 납품 및 시공 견적을 문의하세요. 상담 후 개별 견적을 안내합니다.',
-      canonical: `${BASE_URL}/estimate`,
-      contentHtml: `
-        <main style="padding: 20px; max-width: 1200px; margin: 0 auto;">
-          <h1>바닥재·벽지 자재 견적문의</h1>
-          <p>제품코드와 수량, 현장 정보를 입력해 맞춤 견적을 문의하세요.</p>
-        </main>
-      `
+      canonical: `${BASE_URL}/estimate`
     },
     {
       route: '/guide',

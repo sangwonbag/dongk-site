@@ -31,6 +31,7 @@ import { getProductImageCandidates } from '../../utils/productImageResolver';
 import SEO from '../../components/seo/SEO';
 import { HIDE_SUB_MATERIALS, ACCESSORIES_ENABLED } from '../../config/categoryConfig';
 import { supabase } from '../../lib/supabaseClient';
+import { fetchProductDetailBySlugOrId } from '../../utils/supabaseFetcher';
 import './EstimateRequest.css';
 
 const ACCESSORY_OPTIONS = ['걸레받이', '본드', '실리콘', '논슬립', '마감재', '문턱/재료분리대'];
@@ -226,8 +227,8 @@ export default function EstimateRequest() {
         isNetworkError = true;
       }
 
-      // 2. If stateProduct was passed in location.state and no server override
-      if (!found && stateProduct && (stateProduct.name || stateProduct.code) && !isNetworkError) {
+      // 2. If stateProduct was passed in location.state
+      if (!found && stateProduct && (stateProduct.name || stateProduct.code)) {
         const candidates = getProductImageCandidates(stateProduct);
         found = {
           id: stateProduct.id || stateProduct.product_id,
@@ -242,6 +243,31 @@ export default function EstimateRequest() {
           unit: stateProduct.unit || '평',
           thumbnail: stateProduct.thumbnail || stateProduct.image || candidates[0] || '/images/no-image.svg'
         };
+      }
+
+      // 3. Fallback to local catalog lookup via fetchProductDetailBySlugOrId
+      if (!found && paramId) {
+        try {
+          const localItem = await fetchProductDetailBySlugOrId(paramId);
+          if (localItem) {
+            const candidates = getProductImageCandidates(localItem);
+            found = {
+              id: localItem.id,
+              code: localItem.code || localItem.product_code || '',
+              name: formatProductTitle(localItem),
+              brand: getComputedBrand(localItem),
+              category: localItem.category || '자재',
+              line: localItem.line || '',
+              spec: localItem.specs?.size || localItem.spec || '표준규격',
+              thickness: localItem.thickness || (localItem.specs?.thickness) || '',
+              price: localItem.price || 0,
+              unit: getProductUnit(localItem),
+              thumbnail: candidates[0] || getMaterialImagePath(localItem) || '/images/no-image.svg'
+            };
+          }
+        } catch (e) {
+          console.warn('[EstimateRequest] Local fallback lookup error:', e);
+        }
       }
 
       // Set state if query is still alive and not unselected by user
@@ -834,7 +860,7 @@ export default function EstimateRequest() {
               )}
               <div className="selected-material-details">
                 <div className="selected-material-brand-tag">
-                  {selectedMaterial.brand} {selectedMaterial.category ? `· ${selectedMaterial.category}` : ''}
+                  {selectedMaterial.brand} {selectedMaterial.category ? `· ${selectedMaterial.category}` : ''} {selectedMaterial.line ? `· ${selectedMaterial.line}` : ''}
                 </div>
                 <h4 className="selected-material-name">{selectedMaterial.name}</h4>
                 

@@ -8,6 +8,7 @@ import { prefetchProductDetail } from '../../utils/supabaseFetcher';
 import { getComputedBrand, getNormalizedThickness, formatProductTitle, getProductUnit, getKccLineup } from '../../utils/brandUtils';
 import { isDecoTile } from '../../utils/decotileUtils';
 import { getDongshinMajorCategory, getDongshinDetailedLineup } from '../../utils/dongshinUtils';
+import { isLxPrestigeProduct, hasLxPrestigeEir } from '../../utils/lxPrestigeUtils';
 import { Skeleton, ImagePlaceholder, ProductImage } from '../ui';
 import { isProductRecommended, getDisplayBrandName } from '../../constants/brandPriority';
 import './MaterialCard.css';
@@ -93,10 +94,6 @@ const MaterialCard = ({ material, priority = false, hidePrice = false }) => {
     const handleInquiry = (e) => {
         if (e) e.stopPropagation();
         const price = parsePrice(material.price) || 0;
-        if (price <= 0) {
-            alert("가격 확인이 필요한 자재입니다. 견적문의를 통해 문의해 주세요.");
-            return;
-        }
         
         const cartItem = {
             id: selectedOption ? `${material.id}-${selectedOption.label}` : material.id,
@@ -127,10 +124,13 @@ const MaterialCard = ({ material, priority = false, hidePrice = false }) => {
             image: coverUrl || "/images/no-image.svg"
         };
 
-        addToCart(cartItem);
+        if (price > 0) {
+            addToCart(cartItem);
+        }
         navigate("/estimate/request", {
             state: {
                 selectedProduct: cartItem,
+                selectedMaterial: cartItem,
                 materialId: material.id
             }
         });
@@ -429,7 +429,37 @@ const MaterialCard = ({ material, priority = false, hidePrice = false }) => {
                             <span className="meta-value">{material.specs?.packing || material.package || material.unit}</span>
                         </div>
                     </div>
-                ) : (material.brand === 'LX' && material.category === '데코타일') ? (
+                ) : isLxPrestigeProduct(material) ? (
+                    <div className="card-meta">
+                        <div className="card-meta-item">
+                            <span className="meta-label">라인업</span>
+                            <span className="meta-value">
+                                프레스티지 5T
+                                {hasLxPrestigeEir(material) && (
+                                    <span className="badge-eir-inline" style={{ marginLeft: '6px', padding: '1px 6px', fontSize: '11px', fontWeight: '700', background: '#fef3c7', color: '#92400e', border: '1px solid #fcd34d', borderRadius: '3px' }}>
+                                        EIR
+                                    </span>
+                                )}
+                            </span>
+                        </div>
+                        <div className="card-meta-item">
+                            <span className="meta-label">코드</span>
+                            <span className="meta-value">{material.code || material.product_code}</span>
+                        </div>
+                        <div className="card-meta-item">
+                            <span className="meta-label">두께</span>
+                            <span className="meta-value">{material.thickness || material.specs?.thickness || "5.0T"}</span>
+                        </div>
+                        <div className="card-meta-item">
+                            <span className="meta-label">규격</span>
+                            <span className="meta-value">{material.specs?.size || material.size_text || material.spec}</span>
+                        </div>
+                        <div className="card-meta-item">
+                            <span className="meta-label">포장</span>
+                            <span className="meta-value">{material.specs?.packing || material.package}</span>
+                        </div>
+                    </div>
+                ) : ((material.brand === 'LX' || material.brand === 'LX하우시스') && material.category === '데코타일') ? (
                     <div className="card-meta">
                         <div className="card-meta-item">
                             <span className="meta-label">라인업</span>
@@ -438,6 +468,10 @@ const MaterialCard = ({ material, priority = false, hidePrice = false }) => {
                         <div className="card-meta-item">
                             <span className="meta-label">시리즈</span>
                             <span className="meta-value">{material.series}</span>
+                        </div>
+                        <div className="card-meta-item">
+                            <span className="meta-label">두께</span>
+                            <span className="meta-value">{material.thickness || material.specs?.thickness || "3.0T"}</span>
                         </div>
                         <div className="card-meta-item">
                             <span className="meta-label">규격</span>
@@ -472,9 +506,9 @@ const MaterialCard = ({ material, priority = false, hidePrice = false }) => {
                 <div className="card-price-row">
                     <div className="card-price-container" data-nosnippet="">
                         <span className="card-price">
-                            {hidePrice ? "견적문의" : (material.price ? `${material.price.toLocaleString()}원` : "가격문의")}
+                            {hidePrice ? "견적문의" : (material.price > 0 ? `${material.price.toLocaleString()}원` : "가격문의")}
                         </span>
-                        {!hidePrice && material.price && (
+                        {!hidePrice && material.price > 0 && (
                             <span className="card-price-unit">
                                 {`/${getProductUnit(material)}`}
                             </span>

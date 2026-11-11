@@ -397,6 +397,14 @@ export const LINEUP_DATABASE = [
     aliases: ["에코노플러스", "에코노 플러스", "에코노", "econo plus", "econoplus", "econo", "lx 에코노플러스", "lx에코노플러스"],
     dbKeywords: ["에코노플러스", "에코노 플러스", "ECONO PLUS", "DET", "DEW"],
     description: "LX하우시스 에코노플러스 3T 프리미엄 데코타일"
+  },
+  {
+    lineup: "프레스티지",
+    brand: "LX",
+    category: "데코타일",
+    aliases: ["프레스티지", "프레스티지 5t", "프레스티지5t", "prestg", "prestige", "lx 프레스티지", "lx프레스티지", "프리미엄 5t"],
+    dbKeywords: ["프레스티지", "PRESTG", "PRESTIGE", "PTT", "PTW"],
+    description: "LX하우시스 프레스티지 5T (PRESTG) 프리미엄 LVT 데코타일"
   }
 ];
 
@@ -710,10 +718,10 @@ export function scoreProduct(product, query, parsedInfo = null) {
     const targetLine = normalizeSearchText(p.detectedLineup.lineup);
     const targetKeywords = p.detectedLineup.dbKeywords.map(normalizeSearchText);
 
-    if (pLine.includes(targetLine) || targetKeywords.some(k => pLine.includes(k) || pName.includes(k))) {
+    if (pLine.includes(targetLine) || targetKeywords.some(k => pLine.includes(k) || pName.includes(k) || pCode.includes(k))) {
       matchesLineup = true;
       score += 5500;
-      if (pBrand === normalizeSearchText(p.detectedLineup.brand)) {
+      if (pBrand === normalizeSearchText(p.detectedLineup.brand) || pBrand.includes(normalizeSearchText(p.detectedLineup.brand))) {
         score += 2000;
       }
     }
@@ -866,6 +874,9 @@ export function scoreProduct(product, query, parsedInfo = null) {
   }
 
   // 14. 무관한 상품 필터링 (최소 기준 미달 시 배제)
+  if (p.detectedLineup && !matchesLineup && !nameMatched && !codeMatched) {
+    return 0;
+  }
   const hasAnyHit = codeMatched || nameMatched || matchesLineup || colorMatched || patternMatched || spaceMatched || styleMatched || brandMatched || categoryMatched || thicknessMatched || matchedTokenCount > 0;
   if (!hasAnyHit) {
     return 0;

@@ -539,6 +539,15 @@ export function normalizeProductDetails(item) {
     if (item.pattern) {
       item.pattern = formatShapeOrPattern(item.pattern);
     }
+    // 녹수 2000·3000 시리즈 가격 비노출 정책: 원본 단가는 rawPrice/original_price에 보존하고 price는 0(가격문의)으로 통일
+    if (isNoxConsultingProduct(item)) {
+      if (item.rawPrice === undefined && item.price !== undefined) {
+        item.rawPrice = item.price;
+        item.original_price = item.price;
+      }
+      item.price = 0;
+      item.isPriceInquiry = true;
+    }
   } catch (err) {
     console.error("normalizeProductDetails error:", err);
   }
@@ -672,6 +681,24 @@ export function formatProductTitle(product) {
       }
       if (code) return code;
     }
+    if (
+      family.includes('프레스티지') ||
+      family.toUpperCase().includes('PRESTG') ||
+      (code && /^PT[TW]\d{4}$/i.test(code)) ||
+      (product.id && String(product.id).includes('프레스티지'))
+    ) {
+      let pattern = (product.pattern || product.pattern_name || product.name || '').trim();
+      if (code && pattern.toUpperCase().includes(code.toUpperCase())) {
+        pattern = pattern
+          .replace(/^(LX\s*하우시스|LX)?\s*(프레스티지(\s*5T)?)\s*/i, '')
+          .replace(new RegExp(code, 'ig'), '')
+          .trim();
+      }
+      if (code && pattern) {
+        return `프레스티지 5T ${code} ${pattern}`;
+      }
+      if (code) return `프레스티지 5T ${code}`;
+    }
   }
 
   const name = getCleanProductName(product, code);
@@ -737,6 +764,31 @@ export const getProductUnit = (product) => {
   }
   return product.unit || '평';
 };
+
+/**
+ * 녹수(NOX) 2000 및 3000 시리즈 판별 유틸리티
+ * - 에코홈2000 (NEH 코드 등)
+ * - 오키드3000 (NOT, NOW 코드 등)
+ * - 전체 사이트에서 판매가격 비노출 ('가격문의') 및 견적문의 연동 대상
+ */
+export function isNoxConsultingProduct(product) {
+  if (!product) return false;
+  const brand = String(product.brand || product.brands?.name || '').trim().toUpperCase();
+  const isNoxBrand = brand.includes('녹수') || brand.includes('NOX');
+
+  const line = String(product.line || product.series || product.description || '').replace(/\s+/g, '');
+  const name = String(product.name || product.product_name || '').replace(/\s+/g, '');
+  const rawCode = String(product.code || product.product_code || '').trim().toUpperCase();
+  const cleanCode = rawCode.replace(/\s+/g, '');
+
+  const has2000 = line.includes('2000') || name.includes('2000') || cleanCode.startsWith('NEH');
+  const has3000 = line.includes('3000') || name.includes('3000') || cleanCode.startsWith('NOT') || cleanCode.startsWith('NOW');
+
+  if (isNoxBrand && (has2000 || has3000)) return true;
+  if (cleanCode.startsWith('NEH-') || cleanCode.startsWith('NOT-') || cleanCode.startsWith('NOW-')) return true;
+
+  return false;
+}
 
 export * from "./eagonUtils.js";
 
