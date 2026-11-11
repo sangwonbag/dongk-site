@@ -17,6 +17,7 @@ export default function Cart() {
   const nav = useNavigate();
   const { cartItems, updateQuantity, removeFromCart, clearCart } = useEstimateCart();
   const { user: currentUser, openLoginModal } = useAuth();
+  const showPrice = Boolean(currentUser?.isLoggedIn);
 
   // Utilized common getProductPyeong from shippingUtils
 
@@ -157,7 +158,7 @@ export default function Cart() {
                 <span className="divider-bar">|</span>
                 총 수량 <strong>{getDisplayTotalQtyText()}</strong>
                 <span className="divider-bar">|</span>
-                상품금액 <strong>{calculateSubtotal().toLocaleString()}원</strong>
+                상품금액 <strong>{showPrice ? `${calculateSubtotal().toLocaleString()}원` : '견적문의'}</strong>
               </div>
               <div className="summary-actions-top">
                 <button className="btn-shopping-continue" onClick={() => nav("/materials")}>
@@ -291,7 +292,7 @@ export default function Cart() {
 
                           {/* 단가 및 상품별 합계금액 */}
                           <div className="cart-item-price-section">
-                            {price > 0 ? (
+                            {showPrice && price > 0 ? (
                               <>
                                 <div className="price-unit-label">단가 ₩{price.toLocaleString()}원{item.category === '장판' ? '/m' : ''}</div>
                                 <div className="price-total-label">₩{(price * qty).toLocaleString()}원</div>
@@ -369,7 +370,7 @@ export default function Cart() {
                     <div className="summary-divider"></div>
                     <div className="summary-row-total">
                       <span>최종 예상금액</span>
-                      <strong>{calculateSubtotal().toLocaleString()}원</strong>
+                      <strong>{showPrice ? `${calculateSubtotal().toLocaleString()}원` : '견적문의'}</strong>
                     </div>
                     <p className="summary-vat-notice">* 부가세(VAT) 10% 별도 청구됩니다.<br />* 현장 거리 및 물량에 따라 화물 운임비가 책정됩니다.</p>
                   </div>
