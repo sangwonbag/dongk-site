@@ -89,7 +89,7 @@ async function runPrerender() {
       route: '/',
       outPath: path.join(distDir, 'index.html'),
       title: '동경바닥재 | KCC·LX·동신 프리미엄 바닥재·데코타일·마루·장판 유통 전문',
-      description: '동경바닥재 - 국내 주요 브랜드(KCC, LX, 동신, 재영, 이건 등) 데코타일, 마루, 장판, 벽지 전문 유통. 자재 조회, 샘플북, 시공사례 및 자동 견적 서비스를 제공합니다.',
+      description: '동경바닥재 - KCC, LX, 동신, 재영, 이건 등 정품 데코타일·마루·장판·벽지 제품코드와 규격 정보를 확인하고 자재 납품·시공 견적을 문의하세요.',
       canonical: `${BASE_URL}/`,
       jsonLd: {
         '@context': 'https://schema.org',
@@ -172,13 +172,13 @@ async function runPrerender() {
     {
       route: '/estimate',
       outPath: path.join(distDir, 'estimate', 'index.html'),
-      title: '자동 견적 및 상담 문의 | 동경바닥재',
-      description: '동경바닥재 자재 수량 계산기 및 자동 견적 시스템. 면적(㎡, 평) 입력 시 수량 및 예상 자재비를 실시간 계산하고 상담을 신청하세요.',
+      title: '바닥재·벽지 자재 견적문의 | 동경바닥재',
+      description: '제품명·코드·규격과 현장 정보로 동경바닥재에 자재 납품 및 시공 견적을 문의하세요. 상담 후 개별 견적을 안내합니다.',
       canonical: `${BASE_URL}/estimate`,
       contentHtml: `
         <main style="padding: 20px; max-width: 1200px; margin: 0 auto;">
-          <h1>실시간 자재 수량 계산기 & 자동 견적</h1>
-          <p>시공 면적 입력 시 박스 수량 및 추정 자재비 계산</p>
+          <h1>바닥재·벽지 자재 견적문의</h1>
+          <p>제품코드와 수량, 현장 정보를 입력해 맞춤 견적을 문의하세요.</p>
         </main>
       `
     },
@@ -381,7 +381,7 @@ async function runPrerender() {
     const autoSlug = generateSlug(item);
     if (autoSlug) candidateKeys.add(autoSlug);
 
-    const primaryKey = item.slug || String(item.id || code);
+    const primaryKey = String(item.id || item.slug || code);
 
     const displayName = `${brand} ${line} ${name}`.replace(/\s+/g, ' ').trim();
     const pageTitle = `${brand} ${line ? `${line} ` : ''}${name} ${category} | 동경바닥재`.replace(/\s+/g, ' ').trim();
@@ -403,11 +403,9 @@ async function runPrerender() {
     if (unit) descParts.push(`판매단위: ${unit}`);
     if (adhesive) descParts.push(`권장접착제: ${adhesive}`);
 
-    const pageDesc = `${displayName}. ${descParts.join(', ')}. 동경바닥재 정품 자재 정보 조회 및 견적 요청.`;
+    const pageDesc = `${displayName}. ${descParts.join(', ')}. 동경바닥재에서 제품 규격을 확인하고 납품·시공 견적을 문의하세요.`;
     const canonicalUrl = `${BASE_URL}/materials/${encodeURIComponent(primaryKey)}`;
     const imgUrl = item.thumbnail ? (item.thumbnail.startsWith('http') ? item.thumbnail : `${BASE_URL}${item.thumbnail}`) : `${BASE_URL}/dk-apple-touch-icon-transparent.png`;
-
-    const numericPrice = typeof item.price === 'number' && item.price > 0 ? item.price : null;
 
     const productJsonLd = {
       '@context': 'https://schema.org',
@@ -418,15 +416,14 @@ async function runPrerender() {
       'sku': code || String(primaryKey),
       'brand': { '@type': 'Brand', 'name': brand },
       'url': canonicalUrl,
-      ...(numericPrice ? {
-        'offers': {
-          '@type': 'Offer',
-          'url': canonicalUrl,
-          'priceCurrency': 'KRW',
-          'price': numericPrice,
-          'itemCondition': 'https://schema.org/NewCondition'
-        }
-      } : {})
+      'mainEntityOfPage': canonicalUrl,
+      'category': category,
+      'additionalProperty': [
+        ...(thickness ? [{ '@type': 'PropertyValue', 'name': '두께', 'value': String(thickness) }] : []),
+        ...(size ? [{ '@type': 'PropertyValue', 'name': '규격', 'value': String(size) }] : []),
+        ...(packing ? [{ '@type': 'PropertyValue', 'name': '포장 단위', 'value': String(packing) }] : []),
+        ...(unit ? [{ '@type': 'PropertyValue', 'name': '판매 단위', 'value': String(unit) }] : [])
+      ]
     };
 
     const breadcrumbJsonLd = {
@@ -463,9 +460,10 @@ async function runPrerender() {
                 ${packing ? `<tr style="border-bottom: 1px solid #eee;"><th style="padding: 10px; background: #f9f9f9; text-align: left;">포장 패킹 단위</th><td style="padding: 10px;">${htmlEscape(packing)}</td></tr>` : ''}
                 <tr style="border-bottom: 1px solid #eee;"><th style="padding: 10px; background: #f9f9f9; text-align: left;">판매 단위</th><td style="padding: 10px;">${htmlEscape(unit)}</td></tr>
                 <tr style="border-bottom: 1px solid #eee;"><th style="padding: 10px; background: #f9f9f9; text-align: left;">권장 접착 자재</th><td style="padding: 10px;">${htmlEscape(adhesive)}</td></tr>
-                ${numericPrice ? `<tr style="border-bottom: 1px solid #eee;"><th style="padding: 10px; background: #f9f9f9; text-align: left;">판매 가격</th><td style="padding: 10px; font-weight: bold; color: #d9534f;">${numericPrice.toLocaleString()} 원 / ${htmlEscape(unit)}</td></tr>` : ''}
               </tbody>
             </table>
+            <p style="margin: 20px 0 10px; font-size: 14px; color: #555;">현장별 납품·시공 조건과 수량에 따른 견적은 문의해 주세요.</p>
+            <a href="/estimate?materialId=${encodeURIComponent(String(item.id || item.slug || code))}" style="display: inline-block; padding: 12px 20px; background: #b78b37; color: #fff; border-radius: 6px; text-decoration: none; font-weight: 700;">이 자재 견적문의</a>
           </div>
         </div>
       </article>
