@@ -1599,11 +1599,9 @@ export default function MaterialDetail() {
   const seoUnit = getProductUnit(item);
   const seoAdhesive = isDecoTile(item) ? "데코타일 본드" : (item.adhesive || "");
 
-  const detailSeoDescription = `${brandName} ${item.category || ''} ${displayName || item.code || ''}. ${seoThickness ? `두께: ${seoThickness}, ` : ''}${seoSize ? `규격: ${seoSize}, ` : ''}${seoPacking ? `포장: ${seoPacking}, ` : ''}${seoUnit ? `단위: ${seoUnit}, ` : ''}${seoAdhesive ? `권장접착제: ${seoAdhesive}. ` : ''}동경바닥재 정품 자재 정보 조회 및 견적 요청.`.replace(/\s+/g, ' ').trim();
+  const detailSeoDescription = `${brandName} ${item.category || ''} ${displayName || item.code || ''}. ${seoThickness ? `두께: ${seoThickness}, ` : ''}${seoSize ? `규격: ${seoSize}, ` : ''}${seoPacking ? `포장: ${seoPacking}, ` : ''}${seoUnit ? `단위: ${seoUnit}, ` : ''}${seoAdhesive ? `권장접착제: ${seoAdhesive}. ` : ''}동경바닥재 정품 자재 규격을 확인하고 납품·시공 견적을 문의하세요.`.replace(/\s+/g, ' ').trim();
 
   const canonicalUrl = `https://dkfloor.co.kr/materials/${encodeURIComponent(item.id || id)}`;
-  const numericPrice = typeof item.price === 'number' && item.price > 0 ? item.price : null;
-
   const productJsonLd = {
     "@context": "https://schema.org",
     "@type": "Product",
@@ -1616,15 +1614,14 @@ export default function MaterialDetail() {
       "name": brandName
     },
     "url": canonicalUrl,
-    ...(numericPrice ? {
-      "offers": {
-        "@type": "Offer",
-        "url": canonicalUrl,
-        "priceCurrency": "KRW",
-        "price": numericPrice,
-        "itemCondition": "https://schema.org/NewCondition"
-      }
-    } : {})
+    "mainEntityOfPage": canonicalUrl,
+    "category": item.category || "바닥재",
+    "additionalProperty": [
+      ...(seoThickness ? [{ "@type": "PropertyValue", "name": "두께", "value": String(seoThickness) }] : []),
+      ...(seoSize ? [{ "@type": "PropertyValue", "name": "규격", "value": String(seoSize) }] : []),
+      ...(seoPacking ? [{ "@type": "PropertyValue", "name": "포장 단위", "value": String(seoPacking) }] : []),
+      ...(seoUnit ? [{ "@type": "PropertyValue", "name": "판매 단위", "value": String(seoUnit) }] : [])
+    ]
   };
 
   const breadcrumbJsonLd = {
