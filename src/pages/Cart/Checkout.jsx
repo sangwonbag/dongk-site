@@ -724,6 +724,22 @@ export default function Checkout() {
     }).sort((a, b) => b.score - a.score);
   };
 
+  // Prevent visitor checkout pages from rendering cart pricing while logged out.
+  // This is presentation only: the database must also enforce server-side price access.
+  if (!authLoading && !user?.isLoggedIn) {
+    return (
+      <MainLayout>
+        <SEO title="주문결제 | 동경바닥재" noindex={true} canonical="https://dkfloor.co.kr/checkout" />
+        <div className="checkout-page-container" style={{ padding: "70px 20px", textAlign: "center" }}>
+          <h1>주문 진행을 위해 로그인해 주세요</h1>
+          <p style={{ margin: "16px 0 24px" }}>상품 및 결제 금액은 로그인 후 확인할 수 있습니다. 별도 견적문의도 가능합니다.</p>
+          <button type="button" onClick={openLoginModal} className="btn-primary">로그인</button>
+          <button type="button" onClick={() => navigate("/estimate")} className="btn-secondary" style={{ marginLeft: "12px" }}>견적문의</button>
+        </div>
+      </MainLayout>
+    );
+  }
+
   return (
     <MainLayout>
       <SEO title="주문결제 | 동경바닥재" noindex={true} canonical="https://dkfloor.co.kr/checkout" />
