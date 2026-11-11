@@ -38,6 +38,8 @@ const MaterialCard = ({ material, priority = false, hidePrice = false }) => {
     const currentQuery = (searchParams.get('q') || searchParams.get('search') || '').trim();
     const { addToCart } = useEstimateCart();
     const { user: currentUser, openLoginModal } = useAuth();
+    // Presentation-only: server-side data access must be secured separately.
+    const hidePublicPrice = hidePrice || !currentUser?.isLoggedIn;
     
     const [qty, setQty] = useState(1);
 
@@ -506,9 +508,9 @@ const MaterialCard = ({ material, priority = false, hidePrice = false }) => {
                 <div className="card-price-row">
                     <div className="card-price-container" data-nosnippet="">
                         <span className="card-price">
-                            {hidePrice ? "견적문의" : (material.price > 0 ? `${material.price.toLocaleString()}원` : "가격문의")}
+                            {hidePublicPrice ? "견적문의" : (material.price > 0 ? `${material.price.toLocaleString()}원` : "가격문의")}
                         </span>
-                        {!hidePrice && material.price > 0 && (
+                        {!hidePublicPrice && material.price > 0 && (
                             <span className="card-price-unit">
                                 {`/${getProductUnit(material)}`}
                             </span>

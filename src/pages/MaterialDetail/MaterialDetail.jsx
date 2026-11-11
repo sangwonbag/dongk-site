@@ -635,6 +635,8 @@ export default function MaterialDetail() {
   const location = useLocation();
   const { addToCart, setPendingDirectOrder } = useEstimateCart();
   const { user: currentUser } = useAuth();
+  // Visitor price display only. Real authorization belongs on the backend.
+  const showPrice = Boolean(currentUser?.isLoggedIn);
 
   const id = decodeURIComponent(rawId || "");
 
@@ -1927,7 +1929,12 @@ export default function MaterialDetail() {
 
               {/* Price display (visible to admin or shows consulting guide) */}
               <div className="showroom-price-card">
-                {isDirectPricingCategory(item) ? (
+                {!showPrice ? (
+                  <div className="client-consulting-box">
+                    <strong className="consulting-title">가격문의</strong>
+                    <p className="consulting-guide-text">제품 코드와 규격을 확인하고 견적문의를 남겨주세요. 공급가 및 시공 조건은 상담 후 안내합니다.</p>
+                  </div>
+                ) : isDirectPricingCategory(item) ? (
                   <div className="client-consulting-box kcc-price-box">
                     <div className="showroom-detail-price" style={{ marginBottom: "12px", borderBottom: "1px solid var(--border-showroom-light)", paddingBottom: "12px" }}>
                       <span style={{ fontSize: "14px", color: "var(--text-light-gray)", marginRight: "8px" }}>가격:</span>
@@ -2271,7 +2278,7 @@ export default function MaterialDetail() {
                           </div>
                         )}
 
-                        {item.brand === '서울' && (item.line || '').includes('소폭') && (
+                        {showPrice && item.brand === '서울' && (item.line || '').includes('소폭') && (
                           <div style={{ color: 'var(--accent-showroom-green)', fontSize: '11px', margin: '4px 0', fontWeight: 'bold' }}>
                             * 10박스 이상 주문 시 ₩73,000원/박스로 자동 적용됩니다 (현재: {activeQty >= 10 ? '할인 적용됨' : '기본가 적용'}).
                           </div>
@@ -2279,9 +2286,9 @@ export default function MaterialDetail() {
                         <div style={{ display: 'flex', justifyContent: 'space-between', borderTop: '1px dashed #E6E2D8', paddingTop: '8px', marginTop: '8px' }}>
                           <span style={{ fontWeight: '600' }}>총 상품금액:</span>
                           <strong style={{ color: 'var(--point-orange)', fontSize: '16px' }}>
-                            {(activeQty * (
+                            {showPrice ? `${(activeQty * (
                               item.brand === '서울' && (item.line || '').includes('소폭') && activeQty >= 10 ? 73000 : (item.price || 0)
-                            )).toLocaleString()}원
+                            )).toLocaleString()}원` : '견적문의'}
                           </strong>
                         </div>
                       </div>
@@ -3149,7 +3156,7 @@ export default function MaterialDetail() {
       <div className="mobile-cta-fixed-bar">
         <div className="mobile-cta-summary-row" style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', padding: '2px 4px', fontSize: '13px' }}>
           <span style={{ color: 'var(--text-muted)' }}>선택 수량: <strong style={{ color: 'var(--primary)' }}>{qty} {getProductUnit(item)}</strong></span>
-          <span style={{ fontSize: '14px', color: 'var(--text-muted)' }}>예상금액: <strong style={{ color: 'var(--point-gold)', fontSize: '16px', fontWeight: '800' }}>{!isNoxConsultingProduct(item) && item?.price > 0 ? (item.price * (parseInt(qty, 10) || 1)).toLocaleString() + '원' : '가격문의'}</strong></span>
+          <span style={{ fontSize: '14px', color: 'var(--text-muted)' }}>예상금액: <strong style={{ color: 'var(--point-gold)', fontSize: '16px', fontWeight: '800' }}>{showPrice && !isNoxConsultingProduct(item) && item?.price > 0 ? (item.price * (parseInt(qty, 10) || 1)).toLocaleString() + '원' : '견적문의'}</strong></span>
         </div>
         <div className="mobile-cta-sub-row">
           <button className="mobile-cta-sub-btn" onClick={handleEstimate}>
