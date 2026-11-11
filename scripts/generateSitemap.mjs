@@ -77,7 +77,8 @@ async function run() {
   const seenIds = new Set();
 
   for (const item of materials) {
-    const rawId = item.id || item.code;
+    // Match the canonical URL used by product HTML and the React detail page.
+    const rawId = item.id || item.slug || item.code;
     if (!rawId || seenIds.has(String(rawId))) continue;
     seenIds.add(String(rawId));
 
@@ -119,10 +120,15 @@ async function run() {
 
   xml += `</urlset>\n`;
 
+  // Vite copies public/ before postbuild. Update dist/ too, or the deployed sitemap can stay stale.
   const sitemapPath = path.join(rootDir, 'public', 'sitemap.xml');
   fs.writeFileSync(sitemapPath, xml, 'utf8');
+  const distDir = path.join(rootDir, 'dist');
+  if (fs.existsSync(distDir)) {
+    fs.writeFileSync(path.join(distDir, 'sitemap.xml'), xml, 'utf8');
+  }
 
-  console.log(`[Sitemap] Successfully wrote ${staticRoutes.length + materialUrls.length} URLs to public/sitemap.xml`);
+  console.log(`[Sitemap] Successfully wrote ${staticRoutes.length + materialUrls.length} URLs to public/sitemap.xml and dist/sitemap.xml`);
 }
 
 run().catch(err => {
