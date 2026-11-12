@@ -192,8 +192,12 @@ export default function AdminDashboard() {
         {/* Header */}
         <div className="dashboard-header-row">
           <div className="dashboard-header">
-            <h1>관리자 대시보드</h1>
-            <p>동경바닥재 사이트 현황을 실시간으로 관리하고 처리 내역을 조회합니다.</p>
+            <h1>사이트·앱 통합 관리자</h1>
+            <p>판매 사이트와 설치형 모바일 앱의 상품·가격·주문·견적을 같은 데이터에서 관리합니다.</p>
+            <p style={{ fontSize: 13, color: 'var(--text-muted)', marginTop: 6 }}>
+              상품 및 가격은 상품·자재 관리에서 한 번만 수정하세요. 사이트와 앱 모두 동일한
+              Supabase 상품 목록과 주문 접수 시스템을 사용합니다.
+            </p>
           </div>
           <button className="btn-dashboard-refresh" onClick={fetchStats} disabled={loading}>
             <RefreshCw size={14} className={loading ? "spin" : ""} />
@@ -291,7 +295,7 @@ export default function AdminDashboard() {
           <button className="dashboard-card" onClick={() => navigate('/admin-orders')}>
             <Clipboard size={32} className="card-icon text-indigo" />
             <div className="card-title">자재주문 관리</div>
-            <div className="card-desc">고객이 접수한 주문 목록 조회 및 상태 변경</div>
+            <div className="card-desc">사이트·앱의 주문을 한곳에서 조회하고 입금·출고 상태 처리</div>
           </button>
 
           <button className="dashboard-card" onClick={() => navigate('/admin/estimates')}>
@@ -309,13 +313,13 @@ export default function AdminDashboard() {
           <button className="dashboard-card" onClick={() => navigate('/admin/products')}>
             <LayoutGrid size={32} className="card-icon text-rose" />
             <div className="card-title">상품 관리</div>
-            <div className="card-desc">사이트에 노출되는 판매 상품 목록과 진열 여부 설정</div>
+            <div className="card-desc">사이트·앱에 함께 노출되는 판매 상품, 가격 및 진열 여부 설정</div>
           </button>
 
           <button className="dashboard-card" onClick={() => navigate('/admin/materials')}>
             <Layers size={32} className="card-icon text-purple" />
             <div className="card-title">자재 관리</div>
-            <div className="card-desc">전체 자재 DB 규격, 단가, 브랜드, 카테고리 관리</div>
+            <div className="card-desc">사이트·앱 공통 자재 DB의 규격, 단가, 브랜드 및 분류 관리</div>
           </button>
 
           <button className="dashboard-card" onClick={() => navigate('/admin/inquiries')}>
