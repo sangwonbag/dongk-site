@@ -1,0 +1,15 @@
+{
+  "appId": "kr.co.dkfloor.store",
+  "appName": "동경바닥재",
+  "webDir": "www",
+  "server": {
+    "url": "https://dkfloor.co.kr",
+    "cleartext": false
+  },
+  "android": {
+    "allowMixedContent": false
+  },
+  "ios": {
+    "preferredContentMode": "mobile"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "name": "dkfloor-store-native",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Dongkyung Flooring shared Android/iOS storefront",
+  "scripts": {
+    "prepare:android": "node scripts/prepare-native.cjs android",
+    "prepare:ios": "node scripts/prepare-native.cjs ios",
+    "open:android": "npx cap open android",
+    "open:ios": "npx cap open ios"
+  },
+  "dependencies": {
+    "@capacitor/core": "8.6.0",
+    "@capacitor/android": "8.6.0",
+    "@capacitor/ios": "8.6.0",
+    "@capacitor/app": "8.1.2",
+    "@capacitor/share": "8.0.3"
+  },
+  "devDependencies": {
+    "@capacitor/cli": "8.6.0",
+    "@capacitor/assets": "4.0.0",
+    "sharp": "0.35.5"
+  }
+}
