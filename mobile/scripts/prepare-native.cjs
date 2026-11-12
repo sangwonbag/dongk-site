@@ -35,9 +35,13 @@ async function prepare() {
       .composite([{input:small,left:1106,top:1106}])
       .png().toFile(join(assets,name));
   }
-  if (!existsSync(join(cwd,platform))) run('npx',['cap','add',platform]);
-  run('npx',['cap','sync',platform]);
-  run('npx',['capacitor-assets','generate','--'+platform]);
+  const npx = process.platform === 'win32' ? 'npx.cmd' : 'npx';
+  const native = (args) => execFileSync(npx, args, {
+    cwd, stdio: 'inherit', shell: process.platform === 'win32'
+  });
+  if (!existsSync(join(cwd,platform))) native(['cap','add',platform]);
+  native(['cap','sync',platform]);
+  native(['capacitor-assets','generate','--'+platform]);
   console.log('DK Floor '+platform+' native project prepared.');
 }
 prepare().catch(err => {console.error(err);process.exit(1)});

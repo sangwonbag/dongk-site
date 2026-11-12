@@ -1,6 +1,11 @@
 name: DK Floor iOS simulator build
 on:
   workflow_dispatch:
+  push:
+    branches: [feature/mobile-storefront-pwa-20261112]
+    paths:
+      - 'mobile/**'
+      - '.github/workflows/mobile-ios.yml'
 permissions:
   contents: read
 jobs:
