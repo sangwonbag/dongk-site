@@ -59,7 +59,7 @@ export default function SampleBooks() {
   /** ✅ 해당 카테고리에 속한 브랜드 목록 (카테고리별 차등 순서 적용) */
   const brands = useMemo(() => {
     if (activeTab === "recommended") {
-      return sortBrandsByPriority(["all", "KCC", "LX", "동신", "동화", "이건", "구정", "유성", "녹수", "현대", "스완"]);
+      return sortBrandsByPriority(["all", "KCC", "동신"]);
     }
     let categoryBrands = [...(BRANDS_BY_CATEGORY[activeTab] || [])];
     return sortBrandsByPriority(["all", ...categoryBrands], activeTab);
