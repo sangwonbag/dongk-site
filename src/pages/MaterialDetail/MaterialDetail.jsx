@@ -635,8 +635,6 @@ export default function MaterialDetail() {
   const location = useLocation();
   const { addToCart, setPendingDirectOrder } = useEstimateCart();
   const { user: currentUser } = useAuth();
-  // Visitor price display only. Real authorization belongs on the backend.
-  const showPrice = Boolean(currentUser?.isLoggedIn);
 
   const id = decodeURIComponent(rawId || "");
 
@@ -644,6 +642,9 @@ export default function MaterialDetail() {
   const initialData = location.state?.initialProduct || getCachedProduct(rawId);
 
   const [item, setItem] = useState(() => enrichProduct(initialData));
+  // Visitor price display only. Real authorization belongs on the backend.
+  const isKccBrandItem = (item?.brand || '').toUpperCase().includes('KCC');
+  const showPrice = Boolean(currentUser?.isLoggedIn) || isKccBrandItem;
   const [loading, setLoading] = useState(() => !initialData);
   const [error, setError] = useState(null);
   const [retryKey, setRetryKey] = useState(0);

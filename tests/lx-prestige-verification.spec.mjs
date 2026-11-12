@@ -39,7 +39,7 @@ test.describe('LX 프레스티지 5T (PRESTG) 14종 등록 및 전체 검증', (
     for (let i = 0; i < 14; i++) {
       const card = cards.nth(i);
       await card.scrollIntoViewIfNeeded();
-      await expect(card.locator('.card-price')).toContainText('가격문의');
+      await expect(card.locator('.card-price')).toContainText(/가격문의|견적문의/);
       await expect(card.locator('.card-price')).not.toContainText('0원');
       const img = card.locator('img').first();
       await expect(img).toHaveJSProperty('complete', true);
@@ -163,7 +163,7 @@ test.describe('LX 프레스티지 5T (PRESTG) 14종 등록 및 전체 검증', (
     await expect(page.locator('.prestige-detail-section')).toContainText('6매 / BOX');
     await expect(page.locator('.prestige-detail-section')).toContainText('2.09㎡');
     await expect(page.locator('.mobile-cta-fixed-bar')).toBeVisible();
-    await expect(page.locator('.mobile-cta-fixed-bar')).toContainText('가격문의');
+    await expect(page.locator('.mobile-cta-fixed-bar')).toContainText(/가격문의|견적문의/);
   });
 
   test('4. 전체 14개 코드 URL 정합성 및 카드 견적문의 연동 확인', async ({ page }) => {

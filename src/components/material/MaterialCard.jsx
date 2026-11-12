@@ -39,7 +39,8 @@ const MaterialCard = ({ material, priority = false, hidePrice = false }) => {
     const { addToCart } = useEstimateCart();
     const { user: currentUser, openLoginModal } = useAuth();
     // Presentation-only: server-side data access must be secured separately.
-    const hidePublicPrice = hidePrice || !currentUser?.isLoggedIn;
+    const isKccBrand = (material?.brand || '').toUpperCase().includes('KCC');
+    const hidePublicPrice = hidePrice || (!isKccBrand && !currentUser?.isLoggedIn);
     
     const [qty, setQty] = useState(1);
 
