@@ -575,7 +575,14 @@ export default function Materials() {
   const setActiveMaterialType = (type) => updateParams({ type });
   const setActiveLine = (line) => {
     const slug = KCC_LINEUP_NAME_TO_SLUG[line] || line;
-    updateParams({ line: slug === "all" ? (isKccDecotile ? "all" : null) : slug, shape: null });
+    const updates = {
+      line: slug === "all" ? (isKccDecotile ? "all" : null) : slug,
+      shape: null
+    };
+    if (line !== "에코노플러스" && line !== "프레스티지") {
+      updates.spec = null;
+    }
+    updateParams(updates);
   };
   const setActiveShape = (shape) => updateParams({ shape });
 
@@ -1321,7 +1328,7 @@ export default function Materials() {
                     {activeLine !== "all" && (
                       <span className="active-chip">
                         라인업: {formatShapeOrPattern(activeLine)}
-                        <X size={14} className="chip-remove" onClick={() => { setActiveLine("all"); updateParams({ spec: null }); }} />
+                        <X size={14} className="chip-remove" onClick={() => setActiveLine("all")} />
                       </span>
                     )}
                     {isLxDecotile && activeLine === "에코노플러스" && activeLxEconoSpec !== "all" && (
@@ -1643,10 +1650,7 @@ export default function Materials() {
                   <button
                     key={lineName}
                     className={`material-type-chip ${activeLine === lineName ? "active" : ""}`}
-                    onClick={() => {
-                      setActiveLine(lineName);
-                      if (lineName !== "에코노플러스" && lineName !== "프레스티지") updateParams({ spec: null });
-                    }}
+                    onClick={() => setActiveLine(lineName)}
                   >
                     {lineName === "all"
                       ? "전체 라인업"
