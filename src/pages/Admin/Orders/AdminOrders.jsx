@@ -5,7 +5,8 @@ import { useAuth } from "../../../contexts/AuthContext";
 import { 
   getAdminOrders, 
   updateOrderAdminFields,
-  updateOrderChecked
+  updateOrderChecked,
+  deleteOrder
 } from "../../../services/orderService";
 import { syncGoogleCalendarEvent, cancelGoogleCalendarEvent } from "../../../services/calendarService";
 import { getConstructionWorkers, updateOrderWorkerAssignment, checkWorkerScheduleConflict } from "../../../services/workerService";
@@ -35,7 +36,8 @@ import {
   FileText,
   CalendarDays,
   ShieldAlert,
-  UserCheck
+  UserCheck,
+  Trash2
 } from "lucide-react";
 import { formatFlooringProductName } from "../../../utils/brandUtils";
 import { isDecoTile } from "../../../utils/decotileUtils";
@@ -217,6 +219,11 @@ export default function AdminOrders() {
     setOrders(prev => prev.map(o => o.id === updatedOrder.id ? updatedOrder : o));
   };
 
+  // 카드별 주문 삭제 성공 시 로컬 상태에서 제거
+  const handleOrderDeleteSuccess = (deletedOrderId) => {
+    setOrders(prev => prev.filter(o => o.id !== deletedOrderId));
+  };
+
   // If highlight ID is provided, automatically reset active filter and search text to ensure it's visible
   useEffect(() => {
     if (highlightId) {
@@ -389,6 +396,7 @@ export default function AdminOrders() {
                 order={order} 
                 currentUser={user}
                 onSaveSuccess={handleOrderSaveSuccess}
+                onDeleteSuccess={handleOrderDeleteSuccess}
                 highlight={highlightId === order.id}
               />
             ))}
@@ -403,7 +411,7 @@ export default function AdminOrders() {
    자식 컴포넌트: AdminOrderCard
    현장 진행 관리, Google Calendar 동기화, 작업자 배정, 출고증/시공확인서 문서 생성, 수금/미수금 관리 확장
    ========================================================== */
-function AdminOrderCard({ order, currentUser, onSaveSuccess, highlight }) {
+function AdminOrderCard({ order, currentUser, onSaveSuccess, onDeleteSuccess, highlight }) {
   const [hasConstruction, setHasConstruction] = useState(() => !!order.has_construction);
   const [isExpanded, setIsExpanded] = useState(highlight || false);
   const [status, setStatus] = useState(order.status);
@@ -468,6 +476,7 @@ function AdminOrderCard({ order, currentUser, onSaveSuccess, highlight }) {
 
   const [isSaving, setIsSaving] = useState(false);
   const [isChecking, setIsChecking] = useState(false);
+  const [isDeleting, setIsDeleting] = useState(false);
   const [copyFeedback, setCopyFeedback] = useState("");
   const [cardError, setCardError] = useState("");
   const [cardSuccess, setCardSuccess] = useState("");
@@ -798,6 +807,30 @@ function AdminOrderCard({ order, currentUser, onSaveSuccess, highlight }) {
       setCardError(err.message || "확인 처리에 실패했습니다.");
     } finally {
       setIsChecking(false);
+    }
+  };
+
+  // 주문 삭제 핸들러
+  const handleDelete = async (e) => {
+    e.stopPropagation();
+    const label = [order.order_no, order.customer_name].filter(Boolean).join(" / ");
+    const confirmed = window.confirm(
+      `주문(${label})을 정말 삭제하시겠습니까?\n삭제된 주문과 품목 내역은 복구할 수 없습니다.`
+    );
+    if (!confirmed) return;
+
+    setIsDeleting(true);
+    setCardError("");
+    setCardSuccess("");
+    try {
+      await deleteOrder(order.id);
+      if (onDeleteSuccess) {
+        onDeleteSuccess(order.id);
+      }
+    } catch (err) {
+      console.error(err);
+      setCardError(err.message || "주문 삭제에 실패했습니다.");
+      setIsDeleting(false);
     }
   };
 
@@ -1435,7 +1468,7 @@ function AdminOrderCard({ order, currentUser, onSaveSuccess, highlight }) {
                     type="button"
                     className="btn-admin-order-check" 
                     onClick={handleCheck} 
-                    disabled={isSaving || isChecking}
+                    disabled={isSaving || isChecking || isDeleting}
                   >
                     {isChecking ? "확인 처리 중..." : "확인 처리"}
                   </button>
@@ -1444,9 +1477,19 @@ function AdminOrderCard({ order, currentUser, onSaveSuccess, highlight }) {
                   type="button"
                   className="btn-admin-order-save" 
                   onClick={handleSave} 
-                  disabled={isSaving || isChecking}
+                  disabled={isSaving || isChecking || isDeleting}
                 >
                   {isSaving ? "상태 저장 중..." : "상태 및 메모 저장"}
+                </button>
+                <button
+                  type="button"
+                  className="btn-admin-order-delete"
+                  onClick={handleDelete}
+                  disabled={isSaving || isChecking || isDeleting}
+                  title="주문 삭제"
+                >
+                  <Trash2 size={14} />
+                  <span>{isDeleting ? "삭제 중..." : "주문 삭제"}</span>
                 </button>
               </div>
             </div>

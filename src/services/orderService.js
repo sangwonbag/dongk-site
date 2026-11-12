@@ -1335,3 +1335,42 @@ export const sanitizeOrderForCustomer = (order) => {
   return mapped;
 };
 
+/**
+ * 관리자용 주문 삭제 (order_items 선행 삭제 후 orders 삭제)
+ * @param {string} orderId
+ * @returns {Promise<string>} 삭제된 주문 ID
+ */
+export const deleteOrder = async (orderId) => {
+  if (!orderId) {
+    throw new Error("삭제할 주문 ID가 필요합니다.");
+  }
+  if (!supabase) {
+    throw new Error("데이터베이스 연결이 설정되지 않았습니다.");
+  }
+
+  // 1. 하위 주문 품목(order_items) 삭제
+  const { error: itemsError } = await withTimeout(
+    supabase.from('order_items').delete().eq('order_id', orderId),
+    10000,
+    '주문 품목 삭제'
+  );
+  if (itemsError) {
+    handleSupabaseError(itemsError, '주문 품목 삭제 실패');
+  }
+
+  // 2. 주문 본문(orders) 삭제 (.select('id')로 실제 삭제 여부 검증)
+  const { data: deletedRows, error: orderError } = await withTimeout(
+    supabase.from('orders').delete().eq('id', orderId).select('id'),
+    10000,
+    '주문 삭제'
+  );
+  if (orderError) {
+    handleSupabaseError(orderError, '주문 삭제 실패');
+  }
+  if (!deletedRows || deletedRows.length === 0) {
+    throw new Error("주문을 삭제할 권한이 없거나 이미 삭제된 주문입니다.");
+  }
+
+  return orderId;
+};
+

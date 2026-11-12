@@ -656,6 +656,43 @@
   cursor: not-allowed;
 }
 
+.admin-actions-row .btn-admin-order-save {
+  flex: 1;
+  width: auto;
+}
+
+.btn-admin-order-delete {
+  height: 40px;
+  padding: 0 14px;
+  background-color: #fff5f5;
+  color: #dc2626;
+  border: 1px solid #fecaca;
+  border-radius: var(--radius-md);
+  font-size: 13px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: var(--transition);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+
+.btn-admin-order-delete:hover {
+  background-color: #dc2626;
+  color: #ffffff;
+  border-color: #dc2626;
+}
+
+.btn-admin-order-delete:disabled {
+  background-color: var(--border);
+  color: var(--text-light);
+  border-color: var(--border);
+  cursor: not-allowed;
+}
+
 /* Copy and layout helpers */
 .admin-order-card-v2.unchecked-highlight {
   border-left: 4px solid var(--point-gold);
