@@ -1,4 +1,4 @@
-import React, { useState, memo, useMemo, useCallback } from 'react';
+import React, { useState, useEffect, memo, useMemo, useCallback } from 'react';
 import { Link } from 'react-router-dom';
 import { MapPin, Box, Calendar, Edit2, Eye, EyeOff, ArrowUpRight, ZoomIn } from 'lucide-react';
 import { getCaseImageUrl, getCaseImageSrcSet } from '../../utils/caseImageUtils';
@@ -16,6 +16,11 @@ function CaseCardComponent({
 }) {
   const [imageLoaded, setImageLoaded] = useState(false);
   const [imageError, setImageError] = useState(false);
+
+  useEffect(() => {
+    setImageLoaded(false);
+    setImageError(false);
+  }, [item.main_image_url]);
 
   const isFirst = index === 0;
   const mainThumbUrl = useMemo(() => getCaseImageUrl(item.main_image_url, '800'), [item.main_image_url]);

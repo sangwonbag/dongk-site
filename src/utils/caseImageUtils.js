@@ -24,8 +24,13 @@ export function getCaseImageUrl(rawUrl, size = '800') {
   const caseMatch = cleanUrl.match(/\/images\/시공사례\/(.+?)\/([^/]+?)\.(jpe?g|png|webp)$/i);
   if (caseMatch) {
     let [, folderName, baseName] = caseMatch;
-    // Normalize legacy 4-digit year folder names (e.g. 2025.07.14 -> 25.07.14, 2026.11.11 -> 26.11.11)
+    // Normalize legacy folder names (e.g. 2025.07.14 -> 25.07.14, 2026.11.11 -> 26.11.11, or missing year prefixes)
     folderName = folderName.replace(/^20(2[56]\.)/, '$1');
+    if (/^11\.11\b/.test(folderName)) {
+      folderName = '26.' + folderName;
+    } else if (/^0[78]\./.test(folderName)) {
+      folderName = '25.' + folderName;
+    }
 
     let variant = 'thumb-800';
     if (size === '400' || size === 'thumb') variant = 'thumb-400';
