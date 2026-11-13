@@ -93,7 +93,7 @@ export default function Checkout() {
   const [deliveryMethod, setDeliveryMethod] = useState(() => {
     return sessionStorage.getItem("checkout_delivery_method") || "cargo";
   });
-  // 부자재는 기존 전체 숨김 정책을 유지하되 자가수령 주문에서만 주문 품목에 합산한다.
+  // 부자재는 전체 상품목록에는 숨기고 사무실 직접수령(pickup) 주문에서만 합산한다.
   const checkoutItems = useMemo(() => deliveryMethod === "pickup"
     ? [...baseCheckoutItems, ...pickupAccessoryItems]
     : baseCheckoutItems, [baseCheckoutItems, pickupAccessoryItems, deliveryMethod]);
@@ -606,7 +606,7 @@ export default function Checkout() {
         deliveryFee = "착불 (거리비례)";
         deliveryFeeStatus = "cod";
       } else if (deliveryMethod === "pickup") {
-        deliveryLabel = "직접 수령";
+        deliveryLabel = "사무실 직접수령";
         deliveryFee = "0원";
         deliveryFeeStatus = "free";
       }
@@ -994,7 +994,7 @@ export default function Checkout() {
                 </div>
 
                 <div className="form-group-checkout">
-                  <label htmlFor="customer_address">배송주소 {deliveryMethod === "pickup" ? <span className="opt">(자가수령 시 입력 불필요)</span> : <span className="req">*</span>}</label>
+                  <label htmlFor="customer_address">배송주소 {deliveryMethod === "pickup" ? <span className="opt">(사무실 직접수령 시 입력 불필요)</span> : <span className="req">*</span>}</label>
                   <div className="checkout-address-search-row">
                     <input
                       id="customer_address"
@@ -1340,10 +1340,10 @@ export default function Checkout() {
             </div>
 
 
-            {/* 자가수령 전용 부자재 선택 — 일반 상품목록과 일반 배송 부자재 숨김 정책은 그대로 유지 */}
+            {/* 사무실 직접 수령 전용 부자재 선택 — 일반 상품목록과 일반 배송 부자재 숨김 정책 유지 */}
             {deliveryMethod === "pickup" && (
-              <section className="accessory-recommendation-card pickup-accessories" aria-label="자가수령 부자재 추가">
-                <h3>4. 자가수령 부자재 추가 <span className="opt">(선택)</span></h3>
+              <section className="accessory-recommendation-card pickup-accessories" aria-label="사무실 직접수령 부자재 추가">
+                <h3>4. 사무실 직접수령 부자재 추가 <span className="opt">(선택)</span></h3>
                 <p className="pickup-accessory-hint">본드·분리대·수지마감재·실리콘 등 필요한 부자재를 골라 수량을 선택하세요.</p>
                 <label htmlFor="pickup-accessory-search" className="pickup-accessory-search-label">부자재 검색</label>
                 <input id="pickup-accessory-search" className="pickup-accessory-search" type="search"
