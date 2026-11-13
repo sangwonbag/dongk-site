@@ -748,9 +748,10 @@
 
 .consult-cards-grid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(2, 1fr);
+  max-width: 640px;
+  margin: 0 auto 30px;
   gap: 16px;
-  margin-bottom: 30px;
 }
 
 .consult-card {
@@ -898,15 +899,6 @@
 
 .btn-detail-phone:hover {
   background-color: var(--primary-hover);
-}
-
-.btn-detail-kakao {
-  background-color: #FEE500;
-  color: #191919 !important;
-}
-
-.btn-detail-kakao:hover {
-  background-color: #FADA0A;
 }
 
 .btn-detail-map {

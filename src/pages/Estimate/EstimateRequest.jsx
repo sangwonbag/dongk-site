@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { useNavigate, useLocation, useSearchParams } from 'react-router-dom';
 import MainLayout from '../../components/layout/MainLayout';
-import { KAKAO_CHAT_URL, OFFICE_PHONE, OFFICE_ADDRESS, NAVER_MAP_URL } from '../../constants/contact';
+import { OFFICE_PHONE, OFFICE_ADDRESS, NAVER_MAP_URL } from '../../constants/contact';
 import { useEstimateCart } from '../../contexts/EstimateCartContext';
 import { useAuth } from '../../contexts/AuthContext';
 import { 
@@ -10,7 +10,6 @@ import {
   Minus, 
   CheckCircle, 
   Phone, 
-  MessageSquare, 
   MapPin, 
   FileText, 
   X, 
@@ -37,7 +36,7 @@ import './EstimateRequest.css';
 const ACCESSORY_OPTIONS = ['걸레받이', '본드', '실리콘', '논슬립', '마감재', '문턱/재료분리대'];
 const SITE_TYPES = ['아파트', '빌라', '상가', '사무실', '병원/학원', '공장', '기타'];
 const WORK_TYPES = ['시공', '철거만', '철거 후 시공', '상담 후 결정'];
-const CONSULTATION_TYPES = ['전화 상담', '카카오톡 1:1 상담', '방문 상담'];
+const CONSULTATION_TYPES = ['전화 상담', '방문 상담'];
 const DEMOLITION_OPTIONS = [
   '상담 후 결정',
   '철거 필요 (시공 전 기존 바닥 철거)',
@@ -302,16 +301,16 @@ export default function EstimateRequest() {
 
   // Backward compatibility: Map consultation names
   useEffect(() => {
-    if (customer.consultation === '문자 상담' || customer.consultation === '카카오톡 상담') {
-      setCustomer(prev => ({ ...prev, consultation: '카카오톡 1:1 상담' }));
+    if (customer.consultation === '문자 상담' || customer.consultation === '카카오톡 상담' || customer.consultation === '카카오톡 1:1 상담') {
+      setCustomer(prev => ({ ...prev, consultation: '전화 상담' }));
     }
   }, [customer.consultation]);
 
   useEffect(() => {
     if (submitSuccess) {
       let initialTab = customer.consultation;
-      if (initialTab === '문자 상담' || initialTab === '카카오톡 상담') {
-        initialTab = '카카오톡 1:1 상담';
+      if (initialTab === '문자 상담' || initialTab === '카카오톡 상담' || initialTab === '카카오톡 1:1 상담') {
+        initialTab = '전화 상담';
       }
       setActiveTab(initialTab || '전화 상담');
     }
@@ -508,7 +507,7 @@ export default function EstimateRequest() {
         }
       }
 
-      const mappedConsultation = customer.consultation === '문자 상담' ? '카카오톡 1:1 상담' : customer.consultation;
+      const mappedConsultation = (customer.consultation === '문자 상담' || customer.consultation === '카카오톡 상담' || customer.consultation === '카카오톡 1:1 상담') ? '전화 상담' : (customer.consultation || '전화 상담');
 
       let extraDetails = [];
       if (mappedConsultation) extraDetails.push(`[상담 방식: ${mappedConsultation}]`);
@@ -631,19 +630,6 @@ export default function EstimateRequest() {
               </div>
 
               <div 
-                className={`consult-card ${activeTab === '카카오톡 1:1 상담' ? 'active' : ''}`}
-                onClick={() => setActiveTab('카카오톡 1:1 상담')}
-                tabIndex={0}
-                onKeyDown={(e) => { if (e.key === 'Enter' || e.key === ' ') setActiveTab('카카오톡 1:1 상담'); }}
-                role="button"
-                aria-pressed={activeTab === '카카오톡 1:1 상담'}
-              >
-                <MessageSquare className="card-icon" size={24} />
-                <span className="consult-card-title">카카오톡 1:1 상담</span>
-                <span className="consult-card-desc">실시간 메신저 채팅 상담</span>
-              </div>
-
-              <div 
                 className={`consult-card ${activeTab === '방문 상담' ? 'active' : ''}`}
                 onClick={() => setActiveTab('방문 상담')}
                 tabIndex={0}
@@ -676,38 +662,6 @@ export default function EstimateRequest() {
                   <div className="details-action-buttons">
                     <a href={`tel:${OFFICE_PHONE}`} className="btn-detail-phone">
                       📞 동경바닥재 전화하기
-                    </a>
-                  </div>
-                </>
-              )}
-
-              {activeTab === '카카오톡 1:1 상담' && (
-                <>
-                  <div className="details-header">
-                    <div className="details-title-row">
-                      <MessageSquare size={20} color="#FEE500" style={{ fill: '#FEE500' }} />
-                      <h4>카카오톡 1:1 상담</h4>
-                    </div>
-                    <p className="details-desc">접수된 견적문의 내용을 바탕으로 카카오톡에서 빠르게 상담받으실 수 있습니다.</p>
-                  </div>
-                  <ul className="details-content-list">
-                    <li className="details-content-item">
-                      <span className="label">채널명</span>
-                      <span className="value">동경바닥재</span>
-                    </li>
-                    <li className="details-content-item">
-                      <span className="label">채널 주소</span>
-                      <span className="value">{KAKAO_CHAT_URL}</span>
-                    </li>
-                  </ul>
-                  <div className="details-action-buttons">
-                    <a 
-                      href={KAKAO_CHAT_URL} 
-                      target="_blank" 
-                      rel="noopener noreferrer" 
-                      className="btn-detail-kakao"
-                    >
-                      💬 카카오톡 1:1 상담 바로가기
                     </a>
                   </div>
                 </>

@@ -97,14 +97,9 @@ export const createEstimateInquiry = async (payload) => {
       phone: payload.phone,
       email: payload.email || null,
       address: [payload.site_address, payload.site_detail_address].filter(Boolean).join(' '),
+      area: payload.area_pyeong ? `${payload.area_pyeong}평` : null,
+      inquiry_type: '견적문의',
       message: formattedMsg,
-      inquiry_details: JSON.stringify({
-        ...payload,
-        user_id: userId,
-        selected_items: itemsToInsert
-      }),
-      product_name: itemsToInsert.map(i => i.product_name).join(', ') || '자재 미지정',
-      product_code: itemsToInsert.map(i => i.product_code).filter(Boolean).join(', ') || null,
       status: 'new',
       created_at: new Date().toISOString()
     };
