@@ -107,39 +107,37 @@ export default function AdminConstructionCases() {
   };
 
   const handleImageUpload = async (e, type = 'main') => {
-    const file = e.target.files[0];
-    if (!file) return;
+    const files = Array.from(e.target.files || []);
+    if (files.length === 0) return;
 
     setUploading(true);
     try {
       if (!supabase) throw new Error('Supabase client is not initialized.');
-      
-      const fileExt = file.name.split('.').pop();
-      const fileName = `${Date.now()}_${Math.random().toString(36).substring(7)}.${fileExt}`;
-      const filePath = `cases/${fileName}`;
 
-      // Upload to bucket 'construction-cases'
-      const { error: uploadError } = await supabase.storage
-        .from('construction-cases')
-        .upload(filePath, file, { cacheControl: '3600', upsert: true });
-
-      if (uploadError) throw uploadError;
-
-      // Get public URL
-      const { data: { publicUrl } } = supabase.storage
-        .from('construction-cases')
-        .getPublicUrl(filePath);
-
+      const uploadedUrls = [];
+      for (const file of (type === 'main' ? files.slice(0, 1) : files)) {
+        if (!file.type.startsWith('image/')) throw new Error('이미지 파일만 업로드할 수 있습니다.');
+        const fileExt = file.name.split('.').pop()?.toLowerCase() || 'jpg';
+        const fileName = `${Date.now()}_${Math.random().toString(36).substring(2, 10)}.${fileExt}`;
+        const filePath = `cases/${fileName}`;
+        const { error: uploadError } = await supabase.storage
+          .from('construction-cases')
+          .upload(filePath, file, { cacheControl: '3600', upsert: false, contentType: file.type });
+        if (uploadError) throw uploadError;
+        const { data } = supabase.storage.from('construction-cases').getPublicUrl(filePath);
+        uploadedUrls.push(data.publicUrl);
+      }
       if (type === 'main') {
-        setMainImageUrl(publicUrl);
+        setMainImageUrl(uploadedUrls[0]);
       } else {
-        setImageUrls(prev => [...prev, publicUrl]);
+        setImageUrls(prev => [...prev, ...uploadedUrls]);
       }
     } catch (err) {
       console.error('[Upload Error]', err);
       alert('이미지 업로드에 실패했습니다: ' + err.message);
     } finally {
       setUploading(false);
+      e.target.value = '';
     }
   };
 
@@ -534,7 +532,7 @@ export default function AdminConstructionCases() {
                           <span>추가</span>
                           <input
                             type="file"
-                            accept="image/*"
+                            accept="image/*"\n                            multiple
                             onChange={(e) => handleImageUpload(e, 'gallery')}
                             style={{ display: 'none' }}
                             disabled={uploading}
