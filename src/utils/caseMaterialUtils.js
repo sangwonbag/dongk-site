@@ -123,7 +123,7 @@ export function resolveCaseMaterialLinks(caseItem) {
   if (caseItem.products && (caseItem.products.slug || caseItem.products.id)) {
     const p = caseItem.products;
     const directSlug = p.slug;
-    
+
     // Fast O(1) indexed lookup in materials
     const matched = (directSlug && materialById.get(directSlug.toLowerCase())) ||
       (p.product_code && materialByCode.get(p.product_code.replace(/[-\s]/g, '').toUpperCase()));
@@ -187,7 +187,7 @@ export async function findSupabaseProductId(supabaseClient, material) {
   try {
     const rawCode = (material.code || '').trim();
     const cleanCode = rawCode.replace(/\s+/g, '');
-    
+
     // 1. Try exact product_code match
     if (cleanCode) {
       const { data } = await supabaseClient
