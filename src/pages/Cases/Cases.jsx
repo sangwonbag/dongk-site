@@ -7,50 +7,6 @@ import { MapPin, Box, Calendar, Edit2, Trash2, Eye, EyeOff } from 'lucide-react'
 import SEO from '../../components/seo/SEO';
 import './Cases.css';
 
-// Curated fallback portfolio cases
-const STATIC_PROJECTS = [
-  {
-    id: 1,
-    title: "마포구 아파트 거실 장판 시공",
-    category: "주거공간",
-    location: "마포구 아파트",
-    material_summary: "LX하우시스 지아자연애 2.2T",
-    description: "거실 및 방 전면 친환경 지아자연애 장판 시공으로 따뜻하고 정갈한 실내 분위기를 완성했습니다.",
-    main_image_url: "/images/home-interior/korea-apt-living-01.png",
-    constructed_at: "2026-03-12"
-  },
-  {
-    id: 2,
-    title: "강남구 오피스 카페트타일 시공",
-    category: "사무공간",
-    location: "강남구 테헤란로 빌딩",
-    material_summary: "스완카페트 고급 롤/타일 카페트",
-    description: "회의실 및 개방형 사무실 전체에 흡음과 보온성이 우수한 스완 카페트타일을 정밀 재단 시공했습니다.",
-    main_image_url: "/images/home-interior/korea-office-01.png",
-    constructed_at: "2026-04-18"
-  },
-  {
-    id: 3,
-    title: "성동구 매장 데코타일 시공",
-    category: "상업공간",
-    location: "성동구 성수동 쇼룸",
-    material_summary: "녹수 프리미엄 스톤 데코타일",
-    description: "유동인구가 많은 쇼룸 전시실과 로비에 내구성이 우수한 녹수 스톤 데코타일을 시공하여 모던하고 감각적인 바닥을 완성했습니다.",
-    main_image_url: "/images/home-interior/korea-store-01.png",
-    constructed_at: "2026-05-02"
-  },
-  {
-    id: 4,
-    title: "용산구 주거공간 벽지 시공",
-    category: "주거공간",
-    location: "용산구 주택",
-    material_summary: "개나리 로하스 실크 벽지 (에비뉴 화이트)",
-    description: "침실 3개소의 노후된 벽면을 걷어내고 실크 화이트 톤의 개나리 벽지를 도배하여 모던 화이트 홈 스타일을 구현했습니다.",
-    main_image_url: "/images/home-interior/korea-bedroom-01.png",
-    constructed_at: "2026-05-20"
-  }
-];
-
 export default function Cases() {
   const navigate = useNavigate();
   const [searchParams, setSearchParams] = useSearchParams();
@@ -92,15 +48,10 @@ export default function Cases() {
 
       if (error) throw error;
 
-      if (data && data.length > 0) {
-        setCasesList(data);
-      } else {
-        // Use fallback
-        setCasesList(STATIC_PROJECTS);
-      }
+      setCasesList(data || []);
     } catch (err) {
-      console.warn('[Cases] Failed to fetch from Supabase. Falling back to static data.', err);
-      setCasesList(STATIC_PROJECTS);
+      console.error('[Cases] Failed to fetch construction cases.', err);
+      setCasesList([]);
     } finally {
       setLoading(false);
     }
@@ -220,6 +171,7 @@ export default function Cases() {
                     src={item.main_image_url || "/images/no-image.svg"}
                     alt={item.title}
                     className="case-image"
+                    loading="lazy"
                     onError={(e) => {
                       e.target.onerror = null;
                       e.target.src = "/images/no-image.svg";
@@ -231,6 +183,15 @@ export default function Cases() {
                 <div className="case-body-info">
                   <h3 className="case-title-text">{item.title}</h3>
                   {item.description && <p className="case-desc-text">{item.description}</p>}
+                  {Array.isArray(item.image_urls) && item.image_urls.length > 0 && (
+                    <div className="case-gallery" aria-label={`${item.title} 현장 사진`}>
+                      {item.image_urls.map((url, index) => (
+                        <a href={url} target="_blank" rel="noopener noreferrer" key={`${url}-${index}`} aria-label={`현장 사진 ${index + 1} 크게 보기`}>
+                          <img src={url} alt={`${item.title} 현장 사진 ${index + 1}`} loading="lazy" />
+                        </a>
+                      ))}
+                    </div>
+                  )}
                   
                   <div className="case-specs-list">
                     {item.location && (
