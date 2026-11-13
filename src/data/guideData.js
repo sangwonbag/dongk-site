@@ -215,6 +215,8 @@ export const GUIDE_ARTICLES = {
       }
     ],
     relatedCategory: "장판",
+    preferredBrand: "LX하우시스",
+    recommendedCodes: ["CM24711", "ZJ32981-11", "50011", "ZS80071-11", "XCFS011", "EH12071"],
     faqs: ALL_GUIDE_FAQS.filter(f => f.category === "기본" || f.category === "마루"),
     schemaOrg: {
       type: "Article",
@@ -291,6 +293,8 @@ export const GUIDE_ARTICLES = {
       }
     ],
     relatedCategory: "장판",
+    preferredBrand: "LX하우시스",
+    recommendedCodes: ["CM24711", "EH12071", "ZJ32981-11", "50011", "ZS80071-11", "XCFS011"],
     faqs: ALL_GUIDE_FAQS.filter(f => f.category === "비용" || f.category === "수량")
   },
 
@@ -318,6 +322,8 @@ export const GUIDE_ARTICLES = {
       }
     ],
     relatedCategory: "장판",
+    preferredBrand: "LX하우시스",
+    recommendedCodes: ["ZJ32981-11", "ZJ43601-22", "50011", "60071", "ZS80071-11", "ZS83081-11"],
     faqs: ALL_GUIDE_FAQS.filter(f => f.category === "기본" || f.category === "장판")
   },
 
@@ -372,6 +378,8 @@ export const GUIDE_ARTICLES = {
       }
     ],
     relatedCategory: "장판",
+    preferredBrand: "LX하우시스",
+    recommendedCodes: ["50011", "60071", "64281", "ZS80071-11", "ZS83081-11", "XCFS011"],
     faqs: ALL_GUIDE_FAQS.filter(f => f.category === "장판" || f.category === "기본")
   },
 
@@ -403,6 +411,8 @@ export const GUIDE_ARTICLES = {
       }
     ],
     relatedCategory: "장판",
+    preferredBrand: "LX하우시스",
+    recommendedCodes: ["CM24711", "EH12071", "ZJ32981-11", "50011", "ZS80071-11", "XCFS011"],
     faqs: ALL_GUIDE_FAQS.filter(f => f.category === "장판")
   },
 

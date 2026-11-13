@@ -31,16 +31,57 @@ export default function GuideDetail() {
         setLoadingProducts(true);
         const all = await fetchAllProducts();
         const categoryTarget = article.relatedCategory;
-        const matched = all.filter(p => {
+        const preferredBrand = article.preferredBrand || (categoryTarget === "장판" ? "LX" : null);
+        const recommendedCodes = Array.isArray(article.recommendedCodes) ? article.recommendedCodes : [];
+
+        // 1. Strict filter: Exclude Hyundai from guide recommendations as requested
+        const categoryProducts = all.filter(p => {
           if (!p.category) return false;
+          const b = (p.brand || '').toLowerCase();
+          if (b.includes('현대')) return false;
+
           if (categoryTarget === "마루" || categoryTarget === "강마루") {
             return p.category.includes("마루") || p.category.includes("강마루");
           }
           return p.category.includes(categoryTarget);
         });
 
+        let finalProducts = [];
+
+        // 2. Pick explicitly curated products by code if defined
+        if (recommendedCodes.length > 0) {
+          for (const code of recommendedCodes) {
+            const found = categoryProducts.find(p => {
+              const c = (p.product_code || p.code || '').toUpperCase();
+              return c.includes(code.toUpperCase());
+            });
+            if (found && !finalProducts.some(p => p.id === found.id)) {
+              finalProducts.push(found);
+            }
+          }
+        }
+
+        // 3. Fill remaining slots prioritizing preferred brand (LX for 장판)
+        if (finalProducts.length < 6) {
+          const existingIds = new Set(finalProducts.map(p => p.id));
+          const remaining = categoryProducts.filter(p => !existingIds.has(p.id));
+
+          remaining.sort((a, b) => {
+            const brandA = (a.brand || '').toLowerCase();
+            const brandB = (b.brand || '').toLowerCase();
+            const isPreferredA = preferredBrand ? (brandA.includes(preferredBrand.toLowerCase()) || (preferredBrand === 'LX' && brandA.includes('하우시스'))) : false;
+            const isPreferredB = preferredBrand ? (brandB.includes(preferredBrand.toLowerCase()) || (preferredBrand === 'LX' && brandB.includes('하우시스'))) : false;
+
+            if (isPreferredA && !isPreferredB) return -1;
+            if (!isPreferredA && isPreferredB) return 1;
+            return 0;
+          });
+
+          finalProducts = finalProducts.concat(remaining.slice(0, 6 - finalProducts.length));
+        }
+
         if (isMounted) {
-          setProducts(matched.slice(0, 6)); // Display top 6 matching live products
+          setProducts(finalProducts);
           setLoadingProducts(false);
         }
       } catch (err) {
