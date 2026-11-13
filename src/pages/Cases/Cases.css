@@ -405,3 +405,36 @@
     }
 }
 
+
+/* Real job-site photo gallery: responsive, accessible full-size image links */
+.case-gallery {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 8px;
+  margin: 16px 0;
+}
+.case-gallery a {
+  display: block;
+  overflow: hidden;
+  border-radius: 8px;
+  background: #f3f3f3;
+  aspect-ratio: 4 / 3;
+}
+.case-gallery img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  transition: transform 180ms ease;
+}
+.case-gallery a:hover img,
+.case-gallery a:focus-visible img {
+  transform: scale(1.045);
+}
+.case-gallery a:focus-visible {
+  outline: 2px solid #b3925f;
+  outline-offset: 2px;
+}
+@media (max-width: 640px) {
+  .case-gallery { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+}
