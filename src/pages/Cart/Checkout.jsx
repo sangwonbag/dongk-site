@@ -37,16 +37,14 @@ export default function Checkout() {
     clearCart, 
     getPendingDirectOrder, 
     removePendingDirectOrder,
-    addToCart,
-    removeFromCart,
-    updateQuantity
   } = useEstimateCart();
   const { user, loading: authLoading, openLoginModal } = useAuth();
 
   const hasAutoOpened = useRef(false);
 
   // 바로구매용 임시 품목 상태 결정
-  const [checkoutItems, setCheckoutItems] = useState([]);
+  const [baseCheckoutItems, setBaseCheckoutItems] = useState([]);
+  const [pickupAccessoryItems, setPickupAccessoryItems] = useState([]);
   const [isDirectOrder, setIsDirectOrder] = useState(false);
 
   // 주문자 입력 정보
@@ -88,11 +86,19 @@ export default function Checkout() {
   const [allDbProducts, setAllDbProducts] = useState([]);
   const [showAllAccessories, setShowAllAccessories] = useState(false);
   const [accessoryQuantities, setAccessoryQuantities] = useState({});
+  const [accessorySearch, setAccessorySearch] = useState("");
+  const [customAccessoryName, setCustomAccessoryName] = useState("");
+  const [customAccessoryQuantity, setCustomAccessoryQuantity] = useState(1);
+  const [customAccessoryUnit, setCustomAccessoryUnit] = useState("개");
   
   // sessionStorage-backed states for persistence on refresh
   const [deliveryMethod, setDeliveryMethod] = useState(() => {
     return sessionStorage.getItem("checkout_delivery_method") || "cargo";
   });
+  // 부자재는 기존 전체 숨김 정책을 유지하되 자가수령 주문에서만 주문 품목에 합산한다.
+  const checkoutItems = useMemo(() => deliveryMethod === "pickup"
+    ? [...baseCheckoutItems, ...pickupAccessoryItems]
+    : baseCheckoutItems, [baseCheckoutItems, pickupAccessoryItems, deliveryMethod]);
   const [freightBranch, setFreightBranch] = useState(() => {
     const saved = sessionStorage.getItem("checkout_freight_branch");
     return saved ? JSON.parse(saved) : { name: "", address: "", phone: "" };
@@ -197,7 +203,7 @@ export default function Checkout() {
   const allAccessories = useMemo(() => {
     return allDbProducts.filter(p => {
       const catName = p.category || (p.categories && p.categories.name) || "";
-      return catName === "부자재" && p.active;
+      return isSubMaterialCategory(catName) && p.active !== false;
     }).sort((a, b) => (a.sort_order || 999) - (b.sort_order || 999));
   }, [allDbProducts]);
 
@@ -231,65 +237,75 @@ export default function Checkout() {
       recommendedSlugs.add('sub-carpet-separator');
     }
 
-    return allAccessories.filter(p => recommendedSlugs.has(p.id) || recommendedSlugs.has(p.slug) || recommendedSlugs.has(p.code));
+    // 부자재 상품코드와 관계없이 본드·분리대·수지마감재를 주요 품목으로 표시한다.
+    return allAccessories.filter(p => /본드|분리대|수지|마감재|실리콘|논슬립/.test(p.name || "") ||
+      recommendedSlugs.has(p.id) || recommendedSlugs.has(p.slug) || recommendedSlugs.has(p.code));
   }, [allAccessories, checkoutItems]);
 
-  const handleUpdateAccessoryQty = (id, newQty, inCart) => {
-    if (newQty < 1) return;
-    
+  const handleUpdateAccessoryQty = (id, nextQty, inCart) => {
+    const quantity = Number(nextQty);
+    if (!Number.isSafeInteger(quantity) || quantity < 1 || quantity > 9999) return;
     if (inCart) {
-      if (isDirectOrder) {
-        setCheckoutItems(prev => prev.map(item => 
-          (item.id === id || item.product_id === id)
-            ? { ...item, quantity: newQty, amount: (item.price || item.unit_price) * newQty }
-            : item
-        ));
-      } else {
-        updateQuantity(id, newQty);
-      }
+      setPickupAccessoryItems(prev => prev.map(item =>
+        item.id === id ? { ...item, quantity, amount: Number(item.price) * quantity } : item
+      ));
     } else {
-      setAccessoryQuantities(prev => ({ ...prev, [id]: newQty }));
+      setAccessoryQuantities(prev => ({ ...prev, [id]: quantity }));
     }
   };
 
+  const addAccessoryRequest = (description) => {
+    const cleaned = String(description || "").trim();
+    if (!cleaned) return;
+    setCustomAccessories(prev => prev.includes(cleaned) ? prev : [...prev, cleaned]);
+  };
+
   const handleToggleAccessory = (product, qty, inCart) => {
+    if (deliveryMethod !== "pickup") return;
     if (inCart) {
-      if (isDirectOrder) {
-        setCheckoutItems(prev => prev.filter(item => item.id !== product.id && item.product_id !== product.id));
-      } else {
-        removeFromCart(product.id);
-      }
-    } else {
-      const price = parsePrice(product.price);
-      const itemToAdd = {
-        id: product.id,
-        product_id: product.product_id,
-        productId: product.product_id,
-        thumbnail: product.image_url || product.image || "/images/no-image.svg",
-        image: product.image_url || product.image || "/images/no-image.svg",
-        brand: product.brand?.name || product.brand || "부자재",
-        category: product.category?.name || product.category || "부자재",
-        line: "부자재",
-        name: product.name,
-        product_name: product.name,
-        code: product.product_code || product.code,
-        product_code: product.product_code || product.code,
-        spec: "표준규격",
-        packing: product.unit || "개",
-        price: price,
-        unit_price: price,
-        unit: product.unit || "개",
-        quantity: qty,
-        amount: price * qty
-      };
-      
-      if (isDirectOrder) {
-        setCheckoutItems(prev => [...prev, itemToAdd]);
-      } else {
-        addToCart(itemToAdd);
-        updateQuantity(product.id, qty);
-      }
+      setPickupAccessoryItems(prev => prev.filter(item => item.id !== product.id));
+      return;
     }
+    const price = parsePrice(product.price);
+    const quantity = Math.max(1, Math.min(9999, Number(qty) || 1));
+    const unit = getItemDisplayUnit(product);
+    if (price <= 0) {
+      // 가격 미등록 상품은 0원 주문을 만들지 않고 별도 확인 요청으로 전달한다.
+      addAccessoryRequest(product.name + " (" + quantity + unit + ")");
+      return;
+    }
+    const itemToAdd = {
+      id: product.id,
+      product_id: product.product_id || null,
+      productId: product.product_id || null,
+      thumbnail: product.thumbnail || product.image || "/images/no-image.svg",
+      image: product.image || product.thumbnail || "/images/no-image.svg",
+      brand: product.brand || "부자재",
+      category: "부자재",
+      line: "부자재",
+      name: product.name,
+      product_name: product.name,
+      code: product.code,
+      product_code: product.code,
+      spec: product.specs?.size || "",
+      packing: unit,
+      price,
+      unit_price: price,
+      unit,
+      quantity,
+      amount: price * quantity
+    };
+    setPickupAccessoryItems(prev => prev.some(item => item.id === itemToAdd.id) ? prev : [...prev, itemToAdd]);
+  };
+
+  const handleAddCustomAccessory = () => {
+    const name = customAccessoryName.trim();
+    const quantity = Number(customAccessoryQuantity);
+    if (!name || !Number.isSafeInteger(quantity) || quantity < 1 || quantity > 9999) return;
+    addAccessoryRequest(name + " (" + quantity + customAccessoryUnit + ")");
+    setCustomAccessoryName("");
+    setCustomAccessoryQuantity(1);
+    setCustomAccessoryUnit("개");
   };
 
   // Helper to parse price string/number cleanly
@@ -346,7 +362,7 @@ export default function Checkout() {
       return;
     }
 
-    setCheckoutItems(targetItems);
+    setBaseCheckoutItems(targetItems);
     setIsDirectOrder(isDirect);
 
     // 로그인하지 않은 사용자라면 로그인 유도 (인증 검사 완료 및 로컬 세션 확인 후)
@@ -522,7 +538,7 @@ export default function Checkout() {
       setErrorMsg("연락처를 입력해주세요.");
       return;
     }
-    if (!customer.address.trim()) {
+    if (deliveryMethod !== "pickup" && !customer.address.trim()) {
       setErrorMsg("배송주소를 입력해주세요.");
       return;
     }
@@ -599,16 +615,13 @@ export default function Checkout() {
       }
 
       // Check accessory recommendation shown/skipped
-      const hasDeco = checkoutItems.some(item => item.category === "데코타일");
-      const hasJangpan = checkoutItems.some(item => item.category === "장판");
-      const hasWallpaper = checkoutItems.some(item => item.category === "벽지");
-      const accShown = (hasDeco || hasJangpan || hasWallpaper);
-      const addedAccQty = checkoutItems.filter(item => item.category === "부자재").length;
+      const accShown = deliveryMethod === "pickup";
+      const addedAccQty = pickupAccessoryItems.length;
       const accSkipped = accShown && (addedAccQty === 0 && customAccessories.length === 0);
 
       // We append requested custom accessories to the final memo
       let customAccText = "";
-      if (customAccessories.length > 0) {
+      if (deliveryMethod === "pickup" && customAccessories.length > 0) {
         customAccText = `\n[상담요청 부자재] ${customAccessories.join(", ")}`;
       }
 
@@ -618,6 +631,8 @@ export default function Checkout() {
       // Assemble customer payload
       const orderPayloadCustomer = {
         ...customer,
+        address: deliveryMethod === "pickup" ? OFFICE_ADDRESS : customer.address,
+        address_detail: deliveryMethod === "pickup" ? "" : customer.address_detail,
         memo: finalMemo,
         
         // Shipping fields
@@ -625,7 +640,9 @@ export default function Checkout() {
         delivery_method_label: deliveryLabel,
         delivery_fee: deliveryFee,
         delivery_fee_status: deliveryFeeStatus,
-        shipping_address: `${customer.address} ${customer.address_detail || ""}`.trim(),
+        shipping_address: deliveryMethod === "pickup"
+          ? OFFICE_ADDRESS
+          : `${customer.address} ${customer.address_detail || ""}`.trim(),
         
         // Freight branch details
         freight_branch_name: isFreightDelivery ? (selectedFreightBranch.name || null) : null,
@@ -915,129 +932,9 @@ export default function Checkout() {
               </div>
             </div>
 
-            {/* [단계 2] 부자재 추천 영역 */}
-            {(() => {
-              const hasDeco = checkoutItems.some(item => item.category === "데코타일");
-              const hasJangpan = checkoutItems.some(item => item.category === "장판");
-              const hasWallpaper = checkoutItems.some(item => item.category === "벽지");
-              const hasCarpet = checkoutItems.some(item => item.category === "카페트타일");
-              const hasMaru = checkoutItems.some(item => item.category === "마루");
-
-              // 마루만 있는 경우에는 부자재 추천 확인 단계를 표시하지 않고 건너뜀
-              const onlyMaru = hasMaru && !hasDeco && !hasJangpan && !hasWallpaper && !hasCarpet;
-              const hasRecommendation = hasDeco || hasJangpan || hasCarpet;
-
-              if (HIDE_SUB_MATERIALS || !hasRecommendation || onlyMaru) return null;
-
-              const accessoriesToDisplay = showAllAccessories ? allAccessories : recommendedAccessories;
-
-              if (accessoriesToDisplay.length === 0) return null;
-
-              return (
-                <div className="accessory-recommendation-card">
-                  <h3>2. 부자재는 챙기셨나요?</h3>
-                  <p style={{ fontSize: '13px', color: 'var(--text-muted)', marginBottom: '20px' }}>
-                    시공에 필요한 부자재를 함께 확인하고 주문에 바로 추가해 보세요.
-                  </p>
-
-                  <div className="accessory-recommend-list" style={{ display: 'grid', gap: '16px', gridTemplateColumns: 'repeat(auto-fill, minmax(240px, 1fr))', marginBottom: '20px' }}>
-                    {accessoriesToDisplay.map(matched => {
-                      const inCart = checkoutItems.some(ci => ci.id === matched.id || ci.product_id === matched.id);
-                      const currentQtyInOrder = checkoutItems.find(ci => ci.id === matched.id || ci.product_id === matched.id)?.quantity;
-                      const qty = currentQtyInOrder !== undefined ? currentQtyInOrder : (accessoryQuantities[matched.id] || 1);
-
-                      return (
-                        <div key={matched.id} className="accessory-item-card" style={{ display: 'flex', flexDirection: 'column', padding: '16px', border: '1px solid #E6E2D8', borderRadius: 'var(--radius-md)', backgroundColor: '#FAF8F2', position: 'relative' }}>
-                          {inCart && (
-                            <span style={{ position: 'absolute', top: '10px', right: '10px', fontSize: '11px', fontWeight: 'bold', color: 'var(--accent-showroom-green)', backgroundColor: '#eef8f2', padding: '2px 6px', borderRadius: '4px' }}>
-                              추가됨
-                            </span>
-                          )}
-                          <div className="accessory-thumb-box" style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '140px', backgroundColor: '#fff', borderRadius: '4px', marginBottom: '12px', overflow: 'hidden' }}>
-                            <ImagePlaceholder text="이미지 준비중" subtext="" />
-                          </div>
-                          <strong className="accessory-item-name" style={{ fontSize: '14.5px', marginBottom: '4px' }}>{matched.name}</strong>
-                          <span className="accessory-item-price" style={{ fontSize: '13.5px', color: 'var(--text-light-gray)', marginBottom: '12px' }}>
-                            {matched.price?.toLocaleString()}원 / {matched.unit || "개"}
-                          </span>
-
-                          <div style={{ marginTop: 'auto', display: 'flex', flexDirection: 'column', gap: '8px' }}>
-                            {/* 수량 조절 버튼 */}
-                            <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', padding: '4px 8px', border: '1px solid #E6E2D8', borderRadius: '4px', background: '#fff' }}>
-                              <span style={{ fontSize: '12px', color: 'var(--text-muted)' }}>수량</span>
-                              <div style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
-                                <button 
-                                  type="button"
-                                  onClick={() => handleUpdateAccessoryQty(matched.id, qty - 1, inCart)}
-                                  style={{ width: '24px', height: '24px', border: '1px solid #E6E2D8', background: '#fff', borderRadius: '3px', cursor: 'pointer', fontWeight: 'bold' }}
-                                >
-                                  -
-                                </button>
-                                <span style={{ minWidth: '20px', textAlign: 'center', fontSize: '13px', fontWeight: '700' }}>{qty}</span>
-                                <button 
-                                  type="button"
-                                  onClick={() => handleUpdateAccessoryQty(matched.id, qty + 1, inCart)}
-                                  style={{ width: '24px', height: '24px', border: '1px solid #E6E2D8', background: '#fff', borderRadius: '3px', cursor: 'pointer', fontWeight: 'bold' }}
-                                >
-                                  +
-                                </button>
-                              </div>
-                            </div>
-
-                            {/* 추가/제거 버튼 */}
-                            <button 
-                              type="button"
-                              className={`btn-add-accessory-db ${inCart ? 'added' : ''}`}
-                              onClick={() => handleToggleAccessory(matched, qty, inCart)}
-                              style={{
-                                width: '100%',
-                                padding: '10px',
-                                fontSize: '13px',
-                                fontWeight: '700',
-                                border: '1px solid',
-                                borderRadius: '4px',
-                                cursor: 'pointer',
-                                backgroundColor: inCart ? '#fff' : 'var(--point-orange)',
-                                borderColor: inCart ? '#d2c9b6' : 'var(--point-orange)',
-                                color: inCart ? '#555' : '#fff',
-                                transition: 'all 0.2s ease'
-                              }}
-                            >
-                              {inCart ? "제거하기" : "추가하기"}
-                            </button>
-                          </div>
-                        </div>
-                      );
-                    })}
-                  </div>
-
-                  {/* 전체 부자재 보기 토글 */}
-                  <div style={{ textAlign: 'center', marginTop: '16px' }}>
-                    <button
-                      type="button"
-                      onClick={() => setShowAllAccessories(!showAllAccessories)}
-                      style={{
-                        padding: '8px 16px',
-                        fontSize: '13px',
-                        fontWeight: '600',
-                        border: '1px solid #E6E2D8',
-                        borderRadius: '20px',
-                        background: '#FAF8F2',
-                        color: '#555',
-                        cursor: 'pointer',
-                        transition: 'all 0.2s ease'
-                      }}
-                    >
-                      {showAllAccessories ? "추천 부자재만 보기" : "전체 부자재 보기"}
-                    </button>
-                  </div>
-                </div>
-              );
-            })()}
-
-            {/* [단계 3] 배송 정보 입력 */}
+            {/* [단계 2] 주문자 및 배송 정보 */}
             <div className="checkout-card">
-              <h3>3. 배송 정보 입력</h3>
+              <h3>2. 주문자 및 배송 정보</h3>
               
               {!user && (
                 <div className="non-member-banner">
@@ -1100,7 +997,7 @@ export default function Checkout() {
                 </div>
 
                 <div className="form-group-checkout">
-                  <label htmlFor="customer_address">배송주소 <span className="req">*</span></label>
+                  <label htmlFor="customer_address">배송주소 {deliveryMethod === "pickup" ? <span className="opt">(자가수령 시 입력 불필요)</span> : <span className="req">*</span>}</label>
                   <div className="checkout-address-search-row">
                     <input
                       id="customer_address"
@@ -1109,7 +1006,7 @@ export default function Checkout() {
                       value={customer.address}
                       onClick={handleAddressSearch}
                       readOnly
-                      required
+                      required={deliveryMethod !== "pickup"}
                     />
                     <button 
                       type="button" 
@@ -1134,7 +1031,7 @@ export default function Checkout() {
 
                 <div className="form-group-checkout-datetime">
                   <div className="datetime-field">
-                    <label htmlFor="customer_delivery_date">희망배송일 <span className="opt">(선택)</span></label>
+                    <label htmlFor="customer_delivery_date">{deliveryMethod === "pickup" ? "희망수령일" : "희망배송일"} <span className="opt">(선택)</span></label>
                     <input
                       id="customer_delivery_date"
                       type="date"
@@ -1247,9 +1144,9 @@ export default function Checkout() {
               </div>
             </div>
 
-            {/* [단계 4] 배송 방식 선택 */}
+            {/* [단계 3] 배송 방식 선택 */}
             <div className="checkout-card">
-              <h3>4. 배송 방식 선택</h3>
+              <h3>3. 배송 방식 선택</h3>
               <div className="delivery-methods-grid">
                 
                 {/* 무료배송 카드 */}
@@ -1445,9 +1342,89 @@ export default function Checkout() {
               )}
             </div>
 
+
+            {/* 자가수령 전용 부자재 선택 — 일반 상품목록과 일반 배송 부자재 숨김 정책은 그대로 유지 */}
+            {deliveryMethod === "pickup" && (
+              <section className="accessory-recommendation-card pickup-accessories" aria-label="자가수령 부자재 추가">
+                <h3>4. 자가수령 부자재 추가 <span className="opt">(선택)</span></h3>
+                <p className="pickup-accessory-hint">본드·분리대·수지마감재·실리콘 등 필요한 부자재를 골라 수량을 선택하세요.</p>
+                <label htmlFor="pickup-accessory-search" className="pickup-accessory-search-label">부자재 검색</label>
+                <input id="pickup-accessory-search" className="pickup-accessory-search" type="search"
+                  placeholder="예: 본드, 분리대, 수지마감재, 실리콘" value={accessorySearch}
+                  onChange={(e) => setAccessorySearch(e.target.value)} />
+                <div className="pickup-accessory-list">
+                  {(accessorySearch.trim()
+                    ? allAccessories.filter(p => (p.name + " " + (p.code || "")).toLowerCase().includes(accessorySearch.trim().toLowerCase()))
+                    : showAllAccessories || recommendedAccessories.length === 0 ? allAccessories : recommendedAccessories
+                  ).map(product => {
+                    const selected = pickupAccessoryItems.find(item => item.id === product.id);
+                    const inCart = Boolean(selected);
+                    const qty = selected ? selected.quantity : (accessoryQuantities[product.id] || 1);
+                    const price = parsePrice(product.price);
+                    const unit = getItemDisplayUnit(product);
+                    const priceUnknown = price <= 0;
+                    return (
+                      <div key={product.id} className={"pickup-accessory-row" + (inCart ? " selected" : "")}>
+                        <div className="pickup-accessory-description">
+                          <strong>{product.name}</strong>
+                          <span>{product.code ? "코드: " + product.code + " · " : ""}{priceUnknown ? "가격 확인 필요" : price.toLocaleString() + "원 / " + unit}</span>
+                        </div>
+                        <div className="pickup-accessory-actions">
+                          <div className="pickup-accessory-quantity">
+                            <button type="button" aria-label={product.name + " 수량 감소"} disabled={qty <= 1}
+                              onClick={() => handleUpdateAccessoryQty(product.id, qty - 1, inCart)}>−</button>
+                            <span aria-label={product.name + " 수량"}>{qty}{unit}</span>
+                            <button type="button" aria-label={product.name + " 수량 증가"} disabled={qty >= 9999}
+                              onClick={() => handleUpdateAccessoryQty(product.id, qty + 1, inCart)}>+</button>
+                          </div>
+                          <button type="button" className={"pickup-accessory-add" + (inCart ? " added" : "")}
+                            onClick={() => handleToggleAccessory(product, qty, inCart)}>
+                            {inCart ? "제거" : priceUnknown ? "확인 요청" : "추가"}
+                          </button>
+                        </div>
+                      </div>
+                    );
+                  })}
+                </div>
+                {allAccessories.length === 0 && <p className="pickup-accessory-empty">등록된 부자재가 없습니다. 아래에서 필요한 부자재를 요청해 주세요.</p>}
+                {accessorySearch.trim() && !allAccessories.some(p => (p.name + " " + (p.code || "")).toLowerCase().includes(accessorySearch.trim().toLowerCase())) &&
+                  <p className="pickup-accessory-empty">검색 결과가 없습니다. 아래에서 직접 요청할 수 있습니다.</p>}
+                {!accessorySearch.trim() && recommendedAccessories.length > 0 && allAccessories.length > recommendedAccessories.length &&
+                  <button type="button" className="pickup-accessory-show-all" onClick={() => setShowAllAccessories(prev => !prev)}>
+                    {showAllAccessories ? "주요 부자재만 보기" : "전체 부자재 보기 (" + allAccessories.length + "종)"}
+                  </button>}
+                <div className="pickup-custom-accessory">
+                  <label htmlFor="pickup-custom-name">목록에 없는 부자재 요청</label>
+                  <div className="pickup-custom-row">
+                    <input id="pickup-custom-name" type="text" placeholder="예: 수지마감재 (색상·규격 포함)"
+                      value={customAccessoryName} onChange={(e) => setCustomAccessoryName(e.target.value)}
+                      onKeyDown={(e) => { if (e.key === "Enter") { e.preventDefault(); handleAddCustomAccessory(); } }} />
+                    <input type="number" min="1" max="9999" step="1" aria-label="요청 수량"
+                      value={customAccessoryQuantity} onChange={(e) => setCustomAccessoryQuantity(e.target.value)} />
+                    <select aria-label="요청 단위" value={customAccessoryUnit} onChange={(e) => setCustomAccessoryUnit(e.target.value)}>
+                      {["개", "통", "본", "박스", "kg", "롤"].map(unit => <option key={unit} value={unit}>{unit}</option>)}
+                    </select>
+                    <button type="button" onClick={handleAddCustomAccessory} disabled={!customAccessoryName.trim()}>요청 추가</button>
+                  </div>
+                  {customAccessories.length > 0 && (
+                    <ul className="pickup-request-list">
+                      {customAccessories.map(description => (
+                        <li key={description}>
+                          <span>{description}</span>
+                          <button type="button" aria-label={description + " 요청 삭제"}
+                            onClick={() => setCustomAccessories(prev => prev.filter(item => item !== description))}>삭제</button>
+                        </li>
+                      ))}
+                    </ul>
+                  )}
+                  <p>가격 미등록 부자재는 주문 합계에 포함하지 않고 접수 후 별도 안내합니다.</p>
+                </div>
+              </section>
+            )}
+
             {/* [단계 5] 결제 방식 선택 */}
             <div className="checkout-card">
-              <h3>5. 결제 방식 선택</h3>
+              <h3>{deliveryMethod === "pickup" ? "5. 결제 방식 선택" : "4. 결제 방식 선택"}</h3>
               <div className="payment-method-selector">
                 <label className={`payment-option ${(paymentMethod === "계좌이체" || paymentMethod === "bank_transfer") ? "active" : ""}`}>
                   <input
