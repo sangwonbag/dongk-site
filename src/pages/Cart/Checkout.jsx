@@ -9,15 +9,13 @@ import { sendOrderNotification } from "../../services/notificationService";
 import { OFFICE_ADDRESS, OFFICE_PHONE } from "../../constants/contact";
 import { fetchAllProducts } from "../../utils/supabaseFetcher";
 import { formatFlooringProductName } from "../../utils/brandUtils";
-import { ImagePlaceholder } from "../../components/ui";
-import { getProductPyeong, calculateDecorTilePyeong } from "../../utils/shippingUtils";
+import { calculateDecorTilePyeong } from "../../utils/shippingUtils";
 import { isDecoTile } from "../../utils/decotileUtils";
 import { 
   isAccessoryItem, 
   isMaterialItem, 
   getItemDisplayUnit, 
   formatQuantityWithUnit,
-  getItemClassificationLabel 
 } from "../../utils/productClassification";
 import SEO from "../../components/seo/SEO";
 import { HIDE_SUB_MATERIALS, isSubMaterialCategory } from "../../config/categoryConfig";
@@ -495,7 +493,6 @@ export default function Checkout() {
     return materialTotalAmount + accessoryTotalAmount;
   };
 
-  const totalTypesCount = checkoutItems.length;
 
   // 주문 실행
   const handleOrderSubmit = async (e) => {
