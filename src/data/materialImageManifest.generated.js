@@ -1051,6 +1051,386 @@ export const imageManifest = [
     "imageType": "material"
   },
   {
+    "fileName": "B0071P.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/KCC/센스레이/B0071P.jpg",
+    "category": "데코타일",
+    "brand": "KCC",
+    "series": "센스레이",
+    "extractedCode": "B0071P",
+    "normalizedFileName": "b0071pjpg",
+    "imageType": "material"
+  },
+  {
+    "fileName": "B0072P.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/KCC/센스레이/B0072P.jpg",
+    "category": "데코타일",
+    "brand": "KCC",
+    "series": "센스레이",
+    "extractedCode": "B0072P",
+    "normalizedFileName": "b0072pjpg",
+    "imageType": "material"
+  },
+  {
+    "fileName": "B0081P.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/KCC/센스레이/B0081P.jpg",
+    "category": "데코타일",
+    "brand": "KCC",
+    "series": "센스레이",
+    "extractedCode": "B0081P",
+    "normalizedFileName": "b0081pjpg",
+    "imageType": "material"
+  },
+  {
+    "fileName": "B0082P.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/KCC/센스레이/B0082P.jpg",
+    "category": "데코타일",
+    "brand": "KCC",
+    "series": "센스레이",
+    "extractedCode": "B0082P",
+    "normalizedFileName": "b0082pjpg",
+    "imageType": "material"
+  },
+  {
+    "fileName": "B0091G.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/KCC/센스레이/B0091G.jpg",
+    "category": "데코타일",
+    "brand": "KCC",
+    "series": "센스레이",
+    "extractedCode": "B0091G",
+    "normalizedFileName": "b0091gjpg",
+    "imageType": "material"
+  },
+  {
+    "fileName": "B0091P.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/KCC/센스레이/B0091P.jpg",
+    "category": "데코타일",
+    "brand": "KCC",
+    "series": "센스레이",
+    "extractedCode": "B0091P",
+    "normalizedFileName": "b0091pjpg",
+    "imageType": "material"
+  },
+  {
+    "fileName": "B0092G.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/KCC/센스레이/B0092G.jpg",
+    "category": "데코타일",
+    "brand": "KCC",
+    "series": "센스레이",
+    "extractedCode": "B0092G",
+    "normalizedFileName": "b0092gjpg",
+    "imageType": "material"
+  },
+  {
+    "fileName": "B0092P.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/KCC/센스레이/B0092P.jpg",
+    "category": "데코타일",
+    "brand": "KCC",
+    "series": "센스레이",
+    "extractedCode": "B0092P",
+    "normalizedFileName": "b0092pjpg",
+    "imageType": "material"
+  },
+  {
+    "fileName": "B0093G.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/KCC/센스레이/B0093G.jpg",
+    "category": "데코타일",
+    "brand": "KCC",
+    "series": "센스레이",
+    "extractedCode": "B0093G",
+    "normalizedFileName": "b0093gjpg",
+    "imageType": "material"
+  },
+  {
+    "fileName": "B0093P.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/KCC/센스레이/B0093P.jpg",
+    "category": "데코타일",
+    "brand": "KCC",
+    "series": "센스레이",
+    "extractedCode": "B0093P",
+    "normalizedFileName": "b0093pjpg",
+    "imageType": "material"
+  },
+  {
+    "fileName": "B0101P.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/KCC/센스레이/B0101P.jpg",
+    "category": "데코타일",
+    "brand": "KCC",
+    "series": "센스레이",
+    "extractedCode": "B0101P",
+    "normalizedFileName": "b0101pjpg",
+    "imageType": "material"
+  },
+  {
+    "fileName": "B0102P.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/KCC/센스레이/B0102P.jpg",
+    "category": "데코타일",
+    "brand": "KCC",
+    "series": "센스레이",
+    "extractedCode": "B0102P",
+    "normalizedFileName": "b0102pjpg",
+    "imageType": "material"
+  },
+  {
+    "fileName": "B0111J.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/KCC/센스레이/B0111J.jpg",
+    "category": "데코타일",
+    "brand": "KCC",
+    "series": "센스레이",
+    "extractedCode": "B0111J",
+    "normalizedFileName": "b0111jjpg",
+    "imageType": "material"
+  },
+  {
+    "fileName": "B0112J.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/KCC/센스레이/B0112J.jpg",
+    "category": "데코타일",
+    "brand": "KCC",
+    "series": "센스레이",
+    "extractedCode": "B0112J",
+    "normalizedFileName": "b0112jjpg",
+    "imageType": "material"
+  },
+  {
+    "fileName": "B0113J.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/KCC/센스레이/B0113J.jpg",
+    "category": "데코타일",
+    "brand": "KCC",
+    "series": "센스레이",
+    "extractedCode": "B0113J",
+    "normalizedFileName": "b0113jjpg",
+    "imageType": "material"
+  },
+  {
+    "fileName": "B0121J.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/KCC/센스레이/B0121J.jpg",
+    "category": "데코타일",
+    "brand": "KCC",
+    "series": "센스레이",
+    "extractedCode": "B0121J",
+    "normalizedFileName": "b0121jjpg",
+    "imageType": "material"
+  },
+  {
+    "fileName": "B0122J.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/KCC/센스레이/B0122J.jpg",
+    "category": "데코타일",
+    "brand": "KCC",
+    "series": "센스레이",
+    "extractedCode": "B0122J",
+    "normalizedFileName": "b0122jjpg",
+    "imageType": "material"
+  },
+  {
+    "fileName": "B0131J.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/KCC/센스레이/B0131J.jpg",
+    "category": "데코타일",
+    "brand": "KCC",
+    "series": "센스레이",
+    "extractedCode": "B0131J",
+    "normalizedFileName": "b0131jjpg",
+    "imageType": "material"
+  },
+  {
+    "fileName": "B0132J.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/KCC/센스레이/B0132J.jpg",
+    "category": "데코타일",
+    "brand": "KCC",
+    "series": "센스레이",
+    "extractedCode": "B0132J",
+    "normalizedFileName": "b0132jjpg",
+    "imageType": "material"
+  },
+  {
+    "fileName": "B5001F.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/KCC/센스레이/B5001F.jpg",
+    "category": "데코타일",
+    "brand": "KCC",
+    "series": "센스레이",
+    "extractedCode": "B5001F",
+    "normalizedFileName": "b5001fjpg",
+    "imageType": "material"
+  },
+  {
+    "fileName": "B5002F.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/KCC/센스레이/B5002F.jpg",
+    "category": "데코타일",
+    "brand": "KCC",
+    "series": "센스레이",
+    "extractedCode": "B5002F",
+    "normalizedFileName": "b5002fjpg",
+    "imageType": "material"
+  },
+  {
+    "fileName": "B5011B.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/KCC/센스레이/B5011B.jpg",
+    "category": "데코타일",
+    "brand": "KCC",
+    "series": "센스레이",
+    "extractedCode": "B5011B",
+    "normalizedFileName": "b5011bjpg",
+    "imageType": "material"
+  },
+  {
+    "fileName": "B5012B.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/KCC/센스레이/B5012B.jpg",
+    "category": "데코타일",
+    "brand": "KCC",
+    "series": "센스레이",
+    "extractedCode": "B5012B",
+    "normalizedFileName": "b5012bjpg",
+    "imageType": "material"
+  },
+  {
+    "fileName": "B5013B.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/KCC/센스레이/B5013B.jpg",
+    "category": "데코타일",
+    "brand": "KCC",
+    "series": "센스레이",
+    "extractedCode": "B5013B",
+    "normalizedFileName": "b5013bjpg",
+    "imageType": "material"
+  },
+  {
+    "fileName": "B5021B.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/KCC/센스레이/B5021B.jpg",
+    "category": "데코타일",
+    "brand": "KCC",
+    "series": "센스레이",
+    "extractedCode": "B5021B",
+    "normalizedFileName": "b5021bjpg",
+    "imageType": "material"
+  },
+  {
+    "fileName": "B5022B.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/KCC/센스레이/B5022B.jpg",
+    "category": "데코타일",
+    "brand": "KCC",
+    "series": "센스레이",
+    "extractedCode": "B5022B",
+    "normalizedFileName": "b5022bjpg",
+    "imageType": "material"
+  },
+  {
+    "fileName": "B5023B.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/KCC/센스레이/B5023B.jpg",
+    "category": "데코타일",
+    "brand": "KCC",
+    "series": "센스레이",
+    "extractedCode": "B5023B",
+    "normalizedFileName": "b5023bjpg",
+    "imageType": "material"
+  },
+  {
+    "fileName": "B5031B.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/KCC/센스레이/B5031B.jpg",
+    "category": "데코타일",
+    "brand": "KCC",
+    "series": "센스레이",
+    "extractedCode": "B5031B",
+    "normalizedFileName": "b5031bjpg",
+    "imageType": "material"
+  },
+  {
+    "fileName": "B5041F.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/KCC/센스레이/B5041F.jpg",
+    "category": "데코타일",
+    "brand": "KCC",
+    "series": "센스레이",
+    "extractedCode": "B5041F",
+    "normalizedFileName": "b5041fjpg",
+    "imageType": "material"
+  },
+  {
+    "fileName": "B5042F.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/KCC/센스레이/B5042F.jpg",
+    "category": "데코타일",
+    "brand": "KCC",
+    "series": "센스레이",
+    "extractedCode": "B5042F",
+    "normalizedFileName": "b5042fjpg",
+    "imageType": "material"
+  },
+  {
+    "fileName": "B5043F.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/KCC/센스레이/B5043F.jpg",
+    "category": "데코타일",
+    "brand": "KCC",
+    "series": "센스레이",
+    "extractedCode": "B5043F",
+    "normalizedFileName": "b5043fjpg",
+    "imageType": "material"
+  },
+  {
+    "fileName": "B5051B.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/KCC/센스레이/B5051B.jpg",
+    "category": "데코타일",
+    "brand": "KCC",
+    "series": "센스레이",
+    "extractedCode": "B5051B",
+    "normalizedFileName": "b5051bjpg",
+    "imageType": "material"
+  },
+  {
+    "fileName": "B5052B.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/KCC/센스레이/B5052B.jpg",
+    "category": "데코타일",
+    "brand": "KCC",
+    "series": "센스레이",
+    "extractedCode": "B5052B",
+    "normalizedFileName": "b5052bjpg",
+    "imageType": "material"
+  },
+  {
+    "fileName": "B5053B.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/KCC/센스레이/B5053B.jpg",
+    "category": "데코타일",
+    "brand": "KCC",
+    "series": "센스레이",
+    "extractedCode": "B5053B",
+    "normalizedFileName": "b5053bjpg",
+    "imageType": "material"
+  },
+  {
+    "fileName": "B5061F.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/KCC/센스레이/B5061F.jpg",
+    "category": "데코타일",
+    "brand": "KCC",
+    "series": "센스레이",
+    "extractedCode": "B5061F",
+    "normalizedFileName": "b5061fjpg",
+    "imageType": "material"
+  },
+  {
+    "fileName": "B5062F.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/KCC/센스레이/B5062F.jpg",
+    "category": "데코타일",
+    "brand": "KCC",
+    "series": "센스레이",
+    "extractedCode": "B5062F",
+    "normalizedFileName": "b5062fjpg",
+    "imageType": "material"
+  },
+  {
+    "fileName": "B5063F.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/KCC/센스레이/B5063F.jpg",
+    "category": "데코타일",
+    "brand": "KCC",
+    "series": "센스레이",
+    "extractedCode": "B5063F",
+    "normalizedFileName": "b5063fjpg",
+    "imageType": "material"
+  },
+  {
+    "fileName": "B5064F.jpg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/KCC/센스레이/B5064F.jpg",
+    "category": "데코타일",
+    "brand": "KCC",
+    "series": "센스레이",
+    "extractedCode": "B5064F",
+    "normalizedFileName": "b5064fjpg",
+    "imageType": "material"
+  },
+  {
     "fileName": "B0111J.jpg",
     "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/KCC/센스레이/KCC센스레이 450각/B0111J.jpg",
     "category": "데코타일",
@@ -11228,6 +11608,246 @@ export const imageManifest = [
     "series": "피오네 모던/600각트랜드",
     "extractedCode": "FWM 8803",
     "normalizedFileName": "fwm8803jpg",
+    "imageType": "material"
+  },
+  {
+    "fileName": "catalog_scene_square.png",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/재영/catalog_assets/catalog_scene_square.png",
+    "category": "데코타일",
+    "brand": "재영",
+    "series": "catalog_assets",
+    "extractedCode": "catalog_scene_square",
+    "normalizedFileName": "catalogscenesquarepng",
+    "imageType": "office"
+  },
+  {
+    "fileName": "catalog_scene_wood_homewood.png",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/재영/catalog_assets/catalog_scene_wood_homewood.png",
+    "category": "데코타일",
+    "brand": "재영",
+    "series": "catalog_assets",
+    "extractedCode": "catalog_scene_wood_homewood",
+    "normalizedFileName": "catalogscenewoodhomewoodpng",
+    "imageType": "office"
+  },
+  {
+    "fileName": "page_22_img_0_xref_5351_1791x1194.jpeg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/재영/catalog_assets/page_22_img_0_xref_5351_1791x1194.jpeg",
+    "category": "데코타일",
+    "brand": "재영",
+    "series": "catalog_assets",
+    "extractedCode": "page_22_img_0_xref_5351_1791x1194",
+    "normalizedFileName": "page22img0xref53511791x1194jpeg",
+    "imageType": "material"
+  },
+  {
+    "fileName": "page_22_img_1_xref_5352_198x132.jpeg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/재영/catalog_assets/page_22_img_1_xref_5352_198x132.jpeg",
+    "category": "데코타일",
+    "brand": "재영",
+    "series": "catalog_assets",
+    "extractedCode": "page_22_img_1_xref_5352_198x132",
+    "normalizedFileName": "page22img1xref5352198x132jpeg",
+    "imageType": "material"
+  },
+  {
+    "fileName": "page_22_img_2_xref_5353_201x303.jpeg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/재영/catalog_assets/page_22_img_2_xref_5353_201x303.jpeg",
+    "category": "데코타일",
+    "brand": "재영",
+    "series": "catalog_assets",
+    "extractedCode": "page_22_img_2_xref_5353_201x303",
+    "normalizedFileName": "page22img2xref5353201x303jpeg",
+    "imageType": "material"
+  },
+  {
+    "fileName": "page_22_img_3_xref_5354_336x172.jpeg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/재영/catalog_assets/page_22_img_3_xref_5354_336x172.jpeg",
+    "category": "데코타일",
+    "brand": "재영",
+    "series": "catalog_assets",
+    "extractedCode": "page_22_img_3_xref_5354_336x172",
+    "normalizedFileName": "page22img3xref5354336x172jpeg",
+    "imageType": "material"
+  },
+  {
+    "fileName": "page_23_full.png",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/재영/catalog_assets/page_23_full.png",
+    "category": "데코타일",
+    "brand": "재영",
+    "series": "catalog_assets",
+    "extractedCode": "page_23_full",
+    "normalizedFileName": "page23fullpng",
+    "imageType": "material"
+  },
+  {
+    "fileName": "page_23_img_0_xref_5393_888x959.jpeg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/재영/catalog_assets/page_23_img_0_xref_5393_888x959.jpeg",
+    "category": "데코타일",
+    "brand": "재영",
+    "series": "catalog_assets",
+    "extractedCode": "page_23_img_0_xref_5393_888x959",
+    "normalizedFileName": "page23img0xref5393888x959jpeg",
+    "imageType": "material"
+  },
+  {
+    "fileName": "page_23_img_1_xref_5394_855x926.jpeg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/재영/catalog_assets/page_23_img_1_xref_5394_855x926.jpeg",
+    "category": "데코타일",
+    "brand": "재영",
+    "series": "catalog_assets",
+    "extractedCode": "page_23_img_1_xref_5394_855x926",
+    "normalizedFileName": "page23img1xref5394855x926jpeg",
+    "imageType": "material"
+  },
+  {
+    "fileName": "page_23_img_2_xref_5395_223x223.jpeg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/재영/catalog_assets/page_23_img_2_xref_5395_223x223.jpeg",
+    "category": "데코타일",
+    "brand": "재영",
+    "series": "catalog_assets",
+    "extractedCode": "page_23_img_2_xref_5395_223x223",
+    "normalizedFileName": "page23img2xref5395223x223jpeg",
+    "imageType": "material"
+  },
+  {
+    "fileName": "page_23_img_3_xref_5396_81x232.jpeg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/재영/catalog_assets/page_23_img_3_xref_5396_81x232.jpeg",
+    "category": "데코타일",
+    "brand": "재영",
+    "series": "catalog_assets",
+    "extractedCode": "page_23_img_3_xref_5396_81x232",
+    "normalizedFileName": "page23img3xref539681x232jpeg",
+    "imageType": "material"
+  },
+  {
+    "fileName": "page_23_img_4_xref_5470_211x211.jpeg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/재영/catalog_assets/page_23_img_4_xref_5470_211x211.jpeg",
+    "category": "데코타일",
+    "brand": "재영",
+    "series": "catalog_assets",
+    "extractedCode": "page_23_img_4_xref_5470_211x211",
+    "normalizedFileName": "page23img4xref5470211x211jpeg",
+    "imageType": "material"
+  },
+  {
+    "fileName": "page_23_img_5_xref_5396_81x232.jpeg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/재영/catalog_assets/page_23_img_5_xref_5396_81x232.jpeg",
+    "category": "데코타일",
+    "brand": "재영",
+    "series": "catalog_assets",
+    "extractedCode": "page_23_img_5_xref_5396_81x232",
+    "normalizedFileName": "page23img5xref539681x232jpeg",
+    "imageType": "material"
+  },
+  {
+    "fileName": "page_24_full.png",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/재영/catalog_assets/page_24_full.png",
+    "category": "데코타일",
+    "brand": "재영",
+    "series": "catalog_assets",
+    "extractedCode": "page_24_full",
+    "normalizedFileName": "page24fullpng",
+    "imageType": "material"
+  },
+  {
+    "fileName": "page_24_img_0_xref_5440_861x1275.jpeg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/재영/catalog_assets/page_24_img_0_xref_5440_861x1275.jpeg",
+    "category": "데코타일",
+    "brand": "재영",
+    "series": "catalog_assets",
+    "extractedCode": "page_24_img_0_xref_5440_861x1275",
+    "normalizedFileName": "page24img0xref5440861x1275jpeg",
+    "imageType": "material"
+  },
+  {
+    "fileName": "page_24_img_1_xref_5441_868x1163.jpeg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/재영/catalog_assets/page_24_img_1_xref_5441_868x1163.jpeg",
+    "category": "데코타일",
+    "brand": "재영",
+    "series": "catalog_assets",
+    "extractedCode": "page_24_img_1_xref_5441_868x1163",
+    "normalizedFileName": "page24img1xref5441868x1163jpeg",
+    "imageType": "material"
+  },
+  {
+    "fileName": "page_24_img_2_xref_5442_112x112.png",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/재영/catalog_assets/page_24_img_2_xref_5442_112x112.png",
+    "category": "데코타일",
+    "brand": "재영",
+    "series": "catalog_assets",
+    "extractedCode": "page_24_img_2_xref_5442_112x112",
+    "normalizedFileName": "page24img2xref5442112x112png",
+    "imageType": "material"
+  },
+  {
+    "fileName": "page_24_img_3_xref_5470_211x211.jpeg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/재영/catalog_assets/page_24_img_3_xref_5470_211x211.jpeg",
+    "category": "데코타일",
+    "brand": "재영",
+    "series": "catalog_assets",
+    "extractedCode": "page_24_img_3_xref_5470_211x211",
+    "normalizedFileName": "page24img3xref5470211x211jpeg",
+    "imageType": "material"
+  },
+  {
+    "fileName": "page_24_img_4_xref_5442_112x112.png",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/재영/catalog_assets/page_24_img_4_xref_5442_112x112.png",
+    "category": "데코타일",
+    "brand": "재영",
+    "series": "catalog_assets",
+    "extractedCode": "page_24_img_4_xref_5442_112x112",
+    "normalizedFileName": "page24img4xref5442112x112png",
+    "imageType": "material"
+  },
+  {
+    "fileName": "page_24_img_5_xref_5470_211x211.jpeg",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/재영/catalog_assets/page_24_img_5_xref_5470_211x211.jpeg",
+    "category": "데코타일",
+    "brand": "재영",
+    "series": "catalog_assets",
+    "extractedCode": "page_24_img_5_xref_5470_211x211",
+    "normalizedFileName": "page24img5xref5470211x211jpeg",
+    "imageType": "material"
+  },
+  {
+    "fileName": "structure_600square.png",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/재영/catalog_assets/structure_600square.png",
+    "category": "데코타일",
+    "brand": "재영",
+    "series": "catalog_assets",
+    "extractedCode": "structure_600square",
+    "normalizedFileName": "structure600squarepng",
+    "imageType": "material"
+  },
+  {
+    "fileName": "structure_homewood.png",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/재영/catalog_assets/structure_homewood.png",
+    "category": "데코타일",
+    "brand": "재영",
+    "series": "catalog_assets",
+    "extractedCode": "structure_homewood",
+    "normalizedFileName": "structurehomewoodpng",
+    "imageType": "material"
+  },
+  {
+    "fileName": "structure_square.png",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/재영/catalog_assets/structure_square.png",
+    "category": "데코타일",
+    "brand": "재영",
+    "series": "catalog_assets",
+    "extractedCode": "structure_square",
+    "normalizedFileName": "structuresquarepng",
+    "imageType": "material"
+  },
+  {
+    "fileName": "structure_wood.png",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/재영/catalog_assets/structure_wood.png",
+    "category": "데코타일",
+    "brand": "재영",
+    "series": "catalog_assets",
+    "extractedCode": "structure_wood",
+    "normalizedFileName": "structurewoodpng",
     "imageType": "material"
   },
   {
