@@ -583,44 +583,14 @@ const LX_JANGPAN_COLLECTION = [
 // Real Construction Project Showcase
 const REAL_PROJECTS = [
   {
-    id: "store",
-    space: "상업공간",
-    icon: Building2,
-    title: "성수동 복합 문화 쇼룸 & 매장",
-    material: "KCC 센스타일 트랜디 데코타일",
-    desc: "모던한 스톤 질감과 고내구성 바닥재로 완성한 트렌디한 상업 공간",
-    image: "/images/home-interior/korea-store-01.webp",
-    linkUrl: "/cases?category=상업공간"
-  },
-  {
-    id: "office",
-    space: "사무실",
-    icon: Briefcase,
-    title: "테헤란로 IT 비즈니스 오피스",
-    material: "프리미엄 카페트타일 & 데코타일",
-    desc: "흡음성과 정온함을 극대화하고 업무 효율을 높이는 스마트 오피스 바닥 시공",
-    image: "/images/home-interior/korea-office-01.webp",
-    linkUrl: "/cases?category=사무공간"
-  },
-  {
-    id: "gym",
-    space: "헬스장 및 GX룸",
+    id: "anseong-gym-kcc-5534",
+    space: "헬스장 · 상업공간",
     icon: Dumbbell,
-    title: "마포구 프리미엄 피트니스 센터",
-    material: "고충격 흡수 러버타일 & LVT",
-    desc: "웨이트 트레이닝 존 충격 흡수와 GX 룸 미끄럼 방지를 고려한 맞춤 시공",
-    image: "/images/home-interior/korea-hallway-01.webp",
-    linkUrl: "/cases?category=상업공간"
-  },
-  {
-    id: "residential",
-    space: "주거공간",
-    icon: HomeIcon,
-    title: "마포구 아파트 거실 & 침실",
-    material: "친환경 프리미엄 모노륨 장판",
-    desc: "보행감과 층간소음 완화, 따뜻한 자연 우드 패턴을 살린 감성 주거 공간",
-    image: "/images/home-interior/korea-apt-living-01.webp",
-    linkUrl: "/cases?category=주거공간"
+    title: "안성 헬스장 KCC 5534 시공",
+    material: "KCC 센스타일 트랜디 TS5534M · 600각",
+    desc: "다크 그레이 스톤 패턴의 KCC 데코타일이 적용된 안성 헬스장 바닥 시공 현장",
+    image: "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/KCC_센스타일_트랜디_600각_이미지/TS5534M.png",
+    linkUrl: "/cases"
   }
 ];
 
@@ -1056,7 +1026,7 @@ export default function Home() {
                   <span className="section-eyebrow">REAL PROJECTS</span>
                   <h2 className="section-primary-title">우리가 완성한 공간들</h2>
                   <p className="section-sub-copy">
-                    동경바닥재 자재로 완성된 실제 시공 포트폴리오를 확인해보세요.
+                    KCC 센스타일 트랜디 TS5534M을 적용한 안성 헬스장 시공사례를 확인해보세요.
                   </p>
                 </div>
                 <Link 
@@ -1069,7 +1039,7 @@ export default function Home() {
                 </Link>
               </div>
 
-              {/* Real Project Showcase Grid (4 Types of Spaces) */}
+              {/* Verified Anseong gym case showcase */}
               <div className="projects-cards-grid">
                 {REAL_PROJECTS.map((item) => {
                   const SpaceIcon = item.icon;
