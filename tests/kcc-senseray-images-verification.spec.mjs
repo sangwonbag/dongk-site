@@ -17,3 +17,4 @@ test('/materials?category=데코타일&brand=KCC&line=senseray displays valid im
   // "이미지 준비중" fallback text should NOT appear on B0071P
   await expect(b0071pCard.locator('text=이미지 준비중')).toHaveCount(0);
 });
+
