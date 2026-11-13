@@ -580,7 +580,7 @@ const LX_JANGPAN_COLLECTION = [
   }
 ];
 
-// Real Construction Project Showcase
+// Real Construction Project Showcase (Optimized WebP thumbnails)
 const REAL_PROJECTS = [
   {
     id: "giheung-gym-lx-prestige-8698",
@@ -589,7 +589,7 @@ const REAL_PROJECTS = [
     title: "용인 기흥 헬스장 LX 프레스티지 8698 시공",
     material: "LX하우시스 프레스티지 5T PTT8698 · 457.2×914.4mm",
     desc: "동조엠보(EIR)와 고강도 Metal Shield 표면 처리의 프리미엄 5.0T 데코타일 시공 현장",
-    image: "/images/시공사례/2026.11.11 LX 프레스티지 8698 기흥 헬스장/KakaoTalk_20261111_154511524.jpg",
+    image: "/images/시공사례_optimized/thumb-800/2026.11.11 LX 프레스티지 8698 기흥 헬스장/KakaoTalk_20261111_154511524.webp",
     linkUrl: "/cases"
   },
   {
@@ -599,7 +599,7 @@ const REAL_PROJECTS = [
     title: "서울 구의동 아파트 동신 726 데코타일 시공",
     material: "동신 아트타일 726 · 3.0T",
     desc: "밝고 내추럴한 감성의 바닥 마감으로 아늑한 주거 공간을 완성한 시공 현장",
-    image: "/images/시공사례/2025.07.24 동신 726 구의동 아파트/KakaoTalk_20261113_133133183.jpg",
+    image: "/images/시공사례_optimized/thumb-800/2025.07.24 동신 726 구의동 아파트/KakaoTalk_20261113_133133183.webp",
     linkUrl: "/cases"
   },
   {
@@ -609,7 +609,7 @@ const REAL_PROJECTS = [
     title: "서울 가락동 오피스텔 KCC 5551 시공",
     material: "KCC 센스타일 트랜디 450각 TS 5551 · 3.0T",
     desc: "단정하고 세련된 모던 그레이 톤으로 오피스 및 복합 공간에 최적화된 마감",
-    image: "/images/시공사례/2025.07.16 KCC 5551 가락동 오피스텔/KakaoTalk_20261113_132034837.jpg",
+    image: "/images/시공사례_optimized/thumb-800/2025.07.16 KCC 5551 가락동 오피스텔/KakaoTalk_20261113_132034837.webp",
     linkUrl: "/cases"
   },
   {
@@ -619,7 +619,7 @@ const REAL_PROJECTS = [
     title: "안성 헬스장 KCC 5534 시공",
     material: "KCC 센스타일 트랜디 TS 5534 · 3.0T",
     desc: "다크 그레이 스톤 패턴의 KCC 데코타일이 적용된 안성 헬스장 바닥 시공 현장",
-    image: "/images/시공사례/2025.07.14 안성헬스장 KCC 5534/KakaoTalk_20261113_131925191.jpg",
+    image: "/images/시공사례_optimized/thumb-800/2025.07.14 안성헬스장 KCC 5534/KakaoTalk_20261113_131925191.webp",
     linkUrl: "/cases"
   }
 ];

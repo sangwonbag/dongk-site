@@ -1,12 +1,15 @@
-import React, { useEffect, useState } from 'react';
-import { useNavigate, useSearchParams, Link } from 'react-router-dom';
+import React, { useEffect, useState, useCallback, useMemo } from 'react';
+import { useNavigate, useSearchParams } from 'react-router-dom';
 import { useAuth } from '../../contexts/AuthContext';
 import MainLayout from '../../components/layout/MainLayout';
 import { supabase } from '../../lib/supabaseClient';
-import { MapPin, Box, Calendar, Edit2, Trash2, Eye, EyeOff, ArrowUpRight } from 'lucide-react';
 import SEO from '../../components/seo/SEO';
-import { resolveCaseMaterialLinks } from '../../utils/caseMaterialUtils';
+import CaseCard from './CaseCard';
+import CaseLightboxModal from './CaseLightboxModal';
 import './Cases.css';
+
+// In-memory cache for instant zero-lag re-visits
+let cachedCasesData = null;
 
 const FALLBACK_CASES = [
   {
@@ -126,29 +129,40 @@ export default function Cases() {
   const { user } = useAuth();
   const isAdmin = user?.role === 'admin' || user?.role === 'staff';
 
-  const [casesList, setCasesList] = useState(FALLBACK_CASES);
-  const [loading, setLoading] = useState(true);
+  const [casesList, setCasesList] = useState(() => cachedCasesData || FALLBACK_CASES);
+  const [loading, setLoading] = useState(() => !cachedCasesData);
   const categoryFilter = searchParams.get('category') || '전체';
 
-  const setCategoryFilter = (cat) => {
+  // Lightbox Modal State
+  const [lightboxState, setLightboxState] = useState({
+    isOpen: false,
+    title: '',
+    images: [],
+    currentIndex: 0
+  });
+
+  const setCategoryFilter = useCallback((cat) => {
     if (cat === '전체') {
       searchParams.delete('category');
       setSearchParams(searchParams, { replace: true });
     } else {
       setSearchParams({ category: cat }, { replace: true });
     }
-  };
+  }, [searchParams, setSearchParams]);
 
-  const loadCases = async () => {
+  const loadCases = useCallback(async (forceRefresh = false) => {
     try {
-      setLoading(true);
+      if (!cachedCasesData || forceRefresh) {
+        setLoading(true);
+      }
+
       if (!supabase) {
         throw new Error('Supabase client not initialized');
       }
-      
+
       let query = supabase
         .from('construction_cases')
-        .select('*, products:product_id ( id, name, slug, product_code )');
+        .select('id, title, slug, location, material_summary, product_id, main_image_url, description, constructed_at, sort_order, is_published, category, image_urls, products:product_id ( id, name, slug, product_code )');
 
       // 일반 사용자에게는 노출된 사례만 표시
       if (!isAdmin) {
@@ -162,68 +176,79 @@ export default function Cases() {
       if (error) throw error;
 
       if (data && data.length > 0) {
+        cachedCasesData = data;
         setCasesList(data);
       } else {
         setCasesList(FALLBACK_CASES);
       }
     } catch (err) {
       console.error('[Cases] Failed to fetch construction cases, using verified fallback list.', err);
-      setCasesList(FALLBACK_CASES);
+      setCasesList(prev => (prev && prev.length > 0 ? prev : FALLBACK_CASES));
     } finally {
       setLoading(false);
     }
-  };
+  }, [isAdmin]);
 
   useEffect(() => {
     loadCases();
-  }, [isAdmin]);
+  }, [loadCases]);
 
-  const handleTogglePublish = async (id, currentStatus) => {
+  const handleTogglePublish = useCallback(async (id, currentStatus) => {
     try {
       const nextStatus = !currentStatus;
       const { error } = await supabase
         .from('construction_cases')
-        .update({ 
+        .update({
           is_published: nextStatus,
-          is_active: nextStatus // Maintain both fields dynamically
+          is_active: nextStatus
         })
         .eq('id', id);
-      
+
       if (error) throw error;
       alert('노출 상태가 성공적으로 변경되었습니다.');
-      loadCases();
+      loadCases(true);
     } catch (err) {
       alert('상태 변경에 실패했습니다: ' + err.message);
     }
-  };
+  }, [loadCases]);
 
-  const handleDeleteCase = async (id) => {
-    if (!window.confirm('이 시공사례를 정말 삭제하시겠습니까?')) return;
-    try {
-      const { error } = await supabase
-        .from('construction_cases')
-        .delete()
-        .eq('id', id);
-      
-      if (error) throw error;
-      alert('성공적으로 삭제되었습니다.');
-      loadCases();
-    } catch (err) {
-      alert('삭제에 실패했습니다: ' + err.message);
-    }
-  };
+  const handleOpenLightbox = useCallback((item, index = 0) => {
+    const images = Array.isArray(item.image_urls) && item.image_urls.length > 0
+      ? item.image_urls
+      : (item.main_image_url ? [item.main_image_url] : []);
 
-  // Filtering options
-  const categories = ['전체', '주거공간', '사무공간', '상업공간'];
+    setLightboxState({
+      isOpen: true,
+      title: item.title,
+      images,
+      currentIndex: Math.max(0, Math.min(index, images.length - 1))
+    });
+  }, []);
 
-  const filteredCases = casesList.filter(item => {
-    if (categoryFilter === '전체') return true;
-    return item.category === categoryFilter;
-  });
+  const handleCloseLightbox = useCallback(() => {
+    setLightboxState(prev => ({ ...prev, isOpen: false }));
+  }, []);
+
+  const handleLightboxIndexChange = useCallback((newIdx) => {
+    setLightboxState(prev => ({ ...prev, currentIndex: newIdx }));
+  }, []);
+
+  const handleEditCase = useCallback((item) => {
+    navigate('/admin/construction-cases');
+  }, [navigate]);
+
+  const categories = useMemo(() => ['전체', '주거공간', '사무공간', '상업공간'], []);
+
+  const filteredCases = useMemo(() => {
+    return casesList.filter(item => {
+      if (categoryFilter === '전체') return true;
+      return item.category === categoryFilter;
+    });
+  }, [casesList, categoryFilter]);
 
   return (
     <MainLayout>
-      <SEO 
+      <SEO
         title="시공사례 | 동경바닥재 - 데코타일·마루·장판 실제 바닥 시공 포트폴리오"
         description="동경바닥재의 실제 주거, 사무, 상업 공간 바닥재(데코타일, 마루, 장판, 카페트타일) 시공사례 포트폴리오를 확인하세요."
         canonical="https://dkfloor.co.kr/cases"
@@ -264,7 +289,7 @@ export default function Cases() {
         </div>
 
         {/* Cases Grid */}
-        {loading ? (
+        {loading && casesList.length === 0 ? (
           <div className="cases-loading-wrapper">
             <div className="spinner-loader"></div>
             <p>시공 포트폴리오를 불러오고 있습니다...</p>
@@ -276,126 +301,30 @@ export default function Cases() {
           </div>
         ) : (
           <div className="cases-grid-layout">
-            {filteredCases.map(item => (
-              <div key={item.id} className="case-portfolio-card">
-                <div className="case-img-wrapper">
-                  {isAdmin && (
-                    <span className={`case-admin-status-badge ${item.is_published ? 'published' : 'unpublished'}`}>
-                      {item.is_published ? '노출 중' : '비노출'}
-                    </span>
-                  )}
-                  <img
-                    src={item.main_image_url || "/images/no-image.svg"}
-                    alt={item.title}
-                    className="case-image"
-                    loading="lazy"
-                    onError={(e) => {
-                      e.target.onerror = null;
-                      e.target.src = "/images/no-image.svg";
-                    }}
-                  />
-                  {item.category && <span className="case-tag-badge">{item.category}</span>}
-                </div>
-
-                <div className="case-body-info">
-                  <h3 className="case-title-text">{item.title}</h3>
-                  {item.description && <p className="case-desc-text">{item.description}</p>}
-                  {Array.isArray(item.image_urls) && item.image_urls.length > 0 && (
-                    <div className="case-gallery" aria-label={`${item.title} 현장 사진`}>
-                      {item.image_urls.map((url, index) => (
-                        <a href={url} target="_blank" rel="noopener noreferrer" key={`${url}-${index}`} aria-label={`현장 사진 ${index + 1} 크게 보기`}>
-                          <img src={url} alt={`${item.title} 현장 사진 ${index + 1}`} loading="lazy" />
-                        </a>
-                      ))}
-                    </div>
-                  )}
-                  
-                  <div className="case-specs-list">
-                    {item.location && (
-                      <div className="spec-row">
-                        <MapPin size={14} className="spec-icon" />
-                        <span className="spec-label">시공 지역</span>
-                        <span className="spec-value">{item.location}</span>
-                      </div>
-                    )}
-                    {item.material_summary && (() => {
-                      const materialLinks = resolveCaseMaterialLinks(item);
-                      return (
-                        <div className="spec-row spec-row-material">
-                          <Box size={14} className="spec-icon" />
-                          <span className="spec-label">사용 자재</span>
-                          <div className="case-material-links-wrap">
-                            {materialLinks.length > 0 ? (
-                              materialLinks.map((linkItem, idx) => (
-                                <Link
-                                  key={idx}
-                                  to={linkItem.path}
-                                  className="case-material-link highlighted"
-                                  title={`${linkItem.label} ${linkItem.isDirectDetail ? '상세페이지로 이동' : '자재 검색 결과로 이동'}`}
-                                >
-                                  <span className="material-link-text">{linkItem.label}</span>
-                                  <ArrowUpRight size={13} className="material-link-icon" />
-                                </Link>
-                              ))
-                            ) : (
-                              <span className="spec-value highlighted">{item.material_summary}</span>
-                            )}
-                          </div>
-                        </div>
-                      );
-                    })()}
-                    {item.constructed_at && (
-                      <div className="spec-row">
-                        <Calendar size={14} className="spec-icon" />
-                        <span className="spec-label">시공 연월</span>
-                        <span className="spec-value">
-                          {new Date(item.constructed_at).toLocaleDateString('ko-KR', { year: 'numeric', month: 'long' })}
-                        </span>
-                      </div>
-                    )}
-                  </div>
-
-                  {isAdmin && (
-                    <div className="case-admin-actions">
-                      <button 
-                        className="btn-admin-action edit"
-                        onClick={(e) => {
-                          e.stopPropagation();
-                          navigate('/admin/construction-cases');
-                        }}
-                        title="어드민에서 편집"
-                      >
-                        <Edit2 size={12} /> 편집
-                      </button>
-                      <button 
-                        className={`btn-admin-action toggle ${item.is_published ? 'hide' : 'show'}`}
-                        onClick={(e) => {
-                          e.stopPropagation();
-                          handleTogglePublish(item.id, item.is_published ?? true);
-                        }}
-                        title={item.is_published ? "숨기기" : "노출하기"}
-                      >
-                        {item.is_published ? <EyeOff size={12} /> : <Eye size={12} />}
-                        {item.is_published ? '숨김' : '노출'}
-                      </button>
-                      <button 
-                        className="btn-admin-action delete"
-                        onClick={(e) => {
-                          e.stopPropagation();
-                          handleDeleteCase(item.id);
-                        }}
-                        title="삭제"
-                      >
-                        <Trash2 size={12} /> 삭제
-                      </button>
-                    </div>
-                  )}
-                </div>
-              </div>
+            {filteredCases.map((item, idx) => (
+              <CaseCard
+                key={item.id || item.slug}
+                item={item}
+                index={idx}
+                isAdmin={isAdmin}
+                onOpenLightbox={handleOpenLightbox}
+                onEdit={handleEditCase}
+                onTogglePublish={handleTogglePublish}
+              />
             ))}
           </div>
         )}
       </div>
+
+      {/* Lightbox Modal */}
+      <CaseLightboxModal
+        isOpen={lightboxState.isOpen}
+        onClose={handleCloseLightbox}
+        title={lightboxState.title}
+        images={lightboxState.images}
+        currentIndex={lightboxState.currentIndex}
+        onIndexChange={handleLightboxIndexChange}
+      />
     </MainLayout>
   );
 }

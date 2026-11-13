@@ -141,7 +141,7 @@
   }
 }
 
-/* Portfolio Card */
+/* Portfolio Card - Performance Optimized */
 .case-portfolio-card {
   background: #ffffff;
   border: 1px solid var(--border);
@@ -150,7 +150,9 @@
   box-shadow: var(--shadow-sm);
   display: flex;
   flex-direction: column;
-  transition: var(--transition);
+  transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
+  content-visibility: auto;
+  contain-intrinsic-size: 0 480px;
 }
 
 .case-portfolio-card:hover {
@@ -163,18 +165,83 @@
   position: relative;
   aspect-ratio: 16 / 10;
   overflow: hidden;
-  background-color: var(--bg-alt);
+  background-color: #f1ede6;
+  cursor: pointer;
+}
+
+/* Skeleton Loading Placeholder */
+.case-img-skeleton {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #ede8df;
+  overflow: hidden;
+  z-index: 1;
+}
+
+.skeleton-shimmer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(90deg,
+      rgba(255, 255, 255, 0) 0%,
+      rgba(255, 255, 255, 0.4) 50%,
+      rgba(255, 255, 255, 0) 100%);
+  transform: translateX(-100%);
+  animation: shimmer 1.5s infinite;
+}
+
+@keyframes shimmer {
+  100% {
+    transform: translateX(100%);
+  }
 }
 
 .case-image {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  transition: transform 0.5s ease;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out, transform 0.4s ease;
+  display: block;
+}
+
+.case-image.loaded {
+  opacity: 1;
 }
 
 .case-portfolio-card:hover .case-image {
-  transform: scale(1.05);
+  transform: scale(1.04);
+}
+
+.case-zoom-hint {
+  position: absolute;
+  right: 12px;
+  bottom: 12px;
+  background-color: rgba(15, 23, 42, 0.75);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  color: #ffffff;
+  padding: 5px 10px;
+  border-radius: 6px;
+  font-size: 11px;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  opacity: 0;
+  transform: translateY(4px);
+  transition: all 0.2s ease;
+  z-index: 3;
+}
+
+.case-img-wrapper:hover .case-zoom-hint {
+  opacity: 1;
+  transform: translateY(0);
 }
 
 .case-tag-badge {
@@ -217,7 +284,8 @@
   -webkit-line-clamp: 3;
   -webkit-box-orient: vertical;
   overflow: hidden;
-  height: 4.8em; /* Force identical height alignment */
+  height: 4.8em;
+  /* Force identical height alignment */
 }
 
 .case-specs-list {
@@ -310,12 +378,15 @@
     padding: 40px 24px;
     border-radius: 12px;
   }
+
   .banner-content h1 {
     font-size: 1.8rem;
   }
+
   .banner-content p {
     font-size: 0.95rem;
   }
+
   .cases-category-filters {
     margin-bottom: 32px;
   }
@@ -323,147 +394,154 @@
 
 /* 어드민 퀵 매니지먼트 바 */
 .cases-admin-banner {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: var(--bg-alt);
-    border: 1px solid var(--border);
-    padding: 16px 24px;
-    border-radius: 12px;
-    margin-bottom: 32px;
-    font-size: 14px;
-    box-shadow: 0 4px 6px -1px rgba(0,0,0,0.02);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--bg-alt);
+  border: 1px solid var(--border);
+  padding: 16px 24px;
+  border-radius: 12px;
+  margin-bottom: 32px;
+  font-size: 14px;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.02);
 }
 
 .cases-admin-banner .admin-banner-text {
-    color: var(--text);
-    line-height: 1.5;
+  color: var(--text);
+  line-height: 1.5;
 }
 
 .cases-admin-banner .btn-admin-manage {
-    background-color: var(--point-gold);
-    color: #ffffff;
-    border: none;
-    padding: 8px 16px;
-    border-radius: 8px;
-    font-size: 13px;
-    font-weight: 700;
-    cursor: pointer;
-    transition: background-color 0.2s ease;
-    white-space: nowrap;
+  background-color: var(--point-gold);
+  color: #ffffff;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 8px;
+  font-size: 13px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+  white-space: nowrap;
 }
 
 .cases-admin-banner .btn-admin-manage:hover {
-    background-color: var(--point-gold-hover);
+  background-color: var(--point-gold-hover);
 }
 
 /* 카드 내 어드민 배지 */
 .case-admin-status-badge {
-    position: absolute;
-    top: 12px;
-    left: 12px;
-    z-index: 10;
-    padding: 4px 8px;
-    font-size: 11px;
-    font-weight: 700;
-    border-radius: 4px;
-    color: #ffffff;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15);
+  position: absolute;
+  top: 12px;
+  left: 12px;
+  z-index: 10;
+  padding: 4px 8px;
+  font-size: 11px;
+  font-weight: 700;
+  border-radius: 4px;
+  color: #ffffff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15);
 }
 
 .case-admin-status-badge.published {
-    background-color: #10b981;
+  background-color: #10b981;
 }
 
 .case-admin-status-badge.unpublished {
-    background-color: #ef4444;
+  background-color: #ef4444;
 }
 
 /* 카드 내 어드민 액션 버튼들 */
 .case-admin-actions {
-    display: flex;
-    gap: 6px;
-    margin-top: 16px;
-    padding-top: 16px;
-    border-top: 1px solid var(--border);
+  display: flex;
+  gap: 6px;
+  margin-top: 16px;
+  padding-top: 16px;
+  border-top: 1px solid var(--border);
 }
 
 .btn-admin-action {
-    display: inline-flex;
-    align-items: center;
-    gap: 4px;
-    border: none;
-    padding: 6px 12px;
-    border-radius: 6px;
-    font-size: 12px;
-    font-weight: 700;
-    cursor: pointer;
-    transition: all 0.15s ease;
-    flex: 1;
-    justify-content: center;
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 6px;
+  font-size: 12px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: all 0.15s ease;
+  flex: 1;
+  justify-content: center;
 }
 
 .btn-admin-action.edit {
-    background-color: var(--bg-alt);
-    color: var(--text);
+  background-color: var(--bg-alt);
+  color: var(--text);
 }
 
 .btn-admin-action.edit:hover {
-    background-color: var(--border-hover);
+  background-color: var(--border-hover);
 }
 
 .btn-admin-action.toggle.hide {
-    background-color: #fffbeb;
-    color: #d97706;
+  background-color: #fffbeb;
+  color: #d97706;
 }
 
 .btn-admin-action.toggle.hide:hover {
-    background-color: #fef3c7;
+  background-color: #fef3c7;
 }
 
 .btn-admin-action.toggle.show {
-    background-color: #ecfdf5;
-    color: #059669;
+  background-color: #ecfdf5;
+  color: #059669;
 }
 
 .btn-admin-action.toggle.show:hover {
-    background-color: #d1fae5;
+  background-color: #d1fae5;
 }
 
 .btn-admin-action.delete {
-    background-color: #fef2f2;
-    color: #dc2626;
+  background-color: #fef2f2;
+  color: #dc2626;
 }
 
 .btn-admin-action.delete:hover {
-    background-color: #fee2e2;
+  background-color: #fee2e2;
 }
 
 @media (max-width: 768px) {
-    .cases-admin-banner {
-        flex-direction: column;
-        align-items: stretch;
-        gap: 12px;
-        padding: 16px;
-        text-align: center;
-    }
+  .cases-admin-banner {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 12px;
+    padding: 16px;
+    text-align: center;
+  }
 }
 
 
-/* Real job-site photo gallery: responsive, accessible full-size image links */
+/* Real job-site photo gallery: responsive, accessible lightbox triggers */
 .case-gallery {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: 8px;
   margin: 16px 0;
 }
-.case-gallery a {
+
+.case-gallery a,
+.case-gallery .case-gallery-item-btn {
   display: block;
   overflow: hidden;
   border-radius: 8px;
   background: #f3f3f3;
   aspect-ratio: 4 / 3;
+  border: 1px solid var(--border);
+  padding: 0;
+  cursor: pointer;
+  transition: transform 180ms ease, border-color 180ms ease;
 }
+
 .case-gallery img {
   width: 100%;
   height: 100%;
@@ -471,14 +549,24 @@
   display: block;
   transition: transform 180ms ease;
 }
+
 .case-gallery a:hover img,
-.case-gallery a:focus-visible img {
-  transform: scale(1.045);
+.case-gallery .case-gallery-item-btn:hover img {
+  transform: scale(1.06);
 }
-.case-gallery a:focus-visible {
-  outline: 2px solid #b3925f;
+
+.case-gallery .case-gallery-item-btn:hover {
+  border-color: var(--point-gold);
+}
+
+.case-gallery a:focus-visible,
+.case-gallery .case-gallery-item-btn:focus-visible {
+  outline: 2px solid var(--point-gold, #b3925f);
   outline-offset: 2px;
 }
+
 @media (max-width: 640px) {
-  .case-gallery { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .case-gallery {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
 }
