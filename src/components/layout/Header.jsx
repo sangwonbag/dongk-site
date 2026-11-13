@@ -331,6 +331,15 @@ export default function Header() {
             >
               견적문의
             </Link>
+
+            <Link 
+              to="/cases"
+              className={`menu-link ${location.pathname.startsWith('/cases') ? 'active' : ''}`} 
+              onMouseEnter={() => preloadRoute('/cases')}
+              onTouchStart={() => preloadRoute('/cases')}
+            >
+              시공사례
+            </Link>
           </nav>
 
           {/* Search Bar */}
@@ -502,8 +511,8 @@ export default function Header() {
           </span>
           <span className="drawer-link" onClick={() => { nav("/samplebooks"); setMobileMenuOpen(false); }}>샘플북</span>
           <span className="drawer-link" onClick={() => { nav("/guide"); setMobileMenuOpen(false); }}>바닥재 가이드</span>
-          <span className="drawer-link" onClick={() => { nav("/cases"); setMobileMenuOpen(false); }}>시공사례</span>
           <span className="drawer-link" onClick={() => { handleEstimateNav(); setMobileMenuOpen(false); }}>견적문의</span>
+          <span className="drawer-link" onClick={() => { nav("/cases"); setMobileMenuOpen(false); }}>시공사례</span>
         </div>
         <div className="drawer-actions">
           <button className="drawer-cart-btn" onClick={() => { nav("/cart"); setMobileMenuOpen(false); }}>

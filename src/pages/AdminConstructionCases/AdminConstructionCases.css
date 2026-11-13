@@ -677,3 +677,123 @@
     gap: 16px;
   }
 }
+
+/* Material Selector & Auto-complete in Admin */
+.material-selector-field {
+  position: relative;
+}
+
+.material-search-input-wrapper {
+  position: relative;
+  width: 100%;
+}
+
+.material-search-dropdown {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: 0;
+  background: #ffffff;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
+  max-height: 240px;
+  overflow-y: auto;
+  z-index: 1000;
+  margin-top: 4px;
+}
+
+.material-search-dropdown-item {
+  padding: 10px 14px;
+  border-bottom: 1px solid var(--border-light, #f0ede6);
+  cursor: pointer;
+  transition: background-color 0.15s ease;
+}
+
+.material-search-dropdown-item:last-child {
+  border-bottom: none;
+}
+
+.material-search-dropdown-item:hover {
+  background-color: var(--bg-alt, #faf7f2);
+}
+
+.material-search-dropdown-item .item-meta {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 3px;
+}
+
+.material-search-dropdown-item .item-brand {
+  font-size: 11px;
+  font-weight: 700;
+  background-color: var(--primary);
+  color: #ffffff;
+  padding: 2px 6px;
+  border-radius: 4px;
+}
+
+.material-search-dropdown-item .item-code {
+  font-size: 13px;
+  font-weight: 700;
+  color: var(--point-gold, #c59b27);
+}
+
+.material-search-dropdown-item .item-size {
+  font-size: 11.5px;
+  color: var(--text-muted);
+}
+
+.material-search-dropdown-item .item-name {
+  font-size: 13px;
+  color: var(--text);
+}
+
+.selected-materials-chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-top: 8px;
+}
+
+.material-chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  background-color: #f7f3ed;
+  border: 1px solid var(--border);
+  padding: 4px 10px;
+  border-radius: 9999px;
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--primary);
+}
+
+.material-chip .chip-remove {
+  background: none;
+  border: none;
+  color: #991b1b;
+  cursor: pointer;
+  font-size: 14px;
+  padding: 0;
+  line-height: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.material-chip .chip-remove:hover {
+  color: #dc2626;
+}
+
+.material-summary-subfield {
+  margin-top: 10px;
+}
+
+.material-summary-subfield .subfield-note {
+  display: block;
+  font-size: 12px;
+  color: var(--text-muted);
+  margin-bottom: 4px;
+}

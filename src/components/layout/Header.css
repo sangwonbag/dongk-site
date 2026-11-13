@@ -781,6 +781,19 @@
     background-color: rgba(239, 68, 68, 0.05);
 }
 
+@media (min-width: 992px) and (max-width: 1240px) {
+    .header-menu-links {
+        gap: 20px;
+    }
+    .header-logo {
+        margin-right: 24px;
+    }
+    .menu-link {
+        font-size: 14px;
+        white-space: nowrap;
+    }
+}
+
 /* Tablet & Mobile Media Queries */
 @media (max-width: 991px) {
     .header-menu-links {

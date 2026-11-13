@@ -1,10 +1,11 @@
 import React, { useEffect, useState } from 'react';
-import { useNavigate, useSearchParams } from 'react-router-dom';
+import { useNavigate, useSearchParams, Link } from 'react-router-dom';
 import { useAuth } from '../../contexts/AuthContext';
 import MainLayout from '../../components/layout/MainLayout';
 import { supabase } from '../../lib/supabaseClient';
-import { MapPin, Box, Calendar, Edit2, Trash2, Eye, EyeOff } from 'lucide-react';
+import { MapPin, Box, Calendar, Edit2, Trash2, Eye, EyeOff, ArrowUpRight } from 'lucide-react';
 import SEO from '../../components/seo/SEO';
+import { resolveCaseMaterialLinks } from '../../utils/caseMaterialUtils';
 import './Cases.css';
 
 const FALLBACK_CASES = [
@@ -15,6 +16,13 @@ const FALLBACK_CASES = [
     location: '경기도 용인시 기흥구',
     category: '상업공간',
     material_summary: 'LX하우시스 프레스티지 5T PTT8698 (더스크 브론즈) · 457.2×914.4mm · 5.0T',
+    product_id: 106078,
+    products: {
+      id: 106078,
+      name: 'LX 프레스티지 5T PTT8698 더스크 브론즈',
+      slug: 'decotile-lx-prestige-stone-rect-ptt8698-더스크브론즈',
+      product_code: 'PTT8698'
+    },
     description: '용인 기흥구 헬스장 현장에 LX하우시스 프리미엄 5.0T 프레스티지 장방형 스톤 PTT8698(더스크 브론즈)을 시공했습니다. 동조엠보(EIR)와 고강도 표면 처리로 헬스기구와 통행량이 많은 상업 공간에 뛰어난 내구성과 고급스러운 호텔급 인테리어를 완성했습니다.',
     main_image_url: '/images/시공사례/2026.11.11 LX 프레스티지 8698 기흥 헬스장/KakaoTalk_20261111_154511524.jpg',
     image_urls: [
@@ -33,6 +41,13 @@ const FALLBACK_CASES = [
     location: '서울특별시 광진구 구의동',
     category: '주거공간',
     material_summary: '동신 아트타일 726 (AH 726 / AB 726) · 3.0T',
+    product_id: 101323,
+    products: {
+      id: 101323,
+      name: 'AH 726',
+      slug: '데코타일-동신-아트하우스-ah726',
+      product_code: 'AH 726'
+    },
     description: '서울 광진구 구의동 아파트 주거 공간에 동신 아트타일 726번 자재를 깔끔하고 정교하게 시공한 현장입니다. 밝고 내추럴한 감성의 바닥 마감으로 실내 공간이 더욱 넓고 아늑하게 연출되었습니다.',
     main_image_url: '/images/시공사례/2025.07.24 동신 726 구의동 아파트/KakaoTalk_20261113_133133183.jpg',
     image_urls: [
@@ -54,6 +69,13 @@ const FALLBACK_CASES = [
     location: '서울특별시 송파구 가락동',
     category: '사무공간',
     material_summary: 'KCC 센스타일 트랜디 450각 TS 5551 · 457.2×457.2mm · 3.0T',
+    product_id: 100924,
+    products: {
+      id: 100924,
+      name: 'TS5551P',
+      slug: '데코타일-kcc-kcc_square-ts5551p',
+      product_code: 'TS5551P'
+    },
     description: '서울 송파구 가락동 오피스텔 바닥에 KCC 센스타일 트랜디 TS 5551 사각 데코타일을 시공한 현장입니다. 모던하고 단정한 그레이 톤으로 오피스 및 주거 복합 공간에 세련된 분위기를 제공합니다.',
     main_image_url: '/images/시공사례/2025.07.16 KCC 5551 가락동 오피스텔/KakaoTalk_20261113_132034837.jpg',
     image_urls: [
@@ -74,6 +96,13 @@ const FALLBACK_CASES = [
     location: '경기도 안성시',
     category: '상업공간',
     material_summary: 'KCC 센스타일 트랜디 TS 5534 · 450각/600각 · 3.0T',
+    product_id: 100909,
+    products: {
+      id: 100909,
+      name: 'TS5534M',
+      slug: '데코타일-kcc-kcc_square-ts5534m',
+      product_code: 'TS5534M'
+    },
     description: '경기도 안성시 헬스장 바닥에 KCC 센스타일 트랜디 TS 5534 데코타일을 시공한 현장입니다. 견고한 내구성과 묵직한 다크 톤 질감으로 프리미엄 피트니스 공간에 최적화된 마감을 구현했습니다.',
     main_image_url: '/images/시공사례/2025.07.14 안성헬스장 KCC 5534/KakaoTalk_20261113_131925191.jpg',
     image_urls: [
@@ -119,7 +148,7 @@ export default function Cases() {
       
       let query = supabase
         .from('construction_cases')
-        .select('*');
+        .select('*, products:product_id ( id, name, slug, product_code )');
 
       // 일반 사용자에게는 노출된 사례만 표시
       if (!isAdmin) {
@@ -289,13 +318,32 @@ export default function Cases() {
                         <span className="spec-value">{item.location}</span>
                       </div>
                     )}
-                    {item.material_summary && (
-                      <div className="spec-row">
-                        <Box size={14} className="spec-icon" />
-                        <span className="spec-label">사용 자재</span>
-                        <span className="spec-value highlighted">{item.material_summary}</span>
-                      </div>
-                    )}
+                    {item.material_summary && (() => {
+                      const materialLinks = resolveCaseMaterialLinks(item);
+                      return (
+                        <div className="spec-row spec-row-material">
+                          <Box size={14} className="spec-icon" />
+                          <span className="spec-label">사용 자재</span>
+                          <div className="case-material-links-wrap">
+                            {materialLinks.length > 0 ? (
+                              materialLinks.map((linkItem, idx) => (
+                                <Link
+                                  key={idx}
+                                  to={linkItem.path}
+                                  className="case-material-link highlighted"
+                                  title={`${linkItem.label} ${linkItem.isDirectDetail ? '상세페이지로 이동' : '자재 검색 결과로 이동'}`}
+                                >
+                                  <span className="material-link-text">{linkItem.label}</span>
+                                  <ArrowUpRight size={13} className="material-link-icon" />
+                                </Link>
+                              ))
+                            ) : (
+                              <span className="spec-value highlighted">{item.material_summary}</span>
+                            )}
+                          </div>
+                        </div>
+                      );
+                    })()}
                     {item.constructed_at && (
                       <div className="spec-row">
                         <Calendar size={14} className="spec-icon" />

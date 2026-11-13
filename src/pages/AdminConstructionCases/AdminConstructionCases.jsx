@@ -1,9 +1,10 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 import { useNavigate } from 'react-router-dom';
 import MainLayout from '../../components/layout/MainLayout';
 import { supabase } from '../../lib/supabaseClient';
 import { useAuth } from '../../contexts/AuthContext';
 import { ArrowLeft, Plus, Search, Edit2, Trash2, Save, X, Upload, Eye, Image as ImageIcon, Loader2 } from 'lucide-react';
+import { searchMaterialsForAdmin, findSupabaseProductId } from '../../utils/caseMaterialUtils';
 import './AdminConstructionCases.css';
 
 export default function AdminConstructionCases() {
@@ -27,6 +28,12 @@ export default function AdminConstructionCases() {
   const [title, setTitle] = useState('');
   const [location, setLocation] = useState('');
   const [materialSummary, setMaterialSummary] = useState('');
+  const [productId, setProductId] = useState(null);
+  const [selectedMaterials, setSelectedMaterials] = useState([]);
+  const [materialSearchQuery, setMaterialSearchQuery] = useState('');
+  const [materialSearchResults, setMaterialSearchResults] = useState([]);
+  const [isSearchingMaterial, setIsSearchingMaterial] = useState(false);
+  const materialDropdownRef = useRef(null);
   const [description, setDescription] = useState('');
   const [constructedAt, setConstructedAt] = useState('');
   const [category, setCategory] = useState('주거공간');
@@ -43,7 +50,7 @@ export default function AdminConstructionCases() {
     setErrorMsg('');
     try {
       if (!supabase) throw new Error('Supabase client is not initialized.');
-      
+
       const { data, error } = await supabase
         .from('construction_cases')
         .select('*')
@@ -70,11 +77,27 @@ export default function AdminConstructionCases() {
     fetchCases();
   }, [user, authLoading, navigate]);
 
+  // Handle outside click to close material search dropdown
+  useEffect(() => {
+    function handleClickOutside(event) {
+      if (materialDropdownRef.current && !materialDropdownRef.current.contains(event.target)) {
+        setIsSearchingMaterial(false);
+      }
+    }
+    document.addEventListener('mousedown', handleClickOutside);
+    return () => document.removeEventListener('mousedown', handleClickOutside);
+  }, []);
+
   const openAddModal = () => {
     setEditingCase(null);
     setTitle('');
     setLocation('');
     setMaterialSummary('');
+    setProductId(null);
+    setSelectedMaterials([]);
+    setMaterialSearchQuery('');
+    setMaterialSearchResults([]);
+    setIsSearchingMaterial(false);
     setDescription('');
     setCategory('주거공간');
     setIsActive(true);
@@ -82,11 +105,11 @@ export default function AdminConstructionCases() {
     setSortOrder(0);
     setMainImageUrl('');
     setImageUrls([]);
-    
+
     // Set default date to today in YYYY-MM-DD
     const today = new Date().toISOString().substring(0, 10);
     setConstructedAt(today);
-    
+
     setIsModalOpen(true);
   };
 
@@ -95,6 +118,11 @@ export default function AdminConstructionCases() {
     setTitle(item.title || '');
     setLocation(item.location || '');
     setMaterialSummary(item.material_summary || '');
+    setProductId(item.product_id || null);
+    setSelectedMaterials([]);
+    setMaterialSearchQuery('');
+    setMaterialSearchResults([]);
+    setIsSearchingMaterial(false);
     setDescription(item.description || '');
     setCategory(item.category || '주거공간');
     setIsActive(item.is_active ?? item.is_published ?? true);
@@ -104,6 +132,61 @@ export default function AdminConstructionCases() {
     setConstructedAt(item.constructed_at || '');
     setImageUrls(item.image_urls || []);
     setIsModalOpen(true);
+  };
+
+  const handleMaterialSearchChange = (e) => {
+    const val = e.target.value;
+    setMaterialSearchQuery(val);
+    if (val.trim().length >= 1) {
+      const results = searchMaterialsForAdmin(val, 12);
+      setMaterialSearchResults(results);
+      setIsSearchingMaterial(true);
+    } else {
+      setMaterialSearchResults([]);
+      setIsSearchingMaterial(false);
+    }
+  };
+
+  const handleSelectMaterial = async (materialItem) => {
+    if (selectedMaterials.some(m => m.id === materialItem.id)) {
+      alert('이미 추가된 자재입니다.');
+      return;
+    }
+
+    const updated = [...selectedMaterials, materialItem];
+    setSelectedMaterials(updated);
+
+    // Sync to materialSummary string
+    const labels = updated.map(m => {
+      const brand = m.brand ? `${m.brand} ` : '';
+      const code = m.code ? ` (${m.code})` : '';
+      return `${brand}${m.name || ''}${code}`.trim();
+    });
+    setMaterialSummary(labels.join(', '));
+
+    // Try finding Supabase numeric product ID for primary item
+    if (!productId) {
+      const numId = await findSupabaseProductId(supabase, materialItem);
+      if (numId) setProductId(numId);
+    }
+
+    setMaterialSearchQuery('');
+    setMaterialSearchResults([]);
+    setIsSearchingMaterial(false);
+  };
+
+  const handleRemoveMaterial = (materialId) => {
+    const updated = selectedMaterials.filter(m => m.id !== materialId);
+    setSelectedMaterials(updated);
+    const labels = updated.map(m => {
+      const brand = m.brand ? `${m.brand} ` : '';
+      const code = m.code ? ` (${m.code})` : '';
+      return `${brand}${m.name || ''}${code}`.trim();
+    });
+    setMaterialSummary(labels.join(', '));
+    if (updated.length === 0) {
+      setProductId(null);
+    }
   };
 
   const handleImageUpload = async (e, type = 'main') => {
@@ -156,11 +239,17 @@ export default function AdminConstructionCases() {
     try {
       if (!supabase) throw new Error('Supabase client is not initialized.');
 
+      let finalProductId = productId;
+      if (!finalProductId && selectedMaterials.length > 0) {
+        finalProductId = await findSupabaseProductId(supabase, selectedMaterials[0]);
+      }
+
       // Construct payload
       const payload = {
         title,
         location: location || null,
         material_summary: materialSummary || null,
+        product_id: finalProductId || null,
         description: description || null,
         category,
         is_active: isActive,
@@ -413,14 +502,66 @@ export default function AdminConstructionCases() {
                         />
                       </div>
 
-                      <div className="form-input-field">
-                        <label>시공 자재</label>
-                        <input
-                          type="text"
-                          placeholder="예: LX하우시스 지아자연애 2.2T"
-                          value={materialSummary}
-                          onChange={(e) => setMaterialSummary(e.target.value)}
-                        />
+                      <div className="form-input-field material-selector-field" ref={materialDropdownRef}>
+                        <label>시공 자재 연결 (DB 검색 & 다중 선택)</label>
+                        <div className="material-search-input-wrapper">
+                          <input
+                            type="text"
+                            placeholder="제품 코드(예: TS5534, PTT8698, 726) 또는 자재명 검색..."
+                            value={materialSearchQuery}
+                            onChange={handleMaterialSearchChange}
+                            onFocus={() => {
+                              if (materialSearchQuery.trim()) setIsSearchingMaterial(true);
+                            }}
+                          />
+                          {isSearchingMaterial && materialSearchResults.length > 0 && (
+                            <div className="material-search-dropdown">
+                              {materialSearchResults.map((m) => (
+                                <div
+                                  key={m.id}
+                                  className="material-search-dropdown-item"
+                                  onClick={() => handleSelectMaterial(m)}
+                                >
+                                  <div className="item-meta">
+                                    <span className="item-brand">{m.brand}</span>
+                                    <span className="item-code">{m.code || m.name}</span>
+                                    {m.specs?.size && <span className="item-size">{m.specs.size}</span>}
+                                  </div>
+                                  <div className="item-name">{m.name}</div>
+                                </div>
+                              ))}
+                            </div>
+                          )}
+                        </div>
+
+                        {/* Selected Materials Chips */}
+                        {selectedMaterials.length > 0 && (
+                          <div className="selected-materials-chips">
+                            {selectedMaterials.map((m) => (
+                              <div key={m.id} className="material-chip">
+                                <span className="chip-label">{m.brand} {m.code || m.name}</span>
+                                <button
+                                  type="button"
+                                  className="chip-remove"
+                                  onClick={() => handleRemoveMaterial(m.id)}
+                                  title="자재 제거"
+                                >
+                                  ×
+                                </button>
+                              </div>
+                            ))}
+                          </div>
+                        )}
+
+                        <div className="material-summary-subfield">
+                          <span className="subfield-note">시공 자재 요약 텍스트 (사이트 노출용, 직접 수정 가능)</span>
+                          <input
+                            type="text"
+                            placeholder="예: LX하우시스 프레스티지 5T PTT8698 (더스크 브론즈)"
+                            value={materialSummary}
+                            onChange={(e) => setMaterialSummary(e.target.value)}
+                          />
+                        </div>
                       </div>
                     </div>
 
@@ -487,7 +628,7 @@ export default function AdminConstructionCases() {
                           </div>
                         )}
                       </div>
-                      
+
                       <div className="upload-actions">
                         <label className="btn-upload-file">
                           <Upload size={14} /> 대표사진 선택
@@ -512,7 +653,7 @@ export default function AdminConstructionCases() {
                     {/* Gallery upload */}
                     <div className="gallery-upload-section">
                       <label>갤러리 추가 이미지 (여러 장 가능)</label>
-                      
+
                       <div className="gallery-previews-grid">
                         {imageUrls.map((url, idx) => (
                           <div key={idx} className="gallery-thumb-item">
@@ -526,7 +667,7 @@ export default function AdminConstructionCases() {
                             </button>
                           </div>
                         ))}
-                        
+
                         <label className="gallery-add-card">
                           <Plus size={20} />
                           <span>추가</span>
