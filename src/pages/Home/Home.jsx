@@ -583,13 +583,43 @@ const LX_JANGPAN_COLLECTION = [
 // Real Construction Project Showcase
 const REAL_PROJECTS = [
   {
+    id: "giheung-gym-lx-prestige-8698",
+    space: "헬스장 · 상업공간",
+    icon: Dumbbell,
+    title: "용인 기흥 헬스장 LX 프레스티지 8698 시공",
+    material: "LX하우시스 프레스티지 5T PTT8698 · 457.2×914.4mm",
+    desc: "동조엠보(EIR)와 고강도 Metal Shield 표면 처리의 프리미엄 5.0T 데코타일 시공 현장",
+    image: "/images/시공사례/2026.11.11 LX 프레스티지 8698 기흥 헬스장/KakaoTalk_20261111_154511524.jpg",
+    linkUrl: "/cases"
+  },
+  {
+    id: "guui-apartment-dongshin-726",
+    space: "아파트 · 주거공간",
+    icon: HomeIcon,
+    title: "서울 구의동 아파트 동신 726 데코타일 시공",
+    material: "동신 아트타일 726 · 3.0T",
+    desc: "밝고 내추럴한 감성의 바닥 마감으로 아늑한 주거 공간을 완성한 시공 현장",
+    image: "/images/시공사례/2025.07.24 동신 726 구의동 아파트/KakaoTalk_20261113_133133183.jpg",
+    linkUrl: "/cases"
+  },
+  {
+    id: "garak-officetel-kcc-5551",
+    space: "오피스텔 · 사무공간",
+    icon: Briefcase,
+    title: "서울 가락동 오피스텔 KCC 5551 시공",
+    material: "KCC 센스타일 트랜디 450각 TS 5551 · 3.0T",
+    desc: "단정하고 세련된 모던 그레이 톤으로 오피스 및 복합 공간에 최적화된 마감",
+    image: "/images/시공사례/2025.07.16 KCC 5551 가락동 오피스텔/KakaoTalk_20261113_132034837.jpg",
+    linkUrl: "/cases"
+  },
+  {
     id: "anseong-gym-kcc-5534",
     space: "헬스장 · 상업공간",
     icon: Dumbbell,
     title: "안성 헬스장 KCC 5534 시공",
-    material: "KCC 센스타일 트랜디 TS5534M · 600각",
+    material: "KCC 센스타일 트랜디 TS 5534 · 3.0T",
     desc: "다크 그레이 스톤 패턴의 KCC 데코타일이 적용된 안성 헬스장 바닥 시공 현장",
-    image: "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/KCC_센스타일_트랜디_600각_이미지/TS5534M.png",
+    image: "/images/시공사례/2025.07.14 안성헬스장 KCC 5534/KakaoTalk_20261113_131925191.jpg",
     linkUrl: "/cases"
   }
 ];
@@ -1026,7 +1056,7 @@ export default function Home() {
                   <span className="section-eyebrow">REAL PROJECTS</span>
                   <h2 className="section-primary-title">우리가 완성한 공간들</h2>
                   <p className="section-sub-copy">
-                    KCC 센스타일 트랜디 TS5534M을 적용한 안성 헬스장 시공사례를 확인해보세요.
+                    동경바닥재가 직접 완공한 헬스장, 아파트, 오피스텔 등 실제 바닥 시공 현장을 확인해보세요.
                   </p>
                 </div>
                 <Link 

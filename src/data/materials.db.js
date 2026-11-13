@@ -7678,6 +7678,32 @@ export const materials = [
     "product_name": ""
   },
   {
+    "id": "데코타일-녹수-오키드3000_우드-now-3061",
+    "category": "데코타일",
+    "brand": "녹수",
+    "line": "오키드3000_우드",
+    "subLine": "우드",
+    "name": "NOX 오키드3000 NOW-3061 European Oak Parquet",
+    "pattern": "European Oak Parquet",
+    "code": "NOW-3061",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/녹수/pdf_swatches/오키드3000/NOW-3061.webp",
+    "image": "/images/Thumbnail_Image/materials/데코타일/녹수/pdf_swatches/오키드3000/NOW-3061.webp",
+    "images": [
+      "/images/Thumbnail_Image/materials/데코타일/녹수/pdf_swatches/오키드3000/NOW-3061.webp"
+    ],
+    "price": 35000,
+    "thickness": "3.0T",
+    "specs": {
+      "division": "Parquet Wood",
+      "thickness": "3.0T",
+      "size": "457.2x457.2mm",
+      "packing": "15pcs/Box (3.14m²)"
+    },
+    "description": "오키드3000 Parquet Wood",
+    "product_code": "NOW-3061",
+    "product_name": "NOX 오키드3000 NOW-3061 European Oak Parquet"
+  },
+  {
     "id": "데코타일-녹수-오키드3000_우드150-now-3062",
     "category": "데코타일",
     "brand": "녹수",

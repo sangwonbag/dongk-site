@@ -7,13 +7,97 @@ import { MapPin, Box, Calendar, Edit2, Trash2, Eye, EyeOff } from 'lucide-react'
 import SEO from '../../components/seo/SEO';
 import './Cases.css';
 
+const FALLBACK_CASES = [
+  {
+    id: 6,
+    slug: 'giheung-gym-lx-prestige-8698',
+    title: '용인 기흥 헬스장 LX 프레스티지 8698 시공',
+    location: '경기도 용인시 기흥구',
+    category: '상업공간',
+    material_summary: 'LX하우시스 프레스티지 5T PTT8698 (더스크 브론즈) · 457.2×914.4mm · 5.0T',
+    description: '용인 기흥구 헬스장 현장에 LX하우시스 프리미엄 5.0T 프레스티지 장방형 스톤 PTT8698(더스크 브론즈)을 시공했습니다. 동조엠보(EIR)와 고강도 표면 처리로 헬스기구와 통행량이 많은 상업 공간에 뛰어난 내구성과 고급스러운 호텔급 인테리어를 완성했습니다.',
+    main_image_url: '/images/시공사례/2026.11.11 LX 프레스티지 8698 기흥 헬스장/KakaoTalk_20261111_154511524.jpg',
+    image_urls: [
+      '/images/시공사례/2026.11.11 LX 프레스티지 8698 기흥 헬스장/KakaoTalk_20261111_154511524.jpg',
+      '/images/시공사례/2026.11.11 LX 프레스티지 8698 기흥 헬스장/KakaoTalk_20261111_154511524_01.jpg'
+    ],
+    constructed_at: '2026-11-11',
+    is_active: true,
+    is_published: true,
+    sort_order: 1
+  },
+  {
+    id: 7,
+    slug: 'guui-apartment-dongshin-726',
+    title: '서울 구의동 아파트 동신 726 데코타일 시공',
+    location: '서울특별시 광진구 구의동',
+    category: '주거공간',
+    material_summary: '동신 아트타일 726 (AH 726 / AB 726) · 3.0T',
+    description: '서울 광진구 구의동 아파트 주거 공간에 동신 아트타일 726번 자재를 깔끔하고 정교하게 시공한 현장입니다. 밝고 내추럴한 감성의 바닥 마감으로 실내 공간이 더욱 넓고 아늑하게 연출되었습니다.',
+    main_image_url: '/images/시공사례/2025.07.24 동신 726 구의동 아파트/KakaoTalk_20261113_133133183.jpg',
+    image_urls: [
+      '/images/시공사례/2025.07.24 동신 726 구의동 아파트/KakaoTalk_20261113_133133183.jpg',
+      '/images/시공사례/2025.07.24 동신 726 구의동 아파트/KakaoTalk_20261113_133133183_01.jpg',
+      '/images/시공사례/2025.07.24 동신 726 구의동 아파트/KakaoTalk_20261113_133133183_02.jpg',
+      '/images/시공사례/2025.07.24 동신 726 구의동 아파트/KakaoTalk_20261113_133133183_03.jpg',
+      '/images/시공사례/2025.07.24 동신 726 구의동 아파트/KakaoTalk_20261113_133133183_04.jpg'
+    ],
+    constructed_at: '2025-07-24',
+    is_active: true,
+    is_published: true,
+    sort_order: 2
+  },
+  {
+    id: 8,
+    slug: 'garak-officetel-kcc-5551',
+    title: '서울 가락동 오피스텔 KCC 5551 시공',
+    location: '서울특별시 송파구 가락동',
+    category: '사무공간',
+    material_summary: 'KCC 센스타일 트랜디 450각 TS 5551 · 457.2×457.2mm · 3.0T',
+    description: '서울 송파구 가락동 오피스텔 바닥에 KCC 센스타일 트랜디 TS 5551 사각 데코타일을 시공한 현장입니다. 모던하고 단정한 그레이 톤으로 오피스 및 주거 복합 공간에 세련된 분위기를 제공합니다.',
+    main_image_url: '/images/시공사례/2025.07.16 KCC 5551 가락동 오피스텔/KakaoTalk_20261113_132034837.jpg',
+    image_urls: [
+      '/images/시공사례/2025.07.16 KCC 5551 가락동 오피스텔/KakaoTalk_20261113_132034837.jpg',
+      '/images/시공사례/2025.07.16 KCC 5551 가락동 오피스텔/KakaoTalk_20261113_132034837_01.jpg',
+      '/images/시공사례/2025.07.16 KCC 5551 가락동 오피스텔/KakaoTalk_20261113_132034837_02.jpg',
+      '/images/시공사례/2025.07.16 KCC 5551 가락동 오피스텔/KakaoTalk_20261113_132034837_03.jpg'
+    ],
+    constructed_at: '2025-07-16',
+    is_active: true,
+    is_published: true,
+    sort_order: 3
+  },
+  {
+    id: 2,
+    slug: 'anseong-gym-kcc-ts5534m',
+    title: '안성 헬스장 KCC 5534 시공',
+    location: '경기도 안성시',
+    category: '상업공간',
+    material_summary: 'KCC 센스타일 트랜디 TS 5534 · 450각/600각 · 3.0T',
+    description: '경기도 안성시 헬스장 바닥에 KCC 센스타일 트랜디 TS 5534 데코타일을 시공한 현장입니다. 견고한 내구성과 묵직한 다크 톤 질감으로 프리미엄 피트니스 공간에 최적화된 마감을 구현했습니다.',
+    main_image_url: '/images/시공사례/2025.07.14 안성헬스장 KCC 5534/KakaoTalk_20261113_131925191.jpg',
+    image_urls: [
+      '/images/시공사례/2025.07.14 안성헬스장 KCC 5534/KakaoTalk_20261113_131925191.jpg',
+      '/images/시공사례/2025.07.14 안성헬스장 KCC 5534/KakaoTalk_20261113_131925191_01.jpg',
+      '/images/시공사례/2025.07.14 안성헬스장 KCC 5534/KakaoTalk_20261113_131925191_02.jpg',
+      '/images/시공사례/2025.07.14 안성헬스장 KCC 5534/KakaoTalk_20261113_131925191_03.jpg',
+      '/images/시공사례/2025.07.14 안성헬스장 KCC 5534/KakaoTalk_20261113_131925191_04.jpg',
+      '/images/시공사례/2025.07.14 안성헬스장 KCC 5534/KakaoTalk_20261113_131925191_05.jpg'
+    ],
+    constructed_at: '2025-07-14',
+    is_active: true,
+    is_published: true,
+    sort_order: 4
+  }
+];
+
 export default function Cases() {
   const navigate = useNavigate();
   const [searchParams, setSearchParams] = useSearchParams();
   const { user } = useAuth();
   const isAdmin = user?.role === 'admin' || user?.role === 'staff';
 
-  const [casesList, setCasesList] = useState([]);
+  const [casesList, setCasesList] = useState(FALLBACK_CASES);
   const [loading, setLoading] = useState(true);
   const categoryFilter = searchParams.get('category') || '전체';
 
@@ -48,10 +132,14 @@ export default function Cases() {
 
       if (error) throw error;
 
-      setCasesList(data || []);
+      if (data && data.length > 0) {
+        setCasesList(data);
+      } else {
+        setCasesList(FALLBACK_CASES);
+      }
     } catch (err) {
-      console.error('[Cases] Failed to fetch construction cases.', err);
-      setCasesList([]);
+      console.error('[Cases] Failed to fetch construction cases, using verified fallback list.', err);
+      setCasesList(FALLBACK_CASES);
     } finally {
       setLoading(false);
     }

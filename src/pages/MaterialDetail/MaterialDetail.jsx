@@ -89,6 +89,12 @@ import {
 } from "../../utils/jaeyoungDetailUtils";
 import JaeyoungDetailSection from "../../components/product/JaeyoungDetailSection";
 import { JAEYOUNG_IMAGE_MAP } from "../../data/jaeyoungImageMap.generated";
+import {
+  isNoxProduct,
+  getNoxDetailInfo
+} from "../../utils/noxDetailUtils";
+import NoxDetailSection from "../../components/product/NoxDetailSection";
+import { NOX_IMAGE_MAP } from "../../data/noxImageMap.generated";
 import "./MaterialDetail.css";
 
 // Eagon flooring sub-classification / upper category helper
@@ -618,6 +624,35 @@ const enrichProduct = (raw) => {
       }
     }
   }
+  if (isNoxProduct(enriched)) {
+    const noxInfo = getNoxDetailInfo(enriched);
+    if (noxInfo) {
+      enriched.brand = '녹수';
+      enriched.thickness = noxInfo.spec.thickness;
+      enriched.line = noxInfo.lineup;
+      enriched.product_name = noxInfo.productName;
+      if (!enriched.name) enriched.name = noxInfo.productName;
+      if (noxInfo.pattern) enriched.pattern = noxInfo.pattern;
+      enriched.specs = {
+        ...(enriched.specs || {}),
+        thickness: noxInfo.spec.thickness,
+        size: noxInfo.spec.size,
+        packing: noxInfo.spec.packing,
+        pcs_per_box: noxInfo.spec.pcs_per_box,
+        area: noxInfo.spec.area,
+        usage: noxInfo.spec.materialType,
+        adhesive: noxInfo.spec.adhesive
+      };
+      const cleanCode = (enriched.code || enriched.product_code || '').replace(/\s+/g, '').toUpperCase();
+      const mappedImgs = NOX_IMAGE_MAP[cleanCode];
+      if (mappedImgs && mappedImgs.length > 0) {
+        enriched.thumbnail = mappedImgs[0];
+        enriched.image = mappedImgs[0];
+        enriched.images = mappedImgs;
+        enriched.galleryImages = mappedImgs;
+      }
+    }
+  }
   const normCode = (enriched.code || '').replace(/\s+/g, '').toUpperCase();
   if (normCode === 'TS5502P') {
     const officeImg = '/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/KCC_센스타일_트랜디_450각_이미지/TS5502P_사무실.jpg';
@@ -1089,6 +1124,15 @@ export default function MaterialDetail() {
 
           if (itemBrand === '재영') {
             if (pBrand === '재영') {
+              if (pLine === itemLine) return 100;
+              return sameSpec ? 90 : 80;
+            }
+            if (isKcc) return sameSpec ? 60 : 50;
+            return 20;
+          }
+
+          if (itemBrand === '녹수' || itemBrand.includes('녹수') || isNoxProduct(item)) {
+            if (pBrand.includes('녹수') || isNoxProduct(p)) {
               if (pLine === itemLine) return 100;
               return sameSpec ? 90 : 80;
             }
@@ -1612,6 +1656,8 @@ export default function MaterialDetail() {
   const dongshinInfo = isDongshinDeco ? getDongshinDetailInfo(item) : null;
   const isJaeyoungDeco = isJaeyoungDecoProduct(item);
   const jaeyoungInfo = isJaeyoungDeco ? getJaeyoungDetailInfo(item) : null;
+  const isNox = isNoxProduct(item);
+  const noxInfo = isNox ? getNoxDetailInfo(item) : null;
 
   const spaceExamples = (() => {
     if (!item) return [];
@@ -1948,6 +1994,14 @@ export default function MaterialDetail() {
                     <span className="divider">·</span>
                     <span className="line-name">{jaeyoungInfo?.lineup}</span>
                   </>
+                ) : isNox ? (
+                  <>
+                    <span className="brand-name">녹수</span>
+                    <span className="divider">·</span>
+                    <span className="category-name">데코타일</span>
+                    <span className="divider">·</span>
+                    <span className="line-name">{noxInfo?.lineup}</span>
+                  </>
                 ) : item.brand === 'KCC' ? (
                   <>
                     <span className="brand-name">KCC</span>
@@ -1976,6 +2030,8 @@ export default function MaterialDetail() {
                   ? `에코노플러스 ${item.code || ''} ${item.pattern_name || item.name || ''}`.trim()
                   : isJaeyoungDeco
                   ? (jaeyoungInfo?.productName || displayName)
+                  : isNox
+                  ? (noxInfo?.productName || displayName)
                   : displayName}
               </h1>
               {item.code && (
@@ -2047,6 +2103,8 @@ export default function MaterialDetail() {
                       ? dongshinInfo?.spec?.size
                       : isJaeyoungDeco
                       ? jaeyoungInfo?.spec?.size
+                      : isNox
+                      ? noxInfo?.spec?.size
                       : (currentSpec || "상담 확인 필요")}
                   </span>
                 </div>
@@ -2061,11 +2119,13 @@ export default function MaterialDetail() {
                       ? dongshinInfo?.spec?.thickness
                       : isJaeyoungDeco
                       ? jaeyoungInfo?.spec?.thickness
+                      : isNox
+                      ? noxInfo?.spec?.thickness
                       : (item.thickness || (item.specs && item.specs.thickness) || "상담 확인 필요")}
                   </span>
                 </div>
                 <div className="tech-spec-item">
-                  <span className="tech-label">{isKccTrendy ? "박스당 수량" : isDongshinDeco || isJaeyoungDeco ? "박스당 수량" : (item.brand === 'KCC' && item.category === '데코타일' ? "포장 수량" : "박스 구성")}</span>
+                  <span className="tech-label">{isKccTrendy ? "제품 규격" : isDongshinDeco || isJaeyoungDeco || isNox ? "공식 규격" : (item.brand === 'KCC' && item.category === '데코타일' ? "전체 규격" : "규격")}</span>
                   <span className="tech-value">
                     {isLxPrestigeProduct(item)
                       ? `${item.specs?.pcs_per_box || LX_PRESTIGE_SPEC_INFO[getLxPrestigeSpecType(item)]?.pcs} / BOX`
@@ -2077,28 +2137,30 @@ export default function MaterialDetail() {
                       ? dongshinInfo?.spec?.pcs_per_box
                       : isJaeyoungDeco
                       ? jaeyoungInfo?.spec?.pcs_per_box
+                      : isNox
+                      ? noxInfo?.spec?.pcs_per_box
                       : currentPacking}
                   </span>
                 </div>
                 <div className="tech-spec-item">
-                  <span className="tech-label">{isKccTrendy ? "박스당 시공면적" : isDongshinDeco || isJaeyoungDeco ? "박스당 시공면적" : (item.brand === 'KCC' && item.category === '데코타일' ? "BOX당 시공면적" : "시공 면적")}</span>
+                  <span className="tech-label">{isKccTrendy ? "박스당 시공면적" : isDongshinDeco || isJaeyoungDeco || isNox ? "박스당 시공면적" : (item.brand === 'KCC' && item.category === '데코타일' ? "BOX당 시공면적" : "시공 면적")}</span>
                   <span className="tech-value">
                     {isLxPrestigeProduct(item)
                       ? `${item.specs?.area || LX_PRESTIGE_SPEC_INFO[getLxPrestigeSpecType(item)]?.area} (${item.specs?.box_pyeong || LX_PRESTIGE_SPEC_INFO[getLxPrestigeSpecType(item)]?.pyeong})`
                       : isLxEconoPlusProduct(item)
                       ? (item.specs?.area ? `${item.specs.area} (${item.specs?.box_pyeong || '약 0.98평'})` : "3.24㎡ (약 0.98평)")
-                      : isKccTrendy ? (kccTrendyInfo?.spec?.area || kccTrendyInfo?.areaPerBox) : isDongshinDeco ? dongshinInfo?.spec?.area : isJaeyoungDeco ? jaeyoungInfo?.spec?.area : (
+                      : isKccTrendy ? (kccTrendyInfo?.spec?.area || kccTrendyInfo?.areaPerBox) : isDongshinDeco ? dongshinInfo?.spec?.area : isJaeyoungDeco ? jaeyoungInfo?.spec?.area : isNox ? noxInfo?.spec?.area : (
                       item.brand === 'KCC' && item.category === '데코타일' ? (
                         item.specs?.area || "3.32㎡"
                       ) : item.category === '장판' ? "M 단위 소요량 측정" : `1 ${getProductUnit(item)}당 시공 가능`
                     )}
                   </span>
                 </div>
-                {(item.pattern || isEagonProduct(item) || isKccTrendy || isDongshinDeco || isJaeyoungDeco) && (
+                {(item.pattern || isEagonProduct(item) || isKccTrendy || isDongshinDeco || isJaeyoungDeco || isNox) && (
                   <div className="tech-spec-item">
                     <span className="tech-label">패턴/디자인</span>
                     <span className="tech-value">
-                      {item.pattern || (isKccTrendy ? (kccTrendyInfo?.group === '우드' ? '우드' : '석재 / 콘크리트') : isDongshinDeco ? dongshinInfo?.spec?.designType : isJaeyoungDeco ? jaeyoungInfo?.spec?.designType : (isEagonProduct(item) && getEagonLineupGroup(item).includes("스퀘어") ? "스톤" : "우드"))}
+                      {item.pattern || (isKccTrendy ? (kccTrendyInfo?.group === '우드' ? '우드' : '석재 / 콘크리트') : isDongshinDeco ? dongshinInfo?.spec?.designType : isJaeyoungDeco ? jaeyoungInfo?.spec?.designType : isNox ? (noxInfo?.spec?.designType || noxInfo?.pattern) : (isEagonProduct(item) && getEagonLineupGroup(item).includes("스퀘어") ? "스톤" : "우드"))}
                     </span>
                   </div>
                 )}
@@ -2677,6 +2739,8 @@ export default function MaterialDetail() {
                 <DongshinDetailSection item={item} info={dongshinInfo} />
               ) : isJaeyoungDeco ? (
                 <JaeyoungDetailSection item={item} info={jaeyoungInfo} />
+              ) : isNox ? (
+                <NoxDetailSection item={item} info={noxInfo} />
               ) : isLxPrestigeProduct(item) ? (
                 <LxPrestigeDetailSection item={item} />
               ) : isLxEconoPlusProduct(item) ? (
@@ -2940,7 +3004,7 @@ export default function MaterialDetail() {
               )}
 
               {/* 전체 자재 카테고리 공통 쇼핑몰형 상세 이미지 (갤러리에 없는 추가 상세 설명 이미지만 표시) */}
-              {!isKccTrendy && !isDongshinDeco && !isJaeyoungDeco && (
+              {!isKccTrendy && !isDongshinDeco && !isJaeyoungDeco && !isNox && (
                 <ProductDetailImages 
                   images={supplementaryDetailImages} 
                   productName={displayName || item.name} 
@@ -2948,8 +3012,8 @@ export default function MaterialDetail() {
                 />
               )}
 
-              {/* Dynamic Virtual Space Showroom Section (exclude Dongshin, Prestige & Jaeyoung with dedicated sections) */}
-              {!isDongshinDeco && !isLxPrestigeProduct(item) && !isJaeyoungDeco && (
+              {/* Dynamic Virtual Space Showroom Section (exclude Dongshin, Prestige, Jaeyoung & Nox with dedicated sections) */}
+              {!isDongshinDeco && !isLxPrestigeProduct(item) && !isJaeyoungDeco && !isNox && (
                 <section className="detail-doc-section">
                   <h2 className="doc-section-title">이 자재가 적용된 공간 예시</h2>
                   <div className="doc-accent-bar"></div>
@@ -2981,7 +3045,7 @@ export default function MaterialDetail() {
               )}
 
               {/* Guidelines Section */}
-              {!isDongshinDeco && !isLxPrestigeProduct(item) && !isJaeyoungDeco && (
+              {!isDongshinDeco && !isLxPrestigeProduct(item) && !isJaeyoungDeco && !isNox && (
                 <section className="detail-doc-section">
                   <h2 className="doc-section-title">시공 전 유의 사항 안내</h2>
                   <div className="doc-accent-bar"></div>

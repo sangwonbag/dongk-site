@@ -5961,6 +5961,1456 @@ export const imageManifest = [
     "imageType": "material"
   },
   {
+    "fileName": "에코홈2000_p05_카탈로그연출.webp",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/녹수/catalog_scenes/에코홈2000/에코홈2000_p05_카탈로그연출.webp",
+    "category": "데코타일",
+    "brand": "녹수",
+    "series": "catalog_scenes/에코홈2000",
+    "extractedCode": "에코홈2000_p05_카탈로그연출",
+    "normalizedFileName": "에코홈2000p05카탈로그연출webp",
+    "imageType": "material"
+  },
+  {
+    "fileName": "에코홈2000_p06_카탈로그연출.webp",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/녹수/catalog_scenes/에코홈2000/에코홈2000_p06_카탈로그연출.webp",
+    "category": "데코타일",
+    "brand": "녹수",
+    "series": "catalog_scenes/에코홈2000",
+    "extractedCode": "에코홈2000_p06_카탈로그연출",
+    "normalizedFileName": "에코홈2000p06카탈로그연출webp",
+    "imageType": "material"
+  },
+  {
+    "fileName": "에코홈2000_p07_카탈로그연출.webp",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/녹수/catalog_scenes/에코홈2000/에코홈2000_p07_카탈로그연출.webp",
+    "category": "데코타일",
+    "brand": "녹수",
+    "series": "catalog_scenes/에코홈2000",
+    "extractedCode": "에코홈2000_p07_카탈로그연출",
+    "normalizedFileName": "에코홈2000p07카탈로그연출webp",
+    "imageType": "material"
+  },
+  {
+    "fileName": "에코홈2000_p08_카탈로그연출.webp",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/녹수/catalog_scenes/에코홈2000/에코홈2000_p08_카탈로그연출.webp",
+    "category": "데코타일",
+    "brand": "녹수",
+    "series": "catalog_scenes/에코홈2000",
+    "extractedCode": "에코홈2000_p08_카탈로그연출",
+    "normalizedFileName": "에코홈2000p08카탈로그연출webp",
+    "imageType": "material"
+  },
+  {
+    "fileName": "에코홈2000_p09_카탈로그연출.webp",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/녹수/catalog_scenes/에코홈2000/에코홈2000_p09_카탈로그연출.webp",
+    "category": "데코타일",
+    "brand": "녹수",
+    "series": "catalog_scenes/에코홈2000",
+    "extractedCode": "에코홈2000_p09_카탈로그연출",
+    "normalizedFileName": "에코홈2000p09카탈로그연출webp",
+    "imageType": "material"
+  },
+  {
+    "fileName": "오키드3000_p05_카탈로그연출.webp",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/녹수/catalog_scenes/오키드3000/오키드3000_p05_카탈로그연출.webp",
+    "category": "데코타일",
+    "brand": "녹수",
+    "series": "catalog_scenes/오키드3000",
+    "extractedCode": "오키드3000_p05_카탈로그연출",
+    "normalizedFileName": "오키드3000p05카탈로그연출webp",
+    "imageType": "material"
+  },
+  {
+    "fileName": "오키드3000_p06_카탈로그연출.webp",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/녹수/catalog_scenes/오키드3000/오키드3000_p06_카탈로그연출.webp",
+    "category": "데코타일",
+    "brand": "녹수",
+    "series": "catalog_scenes/오키드3000",
+    "extractedCode": "오키드3000_p06_카탈로그연출",
+    "normalizedFileName": "오키드3000p06카탈로그연출webp",
+    "imageType": "material"
+  },
+  {
+    "fileName": "오키드3000_p07_카탈로그연출.webp",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/녹수/catalog_scenes/오키드3000/오키드3000_p07_카탈로그연출.webp",
+    "category": "데코타일",
+    "brand": "녹수",
+    "series": "catalog_scenes/오키드3000",
+    "extractedCode": "오키드3000_p07_카탈로그연출",
+    "normalizedFileName": "오키드3000p07카탈로그연출webp",
+    "imageType": "material"
+  },
+  {
+    "fileName": "오키드3000_p08_카탈로그연출.webp",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/녹수/catalog_scenes/오키드3000/오키드3000_p08_카탈로그연출.webp",
+    "category": "데코타일",
+    "brand": "녹수",
+    "series": "catalog_scenes/오키드3000",
+    "extractedCode": "오키드3000_p08_카탈로그연출",
+    "normalizedFileName": "오키드3000p08카탈로그연출webp",
+    "imageType": "material"
+  },
+  {
+    "fileName": "오키드3000_p09_카탈로그연출.webp",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/녹수/catalog_scenes/오키드3000/오키드3000_p09_카탈로그연출.webp",
+    "category": "데코타일",
+    "brand": "녹수",
+    "series": "catalog_scenes/오키드3000",
+    "extractedCode": "오키드3000_p09_카탈로그연출",
+    "normalizedFileName": "오키드3000p09카탈로그연출webp",
+    "imageType": "material"
+  },
+  {
+    "fileName": "오키드3000_p10_카탈로그연출.webp",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/녹수/catalog_scenes/오키드3000/오키드3000_p10_카탈로그연출.webp",
+    "category": "데코타일",
+    "brand": "녹수",
+    "series": "catalog_scenes/오키드3000",
+    "extractedCode": "오키드3000_p10_카탈로그연출",
+    "normalizedFileName": "오키드3000p10카탈로그연출webp",
+    "imageType": "material"
+  },
+  {
+    "fileName": "오키드3000_p11_카탈로그연출.webp",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/녹수/catalog_scenes/오키드3000/오키드3000_p11_카탈로그연출.webp",
+    "category": "데코타일",
+    "brand": "녹수",
+    "series": "catalog_scenes/오키드3000",
+    "extractedCode": "오키드3000_p11_카탈로그연출",
+    "normalizedFileName": "오키드3000p11카탈로그연출webp",
+    "imageType": "material"
+  },
+  {
+    "fileName": "오키드3000_p12_카탈로그연출.webp",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/녹수/catalog_scenes/오키드3000/오키드3000_p12_카탈로그연출.webp",
+    "category": "데코타일",
+    "brand": "녹수",
+    "series": "catalog_scenes/오키드3000",
+    "extractedCode": "오키드3000_p12_카탈로그연출",
+    "normalizedFileName": "오키드3000p12카탈로그연출webp",
+    "imageType": "material"
+  },
+  {
+    "fileName": "오키드3000_p13_카탈로그연출.webp",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/녹수/catalog_scenes/오키드3000/오키드3000_p13_카탈로그연출.webp",
+    "category": "데코타일",
+    "brand": "녹수",
+    "series": "catalog_scenes/오키드3000",
+    "extractedCode": "오키드3000_p13_카탈로그연출",
+    "normalizedFileName": "오키드3000p13카탈로그연출webp",
+    "imageType": "material"
+  },
+  {
+    "fileName": "오키드3000_p14_카탈로그연출.webp",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/녹수/catalog_scenes/오키드3000/오키드3000_p14_카탈로그연출.webp",
+    "category": "데코타일",
+    "brand": "녹수",
+    "series": "catalog_scenes/오키드3000",
+    "extractedCode": "오키드3000_p14_카탈로그연출",
+    "normalizedFileName": "오키드3000p14카탈로그연출webp",
+    "imageType": "material"
+  },
+  {
+    "fileName": "오키드3000_p15_카탈로그연출.webp",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/녹수/catalog_scenes/오키드3000/오키드3000_p15_카탈로그연출.webp",
+    "category": "데코타일",
+    "brand": "녹수",
+    "series": "catalog_scenes/오키드3000",
+    "extractedCode": "오키드3000_p15_카탈로그연출",
+    "normalizedFileName": "오키드3000p15카탈로그연출webp",
+    "imageType": "material"
+  },
+  {
+    "fileName": "오키드3000_p16_카탈로그연출.webp",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/녹수/catalog_scenes/오키드3000/오키드3000_p16_카탈로그연출.webp",
+    "category": "데코타일",
+    "brand": "녹수",
+    "series": "catalog_scenes/오키드3000",
+    "extractedCode": "오키드3000_p16_카탈로그연출",
+    "normalizedFileName": "오키드3000p16카탈로그연출webp",
+    "imageType": "material"
+  },
+  {
+    "fileName": "오키드3000_p17_카탈로그연출.webp",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/녹수/catalog_scenes/오키드3000/오키드3000_p17_카탈로그연출.webp",
+    "category": "데코타일",
+    "brand": "녹수",
+    "series": "catalog_scenes/오키드3000",
+    "extractedCode": "오키드3000_p17_카탈로그연출",
+    "normalizedFileName": "오키드3000p17카탈로그연출webp",
+    "imageType": "material"
+  },
+  {
+    "fileName": "오키드3000_p18_카탈로그연출.webp",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/녹수/catalog_scenes/오키드3000/오키드3000_p18_카탈로그연출.webp",
+    "category": "데코타일",
+    "brand": "녹수",
+    "series": "catalog_scenes/오키드3000",
+    "extractedCode": "오키드3000_p18_카탈로그연출",
+    "normalizedFileName": "오키드3000p18카탈로그연출webp",
+    "imageType": "material"
+  },
+  {
+    "fileName": "오키드3000_p19_카탈로그연출.webp",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/녹수/catalog_scenes/오키드3000/오키드3000_p19_카탈로그연출.webp",
+    "category": "데코타일",
+    "brand": "녹수",
+    "series": "catalog_scenes/오키드3000",
+    "extractedCode": "오키드3000_p19_카탈로그연출",
+    "normalizedFileName": "오키드3000p19카탈로그연출webp",
+    "imageType": "material"
+  },
+  {
+    "fileName": "오키드3000_p20_카탈로그연출.webp",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/녹수/catalog_scenes/오키드3000/오키드3000_p20_카탈로그연출.webp",
+    "category": "데코타일",
+    "brand": "녹수",
+    "series": "catalog_scenes/오키드3000",
+    "extractedCode": "오키드3000_p20_카탈로그연출",
+    "normalizedFileName": "오키드3000p20카탈로그연출webp",
+    "imageType": "material"
+  },
+  {
+    "fileName": "오키드3000_p21_카탈로그연출.webp",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/녹수/catalog_scenes/오키드3000/오키드3000_p21_카탈로그연출.webp",
+    "category": "데코타일",
+    "brand": "녹수",
+    "series": "catalog_scenes/오키드3000",
+    "extractedCode": "오키드3000_p21_카탈로그연출",
+    "normalizedFileName": "오키드3000p21카탈로그연출webp",
+    "imageType": "material"
+  },
+  {
+    "fileName": "오키드3000_p22_카탈로그연출.webp",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/녹수/catalog_scenes/오키드3000/오키드3000_p22_카탈로그연출.webp",
+    "category": "데코타일",
+    "brand": "녹수",
+    "series": "catalog_scenes/오키드3000",
+    "extractedCode": "오키드3000_p22_카탈로그연출",
+    "normalizedFileName": "오키드3000p22카탈로그연출webp",
+    "imageType": "material"
+  },
+  {
+    "fileName": "오키드3000_p23_카탈로그연출.webp",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/녹수/catalog_scenes/오키드3000/오키드3000_p23_카탈로그연출.webp",
+    "category": "데코타일",
+    "brand": "녹수",
+    "series": "catalog_scenes/오키드3000",
+    "extractedCode": "오키드3000_p23_카탈로그연출",
+    "normalizedFileName": "오키드3000p23카탈로그연출webp",
+    "imageType": "material"
+  },
+  {
+    "fileName": "프라임1500_p05_카탈로그연출.webp",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/녹수/catalog_scenes/프라임1500/프라임1500_p05_카탈로그연출.webp",
+    "category": "데코타일",
+    "brand": "녹수",
+    "series": "catalog_scenes/프라임1500",
+    "extractedCode": "프라임1500_p05_카탈로그연출",
+    "normalizedFileName": "프라임1500p05카탈로그연출webp",
+    "imageType": "material"
+  },
+  {
+    "fileName": "프라임1500_p06_카탈로그연출.webp",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/녹수/catalog_scenes/프라임1500/프라임1500_p06_카탈로그연출.webp",
+    "category": "데코타일",
+    "brand": "녹수",
+    "series": "catalog_scenes/프라임1500",
+    "extractedCode": "프라임1500_p06_카탈로그연출",
+    "normalizedFileName": "프라임1500p06카탈로그연출webp",
+    "imageType": "material"
+  },
+  {
+    "fileName": "프라임1500_p07_카탈로그연출.webp",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/녹수/catalog_scenes/프라임1500/프라임1500_p07_카탈로그연출.webp",
+    "category": "데코타일",
+    "brand": "녹수",
+    "series": "catalog_scenes/프라임1500",
+    "extractedCode": "프라임1500_p07_카탈로그연출",
+    "normalizedFileName": "프라임1500p07카탈로그연출webp",
+    "imageType": "material"
+  },
+  {
+    "fileName": "프라임1500_p08_카탈로그연출.webp",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/녹수/catalog_scenes/프라임1500/프라임1500_p08_카탈로그연출.webp",
+    "category": "데코타일",
+    "brand": "녹수",
+    "series": "catalog_scenes/프라임1500",
+    "extractedCode": "프라임1500_p08_카탈로그연출",
+    "normalizedFileName": "프라임1500p08카탈로그연출webp",
+    "imageType": "material"
+  },
+  {
+    "fileName": "프라임1500_p09_카탈로그연출.webp",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/녹수/catalog_scenes/프라임1500/프라임1500_p09_카탈로그연출.webp",
+    "category": "데코타일",
+    "brand": "녹수",
+    "series": "catalog_scenes/프라임1500",
+    "extractedCode": "프라임1500_p09_카탈로그연출",
+    "normalizedFileName": "프라임1500p09카탈로그연출webp",
+    "imageType": "material"
+  },
+  {
+    "fileName": "프라임1500_p11_카탈로그연출.webp",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/녹수/catalog_scenes/프라임1500/프라임1500_p11_카탈로그연출.webp",
+    "category": "데코타일",
+    "brand": "녹수",
+    "series": "catalog_scenes/프라임1500",
+    "extractedCode": "프라임1500_p11_카탈로그연출",
+    "normalizedFileName": "프라임1500p11카탈로그연출webp",
+    "imageType": "material"
+  },
+  {
+    "fileName": "프라임1500_p12_카탈로그연출.webp",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/녹수/catalog_scenes/프라임1500/프라임1500_p12_카탈로그연출.webp",
+    "category": "데코타일",
+    "brand": "녹수",
+    "series": "catalog_scenes/프라임1500",
+    "extractedCode": "프라임1500_p12_카탈로그연출",
+    "normalizedFileName": "프라임1500p12카탈로그연출webp",
+    "imageType": "material"
+  },
+  {
+    "fileName": "프라임1500_p13_카탈로그연출.webp",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/녹수/catalog_scenes/프라임1500/프라임1500_p13_카탈로그연출.webp",
+    "category": "데코타일",
+    "brand": "녹수",
+    "series": "catalog_scenes/프라임1500",
+    "extractedCode": "프라임1500_p13_카탈로그연출",
+    "normalizedFileName": "프라임1500p13카탈로그연출webp",
+    "imageType": "material"
+  },
+  {
+    "fileName": "프라임1500_p14_카탈로그연출.webp",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/녹수/catalog_scenes/프라임1500/프라임1500_p14_카탈로그연출.webp",
+    "category": "데코타일",
+    "brand": "녹수",
+    "series": "catalog_scenes/프라임1500",
+    "extractedCode": "프라임1500_p14_카탈로그연출",
+    "normalizedFileName": "프라임1500p14카탈로그연출webp",
+    "imageType": "material"
+  },
+  {
+    "fileName": "프라임1500_p15_카탈로그연출.webp",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/녹수/catalog_scenes/프라임1500/프라임1500_p15_카탈로그연출.webp",
+    "category": "데코타일",
+    "brand": "녹수",
+    "series": "catalog_scenes/프라임1500",
+    "extractedCode": "프라임1500_p15_카탈로그연출",
+    "normalizedFileName": "프라임1500p15카탈로그연출webp",
+    "imageType": "material"
+  },
+  {
+    "fileName": "프라임1500_p16_카탈로그연출.webp",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/녹수/catalog_scenes/프라임1500/프라임1500_p16_카탈로그연출.webp",
+    "category": "데코타일",
+    "brand": "녹수",
+    "series": "catalog_scenes/프라임1500",
+    "extractedCode": "프라임1500_p16_카탈로그연출",
+    "normalizedFileName": "프라임1500p16카탈로그연출webp",
+    "imageType": "material"
+  },
+  {
+    "fileName": "프라임1500_p17_카탈로그연출.webp",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/녹수/catalog_scenes/프라임1500/프라임1500_p17_카탈로그연출.webp",
+    "category": "데코타일",
+    "brand": "녹수",
+    "series": "catalog_scenes/프라임1500",
+    "extractedCode": "프라임1500_p17_카탈로그연출",
+    "normalizedFileName": "프라임1500p17카탈로그연출webp",
+    "imageType": "material"
+  },
+  {
+    "fileName": "NEH-2004.webp",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/녹수/pdf_swatches/에코홈2000/NEH-2004.webp",
+    "category": "데코타일",
+    "brand": "녹수",
+    "series": "pdf_swatches/에코홈2000",
+    "extractedCode": "NEH-2004",
+    "normalizedFileName": "neh2004webp",
+    "imageType": "material"
+  },
+  {
+    "fileName": "NEH-2005.webp",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/녹수/pdf_swatches/에코홈2000/NEH-2005.webp",
+    "category": "데코타일",
+    "brand": "녹수",
+    "series": "pdf_swatches/에코홈2000",
+    "extractedCode": "NEH-2005",
+    "normalizedFileName": "neh2005webp",
+    "imageType": "material"
+  },
+  {
+    "fileName": "NEH-2006.webp",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/녹수/pdf_swatches/에코홈2000/NEH-2006.webp",
+    "category": "데코타일",
+    "brand": "녹수",
+    "series": "pdf_swatches/에코홈2000",
+    "extractedCode": "NEH-2006",
+    "normalizedFileName": "neh2006webp",
+    "imageType": "material"
+  },
+  {
+    "fileName": "NEH-2008.webp",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/녹수/pdf_swatches/에코홈2000/NEH-2008.webp",
+    "category": "데코타일",
+    "brand": "녹수",
+    "series": "pdf_swatches/에코홈2000",
+    "extractedCode": "NEH-2008",
+    "normalizedFileName": "neh2008webp",
+    "imageType": "material"
+  },
+  {
+    "fileName": "NEH-2011.webp",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/녹수/pdf_swatches/에코홈2000/NEH-2011.webp",
+    "category": "데코타일",
+    "brand": "녹수",
+    "series": "pdf_swatches/에코홈2000",
+    "extractedCode": "NEH-2011",
+    "normalizedFileName": "neh2011webp",
+    "imageType": "material"
+  },
+  {
+    "fileName": "NEH-2014.webp",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/녹수/pdf_swatches/에코홈2000/NEH-2014.webp",
+    "category": "데코타일",
+    "brand": "녹수",
+    "series": "pdf_swatches/에코홈2000",
+    "extractedCode": "NEH-2014",
+    "normalizedFileName": "neh2014webp",
+    "imageType": "material"
+  },
+  {
+    "fileName": "NEH-2015.webp",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/녹수/pdf_swatches/에코홈2000/NEH-2015.webp",
+    "category": "데코타일",
+    "brand": "녹수",
+    "series": "pdf_swatches/에코홈2000",
+    "extractedCode": "NEH-2015",
+    "normalizedFileName": "neh2015webp",
+    "imageType": "material"
+  },
+  {
+    "fileName": "NEH-2016.webp",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/녹수/pdf_swatches/에코홈2000/NEH-2016.webp",
+    "category": "데코타일",
+    "brand": "녹수",
+    "series": "pdf_swatches/에코홈2000",
+    "extractedCode": "NEH-2016",
+    "normalizedFileName": "neh2016webp",
+    "imageType": "material"
+  },
+  {
+    "fileName": "NEH-2017.webp",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/녹수/pdf_swatches/에코홈2000/NEH-2017.webp",
+    "category": "데코타일",
+    "brand": "녹수",
+    "series": "pdf_swatches/에코홈2000",
+    "extractedCode": "NEH-2017",
+    "normalizedFileName": "neh2017webp",
+    "imageType": "material"
+  },
+  {
+    "fileName": "NEH-2018.webp",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/녹수/pdf_swatches/에코홈2000/NEH-2018.webp",
+    "category": "데코타일",
+    "brand": "녹수",
+    "series": "pdf_swatches/에코홈2000",
+    "extractedCode": "NEH-2018",
+    "normalizedFileName": "neh2018webp",
+    "imageType": "material"
+  },
+  {
+    "fileName": "NEH-2613.webp",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/녹수/pdf_swatches/에코홈2000/NEH-2613.webp",
+    "category": "데코타일",
+    "brand": "녹수",
+    "series": "pdf_swatches/에코홈2000",
+    "extractedCode": "NEH-2613",
+    "normalizedFileName": "neh2613webp",
+    "imageType": "material"
+  },
+  {
+    "fileName": "NEH-2614.webp",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/녹수/pdf_swatches/에코홈2000/NEH-2614.webp",
+    "category": "데코타일",
+    "brand": "녹수",
+    "series": "pdf_swatches/에코홈2000",
+    "extractedCode": "NEH-2614",
+    "normalizedFileName": "neh2614webp",
+    "imageType": "material"
+  },
+  {
+    "fileName": "NEH-2616.webp",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/녹수/pdf_swatches/에코홈2000/NEH-2616.webp",
+    "category": "데코타일",
+    "brand": "녹수",
+    "series": "pdf_swatches/에코홈2000",
+    "extractedCode": "NEH-2616",
+    "normalizedFileName": "neh2616webp",
+    "imageType": "material"
+  },
+  {
+    "fileName": "NEH-2617.webp",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/녹수/pdf_swatches/에코홈2000/NEH-2617.webp",
+    "category": "데코타일",
+    "brand": "녹수",
+    "series": "pdf_swatches/에코홈2000",
+    "extractedCode": "NEH-2617",
+    "normalizedFileName": "neh2617webp",
+    "imageType": "material"
+  },
+  {
+    "fileName": "NEH-2618.webp",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/녹수/pdf_swatches/에코홈2000/NEH-2618.webp",
+    "category": "데코타일",
+    "brand": "녹수",
+    "series": "pdf_swatches/에코홈2000",
+    "extractedCode": "NEH-2618",
+    "normalizedFileName": "neh2618webp",
+    "imageType": "material"
+  },
+  {
+    "fileName": "NEH-2619.webp",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/녹수/pdf_swatches/에코홈2000/NEH-2619.webp",
+    "category": "데코타일",
+    "brand": "녹수",
+    "series": "pdf_swatches/에코홈2000",
+    "extractedCode": "NEH-2619",
+    "normalizedFileName": "neh2619webp",
+    "imageType": "material"
+  },
+  {
+    "fileName": "NOT-3021.webp",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/녹수/pdf_swatches/오키드3000/NOT-3021.webp",
+    "category": "데코타일",
+    "brand": "녹수",
+    "series": "pdf_swatches/오키드3000",
+    "extractedCode": "NOT-3021",
+    "normalizedFileName": "not3021webp",
+    "imageType": "material"
+  },
+  {
+    "fileName": "NOT-3022.webp",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/녹수/pdf_swatches/오키드3000/NOT-3022.webp",
+    "category": "데코타일",
+    "brand": "녹수",
+    "series": "pdf_swatches/오키드3000",
+    "extractedCode": "NOT-3022",
+    "normalizedFileName": "not3022webp",
+    "imageType": "material"
+  },
+  {
+    "fileName": "NOT-3023.webp",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/녹수/pdf_swatches/오키드3000/NOT-3023.webp",
+    "category": "데코타일",
+    "brand": "녹수",
+    "series": "pdf_swatches/오키드3000",
+    "extractedCode": "NOT-3023",
+    "normalizedFileName": "not3023webp",
+    "imageType": "material"
+  },
+  {
+    "fileName": "NOT-3027.webp",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/녹수/pdf_swatches/오키드3000/NOT-3027.webp",
+    "category": "데코타일",
+    "brand": "녹수",
+    "series": "pdf_swatches/오키드3000",
+    "extractedCode": "NOT-3027",
+    "normalizedFileName": "not3027webp",
+    "imageType": "material"
+  },
+  {
+    "fileName": "NOT-3028.webp",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/녹수/pdf_swatches/오키드3000/NOT-3028.webp",
+    "category": "데코타일",
+    "brand": "녹수",
+    "series": "pdf_swatches/오키드3000",
+    "extractedCode": "NOT-3028",
+    "normalizedFileName": "not3028webp",
+    "imageType": "material"
+  },
+  {
+    "fileName": "NOT-3030.webp",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/녹수/pdf_swatches/오키드3000/NOT-3030.webp",
+    "category": "데코타일",
+    "brand": "녹수",
+    "series": "pdf_swatches/오키드3000",
+    "extractedCode": "NOT-3030",
+    "normalizedFileName": "not3030webp",
+    "imageType": "material"
+  },
+  {
+    "fileName": "NOT-3034.webp",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/녹수/pdf_swatches/오키드3000/NOT-3034.webp",
+    "category": "데코타일",
+    "brand": "녹수",
+    "series": "pdf_swatches/오키드3000",
+    "extractedCode": "NOT-3034",
+    "normalizedFileName": "not3034webp",
+    "imageType": "material"
+  },
+  {
+    "fileName": "NOT-3035.webp",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/녹수/pdf_swatches/오키드3000/NOT-3035.webp",
+    "category": "데코타일",
+    "brand": "녹수",
+    "series": "pdf_swatches/오키드3000",
+    "extractedCode": "NOT-3035",
+    "normalizedFileName": "not3035webp",
+    "imageType": "material"
+  },
+  {
+    "fileName": "NOT-3036.webp",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/녹수/pdf_swatches/오키드3000/NOT-3036.webp",
+    "category": "데코타일",
+    "brand": "녹수",
+    "series": "pdf_swatches/오키드3000",
+    "extractedCode": "NOT-3036",
+    "normalizedFileName": "not3036webp",
+    "imageType": "material"
+  },
+  {
+    "fileName": "NOT-3037.webp",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/녹수/pdf_swatches/오키드3000/NOT-3037.webp",
+    "category": "데코타일",
+    "brand": "녹수",
+    "series": "pdf_swatches/오키드3000",
+    "extractedCode": "NOT-3037",
+    "normalizedFileName": "not3037webp",
+    "imageType": "material"
+  },
+  {
+    "fileName": "NOT-3038.webp",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/녹수/pdf_swatches/오키드3000/NOT-3038.webp",
+    "category": "데코타일",
+    "brand": "녹수",
+    "series": "pdf_swatches/오키드3000",
+    "extractedCode": "NOT-3038",
+    "normalizedFileName": "not3038webp",
+    "imageType": "material"
+  },
+  {
+    "fileName": "NOT-3039.webp",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/녹수/pdf_swatches/오키드3000/NOT-3039.webp",
+    "category": "데코타일",
+    "brand": "녹수",
+    "series": "pdf_swatches/오키드3000",
+    "extractedCode": "NOT-3039",
+    "normalizedFileName": "not3039webp",
+    "imageType": "material"
+  },
+  {
+    "fileName": "NOT-3040.webp",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/녹수/pdf_swatches/오키드3000/NOT-3040.webp",
+    "category": "데코타일",
+    "brand": "녹수",
+    "series": "pdf_swatches/오키드3000",
+    "extractedCode": "NOT-3040",
+    "normalizedFileName": "not3040webp",
+    "imageType": "material"
+  },
+  {
+    "fileName": "NOT-3041.webp",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/녹수/pdf_swatches/오키드3000/NOT-3041.webp",
+    "category": "데코타일",
+    "brand": "녹수",
+    "series": "pdf_swatches/오키드3000",
+    "extractedCode": "NOT-3041",
+    "normalizedFileName": "not3041webp",
+    "imageType": "material"
+  },
+  {
+    "fileName": "NOT-3071.webp",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/녹수/pdf_swatches/오키드3000/NOT-3071.webp",
+    "category": "데코타일",
+    "brand": "녹수",
+    "series": "pdf_swatches/오키드3000",
+    "extractedCode": "NOT-3071",
+    "normalizedFileName": "not3071webp",
+    "imageType": "material"
+  },
+  {
+    "fileName": "NOT-3072.webp",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/녹수/pdf_swatches/오키드3000/NOT-3072.webp",
+    "category": "데코타일",
+    "brand": "녹수",
+    "series": "pdf_swatches/오키드3000",
+    "extractedCode": "NOT-3072",
+    "normalizedFileName": "not3072webp",
+    "imageType": "material"
+  },
+  {
+    "fileName": "NOT-3073.webp",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/녹수/pdf_swatches/오키드3000/NOT-3073.webp",
+    "category": "데코타일",
+    "brand": "녹수",
+    "series": "pdf_swatches/오키드3000",
+    "extractedCode": "NOT-3073",
+    "normalizedFileName": "not3073webp",
+    "imageType": "material"
+  },
+  {
+    "fileName": "NOT-31001.webp",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/녹수/pdf_swatches/오키드3000/NOT-31001.webp",
+    "category": "데코타일",
+    "brand": "녹수",
+    "series": "pdf_swatches/오키드3000",
+    "extractedCode": "NOT-31001",
+    "normalizedFileName": "not31001webp",
+    "imageType": "material"
+  },
+  {
+    "fileName": "NOT-31002.webp",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/녹수/pdf_swatches/오키드3000/NOT-31002.webp",
+    "category": "데코타일",
+    "brand": "녹수",
+    "series": "pdf_swatches/오키드3000",
+    "extractedCode": "NOT-31002",
+    "normalizedFileName": "not31002webp",
+    "imageType": "material"
+  },
+  {
+    "fileName": "NOT-31003.webp",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/녹수/pdf_swatches/오키드3000/NOT-31003.webp",
+    "category": "데코타일",
+    "brand": "녹수",
+    "series": "pdf_swatches/오키드3000",
+    "extractedCode": "NOT-31003",
+    "normalizedFileName": "not31003webp",
+    "imageType": "material"
+  },
+  {
+    "fileName": "NOT-3491.webp",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/녹수/pdf_swatches/오키드3000/NOT-3491.webp",
+    "category": "데코타일",
+    "brand": "녹수",
+    "series": "pdf_swatches/오키드3000",
+    "extractedCode": "NOT-3491",
+    "normalizedFileName": "not3491webp",
+    "imageType": "material"
+  },
+  {
+    "fileName": "NOT-3493.webp",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/녹수/pdf_swatches/오키드3000/NOT-3493.webp",
+    "category": "데코타일",
+    "brand": "녹수",
+    "series": "pdf_swatches/오키드3000",
+    "extractedCode": "NOT-3493",
+    "normalizedFileName": "not3493webp",
+    "imageType": "material"
+  },
+  {
+    "fileName": "NOT-3494.webp",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/녹수/pdf_swatches/오키드3000/NOT-3494.webp",
+    "category": "데코타일",
+    "brand": "녹수",
+    "series": "pdf_swatches/오키드3000",
+    "extractedCode": "NOT-3494",
+    "normalizedFileName": "not3494webp",
+    "imageType": "material"
+  },
+  {
+    "fileName": "NOT-3495.webp",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/녹수/pdf_swatches/오키드3000/NOT-3495.webp",
+    "category": "데코타일",
+    "brand": "녹수",
+    "series": "pdf_swatches/오키드3000",
+    "extractedCode": "NOT-3495",
+    "normalizedFileName": "not3495webp",
+    "imageType": "material"
+  },
+  {
+    "fileName": "NOT-3629.webp",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/녹수/pdf_swatches/오키드3000/NOT-3629.webp",
+    "category": "데코타일",
+    "brand": "녹수",
+    "series": "pdf_swatches/오키드3000",
+    "extractedCode": "NOT-3629",
+    "normalizedFileName": "not3629webp",
+    "imageType": "material"
+  },
+  {
+    "fileName": "NOT-3630.webp",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/녹수/pdf_swatches/오키드3000/NOT-3630.webp",
+    "category": "데코타일",
+    "brand": "녹수",
+    "series": "pdf_swatches/오키드3000",
+    "extractedCode": "NOT-3630",
+    "normalizedFileName": "not3630webp",
+    "imageType": "material"
+  },
+  {
+    "fileName": "NOT-3631.webp",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/녹수/pdf_swatches/오키드3000/NOT-3631.webp",
+    "category": "데코타일",
+    "brand": "녹수",
+    "series": "pdf_swatches/오키드3000",
+    "extractedCode": "NOT-3631",
+    "normalizedFileName": "not3631webp",
+    "imageType": "material"
+  },
+  {
+    "fileName": "NOT-3634.webp",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/녹수/pdf_swatches/오키드3000/NOT-3634.webp",
+    "category": "데코타일",
+    "brand": "녹수",
+    "series": "pdf_swatches/오키드3000",
+    "extractedCode": "NOT-3634",
+    "normalizedFileName": "not3634webp",
+    "imageType": "material"
+  },
+  {
+    "fileName": "NOT-3635.webp",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/녹수/pdf_swatches/오키드3000/NOT-3635.webp",
+    "category": "데코타일",
+    "brand": "녹수",
+    "series": "pdf_swatches/오키드3000",
+    "extractedCode": "NOT-3635",
+    "normalizedFileName": "not3635webp",
+    "imageType": "material"
+  },
+  {
+    "fileName": "NOT-3636.webp",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/녹수/pdf_swatches/오키드3000/NOT-3636.webp",
+    "category": "데코타일",
+    "brand": "녹수",
+    "series": "pdf_swatches/오키드3000",
+    "extractedCode": "NOT-3636",
+    "normalizedFileName": "not3636webp",
+    "imageType": "material"
+  },
+  {
+    "fileName": "NOT-3637.webp",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/녹수/pdf_swatches/오키드3000/NOT-3637.webp",
+    "category": "데코타일",
+    "brand": "녹수",
+    "series": "pdf_swatches/오키드3000",
+    "extractedCode": "NOT-3637",
+    "normalizedFileName": "not3637webp",
+    "imageType": "material"
+  },
+  {
+    "fileName": "NOT-3638.webp",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/녹수/pdf_swatches/오키드3000/NOT-3638.webp",
+    "category": "데코타일",
+    "brand": "녹수",
+    "series": "pdf_swatches/오키드3000",
+    "extractedCode": "NOT-3638",
+    "normalizedFileName": "not3638webp",
+    "imageType": "material"
+  },
+  {
+    "fileName": "NOT-3639.webp",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/녹수/pdf_swatches/오키드3000/NOT-3639.webp",
+    "category": "데코타일",
+    "brand": "녹수",
+    "series": "pdf_swatches/오키드3000",
+    "extractedCode": "NOT-3639",
+    "normalizedFileName": "not3639webp",
+    "imageType": "material"
+  },
+  {
+    "fileName": "NOT-3640.webp",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/녹수/pdf_swatches/오키드3000/NOT-3640.webp",
+    "category": "데코타일",
+    "brand": "녹수",
+    "series": "pdf_swatches/오키드3000",
+    "extractedCode": "NOT-3640",
+    "normalizedFileName": "not3640webp",
+    "imageType": "material"
+  },
+  {
+    "fileName": "NOT-3641.webp",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/녹수/pdf_swatches/오키드3000/NOT-3641.webp",
+    "category": "데코타일",
+    "brand": "녹수",
+    "series": "pdf_swatches/오키드3000",
+    "extractedCode": "NOT-3641",
+    "normalizedFileName": "not3641webp",
+    "imageType": "material"
+  },
+  {
+    "fileName": "NOT-3642.webp",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/녹수/pdf_swatches/오키드3000/NOT-3642.webp",
+    "category": "데코타일",
+    "brand": "녹수",
+    "series": "pdf_swatches/오키드3000",
+    "extractedCode": "NOT-3642",
+    "normalizedFileName": "not3642webp",
+    "imageType": "material"
+  },
+  {
+    "fileName": "NOT-3643.webp",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/녹수/pdf_swatches/오키드3000/NOT-3643.webp",
+    "category": "데코타일",
+    "brand": "녹수",
+    "series": "pdf_swatches/오키드3000",
+    "extractedCode": "NOT-3643",
+    "normalizedFileName": "not3643webp",
+    "imageType": "material"
+  },
+  {
+    "fileName": "NOT-3644.webp",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/녹수/pdf_swatches/오키드3000/NOT-3644.webp",
+    "category": "데코타일",
+    "brand": "녹수",
+    "series": "pdf_swatches/오키드3000",
+    "extractedCode": "NOT-3644",
+    "normalizedFileName": "not3644webp",
+    "imageType": "material"
+  },
+  {
+    "fileName": "NOT-3991.webp",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/녹수/pdf_swatches/오키드3000/NOT-3991.webp",
+    "category": "데코타일",
+    "brand": "녹수",
+    "series": "pdf_swatches/오키드3000",
+    "extractedCode": "NOT-3991",
+    "normalizedFileName": "not3991webp",
+    "imageType": "material"
+  },
+  {
+    "fileName": "NOT-3993.webp",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/녹수/pdf_swatches/오키드3000/NOT-3993.webp",
+    "category": "데코타일",
+    "brand": "녹수",
+    "series": "pdf_swatches/오키드3000",
+    "extractedCode": "NOT-3993",
+    "normalizedFileName": "not3993webp",
+    "imageType": "material"
+  },
+  {
+    "fileName": "NOT-3994.webp",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/녹수/pdf_swatches/오키드3000/NOT-3994.webp",
+    "category": "데코타일",
+    "brand": "녹수",
+    "series": "pdf_swatches/오키드3000",
+    "extractedCode": "NOT-3994",
+    "normalizedFileName": "not3994webp",
+    "imageType": "material"
+  },
+  {
+    "fileName": "NOT-3995.webp",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/녹수/pdf_swatches/오키드3000/NOT-3995.webp",
+    "category": "데코타일",
+    "brand": "녹수",
+    "series": "pdf_swatches/오키드3000",
+    "extractedCode": "NOT-3995",
+    "normalizedFileName": "not3995webp",
+    "imageType": "material"
+  },
+  {
+    "fileName": "NOW-3003.webp",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/녹수/pdf_swatches/오키드3000/NOW-3003.webp",
+    "category": "데코타일",
+    "brand": "녹수",
+    "series": "pdf_swatches/오키드3000",
+    "extractedCode": "NOW-3003",
+    "normalizedFileName": "now3003webp",
+    "imageType": "material"
+  },
+  {
+    "fileName": "NOW-3004.webp",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/녹수/pdf_swatches/오키드3000/NOW-3004.webp",
+    "category": "데코타일",
+    "brand": "녹수",
+    "series": "pdf_swatches/오키드3000",
+    "extractedCode": "NOW-3004",
+    "normalizedFileName": "now3004webp",
+    "imageType": "material"
+  },
+  {
+    "fileName": "NOW-3051.webp",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/녹수/pdf_swatches/오키드3000/NOW-3051.webp",
+    "category": "데코타일",
+    "brand": "녹수",
+    "series": "pdf_swatches/오키드3000",
+    "extractedCode": "NOW-3051",
+    "normalizedFileName": "now3051webp",
+    "imageType": "material"
+  },
+  {
+    "fileName": "NOW-3052.webp",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/녹수/pdf_swatches/오키드3000/NOW-3052.webp",
+    "category": "데코타일",
+    "brand": "녹수",
+    "series": "pdf_swatches/오키드3000",
+    "extractedCode": "NOW-3052",
+    "normalizedFileName": "now3052webp",
+    "imageType": "material"
+  },
+  {
+    "fileName": "NOW-3061.webp",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/녹수/pdf_swatches/오키드3000/NOW-3061.webp",
+    "category": "데코타일",
+    "brand": "녹수",
+    "series": "pdf_swatches/오키드3000",
+    "extractedCode": "NOW-3061",
+    "normalizedFileName": "now3061webp",
+    "imageType": "material"
+  },
+  {
+    "fileName": "NOW-3062.webp",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/녹수/pdf_swatches/오키드3000/NOW-3062.webp",
+    "category": "데코타일",
+    "brand": "녹수",
+    "series": "pdf_swatches/오키드3000",
+    "extractedCode": "NOW-3062",
+    "normalizedFileName": "now3062webp",
+    "imageType": "material"
+  },
+  {
+    "fileName": "NOW-3063.webp",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/녹수/pdf_swatches/오키드3000/NOW-3063.webp",
+    "category": "데코타일",
+    "brand": "녹수",
+    "series": "pdf_swatches/오키드3000",
+    "extractedCode": "NOW-3063",
+    "normalizedFileName": "now3063webp",
+    "imageType": "material"
+  },
+  {
+    "fileName": "NOW-3064.webp",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/녹수/pdf_swatches/오키드3000/NOW-3064.webp",
+    "category": "데코타일",
+    "brand": "녹수",
+    "series": "pdf_swatches/오키드3000",
+    "extractedCode": "NOW-3064",
+    "normalizedFileName": "now3064webp",
+    "imageType": "material"
+  },
+  {
+    "fileName": "NOW-3065.webp",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/녹수/pdf_swatches/오키드3000/NOW-3065.webp",
+    "category": "데코타일",
+    "brand": "녹수",
+    "series": "pdf_swatches/오키드3000",
+    "extractedCode": "NOW-3065",
+    "normalizedFileName": "now3065webp",
+    "imageType": "material"
+  },
+  {
+    "fileName": "NOW-3066.webp",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/녹수/pdf_swatches/오키드3000/NOW-3066.webp",
+    "category": "데코타일",
+    "brand": "녹수",
+    "series": "pdf_swatches/오키드3000",
+    "extractedCode": "NOW-3066",
+    "normalizedFileName": "now3066webp",
+    "imageType": "material"
+  },
+  {
+    "fileName": "NPT-0281.webp",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/녹수/pdf_swatches/프라임1500/NPT-0281.webp",
+    "category": "데코타일",
+    "brand": "녹수",
+    "series": "pdf_swatches/프라임1500",
+    "extractedCode": "NPT-0281",
+    "normalizedFileName": "npt0281webp",
+    "imageType": "material"
+  },
+  {
+    "fileName": "NPT-0282.webp",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/녹수/pdf_swatches/프라임1500/NPT-0282.webp",
+    "category": "데코타일",
+    "brand": "녹수",
+    "series": "pdf_swatches/프라임1500",
+    "extractedCode": "NPT-0282",
+    "normalizedFileName": "npt0282webp",
+    "imageType": "material"
+  },
+  {
+    "fileName": "NPT-0611.webp",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/녹수/pdf_swatches/프라임1500/NPT-0611.webp",
+    "category": "데코타일",
+    "brand": "녹수",
+    "series": "pdf_swatches/프라임1500",
+    "extractedCode": "NPT-0611",
+    "normalizedFileName": "npt0611webp",
+    "imageType": "material"
+  },
+  {
+    "fileName": "NPT-0612.webp",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/녹수/pdf_swatches/프라임1500/NPT-0612.webp",
+    "category": "데코타일",
+    "brand": "녹수",
+    "series": "pdf_swatches/프라임1500",
+    "extractedCode": "NPT-0612",
+    "normalizedFileName": "npt0612webp",
+    "imageType": "material"
+  },
+  {
+    "fileName": "NPT-0613.webp",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/녹수/pdf_swatches/프라임1500/NPT-0613.webp",
+    "category": "데코타일",
+    "brand": "녹수",
+    "series": "pdf_swatches/프라임1500",
+    "extractedCode": "NPT-0613",
+    "normalizedFileName": "npt0613webp",
+    "imageType": "material"
+  },
+  {
+    "fileName": "NPT-0614.webp",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/녹수/pdf_swatches/프라임1500/NPT-0614.webp",
+    "category": "데코타일",
+    "brand": "녹수",
+    "series": "pdf_swatches/프라임1500",
+    "extractedCode": "NPT-0614",
+    "normalizedFileName": "npt0614webp",
+    "imageType": "material"
+  },
+  {
+    "fileName": "NPT-0615.webp",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/녹수/pdf_swatches/프라임1500/NPT-0615.webp",
+    "category": "데코타일",
+    "brand": "녹수",
+    "series": "pdf_swatches/프라임1500",
+    "extractedCode": "NPT-0615",
+    "normalizedFileName": "npt0615webp",
+    "imageType": "material"
+  },
+  {
+    "fileName": "NPT-0616.webp",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/녹수/pdf_swatches/프라임1500/NPT-0616.webp",
+    "category": "데코타일",
+    "brand": "녹수",
+    "series": "pdf_swatches/프라임1500",
+    "extractedCode": "NPT-0616",
+    "normalizedFileName": "npt0616webp",
+    "imageType": "material"
+  },
+  {
+    "fileName": "NPT-0627.webp",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/녹수/pdf_swatches/프라임1500/NPT-0627.webp",
+    "category": "데코타일",
+    "brand": "녹수",
+    "series": "pdf_swatches/프라임1500",
+    "extractedCode": "NPT-0627",
+    "normalizedFileName": "npt0627webp",
+    "imageType": "material"
+  },
+  {
+    "fileName": "NPT-0628.webp",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/녹수/pdf_swatches/프라임1500/NPT-0628.webp",
+    "category": "데코타일",
+    "brand": "녹수",
+    "series": "pdf_swatches/프라임1500",
+    "extractedCode": "NPT-0628",
+    "normalizedFileName": "npt0628webp",
+    "imageType": "material"
+  },
+  {
+    "fileName": "NPT-0631.webp",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/녹수/pdf_swatches/프라임1500/NPT-0631.webp",
+    "category": "데코타일",
+    "brand": "녹수",
+    "series": "pdf_swatches/프라임1500",
+    "extractedCode": "NPT-0631",
+    "normalizedFileName": "npt0631webp",
+    "imageType": "material"
+  },
+  {
+    "fileName": "NPT-0632.webp",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/녹수/pdf_swatches/프라임1500/NPT-0632.webp",
+    "category": "데코타일",
+    "brand": "녹수",
+    "series": "pdf_swatches/프라임1500",
+    "extractedCode": "NPT-0632",
+    "normalizedFileName": "npt0632webp",
+    "imageType": "material"
+  },
+  {
+    "fileName": "NPT-0633.webp",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/녹수/pdf_swatches/프라임1500/NPT-0633.webp",
+    "category": "데코타일",
+    "brand": "녹수",
+    "series": "pdf_swatches/프라임1500",
+    "extractedCode": "NPT-0633",
+    "normalizedFileName": "npt0633webp",
+    "imageType": "material"
+  },
+  {
+    "fileName": "NPT-0821.webp",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/녹수/pdf_swatches/프라임1500/NPT-0821.webp",
+    "category": "데코타일",
+    "brand": "녹수",
+    "series": "pdf_swatches/프라임1500",
+    "extractedCode": "NPT-0821",
+    "normalizedFileName": "npt0821webp",
+    "imageType": "material"
+  },
+  {
+    "fileName": "NPT-0824.webp",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/녹수/pdf_swatches/프라임1500/NPT-0824.webp",
+    "category": "데코타일",
+    "brand": "녹수",
+    "series": "pdf_swatches/프라임1500",
+    "extractedCode": "NPT-0824",
+    "normalizedFileName": "npt0824webp",
+    "imageType": "material"
+  },
+  {
+    "fileName": "NPT-1010.webp",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/녹수/pdf_swatches/프라임1500/NPT-1010.webp",
+    "category": "데코타일",
+    "brand": "녹수",
+    "series": "pdf_swatches/프라임1500",
+    "extractedCode": "NPT-1010",
+    "normalizedFileName": "npt1010webp",
+    "imageType": "material"
+  },
+  {
+    "fileName": "NPT-1013.webp",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/녹수/pdf_swatches/프라임1500/NPT-1013.webp",
+    "category": "데코타일",
+    "brand": "녹수",
+    "series": "pdf_swatches/프라임1500",
+    "extractedCode": "NPT-1013",
+    "normalizedFileName": "npt1013webp",
+    "imageType": "material"
+  },
+  {
+    "fileName": "NPT-1025.webp",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/녹수/pdf_swatches/프라임1500/NPT-1025.webp",
+    "category": "데코타일",
+    "brand": "녹수",
+    "series": "pdf_swatches/프라임1500",
+    "extractedCode": "NPT-1025",
+    "normalizedFileName": "npt1025webp",
+    "imageType": "material"
+  },
+  {
+    "fileName": "NPT-1026.webp",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/녹수/pdf_swatches/프라임1500/NPT-1026.webp",
+    "category": "데코타일",
+    "brand": "녹수",
+    "series": "pdf_swatches/프라임1500",
+    "extractedCode": "NPT-1026",
+    "normalizedFileName": "npt1026webp",
+    "imageType": "material"
+  },
+  {
+    "fileName": "NPT-1027.webp",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/녹수/pdf_swatches/프라임1500/NPT-1027.webp",
+    "category": "데코타일",
+    "brand": "녹수",
+    "series": "pdf_swatches/프라임1500",
+    "extractedCode": "NPT-1027",
+    "normalizedFileName": "npt1027webp",
+    "imageType": "material"
+  },
+  {
+    "fileName": "NPT-1625.webp",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/녹수/pdf_swatches/프라임1500/NPT-1625.webp",
+    "category": "데코타일",
+    "brand": "녹수",
+    "series": "pdf_swatches/프라임1500",
+    "extractedCode": "NPT-1625",
+    "normalizedFileName": "npt1625webp",
+    "imageType": "material"
+  },
+  {
+    "fileName": "NPT-1627.webp",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/녹수/pdf_swatches/프라임1500/NPT-1627.webp",
+    "category": "데코타일",
+    "brand": "녹수",
+    "series": "pdf_swatches/프라임1500",
+    "extractedCode": "NPT-1627",
+    "normalizedFileName": "npt1627webp",
+    "imageType": "material"
+  },
+  {
+    "fileName": "NPT-1628.webp",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/녹수/pdf_swatches/프라임1500/NPT-1628.webp",
+    "category": "데코타일",
+    "brand": "녹수",
+    "series": "pdf_swatches/프라임1500",
+    "extractedCode": "NPT-1628",
+    "normalizedFileName": "npt1628webp",
+    "imageType": "material"
+  },
+  {
+    "fileName": "NPT-1630.webp",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/녹수/pdf_swatches/프라임1500/NPT-1630.webp",
+    "category": "데코타일",
+    "brand": "녹수",
+    "series": "pdf_swatches/프라임1500",
+    "extractedCode": "NPT-1630",
+    "normalizedFileName": "npt1630webp",
+    "imageType": "material"
+  },
+  {
+    "fileName": "NPT-1631.webp",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/녹수/pdf_swatches/프라임1500/NPT-1631.webp",
+    "category": "데코타일",
+    "brand": "녹수",
+    "series": "pdf_swatches/프라임1500",
+    "extractedCode": "NPT-1631",
+    "normalizedFileName": "npt1631webp",
+    "imageType": "material"
+  },
+  {
+    "fileName": "NPT-1632.webp",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/녹수/pdf_swatches/프라임1500/NPT-1632.webp",
+    "category": "데코타일",
+    "brand": "녹수",
+    "series": "pdf_swatches/프라임1500",
+    "extractedCode": "NPT-1632",
+    "normalizedFileName": "npt1632webp",
+    "imageType": "material"
+  },
+  {
+    "fileName": "NPT-1633.webp",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/녹수/pdf_swatches/프라임1500/NPT-1633.webp",
+    "category": "데코타일",
+    "brand": "녹수",
+    "series": "pdf_swatches/프라임1500",
+    "extractedCode": "NPT-1633",
+    "normalizedFileName": "npt1633webp",
+    "imageType": "material"
+  },
+  {
+    "fileName": "NPT-1634.webp",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/녹수/pdf_swatches/프라임1500/NPT-1634.webp",
+    "category": "데코타일",
+    "brand": "녹수",
+    "series": "pdf_swatches/프라임1500",
+    "extractedCode": "NPT-1634",
+    "normalizedFileName": "npt1634webp",
+    "imageType": "material"
+  },
+  {
+    "fileName": "NPT-1635.webp",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/녹수/pdf_swatches/프라임1500/NPT-1635.webp",
+    "category": "데코타일",
+    "brand": "녹수",
+    "series": "pdf_swatches/프라임1500",
+    "extractedCode": "NPT-1635",
+    "normalizedFileName": "npt1635webp",
+    "imageType": "material"
+  },
+  {
+    "fileName": "NPT-1636.webp",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/녹수/pdf_swatches/프라임1500/NPT-1636.webp",
+    "category": "데코타일",
+    "brand": "녹수",
+    "series": "pdf_swatches/프라임1500",
+    "extractedCode": "NPT-1636",
+    "normalizedFileName": "npt1636webp",
+    "imageType": "material"
+  },
+  {
+    "fileName": "NPT-1637.webp",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/녹수/pdf_swatches/프라임1500/NPT-1637.webp",
+    "category": "데코타일",
+    "brand": "녹수",
+    "series": "pdf_swatches/프라임1500",
+    "extractedCode": "NPT-1637",
+    "normalizedFileName": "npt1637webp",
+    "imageType": "material"
+  },
+  {
+    "fileName": "NPT-1638.webp",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/녹수/pdf_swatches/프라임1500/NPT-1638.webp",
+    "category": "데코타일",
+    "brand": "녹수",
+    "series": "pdf_swatches/프라임1500",
+    "extractedCode": "NPT-1638",
+    "normalizedFileName": "npt1638webp",
+    "imageType": "material"
+  },
+  {
+    "fileName": "NPW-0839.webp",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/녹수/pdf_swatches/프라임1500/NPW-0839.webp",
+    "category": "데코타일",
+    "brand": "녹수",
+    "series": "pdf_swatches/프라임1500",
+    "extractedCode": "NPW-0839",
+    "normalizedFileName": "npw0839webp",
+    "imageType": "material"
+  },
+  {
+    "fileName": "NPW-0845.webp",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/녹수/pdf_swatches/프라임1500/NPW-0845.webp",
+    "category": "데코타일",
+    "brand": "녹수",
+    "series": "pdf_swatches/프라임1500",
+    "extractedCode": "NPW-0845",
+    "normalizedFileName": "npw0845webp",
+    "imageType": "material"
+  },
+  {
+    "fileName": "NPW-1003.webp",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/녹수/pdf_swatches/프라임1500/NPW-1003.webp",
+    "category": "데코타일",
+    "brand": "녹수",
+    "series": "pdf_swatches/프라임1500",
+    "extractedCode": "NPW-1003",
+    "normalizedFileName": "npw1003webp",
+    "imageType": "material"
+  },
+  {
+    "fileName": "NPW-1004.webp",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/녹수/pdf_swatches/프라임1500/NPW-1004.webp",
+    "category": "데코타일",
+    "brand": "녹수",
+    "series": "pdf_swatches/프라임1500",
+    "extractedCode": "NPW-1004",
+    "normalizedFileName": "npw1004webp",
+    "imageType": "material"
+  },
+  {
+    "fileName": "NPW-1007.webp",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/녹수/pdf_swatches/프라임1500/NPW-1007.webp",
+    "category": "데코타일",
+    "brand": "녹수",
+    "series": "pdf_swatches/프라임1500",
+    "extractedCode": "NPW-1007",
+    "normalizedFileName": "npw1007webp",
+    "imageType": "material"
+  },
+  {
+    "fileName": "NPW-1201.webp",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/녹수/pdf_swatches/프라임1500/NPW-1201.webp",
+    "category": "데코타일",
+    "brand": "녹수",
+    "series": "pdf_swatches/프라임1500",
+    "extractedCode": "NPW-1201",
+    "normalizedFileName": "npw1201webp",
+    "imageType": "material"
+  },
+  {
+    "fileName": "NPW-6121.webp",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/녹수/pdf_swatches/프라임1500/NPW-6121.webp",
+    "category": "데코타일",
+    "brand": "녹수",
+    "series": "pdf_swatches/프라임1500",
+    "extractedCode": "NPW-6121",
+    "normalizedFileName": "npw6121webp",
+    "imageType": "material"
+  },
+  {
+    "fileName": "NPW-6122.webp",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/녹수/pdf_swatches/프라임1500/NPW-6122.webp",
+    "category": "데코타일",
+    "brand": "녹수",
+    "series": "pdf_swatches/프라임1500",
+    "extractedCode": "NPW-6122",
+    "normalizedFileName": "npw6122webp",
+    "imageType": "material"
+  },
+  {
+    "fileName": "NPW-6141.webp",
+    "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/녹수/pdf_swatches/프라임1500/NPW-6141.webp",
+    "category": "데코타일",
+    "brand": "녹수",
+    "series": "pdf_swatches/프라임1500",
+    "extractedCode": "NPW-6141",
+    "normalizedFileName": "npw6141webp",
+    "imageType": "material"
+  },
+  {
     "fileName": "SGT-4011.jpg",
     "fullPublicPath": "/images/Thumbnail_Image/materials/데코타일/녹수/세타그립/450각/SGT-4011.jpg",
     "category": "데코타일",

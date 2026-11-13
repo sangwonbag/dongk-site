@@ -495,6 +495,7 @@ export function formatShapeOrPattern(value) {
 
 import { isDecoTile, getRecommendedAdhesive } from "./decotileUtils.js";
 import { getDongshinMajorCategory } from "./dongshinUtils.js";
+import { NOX_PRODUCT_BY_CODE } from "../data/noxProductData.generated.js";
 
 export function normalizeProductDetails(item) {
   if (!item) return item;
@@ -698,6 +699,13 @@ export function formatProductTitle(product) {
         return `프레스티지 5T ${code} ${pattern}`;
       }
       if (code) return `프레스티지 5T ${code}`;
+    }
+  }
+
+  if ((brand.includes('녹수') || brand.includes('NOX') || (product.name && product.name.includes('녹수'))) && (product.category === '데코타일' || !product.category)) {
+    const noxItem = NOX_PRODUCT_BY_CODE.get(code);
+    if (noxItem) {
+      return `NOX ${noxItem.lineup} ${noxItem.code} ${noxItem.pattern} (3.0T)`.replace(/\s+/g, ' ');
     }
   }
 

@@ -5,7 +5,7 @@ import { useEstimateCart } from '../../contexts/EstimateCartContext';
 import { useAuth } from '../../contexts/AuthContext';
 import { getProductImageCandidates, prefetchProductImage } from '../../utils/productImageResolver';
 import { prefetchProductDetail } from '../../utils/supabaseFetcher';
-import { getComputedBrand, getNormalizedThickness, formatProductTitle, getProductUnit, getKccLineup } from '../../utils/brandUtils';
+import { getComputedBrand, getNormalizedThickness, formatProductTitle, getProductUnit, getKccLineup, isNoxConsultingProduct } from '../../utils/brandUtils';
 import { isDecoTile } from '../../utils/decotileUtils';
 import { getDongshinMajorCategory, getDongshinDetailedLineup } from '../../utils/dongshinUtils';
 import { isLxPrestigeProduct, hasLxPrestigeEir } from '../../utils/lxPrestigeUtils';
@@ -509,7 +509,7 @@ const MaterialCard = ({ material, priority = false, hidePrice = false }) => {
                 <div className="card-price-row">
                     <div className="card-price-container" data-nosnippet="">
                         <span className="card-price">
-                            {hidePublicPrice ? "견적문의" : (material.price > 0 ? `${material.price.toLocaleString()}원` : "가격문의")}
+                            {isNoxConsultingProduct(material) || material.isPriceInquiry ? "가격문의" : (hidePublicPrice ? "견적문의" : (material.price > 0 ? `${material.price.toLocaleString()}원` : "가격문의"))}
                         </span>
                         {!hidePublicPrice && material.price > 0 && (
                             <span className="card-price-unit">

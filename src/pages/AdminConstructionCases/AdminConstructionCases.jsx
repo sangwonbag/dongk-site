@@ -532,7 +532,8 @@ export default function AdminConstructionCases() {
                           <span>추가</span>
                           <input
                             type="file"
-                            accept="image/*"\n                            multiple
+                            accept="image/*"
+                            multiple
                             onChange={(e) => handleImageUpload(e, 'gallery')}
                             style={{ display: 'none' }}
                             disabled={uploading}
