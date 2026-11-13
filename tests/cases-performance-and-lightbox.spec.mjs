@@ -90,7 +90,7 @@ test.describe('Construction Cases Performance & Lightbox Verification', () => {
     // Back to '전체'
     const allFilter = page.locator('.filter-btn:has-text("전체")');
     await allFilter.click();
-    await expect(cards).toHaveCount(4);
+    await expect(cards).toHaveCount(11);
   });
 
   test('Mobile viewport (390px iPhone & 412px Galaxy) operates smoothly with lazy loading', async ({ page }) => {
