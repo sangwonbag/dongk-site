@@ -330,10 +330,10 @@ export default function Cases() {
   const navigate = useNavigate();
   const [searchParams, setSearchParams] = useSearchParams();
   const { user } = useAuth();
-  const isAdmin = user?.role === 'admin' || user?.role === 'staff';
+  const isAdmin = useMemo(() => Boolean(user && (user.role === 'admin' || user.role === 'staff')), [user?.role]);
 
   const [casesList, setCasesList] = useState(() => cachedCasesData || FALLBACK_CASES);
-  const [loading, setLoading] = useState(() => !cachedCasesData);
+  const [loading, setLoading] = useState(() => !cachedCasesData && !FALLBACK_CASES.length);
   const categoryFilter = searchParams.get('category') || '전체';
 
   // Lightbox Modal State
@@ -354,6 +354,11 @@ export default function Cases() {
   }, [searchParams, setSearchParams]);
 
   const loadCases = useCallback(async (forceRefresh = false) => {
+    // If cached in-memory and not a forced admin refresh, avoid redundant network round-trip & re-render
+    if (cachedCasesData && !forceRefresh) {
+      return;
+    }
+
     try {
       if (!cachedCasesData || forceRefresh) {
         setLoading(true);
@@ -519,15 +524,17 @@ export default function Cases() {
         )}
       </div>
 
-      {/* Lightbox Modal */}
-      <CaseLightboxModal
-        isOpen={lightboxState.isOpen}
-        onClose={handleCloseLightbox}
-        title={lightboxState.title}
-        images={lightboxState.images}
-        currentIndex={lightboxState.currentIndex}
-        onIndexChange={handleLightboxIndexChange}
-      />
+      {/* Lightbox Modal (mounted only on demand when open) */}
+      {lightboxState.isOpen && (
+        <CaseLightboxModal
+          isOpen={lightboxState.isOpen}
+          onClose={handleCloseLightbox}
+          title={lightboxState.title}
+          images={lightboxState.images}
+          currentIndex={lightboxState.currentIndex}
+          onIndexChange={handleLightboxIndexChange}
+        />
+      )}
     </MainLayout>
   );
 }

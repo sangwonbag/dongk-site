@@ -18,6 +18,7 @@ export default function ScrollRevealMenu() {
 
     let lastScrollY = window.scrollY;
     let ticking = false;
+    let isCurrentlyVisible = false;
 
     const handleScroll = () => {
       if (!ticking) {
@@ -27,15 +28,20 @@ export default function ScrollRevealMenu() {
 
           // 1. Hide if scrolled near top (less than 80px)
           if (currentScrollY < 80) {
-            setVisible(false);
+            if (isCurrentlyVisible) {
+              isCurrentlyVisible = false;
+              setVisible(false);
+            }
           } 
           // 2. Otherwise detect scroll direction if distance scrolled is over 10px
           else if (Math.abs(diff) > 10) {
-            if (diff > 0) {
-              // Scrolled down -> reveal menu
+            if (diff > 0 && !isCurrentlyVisible) {
+              // Scrolled down -> reveal menu (only trigger state update if changed)
+              isCurrentlyVisible = true;
               setVisible(true);
-            } else {
-              // Scrolled up -> hide menu
+            } else if (diff < 0 && isCurrentlyVisible) {
+              // Scrolled up -> hide menu (only trigger state update if changed)
+              isCurrentlyVisible = false;
               setVisible(false);
             }
             lastScrollY = currentScrollY;

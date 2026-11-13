@@ -1,8 +1,10 @@
-import React, { useState, memo } from 'react';
+import React, { useState, memo, useMemo, useCallback } from 'react';
 import { Link } from 'react-router-dom';
 import { MapPin, Box, Calendar, Edit2, Eye, EyeOff, ArrowUpRight, ZoomIn } from 'lucide-react';
 import { getCaseImageUrl, getCaseImageSrcSet } from '../../utils/caseImageUtils';
 import { resolveCaseMaterialLinks } from '../../utils/caseMaterialUtils';
+
+const MAX_VISIBLE_GALLERY = 3;
 
 function CaseCardComponent({
   item,
@@ -16,17 +18,26 @@ function CaseCardComponent({
   const [imageError, setImageError] = useState(false);
 
   const isFirst = index === 0;
-  const mainThumbUrl = getCaseImageUrl(item.main_image_url, '800');
-  const mainSrcSet = getCaseImageSrcSet(item.main_image_url);
-  const galleryImages = Array.isArray(item.image_urls) ? item.image_urls : [];
-  const materialLinks = resolveCaseMaterialLinks(item);
+  const mainThumbUrl = useMemo(() => getCaseImageUrl(item.main_image_url, '800'), [item.main_image_url]);
+  const mainSrcSet = useMemo(() => getCaseImageSrcSet(item.main_image_url), [item.main_image_url]);
+  const galleryImages = useMemo(() => (Array.isArray(item.image_urls) ? item.image_urls : []), [item.image_urls]);
+  const materialLinks = useMemo(() => resolveCaseMaterialLinks(item), [item]);
+
+  const hasMoreGallery = galleryImages.length > MAX_VISIBLE_GALLERY;
+  const displayGallery = useMemo(() => {
+    return hasMoreGallery ? galleryImages.slice(0, MAX_VISIBLE_GALLERY) : galleryImages;
+  }, [galleryImages, hasMoreGallery]);
+
+  const handleMainClick = useCallback(() => {
+    onOpenLightbox(item, 0);
+  }, [onOpenLightbox, item]);
 
   return (
     <article className="case-portfolio-card">
       {/* Media Wrap */}
       <div 
         className="case-img-wrapper"
-        onClick={() => onOpenLightbox(item, 0)}
+        onClick={handleMainClick}
         title="클릭하여 현장 사진 크게 보기"
       >
         {isAdmin && (
@@ -73,11 +84,14 @@ function CaseCardComponent({
         <h3 className="case-title-text">{item.title}</h3>
         {item.description && <p className="case-desc-text">{item.description}</p>}
 
-        {/* Optimized Gallery Thumbnails */}
-        {galleryImages.length > 0 && (
+        {/* Optimized Gallery Thumbnails (Max 3 in card preview, all accessible in Lightbox) */}
+        {displayGallery.length > 0 && (
           <div className="case-gallery" aria-label={`${item.title} 현장 사진 목록`}>
-            {galleryImages.map((rawUrl, idx) => {
+            {displayGallery.map((rawUrl, idx) => {
               const thumbUrl = getCaseImageUrl(rawUrl, '400');
+              const isLastMore = hasMoreGallery && idx === MAX_VISIBLE_GALLERY - 1;
+              const moreCount = galleryImages.length - MAX_VISIBLE_GALLERY + 1;
+
               return (
                 <button
                   type="button"
@@ -98,6 +112,11 @@ function CaseCardComponent({
                       e.target.src = "/images/no-image.svg";
                     }}
                   />
+                  {isLastMore && (
+                    <span className="case-gallery-more-overlay" aria-hidden="true">
+                      +{moreCount}장
+                    </span>
+                  )}
                 </button>
               );
             })}

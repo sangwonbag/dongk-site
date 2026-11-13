@@ -4,6 +4,25 @@ const KNOWN_BRANDS = [
   'KCC', 'LX하우시스', 'LX', '동신', '재영', '녹수', '현대', '우성', '동화', '구정', '스완', '이건'
 ];
 
+// High-performance O(1) indices to eliminate repeated 4,300+ array scans
+const materialById = new Map();
+const materialByCode = new Map();
+
+for (const m of materials) {
+  if (m.id) {
+    materialById.set(m.id.toLowerCase(), m);
+  }
+  if (m.code) {
+    const norm = String(m.code).replace(/[-\s]/g, '').toUpperCase();
+    if (!materialByCode.has(norm)) {
+      materialByCode.set(norm, m);
+    }
+  }
+}
+
+// In-memory cache for resolved case material links
+const caseLinksCache = new Map();
+
 /**
  * Smart material matcher for construction case summary strings.
  * Scores matches using extracted codes, brands, and line names.
@@ -18,6 +37,17 @@ export function matchMaterialFromText(text) {
 
   // Extract candidate codes (e.g., PTT8698, TS5534M, TS 5534, AH 726, 726, 5551, 6740)
   const codeMatches = clean.match(/([A-Z]{2,5}[-\s]?[0-9]{3,5}[A-Z]?)|([0-9]{3,5})/gi) || [];
+
+  // Fast O(1) exact match check
+  for (const rawCode of codeMatches) {
+    const normCode = rawCode.replace(/[-\s]/g, '').toUpperCase();
+    if (normCode && materialByCode.has(normCode)) {
+      const direct = materialByCode.get(normCode);
+      if (!matchedBrand || String(direct.brand || '').toUpperCase().includes(matchedBrand.toUpperCase())) {
+        return direct;
+      }
+    }
+  }
 
   const candidates = [];
 
@@ -82,6 +112,11 @@ export function matchMaterialFromText(text) {
 export function resolveCaseMaterialLinks(caseItem) {
   if (!caseItem) return [];
 
+  const cacheKey = caseItem.id || caseItem.slug || caseItem.material_summary;
+  if (cacheKey && caseLinksCache.has(cacheKey)) {
+    return caseLinksCache.get(cacheKey);
+  }
+
   const links = [];
 
   // Case A: Explicit products joined from Supabase
@@ -89,11 +124,9 @@ export function resolveCaseMaterialLinks(caseItem) {
     const p = caseItem.products;
     const directSlug = p.slug;
     
-    // Verify slug exists in materials.db.js
-    const matched = materials.find(m => 
-      m.id === directSlug || 
-      (p.product_code && m.code && m.code.replace(/\s+/g, '').toUpperCase() === p.product_code.replace(/\s+/g, '').toUpperCase())
-    );
+    // Fast O(1) indexed lookup in materials
+    const matched = (directSlug && materialById.get(directSlug.toLowerCase())) ||
+      (p.product_code && materialByCode.get(p.product_code.replace(/[-\s]/g, '').toUpperCase()));
 
     const targetId = matched ? matched.id : directSlug;
     links.push({
@@ -102,6 +135,8 @@ export function resolveCaseMaterialLinks(caseItem) {
       isDirectDetail: Boolean(targetId),
       code: p.product_code || matched?.code || ''
     });
+
+    if (cacheKey) caseLinksCache.set(cacheKey, links);
     return links;
   }
 
@@ -139,6 +174,7 @@ export function resolveCaseMaterialLinks(caseItem) {
     }
   });
 
+  if (cacheKey) caseLinksCache.set(cacheKey, links);
   return links;
 }
 
