@@ -21,6 +21,7 @@ import {
 } from "../../utils/productClassification";
 import SEO from "../../components/seo/SEO";
 import { HIDE_SUB_MATERIALS, isSubMaterialCategory } from "../../config/categoryConfig";
+import { isProductSoldOut } from "../../utils/soldOutUtils";
 import "./Checkout.css";
 
 const DELIVERY_TIME_OPTIONS = [
@@ -500,6 +501,15 @@ export default function Checkout() {
     // 로그인 여부 검사
     if (!user) {
       openLoginModal();
+      return;
+    }
+
+    // 품절 자재 검사
+    const soldOutItems = checkoutItems.filter(isProductSoldOut);
+    if (soldOutItems.length > 0) {
+      const names = soldOutItems.map(i => i.name || i.product_name).join(', ');
+      setErrorMsg(`현재 공급사 사정으로 일시 품절된 자재가 포함되어 있어 주문을 완료할 수 없습니다: [${names}]`);
+      alert(`현재 공급사 사정으로 일시 품절된 자재가 포함되어 있어 주문을 완료할 수 없습니다.\n[품절 자재: ${names}]\n해당 상품을 장바구니에서 제외해 주시거나 고객센터로 문의해 주세요.`);
       return;
     }
 

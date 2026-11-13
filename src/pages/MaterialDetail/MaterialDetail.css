@@ -1987,4 +1987,74 @@
     padding: 7px 14px;
     font-size: 12px;
   }
-}
+}
+
+/* Sold Out Styles in MaterialDetail */
+.showroom-soldout-badge {
+  display: inline-block;
+  background-color: #495057;
+  color: #ffffff;
+  font-size: 13px;
+  font-weight: 700;
+  padding: 4px 10px;
+  border-radius: 4px;
+  margin-right: 8px;
+  vertical-align: middle;
+  letter-spacing: -0.2px;
+}
+
+.detail-soldout-container {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  width: 100%;
+}
+
+.detail-soldout-alert {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  background-color: #fff9db;
+  border: 1px solid #ffe066;
+  border-radius: 8px;
+  padding: 12px 14px;
+  color: #856404;
+  font-size: 13px;
+  line-height: 1.5;
+}
+
+.detail-soldout-alert strong {
+  display: block;
+  font-weight: 700;
+  margin-bottom: 2px;
+  color: #d9480f;
+}
+
+.detail-soldout-alert p {
+  margin: 0;
+}
+
+.soldout-alert-icon {
+  flex-shrink: 0;
+  color: #f59f00;
+  margin-top: 2px;
+}
+
+.btn-disabled-soldout {
+  background-color: #e9ecef !important;
+  color: #868e96 !important;
+  border: 1px solid #ced4da !important;
+  cursor: not-allowed !important;
+  font-weight: 700 !important;
+  width: 100% !important;
+}
+
+.btn-soldout-mobile {
+  background-color: #e9ecef !important;
+  color: #868e96 !important;
+  border: 1px solid #ced4da !important;
+  cursor: not-allowed !important;
+  font-weight: 700 !important;
+  width: 100% !important;
+}
+

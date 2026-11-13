@@ -11,6 +11,7 @@ import { getDongshinMajorCategory, getDongshinDetailedLineup } from '../../utils
 import { isLxPrestigeProduct, hasLxPrestigeEir } from '../../utils/lxPrestigeUtils';
 import { Skeleton, ImagePlaceholder, ProductImage } from '../ui';
 import { isProductRecommended, getDisplayBrandName } from '../../constants/brandPriority';
+import { isProductSoldOut } from '../../utils/soldOutUtils';
 import './MaterialCard.css';
 import { metadataByCode, metadataById } from '../../data/productSearchMetadata.generated';
 
@@ -40,6 +41,7 @@ const MaterialCard = ({ material, priority = false, hidePrice = false }) => {
     const { user: currentUser, openLoginModal } = useAuth();
     // Presentation-only: server-side data access must be secured separately.
     const isKccBrand = (material?.brand || '').toUpperCase().includes('KCC');
+    const isSoldOut = isProductSoldOut(material);
     const hidePublicPrice = hidePrice || (!isKccBrand && !currentUser?.isLoggedIn);
     
     const [qty, setQty] = useState(1);
@@ -141,6 +143,10 @@ const MaterialCard = ({ material, priority = false, hidePrice = false }) => {
 
     const handleAddToCart = (e) => {
         e.stopPropagation();
+        if (isSoldOut) {
+            alert("본 자재는 현재 일시 품절 상태입니다. 견적문의를 이용해 주시기 바랍니다.");
+            return;
+        }
         if (!currentUser) {
             openLoginModal();
             return;
@@ -186,6 +192,10 @@ const MaterialCard = ({ material, priority = false, hidePrice = false }) => {
 
     const handleDirectBuy = (e) => {
         e.stopPropagation();
+        if (isSoldOut) {
+            alert("본 자재는 현재 일시 품절 상태입니다. 견적문의를 이용해 주시기 바랍니다.");
+            return;
+        }
         if (!currentUser) {
             openLoginModal();
             return;
@@ -284,6 +294,7 @@ const MaterialCard = ({ material, priority = false, hidePrice = false }) => {
                     priority={priority}
                 />
                 {material.isNew && <span className="badge-new">NEW</span>}
+                {isSoldOut && <span className="badge-sold-out-card">일시 품절</span>}
             </Link>
 
             <div className="card-info">
@@ -547,17 +558,39 @@ const MaterialCard = ({ material, priority = false, hidePrice = false }) => {
                 )}
 
                 <div className="card-actions">
-                    <button className="btn-detail btn-cart-add" onClick={handleAddToCart}>
-                        장바구니 담기
-                    </button>
-                    {isDirectPricingCategory(material) ? (
-                        <button className="btn-quote" onClick={handleDirectBuy} style={{ backgroundColor: 'var(--point-orange)', borderColor: 'var(--point-orange)', color: '#fff' }}>
-                            바로구매
-                        </button>
+                    {isSoldOut ? (
+                        <>
+                            <button 
+                                type="button" 
+                                className="btn-detail btn-sold-out-card" 
+                                disabled 
+                                title="현재 본 제품은 공급사 사정으로 일시 품절 상태입니다."
+                                onClick={(e) => {
+                                    e.stopPropagation();
+                                    alert("본 자재는 현재 일시 품절 상태입니다. 견적문의를 이용해 주시기 바랍니다.");
+                                }}
+                            >
+                                일시 품절
+                            </button>
+                            <button type="button" className="btn-quote" onClick={handleInquiry}>
+                                견적문의
+                            </button>
+                        </>
                     ) : (
-                        <button className="btn-quote" onClick={handleInquiry}>
-                            견적문의
-                        </button>
+                        <>
+                            <button className="btn-detail btn-cart-add" onClick={handleAddToCart}>
+                                장바구니 담기
+                            </button>
+                            {isDirectPricingCategory(material) ? (
+                                <button className="btn-quote" onClick={handleDirectBuy} style={{ backgroundColor: 'var(--point-orange)', borderColor: 'var(--point-orange)', color: '#fff' }}>
+                                    바로구매
+                                </button>
+                            ) : (
+                                <button className="btn-quote" onClick={handleInquiry}>
+                                    견적문의
+                                </button>
+                            )}
+                        </>
                     )}
                 </div>
             </div>

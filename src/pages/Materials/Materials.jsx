@@ -21,6 +21,7 @@ import MaterialCard from "../../components/material/MaterialCard";
 import { fetchFilteredProducts, searchMaterials, getCachedFilteredProducts, getCachedSearchMaterials, withTimeout } from "../../utils/supabaseFetcher";
 import { getSearchScore, isProductNumberQuery, generateAutocompleteSuggestions, POPULAR_KEYWORDS, parseSearchQuery, scoreProduct } from "../../utils/searchUtils";
 import { sortProducts, SORT_OPTIONS } from "../../utils/sortUtils";
+import { isProductSoldOut } from "../../utils/soldOutUtils";
 import { sortBrandsByPriority, compareProductRecommendationPriority, getDisplayBrandName } from "../../constants/brandPriority";
 import { Skeleton, EmptyState, ErrorState } from "../../components/ui";
 import MobileFilterSheet from "../../components/material/MobileFilterSheet";
@@ -1076,6 +1077,10 @@ export default function Materials() {
         scoreMap.set(item, scoreProduct(item, debouncedQuery, parsed));
       }
       return [...filtered].sort((a, b) => {
+        const soldA = isProductSoldOut(a) ? 1 : 0;
+        const soldB = isProductSoldOut(b) ? 1 : 0;
+        if (soldA !== soldB) return soldA - soldB;
+
         const scoreDiff = (scoreMap.get(b) || 0) - (scoreMap.get(a) || 0);
         if (scoreDiff !== 0) return scoreDiff;
         return compareProductRecommendationPriority(a, b, activeTab);

@@ -7,8 +7,9 @@ import { getProductImageUrl, getProductImageCandidates } from '../../utils/produ
 import { useAuth } from '../../contexts/AuthContext';
 import { 
   ArrowLeft, Plus, Search, Edit2, Trash2, Save, X, Upload, 
-  Eye, EyeOff, Star, StarOff, Image as ImageIcon, Loader2, RefreshCw, AlertTriangle, CheckCircle, Sparkles, Tag
+  Eye, EyeOff, Star, StarOff, Image as ImageIcon, Loader2, RefreshCw, AlertTriangle, CheckCircle, Sparkles, Tag, PackageX
 } from 'lucide-react';
+import { isProductSoldOut, cleanProductDescription } from '../../utils/soldOutUtils';
 import { LoadingSpinner, EmptyState } from '../../components/ui';
 import ProductDetailImageManager from '../../components/admin/ProductDetailImageManager';
 import { getProductDetailImages, saveProductDetailImages } from '../../services/productDetailImageService';
@@ -52,6 +53,7 @@ export default function AdminProducts() {
   const [description, setDescription] = useState('');
   const [isActive, setIsActive] = useState(true);
   const [isFeatured, setIsFeatured] = useState(false);
+  const [isSoldOutState, setIsSoldOutState] = useState(false);
   const [sortOrder, setSortOrder] = useState(0);
   const [imageUrl, setImageUrl] = useState('');
   const [detailImages, setDetailImages] = useState([]);
@@ -183,7 +185,8 @@ export default function AdminProducts() {
         p.brands?.name === selectedBrandName;
 
       let matchStatus = true;
-      if (statusFilter === 'active') matchStatus = p.is_active;
+      if (statusFilter === 'active') matchStatus = p.is_active && !isProductSoldOut(p);
+      else if (statusFilter === 'soldout') matchStatus = isProductSoldOut(p);
       else if (statusFilter === 'hidden') matchStatus = !p.is_active;
       else if (statusFilter === 'featured') matchStatus = p.is_featured;
 
@@ -246,6 +249,54 @@ export default function AdminProducts() {
       clearProductCache();
     } catch (err) {
       alert('설정 변경에 실패했습니다: ' + err.message);
+    }
+  };
+
+  const toggleSoldOut = async (product) => {
+    try {
+      const currentSoldOut = isProductSoldOut(product);
+      const newSoldOut = !currentSoldOut;
+      let newDesc = product.description || '';
+      let newSortOrder = product.sort_order || 0;
+
+      if (newSoldOut) {
+        if (!newDesc.includes('[일시품절]')) {
+          newDesc = `[일시품절] ${newDesc}`.trim();
+        }
+        newSortOrder = 99999;
+      } else {
+        newDesc = cleanProductDescription(newDesc);
+        if (newSortOrder >= 99900) {
+          newSortOrder = 0;
+        }
+      }
+
+      const { error } = await supabase
+        .from('products')
+        .update({
+          description: newDesc,
+          sort_order: newSortOrder,
+          updated_at: new Date().toISOString()
+        })
+        .eq('id', product.id);
+
+      if (error) throw error;
+
+      setProducts(prev => prev.map(p => {
+        if (p.id === product.id) {
+          return {
+            ...p,
+            description: newDesc,
+            sort_order: newSortOrder,
+            is_sold_out: newSoldOut,
+            isSoldOut: newSoldOut
+          };
+        }
+        return p;
+      }));
+      clearProductCache();
+    } catch (err) {
+      alert('품절 상태 변경에 실패했습니다: ' + err.message);
     }
   };
 
@@ -333,16 +384,32 @@ export default function AdminProducts() {
       const cleanBrand = brandObj ? brandObj.name.toLowerCase() : 'etc';
       const baseSlug = `${cleanBrand}-${cleanName}`;
       
+      let finalDesc = description || '';
+      let finalSortOrder = parseInt(sortOrder) || 0;
+      if (isSoldOutState) {
+        if (!finalDesc.includes('[일시품절]')) {
+          finalDesc = `[일시품절] ${finalDesc}`.trim();
+        }
+        if (finalSortOrder < 99900) {
+          finalSortOrder = 99999;
+        }
+      } else {
+        finalDesc = cleanProductDescription(finalDesc);
+        if (finalSortOrder >= 99900) {
+          finalSortOrder = 0;
+        }
+      }
+
       const payload = {
         name,
         product_code: productCode.trim() || null,
         category_id: parseInt(categoryId),
         brand_id: parseInt(brandId),
         price: parseFloat(price) || 0,
-        description: description || null,
+        description: finalDesc || null,
         is_active: isActive,
         is_featured: isFeatured,
-        sort_order: parseInt(sortOrder) || 0,
+        sort_order: finalSortOrder,
         image_url: imageUrl || null,
         updated_at: new Date().toISOString()
       };
@@ -479,6 +546,7 @@ export default function AdminProducts() {
     setDescription('');
     setIsActive(true);
     setIsFeatured(false);
+    setIsSoldOutState(false);
     setSortOrder(0);
     setImageUrl('');
     setPreviewImageError(false);
@@ -506,6 +574,7 @@ export default function AdminProducts() {
     setDescription(p.description || '');
     setIsActive(p.is_active ?? true);
     setIsFeatured(p.is_featured ?? false);
+    setIsSoldOutState(isProductSoldOut(p));
     setSortOrder(p.sort_order || 0);
     setImageUrl(p.image_url || '');
     setPreviewImageError(false);
@@ -577,7 +646,8 @@ export default function AdminProducts() {
 
             <select value={statusFilter} onChange={e => setStatusFilter(e.target.value)}>
               <option value="all">전체 노출 상태</option>
-              <option value="active">노출 중</option>
+              <option value="active">노출 중 (판매중)</option>
+              <option value="soldout">일시 품절</option>
               <option value="hidden">숨김</option>
               <option value="featured">추천(베스트) 상품</option>
             </select>
@@ -621,6 +691,7 @@ export default function AdminProducts() {
                         <span className={`badge-active ${p.is_active ? 'active' : 'hidden'}`}>
                           {p.is_active ? '노출 중' : '숨김'}
                         </span>
+                        {isProductSoldOut(p) && <span className="badge-img-status soldout" style={{ background: '#495057', color: '#fff', fontWeight: 700 }}>일시 품절</span>}
                         {imgStatus === 'ok' && <span className="badge-img-status ok">이미지 정상</span>}
                         {imgStatus === 'broken' && <span className="badge-img-status broken">경로 오류</span>}
                         {imgStatus === 'missing' && <span className="badge-img-status missing">이미지 누락</span>}
@@ -648,6 +719,15 @@ export default function AdminProducts() {
                     >
                       {p.is_active ? <Eye size={14} /> : <EyeOff size={14} />}
                       {p.is_active ? '숨김 전환' : '노출 전환'}
+                    </button>
+                    <button 
+                      className={`btn-toggle-switch ${isProductSoldOut(p) ? 'soldout-on' : ''}`}
+                      onClick={() => toggleSoldOut(p)}
+                      title={isProductSoldOut(p) ? '판매중으로 변경' : '일시 품절로 변경'}
+                      style={isProductSoldOut(p) ? { background: '#fff5f5', color: '#e03131', borderColor: '#ffc9c9', fontWeight: 700 } : {}}
+                    >
+                      <PackageX size={14} />
+                      {isProductSoldOut(p) ? '판매중 전환' : '품절 전환'}
                     </button>
                     <button 
                       className={`btn-toggle-switch ${p.is_featured ? 'on' : ''}`}
@@ -768,6 +848,12 @@ export default function AdminProducts() {
                       <label className="checkbox-lbl">
                         <input type="checkbox" checked={isActive} onChange={e => setIsActive(e.target.checked)} />
                         <span>쇼핑몰에 상품 노출</span>
+                      </label>
+                      <label className="checkbox-lbl">
+                        <input type="checkbox" checked={isSoldOutState} onChange={e => setIsSoldOutState(e.target.checked)} />
+                        <span style={{ color: isSoldOutState ? '#e03131' : 'inherit', fontWeight: isSoldOutState ? '700' : 'normal' }}>
+                          일시 품절 (구매 불가 처리)
+                        </span>
                       </label>
                       <label className="checkbox-lbl">
                         <input type="checkbox" checked={isFeatured} onChange={e => setIsFeatured(e.target.checked)} />

@@ -4,6 +4,7 @@ import { supabase } from '../lib/supabaseClient.js';
 import { dongshinPolymer2026 } from '../data/dongshinPolymer2026.js';
 import { normalizeProductDetails, isSentenceDescription, getKccLineup, getMaterialTypeAndLine } from './brandUtils.js';
 import { HIDE_SUB_MATERIALS, isSubMaterialCategory } from '../config/categoryConfig.js';
+import { isProductSoldOut, cleanProductDescription } from './soldOutUtils.js';
 
 let localMaterialsCache = null;
 let localMaterialsMap = null;
@@ -475,6 +476,11 @@ export function mapProductRow(p) {
     mapped.displayLine = typeLine.displayLine || mapped.line;
   }
 
+  const soldOut = isProductSoldOut(mapped) || isProductSoldOut(p);
+  mapped.is_sold_out = soldOut;
+  mapped.isSoldOut = soldOut;
+  mapped.description = cleanProductDescription(mapped.description || p.description);
+
   return normalizeProductDetails(mapped);
 }
 
@@ -663,6 +669,10 @@ async function getMappedLocalMaterials() {
       if (!mapped.specs) mapped.specs = {};
       mapped.specs.area = m.specs.area;
     }
+
+    const soldOut = isProductSoldOut(mapped) || isProductSoldOut(m);
+    mapped.is_sold_out = soldOut;
+    mapped.isSoldOut = soldOut;
 
     return normalizeProductDetails(mapped);
   });

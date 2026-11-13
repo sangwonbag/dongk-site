@@ -11,6 +11,7 @@ import { isDecoTile } from "../../utils/decotileUtils";
 import { isMaterialItem, isAccessoryItem } from "../../utils/productClassification";
 import SEO from "../../components/seo/SEO";
 import { HIDE_SUB_MATERIALS, isSubMaterialCategory } from "../../config/categoryConfig";
+import { isProductSoldOut } from "../../utils/soldOutUtils";
 import "./Cart.css";
 
 export default function Cart() {
@@ -99,6 +100,13 @@ export default function Cart() {
 
     if (payableCartItems.length === 0) {
       alert("장바구니에 담긴 상품이 현재 판매 중단(부자재)되었거나 구매 가능한 자재가 없습니다.");
+      return;
+    }
+
+    const soldOutItems = cartItems.filter(isProductSoldOut);
+    if (soldOutItems.length > 0) {
+      const names = soldOutItems.map(i => i.name || i.product_name).join(', ');
+      alert(`장바구니에 현재 일시 품절된 자재가 포함되어 있어 주문을 진행할 수 없습니다.\n[품절 자재: ${names}]\n품절 상품을 삭제하신 후 주문을 진행해 주시거나, '견적문의'로 접수해 주세요.`);
       return;
     }
 
@@ -237,6 +245,7 @@ export default function Cart() {
                               })()}
                             </span>}
                             {item.category && <span className="badge-category">{item.category}</span>}
+                            {isProductSoldOut(item) && <span className="badge-category" style={{ background: '#495057', color: '#ffffff', fontWeight: 700 }}>일시 품절</span>}
                             {isSubMat && <span className="badge-category" style={{ background: '#ef4444', color: '#ffffff', fontWeight: 700 }}>구매 불가 (판매 중단)</span>}
                           </div>
                           <h4 className="cart-item-name">

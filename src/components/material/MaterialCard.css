@@ -375,3 +375,34 @@
     font-weight: 700;
     border-color: #fcc419;
 }
+
+/* Sold Out Badge & Button */
+.badge-sold-out-card {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background-color: #495057;
+    color: #ffffff;
+    font-size: 11px;
+    font-weight: 700;
+    padding: 3px 8px;
+    border-radius: 4px;
+    letter-spacing: -0.2px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    z-index: 2;
+}
+
+.btn-sold-out-card {
+    background-color: #f1f3f5 !important;
+    color: #868e96 !important;
+    border: 1px solid #dee2e6 !important;
+    cursor: not-allowed !important;
+    font-weight: 600 !important;
+    opacity: 0.9;
+}
+
+.btn-sold-out-card:hover {
+    background-color: #f1f3f5 !important;
+    color: #868e96 !important;
+    border-color: #dee2e6 !important;
+}

@@ -48,6 +48,7 @@ import ImageLightboxModal from "../../components/common/ImageLightboxModal";
 import { getProductDetailImages } from "../../services/productDetailImageService";
 import { normalizeImagePath, getUniqueProductImages } from "../../utils/galleryNormalizer";
 import { fetchProductDetailBySlugOrId, getCachedProduct, productDetailMemoryCache } from "../../utils/supabaseFetcher";
+import { isProductSoldOut } from "../../utils/soldOutUtils";
 
 import { imageManifest as cachedImageManifest } from "../../data/materialImageManifest.generated";
 async function getLocalImageManifestData() {
@@ -711,6 +712,7 @@ export default function MaterialDetail() {
   const initialData = location.state?.initialProduct || getCachedProduct(rawId);
 
   const [item, setItem] = useState(() => enrichProduct(initialData));
+  const isSoldOut = useMemo(() => isProductSoldOut(item), [item]);
   // Visitor price display only. Real authorization belongs on the backend.
   const isKccBrandItem = (item?.brand || '').toUpperCase().includes('KCC');
   const showPrice = Boolean(currentUser?.isLoggedIn) || isKccBrandItem;
@@ -1500,6 +1502,10 @@ export default function MaterialDetail() {
   const currentPacking = selectedOption ? (selectedOption.package || "1박스 단위 판매") : (item.specs?.packing || "1박스 단위 판매");
 
   const handleAddToCart = () => {
+    if (isSoldOut) {
+      alert("현재 본 제품은 제조사/공급사 사정으로 일시 품절되었습니다. 견적문의를 이용해 주시기 바랍니다.");
+      return;
+    }
     let itemPrice = item.price;
     if (typeof itemPrice === 'string') {
       itemPrice = parseInt(itemPrice.replace(/[^0-9]/g, ""), 10) || 0;
@@ -1557,6 +1563,10 @@ export default function MaterialDetail() {
   };
 
   const handleDirectBuy = () => {
+    if (isSoldOut) {
+      alert("현재 본 제품은 제조사/공급사 사정으로 일시 품절되었습니다. 견적문의를 이용해 주시기 바랍니다.");
+      return;
+    }
     let itemPrice = item.price;
     if (typeof itemPrice === 'string') {
       itemPrice = parseInt(itemPrice.replace(/[^0-9]/g, ""), 10) || 0;
@@ -2024,6 +2034,9 @@ export default function MaterialDetail() {
               </div>
 
               <h1 className="showroom-product-title">
+                {isSoldOut && (
+                  <span className="showroom-soldout-badge">일시 품절</span>
+                )}
                 {isLxPrestigeProduct(item)
                   ? formatProductTitle(item)
                   : isLxEconoPlusProduct(item)
@@ -2467,25 +2480,47 @@ export default function MaterialDetail() {
                         <span className="price-material-notice">(자재 단품 금액 / 시공비 별도)</span>
                       </div>
 
-                      <div className="showroom-main-actions">
-                        <button 
-                          type="button" 
-                          className="btn-main-cart" 
-                          onClick={handleAddToCart}
-                          disabled={isSubmitting}
-                        >
-                          <ShoppingCart size={18} style={{ marginRight: '6px' }} /> 장바구니 담기
-                        </button>
-                        <button 
-                          type="button" 
-                          className="btn-main-buy" 
-                          onClick={handleDirectBuy} 
-                          disabled={isSubmitting}
-                          style={{ backgroundColor: 'var(--point-orange)', borderColor: 'var(--point-orange)' }}
-                        >
-                          <CheckCircle size={18} style={{ marginRight: '6px' }} /> 바로구매
-                        </button>
-                      </div>
+                      {isSoldOut ? (
+                        <div className="detail-soldout-container">
+                          <div className="detail-soldout-alert">
+                            <AlertTriangle size={18} className="soldout-alert-icon" />
+                            <div>
+                              <strong>일시 품절 안내</strong>
+                              <p>현재 본 제품은 제조사/공급사 사정으로 일시 품절되어 바로구매 및 장바구니 담기가 불가능합니다.</p>
+                            </div>
+                          </div>
+                          <div className="showroom-main-actions">
+                            <button 
+                              type="button" 
+                              className="btn-main-cart btn-disabled-soldout" 
+                              disabled
+                              title="현재 일시 품절 상태입니다."
+                            >
+                              일시 품절 (구매 불가)
+                            </button>
+                          </div>
+                        </div>
+                      ) : (
+                        <div className="showroom-main-actions">
+                          <button 
+                            type="button" 
+                            className="btn-main-cart" 
+                            onClick={handleAddToCart}
+                            disabled={isSubmitting}
+                          >
+                            <ShoppingCart size={18} style={{ marginRight: '6px' }} /> 장바구니 담기
+                          </button>
+                          <button 
+                            type="button" 
+                            className="btn-main-buy" 
+                            onClick={handleDirectBuy} 
+                            disabled={isSubmitting}
+                            style={{ backgroundColor: 'var(--point-orange)', borderColor: 'var(--point-orange)' }}
+                          >
+                            <CheckCircle size={18} style={{ marginRight: '6px' }} /> 바로구매
+                          </button>
+                        </div>
+                      )}
                     </div>
 
                     {/* Block B: 시공도 필요하세요? (Non-accessory only) */}
@@ -3296,12 +3331,20 @@ export default function MaterialDetail() {
           </a>
         </div>
         <div className="mobile-cta-main-row">
-          <button className="mobile-cta-main-btn btn-cart" onClick={handleAddToCart}>
-            장바구니 담기
-          </button>
-          <button className="mobile-cta-main-btn btn-buy" onClick={handleDirectBuy}>
-            바로구매
-          </button>
+          {isSoldOut ? (
+            <button className="mobile-cta-main-btn btn-soldout-mobile" disabled>
+              일시 품절 (구매 불가)
+            </button>
+          ) : (
+            <>
+              <button className="mobile-cta-main-btn btn-cart" onClick={handleAddToCart}>
+                장바구니 담기
+              </button>
+              <button className="mobile-cta-main-btn btn-buy" onClick={handleDirectBuy}>
+                바로구매
+              </button>
+            </>
+          )}
         </div>
       </div>
 

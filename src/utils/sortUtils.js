@@ -1,5 +1,6 @@
 import { getKccProductLineupPriority } from './brandUtils.js';
 import { compareProductRecommendationPriority } from '../constants/brandPriority.js';
+import { isProductSoldOut } from './soldOutUtils.js';
 
 /**
  * Utility functions for price normalization, product name extraction, and product list sorting.
@@ -100,8 +101,18 @@ export function getSubmaterialGroupPriority(item) {
 }
 
 /**
+ * Compares sold-out status. In-stock products (0) come before sold-out products (1).
+ */
+const compareSoldOut = (a, b) => {
+  const soldA = isProductSoldOut(a) ? 1 : 0;
+  const soldB = isProductSoldOut(b) ? 1 : 0;
+  return soldA - soldB;
+};
+
+/**
  * Sorts an array of products based on the sortOption without mutating the original array.
  * Supported options: 'default', 'price-asc', 'price-desc', 'name-asc', 'name-desc'
+ * Sold-out products are placed at the bottom regardless of sort option.
  */
 export const sortProducts = (products, sortOption = 'default', category = '') => {
   if (!products || !Array.isArray(products) || products.length === 0) return [];
@@ -111,6 +122,9 @@ export const sortProducts = (products, sortOption = 'default', category = '') =>
   if (!sortOption || sortOption === 'default') {
     if (copied.some(m => m && m.category === '부자재')) {
       return copied.sort((a, b) => {
+        const soldComp = compareSoldOut(a, b);
+        if (soldComp !== 0) return soldComp;
+
         const prioA = getSubmaterialGroupPriority(a);
         const prioB = getSubmaterialGroupPriority(b);
         if (prioA !== prioB) return prioA - prioB;
@@ -121,12 +135,19 @@ export const sortProducts = (products, sortOption = 'default', category = '') =>
     }
 
     // Default sorting: category-specific recommendation priority (데코타일: KCC 최우선, 장판: LX 최우선)
-    return copied.sort((a, b) => compareProductRecommendationPriority(a, b, category));
+    return copied.sort((a, b) => {
+      const soldComp = compareSoldOut(a, b);
+      if (soldComp !== 0) return soldComp;
+      return compareProductRecommendationPriority(a, b, category);
+    });
   }
 
   switch (sortOption) {
     case 'price-asc':
       return copied.sort((a, b) => {
+        const soldComp = compareSoldOut(a, b);
+        if (soldComp !== 0) return soldComp;
+
         const priceA = getProductPrice(a);
         const priceB = getProductPrice(b);
         if (priceA === null && priceB === null) return compareProductRecommendationPriority(a, b, category);
@@ -138,6 +159,9 @@ export const sortProducts = (products, sortOption = 'default', category = '') =>
 
     case 'price-desc':
       return copied.sort((a, b) => {
+        const soldComp = compareSoldOut(a, b);
+        if (soldComp !== 0) return soldComp;
+
         const priceA = getProductPrice(a);
         const priceB = getProductPrice(b);
         if (priceA === null && priceB === null) return compareProductRecommendationPriority(a, b, category);
@@ -149,6 +173,9 @@ export const sortProducts = (products, sortOption = 'default', category = '') =>
 
     case 'name-asc':
       return copied.sort((a, b) => {
+        const soldComp = compareSoldOut(a, b);
+        if (soldComp !== 0) return soldComp;
+
         const nameA = getProductName(a);
         const nameB = getProductName(b);
         return nameA.localeCompare(nameB, 'ko', {
@@ -159,6 +186,9 @@ export const sortProducts = (products, sortOption = 'default', category = '') =>
 
     case 'name-desc':
       return copied.sort((a, b) => {
+        const soldComp = compareSoldOut(a, b);
+        if (soldComp !== 0) return soldComp;
+
         const nameA = getProductName(a);
         const nameB = getProductName(b);
         return nameB.localeCompare(nameA, 'ko', {
@@ -168,6 +198,10 @@ export const sortProducts = (products, sortOption = 'default', category = '') =>
       });
 
     default:
-      return copied.sort((a, b) => compareProductRecommendationPriority(a, b, category));
+      return copied.sort((a, b) => {
+        const soldComp = compareSoldOut(a, b);
+        if (soldComp !== 0) return soldComp;
+        return compareProductRecommendationPriority(a, b, category);
+      });
   }
 };

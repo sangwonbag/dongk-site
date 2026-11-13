@@ -5,7 +5,8 @@ import { supabase } from '../../lib/supabaseClient';
 import { fetchAllProducts, clearProductCache } from '../../utils/supabaseFetcher';
 import { getProductImageUrl, getProductImageCandidates } from '../../utils/productImageResolver';
 import { useAuth } from '../../contexts/AuthContext';
-import { ArrowLeft, Plus, Search, Edit2, Trash2, Save, X, Upload, Layers, Image as ImageIcon, Loader2, AlertTriangle, CheckCircle } from 'lucide-react';
+import { ArrowLeft, Plus, Search, Edit2, Trash2, Save, X, Upload, Layers, Image as ImageIcon, Loader2, AlertTriangle, CheckCircle, PackageX } from 'lucide-react';
+import { isProductSoldOut, cleanProductDescription } from '../../utils/soldOutUtils';
 import { LoadingSpinner, EmptyState } from '../../components/ui';
 import ProductDetailImageManager from '../../components/admin/ProductDetailImageManager';
 import { getProductDetailImages, saveProductDetailImages } from '../../services/productDetailImageService';
@@ -52,6 +53,7 @@ export default function AdminMaterials() {
   const [description, setDescription] = useState('');
   const [isActive, setIsActive] = useState(true);
   const [isFeatured, setIsFeatured] = useState(false);
+  const [isSoldOutState, setIsSoldOutState] = useState(false);
   const [sortOrder, setSortOrder] = useState(0);
   const [imageUrl, setImageUrl] = useState('');
   const [detailImages, setDetailImages] = useState([]);
@@ -199,7 +201,8 @@ export default function AdminMaterials() {
 
       const matchStatus =
         selectedStatus === '전체' ||
-        (selectedStatus === '노출' && p.is_active === true) ||
+        (selectedStatus === '노출' && p.is_active === true && !isProductSoldOut(p)) ||
+        (selectedStatus === '일시품절' && isProductSoldOut(p)) ||
         (selectedStatus === '숨김' && p.is_active === false);
 
       let matchImageStatus = true;
@@ -251,6 +254,54 @@ export default function AdminMaterials() {
     setVisibleCount(100);
   };
 
+  const toggleSoldOut = async (product) => {
+    try {
+      const currentSoldOut = isProductSoldOut(product);
+      const newSoldOut = !currentSoldOut;
+      let newDesc = product.description || '';
+      let newSortOrder = product.sort_order || 0;
+
+      if (newSoldOut) {
+        if (!newDesc.includes('[일시품절]')) {
+          newDesc = `[일시품절] ${newDesc}`.trim();
+        }
+        newSortOrder = 99999;
+      } else {
+        newDesc = cleanProductDescription(newDesc);
+        if (newSortOrder >= 99900) {
+          newSortOrder = 0;
+        }
+      }
+
+      const { error } = await supabase
+        .from('products')
+        .update({
+          description: newDesc,
+          sort_order: newSortOrder,
+          updated_at: new Date().toISOString()
+        })
+        .eq('id', product.id);
+
+      if (error) throw error;
+
+      setProducts(prev => prev.map(p => {
+        if (p.id === product.id) {
+          return {
+            ...p,
+            description: newDesc,
+            sort_order: newSortOrder,
+            is_sold_out: newSoldOut,
+            isSoldOut: newSoldOut
+          };
+        }
+        return p;
+      }));
+      clearProductCache();
+    } catch (err) {
+      alert('품절 상태 변경에 실패했습니다: ' + err.message);
+    }
+  };
+
   // Modal open handlers
   const openAddModal = () => {
     setEditingProduct(null);
@@ -265,6 +316,7 @@ export default function AdminMaterials() {
     setDescription('');
     setIsActive(true);
     setIsFeatured(false);
+    setIsSoldOutState(false);
     setSortOrder(0);
     setImageUrl('');
     setPreviewImageError(false);
@@ -292,6 +344,7 @@ export default function AdminMaterials() {
     setDescription(p.description || '');
     setIsActive(p.is_active ?? true);
     setIsFeatured(p.is_featured ?? false);
+    setIsSoldOutState(isProductSoldOut(p));
     setSortOrder(p.sort_order || 0);
     setImageUrl(p.image_url || '');
     setPreviewImageError(false);
@@ -393,6 +446,22 @@ export default function AdminMaterials() {
       const cleanBrand = brandObj ? brandObj.name.toLowerCase() : 'etc';
       const baseSlug = `${cleanBrand}-${cleanName}`;
       
+      let finalDesc = description || '';
+      let finalSortOrder = parseInt(sortOrder) || 0;
+      if (isSoldOutState) {
+        if (!finalDesc.includes('[일시품절]')) {
+          finalDesc = `[일시품절] ${finalDesc}`.trim();
+        }
+        if (finalSortOrder < 99900) {
+          finalSortOrder = 99999;
+        }
+      } else {
+        finalDesc = cleanProductDescription(finalDesc);
+        if (finalSortOrder >= 99900) {
+          finalSortOrder = 0;
+        }
+      }
+
       const payload = {
         name,
         product_code: productCode.trim() || null,
@@ -404,10 +473,10 @@ export default function AdminMaterials() {
         thickness: thickness || null,
         size_text: sizeText || null,
         unit: unit || null,
-        description: description || null,
+        description: finalDesc || null,
         is_active: isActive,
         is_featured: isFeatured,
-        sort_order: parseInt(sortOrder) || 0,
+        sort_order: finalSortOrder,
         image_url: imageUrl || null,
         updated_at: new Date().toISOString()
       };
@@ -578,7 +647,8 @@ export default function AdminMaterials() {
                 onChange={(e) => setSelectedStatus(e.target.value)}
               >
                 <option value="전체">전체 상태</option>
-                <option value="노출">노출 중</option>
+                <option value="노출">노출 중 (판매중)</option>
+                <option value="일시품절">일시 품절</option>
                 <option value="숨김">숨김</option>
               </select>
             </div>
@@ -687,13 +757,28 @@ export default function AdminMaterials() {
                     <td className="price-cell font-mono">{(p.cost_price || 0).toLocaleString()}원</td>
                     <td className="price-cell font-mono highlighted">{(p.price || 0).toLocaleString()}원</td>
                     <td>
-                      {p.is_active ? (
-                        <span className="badge-visible">노출 중</span>
-                      ) : (
-                        <span className="badge-hidden">숨김</span>
-                      )}
+                      <div style={{ display: 'flex', flexDirection: 'column', gap: '4px', alignItems: 'flex-start' }}>
+                        {p.is_active ? (
+                          <span className="badge-visible">노출 중</span>
+                        ) : (
+                          <span className="badge-hidden">숨김</span>
+                        )}
+                        {isProductSoldOut(p) && (
+                          <span className="badge-soldout" style={{ background: '#495057', color: '#fff', padding: '2px 6px', borderRadius: '4px', fontSize: '11px', fontWeight: 'bold' }}>
+                            일시 품절
+                          </span>
+                        )}
+                      </div>
                     </td>
                     <td className="actions-cell">
+                      <button 
+                        className="btn-action-edit" 
+                        onClick={() => toggleSoldOut(p)} 
+                        title={isProductSoldOut(p) ? '판매중으로 전환' : '일시 품절로 전환'}
+                        style={isProductSoldOut(p) ? { background: '#fff5f5', color: '#e03131', borderColor: '#ffc9c9' } : {}}
+                      >
+                        <PackageX size={14} />
+                      </button>
                       <button className="btn-action-edit" onClick={() => openEditModal(p)} title="수정">
                         <Edit2 size={14} />
                       </button>
@@ -874,6 +959,18 @@ export default function AdminMaterials() {
                           onChange={(e) => setIsActive(e.target.checked)}
                         />
                         <label htmlFor="isMaterialActive">자재 노출</label>
+                      </div>
+
+                      <div className="form-checkbox-field">
+                        <input
+                          type="checkbox"
+                          id="isMaterialSoldOut"
+                          checked={isSoldOutState}
+                          onChange={(e) => setIsSoldOutState(e.target.checked)}
+                        />
+                        <label htmlFor="isMaterialSoldOut" style={{ color: isSoldOutState ? '#e03131' : 'inherit', fontWeight: isSoldOutState ? '700' : 'normal' }}>
+                          일시 품절 (구매 불가)
+                        </label>
                       </div>
 
                       <div className="form-checkbox-field">
