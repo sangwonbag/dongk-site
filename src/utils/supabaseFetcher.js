@@ -5,6 +5,7 @@ import { dongshinPolymer2026 } from '../data/dongshinPolymer2026.js';
 import { normalizeProductDetails, isSentenceDescription, getKccLineup, getMaterialTypeAndLine } from './brandUtils.js';
 import { HIDE_SUB_MATERIALS, isSubMaterialCategory } from '../config/categoryConfig.js';
 import { isProductSoldOut, cleanProductDescription } from './soldOutUtils.js';
+import { getLxCatalogProduct } from './lxProductUtils.js';
 
 let localMaterialsCache = null;
 let localMaterialsMap = null;
@@ -1377,6 +1378,40 @@ export async function fetchProductDetailBySlugOrId(routeParam, signal = null, op
         && (!brandHint || String(row.brand || '').toLowerCase().includes(brandHint)));
       if (exact || byCode) {
         const mapped = normalizeProductDetails(exact || byCode);
+        setCachedProduct(mapped);
+        return mapped;
+      }
+
+      // Check LX 2025 Catalog Fallback (for products pending admin catalog DB registration)
+      const lxCat = getLxCatalogProduct({ slug, code: slug, name: slug });
+      if (lxCat) {
+        const catalogFallbackProduct = {
+          id: `lx-${lxCat.cleanCode.toLowerCase()}`,
+          code: lxCat.code,
+          product_code: lxCat.code,
+          name: lxCat.name,
+          slug: `데코타일-lx-${lxCat.lineup.toLowerCase()}-${lxCat.cleanCode.toLowerCase()}`,
+          brand: 'LX하우시스',
+          category: '데코타일',
+          line: lxCat.lineupName,
+          shape: lxCat.shape,
+          thickness: lxCat.thickness,
+          size: lxCat.size,
+          pattern: lxCat.pattern,
+          specs: {
+            thickness: lxCat.thickness,
+            size: lxCat.size,
+            pcs_per_box: lxCat.pcsPerBox,
+            packing: `${lxCat.pcsPerBox}장 / BOX`,
+            area: lxCat.areaPerBox,
+            box_pyeong: lxCat.pyeongPerBox
+          },
+          price: 0,
+          thumbnail: lxCat.primaryImage || '/images/no-image.svg',
+          is_active: true,
+          catalog_source: '2025 LX하우시스 공식 카탈로그'
+        };
+        const mapped = normalizeProductDetails(catalogFallbackProduct);
         setCachedProduct(mapped);
         return mapped;
       }

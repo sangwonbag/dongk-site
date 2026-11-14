@@ -405,6 +405,30 @@ export const LINEUP_DATABASE = [
     aliases: ["프레스티지", "프레스티지 5t", "프레스티지5t", "prestg", "prestige", "lx 프레스티지", "lx프레스티지", "프리미엄 5t"],
     dbKeywords: ["프레스티지", "PRESTG", "PRESTIGE", "PTT", "PTW"],
     description: "LX하우시스 프레스티지 5T (PRESTG) 프리미엄 LVT 데코타일"
+  },
+  {
+    lineup: "하우스스타일",
+    brand: "LX",
+    category: "데코타일",
+    aliases: ["하우스스타일", "하우스 스타일", "하우스스타일 3t", "house style", "housestyle", "lx 하우스스타일", "lx하우스스타일", "하우스 타일", "하우스풀"],
+    dbKeywords: ["하우스스타일", "HOUSE STYLE", "ZOT", "ZOW"],
+    description: "LX하우시스 하우스스타일 3T (House Style) 주거·상업 온돌 적합 LVT 데코타일"
+  },
+  {
+    lineup: "보타닉",
+    brand: "LX",
+    category: "데코타일",
+    aliases: ["보타닉", "보타닉 3t", "보타닉3t", "botanic", "lx 보타닉", "lx보타닉", "보타닉 데코타일"],
+    dbKeywords: ["보타닉", "BOTANIC", "DBT", "DBW"],
+    description: "LX하우시스 보타닉 3T (BOTANIC) 상업공간 표준 LVT 데코타일"
+  },
+  {
+    lineup: "에디톤",
+    brand: "LX",
+    category: "데코타일",
+    aliases: ["에디톤", "에디톤 스톤", "에디톤스톤", "editone", "editone stone", "lx 에디톤", "lx에디톤", "에디톤 5t", "에디톤5t"],
+    dbKeywords: ["에디톤", "EDITONE", "EDT"],
+    description: "LX하우시스 에디톤 스톤 5T (EDITONE STONE) NSC 프리미엄 대형 스톤 바닥재"
   }
 ];
 
