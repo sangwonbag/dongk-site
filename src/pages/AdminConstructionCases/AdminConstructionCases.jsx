@@ -5,6 +5,7 @@ import { supabase } from '../../lib/supabaseClient';
 import { useAuth } from '../../contexts/AuthContext';
 import { ArrowLeft, Plus, Search, Edit2, Trash2, Save, X, Upload, Eye, Image as ImageIcon, Loader2 } from 'lucide-react';
 import { searchMaterialsForAdmin, findSupabaseProductId } from '../../utils/caseMaterialUtils';
+import { invalidateCasesCache } from '../../utils/constructionCasesService';
 import './AdminConstructionCases.css';
 
 export default function AdminConstructionCases() {
@@ -281,9 +282,11 @@ export default function AdminConstructionCases() {
           });
 
         if (error) throw error;
+        invalidateCasesCache();
         alert('시공사례가 성공적으로 등록되었습니다.');
       }
 
+      invalidateCasesCache();
       setIsModalOpen(false);
       fetchCases();
     } catch (err) {
@@ -307,6 +310,7 @@ export default function AdminConstructionCases() {
         .eq('id', id);
 
       if (error) throw error;
+      invalidateCasesCache();
       alert('성공적으로 삭제되었습니다.');
       fetchCases();
     } catch (err) {

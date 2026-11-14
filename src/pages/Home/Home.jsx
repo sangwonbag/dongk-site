@@ -7,6 +7,7 @@ import { KAKAO_CHAT_URL, OFFICE_PHONE } from "../../constants/contact";
 import { preloadRoute, setupIdlePreload } from "../../utils/routePreloader";
 import { 
   ArrowRight, 
+  ArrowUpRight,
   ChevronRight, 
   Play, 
   Pause, 
@@ -20,6 +21,10 @@ import {
   PhoneCall,
   MessageSquare
 } from "lucide-react";
+import { getCaseImageUrl, getCaseImageSrcSet } from "../../utils/caseImageUtils";
+import { resolveCaseMaterialLinks } from "../../utils/caseMaterialUtils";
+import { fetchPublishedCases, getRandomShowcaseCases } from "../../utils/constructionCasesService";
+import { FALLBACK_CASES } from "../../data/fallbackCases";
 import "./Home.css";
 
 const HOME_JSON_LD = {
@@ -580,49 +585,8 @@ const LX_JANGPAN_COLLECTION = [
   }
 ];
 
-// Real Construction Project Showcase (Optimized WebP thumbnails)
-const REAL_PROJECTS = [
-  {
-    id: "jungwon-univ-dongshin-ds615",
-    space: "대학교 · 상업·교육",
-    icon: Briefcase,
-    title: "중원대학교 동신 디럭스타일 615 대규모 시공",
-    material: "동신 아트타일 600각 DS 615 · 600×600mm",
-    desc: "대형 600각 타일의 탁 트인 개방감과 뛰어난 내구성으로 완성한 대학교 캠퍼스 시공 현장",
-    image: "/images/시공사례_optimized/thumb-800/25.08.12 동신 615 중원대학교/KakaoTalk_20261113_144326758.webp",
-    linkUrl: "/cases"
-  },
-  {
-    id: "giheung-gym-lx-prestige-8698",
-    space: "헬스장 · 상업공간",
-    icon: Dumbbell,
-    title: "용인 기흥 헬스장 LX 프레스티지 8698 시공",
-    material: "LX하우시스 프레스티지 5T PTT8698 · 457.2×914.4mm",
-    desc: "동조엠보(EIR)와 고강도 Metal Shield 표면 처리의 프리미엄 5.0T 데코타일 시공 현장",
-    image: "/images/시공사례_optimized/thumb-800/26.11.11 LX 프레스티지 8698 기흥 헬스장/KakaoTalk_20261111_154511524.webp",
-    linkUrl: "/cases"
-  },
-  {
-    id: "guui-apartment-dongshin-726",
-    space: "아파트 · 주거공간",
-    icon: HomeIcon,
-    title: "서울 구의동 아파트 동신 726 데코타일 시공",
-    material: "동신 아트타일 726 · 3.0T",
-    desc: "밝고 내추럴한 감성의 바닥 마감으로 아늑한 주거 공간을 완성한 시공 현장",
-    image: "/images/시공사례_optimized/thumb-800/25.07.24 동신 726 구의동 아파트/KakaoTalk_20261113_133133183.webp",
-    linkUrl: "/cases"
-  },
-  {
-    id: "hanyang-univ-fusion-kcc-ts5518p",
-    space: "연구소 · 사무공간",
-    icon: Briefcase,
-    title: "한양대학교 퓨전테크센터 KCC 5518 시공",
-    material: "KCC 센스타일 트랜디 450각 TS5518P · 3.0T",
-    desc: "단정하고 세련된 모던 그레이 톤으로 오피스 및 연구 공간에 최적화된 마감",
-    image: "/images/시공사례_optimized/thumb-800/25.07.31 KCC 5518 한양대 퓨전테크센터/KakaoTalk_20261113_142105152.webp",
-    linkUrl: "/cases"
-  }
-];
+const CASES_HISTORY_KEY = 'dk_home_cases_history';
+const SHOWCASE_COUNT = 4;
 
 export default function Home() {
   const navigate = useNavigate();
@@ -633,6 +597,40 @@ export default function Home() {
   const [videoError, setVideoError] = useState(false);
   const [scrollProgress, setScrollProgress] = useState(0);
   const [recommendedCategory, setRecommendedCategory] = useState("decotile");
+
+  // Use deterministic initial markup for prerendering; randomize once per home visit.
+  const [showcaseCases, setShowcaseCases] = useState(() => FALLBACK_CASES.slice(0, SHOWCASE_COUNT));
+
+  useEffect(() => {
+    let isMounted = true;
+    async function loadShowcaseCases() {
+      let previousIds = [];
+      try {
+        const saved = JSON.parse(window.sessionStorage.getItem(CASES_HISTORY_KEY) || '[]');
+        if (Array.isArray(saved)) previousIds = saved;
+      } catch {
+        // Storage is optional
+      }
+
+      const allCases = await fetchPublishedCases();
+      if (!isMounted) return;
+
+      const selected = getRandomShowcaseCases(allCases, SHOWCASE_COUNT, previousIds);
+      if (selected.length > 0) {
+        setShowcaseCases(selected);
+        try {
+          window.sessionStorage.setItem(CASES_HISTORY_KEY, JSON.stringify(selected.map((c) => c.id)));
+        } catch {
+          // Storage is optional
+        }
+      }
+    }
+
+    loadShowcaseCases();
+    return () => {
+      isMounted = false;
+    };
+  }, []);
 
   // Use deterministic initial markup for prerendering; randomize once per home visit.
   const [trendyProducts, setTrendyProducts] = useState(() => KCC_COLLECTION.slice(0, 3));
@@ -1069,19 +1067,36 @@ export default function Home() {
                 </Link>
               </div>
 
-              {/* Verified Anseong gym case showcase */}
+              {/* Randomized verified construction cases showcase */}
               <div className="projects-cards-grid">
-                {REAL_PROJECTS.map((item) => {
-                  const SpaceIcon = item.icon;
+                {showcaseCases.map((item) => {
+                  const materialLinks = resolveCaseMaterialLinks(item);
+                  const thumbUrl = getCaseImageUrl(item.main_image_url, '800');
+                  const srcSet = getCaseImageSrcSet(item.main_image_url);
+
+                  let SpaceIcon = Building2;
+                  if (item.title?.includes('헬스장') || item.title?.includes('피트니스')) {
+                    SpaceIcon = Dumbbell;
+                  } else if (item.category === '주거공간') {
+                    SpaceIcon = HomeIcon;
+                  } else if (item.category === '사무공간') {
+                    SpaceIcon = Briefcase;
+                  }
+
+                  const spaceLabel = `${item.location ? item.location + ' · ' : ''}${item.category || '시공현장'}`;
+
                   return (
                     <article 
                       key={item.id} 
                       className="project-case-card"
-                      onClick={() => navigate(item.linkUrl)}
+                      onClick={() => navigate(`/cases?id=${item.id}`)}
+                      title={`${item.title} 시공사례 상세 보기`}
                     >
                       <div className="project-media-wrap">
                         <img 
-                          src={item.image} 
+                          src={thumbUrl} 
+                          srcSet={srcSet || undefined}
+                          sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 320px"
                           alt={item.title} 
                           loading="lazy"
                           decoding="async"
@@ -1089,19 +1104,44 @@ export default function Home() {
                           height="360"
                           onError={(e) => {
                             e.target.onerror = null;
-                            e.target.src = "/images/home-interior/korea-apt-living-01.webp";
+                            e.target.src = "/images/no-image.svg";
                           }}
                         />
                         <div className="project-space-tag">
                           <SpaceIcon size={14} />
-                          <span>{item.space}</span>
+                          <span>{spaceLabel}</span>
                         </div>
                       </div>
 
                       <div className="project-body-wrap">
-                        <span className="project-material-summary">{item.material}</span>
+                        {/* Clickable Material Links */}
+                        <div className="project-material-links-wrap" onClick={(e) => e.stopPropagation()}>
+                          {materialLinks.length > 0 ? (
+                            materialLinks.map((linkItem, idx) => (
+                              <Link
+                                key={idx}
+                                to={linkItem.path}
+                                className="project-material-badge-link"
+                                title={`${linkItem.label} ${linkItem.isDirectDetail ? '자재 상세페이지' : '자재 검색 결과'}로 이동`}
+                              >
+                                <span>{linkItem.label}</span>
+                                <ArrowUpRight size={12} className="material-link-arrow" />
+                              </Link>
+                            ))
+                          ) : item.material_summary ? (
+                            <Link
+                              to={`/materials?search=${encodeURIComponent(item.material_summary)}`}
+                              className="project-material-badge-link"
+                              title={`${item.material_summary} 자재 검색하기`}
+                            >
+                              <span>{item.material_summary}</span>
+                              <ArrowUpRight size={12} className="material-link-arrow" />
+                            </Link>
+                          ) : null}
+                        </div>
+
                         <h3 className="project-case-title">{item.title}</h3>
-                        <p className="project-case-desc">{item.desc}</p>
+                        {item.description && <p className="project-case-desc">{item.description}</p>}
                         <span className="project-view-more">
                           현장 시공사례 보기 <ChevronRight size={15} />
                         </span>

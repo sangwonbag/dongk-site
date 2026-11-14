@@ -762,6 +762,47 @@
   flex: 1;
 }
 
+.project-material-links-wrap {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-bottom: 10px;
+}
+
+.project-material-badge-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  font-size: 11.5px;
+  font-weight: 700;
+  color: var(--point-gold);
+  text-decoration: none;
+  background-color: #faf5ea;
+  padding: 4px 8px;
+  border-radius: 6px;
+  border: 1px solid #fae8c8;
+  transition: all 0.2s ease;
+  line-height: 1.3;
+}
+
+.project-material-badge-link:hover {
+  background-color: var(--point-gold);
+  color: #ffffff;
+  border-color: var(--point-gold);
+  box-shadow: 0 2px 6px rgba(201, 156, 71, 0.25);
+}
+
+.project-material-badge-link .material-link-arrow {
+  flex-shrink: 0;
+  opacity: 0.85;
+  transition: transform 0.2s ease;
+}
+
+.project-material-badge-link:hover .material-link-arrow {
+  transform: translate(1px, -1px);
+  opacity: 1;
+}
+
 .project-material-summary {
   font-size: 11.5px;
   font-weight: 700;

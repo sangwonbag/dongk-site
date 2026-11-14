@@ -38,7 +38,7 @@ function CaseCardComponent({
   }, [onOpenLightbox, item]);
 
   return (
-    <article className="case-portfolio-card">
+    <article id={`case-card-${item.id}`} className="case-portfolio-card">
       {/* Media Wrap */}
       <div 
         className="case-img-wrapper"
