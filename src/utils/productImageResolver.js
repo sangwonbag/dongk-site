@@ -213,6 +213,11 @@ export function getProductImageCandidates(product) {
       return;
     }
 
+    // Reject obsolete flat /LX/보타닉/ paths (all valid Botanic files live inside subfolders: 450각, 600각, 우드)
+    if (/\/LX\/보타닉\/[^/]+\.(png|jpe?g|webp)$/i.test(normDecoded)) {
+      return;
+    }
+
     // Strict lineup boundary checks to prevent cross-lineup image bleed
     if (lineup === 'sensray') {
       if (norm.includes('B0122J') && !codeNorm.includes('B0122')) {
@@ -262,6 +267,14 @@ export function getProductImageCandidates(product) {
 
     if (codeNorm) {
       genMatch = indices.codeIndex.get(codeNorm);
+    }
+    if (!genMatch) {
+      // Also match extracted pure product code (e.g. "DBT3082" from "DBT3082 콘크리트 라이트그레이 600")
+      const pureMatch = `${rawCode} ${rawName}`.match(/\b(DBT\d{4}|DBW\d{4}|PTT\d{4}|PTW\d{4}|ZOT\s*\d{4}|ZOW\s*\d{4}|EDT\d{4})\b/i);
+      if (pureMatch) {
+        const pureKey = pureMatch[1].replace(/\s+/g, '').toUpperCase();
+        genMatch = indices.codeIndex.get(pureKey);
+      }
     }
     if (!genMatch && nameNorm) {
       genMatch = indices.nameIndex.get(nameNorm);
@@ -444,6 +457,23 @@ export function sortProductImagesByType(images, productCode = '') {
       }
     }
 
+    // Deduplicate format variants for same image base name (prefer .webp over .jpg/.png)
+    const baseKey = safeDecoded.replace(/\.(webp|jpe?g|png|avif)$/i, '').toLowerCase();
+    const isWebp = /\.webp$/i.test(clean);
+    const existingIdx = deduped.findIndex(x => {
+      try {
+        return decodeURI(x).replace(/\.(webp|jpe?g|png|avif)$/i, '').toLowerCase() === baseKey;
+      } catch {
+        return false;
+      }
+    });
+    if (existingIdx !== -1) {
+      if (isWebp && !/\.webp$/i.test(deduped[existingIdx])) {
+        deduped[existingIdx] = clean;
+        seenPaths.add(safeDecoded);
+      }
+      continue;
+    }
     seenPaths.add(safeDecoded);
     deduped.push(clean);
   }

@@ -25,7 +25,13 @@ function collectFiles(dir) {
       }
     }
   });
-  return results;
+  return results.sort((a, b) => {
+    const extA = path.extname(a).toLowerCase();
+    const extB = path.extname(b).toLowerCase();
+    if (extA === '.webp' && extB !== '.webp') return -1;
+    if (extA !== '.webp' && extB === '.webp') return 1;
+    return a.localeCompare(b);
+  });
 }
 
 // Normalize brand names using the same rules as the materials generator
