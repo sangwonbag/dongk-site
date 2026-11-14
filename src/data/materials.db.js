@@ -5878,329 +5878,954 @@ export const materials = [
     "product_name": ""
   },
   {
-    "id": "데코타일-lx-보타닉-dbt3066-카펫-그레이-450",
+    "id": "데코타일-lx-보타닉-dbt3051-마블",
     "category": "데코타일",
-    "brand": "LX",
+    "brand": "LX하우시스",
     "line": "보타닉",
-    "subLine": "보타닉",
-    "name": "",
-    "code": "DBT3066 카펫 그레이 450",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/LX/%EB%B3%B4%ED%83%80%EB%8B%89/DBT3066%20%EC%B9%B4%ED%8E%AB%20%EA%B7%B8%EB%A0%88%EC%9D%B4%20450.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/LX/%EB%B3%B4%ED%83%80%EB%8B%89/DBT3066%20%EC%B9%B4%ED%8E%AB%20%EA%B7%B8%EB%A0%88%EC%9D%B4%20450.jpg",
+    "subLine": "450각",
+    "name": "LX 보타닉 DBT3051 마블 450",
+    "code": "DBT3051",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/LX/보타닉/450각/DBT3051.webp",
+    "image": "/images/Thumbnail_Image/materials/데코타일/LX/보타닉/450각/DBT3051.webp",
     "images": [
-      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/LX/%EB%B3%B4%ED%83%80%EB%8B%89/DBT3066%20%EC%B9%B4%ED%8E%AB%20%EA%B7%B8%EB%A0%88%EC%9D%B4%20450.jpg"
+      "/images/Thumbnail_Image/materials/데코타일/LX/보타닉/450각/DBT3051.webp"
     ],
     "price": 26000,
-    "thickness": "",
+    "thickness": "3.0T",
     "specs": {
-      "division": "보타닉",
-      "thickness": "",
-      "size": "457.2x457.2mm",
-      "packing": "16pcs / 3.34㎡"
+      "division": "450각",
+      "thickness": "3.0T",
+      "size": "450x450mm",
+      "packing": "16장/박스 (3.24㎡)"
     },
-    "description": "보타닉",
-    "product_code": "DBT3066 카펫 그레이 450",
-    "product_name": ""
+    "description": "LX하우시스 보타닉 3.0T 데코타일 450각 마블",
+    "product_code": "DBT3051",
+    "product_name": "LX 보타닉 DBT3051 마블 450"
   },
   {
-    "id": "데코타일-lx-보타닉-dbt3067-스톤-그레이지-450",
+    "id": "데코타일-lx-보타닉-dbt3059-마블",
     "category": "데코타일",
-    "brand": "LX",
+    "brand": "LX하우시스",
     "line": "보타닉",
-    "subLine": "보타닉",
-    "name": "",
-    "code": "DBT3067 스톤 그레이지 450",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/LX/%EB%B3%B4%ED%83%80%EB%8B%89/DBT3067%20%EC%8A%A4%ED%86%A4%20%EA%B7%B8%EB%A0%88%EC%9D%B4%EC%A7%80%20450.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/LX/%EB%B3%B4%ED%83%80%EB%8B%89/DBT3067%20%EC%8A%A4%ED%86%A4%20%EA%B7%B8%EB%A0%88%EC%9D%B4%EC%A7%80%20450.jpg",
+    "subLine": "450각",
+    "name": "LX 보타닉 DBT3059 마블 450",
+    "code": "DBT3059",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/LX/보타닉/450각/DBT3059.webp",
+    "image": "/images/Thumbnail_Image/materials/데코타일/LX/보타닉/450각/DBT3059.webp",
     "images": [
-      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/LX/%EB%B3%B4%ED%83%80%EB%8B%89/DBT3067%20%EC%8A%A4%ED%86%A4%20%EA%B7%B8%EB%A0%88%EC%9D%B4%EC%A7%80%20450.jpg"
+      "/images/Thumbnail_Image/materials/데코타일/LX/보타닉/450각/DBT3059.webp"
     ],
     "price": 26000,
-    "thickness": "",
+    "thickness": "3.0T",
     "specs": {
-      "division": "보타닉",
-      "thickness": "",
-      "size": "457.2x457.2mm",
-      "packing": "16pcs / 3.34㎡"
+      "division": "450각",
+      "thickness": "3.0T",
+      "size": "450x450mm",
+      "packing": "16장/박스 (3.24㎡)"
     },
-    "description": "보타닉",
-    "product_code": "DBT3067 스톤 그레이지 450",
-    "product_name": ""
+    "description": "LX하우시스 보타닉 3.0T 데코타일 450각 마블",
+    "product_code": "DBT3059",
+    "product_name": "LX 보타닉 DBT3059 마블 450"
   },
   {
-    "id": "데코타일-lx-보타닉-dbt3069-스톤-실버-450",
+    "id": "데코타일-lx-보타닉-dbt3060-패턴-콘크리트",
     "category": "데코타일",
-    "brand": "LX",
+    "brand": "LX하우시스",
     "line": "보타닉",
-    "subLine": "보타닉",
-    "name": "",
-    "code": "DBT3069 스톤 실버 450",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/LX/%EB%B3%B4%ED%83%80%EB%8B%89/DBT3069%20%EC%8A%A4%ED%86%A4%20%EC%8B%A4%EB%B2%84%20450.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/LX/%EB%B3%B4%ED%83%80%EB%8B%89/DBT3069%20%EC%8A%A4%ED%86%A4%20%EC%8B%A4%EB%B2%84%20450.jpg",
+    "subLine": "450각",
+    "name": "LX 보타닉 DBT3060 패턴 콘크리트 450",
+    "code": "DBT3060",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/LX/보타닉/450각/DBT3060.webp",
+    "image": "/images/Thumbnail_Image/materials/데코타일/LX/보타닉/450각/DBT3060.webp",
     "images": [
-      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/LX/%EB%B3%B4%ED%83%80%EB%8B%89/DBT3069%20%EC%8A%A4%ED%86%A4%20%EC%8B%A4%EB%B2%84%20450.jpg"
+      "/images/Thumbnail_Image/materials/데코타일/LX/보타닉/450각/DBT3060.webp"
     ],
     "price": 26000,
-    "thickness": "",
+    "thickness": "3.0T",
     "specs": {
-      "division": "보타닉",
-      "thickness": "",
-      "size": "457.2x457.2mm",
-      "packing": "16pcs / 3.34㎡"
+      "division": "450각",
+      "thickness": "3.0T",
+      "size": "450x450mm",
+      "packing": "16장/박스 (3.24㎡)"
     },
-    "description": "보타닉",
-    "product_code": "DBT3069 스톤 실버 450",
-    "product_name": ""
+    "description": "LX하우시스 보타닉 3.0T 데코타일 450각 패턴 콘크리트",
+    "product_code": "DBT3060",
+    "product_name": "LX 보타닉 DBT3060 패턴 콘크리트 450"
   },
   {
-    "id": "데코타일-lx-보타닉-dbt3074-라임스톤-라이트그레이-450",
+    "id": "데코타일-lx-보타닉-dbt3061-패턴-콘크리트",
     "category": "데코타일",
-    "brand": "LX",
+    "brand": "LX하우시스",
     "line": "보타닉",
-    "subLine": "보타닉",
-    "name": "",
-    "code": "DBT3074 라임스톤 라이트그레이 450",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/LX/%EB%B3%B4%ED%83%80%EB%8B%89/DBT3074%20%EB%9D%BC%EC%9E%84%EC%8A%A4%ED%86%A4%20%EB%9D%BC%EC%9D%B4%ED%8A%B8%EA%B7%B8%EB%A0%88%EC%9D%B4%20450.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/LX/%EB%B3%B4%ED%83%80%EB%8B%89/DBT3074%20%EB%9D%BC%EC%9E%84%EC%8A%A4%ED%86%A4%20%EB%9D%BC%EC%9D%B4%ED%8A%B8%EA%B7%B8%EB%A0%88%EC%9D%B4%20450.jpg",
+    "subLine": "450각",
+    "name": "LX 보타닉 DBT3061 패턴 콘크리트 450",
+    "code": "DBT3061",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/LX/보타닉/450각/DBT3061.webp",
+    "image": "/images/Thumbnail_Image/materials/데코타일/LX/보타닉/450각/DBT3061.webp",
     "images": [
-      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/LX/%EB%B3%B4%ED%83%80%EB%8B%89/DBT3074%20%EB%9D%BC%EC%9E%84%EC%8A%A4%ED%86%A4%20%EB%9D%BC%EC%9D%B4%ED%8A%B8%EA%B7%B8%EB%A0%88%EC%9D%B4%20450.jpg"
+      "/images/Thumbnail_Image/materials/데코타일/LX/보타닉/450각/DBT3061.webp"
     ],
     "price": 26000,
-    "thickness": "",
+    "thickness": "3.0T",
     "specs": {
-      "division": "보타닉",
-      "thickness": "",
-      "size": "457.2x457.2mm",
-      "packing": "16pcs / 3.34㎡"
+      "division": "450각",
+      "thickness": "3.0T",
+      "size": "450x450mm",
+      "packing": "16장/박스 (3.24㎡)"
     },
-    "description": "보타닉",
-    "product_code": "DBT3074 라임스톤 라이트그레이 450",
-    "product_name": ""
+    "description": "LX하우시스 보타닉 3.0T 데코타일 450각 패턴 콘크리트",
+    "product_code": "DBT3061",
+    "product_name": "LX 보타닉 DBT3061 패턴 콘크리트 450"
   },
   {
-    "id": "데코타일-lx-보타닉-dbt3075-라임스톤-라이트그레이-450",
+    "id": "데코타일-lx-보타닉-dbt3062-패턴-콘크리트",
     "category": "데코타일",
-    "brand": "LX",
+    "brand": "LX하우시스",
     "line": "보타닉",
-    "subLine": "보타닉",
-    "name": "",
-    "code": "DBT3075 라임스톤 라이트그레이 450",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/LX/%EB%B3%B4%ED%83%80%EB%8B%89/DBT3075%20%EB%9D%BC%EC%9E%84%EC%8A%A4%ED%86%A4%20%EB%9D%BC%EC%9D%B4%ED%8A%B8%EA%B7%B8%EB%A0%88%EC%9D%B4%20450.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/LX/%EB%B3%B4%ED%83%80%EB%8B%89/DBT3075%20%EB%9D%BC%EC%9E%84%EC%8A%A4%ED%86%A4%20%EB%9D%BC%EC%9D%B4%ED%8A%B8%EA%B7%B8%EB%A0%88%EC%9D%B4%20450.jpg",
+    "subLine": "450각",
+    "name": "LX 보타닉 DBT3062 패턴 콘크리트 450",
+    "code": "DBT3062",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/LX/보타닉/450각/DBT3062.webp",
+    "image": "/images/Thumbnail_Image/materials/데코타일/LX/보타닉/450각/DBT3062.webp",
     "images": [
-      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/LX/%EB%B3%B4%ED%83%80%EB%8B%89/DBT3075%20%EB%9D%BC%EC%9E%84%EC%8A%A4%ED%86%A4%20%EB%9D%BC%EC%9D%B4%ED%8A%B8%EA%B7%B8%EB%A0%88%EC%9D%B4%20450.jpg"
+      "/images/Thumbnail_Image/materials/데코타일/LX/보타닉/450각/DBT3062.webp"
     ],
     "price": 26000,
-    "thickness": "",
+    "thickness": "3.0T",
     "specs": {
-      "division": "보타닉",
-      "thickness": "",
-      "size": "457.2x457.2mm",
-      "packing": "16pcs / 3.34㎡"
+      "division": "450각",
+      "thickness": "3.0T",
+      "size": "450x450mm",
+      "packing": "16장/박스 (3.24㎡)"
     },
-    "description": "보타닉",
-    "product_code": "DBT3075 라임스톤 라이트그레이 450",
-    "product_name": ""
+    "description": "LX하우시스 보타닉 3.0T 데코타일 450각 패턴 콘크리트",
+    "product_code": "DBT3062",
+    "product_name": "LX 보타닉 DBT3062 패턴 콘크리트 450"
   },
   {
-    "id": "데코타일-lx-보타닉-dbt3082-콘크리트-라이트그레이-600",
+    "id": "데코타일-lx-보타닉-dbt3065-카펫",
     "category": "데코타일",
-    "brand": "LX",
+    "brand": "LX하우시스",
     "line": "보타닉",
-    "subLine": "보타닉",
-    "name": "",
-    "code": "DBT3082 콘크리트 라이트그레이 600",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/LX/%EB%B3%B4%ED%83%80%EB%8B%89/DBT3082%20%EC%BD%98%ED%81%AC%EB%A6%AC%ED%8A%B8%20%EB%9D%BC%EC%9D%B4%ED%8A%B8%EA%B7%B8%EB%A0%88%EC%9D%B4%20600.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/LX/%EB%B3%B4%ED%83%80%EB%8B%89/DBT3082%20%EC%BD%98%ED%81%AC%EB%A6%AC%ED%8A%B8%20%EB%9D%BC%EC%9D%B4%ED%8A%B8%EA%B7%B8%EB%A0%88%EC%9D%B4%20600.jpg",
+    "subLine": "450각",
+    "name": "LX 보타닉 DBT3065 카펫 450",
+    "code": "DBT3065",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/LX/보타닉/450각/DBT3065.webp",
+    "image": "/images/Thumbnail_Image/materials/데코타일/LX/보타닉/450각/DBT3065.webp",
     "images": [
-      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/LX/%EB%B3%B4%ED%83%80%EB%8B%89/DBT3082%20%EC%BD%98%ED%81%AC%EB%A6%AC%ED%8A%B8%20%EB%9D%BC%EC%9D%B4%ED%8A%B8%EA%B7%B8%EB%A0%88%EC%9D%B4%20600.jpg"
+      "/images/Thumbnail_Image/materials/데코타일/LX/보타닉/450각/DBT3065.webp"
     ],
     "price": 26000,
-    "thickness": "",
+    "thickness": "3.0T",
     "specs": {
-      "division": "보타닉",
-      "thickness": "",
+      "division": "450각",
+      "thickness": "3.0T",
+      "size": "450x450mm",
+      "packing": "16장/박스 (3.24㎡)"
+    },
+    "description": "LX하우시스 보타닉 3.0T 데코타일 450각 카펫",
+    "product_code": "DBT3065",
+    "product_name": "LX 보타닉 DBT3065 카펫 450"
+  },
+  {
+    "id": "데코타일-lx-보타닉-dbt3066-카펫",
+    "category": "데코타일",
+    "brand": "LX하우시스",
+    "line": "보타닉",
+    "subLine": "450각",
+    "name": "LX 보타닉 DBT3066 카펫 그레이 450",
+    "code": "DBT3066",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/LX/보타닉/450각/DBT3066.webp",
+    "image": "/images/Thumbnail_Image/materials/데코타일/LX/보타닉/450각/DBT3066.webp",
+    "images": [
+      "/images/Thumbnail_Image/materials/데코타일/LX/보타닉/450각/DBT3066.webp"
+    ],
+    "price": 26000,
+    "thickness": "3.0T",
+    "specs": {
+      "division": "450각",
+      "thickness": "3.0T",
+      "size": "450x450mm",
+      "packing": "16장/박스 (3.24㎡)"
+    },
+    "description": "LX하우시스 보타닉 3.0T 데코타일 450각 카펫",
+    "product_code": "DBT3066",
+    "product_name": "LX 보타닉 DBT3066 카펫 그레이 450"
+  },
+  {
+    "id": "데코타일-lx-보타닉-dbt3067-마블",
+    "category": "데코타일",
+    "brand": "LX하우시스",
+    "line": "보타닉",
+    "subLine": "450각",
+    "name": "LX 보타닉 DBT3067 스톤 그레이지 450",
+    "code": "DBT3067",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/LX/보타닉/450각/DBT3067.webp",
+    "image": "/images/Thumbnail_Image/materials/데코타일/LX/보타닉/450각/DBT3067.webp",
+    "images": [
+      "/images/Thumbnail_Image/materials/데코타일/LX/보타닉/450각/DBT3067.webp"
+    ],
+    "price": 26000,
+    "thickness": "3.0T",
+    "specs": {
+      "division": "450각",
+      "thickness": "3.0T",
+      "size": "450x450mm",
+      "packing": "16장/박스 (3.24㎡)"
+    },
+    "description": "LX하우시스 보타닉 3.0T 데코타일 450각 마블",
+    "product_code": "DBT3067",
+    "product_name": "LX 보타닉 DBT3067 스톤 그레이지 450"
+  },
+  {
+    "id": "데코타일-lx-보타닉-dbt3068-마블",
+    "category": "데코타일",
+    "brand": "LX하우시스",
+    "line": "보타닉",
+    "subLine": "450각",
+    "name": "LX 보타닉 DBT3068 마블 450",
+    "code": "DBT3068",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/LX/보타닉/450각/DBT3068.webp",
+    "image": "/images/Thumbnail_Image/materials/데코타일/LX/보타닉/450각/DBT3068.webp",
+    "images": [
+      "/images/Thumbnail_Image/materials/데코타일/LX/보타닉/450각/DBT3068.webp"
+    ],
+    "price": 26000,
+    "thickness": "3.0T",
+    "specs": {
+      "division": "450각",
+      "thickness": "3.0T",
+      "size": "450x450mm",
+      "packing": "16장/박스 (3.24㎡)"
+    },
+    "description": "LX하우시스 보타닉 3.0T 데코타일 450각 마블",
+    "product_code": "DBT3068",
+    "product_name": "LX 보타닉 DBT3068 마블 450"
+  },
+  {
+    "id": "데코타일-lx-보타닉-dbt3069-그라니트",
+    "category": "데코타일",
+    "brand": "LX하우시스",
+    "line": "보타닉",
+    "subLine": "450각",
+    "name": "LX 보타닉 DBT3069 스톤 실버 450",
+    "code": "DBT3069",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/LX/보타닉/450각/DBT3069.webp",
+    "image": "/images/Thumbnail_Image/materials/데코타일/LX/보타닉/450각/DBT3069.webp",
+    "images": [
+      "/images/Thumbnail_Image/materials/데코타일/LX/보타닉/450각/DBT3069.webp"
+    ],
+    "price": 26000,
+    "thickness": "3.0T",
+    "specs": {
+      "division": "450각",
+      "thickness": "3.0T",
+      "size": "450x450mm",
+      "packing": "16장/박스 (3.24㎡)"
+    },
+    "description": "LX하우시스 보타닉 3.0T 데코타일 450각 그라니트",
+    "product_code": "DBT3069",
+    "product_name": "LX 보타닉 DBT3069 스톤 실버 450"
+  },
+  {
+    "id": "데코타일-lx-보타닉-dbt3074-라임스톤",
+    "category": "데코타일",
+    "brand": "LX하우시스",
+    "line": "보타닉",
+    "subLine": "450각",
+    "name": "LX 보타닉 DBT3074 라임스톤 라이트그레이 450",
+    "code": "DBT3074",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/LX/보타닉/450각/DBT3074.webp",
+    "image": "/images/Thumbnail_Image/materials/데코타일/LX/보타닉/450각/DBT3074.webp",
+    "images": [
+      "/images/Thumbnail_Image/materials/데코타일/LX/보타닉/450각/DBT3074.webp"
+    ],
+    "price": 26000,
+    "thickness": "3.0T",
+    "specs": {
+      "division": "450각",
+      "thickness": "3.0T",
+      "size": "450x450mm",
+      "packing": "16장/박스 (3.24㎡)"
+    },
+    "description": "LX하우시스 보타닉 3.0T 데코타일 450각 라임스톤",
+    "product_code": "DBT3074",
+    "product_name": "LX 보타닉 DBT3074 라임스톤 라이트그레이 450"
+  },
+  {
+    "id": "데코타일-lx-보타닉-dbt3075-라임스톤",
+    "category": "데코타일",
+    "brand": "LX하우시스",
+    "line": "보타닉",
+    "subLine": "450각",
+    "name": "LX 보타닉 DBT3075 라임스톤 라이트그레이 450",
+    "code": "DBT3075",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/LX/보타닉/450각/DBT3075.webp",
+    "image": "/images/Thumbnail_Image/materials/데코타일/LX/보타닉/450각/DBT3075.webp",
+    "images": [
+      "/images/Thumbnail_Image/materials/데코타일/LX/보타닉/450각/DBT3075.webp"
+    ],
+    "price": 26000,
+    "thickness": "3.0T",
+    "specs": {
+      "division": "450각",
+      "thickness": "3.0T",
+      "size": "450x450mm",
+      "packing": "16장/박스 (3.24㎡)"
+    },
+    "description": "LX하우시스 보타닉 3.0T 데코타일 450각 라임스톤",
+    "product_code": "DBT3075",
+    "product_name": "LX 보타닉 DBT3075 라임스톤 라이트그레이 450"
+  },
+  {
+    "id": "데코타일-lx-보타닉-dbt3076-라임스톤",
+    "category": "데코타일",
+    "brand": "LX하우시스",
+    "line": "보타닉",
+    "subLine": "450각",
+    "name": "LX 보타닉 DBT3076 라임스톤 450",
+    "code": "DBT3076",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/LX/보타닉/450각/DBT3076.webp",
+    "image": "/images/Thumbnail_Image/materials/데코타일/LX/보타닉/450각/DBT3076.webp",
+    "images": [
+      "/images/Thumbnail_Image/materials/데코타일/LX/보타닉/450각/DBT3076.webp"
+    ],
+    "price": 26000,
+    "thickness": "3.0T",
+    "specs": {
+      "division": "450각",
+      "thickness": "3.0T",
+      "size": "450x450mm",
+      "packing": "16장/박스 (3.24㎡)"
+    },
+    "description": "LX하우시스 보타닉 3.0T 데코타일 450각 라임스톤",
+    "product_code": "DBT3076",
+    "product_name": "LX 보타닉 DBT3076 라임스톤 450"
+  },
+  {
+    "id": "데코타일-lx-보타닉-dbt3077-콘크리트",
+    "category": "데코타일",
+    "brand": "LX하우시스",
+    "line": "보타닉",
+    "subLine": "450각",
+    "name": "LX 보타닉 DBT3077 콘크리트 450",
+    "code": "DBT3077",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/LX/보타닉/450각/DBT3077.webp",
+    "image": "/images/Thumbnail_Image/materials/데코타일/LX/보타닉/450각/DBT3077.webp",
+    "images": [
+      "/images/Thumbnail_Image/materials/데코타일/LX/보타닉/450각/DBT3077.webp"
+    ],
+    "price": 26000,
+    "thickness": "3.0T",
+    "specs": {
+      "division": "450각",
+      "thickness": "3.0T",
+      "size": "450x450mm",
+      "packing": "16장/박스 (3.24㎡)"
+    },
+    "description": "LX하우시스 보타닉 3.0T 데코타일 450각 콘크리트",
+    "product_code": "DBT3077",
+    "product_name": "LX 보타닉 DBT3077 콘크리트 450"
+  },
+  {
+    "id": "데코타일-lx-보타닉-dbt3078-콘크리트",
+    "category": "데코타일",
+    "brand": "LX하우시스",
+    "line": "보타닉",
+    "subLine": "450각",
+    "name": "LX 보타닉 DBT3078 콘크리트 450",
+    "code": "DBT3078",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/LX/보타닉/450각/DBT3078.webp",
+    "image": "/images/Thumbnail_Image/materials/데코타일/LX/보타닉/450각/DBT3078.webp",
+    "images": [
+      "/images/Thumbnail_Image/materials/데코타일/LX/보타닉/450각/DBT3078.webp"
+    ],
+    "price": 26000,
+    "thickness": "3.0T",
+    "specs": {
+      "division": "450각",
+      "thickness": "3.0T",
+      "size": "450x450mm",
+      "packing": "16장/박스 (3.24㎡)"
+    },
+    "description": "LX하우시스 보타닉 3.0T 데코타일 450각 콘크리트",
+    "product_code": "DBT3078",
+    "product_name": "LX 보타닉 DBT3078 콘크리트 450"
+  },
+  {
+    "id": "데코타일-lx-보타닉-dbt3079-콘크리트",
+    "category": "데코타일",
+    "brand": "LX하우시스",
+    "line": "보타닉",
+    "subLine": "450각",
+    "name": "LX 보타닉 DBT3079 콘크리트 450",
+    "code": "DBT3079",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/LX/보타닉/450각/DBT3079.webp",
+    "image": "/images/Thumbnail_Image/materials/데코타일/LX/보타닉/450각/DBT3079.webp",
+    "images": [
+      "/images/Thumbnail_Image/materials/데코타일/LX/보타닉/450각/DBT3079.webp"
+    ],
+    "price": 26000,
+    "thickness": "3.0T",
+    "specs": {
+      "division": "450각",
+      "thickness": "3.0T",
+      "size": "450x450mm",
+      "packing": "16장/박스 (3.24㎡)"
+    },
+    "description": "LX하우시스 보타닉 3.0T 데코타일 450각 콘크리트",
+    "product_code": "DBT3079",
+    "product_name": "LX 보타닉 DBT3079 콘크리트 450"
+  },
+  {
+    "id": "데코타일-lx-보타닉-dbt3080-콘크리트",
+    "category": "데코타일",
+    "brand": "LX하우시스",
+    "line": "보타닉",
+    "subLine": "600각",
+    "name": "LX 보타닉 DBT3080 콘크리트 600",
+    "code": "DBT3080",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/LX/보타닉/600각/DBT3080.webp",
+    "image": "/images/Thumbnail_Image/materials/데코타일/LX/보타닉/600각/DBT3080.webp",
+    "images": [
+      "/images/Thumbnail_Image/materials/데코타일/LX/보타닉/600각/DBT3080.webp"
+    ],
+    "price": 26000,
+    "thickness": "3.0T",
+    "specs": {
+      "division": "600각",
+      "thickness": "3.0T",
       "size": "600x600mm",
-      "packing": "9pcs / 3.24㎡"
+      "packing": "9장/박스 (3.24㎡)"
     },
-    "description": "보타닉",
-    "product_code": "DBT3082 콘크리트 라이트그레이 600",
-    "product_name": ""
+    "description": "LX하우시스 보타닉 3.0T 데코타일 600각 콘크리트",
+    "product_code": "DBT3080",
+    "product_name": "LX 보타닉 DBT3080 콘크리트 600"
   },
   {
-    "id": "데코타일-lx-보타닉-dbt3090-샌드스톤-라이트그레이-600",
+    "id": "데코타일-lx-보타닉-dbt3081-콘크리트",
     "category": "데코타일",
-    "brand": "LX",
+    "brand": "LX하우시스",
     "line": "보타닉",
-    "subLine": "보타닉",
-    "name": "",
-    "code": "DBT3090 샌드스톤 라이트그레이 600",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/LX/%EB%B3%B4%ED%83%80%EB%8B%89/DBT3090%20%EC%83%8C%EB%93%9C%EC%8A%A4%ED%86%A4%20%EB%9D%BC%EC%9D%B4%ED%8A%B8%EA%B7%B8%EB%A0%88%EC%9D%B4%20600.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/LX/%EB%B3%B4%ED%83%80%EB%8B%89/DBT3090%20%EC%83%8C%EB%93%9C%EC%8A%A4%ED%86%A4%20%EB%9D%BC%EC%9D%B4%ED%8A%B8%EA%B7%B8%EB%A0%88%EC%9D%B4%20600.jpg",
+    "subLine": "600각",
+    "name": "LX 보타닉 DBT3081 콘크리트 600",
+    "code": "DBT3081",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/LX/보타닉/600각/DBT3081.webp",
+    "image": "/images/Thumbnail_Image/materials/데코타일/LX/보타닉/600각/DBT3081.webp",
     "images": [
-      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/LX/%EB%B3%B4%ED%83%80%EB%8B%89/DBT3090%20%EC%83%8C%EB%93%9C%EC%8A%A4%ED%86%A4%20%EB%9D%BC%EC%9D%B4%ED%8A%B8%EA%B7%B8%EB%A0%88%EC%9D%B4%20600.jpg"
+      "/images/Thumbnail_Image/materials/데코타일/LX/보타닉/600각/DBT3081.webp"
     ],
     "price": 26000,
-    "thickness": "",
+    "thickness": "3.0T",
     "specs": {
-      "division": "보타닉",
-      "thickness": "",
+      "division": "600각",
+      "thickness": "3.0T",
       "size": "600x600mm",
-      "packing": "9pcs / 3.24㎡"
+      "packing": "9장/박스 (3.24㎡)"
     },
-    "description": "보타닉",
-    "product_code": "DBT3090 샌드스톤 라이트그레이 600",
-    "product_name": ""
+    "description": "LX하우시스 보타닉 3.0T 데코타일 600각 콘크리트",
+    "product_code": "DBT3081",
+    "product_name": "LX 보타닉 DBT3081 콘크리트 600"
   },
   {
-    "id": "데코타일-lx-보타닉-dbw3020-우드-브라운-180",
+    "id": "데코타일-lx-보타닉-dbt3082-콘크리트",
     "category": "데코타일",
-    "brand": "LX",
+    "brand": "LX하우시스",
     "line": "보타닉",
-    "subLine": "보타닉",
-    "name": "",
-    "code": "DBW3020 우드 브라운 180",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/LX/%EB%B3%B4%ED%83%80%EB%8B%89/DBW3020%20%EC%9A%B0%EB%93%9C%20%EB%B8%8C%EB%9D%BC%EC%9A%B4%20180.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/LX/%EB%B3%B4%ED%83%80%EB%8B%89/DBW3020%20%EC%9A%B0%EB%93%9C%20%EB%B8%8C%EB%9D%BC%EC%9A%B4%20180.jpg",
+    "subLine": "600각",
+    "name": "LX 보타닉 DBT3082 콘크리트 라이트그레이 600",
+    "code": "DBT3082",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/LX/보타닉/600각/DBT3082.webp",
+    "image": "/images/Thumbnail_Image/materials/데코타일/LX/보타닉/600각/DBT3082.webp",
     "images": [
-      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/LX/%EB%B3%B4%ED%83%80%EB%8B%89/DBW3020%20%EC%9A%B0%EB%93%9C%20%EB%B8%8C%EB%9D%BC%EC%9A%B4%20180.jpg"
+      "/images/Thumbnail_Image/materials/데코타일/LX/보타닉/600각/DBT3082.webp"
     ],
     "price": 26000,
-    "thickness": "",
+    "thickness": "3.0T",
     "specs": {
-      "division": "보타닉",
-      "thickness": "",
-      "size": "184x950mm",
-      "packing": "우드 규격 문의"
+      "division": "600각",
+      "thickness": "3.0T",
+      "size": "600x600mm",
+      "packing": "9장/박스 (3.24㎡)"
     },
-    "description": "보타닉",
-    "product_code": "DBW3020 우드 브라운 180",
-    "product_name": ""
+    "description": "LX하우시스 보타닉 3.0T 데코타일 600각 콘크리트",
+    "product_code": "DBT3082",
+    "product_name": "LX 보타닉 DBT3082 콘크리트 라이트그레이 600"
   },
   {
-    "id": "데코타일-lx-보타닉-dbw3022-우드-브라운-180",
+    "id": "데코타일-lx-보타닉-dbt3083-라임스톤",
     "category": "데코타일",
-    "brand": "LX",
+    "brand": "LX하우시스",
     "line": "보타닉",
-    "subLine": "보타닉",
-    "name": "",
-    "code": "DBW3022 우드 브라운 180",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/LX/%EB%B3%B4%ED%83%80%EB%8B%89/DBW3022%20%EC%9A%B0%EB%93%9C%20%EB%B8%8C%EB%9D%BC%EC%9A%B4%20180.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/LX/%EB%B3%B4%ED%83%80%EB%8B%89/DBW3022%20%EC%9A%B0%EB%93%9C%20%EB%B8%8C%EB%9D%BC%EC%9A%B4%20180.jpg",
+    "subLine": "600각",
+    "name": "LX 보타닉 DBT3083 라임스톤 600",
+    "code": "DBT3083",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/LX/보타닉/600각/DBT3083.webp",
+    "image": "/images/Thumbnail_Image/materials/데코타일/LX/보타닉/600각/DBT3083.webp",
     "images": [
-      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/LX/%EB%B3%B4%ED%83%80%EB%8B%89/DBW3022%20%EC%9A%B0%EB%93%9C%20%EB%B8%8C%EB%9D%BC%EC%9A%B4%20180.jpg"
+      "/images/Thumbnail_Image/materials/데코타일/LX/보타닉/600각/DBT3083.webp"
     ],
     "price": 26000,
-    "thickness": "",
+    "thickness": "3.0T",
     "specs": {
-      "division": "보타닉",
-      "thickness": "",
-      "size": "184x950mm",
-      "packing": "우드 규격 문의"
+      "division": "600각",
+      "thickness": "3.0T",
+      "size": "600x600mm",
+      "packing": "9장/박스 (3.24㎡)"
     },
-    "description": "보타닉",
-    "product_code": "DBW3022 우드 브라운 180",
-    "product_name": ""
+    "description": "LX하우시스 보타닉 3.0T 데코타일 600각 라임스톤",
+    "product_code": "DBT3083",
+    "product_name": "LX 보타닉 DBT3083 라임스톤 600"
   },
   {
-    "id": "데코타일-lx-보타닉-dbw3029-우드-라이트베이지-180",
+    "id": "데코타일-lx-보타닉-dbt3084-샌드스톤",
     "category": "데코타일",
-    "brand": "LX",
+    "brand": "LX하우시스",
     "line": "보타닉",
-    "subLine": "보타닉",
-    "name": "",
-    "code": "DBW3029 우드 라이트베이지 180",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/LX/%EB%B3%B4%ED%83%80%EB%8B%89/DBW3029%20%EC%9A%B0%EB%93%9C%20%EB%9D%BC%EC%9D%B4%ED%8A%B8%EB%B2%A0%EC%9D%B4%EC%A7%80%20180.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/LX/%EB%B3%B4%ED%83%80%EB%8B%89/DBW3029%20%EC%9A%B0%EB%93%9C%20%EB%9D%BC%EC%9D%B4%ED%8A%B8%EB%B2%A0%EC%9D%B4%EC%A7%80%20180.jpg",
+    "subLine": "600각",
+    "name": "LX 보타닉 DBT3084 샌드스톤 600",
+    "code": "DBT3084",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/LX/보타닉/600각/DBT3084.webp",
+    "image": "/images/Thumbnail_Image/materials/데코타일/LX/보타닉/600각/DBT3084.webp",
     "images": [
-      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/LX/%EB%B3%B4%ED%83%80%EB%8B%89/DBW3029%20%EC%9A%B0%EB%93%9C%20%EB%9D%BC%EC%9D%B4%ED%8A%B8%EB%B2%A0%EC%9D%B4%EC%A7%80%20180.jpg"
+      "/images/Thumbnail_Image/materials/데코타일/LX/보타닉/600각/DBT3084.webp"
     ],
     "price": 26000,
-    "thickness": "",
+    "thickness": "3.0T",
     "specs": {
-      "division": "보타닉",
-      "thickness": "",
-      "size": "184x950mm",
-      "packing": "우드 규격 문의"
+      "division": "600각",
+      "thickness": "3.0T",
+      "size": "600x600mm",
+      "packing": "9장/박스 (3.24㎡)"
     },
-    "description": "보타닉",
-    "product_code": "DBW3029 우드 라이트베이지 180",
-    "product_name": ""
+    "description": "LX하우시스 보타닉 3.0T 데코타일 600각 샌드스톤",
+    "product_code": "DBT3084",
+    "product_name": "LX 보타닉 DBT3084 샌드스톤 600"
   },
   {
-    "id": "데코타일-lx-보타닉-dbw3037-우드-라이트베이지-180",
+    "id": "데코타일-lx-보타닉-dbt3085-카펫",
     "category": "데코타일",
-    "brand": "LX",
+    "brand": "LX하우시스",
     "line": "보타닉",
-    "subLine": "보타닉",
-    "name": "",
-    "code": "DBW3037 우드 라이트베이지 180",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/LX/%EB%B3%B4%ED%83%80%EB%8B%89/DBW3037%20%EC%9A%B0%EB%93%9C%20%EB%9D%BC%EC%9D%B4%ED%8A%B8%EB%B2%A0%EC%9D%B4%EC%A7%80%20180.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/LX/%EB%B3%B4%ED%83%80%EB%8B%89/DBW3037%20%EC%9A%B0%EB%93%9C%20%EB%9D%BC%EC%9D%B4%ED%8A%B8%EB%B2%A0%EC%9D%B4%EC%A7%80%20180.jpg",
+    "subLine": "600각",
+    "name": "LX 보타닉 DBT3085 카펫 600",
+    "code": "DBT3085",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/LX/보타닉/600각/DBT3085.webp",
+    "image": "/images/Thumbnail_Image/materials/데코타일/LX/보타닉/600각/DBT3085.webp",
     "images": [
-      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/LX/%EB%B3%B4%ED%83%80%EB%8B%89/DBW3037%20%EC%9A%B0%EB%93%9C%20%EB%9D%BC%EC%9D%B4%ED%8A%B8%EB%B2%A0%EC%9D%B4%EC%A7%80%20180.jpg"
+      "/images/Thumbnail_Image/materials/데코타일/LX/보타닉/600각/DBT3085.webp"
     ],
     "price": 26000,
-    "thickness": "",
+    "thickness": "3.0T",
     "specs": {
-      "division": "보타닉",
-      "thickness": "",
-      "size": "184x950mm",
-      "packing": "우드 규격 문의"
+      "division": "600각",
+      "thickness": "3.0T",
+      "size": "600x600mm",
+      "packing": "9장/박스 (3.24㎡)"
     },
-    "description": "보타닉",
-    "product_code": "DBW3037 우드 라이트베이지 180",
-    "product_name": ""
+    "description": "LX하우시스 보타닉 3.0T 데코타일 600각 카펫",
+    "product_code": "DBT3085",
+    "product_name": "LX 보타닉 DBT3085 카펫 600"
   },
   {
-    "id": "데코타일-lx-보타닉-dbw3038-우드-베이지-180",
+    "id": "데코타일-lx-보타닉-dbt3086-콘크리트",
     "category": "데코타일",
-    "brand": "LX",
+    "brand": "LX하우시스",
     "line": "보타닉",
-    "subLine": "보타닉",
-    "name": "",
-    "code": "DBW3038 우드 베이지 180",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/LX/%EB%B3%B4%ED%83%80%EB%8B%89/DBW3038%20%EC%9A%B0%EB%93%9C%20%EB%B2%A0%EC%9D%B4%EC%A7%80%20180.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/LX/%EB%B3%B4%ED%83%80%EB%8B%89/DBW3038%20%EC%9A%B0%EB%93%9C%20%EB%B2%A0%EC%9D%B4%EC%A7%80%20180.jpg",
+    "subLine": "600각",
+    "name": "LX 보타닉 DBT3086 콘크리트 600",
+    "code": "DBT3086",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/LX/보타닉/600각/DBT3086.webp",
+    "image": "/images/Thumbnail_Image/materials/데코타일/LX/보타닉/600각/DBT3086.webp",
     "images": [
-      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/LX/%EB%B3%B4%ED%83%80%EB%8B%89/DBW3038%20%EC%9A%B0%EB%93%9C%20%EB%B2%A0%EC%9D%B4%EC%A7%80%20180.jpg"
+      "/images/Thumbnail_Image/materials/데코타일/LX/보타닉/600각/DBT3086.webp"
     ],
     "price": 26000,
-    "thickness": "",
+    "thickness": "3.0T",
     "specs": {
-      "division": "보타닉",
-      "thickness": "",
-      "size": "184x950mm",
-      "packing": "우드 규격 문의"
+      "division": "600각",
+      "thickness": "3.0T",
+      "size": "600x600mm",
+      "packing": "9장/박스 (3.24㎡)"
     },
-    "description": "보타닉",
-    "product_code": "DBW3038 우드 베이지 180",
-    "product_name": ""
+    "description": "LX하우시스 보타닉 3.0T 데코타일 600각 콘크리트",
+    "product_code": "DBT3086",
+    "product_name": "LX 보타닉 DBT3086 콘크리트 600"
   },
   {
-    "id": "데코타일-lx-보타닉-dbw3042-우드-라이트브라운-180",
+    "id": "데코타일-lx-보타닉-dbt3087-콘크리트",
     "category": "데코타일",
-    "brand": "LX",
+    "brand": "LX하우시스",
     "line": "보타닉",
-    "subLine": "보타닉",
-    "name": "",
-    "code": "DBW3042 우드 라이트브라운 180",
-    "thumbnail": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/LX/%EB%B3%B4%ED%83%80%EB%8B%89/DBW3042%20%EC%9A%B0%EB%93%9C%20%EB%9D%BC%EC%9D%B4%ED%8A%B8%EB%B8%8C%EB%9D%BC%EC%9A%B4%20180.jpg",
-    "image": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/LX/%EB%B3%B4%ED%83%80%EB%8B%89/DBW3042%20%EC%9A%B0%EB%93%9C%20%EB%9D%BC%EC%9D%B4%ED%8A%B8%EB%B8%8C%EB%9D%BC%EC%9A%B4%20180.jpg",
+    "subLine": "600각",
+    "name": "LX 보타닉 DBT3087 콘크리트 600",
+    "code": "DBT3087",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/LX/보타닉/600각/DBT3087.webp",
+    "image": "/images/Thumbnail_Image/materials/데코타일/LX/보타닉/600각/DBT3087.webp",
     "images": [
-      "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/LX/%EB%B3%B4%ED%83%80%EB%8B%89/DBW3042%20%EC%9A%B0%EB%93%9C%20%EB%9D%BC%EC%9D%B4%ED%8A%B8%EB%B8%8C%EB%9D%BC%EC%9A%B4%20180.jpg"
+      "/images/Thumbnail_Image/materials/데코타일/LX/보타닉/600각/DBT3087.webp"
     ],
     "price": 26000,
-    "thickness": "",
+    "thickness": "3.0T",
     "specs": {
-      "division": "보타닉",
-      "thickness": "",
-      "size": "184x950mm",
-      "packing": "우드 규격 문의"
+      "division": "600각",
+      "thickness": "3.0T",
+      "size": "600x600mm",
+      "packing": "9장/박스 (3.24㎡)"
     },
-    "description": "보타닉",
-    "product_code": "DBW3042 우드 라이트브라운 180",
-    "product_name": ""
+    "description": "LX하우시스 보타닉 3.0T 데코타일 600각 콘크리트",
+    "product_code": "DBT3087",
+    "product_name": "LX 보타닉 DBT3087 콘크리트 600"
+  },
+  {
+    "id": "데코타일-lx-보타닉-dbt3088-콘크리트",
+    "category": "데코타일",
+    "brand": "LX하우시스",
+    "line": "보타닉",
+    "subLine": "600각",
+    "name": "LX 보타닉 DBT3088 콘크리트 600",
+    "code": "DBT3088",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/LX/보타닉/600각/DBT3088.webp",
+    "image": "/images/Thumbnail_Image/materials/데코타일/LX/보타닉/600각/DBT3088.webp",
+    "images": [
+      "/images/Thumbnail_Image/materials/데코타일/LX/보타닉/600각/DBT3088.webp"
+    ],
+    "price": 26000,
+    "thickness": "3.0T",
+    "specs": {
+      "division": "600각",
+      "thickness": "3.0T",
+      "size": "600x600mm",
+      "packing": "9장/박스 (3.24㎡)"
+    },
+    "description": "LX하우시스 보타닉 3.0T 데코타일 600각 콘크리트",
+    "product_code": "DBT3088",
+    "product_name": "LX 보타닉 DBT3088 콘크리트 600"
+  },
+  {
+    "id": "데코타일-lx-보타닉-dbt3089-콘크리트",
+    "category": "데코타일",
+    "brand": "LX하우시스",
+    "line": "보타닉",
+    "subLine": "600각",
+    "name": "LX 보타닉 DBT3089 콘크리트 600",
+    "code": "DBT3089",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/LX/보타닉/600각/DBT3089.webp",
+    "image": "/images/Thumbnail_Image/materials/데코타일/LX/보타닉/600각/DBT3089.webp",
+    "images": [
+      "/images/Thumbnail_Image/materials/데코타일/LX/보타닉/600각/DBT3089.webp"
+    ],
+    "price": 26000,
+    "thickness": "3.0T",
+    "specs": {
+      "division": "600각",
+      "thickness": "3.0T",
+      "size": "600x600mm",
+      "packing": "9장/박스 (3.24㎡)"
+    },
+    "description": "LX하우시스 보타닉 3.0T 데코타일 600각 콘크리트",
+    "product_code": "DBT3089",
+    "product_name": "LX 보타닉 DBT3089 콘크리트 600"
+  },
+  {
+    "id": "데코타일-lx-보타닉-dbt3090-샌드스톤",
+    "category": "데코타일",
+    "brand": "LX하우시스",
+    "line": "보타닉",
+    "subLine": "600각",
+    "name": "LX 보타닉 DBT3090 샌드스톤 라이트그레이 600",
+    "code": "DBT3090",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/LX/보타닉/600각/DBT3090.webp",
+    "image": "/images/Thumbnail_Image/materials/데코타일/LX/보타닉/600각/DBT3090.webp",
+    "images": [
+      "/images/Thumbnail_Image/materials/데코타일/LX/보타닉/600각/DBT3090.webp"
+    ],
+    "price": 26000,
+    "thickness": "3.0T",
+    "specs": {
+      "division": "600각",
+      "thickness": "3.0T",
+      "size": "600x600mm",
+      "packing": "9장/박스 (3.24㎡)"
+    },
+    "description": "LX하우시스 보타닉 3.0T 데코타일 600각 샌드스톤",
+    "product_code": "DBT3090",
+    "product_name": "LX 보타닉 DBT3090 샌드스톤 라이트그레이 600"
+  },
+  {
+    "id": "데코타일-lx-보타닉-dbt3091-테라조",
+    "category": "데코타일",
+    "brand": "LX하우시스",
+    "line": "보타닉",
+    "subLine": "600각",
+    "name": "LX 보타닉 DBT3091 테라조 600",
+    "code": "DBT3091",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/LX/보타닉/600각/DBT3091.webp",
+    "image": "/images/Thumbnail_Image/materials/데코타일/LX/보타닉/600각/DBT3091.webp",
+    "images": [
+      "/images/Thumbnail_Image/materials/데코타일/LX/보타닉/600각/DBT3091.webp"
+    ],
+    "price": 26000,
+    "thickness": "3.0T",
+    "specs": {
+      "division": "600각",
+      "thickness": "3.0T",
+      "size": "600x600mm",
+      "packing": "9장/박스 (3.24㎡)"
+    },
+    "description": "LX하우시스 보타닉 3.0T 데코타일 600각 테라조",
+    "product_code": "DBT3091",
+    "product_name": "LX 보타닉 DBT3091 테라조 600"
+  },
+  {
+    "id": "데코타일-lx-보타닉-dbw3019-엘레강스-오크",
+    "category": "데코타일",
+    "brand": "LX하우시스",
+    "line": "보타닉",
+    "subLine": "우드",
+    "name": "LX 보타닉 DBW3019 엘레강스 오크 180",
+    "code": "DBW3019",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/LX/보타닉/우드/DBW3019.webp",
+    "image": "/images/Thumbnail_Image/materials/데코타일/LX/보타닉/우드/DBW3019.webp",
+    "images": [
+      "/images/Thumbnail_Image/materials/데코타일/LX/보타닉/우드/DBW3019.webp"
+    ],
+    "price": 26000,
+    "thickness": "3.0T",
+    "specs": {
+      "division": "우드",
+      "thickness": "3.0T",
+      "size": "180x920mm",
+      "packing": "20장/박스 (3.31㎡)"
+    },
+    "description": "LX하우시스 보타닉 3.0T 데코타일 우드 엘레강스 오크",
+    "product_code": "DBW3019",
+    "product_name": "LX 보타닉 DBW3019 엘레강스 오크 180"
+  },
+  {
+    "id": "데코타일-lx-보타닉-dbw3020-우드-브라운",
+    "category": "데코타일",
+    "brand": "LX하우시스",
+    "line": "보타닉",
+    "subLine": "우드",
+    "name": "LX 보타닉 DBW3020 우드 브라운 180",
+    "code": "DBW3020",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/LX/보타닉/우드/DBW3020.webp",
+    "image": "/images/Thumbnail_Image/materials/데코타일/LX/보타닉/우드/DBW3020.webp",
+    "images": [
+      "/images/Thumbnail_Image/materials/데코타일/LX/보타닉/우드/DBW3020.webp"
+    ],
+    "price": 26000,
+    "thickness": "3.0T",
+    "specs": {
+      "division": "우드",
+      "thickness": "3.0T",
+      "size": "180x920mm",
+      "packing": "20장/박스 (3.31㎡)"
+    },
+    "description": "LX하우시스 보타닉 3.0T 데코타일 우드 우드 브라운",
+    "product_code": "DBW3020",
+    "product_name": "LX 보타닉 DBW3020 우드 브라운 180"
+  },
+  {
+    "id": "데코타일-lx-보타닉-dbw3022-우드-브라운",
+    "category": "데코타일",
+    "brand": "LX하우시스",
+    "line": "보타닉",
+    "subLine": "우드",
+    "name": "LX 보타닉 DBW3022 우드 브라운 180",
+    "code": "DBW3022",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/LX/보타닉/우드/DBW3022.webp",
+    "image": "/images/Thumbnail_Image/materials/데코타일/LX/보타닉/우드/DBW3022.webp",
+    "images": [
+      "/images/Thumbnail_Image/materials/데코타일/LX/보타닉/우드/DBW3022.webp"
+    ],
+    "price": 26000,
+    "thickness": "3.0T",
+    "specs": {
+      "division": "우드",
+      "thickness": "3.0T",
+      "size": "180x920mm",
+      "packing": "20장/박스 (3.31㎡)"
+    },
+    "description": "LX하우시스 보타닉 3.0T 데코타일 우드 우드 브라운",
+    "product_code": "DBW3022",
+    "product_name": "LX 보타닉 DBW3022 우드 브라운 180"
+  },
+  {
+    "id": "데코타일-lx-보타닉-dbw3029-우드-라이트베이지",
+    "category": "데코타일",
+    "brand": "LX하우시스",
+    "line": "보타닉",
+    "subLine": "우드",
+    "name": "LX 보타닉 DBW3029 우드 라이트베이지 180",
+    "code": "DBW3029",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/LX/보타닉/우드/DBW3029.webp",
+    "image": "/images/Thumbnail_Image/materials/데코타일/LX/보타닉/우드/DBW3029.webp",
+    "images": [
+      "/images/Thumbnail_Image/materials/데코타일/LX/보타닉/우드/DBW3029.webp"
+    ],
+    "price": 26000,
+    "thickness": "3.0T",
+    "specs": {
+      "division": "우드",
+      "thickness": "3.0T",
+      "size": "180x920mm",
+      "packing": "20장/박스 (3.31㎡)"
+    },
+    "description": "LX하우시스 보타닉 3.0T 데코타일 우드 우드 라이트베이지",
+    "product_code": "DBW3029",
+    "product_name": "LX 보타닉 DBW3029 우드 라이트베이지 180"
+  },
+  {
+    "id": "데코타일-lx-보타닉-dbw3037-우드-라이트베이지",
+    "category": "데코타일",
+    "brand": "LX하우시스",
+    "line": "보타닉",
+    "subLine": "우드",
+    "name": "LX 보타닉 DBW3037 우드 라이트베이지 180",
+    "code": "DBW3037",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/LX/보타닉/우드/DBW3037.webp",
+    "image": "/images/Thumbnail_Image/materials/데코타일/LX/보타닉/우드/DBW3037.webp",
+    "images": [
+      "/images/Thumbnail_Image/materials/데코타일/LX/보타닉/우드/DBW3037.webp"
+    ],
+    "price": 26000,
+    "thickness": "3.0T",
+    "specs": {
+      "division": "우드",
+      "thickness": "3.0T",
+      "size": "180x920mm",
+      "packing": "20장/박스 (3.31㎡)"
+    },
+    "description": "LX하우시스 보타닉 3.0T 데코타일 우드 우드 라이트베이지",
+    "product_code": "DBW3037",
+    "product_name": "LX 보타닉 DBW3037 우드 라이트베이지 180"
+  },
+  {
+    "id": "데코타일-lx-보타닉-dbw3038-우드-베이지",
+    "category": "데코타일",
+    "brand": "LX하우시스",
+    "line": "보타닉",
+    "subLine": "우드",
+    "name": "LX 보타닉 DBW3038 우드 베이지 180",
+    "code": "DBW3038",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/LX/보타닉/우드/DBW3038.webp",
+    "image": "/images/Thumbnail_Image/materials/데코타일/LX/보타닉/우드/DBW3038.webp",
+    "images": [
+      "/images/Thumbnail_Image/materials/데코타일/LX/보타닉/우드/DBW3038.webp"
+    ],
+    "price": 26000,
+    "thickness": "3.0T",
+    "specs": {
+      "division": "우드",
+      "thickness": "3.0T",
+      "size": "180x920mm",
+      "packing": "20장/박스 (3.31㎡)"
+    },
+    "description": "LX하우시스 보타닉 3.0T 데코타일 우드 우드 베이지",
+    "product_code": "DBW3038",
+    "product_name": "LX 보타닉 DBW3038 우드 베이지 180"
+  },
+  {
+    "id": "데코타일-lx-보타닉-dbw3040-소프트-파인",
+    "category": "데코타일",
+    "brand": "LX하우시스",
+    "line": "보타닉",
+    "subLine": "우드",
+    "name": "LX 보타닉 DBW3040 소프트 파인 180",
+    "code": "DBW3040",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/LX/보타닉/우드/DBW3040.webp",
+    "image": "/images/Thumbnail_Image/materials/데코타일/LX/보타닉/우드/DBW3040.webp",
+    "images": [
+      "/images/Thumbnail_Image/materials/데코타일/LX/보타닉/우드/DBW3040.webp"
+    ],
+    "price": 26000,
+    "thickness": "3.0T",
+    "specs": {
+      "division": "우드",
+      "thickness": "3.0T",
+      "size": "180x920mm",
+      "packing": "20장/박스 (3.31㎡)"
+    },
+    "description": "LX하우시스 보타닉 3.0T 데코타일 우드 소프트 파인",
+    "product_code": "DBW3040",
+    "product_name": "LX 보타닉 DBW3040 소프트 파인 180"
+  },
+  {
+    "id": "데코타일-lx-보타닉-dbw3042-우드-라이트브라운",
+    "category": "데코타일",
+    "brand": "LX하우시스",
+    "line": "보타닉",
+    "subLine": "우드",
+    "name": "LX 보타닉 DBW3042 우드 라이트브라운 180",
+    "code": "DBW3042",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/LX/보타닉/우드/DBW3042.webp",
+    "image": "/images/Thumbnail_Image/materials/데코타일/LX/보타닉/우드/DBW3042.webp",
+    "images": [
+      "/images/Thumbnail_Image/materials/데코타일/LX/보타닉/우드/DBW3042.webp"
+    ],
+    "price": 26000,
+    "thickness": "3.0T",
+    "specs": {
+      "division": "우드",
+      "thickness": "3.0T",
+      "size": "180x920mm",
+      "packing": "20장/박스 (3.31㎡)"
+    },
+    "description": "LX하우시스 보타닉 3.0T 데코타일 우드 우드 라이트브라운",
+    "product_code": "DBW3042",
+    "product_name": "LX 보타닉 DBW3042 우드 라이트브라운 180"
+  },
+  {
+    "id": "데코타일-lx-보타닉-dbw3045-화이트-오크",
+    "category": "데코타일",
+    "brand": "LX하우시스",
+    "line": "보타닉",
+    "subLine": "우드",
+    "name": "LX 보타닉 DBW3045 화이트 오크 180",
+    "code": "DBW3045",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/LX/보타닉/우드/DBW3045.webp",
+    "image": "/images/Thumbnail_Image/materials/데코타일/LX/보타닉/우드/DBW3045.webp",
+    "images": [
+      "/images/Thumbnail_Image/materials/데코타일/LX/보타닉/우드/DBW3045.webp"
+    ],
+    "price": 26000,
+    "thickness": "3.0T",
+    "specs": {
+      "division": "우드",
+      "thickness": "3.0T",
+      "size": "180x920mm",
+      "packing": "20장/박스 (3.31㎡)"
+    },
+    "description": "LX하우시스 보타닉 3.0T 데코타일 우드 화이트 오크",
+    "product_code": "DBW3045",
+    "product_name": "LX 보타닉 DBW3045 화이트 오크 180"
+  },
+  {
+    "id": "데코타일-lx-보타닉-dbw3046-오크",
+    "category": "데코타일",
+    "brand": "LX하우시스",
+    "line": "보타닉",
+    "subLine": "우드",
+    "name": "LX 보타닉 DBW3046 오크 180",
+    "code": "DBW3046",
+    "thumbnail": "/images/Thumbnail_Image/materials/데코타일/LX/보타닉/우드/DBW3046.webp",
+    "image": "/images/Thumbnail_Image/materials/데코타일/LX/보타닉/우드/DBW3046.webp",
+    "images": [
+      "/images/Thumbnail_Image/materials/데코타일/LX/보타닉/우드/DBW3046.webp"
+    ],
+    "price": 26000,
+    "thickness": "3.0T",
+    "specs": {
+      "division": "우드",
+      "thickness": "3.0T",
+      "size": "180x920mm",
+      "packing": "20장/박스 (3.31㎡)"
+    },
+    "description": "LX하우시스 보타닉 3.0T 데코타일 우드 오크",
+    "product_code": "DBW3046",
+    "product_name": "LX 보타닉 DBW3046 오크 180"
   },
   {
     "id": "데코타일-녹수-세타그립_450각-sgt-4011",
