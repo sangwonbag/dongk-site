@@ -323,6 +323,157 @@ const FALLBACK_CASES = [
       "slug": "데코타일-kcc-kcc_wood-tw-5112g",
       "product_code": "TW 5112G"
     }
+  },
+  {
+    "id": 16,
+    "slug": "daegu-gym-kcc-ts5535m",
+    "title": "대구 헬스장 KCC 5535 데코타일 시공",
+    "location": "대구광역시",
+    "category": "상업공간",
+    "material_summary": "KCC 센스타일 트랜디 600각 TS5535M · 600×600mm · 3.0T",
+    "product_id": 100910,
+    "description": "대구광역시 피트니스 헬스장 공간에 KCC 센스타일 트랜디 600각 TS5535M 데코타일을 시공했습니다. 대형 600각 사각 타일의 모던하고 묵직한 스톤 질감과 탁월한 내마모성으로 프리미엄 운동 공간의 분위기를 극대화했습니다.",
+    "main_image_url": "/images/시공사례/25.11.15 KCC 5535 대구 헬스장/KakaoTalk_20261114_082714016.jpg",
+    "image_urls": [
+      "/images/시공사례/25.11.15 KCC 5535 대구 헬스장/KakaoTalk_20261114_082714016.jpg",
+      "/images/시공사례/25.11.15 KCC 5535 대구 헬스장/KakaoTalk_20261114_082714016_01.jpg"
+    ],
+    "constructed_at": "2025-11-15",
+    "is_active": true,
+    "is_published": true,
+    "sort_order": 8,
+    "products": {
+      "id": 100910,
+      "name": "TS5535M",
+      "slug": "데코타일-kcc-kcc_square-ts5535m",
+      "product_code": "TS5535M"
+    }
+  },
+  {
+    "id": 17,
+    "slug": "junggu-store-dongshin-as4004",
+    "title": "서울 중구 상가 동신 4004 데코타일 시공",
+    "location": "서울특별시 중구",
+    "category": "상업공간",
+    "material_summary": "동신 아트타일 스퀘어 AS 4004 · 457.2×457.2mm · 3.0T",
+    "product_id": 101281,
+    "description": "서울 중구 번화가 상업 시설에 동신 아트타일 스퀘어 AS 4004 사각 데코타일을 정밀 시공했습니다. 내구성이 뛰어나 유동 인구가 많은 상가 매장에 적합하며, 깔끔한 사각 스톤 패턴으로 쾌적한 매장 인테리어를 연출했습니다.",
+    "main_image_url": "/images/시공사례/25.11.20 동신 4004 중구 상가/KakaoTalk_20261114_083033924.jpg",
+    "image_urls": [
+      "/images/시공사례/25.11.20 동신 4004 중구 상가/KakaoTalk_20261114_083033924.jpg",
+      "/images/시공사례/25.11.20 동신 4004 중구 상가/KakaoTalk_20261114_083033924_01.jpg",
+      "/images/시공사례/25.11.20 동신 4004 중구 상가/KakaoTalk_20261114_083033924_02.jpg"
+    ],
+    "constructed_at": "2025-11-20",
+    "is_active": true,
+    "is_published": true,
+    "sort_order": 9,
+    "products": {
+      "id": 101281,
+      "name": "AS 4004",
+      "slug": "데코타일-동신-아트타일-as4004",
+      "product_code": "AS 4004"
+    }
+  },
+  {
+    "id": 18,
+    "slug": "nonhyeon-officetel-bs303",
+    "title": "강남 논현동 오피스텔 BS 303 데코타일 시공",
+    "location": "서울특별시 강남구 논현동",
+    "category": "사무공간",
+    "material_summary": "프리미엄 사각 데코타일 BS 303 · 450각/600각 · 3.0T",
+    "product_id": null,
+    "description": "강남구 논현동 오피스텔 주거·업무 복합 공간에 BS 303 사각 데코타일을 시공했습니다. 세련된 모던 그레이 톤으로 공간을 더욱 넓고 고급스럽게 마감했습니다.",
+    "main_image_url": "/images/시공사례/25.12.09 BS 303 논현동 오피스텔/KakaoTalk_20261114_084416411.jpg",
+    "image_urls": [
+      "/images/시공사례/25.12.09 BS 303 논현동 오피스텔/KakaoTalk_20261114_084416411.jpg",
+      "/images/시공사례/25.12.09 BS 303 논현동 오피스텔/KakaoTalk_20261114_084416411_01.jpg",
+      "/images/시공사례/25.12.09 BS 303 논현동 오피스텔/KakaoTalk_20261114_084416411_02.jpg",
+      "/images/시공사례/25.12.09 BS 303 논현동 오피스텔/KakaoTalk_20261114_084416411_03.jpg"
+    ],
+    "constructed_at": "2025-12-09",
+    "is_active": true,
+    "is_published": true,
+    "sort_order": 10,
+    "products": null
+  },
+  {
+    "id": 19,
+    "slug": "hanam-gym-kcc-ts5548p",
+    "title": "하남 헬스장 KCC 5548 데코타일 시공",
+    "location": "경기도 하남시",
+    "category": "상업공간",
+    "material_summary": "KCC 센스타일 트랜디 450각 TS5548P · 457.2×457.2mm · 3.0T",
+    "product_id": 100920,
+    "description": "경기도 하남시 피트니스 센터에 KCC 센스타일 트랜디 450각 TS5548P 사각 데코타일을 시공했습니다. 고강도 UV 코팅층으로 헬스장 기구와 사용자 통행 충격에 강하며 모던한 인테리어를 완성했습니다.",
+    "main_image_url": "/images/시공사례/25.12.17 KCC 5548 하남 헬스장/KakaoTalk_20261114_084639760.jpg",
+    "image_urls": [
+      "/images/시공사례/25.12.17 KCC 5548 하남 헬스장/KakaoTalk_20261114_084639760.jpg",
+      "/images/시공사례/25.12.17 KCC 5548 하남 헬스장/KakaoTalk_20261114_084639760_01.jpg",
+      "/images/시공사례/25.12.17 KCC 5548 하남 헬스장/KakaoTalk_20261114_084639760_02.jpg",
+      "/images/시공사례/25.12.17 KCC 5548 하남 헬스장/KakaoTalk_20261114_084639760_03.jpg",
+      "/images/시공사례/25.12.17 KCC 5548 하남 헬스장/KakaoTalk_20261114_084639760_04.jpg"
+    ],
+    "constructed_at": "2025-12-17",
+    "is_active": true,
+    "is_published": true,
+    "sort_order": 11,
+    "products": {
+      "id": 100920,
+      "name": "TS5548P",
+      "slug": "데코타일-kcc-kcc_square-ts5548p",
+      "product_code": "TS5548P"
+    }
+  },
+  {
+    "id": 20,
+    "slug": "dongdaemun-medical-braille-block",
+    "title": "동대문의료재단 점자블럭 안전 유도타일 시공",
+    "location": "서울특별시 동대문구",
+    "category": "상업공간",
+    "material_summary": "장애인 편의시설 안전 유도 점자블럭 (점형/선형) · 300×300mm",
+    "product_id": null,
+    "description": "동대문의료재단 병원 및 의료 시설 출입구와 보행 통로에 시각장애인 유도용 점자블럭(점형/선형)을 규격에 맞추어 정밀 시공했습니다. 뛰어난 시인성과 미끄럼 방지 내구성으로 환자 및 보행자의 안전한 이동을 지원합니다.",
+    "main_image_url": "/images/시공사례/25.12.18 점자블럭 동대문의료재단/KakaoTalk_20261114_084851450.jpg",
+    "image_urls": [
+      "/images/시공사례/25.12.18 점자블럭 동대문의료재단/KakaoTalk_20261114_084851450.jpg",
+      "/images/시공사례/25.12.18 점자블럭 동대문의료재단/KakaoTalk_20261114_084851450_01.jpg",
+      "/images/시공사례/25.12.18 점자블럭 동대문의료재단/KakaoTalk_20261114_084851450_02.jpg",
+      "/images/시공사례/25.12.18 점자블럭 동대문의료재단/KakaoTalk_20261114_084851450_03.jpg"
+    ],
+    "constructed_at": "2025-12-18",
+    "is_active": true,
+    "is_published": true,
+    "sort_order": 12,
+    "products": null
+  },
+  {
+    "id": 21,
+    "slug": "hwaseong-store-dongshin-wood-6711-6740",
+    "title": "화성 상가 동신우드 6711·6740 데코타일 시공",
+    "location": "경기도 화성시",
+    "category": "상업공간",
+    "material_summary": "동신 아트타일 우드 AB 6711, AB 6740 · 180×920mm · 3.0T",
+    "product_id": 101244,
+    "description": "경기도 화성시 상가 시설에 동신 아트타일 우드 AB 6711 및 AB 6740 데코타일을 시공했습니다. 세련되고 따뜻한 천연 원목 질감의 우드 패턴을 감각적으로 조합하여 매장 공간을 고급스럽고 쾌적하게 완성했습니다.",
+    "main_image_url": "/images/시공사례/25.12.23 동신우드 6711,6740 화성 상가/KakaoTalk_20261114_091240049.jpg",
+    "image_urls": [
+      "/images/시공사례/25.12.23 동신우드 6711,6740 화성 상가/KakaoTalk_20261114_091240049.jpg",
+      "/images/시공사례/25.12.23 동신우드 6711,6740 화성 상가/KakaoTalk_20261114_091240049_01.jpg",
+      "/images/시공사례/25.12.23 동신우드 6711,6740 화성 상가/KakaoTalk_20261114_091240049_02.jpg",
+      "/images/시공사례/25.12.23 동신우드 6711,6740 화성 상가/KakaoTalk_20261114_091240049_03.jpg",
+      "/images/시공사례/25.12.23 동신우드 6711,6740 화성 상가/KakaoTalk_20261114_091240049_04.jpg"
+    ],
+    "constructed_at": "2025-12-23",
+    "is_active": true,
+    "is_published": true,
+    "sort_order": 13,
+    "products": {
+      "id": 101244,
+      "name": "AB 6711",
+      "slug": "데코타일-동신-아트타일-ab6711",
+      "product_code": "AB 6711"
+    }
   }
 ];
 

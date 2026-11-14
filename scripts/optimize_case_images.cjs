@@ -19,7 +19,6 @@ async function processDirectory(dir, relPath = '') {
     const currentRelPath = path.join(relPath, entry.name);
 
     if (entry.isDirectory()) {
-      // Create corresponding subdirectories in all variants
       for (const variant of VARIANTS) {
         const targetSubDir = path.join(TARGET_DIR, variant.name, currentRelPath);
         if (!fs.existsSync(targetSubDir)) {
@@ -32,7 +31,21 @@ async function processDirectory(dir, relPath = '') {
       const originalStat = fs.statSync(fullSourcePath);
       const originalSizeMB = (originalStat.size / (1024 * 1024)).toFixed(2);
 
-      console.log(`Processing: ${currentRelPath} (${originalSizeMB} MB)`);
+      let anyMissing = false;
+      for (const variant of VARIANTS) {
+        const targetSubDir = path.join(TARGET_DIR, variant.name, relPath);
+        const targetFilePath = path.join(targetSubDir, `${baseNameWithoutExt}.webp`);
+        if (!fs.existsSync(targetFilePath)) {
+          anyMissing = true;
+          break;
+        }
+      }
+
+      if (!anyMissing) {
+        continue; // Already optimized
+      }
+
+      console.log(`Optimizing: ${currentRelPath} (${originalSizeMB} MB)`);
 
       for (const variant of VARIANTS) {
         const targetSubDir = path.join(TARGET_DIR, variant.name, relPath);
@@ -44,7 +57,7 @@ async function processDirectory(dir, relPath = '') {
 
         try {
           await sharp(fullSourcePath)
-            .rotate() // Auto-orient using EXIF orientation tag
+            .rotate()
             .resize({
               width: variant.maxWidth,
               withoutEnlargement: true,
@@ -85,4 +98,3 @@ main().catch(err => {
   console.error('Fatal error in image optimization:', err);
   process.exit(1);
 });
-

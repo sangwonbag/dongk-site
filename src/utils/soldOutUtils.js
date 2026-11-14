@@ -43,3 +43,4 @@ export function cleanProductDescription(desc) {
   if (!desc) return "";
   return String(desc).replace(/\[(일시품절|품절)\]/g, '').trim();
 }
+
