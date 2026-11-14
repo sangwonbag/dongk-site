@@ -84,6 +84,15 @@ export default function CaseLightboxModal({
               alt={`${title} 현장 사진 ${currentIndex + 1}`}
               className="case-lightbox-img"
               decoding="async"
+              onError={(e) => {
+                if (e.target.dataset.triedRaw !== 'true' && currentRawUrl && currentRawUrl !== previewUrl) {
+                  e.target.dataset.triedRaw = 'true';
+                  e.target.src = currentRawUrl;
+                } else {
+                  e.target.onerror = null;
+                  e.target.src = "/images/no-image.svg";
+                }
+              }}
             />
           </div>
 

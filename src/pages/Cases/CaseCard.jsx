@@ -16,10 +16,12 @@ function CaseCardComponent({
 }) {
   const [imageLoaded, setImageLoaded] = useState(false);
   const [imageError, setImageError] = useState(false);
+  const [useFallbackToRaw, setUseFallbackToRaw] = useState(false);
 
   useEffect(() => {
     setImageLoaded(false);
     setImageError(false);
+    setUseFallbackToRaw(false);
   }, [item.main_image_url]);
 
   const isFirst = index === 0;
@@ -59,8 +61,8 @@ function CaseCardComponent({
         )}
 
         <img
-          src={imageError ? "/images/no-image.svg" : mainThumbUrl}
-          srcSet={imageError ? undefined : mainSrcSet}
+          src={imageError ? "/images/no-image.svg" : (useFallbackToRaw ? item.main_image_url : mainThumbUrl)}
+          srcSet={imageError || useFallbackToRaw ? undefined : mainSrcSet}
           sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 420px"
           alt={item.title}
           className={`case-image ${imageLoaded ? 'loaded' : ''}`}
@@ -71,8 +73,12 @@ function CaseCardComponent({
           height="500"
           onLoad={() => setImageLoaded(true)}
           onError={() => {
-            setImageError(true);
-            setImageLoaded(true);
+            if (!useFallbackToRaw && item.main_image_url && mainThumbUrl !== item.main_image_url) {
+              setUseFallbackToRaw(true);
+            } else {
+              setImageError(true);
+              setImageLoaded(true);
+            }
           }}
         />
 
@@ -113,8 +119,13 @@ function CaseCardComponent({
                     width="120"
                     height="90"
                     onError={(e) => {
-                      e.target.onerror = null;
-                      e.target.src = "/images/no-image.svg";
+                      if (e.target.dataset.triedRaw !== 'true' && rawUrl && rawUrl !== thumbUrl) {
+                        e.target.dataset.triedRaw = 'true';
+                        e.target.src = rawUrl;
+                      } else {
+                        e.target.onerror = null;
+                        e.target.src = "/images/no-image.svg";
+                      }
                     }}
                   />
                   {isLastMore && (

@@ -1103,8 +1103,13 @@ export default function Home() {
                           width="560"
                           height="360"
                           onError={(e) => {
-                            e.target.onerror = null;
-                            e.target.src = "/images/no-image.svg";
+                            if (e.target.dataset.triedRaw !== 'true' && item.main_image_url && item.main_image_url !== thumbUrl) {
+                              e.target.dataset.triedRaw = 'true';
+                              e.target.src = item.main_image_url;
+                            } else {
+                              e.target.onerror = null;
+                              e.target.src = "/images/no-image.svg";
+                            }
                           }}
                         />
                         <div className="project-space-tag">
