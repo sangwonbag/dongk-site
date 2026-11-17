@@ -61,9 +61,9 @@ export function getCaseImageSrcSet(rawUrl) {
   if (!rawUrl || typeof rawUrl !== 'string') return '';
   const url400 = getCaseImageUrl(rawUrl, '400');
   const url800 = getCaseImageUrl(rawUrl, '800');
-  const url1600 = getCaseImageUrl(rawUrl, '1600');
 
+  // A card never needs a 1600px preview; reserve that for the lightbox.
   if (url400 === rawUrl) return ''; // fallback to standard src
-  return `${url400} 400w, ${url800} 800w, ${url1600} 1600w`;
+  return `${url400} 400w, ${url800} 800w`;
 }
 
