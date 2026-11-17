@@ -31,6 +31,111 @@ export const FLOORING_THICKNESS_BY_BRAND = {
   KCC: ['1.8T', '2.0T', '2.2T', '2.7T', '3.2T', '4.5T', '5.0T'],
 };
 
+/**
+ * 라인업별 표준 두께 매핑 (장판, 데코타일 등)
+ */
+export const STATIC_LINEUP_THICKNESS = {
+  // 장판 - LX하우시스
+  '뉴청맥': '1.8T',
+  '은행목': '2.0T',
+  '지아자연애': '2.2T',
+  '지아사랑애': '2.7/3.2T',
+  '지아소리잠': '4.5T',
+  '엑스컴포트': '5.0T',
+
+  // 장판 - KCC
+  '그린': '1.8/2.0T',
+  '숲 옥': '2.2T',
+  '숲옥': '2.2T',
+  '도담': '2.7/3.2T',
+  '휴가온': '4.5/5.0T',
+
+  // 장판 - 현대
+  '참다움': '1.8/2.0T',
+  '더채움': '2.2T',
+  '아티움': '2.7/3.2T',
+
+  // 데코타일 - LX
+  '프레스티지': '5.0T',
+  '에디톤': '5.0T',
+  '에디톤 스톤': '5.0T',
+  '보타닉': '3.0T',
+  '에코노플러스': '3.0T',
+  '하우스스타일': '3.0T',
+  'LX하우스스타일': '3.0T',
+
+  // 데코타일 - KCC
+  '센스타일 트랜디 450각': '3.0T',
+  '센스타일 트랜디 600각': '3.0T',
+  '센스타일 트랜디 우드': '3.0T',
+  '센스타일 프로 450각': '3.0T',
+  '센스타일 프로 600각': '3.0T',
+  '센스타일 프로 우드': '3.0T',
+  '센스타일 프로 와이드 우드': '3.0T',
+  '센스레이(내수)': '5.0T',
+  '센스레이': '5.0T',
+};
+
+/**
+ * 라인업의 두께 표기 문자열을 반환합니다.
+ * @param {string} lineName - 라인업명 (예: '뉴청맥', '지아사랑애')
+ * @param {string} [category] - 카테고리 (예: '장판')
+ * @param {string} [brand] - 브랜드 (예: 'LX하우시스')
+ * @param {Array} [list] - 상품 리스트 (동적 폴백용)
+ * @returns {string} - 두께 표기 (예: '1.8T', '2.7/3.2T', 없으면 '')
+ */
+export function getLineupThickness(lineName, category, brand, list) {
+  if (!lineName || lineName === 'all') return '';
+  const cleanName = String(lineName).trim();
+  
+  // 이미 두께가 포함된 경우 중복 표기 방지
+  if (/\(\d+(\.\d+)?T\)/i.test(cleanName) || /\d+(\.\d+)?T$/i.test(cleanName)) return '';
+
+  if (STATIC_LINEUP_THICKNESS[cleanName]) {
+    return STATIC_LINEUP_THICKNESS[cleanName];
+  }
+
+  // 동적 추출 폴백
+  if (!list || !Array.isArray(list) || list.length === 0) return '';
+  const set = new Set();
+  const bUpper = (brand || '').toUpperCase();
+  for (let i = 0; i < list.length; i++) {
+    const m = list[i];
+    if (!m) continue;
+    if (category && category !== 'all' && m.category !== category) continue;
+    if (bUpper && bUpper !== 'ALL') {
+      const itemBrand = (m.brand || '').toUpperCase();
+      if (!itemBrand.includes(bUpper) && !bUpper.includes(itemBrand)) continue;
+    }
+    const l = m.line || m.displayLine;
+    if (l === cleanName) {
+      const t = m.spec?.thickness || m.thickness;
+      if (t) set.add(String(t).trim());
+    }
+  }
+  if (set.size === 0) return '';
+  const nums = [];
+  let allNumeric = true;
+  for (const val of set) {
+    const match = val.match(/^(\d+(?:\.\d+)?)\s*T?$/i);
+    if (match) {
+      nums.push(parseFloat(match[1]));
+    } else {
+      allNumeric = false;
+      break;
+    }
+  }
+  if (allNumeric && nums.length > 0) {
+    nums.sort((a, b) => a - b);
+    const unique = Array.from(new Set(nums));
+    if (unique.length === 1) {
+      return (unique[0] % 1 === 0 ? unique[0].toFixed(1) : unique[0]) + 'T';
+    }
+    return unique.map(n => n % 1 === 0 ? n.toFixed(1) : n).join('/') + 'T';
+  }
+  return Array.from(set).join('/');
+}
+
 export const KCC_LINEUP_SLUG_MAP = {
   "trendy-450": "센스타일 트랜디 450각",
   "trendy-600": "센스타일 트랜디 600각",

@@ -1,7 +1,7 @@
 import React, { useMemo, useState, useEffect, useCallback, useRef } from "react";
 import { useSearchParams } from "react-router-dom";
 import MainLayout from "../../components/layout/MainLayout";
-import { getComputedBrand, getMaterialTypeAndLine, formatShapeOrPattern, JANGPAN_STANDARD_THICKNESSES, FLOORING_THICKNESS_BY_BRAND, normalizeBrandName, isSentenceDescription, getKccLineup, KCC_DECOTILE_LINEUPS, resolveKccLineupName, resolveKccLineupSlug, KCC_LINEUP_NAME_TO_SLUG, getKccLineupPriority } from "../../utils/brandUtils";
+import { getComputedBrand, getMaterialTypeAndLine, formatShapeOrPattern, JANGPAN_STANDARD_THICKNESSES, FLOORING_THICKNESS_BY_BRAND, normalizeBrandName, isSentenceDescription, getKccLineup, KCC_DECOTILE_LINEUPS, resolveKccLineupName, resolveKccLineupSlug, KCC_LINEUP_NAME_TO_SLUG, getKccLineupPriority, getLineupThickness } from "../../utils/brandUtils";
 import { DONGSHIN_MAJOR_CATEGORIES, DONGSHIN_DETAILED_LINEUPS_MAP, getDongshinMajorCategory, getDongshinDetailedLineup } from "../../utils/dongshinUtils";
 import { 
   EAGON_MAJOR_CATEGORIES, 
@@ -1333,6 +1333,7 @@ export default function Materials() {
                     {activeLine !== "all" && (
                       <span className="active-chip">
                         라인업: {formatShapeOrPattern(activeLine)}
+                        {getLineupThickness(activeLine, activeTab, activeBrand, materialsList) ? ` (${getLineupThickness(activeLine, activeTab, activeBrand, materialsList)})` : ''}
                         <X size={14} className="chip-remove" onClick={() => setActiveLine("all")} />
                       </span>
                     )}
@@ -1651,17 +1652,20 @@ export default function Materials() {
             {/* Lineup Filter (Non-Dongshin, Non-Eagon, Non-HanSol) */}
             {!loading && !(activeTab === "데코타일" && (activeBrand === "동신" || activeBrand === "동신포리마")) && !isEagonBrand && !isHansolBrand && visibleLines.length > 1 && (
               <div className="materials-lineup-filter">
-                {visibleLines.map((lineName) => (
-                  <button
-                    key={lineName}
-                    className={`material-type-chip ${activeLine === lineName ? "active" : ""}`}
-                    onClick={() => setActiveLine(lineName)}
-                  >
-                    {lineName === "all"
-                      ? "전체 라인업"
-                      : `${formatShapeOrPattern(lineName)}${lineCounts[lineName] ? ` (${lineCounts[lineName]})` : ''}`}
-                  </button>
-                ))}
+                {visibleLines.map((lineName) => {
+                  const thick = getLineupThickness(lineName, activeTab, activeBrand, materialsList);
+                  return (
+                    <button
+                      key={lineName}
+                      className={`material-type-chip ${activeLine === lineName ? "active" : ""}`}
+                      onClick={() => setActiveLine(lineName)}
+                    >
+                      {lineName === "all"
+                        ? "전체 라인업"
+                        : `${formatShapeOrPattern(lineName)}${thick ? ` (${thick})` : ''}${lineCounts[lineName] ? ` (${lineCounts[lineName]})` : ''}`}
+                    </button>
+                  );
+                })}
               </div>
             )}
 

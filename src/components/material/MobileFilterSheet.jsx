@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { X, RotateCcw, Check } from "lucide-react";
-import { formatShapeOrPattern } from "../../utils/brandUtils";
+import { formatShapeOrPattern, getLineupThickness } from "../../utils/brandUtils";
 import { DONGSHIN_MAJOR_CATEGORIES } from "../../utils/dongshinUtils";
 import { SORT_OPTIONS } from "../../utils/sortUtils";
 import { getDisplayBrandName } from "../../constants/brandPriority";
@@ -172,15 +172,18 @@ export default function MobileFilterSheet({
             <div className="filter-sheet-group">
               <label className="sheet-label">라인업</label>
               <div className="sheet-chips-grid">
-                {visibleLines.map((l) => (
-                  <button
-                    key={l}
-                    className={`sheet-chip ${activeLine === l ? "active" : ""}`}
-                    onClick={() => onLineChange(l)}
-                  >
-                    {l === "all" ? "전체 라인업" : l}
-                  </button>
-                ))}
+                {visibleLines.map((l) => {
+                  const thick = getLineupThickness(l, activeTab, activeBrand);
+                  return (
+                    <button
+                      key={l}
+                      className={`sheet-chip ${activeLine === l ? "active" : ""}`}
+                      onClick={() => onLineChange(l)}
+                    >
+                      {l === "all" ? "전체 라인업" : `${formatShapeOrPattern(l)}${thick ? ` (${thick})` : ''}`}
+                    </button>
+                  );
+                })}
               </div>
             </div>
           )}

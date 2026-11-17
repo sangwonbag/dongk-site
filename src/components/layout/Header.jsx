@@ -454,8 +454,8 @@ export default function Header() {
 
           {/* Desktop Nav Icons / Account Controls */}
           <nav className="header-nav">
-            <button className="cart-nav-btn" onClick={() => nav("/cart")} style={{ position: 'relative' }}>
-              <ShoppingCart size={20} />
+            <button className="cart-nav-btn" onClick={() => nav("/cart")} style={{ position: 'relative' }} title="장바구니" aria-label="장바구니">
+              <ShoppingCart size={22} />
               <span>장바구니</span>
               {currentUser && estimateCount > 0 && <span className="estimate-badge">{estimateCount}</span>}
             </button>
@@ -463,23 +463,23 @@ export default function Header() {
             {currentUser ? (
               <>
                 {currentUser.role === 'admin' && (
-                  <button onClick={() => nav("/admin")}>
-                    <Settings size={20} />
+                  <button className="admin-nav-btn" onClick={() => nav("/admin")} title="관리" aria-label="관리">
+                    <Settings size={22} />
                     <span>관리</span>
                   </button>
                 )}
-                <button onClick={() => nav("/mypage")}>
-                  <User size={20} />
+                <button className="mypage-nav-btn" onClick={() => nav("/mypage")} title="마이페이지" aria-label="마이페이지">
+                  <User size={22} />
                   <span>마이페이지</span>
                 </button>
-                <button onClick={handleLogout}>
-                  <LogOut size={20} />
+                <button className="logout-nav-btn" onClick={handleLogout} title="로그아웃" aria-label="로그아웃">
+                  <LogOut size={22} />
                   <span>로그아웃</span>
                 </button>
               </>
             ) : (
-              <button className="login-nav-btn" onClick={openLoginModal}>
-                <User size={20} />
+              <button className="login-nav-btn" onClick={openLoginModal} title="로그인" aria-label="로그인">
+                <User size={22} />
                 <span>로그인</span>
               </button>
             )}
