@@ -588,6 +588,13 @@ const LX_JANGPAN_COLLECTION = [
 const CASES_HISTORY_KEY = 'dk_home_cases_history';
 const SHOWCASE_COUNT = 4;
 
+// Use real, published portfolio photography rather than imaginary after-results.
+const HOME_INSPIRATION_CASES = [
+  { id: 7, space: 'OUR HOME', label: '우리 집', title: '아파트 공간의 새로운 분위기', desc: '동신 726 · 실제 주거공간 시공' },
+  { id: 8, space: 'OUR OFFICE', label: '우리 사무실', title: '업무공간에 어울리는 바닥', desc: 'KCC 5551 · 오피스텔 시공' },
+].map(({ id, ...content }) => ({ ...content, caseItem: FALLBACK_CASES.find((item) => String(item.id) === String(id)) }))
+  .filter((item) => Boolean(item.caseItem?.main_image_url));
+
 export default function Home() {
   const navigate = useNavigate();
   const videoRef = useRef(null);
@@ -744,8 +751,8 @@ export default function Home() {
   return (
     <MainLayout>
       <SEO 
-        title="동경바닥재 | 인테리어 업체·시공팀 바닥재 공급 및 현장 견적"
-        description="동경바닥재 - 인테리어 업체와 시공팀을 위한 데코타일·장판·마루·벽지 공급. KCC·LX·동신 등 제품코드 및 규격 검색부터 현장별 견적과 발주 상담까지."
+        title="동경바닥재 | 우리 집·사무실을 위한 바닥재·벽지와 시공사례"
+        description="우리 집부터 사무실·매장까지. 실제 시공사례에서 공간의 변화를 살펴보고 KCC·LX·동신 등 데코타일·장판·마루·벽지를 찾아보세요. 인테리어 업체 현장 견적 및 자재 공급 상담도 가능합니다."
         canonical="https://dkfloor.co.kr/"
         jsonLd={HOME_JSON_LD}
       />
@@ -812,78 +819,106 @@ export default function Home() {
                 pointerEvents: heroTextOpacity < 0.15 ? 'none' : 'auto'
               }}
             >
-              <div className="container hero-inner-container b2b-hero-inner">
-                <div className="b2b-hero-copy">
+              <div className="container hero-inner-container b2b-hero-inner inspiration-hero-inner">
+                <div className="b2b-hero-copy inspiration-hero-copy">
                   <div className="hero-brand-tag">
                     <span className="brand-dot" />
-                    <span>FOR PROFESSIONALS · DONGKYUNG FLOORING</span>
+                    <span>YOUR SPACE, REIMAGINED</span>
                   </div>
 
                   <h1 className="hero-main-title">
-                    현장에 필요한 자재,<br />
-                    검색부터 발주까지.
+                    우리 집도, 우리 사무실도.<br />
+                    <span className="inspiration-hero-accent">분위기가 달라질 수 있습니다.</span>
                   </h1>
 
                   <p className="hero-sub-description">
-                    인테리어 업체·시공팀을 위한 바닥재 공급 파트너.<br className="b2b-desktop-break" />
-                    제품코드 확인, 현장 견적, 수령·배송 상담을 한곳에서 진행하세요.
+                    바닥과 벽이 달라지면, 익숙한 공간도 새롭게 보입니다.<br className="b2b-desktop-break" />
+                    실제 시공사례에서 영감을 얻고, 마음에 드는 자재를 찾아보세요.
                   </p>
 
                   <div className="hero-cta-group">
                     <Link
-                      to="/materials"
+                      to="/cases"
                       className="btn-hero-primary"
+                      onMouseEnter={() => preloadRoute('/cases')}
+                      onTouchStart={() => preloadRoute('/cases')}
+                    >
+                      <Building2 size={18} />
+                      <span>공간별 시공사례 보기</span>
+                      <ArrowRight size={16} />
+                    </Link>
+                    <Link
+                      to="/materials"
+                      className="btn-hero-glass"
                       onMouseEnter={() => preloadRoute('/materials')}
                       onTouchStart={() => preloadRoute('/materials')}
                     >
                       <ShoppingBag size={18} />
-                      <span>자재·규격 검색</span>
-                      <ArrowRight size={16} />
-                    </Link>
-                    <Link
-                      to="/estimate/request"
-                      className="btn-hero-glass"
-                      onMouseEnter={() => preloadRoute('/estimate')}
-                      onTouchStart={() => preloadRoute('/estimate')}
-                    >
-                      <FileText size={18} />
-                      <span>현장 견적문의</span>
+                      <span>바닥·벽지 자재 찾기</span>
                       <ArrowUpRight size={16} />
                     </Link>
                   </div>
 
-                  <div className="b2b-hero-benefits" aria-label="주요 서비스">
-                    <span><CheckCircle2 size={16} /> 제품코드·규격 검색</span>
-                    <span><CheckCircle2 size={16} /> 현장별 견적 상담</span>
-                    <span><CheckCircle2 size={16} /> 수령·배송 방식 선택</span>
+                  <div className="inspiration-material-categories" aria-label="자재 종류 바로가기">
+                    <Link to="/materials?category=데코타일">데코타일</Link>
+                    <Link to="/materials?category=장판">장판</Link>
+                    <Link to="/materials?category=마루">마루</Link>
+                    <Link to="/materials?category=벽지">벽지</Link>
                   </div>
+
+                  <p className="inspiration-professional-note">
+                    인테리어 업체·시공팀의 현장 자재 공급과 견적문의도 함께 지원합니다.
+                  </p>
                 </div>
 
-                <aside className="b2b-hero-workflow" aria-label="자재 발주 안내">
-                  <div className="b2b-workflow-kicker">PROCUREMENT FLOW <span>01 — 03</span></div>
-                  <h2>발주 업무를<br />더 간단하게.</h2>
-                  <p>제품 확인부터 주문 준비까지, 필요한 메뉴로 바로 이동하세요.</p>
-                  <div className="b2b-workflow-links">
-                    <Link to="/materials">
-                      <span className="b2b-step-index">01</span>
-                      <span className="b2b-step-content"><strong>자재 검색</strong><small>브랜드·코드·규격 확인</small></span>
-                      <ArrowUpRight size={18} />
-                    </Link>
-                    <Link to="/estimate/request">
-                      <span className="b2b-step-index">02</span>
-                      <span className="b2b-step-content"><strong>현장 견적문의</strong><small>면적·자재·현장 정보 전달</small></span>
-                      <ArrowUpRight size={18} />
-                    </Link>
-                    <Link to="/cart">
-                      <span className="b2b-step-index">03</span>
-                      <span className="b2b-step-content"><strong>발주 내역 확인</strong><small>선택한 자재 장바구니 확인</small></span>
-                      <ArrowUpRight size={18} />
-                    </Link>
-                  </div>
-                  <div className="b2b-workflow-footnote">
-                    사무실 직접수령 · 화물 · 퀵 · 현장 배송 상담
-                  </div>
-                </aside>
+                <div className="inspiration-hero-gallery" aria-label="실제 주거 및 업무공간 시공사진">
+                  {HOME_INSPIRATION_CASES.map(({ caseItem, space, label, title, desc }) => {
+                    const thumbUrl = getCaseImageUrl(caseItem.main_image_url, '400');
+                    return (
+                      <Link
+                        key={caseItem.id}
+                        to={'/cases?id=' + caseItem.id}
+                        className="inspiration-photo-card"
+                        aria-label={caseItem.title + ' 실제 시공사례 보기'}
+                        onMouseEnter={() => preloadRoute('/cases')}
+                      >
+                        <img
+                          src={thumbUrl}
+                          srcSet={getCaseImageSrcSet(caseItem.main_image_url) || undefined}
+                          sizes="(max-width: 767px) 48vw, 360px"
+                          alt={caseItem.title}
+                          loading="eager"
+                          decoding="async"
+                          width="600"
+                          height="390"
+                          onError={(e) => {
+                            const image = e.currentTarget;
+                            if (image.dataset.triedRaw !== 'true' && caseItem.main_image_url && image.src !== caseItem.main_image_url) {
+                              image.dataset.triedRaw = 'true';
+                              image.srcset = '';
+                              image.src = caseItem.main_image_url;
+                            } else {
+                              image.onerror = null;
+                              image.src = '/images/no-image.svg';
+                            }
+                          }}
+                        />
+                        <div className="inspiration-photo-shade" />
+                        <div className="inspiration-photo-top">
+                          <span>{space}</span>
+                          <span className="inspiration-photo-original">실제 시공</span>
+                        </div>
+                        <div className="inspiration-photo-caption">
+                          <span className="inspiration-photo-label">{label}</span>
+                          <strong>{title}</strong>
+                          <small>{desc}</small>
+                        </div>
+                        <ArrowUpRight size={21} className="inspiration-photo-arrow" />
+                      </Link>
+                    );
+                  })}
+                  <div className="inspiration-gallery-footnote">사진을 누르면 실제 현장 시공사례와 사용 자재를 확인할 수 있습니다.</div>
+                </div>
               </div>
             </div>
 
@@ -932,7 +967,7 @@ export default function Home() {
             <div className="section-head-block center">
               <span className="section-eyebrow">OUR COLLECTION</span>
               <h2 className="section-primary-title">
-                현장에 맞는 자재를 바로 확인하세요.
+                마음에 든 공간, 그 자재를 찾아보세요.
               </h2>
               <p className="section-sub-copy">
                 {recommendedCategory === "decotile"
@@ -1113,9 +1148,9 @@ export default function Home() {
               <div className="section-head-block row-header">
                 <div>
                   <span className="section-eyebrow">REAL PROJECTS</span>
-                  <h2 className="section-primary-title">현장에서 확인하는 자재 적용 사례</h2>
+                  <h2 className="section-primary-title">우리 집과 사무실, 실제 공간의 변화</h2>
                   <p className="section-sub-copy">
-                    동경바닥재가 직접 완공한 헬스장, 아파트, 오피스텔 등 실제 바닥 시공 현장을 확인해보세요.
+                    아파트·사무실·매장 등 실제 바닥 시공사례를 둘러보고, 마음에 드는 제품코드와 시공 정보를 확인해보세요.
                   </p>
                 </div>
                 <Link 
