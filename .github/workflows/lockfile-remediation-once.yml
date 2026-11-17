@@ -1,0 +1,45 @@
+name: One-time lockfile security remediation
+
+on:
+  push:
+    branches:
+      - security/hardening-audit-20261117
+    paths:
+      - .github/workflows/lockfile-remediation-once.yml
+
+permissions:
+  contents: read
+
+jobs:
+  fix-lockfile:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout lockfiles only
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+          filter: blob:none
+          sparse-checkout: |
+            package.json
+            package-lock.json
+          sparse-checkout-cone-mode: false
+          persist-credentials: true
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Remediate compatible dependency updates
+        run: npm audit fix --package-lock-only --omit=dev --ignore-scripts
+      - name: Re-check high severity production advisories
+        run: npm audit --package-lock-only --omit=dev --audit-level=high
+      - name: Commit lockfile only if updated
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add package-lock.json
+          if ! git diff --cached --quiet; then
+            git commit -m "fix(security): update vulnerable transitive npm lockfile packages"
+            git push origin HEAD:security/hardening-audit-20261117
+          fi
