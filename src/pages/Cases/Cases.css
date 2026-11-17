@@ -151,7 +151,7 @@
   display: flex;
   flex-direction: column;
   transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
-  transform: translateZ(0); /* Promote to GPU composite layer for 60fps smooth scrolling */
+  /* Avoid allocating a GPU layer for every portfolio card. */
 }
 
 .case-portfolio-card:hover {
@@ -177,7 +177,7 @@
   height: 100%;
   background-color: #ede8df;
   overflow: hidden;
-  z-index: 1;
+  z-index: 0;
 }
 
 .skeleton-shimmer {
@@ -204,13 +204,11 @@
   width: 100%;
   height: 100%;
   object-fit: cover;
-  opacity: 0;
-  transition: opacity 0.3s ease-in-out, transform 0.4s ease;
+  /* Browser paint, not React state, decides when the image becomes visible. */
+  position: relative;
+  z-index: 1;
   display: block;
-}
-
-.case-image.loaded {
-  opacity: 1;
+  transition: transform 0.4s ease;
 }
 
 .case-portfolio-card:hover .case-image {
@@ -591,4 +589,35 @@
   .case-gallery {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
+}
+/* Display 30 cases per page to avoid hundreds of simultaneous image requests. */
+.cases-pagination {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin: 32px 0 12px;
+}
+.cases-pagination button {
+  min-width: 40px;
+  padding: 9px 13px;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  background: #fff;
+  color: var(--text);
+  cursor: pointer;
+  font-weight: 600;
+}
+.cases-pagination button.active {
+  background: var(--point-gold);
+  border-color: var(--point-gold);
+  color: #fff;
+}
+.cases-pagination button:disabled {
+  opacity: .4;
+  cursor: not-allowed;
+}
+.cases-pagination button:focus-visible {
+  outline: 2px solid var(--point-gold);
+  outline-offset: 2px;
 }
