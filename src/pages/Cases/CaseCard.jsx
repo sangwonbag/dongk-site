@@ -1,10 +1,51 @@
-import React, { useState, useEffect, memo, useMemo, useCallback } from 'react';
+import React, { useState, memo, useMemo, useCallback } from 'react';
 import { Link } from 'react-router-dom';
 import { MapPin, Box, Calendar, Edit2, Eye, EyeOff, ArrowUpRight, ZoomIn } from 'lucide-react';
 import { getCaseImageUrl, getCaseImageSrcSet } from '../../utils/caseImageUtils';
 import { resolveCaseMaterialLinks } from '../../utils/caseMaterialUtils';
 
 const MAX_VISIBLE_GALLERY = 3;
+
+// Keep image loading state scoped to the image URL. A cached onLoad event must not
+// be overwritten by a parent effect (which previously left the skeleton visible).
+function CaseHeroImage({ rawUrl, alt, prioritize }) {
+  const [imageLoaded, setImageLoaded] = useState(false);
+  const [imageError, setImageError] = useState(!rawUrl);
+  const [useFallbackToRaw, setUseFallbackToRaw] = useState(false);
+  const thumbnailUrl = useMemo(() => getCaseImageUrl(rawUrl, '800'), [rawUrl]);
+  const srcSet = useMemo(() => getCaseImageSrcSet(rawUrl), [rawUrl]);
+
+  return (
+    <>
+      {!imageLoaded && !imageError && (
+        <div className="case-img-skeleton" aria-hidden="true">
+          <div className="skeleton-shimmer"></div>
+        </div>
+      )}
+      <img
+        src={imageError ? '/images/no-image.svg' : (useFallbackToRaw ? rawUrl : thumbnailUrl)}
+        srcSet={imageError || useFallbackToRaw ? undefined : srcSet}
+        sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 420px"
+        alt={alt}
+        className="case-image"
+        loading={prioritize ? 'eager' : 'lazy'}
+        decoding="async"
+        fetchPriority={prioritize ? 'high' : 'auto'}
+        width="800"
+        height="500"
+        onLoad={() => setImageLoaded(true)}
+        onError={() => {
+          if (!useFallbackToRaw && rawUrl && thumbnailUrl !== rawUrl) {
+            setUseFallbackToRaw(true);
+          } else {
+            setImageError(true);
+            setImageLoaded(true);
+          }
+        }}
+      />
+    </>
+  );
+}
 
 function CaseCardComponent({
   item,
@@ -14,20 +55,8 @@ function CaseCardComponent({
   onEdit,
   onTogglePublish
 }) {
-  const [imageLoaded, setImageLoaded] = useState(false);
-  const [imageError, setImageError] = useState(false);
-  const [useFallbackToRaw, setUseFallbackToRaw] = useState(false);
-
-  useEffect(() => {
-    setImageLoaded(false);
-    setImageError(false);
-    setUseFallbackToRaw(false);
-  }, [item.main_image_url]);
-
-  const isFirst = index === 0;
-  const mainThumbUrl = useMemo(() => getCaseImageUrl(item.main_image_url, '800'), [item.main_image_url]);
-  const mainSrcSet = useMemo(() => getCaseImageSrcSet(item.main_image_url), [item.main_image_url]);
   const galleryImages = useMemo(() => (Array.isArray(item.image_urls) ? item.image_urls : []), [item.image_urls]);
+  const mainImageUrl = item.main_image_url || galleryImages[0] || '';
   const materialLinks = useMemo(() => resolveCaseMaterialLinks(item), [item]);
 
   const hasMoreGallery = galleryImages.length > MAX_VISIBLE_GALLERY;
@@ -53,34 +82,7 @@ function CaseCardComponent({
           </span>
         )}
 
-        {/* Skeleton placeholder while loading */}
-        {!imageLoaded && !imageError && (
-          <div className="case-img-skeleton" aria-hidden="true">
-            <div className="skeleton-shimmer"></div>
-          </div>
-        )}
-
-        <img
-          src={imageError ? "/images/no-image.svg" : (useFallbackToRaw ? item.main_image_url : mainThumbUrl)}
-          srcSet={imageError || useFallbackToRaw ? undefined : mainSrcSet}
-          sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 420px"
-          alt={item.title}
-          className={`case-image ${imageLoaded ? 'loaded' : ''}`}
-          loading={isFirst ? "eager" : "lazy"}
-          decoding="async"
-          fetchPriority={isFirst ? "high" : "auto"}
-          width="800"
-          height="500"
-          onLoad={() => setImageLoaded(true)}
-          onError={() => {
-            if (!useFallbackToRaw && item.main_image_url && mainThumbUrl !== item.main_image_url) {
-              setUseFallbackToRaw(true);
-            } else {
-              setImageError(true);
-              setImageLoaded(true);
-            }
-          }}
-        />
+        <CaseHeroImage key={mainImageUrl} rawUrl={mainImageUrl} alt={item.title} prioritize={index < 3} />
 
         <div className="case-zoom-hint" aria-hidden="true">
           <ZoomIn size={16} />
