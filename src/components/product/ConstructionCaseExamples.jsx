@@ -142,8 +142,7 @@ export default function ConstructionCaseExamples({ material, fallback = null }) 
   const matchingCases = useMemo(() => publishedCases
     .filter((caseItem) =>
       isCaseForMaterial(caseItem, material) && Boolean(getMainPhoto(caseItem)))
-    .slice(0, 6), [publishedCases, material?.product_id, material?.id, material?.slug,
-      material?.code, material?.product_code, material?.brand]);
+    .slice(0, 6), [publishedCases, material]);
 
   if (!resolved) return null;
   if (matchingCases.length === 0) return fallback;
