@@ -1177,3 +1177,100 @@
     justify-content: center;
   }
 }
+
+
+/* ========================================================================
+   B2B HOME: Procurement-first hero and shortcut cards
+   ======================================================================== */
+.b2b-hero-inner {
+  max-width: 1240px;
+  display: grid;
+  grid-template-columns: minmax(0, 1.25fr) minmax(320px, .75fr);
+  align-items: center;
+  gap: clamp(32px, 5vw, 90px);
+  text-align: left;
+}
+.b2b-hero-copy { min-width: 0; }
+.b2b-hero-copy .hero-brand-tag { margin-bottom: 24px; }
+.b2b-hero-copy .hero-main-title { font-size: clamp(38px, 4.4vw, 66px); letter-spacing: -.055em; }
+.b2b-hero-copy .hero-sub-description { font-size: clamp(15px, 1.35vw, 19px); line-height: 1.85; }
+.b2b-hero-copy .hero-cta-group { justify-content: flex-start; }
+.b2b-hero-benefits {
+  display: flex; flex-wrap: wrap; gap: 10px 18px; margin-top: 32px;
+  color: rgba(255,255,255,.9); font-size: 13px; font-weight: 500;
+}
+.b2b-hero-benefits span { display: inline-flex; align-items: center; gap: 6px; }
+.b2b-hero-benefits svg { color: #d8b16c; }
+.b2b-hero-workflow {
+  padding: clamp(26px, 3vw, 42px);
+  background: rgba(16, 22, 28, .77);
+  color: white; border: 1px solid rgba(255,255,255,.25);
+  border-radius: 16px; box-shadow: 0 22px 70px rgba(0,0,0,.25);
+  backdrop-filter: blur(18px); -webkit-backdrop-filter: blur(18px);
+}
+.b2b-workflow-kicker {
+  display: flex; align-items: center; justify-content: space-between;
+  color: #d9b46f; font-size: 10px; font-weight: 800; letter-spacing: .14em;
+}
+.b2b-workflow-kicker span { color: rgba(255,255,255,.5); }
+.b2b-hero-workflow h2 {
+  margin: 17px 0 12px; color: #fff;
+  font-size: clamp(25px, 2.1vw, 32px); line-height: 1.35; letter-spacing: -.04em;
+}
+.b2b-hero-workflow > p { font-size: 13px; line-height: 1.7; color: rgba(255,255,255,.68); margin-bottom: 21px; }
+.b2b-workflow-links { border-top: 1px solid rgba(255,255,255,.17); }
+.b2b-workflow-links a {
+  display: flex; align-items: center; gap: 15px;
+  padding: 17px 0; border-bottom: 1px solid rgba(255,255,255,.17);
+  color: #fff; transition: color .2s ease;
+}
+.b2b-workflow-links a:hover { color: #e8bf75; }
+.b2b-step-index { color: #c7a265; font-size: 12px; font-weight: 800; }
+.b2b-step-content { display: flex; flex: 1; flex-direction: column; gap: 2px; }
+.b2b-step-content strong { font-size: 15px; font-weight: 700; }
+.b2b-step-content small { color: rgba(255,255,255,.63); font-size: 12px; }
+.b2b-workflow-footnote { margin-top: 21px; font-size: 11px; color: rgba(255,255,255,.6); line-height: 1.5; }
+.b2b-quick-access { background: #f6f6f4; padding: 25px 0; }
+.b2b-quick-grid { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 12px; }
+.b2b-quick-item {
+  min-height: 116px; padding: 23px 18px; display: flex; gap: 13px; align-items: center;
+  background: #fff; border: 1px solid #e8e8e4; color: #222;
+  border-radius: 8px; transition: border-color .2s, transform .2s, box-shadow .2s;
+}
+.b2b-quick-item:hover { transform: translateY(-3px); border-color: #c5a56d; box-shadow: 0 8px 25px rgba(0,0,0,.06); }
+.b2b-quick-icon { flex-shrink: 0; color: #b3925f; }
+.b2b-quick-item > span:nth-child(2) { display: flex; flex: 1; min-width: 0; flex-direction: column; gap: 4px; }
+.b2b-quick-item strong { font-size: 15px; font-weight: 800; }
+.b2b-quick-item small { font-size: 12px; color: #646464; }
+.b2b-quick-item > svg { flex-shrink: 0; color: #a0a0a0; }
+@media (max-width: 1050px) {
+  .b2b-hero-inner { grid-template-columns: minmax(0,1fr) minmax(290px,.9fr); gap: 24px; }
+  .b2b-quick-grid { grid-template-columns: repeat(2, minmax(0,1fr)); }
+  .b2b-hero-workflow { padding: 22px; }
+}
+@media (max-width: 767px) {
+  .showroom-hero-section { min-height: 760px; height: auto; min-height: 100svh; }
+  .hero-video-stage { position: relative; min-height: 100svh; height: auto; }
+  .hero-content-wrap { padding: 128px 12px 90px; }
+  .b2b-hero-inner { display: flex; flex-direction: column; gap: 32px; align-items: stretch; }
+  .b2b-hero-copy { text-align: center; }
+  .b2b-hero-copy .hero-brand-tag { font-size: 9px; letter-spacing: .1em; }
+  .b2b-hero-copy .hero-main-title { font-size: clamp(32px, 8vw, 43px); }
+  .b2b-hero-copy .hero-sub-description { font-size: 14px; line-height: 1.75; }
+  .b2b-desktop-break { display: none; }
+  .b2b-hero-copy .hero-cta-group { justify-content: center; gap: 10px; }
+  .b2b-hero-copy .btn-hero-primary, .b2b-hero-copy .btn-hero-glass { padding: 13px 15px; font-size: 13px; }
+  .b2b-hero-benefits { justify-content: center; margin-top: 22px; font-size: 11px; }
+  .b2b-hero-workflow { max-width: 520px; width: 100%; margin: 0 auto; text-align: left; }
+  .b2b-quick-grid { grid-template-columns: repeat(2,minmax(0,1fr)); gap: 8px; }
+  .b2b-quick-item { min-height: 118px; padding: 14px; align-items: flex-start; flex-direction: column; gap: 7px; }
+  .b2b-quick-item > svg { display: none; }
+  .b2b-quick-item strong { font-size: 13px; }
+  .b2b-quick-item small { font-size: 11px; }
+  .hero-video-toggle-btn { bottom: 14px; right: 14px; }
+  .hero-scroll-cue { display: none; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .b2b-quick-item { transition: none; }
+  .b2b-quick-item:hover { transform: none; }
+}
