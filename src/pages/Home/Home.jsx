@@ -35,7 +35,7 @@ const HOME_JSON_LD = {
   "url": "https://dkfloor.co.kr",
   "logo": "https://dkfloor.co.kr/dk-apple-touch-icon-transparent.png",
   "image": "https://dkfloor.co.kr/dk-apple-touch-icon-transparent.png",
-  "description": "국내 주요 브랜드(KCC, LX, 동신, 재영, 이건 등) 데코타일, 마루, 장판, 벽지 전문 유통. 자재 선택부터 시공 상담까지 한곳에서 진행하는 프리미엄 원스톱 바닥재 서비스",
+  "description": "인테리어 업체와 전문 시공팀을 위한 바닥재·벽지 자재 공급. KCC, LX, 동신 등 주요 브랜드 제품 검색, 현장별 견적문의, 발주 및 수령·배송 상담 지원",
   "telephone": "02-487-9775",
   "priceRange": "₩₩",
   "address": {
@@ -744,8 +744,8 @@ export default function Home() {
   return (
     <MainLayout>
       <SEO 
-        title="동경바닥재 | KCC 프리미엄 바닥재 쇼룸 · 데코타일·마루·장판 유통 및 시공"
-        description="동경바닥재 - KCC 주력 센스타일 트랜디, 센스타일 프로, 센스레이 공식 공급. 자재 구매부터 견적 상담, 전문 시공 연계까지 한곳에서 진행하세요."
+        title="동경바닥재 | 인테리어 업체·시공팀 바닥재 공급 및 현장 견적"
+        description="동경바닥재 - 인테리어 업체와 시공팀을 위한 데코타일·장판·마루·벽지 공급. KCC·LX·동신 등 제품코드 및 규격 검색부터 현장별 견적과 발주 상담까지."
         canonical="https://dkfloor.co.kr/"
         jsonLd={HOME_JSON_LD}
       />
@@ -812,45 +812,78 @@ export default function Home() {
                 pointerEvents: heroTextOpacity < 0.15 ? 'none' : 'auto'
               }}
             >
-              <div className="container hero-inner-container">
-                {/* 0.2s: Brand Fade In */}
-                <div className="hero-brand-tag">
-                  <span className="brand-dot" />
-                  <span>DONGKYUNG FLOORING</span>
+              <div className="container hero-inner-container b2b-hero-inner">
+                <div className="b2b-hero-copy">
+                  <div className="hero-brand-tag">
+                    <span className="brand-dot" />
+                    <span>FOR PROFESSIONALS · DONGKYUNG FLOORING</span>
+                  </div>
+
+                  <h1 className="hero-main-title">
+                    현장에 필요한 자재,<br />
+                    검색부터 발주까지.
+                  </h1>
+
+                  <p className="hero-sub-description">
+                    인테리어 업체·시공팀을 위한 바닥재 공급 파트너.<br className="b2b-desktop-break" />
+                    제품코드 확인, 현장 견적, 수령·배송 상담을 한곳에서 진행하세요.
+                  </p>
+
+                  <div className="hero-cta-group">
+                    <Link
+                      to="/materials"
+                      className="btn-hero-primary"
+                      onMouseEnter={() => preloadRoute('/materials')}
+                      onTouchStart={() => preloadRoute('/materials')}
+                    >
+                      <ShoppingBag size={18} />
+                      <span>자재·규격 검색</span>
+                      <ArrowRight size={16} />
+                    </Link>
+                    <Link
+                      to="/estimate/request"
+                      className="btn-hero-glass"
+                      onMouseEnter={() => preloadRoute('/estimate')}
+                      onTouchStart={() => preloadRoute('/estimate')}
+                    >
+                      <FileText size={18} />
+                      <span>현장 견적문의</span>
+                      <ArrowUpRight size={16} />
+                    </Link>
+                  </div>
+
+                  <div className="b2b-hero-benefits" aria-label="주요 서비스">
+                    <span><CheckCircle2 size={16} /> 제품코드·규격 검색</span>
+                    <span><CheckCircle2 size={16} /> 현장별 견적 상담</span>
+                    <span><CheckCircle2 size={16} /> 수령·배송 방식 선택</span>
+                  </div>
                 </div>
 
-                {/* 0.6s: Main Title Slide Up */}
-                <h1 className="hero-main-title">
-                  공간의 가치를 완성하는 바닥재
-                </h1>
-
-                {/* 1.1s: Subtitle Appear */}
-                <p className="hero-sub-description">
-                  좋은 공간의 시작, 자재 선택부터 시공까지.
-                </p>
-
-                {/* 1.5s: Action Buttons Appear */}
-                <div className="hero-cta-group">
-                  <Link 
-                    to="/materials" 
-                    className="btn-hero-primary"
-                    onMouseEnter={() => preloadRoute('/materials')}
-                    onTouchStart={() => preloadRoute('/materials')}
-                  >
-                    <ShoppingBag size={18} />
-                    <span>자재 찾기 →</span>
-                  </Link>
-
-                  <Link 
-                    to="/estimate/request" 
-                    className="btn-hero-glass"
-                    onMouseEnter={() => preloadRoute('/estimate')}
-                    onTouchStart={() => preloadRoute('/estimate')}
-                  >
-                    <FileText size={18} />
-                    <span>견적문의 →</span>
-                  </Link>
-                </div>
+                <aside className="b2b-hero-workflow" aria-label="자재 발주 안내">
+                  <div className="b2b-workflow-kicker">PROCUREMENT FLOW <span>01 — 03</span></div>
+                  <h2>발주 업무를<br />더 간단하게.</h2>
+                  <p>제품 확인부터 주문 준비까지, 필요한 메뉴로 바로 이동하세요.</p>
+                  <div className="b2b-workflow-links">
+                    <Link to="/materials">
+                      <span className="b2b-step-index">01</span>
+                      <span className="b2b-step-content"><strong>자재 검색</strong><small>브랜드·코드·규격 확인</small></span>
+                      <ArrowUpRight size={18} />
+                    </Link>
+                    <Link to="/estimate/request">
+                      <span className="b2b-step-index">02</span>
+                      <span className="b2b-step-content"><strong>현장 견적문의</strong><small>면적·자재·현장 정보 전달</small></span>
+                      <ArrowUpRight size={18} />
+                    </Link>
+                    <Link to="/cart">
+                      <span className="b2b-step-index">03</span>
+                      <span className="b2b-step-content"><strong>발주 내역 확인</strong><small>선택한 자재 장바구니 확인</small></span>
+                      <ArrowUpRight size={18} />
+                    </Link>
+                  </div>
+                  <div className="b2b-workflow-footnote">
+                    사무실 직접수령 · 화물 · 퀵 · 현장 배송 상담
+                  </div>
+                </aside>
               </div>
             </div>
 
@@ -865,18 +898,46 @@ export default function Home() {
           </div>
         </section>
 
+        {/* B2B quick access: all links use existing working routes. */}
+        <section className="b2b-quick-access" aria-label="업체 빠른 업무 메뉴">
+          <div className="container">
+            <div className="b2b-quick-grid">
+              <Link to="/materials" className="b2b-quick-item">
+                <span className="b2b-quick-icon"><ShoppingBag size={23} /></span>
+                <span><strong>전체 자재 검색</strong><small>상품코드·브랜드·규격 찾기</small></span>
+                <ArrowUpRight size={20} />
+              </Link>
+              <Link to="/samplebooks" className="b2b-quick-item">
+                <span className="b2b-quick-icon"><Briefcase size={23} /></span>
+                <span><strong>브랜드 샘플북</strong><small>제품 라인업·패턴 확인</small></span>
+                <ArrowUpRight size={20} />
+              </Link>
+              <Link to="/estimate/request" className="b2b-quick-item">
+                <span className="b2b-quick-icon"><FileText size={23} /></span>
+                <span><strong>현장 견적문의</strong><small>자재·평수·납품 조건 상담</small></span>
+                <ArrowUpRight size={20} />
+              </Link>
+              <Link to="/cases" className="b2b-quick-item">
+                <span className="b2b-quick-icon"><Building2 size={23} /></span>
+                <span><strong>시공사례</strong><small>현장별 적용 제품 확인</small></span>
+                <ArrowUpRight size={20} />
+              </Link>
+            </div>
+          </div>
+        </section>
+
         {/* ================= 2. RECOMMENDED COLLECTION (데코타일: KCC / 장판: LX) ================= */}
         <section className="showroom-collection-section">
           <div className="container">
             <div className="section-head-block center">
               <span className="section-eyebrow">OUR COLLECTION</span>
               <h2 className="section-primary-title">
-                공간에 어울리는 바닥재를 만나보세요.
+                현장에 맞는 자재를 바로 확인하세요.
               </h2>
               <p className="section-sub-copy">
                 {recommendedCategory === "decotile"
-                  ? "KCC 센스타일 트랜디의 다양한 패턴을 만나보세요."
-                  : "동경바닥재가 추천하는 LX하우시스 대표 친환경·고기능 륨 장판 라인업"}
+                  ? "KCC 센스타일 트랜디 제품의 코드·규격·패턴을 확인하세요."
+                  : "LX하우시스 장판 라인업의 제품 정보와 규격을 확인하세요."}
               </p>
 
               {/* Category Switcher Tabs */}
@@ -1052,7 +1113,7 @@ export default function Home() {
               <div className="section-head-block row-header">
                 <div>
                   <span className="section-eyebrow">REAL PROJECTS</span>
-                  <h2 className="section-primary-title">우리가 완성한 공간들</h2>
+                  <h2 className="section-primary-title">현장에서 확인하는 자재 적용 사례</h2>
                   <p className="section-sub-copy">
                     동경바닥재가 직접 완공한 헬스장, 아파트, 오피스텔 등 실제 바닥 시공 현장을 확인해보세요.
                   </p>
@@ -1167,36 +1228,36 @@ export default function Home() {
                 <div className="about-header-column">
                   <span className="section-eyebrow">ABOUT DONGKYUNG</span>
                   <h2 className="about-editorial-title">
-                    좋은 자재가<br />
-                    좋은 공간을 만듭니다.
+                    자재 공급부터<br />
+                    현장 납품 상담까지.
                   </h2>
                 </div>
 
                 <div className="about-body-column">
                   <p className="about-lead-paragraph">
-                    동경바닥재는 다양한 바닥재와 벽지를 공급하며, 공간의 용도와 현장 조건에 맞는 자재 선택 및 시공 상담을 도와드립니다.
+                    동경바닥재는 인테리어 업체와 전문 시공팀이 필요한 자재를 편리하게 찾고 주문할 수 있도록 바닥재·벽지 제품 정보를 제공합니다.
                   </p>
                   <p className="about-sub-paragraph">
-                    주거 공간부터 상업용 매장, 대형 오피스 및 특수 시설까지 — 공간마다 요구되는 내마모성, 쿠션감, 수밀성을 정밀히 분석하여 최적의 솔루션을 제안합니다.
+                    현장별 자재 코드와 규격, 필요 수량, 수령·배송 조건을 확인하고 견적을 문의할 수 있습니다. 사무실 직접수령, 화물, 퀵 등 납품 방식은 주문 조건에 따라 상담합니다.
                   </p>
 
                   <div className="about-values-grid">
                     <div className="value-item">
                       <div className="value-num">01</div>
-                      <h4>정품 자재 직공급</h4>
-                      <p>KCC, LX, 동신, 동화, 이건 등 국내 주요 제조사 100% 정품 바닥재 공급</p>
+                      <h4>주요 브랜드 자재 유통</h4>
+                      <p>KCC·LX·동신 등 다양한 브랜드의 데코타일·장판·마루·벽지 취급</p>
                     </div>
 
                     <div className="value-item">
                       <div className="value-num">02</div>
-                      <h4>현장 맞춤 견적</h4>
-                      <p>공간 유형, 면적, 용도에 맞춘 정확한 소요량 산출과 투명한 견적</p>
+                      <h4>현장별 견적문의</h4>
+                      <p>자재 코드·평수·현장 조건을 바탕으로 자재 공급 견적 상담</p>
                     </div>
 
                     <div className="value-item">
                       <div className="value-num">03</div>
-                      <h4>원스톱 시공 연계</h4>
-                      <p>자재 구매부터 숙련된 시공팀의 정밀 책임 시공까지 원스톱 관리</p>
+                      <h4>수령·납품 상담</h4>
+                      <p>사무실 직접수령·화물·퀵·현장 배송 등 주문에 맞는 방식 안내</p>
                     </div>
                   </div>
                 </div>
@@ -1212,10 +1273,10 @@ export default function Home() {
               <div className="estimate-text-block">
                 <span className="estimate-eyebrow">ESTIMATE CONSULTATION</span>
                 <h2 className="estimate-main-title">
-                  공간의 변화, 지금 시작하세요.
+                  다음 현장 자재, 빠르게 준비하세요.
                 </h2>
                 <p className="estimate-sub-title">
-                  자재 선택부터 시공 상담까지, 동경바닥재 전문가가 친절히 상담해 드립니다.
+                  제품코드와 필요 평수, 현장주소를 알려주시면 자재 공급과 수령·배송 조건을 상담해 드립니다.
                 </p>
               </div>
 
@@ -1227,7 +1288,7 @@ export default function Home() {
                   onTouchStart={() => preloadRoute('/estimate')}
                 >
                   <FileText size={18} />
-                  <span>견적문의 하기 →</span>
+                  <span>현장 견적문의 →</span>
                 </Link>
 
                 <div className="estimate-contact-links">
