@@ -3,8 +3,12 @@
   "trailingSlash": false,
   "rewrites": [
     {
+      "source": "/materials/:id",
+      "destination": "/"
+    },
+    {
       "source": "/((?!api/|images/|assets/|samplebook-assets/|favicon|sitemap.xml|robots.txt|.*\\..*).*)",
-      "destination": "/index.html"
+      "destination": "/"
     }
   ],
   "headers": [
