@@ -9,7 +9,6 @@ export default function RightFloatingBox({ hideOnPaths = [] }) {
     const nav = useNavigate();
     const [isMobileExpanded, setIsMobileExpanded] = useState(false);
 
-    const isEstimatePage = loc.pathname.startsWith('/estimate') || loc.pathname.startsWith('/quote');
     const hidden = hideOnPaths.some((p) => loc.pathname.startsWith(p)) || loc.pathname === "/";
     if (hidden) return null;
 
@@ -24,31 +23,29 @@ export default function RightFloatingBox({ hideOnPaths = [] }) {
                     <div className="rf-sub">주말 07:00 - 12:00</div>
                     <div className="rf-sub" style={{ marginTop: '8px' }}>이메일: dongk309@naver.com</div>
                     
-                    {!isEstimatePage && (
-                      <a 
-                        href={KAKAO_CHAT_URL} 
-                        target="_blank" 
-                        rel="noopener noreferrer" 
-                        className="rf-kakao-btn"
-                        style={{
-                          marginTop: '12px',
-                          display: 'flex',
-                          alignItems: 'center',
-                          justifyContent: 'center',
-                          gap: '6px',
-                          backgroundColor: '#FEE500',
-                          color: '#191919',
-                          padding: '10px 12px',
-                          borderRadius: '8px',
-                          fontWeight: '700',
-                          fontSize: '13px',
-                          textDecoration: 'none',
-                          transition: 'opacity 0.2s'
-                        }}
-                      >
-                        💬 카톡 1:1 상담
-                      </a>
-                    )}
+                    <a 
+                      href={KAKAO_CHAT_URL} 
+                      target="_blank" 
+                      rel="noopener noreferrer" 
+                      className="rf-kakao-btn"
+                      style={{
+                        marginTop: '12px',
+                        display: 'flex',
+                        alignItems: 'center',
+                        justifyContent: 'center',
+                        gap: '6px',
+                        backgroundColor: '#FEE500',
+                        color: '#191919',
+                        padding: '10px 12px',
+                        borderRadius: '8px',
+                        fontWeight: '700',
+                        fontSize: '13px',
+                        textDecoration: 'none',
+                        transition: 'opacity 0.2s'
+                      }}
+                    >
+                      💬 카톡 1:1 상담
+                    </a>
                 </div>
 
                 <div className="rf-card">
@@ -86,8 +83,7 @@ export default function RightFloatingBox({ hideOnPaths = [] }) {
                                     <button className="btn-mobile-action-estimate" onClick={() => { setIsMobileExpanded(false); nav("/estimate/request"); }}>
                                         온라인 견적 문의
                                     </button>
-                                    {!isEstimatePage && (
-                                      <a 
+                                    <a 
                                         href={KAKAO_CHAT_URL} 
                                         target="_blank" 
                                         rel="noopener noreferrer" 
@@ -109,7 +105,6 @@ export default function RightFloatingBox({ hideOnPaths = [] }) {
                                       >
                                         💬 카카오톡 1:1 상담
                                       </a>
-                                    )}
                                 </div>
                             </div>
                         </div>

@@ -71,8 +71,15 @@
 
 /* Collapsed mobile trigger button */
 .right-float-mobile.collapsed {
-    bottom: 130px;
+    bottom: 140px;
     right: 20px;
+}
+
+@media (max-width: 768px) {
+    .right-float-mobile.collapsed {
+        bottom: calc(172px + env(safe-area-inset-bottom, 0px));
+        right: 16px;
+    }
 }
 
 .rf-mobile-trigger {

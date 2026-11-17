@@ -1,5 +1,6 @@
 import React, { useState, useEffect, useMemo } from "react";
 import { useParams, Link, useNavigate } from "react-router-dom";
+import MainLayout from "../../components/layout/MainLayout";
 import SEO from "../../components/seo/SEO";
 import { GUIDE_ARTICLES } from "../../data/guideData";
 import { fetchAllProducts } from "../../utils/supabaseFetcher";
@@ -118,15 +119,17 @@ export default function GuideDetail() {
 
   if (!article) {
     return (
-      <div className="guide-container" style={{ textAlign: "center", padding: "80px 20px" }}>
-        <h2>찾으시는 바닥재 가이드가 존재하지 않습니다.</h2>
-        <p style={{ marginTop: "12px", color: "#6b7280" }}>
-          요청하신 경로의 가이드 페이지가 없거나 삭제되었습니다.
-        </p>
-        <Link to="/guide" className="guide-cta-btn" style={{ marginTop: "24px" }}>
-          바닥재 가이드 메인으로 이동
-        </Link>
-      </div>
+      <MainLayout>
+        <div className="guide-container" style={{ textAlign: "center", padding: "80px 20px" }}>
+          <h2>찾으시는 바닥재 가이드가 존재하지 않습니다.</h2>
+          <p style={{ marginTop: "12px", color: "#6b7280" }}>
+            요청하신 경로의 가이드 페이지가 없거나 삭제되었습니다.
+          </p>
+          <Link to="/guide" className="guide-cta-btn" style={{ marginTop: "24px" }}>
+            바닥재 가이드 메인으로 이동
+          </Link>
+        </div>
+      </MainLayout>
     );
   }
 
@@ -155,7 +158,8 @@ export default function GuideDetail() {
   };
 
   return (
-    <div className="guide-container">
+    <MainLayout>
+      <div className="guide-container">
       <SEO
         title={article.metaTitle || `${article.title} | 동경바닥재`}
         description={article.metaDescription}
@@ -369,5 +373,6 @@ export default function GuideDetail() {
         </Link>
       </div>
     </div>
-  );
+  </MainLayout>
+);
 }

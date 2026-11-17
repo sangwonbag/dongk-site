@@ -1,5 +1,6 @@
 import React, { useState, useMemo } from "react";
 import { Link } from "react-router-dom";
+import MainLayout from "../../components/layout/MainLayout";
 import SEO from "../../components/seo/SEO";
 import {
   GUIDE_CATEGORIES,
@@ -34,7 +35,8 @@ export default function GuideMain() {
   }, []);
 
   return (
-    <div className="guide-container">
+    <MainLayout>
+      <div className="guide-container">
       <SEO
         title="어떤 바닥재가 맞을까요? | 바닥재 가이드 | 동경바닥재"
         description="집, 상가, 사무실 등 공간과 예산에 맞는 바닥재(장판, 데코타일, 강마루)를 비교하고 실제 판매 제품과 예상 견적까지 확인해 보세요."
@@ -240,5 +242,6 @@ export default function GuideMain() {
         </Link>
       </div>
     </div>
-  );
+  </MainLayout>
+);
 }

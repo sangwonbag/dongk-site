@@ -1,25 +1,12 @@
 .floating-buttons-container {
     position: fixed;
-    bottom: 20px;
-    right: 20px;
+    bottom: 24px;
+    right: 24px;
     display: flex;
     flex-direction: column;
+    align-items: flex-end;
     gap: 10px;
-    z-index: 1000;
-}
-
-.floating-phone-btn {
-    background-color: #111;
-    color: #fff;
-    padding: 12px 20px;
-    border-radius: 50px;
-    display: flex;
-    align-items: center;
-    gap: 8px;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
-    font-weight: 700;
-    transition: transform 0.2s;
-    text-decoration: none;
+    z-index: 999;
 }
 
 .floating-kakao-btn {
@@ -29,36 +16,89 @@
     border-radius: 50px;
     display: flex;
     align-items: center;
+    justify-content: center;
     gap: 8px;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    box-shadow: 0 4px 14px rgba(0, 0, 0, 0.16);
     font-weight: 700;
-    transition: transform 0.2s;
+    font-size: 14px;
+    line-height: 1;
     text-decoration: none;
+    transition: transform 0.2s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.2s ease;
+    cursor: pointer;
+    user-select: none;
+    white-space: nowrap;
 }
 
-.floating-phone-btn:hover,
 .floating-kakao-btn:hover {
     transform: translateY(-2px);
-    color: inherit;
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.22);
+    color: #191919;
 }
 
-.phone-icon, .kakao-icon {
-    font-size: 18px;
-}
-
-.phone-text, .kakao-text {
+.floating-phone-btn {
+    background-color: #111111;
+    color: #ffffff;
+    padding: 12px 20px;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    box-shadow: 0 4px 14px rgba(0, 0, 0, 0.16);
+    font-weight: 700;
     font-size: 14px;
+    line-height: 1;
+    text-decoration: none;
+    transition: transform 0.2s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.2s ease;
+    cursor: pointer;
+    user-select: none;
+    white-space: nowrap;
 }
 
+.floating-phone-btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.22);
+    color: #ffffff;
+}
+
+.kakao-svg-icon {
+    display: inline-block;
+    flex-shrink: 0;
+    vertical-align: middle;
+}
+
+.phone-icon {
+    font-size: 16px;
+    line-height: 1;
+    display: inline-block;
+}
+
+.kakao-text, .phone-text {
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: -0.3px;
+}
+
+/* Mobile responsive layout */
 @media (max-width: 768px) {
     .floating-buttons-container {
-        bottom: 16px;
+        bottom: calc(72px + env(safe-area-inset-bottom, 0px));
         right: 16px;
         gap: 8px;
     }
     .floating-phone-btn,
     .floating-kakao-btn {
         padding: 10px 16px;
+    }
+    .kakao-svg-icon {
+        width: 17px;
+        height: 17px;
+    }
+    .phone-icon {
+        font-size: 14px;
+    }
+    .kakao-text, .phone-text {
+        font-size: 13.5px;
     }
 }
 
@@ -76,8 +116,10 @@
     }
     .floating-phone-btn,
     .floating-kakao-btn {
-        min-height: 48px;
-        padding: 8px 14px;
+        min-height: 42px;
+        padding: 8px 13px;
+    }
+    .kakao-text, .phone-text {
         font-size: 13px;
     }
 }
