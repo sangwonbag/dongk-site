@@ -1,0 +1,13 @@
+.real-case-examples { margin-top: 24px; }
+.real-case-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 16px; margin-top: 20px; }
+.real-case-card { display: block; overflow: hidden; border: 1px solid #e5e7eb; border-radius: 12px; color: inherit; text-decoration: none; background: white; transition: box-shadow .2s ease, transform .2s ease; }
+.real-case-card:hover, .real-case-card:focus-visible { box-shadow: 0 8px 24px rgba(0,0,0,.12); transform: translateY(-2px); }
+.real-case-photo-wrap { position: relative; aspect-ratio: 4 / 3; overflow: hidden; background: #f1f5f9; }
+.real-case-photo-wrap img { display: block; width: 100%; height: 100%; object-fit: cover; }
+.real-case-photo-label { position: absolute; top: 10px; left: 10px; padding: 5px 8px; font-size: 11px; font-weight: 700; color: white; background: #273244; border-radius: 4px; }
+.real-case-info { padding: 14px; }
+.real-case-info h3 { margin: 0 0 9px; font-size: 14px; line-height: 1.45; color: #1f2937; }
+.real-case-info p { display: flex; gap: 5px; align-items: center; margin: 0 0 10px; color: #64748b; font-size: 12px; }
+.real-case-action { display: inline-flex; align-items: center; gap: 4px; font-size: 12px; font-weight: 700; color: #a77b40; }
+@media (max-width: 900px) { .real-case-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+@media (max-width: 600px) { .real-case-grid { grid-template-columns: 1fr; gap: 12px; } .real-case-photo-wrap { aspect-ratio: 16 / 10; } }
