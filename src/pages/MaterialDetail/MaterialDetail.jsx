@@ -44,6 +44,7 @@ import {
 } from "../../utils/dongshinDetailUtils";
 import DongshinDetailSection from "../../components/product/DongshinDetailSection";
 import ProductDetailImages from "../../components/product/ProductDetailImages";
+import ConstructionCaseExamples from "../../components/product/ConstructionCaseExamples";
 import ImageLightboxModal from "../../components/common/ImageLightboxModal";
 import { getProductDetailImages } from "../../services/productDetailImageService";
 import { normalizeImagePath, getUniqueProductImages } from "../../utils/galleryNormalizer";
@@ -3096,37 +3097,41 @@ export default function MaterialDetail() {
                 />
               )}
 
-              {/* Dynamic Virtual Space Showroom Section (exclude Dongshin, Prestige, Jaeyoung & Nox with dedicated sections) */}
-              {!isDongshinDeco && !isLxPrestigeProduct(item) && !isJaeyoungDeco && !isNox && !isLxCatalogProduct(item) && (
-                <section className="detail-doc-section">
-                  <h2 className="doc-section-title">이 자재가 적용된 공간 예시</h2>
-                  <div className="doc-accent-bar"></div>
-                  <p className="doc-section-helper">현재 선택한 자재 패턴과 이미지를 기반으로 한 가상 공간 적용 시뮬레이션입니다.</p>
-                  <div className="virtual-space-grid">
-                    {spaceExamples.map((ex, idx) => (
-                      <div key={idx} className={`virtual-space-card ${item.category === '벽지' ? 'category-wall' : 'category-floor'}`}>
-                        <div className="space-card-img-wrapper">
-                          <img 
-                            src={ex.image} 
-                            alt={ex.title} 
-                            className="space-card-img"
-                            onError={(e) => { 
-                              e.target.onerror = null; 
-                              e.target.src = item.thumbnail || "/images/no-image.svg"; 
-                            }}
-                          />
-                          <div className="space-card-overlay"></div>
-                          <div className="space-card-info">
-                            <h3 className="space-card-title">{ex.title}</h3>
-                            <p className="space-card-desc">{ex.subtitle}</p>
-                            <span className="space-card-badge">{item.brand} {item.code}</span>
-                          </div>
-                        </div>
-                      </div>
-                    ))}
-                  </div>
-                </section>
-              )}
+              {/* Show actual published installations for this exact material first. */}
+              <ConstructionCaseExamples material={item} fallback={
+                <>
+                  {!isDongshinDeco && !isLxPrestigeProduct(item) && !isJaeyoungDeco && !isNox && !isLxCatalogProduct(item) && (
+                                  <section className="detail-doc-section">
+                                    <h2 className="doc-section-title">이 자재가 적용된 공간 예시</h2>
+                                    <div className="doc-accent-bar"></div>
+                                    <p className="doc-section-helper">현재 선택한 자재 패턴과 이미지를 기반으로 한 가상 공간 적용 시뮬레이션입니다.</p>
+                                    <div className="virtual-space-grid">
+                                      {spaceExamples.map((ex, idx) => (
+                                        <div key={idx} className={`virtual-space-card ${item.category === '벽지' ? 'category-wall' : 'category-floor'}`}>
+                                          <div className="space-card-img-wrapper">
+                                            <img 
+                                              src={ex.image} 
+                                              alt={ex.title} 
+                                              className="space-card-img"
+                                              onError={(e) => { 
+                                                e.target.onerror = null; 
+                                                e.target.src = item.thumbnail || "/images/no-image.svg"; 
+                                              }}
+                                            />
+                                            <div className="space-card-overlay"></div>
+                                            <div className="space-card-info">
+                                              <h3 className="space-card-title">{ex.title}</h3>
+                                              <p className="space-card-desc">{ex.subtitle}</p>
+                                              <span className="space-card-badge">{item.brand} {item.code}</span>
+                                            </div>
+                                          </div>
+                                        </div>
+                                      ))}
+                                    </div>
+                                  </section>
+                                )}
+                </>
+              } />
 
               {/* Guidelines Section */}
               {!isDongshinDeco && !isLxPrestigeProduct(item) && !isJaeyoungDeco && !isNox && !isLxCatalogProduct(item) && (
