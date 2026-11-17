@@ -12,6 +12,7 @@ import './Cases.css';
 
 // In-memory cache for instant zero-lag re-visits
 let cachedCasesData = null;
+const PAGE_SIZE = 30;
 
 
 export default function Cases() {
@@ -23,6 +24,7 @@ export default function Cases() {
   const [casesList, setCasesList] = useState(() => cachedCasesData || FALLBACK_CASES);
   const [loading, setLoading] = useState(() => !cachedCasesData && !FALLBACK_CASES.length);
   const categoryFilter = searchParams.get('category') || '전체';
+  const [page, setPage] = useState(1);
 
   // Lightbox Modal State
   const [lightboxState, setLightboxState] = useState({
@@ -33,6 +35,7 @@ export default function Cases() {
   });
 
   const setCategoryFilter = useCallback((cat) => {
+    setPage(1);
     if (cat === '전체') {
       searchParams.delete('category');
       setSearchParams(searchParams, { replace: true });
@@ -129,6 +132,12 @@ export default function Cases() {
 
     const found = casesList.find(c => String(c.id) === String(targetId) || c.slug === targetId);
     if (found) {
+      // Detail links can target a case on page 2/3. Show that page before scrolling.
+      const filtered = categoryFilter === '전체'
+        ? casesList
+        : casesList.filter(c => c.category === categoryFilter);
+      const targetIndex = filtered.findIndex(c => String(c.id) === String(found.id));
+      if (targetIndex >= 0) setPage(Math.floor(targetIndex / PAGE_SIZE) + 1);
       handleOpenLightbox(found, 0);
       setTimeout(() => {
         const el = document.getElementById(`case-card-${found.id}`);
@@ -137,7 +146,7 @@ export default function Cases() {
         }
       }, 150);
     }
-  }, [searchParams, casesList, handleOpenLightbox]);
+  }, [searchParams, casesList, categoryFilter, handleOpenLightbox]);
 
   const handleCloseLightbox = useCallback(() => {
     setLightboxState(prev => ({ ...prev, isOpen: false }));
@@ -159,6 +168,18 @@ export default function Cases() {
       return item.category === categoryFilter;
     });
   }, [casesList, categoryFilter]);
+
+  const totalPages = Math.max(1, Math.ceil(filteredCases.length / PAGE_SIZE));
+  const currentPage = Math.min(page, totalPages);
+  const visibleCases = useMemo(
+    () => filteredCases.slice((currentPage - 1) * PAGE_SIZE, currentPage * PAGE_SIZE),
+    [filteredCases, currentPage]
+  );
+
+  const changePage = useCallback((nextPage) => {
+    setPage(Math.max(1, Math.min(totalPages, nextPage)));
+    document.querySelector('.cases-category-filters')?.scrollIntoView({ behavior: 'smooth', block: 'start' });
+  }, [totalPages]);
 
   return (
     <MainLayout>
@@ -214,19 +235,42 @@ export default function Cases() {
             <p>다른 카테고리를 선택해 보시기 바랍니다.</p>
           </div>
         ) : (
-          <div className="cases-grid-layout">
-            {filteredCases.map((item, idx) => (
-              <CaseCard
-                key={item.id || item.slug}
-                item={item}
-                index={idx}
-                isAdmin={isAdmin}
-                onOpenLightbox={handleOpenLightbox}
-                onEdit={handleEditCase}
-                onTogglePublish={handleTogglePublish}
-              />
-            ))}
-          </div>
+          <>
+            <div className="cases-grid-layout">
+              {visibleCases.map((item, idx) => (
+                <CaseCard
+                  key={item.id || item.slug}
+                  item={item}
+                  index={idx}
+                  isAdmin={isAdmin}
+                  onOpenLightbox={handleOpenLightbox}
+                  onEdit={handleEditCase}
+                  onTogglePublish={handleTogglePublish}
+                />
+              ))}
+            </div>
+            {totalPages > 1 && (
+              <nav className="cases-pagination" aria-label="시공사례 페이지 선택">
+                <button type="button" onClick={() => changePage(currentPage - 1)} disabled={currentPage === 1}>
+                  이전
+                </button>
+                {Array.from({ length: totalPages }, (_, i) => i + 1).map(num => (
+                  <button
+                    key={num}
+                    type="button"
+                    className={num === currentPage ? 'active' : ''}
+                    onClick={() => changePage(num)}
+                    aria-current={num === currentPage ? 'page' : undefined}
+                  >
+                    {num}
+                  </button>
+                ))}
+                <button type="button" onClick={() => changePage(currentPage + 1)} disabled={currentPage === totalPages}>
+                  다음
+                </button>
+              </nav>
+            )}
+          </>
         )}
       </div>
 
