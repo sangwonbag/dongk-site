@@ -1274,3 +1274,195 @@
   .b2b-quick-item { transition: none; }
   .b2b-quick-item:hover { transform: none; }
 }
+
+
+/* ========================================================================
+   Aspirational entry: real spaces first, procurement actions second.
+   ======================================================================== */
+.inspiration-hero-inner {
+  grid-template-columns: minmax(0, 1.24fr) minmax(340px, .76fr);
+  gap: clamp(32px, 4vw, 78px);
+  padding-top: 104px;
+}
+.inspiration-hero-copy .hero-main-title {
+  font-size: clamp(36px, 4.2vw, 62px);
+  line-height: 1.29;
+  letter-spacing: -.052em;
+  word-break: keep-all;
+}
+.inspiration-hero-accent { color: #f3d79e; }
+.inspiration-hero-copy .hero-sub-description {
+  max-width: 640px;
+  line-height: 1.83;
+  margin-bottom: 28px;
+}
+.inspiration-hero-copy .hero-cta-group { gap: 11px; }
+.inspiration-hero-copy .btn-hero-primary,
+.inspiration-hero-copy .btn-hero-glass {
+  padding: 14px 23px;
+  gap: 9px;
+  font-size: 14px;
+}
+.inspiration-material-categories {
+  margin-top: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+.inspiration-material-categories a {
+  padding: 6px 13px;
+  border: 1px solid rgba(255,255,255,.35);
+  border-radius: 999px;
+  background: rgba(6,12,20,.25);
+  color: rgba(255,255,255,.94);
+  font-size: 12px;
+  font-weight: 600;
+  transition: background .2s ease, border-color .2s ease;
+}
+.inspiration-material-categories a:hover {
+  background: rgba(255,255,255,.2);
+  border-color: #f3d79e;
+}
+.inspiration-professional-note {
+  margin-top: 16px;
+  font-size: 12px;
+  color: rgba(255,255,255,.77);
+  line-height: 1.6;
+}
+.inspiration-hero-gallery {
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  text-align: left;
+}
+.inspiration-photo-card {
+  position: relative;
+  display: block;
+  isolation: isolate;
+  overflow: hidden;
+  min-height: 192px;
+  height: clamp(192px, 24vh, 240px);
+  border: 1px solid rgba(255,255,255,.52);
+  border-radius: 13px;
+  background: #3d4142;
+  box-shadow: 0 15px 38px rgba(0,0,0,.24);
+  color: #fff;
+  transition: transform .2s ease, border-color .2s ease;
+}
+.inspiration-photo-card:hover {
+  transform: translateY(-3px);
+  border-color: #f3d79e;
+  color: #fff;
+}
+.inspiration-photo-card img {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform .4s ease;
+}
+.inspiration-photo-card:hover img { transform: scale(1.045); }
+.inspiration-photo-shade {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  background: linear-gradient(180deg,rgba(10,12,18,.38) 0%,transparent 32%,rgba(10,12,18,.85) 100%);
+}
+.inspiration-photo-top {
+  position: absolute;
+  top: 16px;
+  left: 18px;
+  right: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+  font-size: 10px;
+  font-weight: 800;
+  letter-spacing: .12em;
+}
+.inspiration-photo-original {
+  padding: 3px 9px;
+  border-radius: 99px;
+  background: rgba(0,0,0,.45);
+  font-size: 10px;
+  font-weight: 600;
+  letter-spacing: 0;
+}
+.inspiration-photo-caption {
+  position: absolute;
+  left: 18px;
+  bottom: 17px;
+  right: 46px;
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
+.inspiration-photo-label { color: #f3d79e; font-size: 11px; font-weight: 700; }
+.inspiration-photo-caption strong {
+  color: #fff;
+  font-size: clamp(15px, 1.4vw, 19px);
+  line-height: 1.3;
+  letter-spacing: -.025em;
+  word-break: keep-all;
+}
+.inspiration-photo-caption small { font-size: 11px; color: rgba(255,255,255,.86); }
+.inspiration-photo-arrow { position: absolute; right: 17px; bottom: 18px; color: #fff; }
+.inspiration-gallery-footnote {
+  padding: 2px 1px 0;
+  text-align: center;
+  color: rgba(255,255,255,.78);
+  font-size: 11px;
+  line-height: 1.5;
+}
+@media (max-width: 1050px) and (min-width: 768px) {
+  .inspiration-hero-inner { grid-template-columns: minmax(0,1fr) minmax(285px,.8fr); gap: 23px; }
+  .inspiration-hero-copy .hero-main-title { font-size: clamp(33px, 4.1vw, 49px); }
+  .inspiration-hero-copy .btn-hero-primary,
+  .inspiration-hero-copy .btn-hero-glass { padding: 12px 15px; font-size: 12px; }
+  .inspiration-photo-card { height: 186px; min-height: 186px; }
+}
+@media (max-width: 767px) {
+  .inspiration-hero-inner {
+    display: flex;
+    flex-direction: column;
+    padding-top: 0;
+    gap: 24px;
+  }
+  .inspiration-hero-copy .hero-main-title {
+    font-size: clamp(29px, 8vw, 40px);
+    line-height: 1.37;
+  }
+  .inspiration-hero-copy .hero-sub-description { font-size: 13px; line-height: 1.75; margin-bottom: 23px; }
+  .inspiration-hero-copy .hero-cta-group { gap: 9px; }
+  .inspiration-hero-copy .btn-hero-primary,
+  .inspiration-hero-copy .btn-hero-glass { font-size: 12px; padding: 12px 13px; }
+  .inspiration-hero-copy .btn-hero-primary svg:last-child,
+  .inspiration-hero-copy .btn-hero-glass svg:last-child { display: none; }
+  .inspiration-material-categories { justify-content: center; margin-top: 19px; }
+  .inspiration-material-categories a { padding: 6px 10px; font-size: 11px; }
+  .inspiration-professional-note { margin-top: 13px; font-size: 11px; }
+  .inspiration-hero-gallery {
+    display: grid;
+    grid-template-columns: repeat(2,minmax(0,1fr));
+    gap: 9px;
+    width: 100%;
+  }
+  .inspiration-photo-card { min-height: 160px; height: 180px; border-radius: 9px; }
+  .inspiration-photo-top { top: 10px; left: 10px; right: 10px; font-size: 9px; }
+  .inspiration-photo-original { font-size: 9px; padding: 3px 6px; }
+  .inspiration-photo-caption { left: 10px; right: 10px; bottom: 10px; gap: 3px; }
+  .inspiration-photo-label { font-size: 10px; }
+  .inspiration-photo-caption strong { font-size: 13px; line-height: 1.25; }
+  .inspiration-photo-caption small { font-size: 10px; line-height: 1.3; }
+  .inspiration-photo-arrow { display: none; }
+  .inspiration-gallery-footnote { grid-column: 1 / -1; font-size: 10px; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .inspiration-photo-card,
+  .inspiration-photo-card img { transition: none; }
+  .inspiration-photo-card:hover,
+  .inspiration-photo-card:hover img { transform: none; }
+}
