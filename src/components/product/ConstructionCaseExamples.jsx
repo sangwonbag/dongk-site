@@ -1,128 +1,110 @@
-import React, { useEffect, useMemo, useState } from 'react';
+import React, { memo, useEffect, useMemo, useState } from 'react';
 import { Link } from 'react-router-dom';
-import { ArrowUpRight, MapPin } from 'lucide-react';
+import { ArrowUpRight, CalendarDays, MapPin, Package } from 'lucide-react';
 import { fetchPublishedCases } from '../../utils/constructionCasesService';
 import { getCaseImageUrl } from '../../utils/caseImageUtils';
+import { getConstructionCaseMatch } from '../../utils/constructionCaseMatcher';
 import './ConstructionCaseExamples.css';
 
-const normalizeCode = (value) =>
-  String(value || '').toUpperCase().replace(/[^A-Z0-9]/g, '');
+export { isCaseForMaterial } from '../../utils/constructionCaseMatcher';
 
-const normalizeBrand = (value) => {
-  const text = String(value || '').toUpperCase();
-  if (/KCC|케이씨씨/.test(text)) return 'KCC';
-  if (/LX|LG|하우시스/.test(text)) return 'LX';
-  if (/동신/.test(text)) return '동신';
-  if (/재영/.test(text)) return '재영';
-  if (/현대/.test(text)) return '현대';
-  if (/녹수|NOX/.test(text)) return '녹수';
-  if (/대진/.test(text)) return '대진';
-  if (/우성/.test(text)) return '우성';
-  if (/이건/.test(text)) return '이건';
-  if (/동화/.test(text)) return '동화';
-  if (/한솔/.test(text)) return '한솔';
-  if (/유성/.test(text)) return '유성';
-  return '';
-};
-
-const getMainPhoto = (caseItem) => {
-  const gallery = Array.isArray(caseItem.image_urls) ? caseItem.image_urls : [];
-  return [caseItem.main_image_url, ...gallery].find(
-    (value) => typeof value === 'string' && value.trim().length > 0
-  ) || '';
-};
-
-/**
- * Match actual case records, never generic product photos.
- * Prefer an explicit Supabase product FK/slug/SKU. Unlinked or multi-material
- * cases may match a bare numeric code only when the brand also matches.
- */
-export function isCaseForMaterial(caseItem, material) {
-  if (!caseItem || !material || caseItem.is_published === false || caseItem.is_active === false) {
-    return false;
-  }
-
-  const product = caseItem.products || {};
-  const materialId = material.product_id ||
-    (/^\d+$/.test(String(material.id || '')) ? material.id : null);
-  if (caseItem.product_id != null && materialId != null &&
-      String(caseItem.product_id) === String(materialId)) {
-    return true;
-  }
-
-  const materialSlug = String(material.slug || material.id || '').toLowerCase();
-  if (product.slug && materialSlug && product.slug.toLowerCase() === materialSlug) {
-    return true;
-  }
-
-  const sku = normalizeCode(material.code || material.product_code);
-  const linkedSku = normalizeCode(product.product_code || product.code);
-  if (sku && linkedSku && sku === linkedSku) {
-    return true;
-  }
-  if (!sku) return false;
-
-  const caseText = [caseItem.title, caseItem.material_summary, product.name]
-    .filter(Boolean).join(' ');
-  const materialBrand = normalizeBrand(material.brand);
-  const caseBrand = normalizeBrand(caseText);
-  // A bare number is ambiguous across manufacturers. Never cross-match brands.
-  if (!materialBrand || caseBrand !== materialBrand) return false;
-
-  const normalizedText = normalizeCode(caseText);
-  if (sku.length >= 4 && normalizedText.includes(sku)) return true;
-
-  const numericCode = sku.match(/\d{3,6}/)?.[0];
-  if (!numericCode) return false;
-  // Respect digit boundaries, e.g. 5541 must not accidentally match 15541.
-  return new RegExp('(^|[^0-9])' + numericCode + '(?![0-9])').test(caseText.toUpperCase());
+function getCasePhotos(item) {
+  const urls = [item.main_image_url, ...(Array.isArray(item.image_urls) ? item.image_urls : [])];
+  return [...new Set(urls.filter((value) => typeof value === 'string' && value.trim()))];
 }
 
-function CasePhoto({ caseItem }) {
-  const originalPhoto = getMainPhoto(caseItem);
-  const imageUrl = getCaseImageUrl(originalPhoto, '800') || originalPhoto;
+function CaseImage({ source, alt, size = '800', eager = false }) {
+  const [url, setUrl] = useState(() => getCaseImageUrl(source, size) || source);
+  const [attempt, setAttempt] = useState(0);
+
+  useEffect(() => {
+    setUrl(getCaseImageUrl(source, size) || source);
+    setAttempt(0);
+  }, [source, size]);
 
   return (
-    <Link
-      className="real-case-card"
-      to={'/cases?id=' + encodeURIComponent(caseItem.id)}
-      aria-label={caseItem.title + ' 시공사례 전체 사진 보기'}
-    >
-      <div className="real-case-photo-wrap">
-        <img
-          src={imageUrl}
-          alt={caseItem.title + ' 실제 시공 사진'}
-          loading="lazy"
-          decoding="async"
-          onError={(event) => {
-            const image = event.currentTarget;
-            if (image.dataset.caseFallback === 'raw') {
-              image.dataset.caseFallback = 'missing';
-              image.onerror = null;
-              image.src = '/images/no-image.svg';
-            } else {
-              image.dataset.caseFallback = 'raw';
-              image.src = originalPhoto;
-            }
-          }}
-        />
-        <span className="real-case-photo-label">실제 시공사례</span>
-      </div>
+    <img
+      src={url}
+      alt={alt}
+      loading={eager ? 'eager' : 'lazy'}
+      decoding="async"
+      onError={() => {
+        if (attempt === 0 && url !== source) {
+          setAttempt(1);
+          setUrl(source);
+        } else if (attempt < 2) {
+          setAttempt(2);
+          setUrl('/images/no-image.svg');
+        }
+      }}
+    />
+  );
+}
+
+function CasePhotoCard({ caseItem, matchType }) {
+  const photos = useMemo(() => getCasePhotos(caseItem), [caseItem]);
+  const destination = '/cases?id=' + encodeURIComponent(caseItem.id);
+  const constructedLabel = caseItem.constructed_at
+    ? new Date(caseItem.constructed_at).toLocaleDateString('ko-KR', { year: 'numeric', month: 'long' })
+    : '';
+
+  return (
+    <article className="real-case-card">
+      <Link to={destination} className="real-case-main-photo" aria-label={caseItem.title + ' 전체 시공 사진 보기'}>
+        <CaseImage source={photos[0]} alt={caseItem.title + ' 실제 시공 사진'} />
+        <span className="real-case-photo-label">실제 시공 현장</span>
+        {photos.length > 1 && <span className="real-case-photo-count">사진 {photos.length}장</span>}
+      </Link>
       <div className="real-case-info">
-        <h3>{caseItem.title}</h3>
-        {caseItem.location && <p><MapPin size={13} aria-hidden="true" />{caseItem.location}</p>}
-        <span className="real-case-action">시공 사진 전체 보기 <ArrowUpRight size={15} aria-hidden="true" /></span>
+        {caseItem.category && <span className="real-case-category">{caseItem.category}</span>}
+        <h3><Link to={destination}>{caseItem.title}</Link></h3>
+        {caseItem.description && <p className="real-case-description">{caseItem.description}</p>}
+
+        {photos.length > 1 && (
+          <div className="real-case-gallery" aria-label={caseItem.title + ' 현장 사진 미리보기'}>
+            {photos.slice(0, 3).map((photo, index) => (
+              <Link
+                key={photo}
+                to={destination}
+                className="real-case-thumb"
+                aria-label={caseItem.title + ' 시공사례 전체 사진 보기'}
+              >
+                <CaseImage source={photo} size="400" alt={caseItem.title + ' 사진 ' + (index + 1)} />
+                {index === 2 && photos.length > 3 &&
+                  <span className="real-case-more-photos">+{photos.length - 3}장</span>}
+              </Link>
+            ))}
+          </div>
+        )}
+
+        <dl className="real-case-specs">
+          {caseItem.location && (
+            <div><dt><MapPin size={14} aria-hidden="true" />시공 지역</dt><dd>{caseItem.location}</dd></div>
+          )}
+          {caseItem.material_summary && (
+            <div><dt><Package size={14} aria-hidden="true" />사용 자재</dt><dd>{caseItem.material_summary}</dd></div>
+          )}
+          {constructedLabel && (
+            <div><dt><CalendarDays size={14} aria-hidden="true" />시공 연월</dt><dd>{constructedLabel}</dd></div>
+          )}
+        </dl>
+
+        <Link to={destination} className="real-case-action">
+          시공사례 전체 보기 <ArrowUpRight size={16} aria-hidden="true" />
+        </Link>
+        {matchType === 'number' &&
+          <span className="real-case-match-note">제조사·자재번호 기준 연결</span>}
       </div>
-    </Link>
+    </article>
   );
 }
 
 /**
- * Reuses the existing published-case cache. Loading is deferred until this
- * section mounts, so product photos and purchase controls stay responsive.
- * With no matching real case, the existing clearly labeled simulation remains.
+ * All published cases are compared against the current product. Each card
+ * reuses the original case's pictures, title, text, location, material spec
+ * and date; no copies are stored on the products table.
  */
-export default function ConstructionCaseExamples({ material, fallback = null }) {
+function ConstructionCaseExamples({ material, fallback = null }) {
   const [publishedCases, setPublishedCases] = useState([]);
   const [resolved, setResolved] = useState(false);
 
@@ -132,30 +114,42 @@ export default function ConstructionCaseExamples({ material, fallback = null }) 
       .then((cases) => {
         if (!cancelled) setPublishedCases(Array.isArray(cases) ? cases : []);
       })
-      .catch((error) => console.warn('[ConstructionCaseExamples] Failed to load cases', error))
+      .catch((error) => console.warn('[ConstructionCaseExamples] Could not load cases', error))
       .finally(() => {
         if (!cancelled) setResolved(true);
       });
     return () => { cancelled = true; };
   }, []);
 
-  const matchingCases = useMemo(() => publishedCases
-    .filter((caseItem) =>
-      isCaseForMaterial(caseItem, material) && Boolean(getMainPhoto(caseItem)))
-    .slice(0, 6), [publishedCases, material]);
+  const matchingCases = useMemo(() => {
+    if (!material) return [];
+    return publishedCases
+      .map((caseItem) => ({ caseItem, matchType: getConstructionCaseMatch(caseItem, material) }))
+      .filter(({ caseItem, matchType }) => matchType && getCasePhotos(caseItem).length > 0);
+  }, [publishedCases, material]);
 
   if (!resolved) return null;
-  if (matchingCases.length === 0) return fallback;
+  if (!matchingCases.length) return fallback;
 
   return (
-    <section className="detail-doc-section real-case-examples" aria-label="실제 시공사례">
+    <section className="detail-doc-section real-case-examples" aria-label="이 자재의 실제 시공사례">
       <h2 className="doc-section-title">이 자재가 적용된 실제 시공사례</h2>
       <div className="doc-accent-bar"></div>
-      <p className="doc-section-helper">등록된 시공 현장 사진입니다. 사진을 클릭하면 해당 시공사례의 전체 사진을 확인할 수 있습니다.</p>
+      <p className="doc-section-helper">
+        시공사례에 등록된 실제 현장 사진과 정보를 자재번호에 맞춰 연결했습니다.
+        사진 또는 현장명을 선택하면 전체 시공사례를 확인할 수 있습니다.
+      </p>
       <div className="real-case-grid">
-        {matchingCases.map((caseItem) =>
-          <CasePhoto key={caseItem.id || caseItem.slug} caseItem={caseItem} />)}
+        {matchingCases.map(({ caseItem, matchType }) => (
+          <CasePhotoCard
+            key={caseItem.id || caseItem.slug}
+            caseItem={caseItem}
+            matchType={matchType}
+          />
+        ))}
       </div>
     </section>
   );
 }
+
+export default memo(ConstructionCaseExamples);

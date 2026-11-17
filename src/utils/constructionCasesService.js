@@ -2,6 +2,8 @@ import { supabase } from '../lib/supabaseClient.js';
 import { FALLBACK_CASES } from '../data/fallbackCases.js';
 
 let cachedPublishedCases = null;
+let publishedCasesCachedAt = 0;
+const PUBLISHED_CASES_CACHE_MS = 60 * 1000;
 
 /**
  * Invalidate in-memory cached cases.
@@ -9,6 +11,7 @@ let cachedPublishedCases = null;
  */
 export function invalidateCasesCache() {
   cachedPublishedCases = null;
+  publishedCasesCachedAt = 0;
 }
 
 /**
@@ -18,13 +21,14 @@ export function invalidateCasesCache() {
  * @returns {Promise<Array>}
  */
 export async function fetchPublishedCases(forceRefresh = false) {
-  if (cachedPublishedCases && !forceRefresh) {
+  if (cachedPublishedCases && !forceRefresh && Date.now() - publishedCasesCachedAt < PUBLISHED_CASES_CACHE_MS) {
     return cachedPublishedCases;
   }
 
   try {
     if (!supabase) {
       cachedPublishedCases = FALLBACK_CASES;
+      publishedCasesCachedAt = Date.now();
       return FALLBACK_CASES;
     }
 
@@ -32,6 +36,7 @@ export async function fetchPublishedCases(forceRefresh = false) {
       .from('construction_cases')
       .select('id, title, slug, location, material_summary, product_id, main_image_url, description, constructed_at, sort_order, is_published, is_active, category, image_urls, products:product_id ( id, name, slug, product_code )')
       .eq('is_published', true)
+      .eq('is_active', true)
       .order('sort_order', { ascending: true })
       .order('created_at', { ascending: false });
 
@@ -39,10 +44,12 @@ export async function fetchPublishedCases(forceRefresh = false) {
 
     if (Array.isArray(data) && data.length > 0) {
       cachedPublishedCases = data;
+      publishedCasesCachedAt = Date.now();
       return data;
     }
 
     cachedPublishedCases = FALLBACK_CASES;
+    publishedCasesCachedAt = Date.now();
     return FALLBACK_CASES;
   } catch (err) {
     console.warn('[constructionCasesService] Supabase fetch failed, falling back to local data:', err);
