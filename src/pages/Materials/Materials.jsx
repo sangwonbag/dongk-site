@@ -32,6 +32,9 @@ import "./MaterialsPageSkeleton.css";
 
 import { HIDE_SUB_MATERIALS, getVisibleCategories } from "../../config/categoryConfig";
 
+// 임시 UI 간소화 플래그: true로 변경 시 기존 세부 필터(인기검색어, 필터칩, 라인업, 형태, 두께, 세부분류 등) 즉시 복구
+const SHOW_ADVANCED_FILTERS = false;
+
 // 1. Categories specified by the user
 const ALL_CATEGORIES = ["데코타일", "장판", "마루", "벽지", "카페트타일", "부자재"];
 const CATEGORIES = getVisibleCategories(ALL_CATEGORIES);
@@ -133,11 +136,11 @@ export default function Materials() {
 
   // Initial cache lookup for 0ms render on back-navigation or cached filter revisit
   const initialSearch = (searchParams.get("q") || searchParams.get("search") || "").trim();
-  const initialCategory = searchParams.get("category") || (initialSearch ? "all" : "데코타일");
-  const initialBrand = searchParams.get("brand") || (searchParams.get("category") ? "all" : (initialSearch ? "all" : "KCC"));
-  const initialThickness = normalizeUrlThickness(searchParams.get("thickness")) || "all";
+  const initialCategory = searchParams.get("category") || "데코타일";
+  const initialBrand = searchParams.get("brand") || (searchParams.get("category") ? "all" : "KCC");
+  const initialThickness = SHOW_ADVANCED_FILTERS ? (normalizeUrlThickness(searchParams.get("thickness")) || "all") : "all";
   const initialCachedResult = initialSearch
-    ? getCachedSearchMaterials(initialSearch, { category: initialCategory, brand: initialBrand, thickness: initialThickness })
+    ? getCachedSearchMaterials(initialSearch, { category: "all", brand: "all", thickness: "all" })
     : getCachedFilteredProducts({ category: initialCategory, brand: initialBrand, thickness: initialThickness, page: 0, pageSize: 2000 });
   const initialItems = initialCachedResult ? (Array.isArray(initialCachedResult) ? initialCachedResult : (initialCachedResult.items || [])) : [];
 
@@ -201,8 +204,8 @@ export default function Materials() {
   const urlCategory = searchParams.get("category");
   const urlBrand = searchParams.get("brand");
 
-  const activeTab = urlCategory || (searching ? "all" : "데코타일");
-  const defaultBrand = urlCategory ? "all" : (searching ? "all" : "KCC");
+  const activeTab = urlCategory || (SHOW_ADVANCED_FILTERS && searching ? "all" : "데코타일");
+  const defaultBrand = urlCategory ? "all" : (SHOW_ADVANCED_FILTERS && searching ? "all" : "KCC");
   const activeBrand = urlBrand || defaultBrand;
   
   const isKccDecotile = (activeTab === "데코타일" && (activeBrand === "KCC" || activeBrand.includes("KCC")));
@@ -212,7 +215,7 @@ export default function Materials() {
   let activeLine = "all";
   if (rawLineParam !== null) {
     activeLine = resolveKccLineupName(rawLineParam);
-  } else if (!searching && isKccDecotile) {
+  } else if (SHOW_ADVANCED_FILTERS && !searching && isKccDecotile) {
     activeLine = "센스타일 트랜디 450각";
   }
   if (activeLine && activeLine.toUpperCase().includes("MACOSX")) {
@@ -324,11 +327,13 @@ export default function Materials() {
       type: null,
       spec: null
     };
-    if (suggestion.category && activeTab === "all") {
-      updates.category = suggestion.category;
-    }
-    if (suggestion.brand && activeBrand === "all") {
-      updates.brand = suggestion.brand;
+    if (SHOW_ADVANCED_FILTERS) {
+      if (suggestion.category && activeTab === "all") {
+        updates.category = suggestion.category;
+      }
+      if (suggestion.brand && activeBrand === "all") {
+        updates.brand = suggestion.brand;
+      }
     }
     updateParams(updates);
   }, [activeTab, activeBrand]);
@@ -422,10 +427,12 @@ export default function Materials() {
     const requestId = ++fetchRequestIdRef.current;
     const controller = new AbortController();
 
+    const effectiveThickness = SHOW_ADVANCED_FILTERS ? activeThickness : "all";
+
     // Check synchronous memory cache first so cached brand/category switches never flash a skeleton
     const syncCached = debouncedQuery
-      ? getCachedSearchMaterials(debouncedQuery, { category: activeTab, brand: activeBrand, thickness: activeThickness })
-      : getCachedFilteredProducts({ category: activeTab, brand: activeBrand, thickness: activeThickness, page: 0, pageSize: 2000 });
+      ? getCachedSearchMaterials(debouncedQuery, { category: "all", brand: "all", thickness: "all" })
+      : getCachedFilteredProducts({ category: activeTab, brand: activeBrand, thickness: effectiveThickness, page: 0, pageSize: 2000 });
 
     if (syncCached) {
       const items = Array.isArray(syncCached) ? syncCached : (syncCached.items || []);
@@ -451,14 +458,14 @@ export default function Materials() {
       
       try {
         const res = debouncedQuery ? await searchMaterials(debouncedQuery, {
-          category: activeTab,
-          brand: activeBrand,
-          thickness: activeThickness,
+          category: "all",
+          brand: "all",
+          thickness: "all",
           signal: controller.signal
         }) : await fetchFilteredProducts({
           category: activeTab,
           brand: activeBrand,
-          thickness: activeThickness,
+          thickness: effectiveThickness,
           page: 0,
           pageSize: 2000,
           signal: controller.signal
@@ -533,7 +540,7 @@ export default function Materials() {
 
   // Sync URL for KCC decotile default lineup (센스타일 트랜디 450각)
   useEffect(() => {
-    if (!searching && isKccDecotile && !searchParams.has("line")) {
+    if (SHOW_ADVANCED_FILTERS && !searching && isKccDecotile && !searchParams.has("line")) {
       updateParams({
         category: "데코타일",
         brand: "KCC",
@@ -544,6 +551,14 @@ export default function Materials() {
 
   const handleCategoryChange = (category) => {
     if (searching) {
+      if (!SHOW_ADVANCED_FILTERS) {
+        setSearchQuery("");
+        setDebouncedQuery("");
+        setIsSearchFocused(false);
+        const defaultBrand = DEFAULT_BRAND_BY_CATEGORY[category] || "all";
+        updateParams({ category, brand: defaultBrand, q: null, search: null, type: null, line: null, shape: null, thickness: null, spec: null, detail: null });
+        return;
+      }
       if (category === "all") {
         updateParams({ category: "all", brand: "all", line: null, shape: null, thickness: null, spec: null, detail: null });
       } else {
@@ -553,7 +568,7 @@ export default function Materials() {
     }
     // Switch category and reset brand to its default corresponding brand
     const defaultBrand = DEFAULT_BRAND_BY_CATEGORY[category] || "all";
-    if (category === "데코타일" && (defaultBrand === "KCC" || defaultBrand.includes("KCC"))) {
+    if (SHOW_ADVANCED_FILTERS && category === "데코타일" && (defaultBrand === "KCC" || defaultBrand.includes("KCC"))) {
       updateParams({ category, brand: "KCC", line: "trendy-450", type: null, shape: null, thickness: null, spec: null, detail: null });
     } else {
       updateParams({ category, brand: defaultBrand, type: null, line: null, shape: null, thickness: null, spec: null, detail: null });
@@ -563,10 +578,17 @@ export default function Materials() {
   const setActiveBrand = (brand) => {
     const targetBrand = brand === "LX하우시스" ? "LX" : brand;
     if (searching) {
+      if (!SHOW_ADVANCED_FILTERS) {
+        setSearchQuery("");
+        setDebouncedQuery("");
+        setIsSearchFocused(false);
+        updateParams({ brand: targetBrand, q: null, search: null, type: null, line: null, shape: null, thickness: null, spec: null, detail: null });
+        return;
+      }
       updateParams({ brand: targetBrand, type: null, line: null, shape: null, thickness: null, spec: null, detail: null });
       return;
     }
-    if ((targetBrand === "KCC" || targetBrand.includes("KCC")) && activeTab === "데코타일") {
+    if (SHOW_ADVANCED_FILTERS && (targetBrand === "KCC" || targetBrand.includes("KCC")) && activeTab === "데코타일") {
       updateParams({ brand: "KCC", line: "trendy-450", type: null, shape: null, thickness: null, spec: null, detail: null });
     } else {
       updateParams({ brand: targetBrand, type: null, line: null, shape: null, thickness: null, spec: null, detail: null });
@@ -938,9 +960,9 @@ export default function Materials() {
     let result = materialsList.filter((m) => {
       if (!m || m.active === false || m.is_active === false) return false;
 
-      // When searching, match score must be > 0
-      if (searching && scoreProduct(m, debouncedQuery) <= 0) {
-        return false;
+      // When searching, match score must be > 0 (global search without category/brand restriction)
+      if (searching) {
+        return scoreProduct(m, debouncedQuery) > 0;
       }
 
       // Category tab check (if activeTab is 'all', all categories pass)
@@ -975,6 +997,11 @@ export default function Materials() {
         } else {
           brandOk = itemBrand === b || compBrand === b || itemBrand.includes(b) || compBrand.includes(b);
         }
+      }
+
+      // UI 간소화 모드에서는 숨겨진 세부 필터(라인업/형태/두께/세부분류 등)가 상품 노출을 제한하지 않도록 처리
+      if (!SHOW_ADVANCED_FILTERS) {
+        return tabOk && brandOk;
       }
 
       // Eagon specific hierarchical check (only when not searching)
@@ -1086,6 +1113,7 @@ export default function Materials() {
   }, [filtered, sortOption, searching, debouncedQuery, activeTab]);
 
   const isFilteredSearch = useMemo(() => {
+    if (!SHOW_ADVANCED_FILTERS) return searching;
     return activeLine !== "all" || (isLxDecotile && activeLxEconoSpec !== "all") || activeDongshinMajor !== "all" || activeDongshinDetail !== "all" || activeShape !== "all" || activeThickness !== "all" || activeMaterialType !== "all" || (isEagonBrand && (activeEagonMajor !== "all" || activeEagonLine !== "all" || activeEagonSpec !== "all")) || (isHansolBrand && (activeHansolGroup !== "all" || activeHansolSpec !== "all")) || searching;
   }, [activeLine, isLxDecotile, activeLxEconoSpec, activeDongshinMajor, activeDongshinDetail, activeShape, activeThickness, activeMaterialType, isEagonBrand, activeEagonMajor, activeEagonLine, activeEagonSpec, isHansolBrand, activeHansolGroup, activeHansolSpec, searching]);
 
@@ -1108,10 +1136,10 @@ export default function Materials() {
     setError(null);
     setLoading(true);
 
-    (debouncedQuery ? searchMaterials(debouncedQuery) : fetchFilteredProducts({
+    (debouncedQuery ? searchMaterials(debouncedQuery, { category: "all", brand: "all", thickness: "all" }) : fetchFilteredProducts({
       category: activeTab,
       brand: activeBrand,
-      thickness: activeThickness,
+      thickness: SHOW_ADVANCED_FILTERS ? activeThickness : "all",
       page: 0,
       pageSize: 2000
     }))
@@ -1189,9 +1217,15 @@ export default function Materials() {
                 <input
                   type="text"
                   className="materials-search-input"
-                  placeholder="상품코드, 색상, 패턴, 공간 분위기로 검색해 보세요"
+                  placeholder="상품코드, 이름, 색상, 패턴으로 검색해 보세요"
                   value={searchQuery}
-                  onChange={(e) => setSearchQuery(e.target.value)}
+                  onChange={(e) => {
+                    const nextVal = e.target.value;
+                    setSearchQuery(nextVal);
+                    if (!nextVal.trim() && (searchParams.get("q") || searchParams.get("search"))) {
+                      updateParams({ q: null, search: null });
+                    }
+                  }}
                   onFocus={() => setIsSearchFocused(true)}
                   onKeyDown={handleSearchKeyDown}
                   autoComplete="off"
@@ -1241,24 +1275,26 @@ export default function Materials() {
                 </div>
               )}
 
-              {/* Popular Search Keywords */}
-              <div className="search-popular-keywords-bar">
-                <span className="popular-label">인기 검색:</span>
-                {POPULAR_KEYWORDS.map(kw => (
-                  <button
-                    key={kw}
-                    type="button"
-                    className="popular-tag-btn"
-                    onClick={() => handleKeywordClick(kw)}
-                  >
-                    {kw}
-                  </button>
-                ))}
-              </div>
+              {/* Popular Search Keywords (임시 숨김: SHOW_ADVANCED_FILTERS로 복구 가능) */}
+              {SHOW_ADVANCED_FILTERS && (
+                <div className="search-popular-keywords-bar">
+                  <span className="popular-label">인기 검색:</span>
+                  {POPULAR_KEYWORDS.map(kw => (
+                    <button
+                      key={kw}
+                      type="button"
+                      className="popular-tag-btn"
+                      onClick={() => handleKeywordClick(kw)}
+                    >
+                      {kw}
+                    </button>
+                  ))}
+                </div>
+              )}
             </div>
 
-            {/* Active Filter Chips Bar */}
-            {activeFilterCount > 0 && (
+            {/* Active Filter Chips Bar (임시 숨김: SHOW_ADVANCED_FILTERS로 복구 가능) */}
+            {SHOW_ADVANCED_FILTERS && activeFilterCount > 0 && (
               <div className="active-filter-chips-bar">
                 {activeBrand !== "all" && (
                   <span className="active-chip">
@@ -1408,8 +1444,8 @@ export default function Materials() {
                 </div>
               )}
 
-              {/* Thickness tabs (only for 장판) */}
-              {activeTab === "장판" && visibleThicknesses.length > 1 && (
+              {/* Thickness tabs (only for 장판) (임시 숨김: SHOW_ADVANCED_FILTERS로 복구 가능) */}
+              {SHOW_ADVANCED_FILTERS && activeTab === "장판" && visibleThicknesses.length > 1 && (
                 <div className="materials-filter-row thickness-filter-group">
                   <span className="filter-label">두께</span>
                   <div className="filter-options thickness-filter-options" style={{ display: 'flex', flexWrap: 'nowrap', overflowX: 'auto', gap: '6px', paddingBottom: '4px' }}>
@@ -1429,8 +1465,8 @@ export default function Materials() {
 
 
 
-              {/* 마루 세부 분류 (Material Type) */}
-              {activeTab === "마루" && !isEagonBrand && visibleMaterialTypes.length > 2 && (
+              {/* 마루 세부 분류 (Material Type) (임시 숨김: SHOW_ADVANCED_FILTERS로 복구 가능) */}
+              {SHOW_ADVANCED_FILTERS && activeTab === "마루" && !isEagonBrand && visibleMaterialTypes.length > 2 && (
                 <div className="materials-filter-row">
                   <span className="filter-label">세부 분류</span>
                   <div className="filter-options">
@@ -1465,7 +1501,7 @@ export default function Materials() {
                     </>
                   )}
                 </div>
-                {(activeTab !== "all" || activeBrand !== "all" || activeThickness !== "all") && (
+                {SHOW_ADVANCED_FILTERS && (activeTab !== "all" || activeBrand !== "all" || activeThickness !== "all") && (
                   <div className="search-active-filter-tags">
                     {activeTab !== "all" && (
                       <span className="search-filter-tag">
@@ -1490,8 +1526,8 @@ export default function Materials() {
               </div>
             )}
 
-            {/* Filter Conflict Notice */}
-            {searching && sortedProducts.length === 0 && (activeTab !== "all" || activeBrand !== "all" || activeThickness !== "all") && (
+            {/* Filter Conflict Notice (임시 숨김: 간소화 모드에서는 전체 상품 검색 적용) */}
+            {SHOW_ADVANCED_FILTERS && searching && sortedProducts.length === 0 && (activeTab !== "all" || activeBrand !== "all" || activeThickness !== "all") && (
               <div className="search-filter-conflict-notice">
                 <div className="conflict-icon">🔍</div>
                 <div className="conflict-message">현재 선택한 필터에서 검색 결과가 없습니다.</div>
@@ -1510,8 +1546,8 @@ export default function Materials() {
               </div>
             )}
 
-            {/* Dongshin 2-Tier Lineup Filter */}
-            {!loading && activeTab === "데코타일" && (activeBrand === "동신" || activeBrand === "동신포리마") && (
+            {/* Dongshin 2-Tier Lineup Filter (임시 숨김: SHOW_ADVANCED_FILTERS로 복구 가능) */}
+            {SHOW_ADVANCED_FILTERS && !loading && activeTab === "데코타일" && (activeBrand === "동신" || activeBrand === "동신포리마") && (
               <>
                 <div className="materials-lineup-filter dongshin-major-group">
                   <span style={{ fontSize: '13px', fontWeight: '600', color: '#6b7280', alignSelf: 'center', marginRight: '6px' }}>대분류:</span>
@@ -1547,8 +1583,8 @@ export default function Materials() {
               </>
             )}
 
-            {/* Eagon 3-Tier Lineup & Spec Filter */}
-            {!loading && isEagonBrand && (
+            {/* Eagon 3-Tier Lineup & Spec Filter (임시 숨김: SHOW_ADVANCED_FILTERS로 복구 가능) */}
+            {SHOW_ADVANCED_FILTERS && !loading && isEagonBrand && (
               <>
                 <div className="materials-lineup-filter eagon-major-group">
                   <span style={{ fontSize: '13px', fontWeight: '600', color: '#6b7280', alignSelf: 'center', marginRight: '6px' }}>대분류:</span>
@@ -1608,8 +1644,8 @@ export default function Materials() {
               </>
             )}
 
-            {/* HanSol 2-Tier Group & Spec Filter */}
-            {!loading && isHansolBrand && (
+            {/* HanSol 2-Tier Group & Spec Filter (임시 숨김: SHOW_ADVANCED_FILTERS로 복구 가능) */}
+            {SHOW_ADVANCED_FILTERS && !loading && isHansolBrand && (
               <>
                 <div className="materials-lineup-filter hansol-group-filter">
                   <span style={{ fontSize: '13px', fontWeight: '600', color: '#6b7280', alignSelf: 'center', marginRight: '6px' }}>제품군:</span>
@@ -1645,8 +1681,8 @@ export default function Materials() {
               </>
             )}
 
-            {/* Lineup Filter (Non-Dongshin, Non-Eagon, Non-HanSol) */}
-            {!loading && !(activeTab === "데코타일" && (activeBrand === "동신" || activeBrand === "동신포리마")) && !isEagonBrand && !isHansolBrand && visibleLines.length > 1 && (
+            {/* Lineup Filter (Non-Dongshin, Non-Eagon, Non-HanSol) (임시 숨김: SHOW_ADVANCED_FILTERS로 복구 가능) */}
+            {SHOW_ADVANCED_FILTERS && !loading && !(activeTab === "데코타일" && (activeBrand === "동신" || activeBrand === "동신포리마")) && !isEagonBrand && !isHansolBrand && visibleLines.length > 1 && (
               <div className="materials-lineup-filter">
                 {visibleLines.map((lineName) => {
                   const thick = getLineupThickness(lineName, activeTab, activeBrand, materialsList);
@@ -1665,8 +1701,8 @@ export default function Materials() {
               </div>
             )}
 
-            {/* LX EconoPlus Sub-filter: 전체 104종 / 600각 77종 / 450각 16종 / 우드 11종 */}
-            {!loading && isLxDecotile && activeLine === "에코노플러스" && (
+            {/* LX EconoPlus Sub-filter: 전체 104종 / 600각 77종 / 450각 16종 / 우드 11종 (임시 숨김) */}
+            {SHOW_ADVANCED_FILTERS && !loading && isLxDecotile && activeLine === "에코노플러스" && (
               <div className="materials-lineup-filter econoplus-spec-filter" style={{ marginTop: '10px' }}>
                 <span style={{ fontSize: '13px', fontWeight: '600', color: '#6b7280', alignSelf: 'center', marginRight: '6px' }}>규격:</span>
                 {['all', '600각', '450각', '우드'].map((specKey) => (
@@ -1684,8 +1720,8 @@ export default function Materials() {
               </div>
             )}
 
-            {/* LX Prestige 5T Sub-filter: 전체(14) / 600각(8) / 장방형 스톤(2) / 우드(4) */}
-            {!loading && isLxDecotile && activeLine === "프레스티지" && (
+            {/* LX Prestige 5T Sub-filter: 전체(14) / 600각(8) / 장방형 스톤(2) / 우드(4) (임시 숨김) */}
+            {SHOW_ADVANCED_FILTERS && !loading && isLxDecotile && activeLine === "프레스티지" && (
               <div className="materials-lineup-filter prestige-spec-filter" style={{ marginTop: '10px' }}>
                 <span style={{ fontSize: '13px', fontWeight: '600', color: '#6b7280', alignSelf: 'center', marginRight: '6px' }}>규격:</span>
                 {LX_PRESTIGE_SPECS.map((specKey) => (
@@ -1703,8 +1739,8 @@ export default function Materials() {
               </div>
             )}
 
-            {/* Shape Filter (For KCC Decotiles: 전체 / 우드 / 450각 / 600각) */}
-            {!loading && activeTab === "데코타일" && activeBrand === "KCC" && visibleShapes.length > 1 && (
+            {/* Shape Filter (For KCC Decotiles: 전체 / 우드 / 450각 / 600각) (임시 숨김) */}
+            {SHOW_ADVANCED_FILTERS && !loading && activeTab === "데코타일" && activeBrand === "KCC" && visibleShapes.length > 1 && (
               <div className="materials-lineup-filter shape-filter-group" style={{ marginTop: '10px' }}>
                 <span style={{ fontSize: '13px', fontWeight: '600', color: '#6b7280', alignSelf: 'center', marginRight: '6px' }}>형태:</span>
                 {visibleShapes.map((shapeName) => (
@@ -1802,15 +1838,15 @@ export default function Materials() {
                   title="검색 결과가 없습니다"
                   description={
                     debouncedQuery
-                      ? (activeFilterCount > (debouncedQuery ? 1 : 0)
+                      ? (SHOW_ADVANCED_FILTERS && activeFilterCount > (debouncedQuery ? 1 : 0)
                           ? `적용된 필터(${[activeBrand !== 'all' && `브랜드: ${activeBrand}`, activeThickness !== 'all' && `두께: ${activeThickness}`, activeLine !== 'all' && `라인업: ${activeLine}`].filter(Boolean).join(', ')})로 인해 결과가 제한되었을 수 있습니다.` 
                           : "검색 조건에 부합하는 자재가 없거나 현재 준비 중입니다.")
-                      : (activeTab === "장판" && (activeBrand !== "all" || activeThickness !== "all"))
+                      : (SHOW_ADVANCED_FILTERS && activeTab === "장판" && (activeBrand !== "all" || activeThickness !== "all"))
                         ? "선택한 브랜드와 두께에 해당하는 상품이 없습니다."
                         : "선택하신 분류 및 브랜드의 자재가 준비 중입니다."
                   }
-                  actionLabel={activeFilterCount > 0 ? "전체 필터 초기화" : ""}
-                  onAction={activeFilterCount > 0 ? handleResetFilters : null}
+                  actionLabel={debouncedQuery ? "검색어 초기화" : (SHOW_ADVANCED_FILTERS && activeFilterCount > 0 ? "전체 필터 초기화" : "")}
+                  onAction={debouncedQuery ? handleClearSearch : (SHOW_ADVANCED_FILTERS && activeFilterCount > 0 ? handleResetFilters : null)}
                 />
               )}
             </div>
