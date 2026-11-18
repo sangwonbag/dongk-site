@@ -103,6 +103,19 @@ export const getSampleBookTarget = (book) => {
         };
     }
 
+    // 0. 자체 고화질 페이지 뷰어 (로컬/자체 이미지 페이지 제공)
+    if (book.pages && Array.isArray(book.pages) && book.pages.length > 0) {
+        return {
+            isVerified: true,
+            status: 'internal_pages',
+            url: null,
+            type: 'internal_pages',
+            provider: book.catalogProvider || book.brand || 'KCC',
+            buttonText: `샘플북 열람 (${book.pages.length}p) ↗`,
+            reason: null
+        };
+    }
+
     // 1. 검증된 제조사 공식 E-카탈로그
     if (book.catalogStatus === 'verified' && book.catalogUrl) {
         return {

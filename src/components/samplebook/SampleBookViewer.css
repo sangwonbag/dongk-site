@@ -360,3 +360,291 @@
         text-align: center;
     }
 }
+
+/* ==========================================================================
+   Multi-Page Samplebook In-App Reader Styles
+   ========================================================================== */
+
+.sb-viewer-overlay.is-fullscreen-overlay {
+    padding: 0;
+}
+
+.sb-viewer-modal.is-pages-mode {
+    max-width: 1080px;
+    height: 92vh;
+    max-height: 960px;
+    background: #0f172a;
+    border: 1px solid rgba(255, 255, 255, 0.12);
+}
+
+.sb-viewer-modal.is-pages-mode.is-fullscreen {
+    max-width: 100vw;
+    width: 100vw;
+    height: 100vh;
+    max-height: 100vh;
+    border-radius: 0;
+    border: none;
+}
+
+.sb-viewer-pages-badge {
+    display: inline-flex;
+    align-items: center;
+    padding: 2px 10px;
+    background: rgba(201, 156, 71, 0.15);
+    border: 1px solid rgba(201, 156, 71, 0.35);
+    color: #dfb970;
+    font-size: 12px;
+    font-weight: 700;
+    border-radius: 9999px;
+    white-space: nowrap;
+}
+
+.sb-viewer-header-actions {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.sb-header-tool-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+    padding: 6px 12px;
+    font-size: 12px;
+    font-weight: 600;
+    color: #e2e8f0;
+    background: rgba(255, 255, 255, 0.08);
+    border: 1px solid rgba(255, 255, 255, 0.16);
+    border-radius: 6px;
+    text-decoration: none;
+    transition: all 0.2s ease;
+}
+
+.sb-header-tool-btn:hover {
+    background: rgba(255, 255, 255, 0.18);
+    color: #ffffff;
+    border-color: rgba(255, 255, 255, 0.3);
+}
+
+.sb-header-tool-btn.highlight {
+    background: linear-gradient(135deg, #c99c47, #dfb970);
+    color: #0f172a;
+    border: none;
+    font-weight: 700;
+}
+
+.sb-header-tool-btn.highlight:hover {
+    filter: brightness(1.1);
+    transform: translateY(-1px);
+}
+
+.sb-header-icon-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 34px;
+    height: 34px;
+    background: rgba(255, 255, 255, 0.08);
+    border: 1px solid rgba(255, 255, 255, 0.16);
+    color: #cbd5e1;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.sb-header-icon-btn:hover {
+    background: rgba(255, 255, 255, 0.2);
+    color: #ffffff;
+}
+
+/* Page Viewer Stage */
+.sb-page-viewer-stage {
+    flex: 1;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    background: #090d16;
+    min-height: 0;
+}
+
+.sb-page-image-wrapper {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: auto;
+    padding: 16px;
+    cursor: zoom-in;
+    user-select: none;
+}
+
+.sb-page-image-wrapper.zoomed {
+    cursor: zoom-out;
+    align-items: flex-start;
+}
+
+.sb-current-page-img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+    border-radius: 4px;
+    box-shadow: 0 16px 40px rgba(0, 0, 0, 0.65);
+    transition: transform 0.2s ease;
+}
+
+.sb-page-image-wrapper.zoomed .sb-current-page-img {
+    max-width: none;
+    max-height: none;
+    width: 150%;
+}
+
+/* Navigation Arrow Buttons */
+.sb-nav-arrow-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    background: rgba(15, 23, 42, 0.75);
+    border: 1px solid rgba(255, 255, 255, 0.25);
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    z-index: 10;
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+    transition: all 0.2s ease;
+    box-shadow: 0 4px 14px rgba(0, 0, 0, 0.4);
+}
+
+.sb-nav-arrow-btn:hover:not(:disabled) {
+    background: #c99c47;
+    border-color: #dfb970;
+    color: #0f172a;
+    transform: translateY(-50%) scale(1.1);
+}
+
+.sb-nav-arrow-btn:disabled {
+    opacity: 0.15;
+    cursor: not-allowed;
+    pointer-events: none;
+}
+
+.sb-nav-arrow-btn.left {
+    left: 18px;
+}
+
+.sb-nav-arrow-btn.right {
+    right: 18px;
+}
+
+/* Filmstrip Bottom Bar */
+.sb-filmstrip-bar {
+    background: #0f172a;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    padding: 10px 14px;
+    flex-shrink: 0;
+}
+
+.sb-filmstrip-scroll {
+    display: flex;
+    gap: 8px;
+    overflow-x: auto;
+    padding: 4px 2px;
+    scrollbar-width: thin;
+    scrollbar-color: rgba(255, 255, 255, 0.2) transparent;
+}
+
+.sb-filmstrip-scroll::-webkit-scrollbar {
+    height: 6px;
+}
+
+.sb-filmstrip-scroll::-webkit-scrollbar-thumb {
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 3px;
+}
+
+.sb-thumb-item {
+    position: relative;
+    flex-shrink: 0;
+    width: 54px;
+    height: 72px;
+    border-radius: 4px;
+    overflow: hidden;
+    border: 2px solid rgba(255, 255, 255, 0.12);
+    background: #1e293b;
+    cursor: pointer;
+    padding: 0;
+    transition: all 0.18s ease;
+}
+
+.sb-thumb-item:hover {
+    border-color: rgba(201, 156, 71, 0.6);
+    transform: translateY(-2px);
+}
+
+.sb-thumb-item.active {
+    border-color: #dfb970;
+    transform: translateY(-2px) scale(1.06);
+    box-shadow: 0 4px 12px rgba(223, 185, 112, 0.45);
+}
+
+.sb-thumb-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.sb-thumb-page-num {
+    position: absolute;
+    bottom: 2px;
+    right: 2px;
+    background: rgba(0, 0, 0, 0.8);
+    color: #ffffff;
+    font-size: 10px;
+    font-weight: 700;
+    padding: 1px 4px;
+    border-radius: 2px;
+    line-height: 1.2;
+}
+
+@media (max-width: 640px) {
+    .sb-viewer-modal.is-pages-mode {
+        height: 100vh;
+        max-height: 100vh;
+        border-radius: 0;
+    }
+
+    .sb-header-tool-btn span {
+        display: none;
+    }
+
+    .sb-header-tool-btn {
+        padding: 6px;
+    }
+
+    .sb-nav-arrow-btn {
+        width: 38px;
+        height: 38px;
+    }
+
+    .sb-nav-arrow-btn.left {
+        left: 8px;
+    }
+
+    .sb-nav-arrow-btn.right {
+        right: 8px;
+    }
+
+    .sb-thumb-item {
+        width: 44px;
+        height: 60px;
+    }
+}

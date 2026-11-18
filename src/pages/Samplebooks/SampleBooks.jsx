@@ -209,8 +209,12 @@ export default function SampleBooks() {
     });
   }, [filtered, searchQuery, activeTab]);
 
-  /** ✅ 샘플북 클릭 시: 공식 카탈로그 검증 제품은 직접 새 창 열기, 미확인은 알림 모달 */
+  /** ✅ 샘플북 클릭 시: 페이지 뷰어 내장 제품은 뷰어 오픈, 공식 카탈로그 검증 제품은 직접 새 창 열기, 미확인은 안내 모달 */
   const handleBookClick = (book) => {
+    if (book?.pages && Array.isArray(book.pages) && book.pages.length > 0) {
+      setSelectedBook(book);
+      return;
+    }
     const target = getSampleBookTarget(book);
     if (target.isVerified && target.url) {
       openCatalogWindow(target.url);
