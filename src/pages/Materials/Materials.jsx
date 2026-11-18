@@ -1662,7 +1662,7 @@ export default function Materials() {
                     >
                       {lineName === "all"
                         ? "전체 라인업"
-                        : `${formatShapeOrPattern(lineName)}${thick ? ` (${thick})` : ''}${lineCounts[lineName] ? ` (${lineCounts[lineName]})` : ''}`}
+                        : `${formatShapeOrPattern(lineName)}${thick ? ` (${thick})` : (lineCounts[lineName] ? ` (${lineCounts[lineName]})` : '')}`}
                     </button>
                   );
                 })}

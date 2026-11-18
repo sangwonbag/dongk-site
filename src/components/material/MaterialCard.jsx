@@ -5,7 +5,7 @@ import { useEstimateCart } from '../../contexts/EstimateCartContext';
 import { useAuth } from '../../contexts/AuthContext';
 import { getProductImageCandidates, prefetchProductImage } from '../../utils/productImageResolver';
 import { prefetchProductDetail } from '../../utils/supabaseFetcher';
-import { getComputedBrand, getNormalizedThickness, formatProductTitle, getProductUnit, getKccLineup, isNoxConsultingProduct } from '../../utils/brandUtils';
+import { getComputedBrand, getNormalizedThickness, formatProductTitle, getProductUnit, getKccLineup, isNoxConsultingProduct, isKccDecotileProduct } from '../../utils/brandUtils';
 import { isDecoTile } from '../../utils/decotileUtils';
 import { getDongshinMajorCategory, getDongshinDetailedLineup } from '../../utils/dongshinUtils';
 import { isLxPrestigeProduct, hasLxPrestigeEir } from '../../utils/lxPrestigeUtils';
@@ -18,19 +18,8 @@ import { metadataByCode, metadataById } from '../../data/productSearchMetadata.g
 
 const isDirectPricingCategory = (product) => {
     if (!product) return false;
-    if (product.category === '부자재' && (product.price || 0) > 0) return true;
-    if (product.brand === 'KCC' && product.category === '데코타일') return true;
-    if (['LX', '개나리', '서울'].includes(product.brand) && product.category === '벽지') {
-      const lineClean = (product.line || "").replace(/\s+/g, '');
-      if (product.brand === '서울' && (lineClean.includes('프리미엄') || lineClean.includes('방염'))) {
-        return false;
-      }
-      return true;
-    }
-    if (product.brand === '스완' && product.category === '카페트타일' && (product.line || '').includes('타일') && (product.price || 0) > 0) {
-      return true;
-    }
-    return false;
+    // KCC 데코타일만 가격 노출 및 바로구매 지원
+    return isKccDecotileProduct(product);
 };
 
 const MaterialCard = ({ material, priority = false, hidePrice = false }) => {
@@ -39,10 +28,10 @@ const MaterialCard = ({ material, priority = false, hidePrice = false }) => {
     const currentQuery = (searchParams.get('q') || searchParams.get('search') || '').trim();
     const { addToCart } = useEstimateCart();
     const { user: currentUser, openLoginModal } = useAuth();
-    // Presentation-only: server-side data access must be secured separately.
-    const isKccBrand = (material?.brand || '').toUpperCase().includes('KCC');
+    // KCC 데코타일 제외 전 상품 가격 비노출 (관리자 제외)
+    const isKccDeco = isKccDecotileProduct(material);
     const isSoldOut = isProductSoldOut(material);
-    const hidePublicPrice = hidePrice || (!isKccBrand && !currentUser?.isLoggedIn);
+    const hidePublicPrice = hidePrice || (!isKccDeco && currentUser?.role !== 'admin');
     
     const [qty, setQty] = useState(1);
 
@@ -98,7 +87,7 @@ const MaterialCard = ({ material, priority = false, hidePrice = false }) => {
 
     const handleInquiry = (e) => {
         if (e) e.stopPropagation();
-        const price = parsePrice(material.price) || 0;
+        const price = isKccDeco ? (parsePrice(material.price) || 0) : 0;
         
         const cartItem = {
             id: selectedOption ? `${material.id}-${selectedOption.label}` : material.id,
@@ -152,7 +141,7 @@ const MaterialCard = ({ material, priority = false, hidePrice = false }) => {
             return;
         }
         
-        const price = parsePrice(material.price) || 0;
+        const price = isKccDeco ? (parsePrice(material.price) || 0) : 0;
         if (price <= 0) {
             alert("가격 확인이 필요한 자재입니다. 견적문의를 통해 문의해 주세요.");
             return;
@@ -201,13 +190,9 @@ const MaterialCard = ({ material, priority = false, hidePrice = false }) => {
             return;
         }
         
-        const price = parsePrice(material.price) || 0;
+        const price = isKccDeco ? (parsePrice(material.price) || 0) : 0;
         if (price <= 0) {
             alert("가격 확인이 필요한 자재입니다. 견적문의를 통해 문의해 주세요.");
-            return;
-        }
-        if (price <= 0) {
-            alert("가격 확인이 필요한 자재입니다.");
             return;
         }
 
@@ -520,9 +505,11 @@ const MaterialCard = ({ material, priority = false, hidePrice = false }) => {
                 <div className="card-price-row">
                     <div className="card-price-container" data-nosnippet="">
                         <span className="card-price">
-                            {isNoxConsultingProduct(material) || material.isPriceInquiry ? "가격문의" : (hidePublicPrice ? "견적문의" : (material.price > 0 ? `${material.price.toLocaleString()}원` : "가격문의"))}
+                            {!isKccDeco || isNoxConsultingProduct(material) || material.isPriceInquiry || hidePublicPrice
+                                ? "가격문의"
+                                : (material.price > 0 ? `${material.price.toLocaleString()}원` : "가격문의")}
                         </span>
-                        {!hidePublicPrice && material.price > 0 && (
+                        {isKccDeco && !hidePublicPrice && material.price > 0 && (
                             <span className="card-price-unit">
                                 {`/${getProductUnit(material)}`}
                             </span>
@@ -534,7 +521,7 @@ const MaterialCard = ({ material, priority = false, hidePrice = false }) => {
 
                 </div>
 
-                {material.category === '부자재' && (
+                {isDirectPricingCategory(material) && material.category === '부자재' && (
                     <div className="card-qty-selector" onClick={(e) => e.stopPropagation()} style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', marginBottom: '12px', padding: '4px 8px', border: '1px solid #E6E2D8', borderRadius: '4px', background: '#FAF8F2' }}>
                         <span style={{ fontSize: '12px', fontWeight: '600', color: 'var(--text-light-gray)' }}>수량 선택</span>
                         <div style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
@@ -576,21 +563,19 @@ const MaterialCard = ({ material, priority = false, hidePrice = false }) => {
                                 견적문의
                             </button>
                         </>
-                    ) : (
+                    ) : isDirectPricingCategory(material) ? (
                         <>
                             <button className="btn-detail btn-cart-add" onClick={handleAddToCart}>
                                 장바구니 담기
                             </button>
-                            {isDirectPricingCategory(material) ? (
-                                <button className="btn-quote" onClick={handleDirectBuy} style={{ backgroundColor: 'var(--point-orange)', borderColor: 'var(--point-orange)', color: '#fff' }}>
-                                    바로구매
-                                </button>
-                            ) : (
-                                <button className="btn-quote" onClick={handleInquiry}>
-                                    견적문의
-                                </button>
-                            )}
+                            <button className="btn-quote" onClick={handleDirectBuy} style={{ backgroundColor: 'var(--point-orange)', borderColor: 'var(--point-orange)', color: '#fff' }}>
+                                바로구매
+                            </button>
                         </>
+                    ) : (
+                        <button className="btn-quote" onClick={handleInquiry} style={{ width: '100%' }}>
+                            견적문의
+                        </button>
                     )}
                 </div>
             </div>

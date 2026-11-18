@@ -252,6 +252,13 @@ export const KCC_TRENDY_SPECS = {
   }
 };
 
+export function isKccDecotileProduct(item) {
+  if (!item) return false;
+  const brand = (item.brand || '').toUpperCase();
+  const cat = item.category || '';
+  return brand.includes('KCC') && cat === '데코타일';
+}
+
 export function isKccTrendyProduct(item) {
   if (!item) return false;
   const brand = (item.brand || '').toUpperCase();
