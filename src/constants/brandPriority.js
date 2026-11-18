@@ -383,6 +383,26 @@ export function getSampleBookPriority(book, category = '') {
       if (id.includes('sensray') || id.includes('senseray') || title.includes('센스레이')) return 30;
       return 40;
     }
+
+    const isDongshin = brand === '동신' || title.includes('동신') || id.startsWith('dongshin-');
+    if (isDongshin) {
+      if (id.includes('polyma') || title.includes('아트타일')) return 110;
+      if (id.includes('house') || title.includes('하우스')) return 120;
+      if (id.includes('eco') || title.includes('차음')) return 130;
+      return 140;
+    }
+
+    const isLx = brand === 'LX' || title.includes('lx') || id.startsWith('lx-');
+    if (isLx) {
+      if (id.includes('econoplus') || title.includes('에코노플러스')) return 210;
+      if (id.includes('botanic') || title.includes('보타닉')) return 220;
+      if (id.includes('housestyle') || title.includes('하우스스타일')) return 230;
+      if (id.includes('house') || title.includes('하우스')) return 240;
+      if (id.includes('prestige') || title.includes('프레스티지')) return 250;
+      if (id.includes('editon') || title.includes('에디톤')) return 260;
+      if (id.includes('oa') || title.includes('oa')) return 270;
+      return 280;
+    }
     const brandRank = getBrandSortPriority(book, '데코타일');
     const recBonus = book.isRecommended ? 0 : 50;
     return 1000 + (brandRank * 100) + recBonus;
