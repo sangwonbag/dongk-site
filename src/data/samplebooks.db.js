@@ -1130,37 +1130,6 @@ export const sampleBooks = [
         "unverifiedReason": null
     },
     {
-        "id": "igun-largo",
-        "title": "라르고",
-        "brand": "이건",
-        "category": "마루",
-        "cover": "/images/Thumbnail_Image/materials/마루/이건/원목마루/라르고 솔레 190 T1/큐물러스.jpg",
-        "pdf": "/samplebook-assets/마루/이건/원목마루/라르고.pdf",
-        "description": "이건 원목마루 - 라르고",
-        "catalogUrl": "https://catalog.eagon.com",
-        "catalogType": "external_viewer",
-        "catalogProvider": "이건마루",
-        "catalogStatus": "verified",
-        "verifiedAt": "2026-10-12",
-        "unverifiedReason": null
-    },
-    {
-        "id": "igun-total-catalog",
-        "title": "이건마루 종합 카탈로그",
-        "brand": "이건",
-        "category": "마루",
-        "pdf": "/samplebook-assets/마루/이건/이건마루종합.pdf",
-        "description": "이건마루 전 제품 종합 카탈로그",
-        "isRecommended": false,
-        "cover": "/images/Thumbnail_Image/materials/마루/이건/강마루/세라/세라 플렉스S/세라 플렉스 143/데일리 오크.jpg",
-        "catalogUrl": "https://catalog.eagon.com",
-        "catalogType": "external_viewer",
-        "catalogProvider": "이건마루",
-        "catalogStatus": "verified",
-        "verifiedAt": "2026-10-12",
-        "unverifiedReason": null
-    },
-    {
         "id": "swan-carpet-tile",
         "title": "스완 카페트타일",
         "brand": "스완",

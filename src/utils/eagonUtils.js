@@ -2,31 +2,28 @@
  * 이건마루 2026 카탈로그(EAGON FLOORING GUIDE ver.26) 전용 유틸리티 및 분류 시스템
  */
 
-export const EAGON_MAJOR_CATEGORIES = ["전체", "원목마루", "천연마루", "강마루"];
+export const EAGON_MAJOR_CATEGORIES = ["전체", "강마루", "천연마루"];
 
 export const EAGON_LINEUP_GROUPS = [
-  "라르고 솔레",
-  "포레스타",
   "그린",
   "그린 스퀘어",
   "세라 플렉스 S",
   "세라 블렌딩",
   "세라",
-  "세라 베이직"
+  "세라 베이직",
+  "포레스타"
 ];
 
 export const EAGON_LINEUPS_BY_MAJOR = {
   "전체": ["전체", ...EAGON_LINEUP_GROUPS],
-  "원목마루": ["전체", "라르고 솔레"],
-  "천연마루": ["전체", "포레스타"],
-  "강마루": ["전체", "그린", "그린 스퀘어", "세라 플렉스 S", "세라 블렌딩", "세라", "세라 베이직"]
+  "강마루": ["전체", "그린", "그린 스퀘어", "세라 플렉스 S", "세라 블렌딩", "세라", "세라 베이직"],
+  "천연마루": ["전체", "포레스타"]
 };
 
 export const EAGON_SPECS_BY_LINEUP = {
   "그린": ["all", "230", "190", "165", "125"],
   "그린 스퀘어": ["all", "597", "395"],
   "세라 플렉스 S": ["all", "395", "165"],
-  "라르고 솔레": ["all", "240 T4", "190 T3", "190 T1"],
   "포레스타": ["all", "포레스타 G", "포레스타"],
   "세라 블렌딩": ["all"],
   "세라": ["all"],
@@ -40,9 +37,6 @@ export const EAGON_SPEC_LABEL_MAP = {
   "125": "그린 125 (폭 125×800mm)",
   "597": "597각 (정사각형 597×597mm)",
   "395": "395각 (직사각형 395×800mm)",
-  "240 T4": "240 T4 (14T / 원목층 4mm)",
-  "190 T3": "190 T3 (14T / 원목층 3mm)",
-  "190 T1": "190 T1 (12T / 원목층 1.2mm)",
   "포레스타 G": "포레스타 G (11T / 190×1900mm)",
   "포레스타": "포레스타 (10.5T / 165×1200mm)"
 };
@@ -52,7 +46,13 @@ export function isEagonProduct(item) {
   const brand = (item.brand || item.computedBrand || "").trim().toUpperCase();
   const name = (item.name || item.product_name || item.productName || item.title || "").trim();
   const desc = (item.description || "").trim();
-  return brand === "이건" || brand === "이건마루" || name.startsWith("이건마루") || desc.includes("이건마루");
+  const isEagon = brand === "이건" || brand === "이건마루" || name.startsWith("이건마루") || desc.includes("이건마루");
+  if (!isEagon) return false;
+  // 이건마루는 강마루와 천연마루만 취급 (원목마루 제외)
+  const line = (item.line || item.lineup_group || "").trim();
+  const matType = (item.materialType || item.series || "").trim();
+  if (line.includes("라르고") || matType === "원목마루") return false;
+  return true;
 }
 
 export function getEagonLineupGroup(p) {

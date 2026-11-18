@@ -823,7 +823,7 @@ export default function Materials() {
   // Eagon Major, Lineup, and Spec Counts
   const eagonMajorCounts = useMemo(() => {
     if (!isEagonBrand || !materialsList) return {};
-    const counts = { "전체": 0, "원목마루": 0, "천연마루": 0, "강마루": 0 };
+    const counts = { "전체": 0, "강마루": 0, "천연마루": 0 };
     materialsList.forEach(m => {
       if (!m || !isEagonProduct(m)) return;
       counts["전체"]++;
@@ -1563,7 +1563,7 @@ export default function Materials() {
                       onClick={() => updateParams({ type: catName === "전체" ? null : catName, line: null, spec: null })}
                     >
                       {catName === "전체"
-                        ? `전체 (${eagonMajorCounts["전체"] || 122})`
+                        ? `전체 (${eagonMajorCounts["전체"] || 106})`
                         : `${catName} (${eagonMajorCounts[catName] || 0})`}
                     </button>
                   ))}

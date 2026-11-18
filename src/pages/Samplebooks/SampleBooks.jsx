@@ -102,6 +102,15 @@ export default function SampleBooks() {
         return false;
       }
 
+      // 이건마루는 강마루 및 천연마루 샘플북만 노출
+      if (sb.brand === '이건' || sbComputedBrand === '이건' || (sb.title && sb.title.includes('이건'))) {
+        const isGangOrCheon = (sb.title && (sb.title.includes('강마루') || sb.title.includes('천연마루'))) ||
+                              (sb.description && (sb.description.includes('강마루') || sb.description.includes('천연마루')));
+        if (!isGangOrCheon) {
+          return false;
+        }
+      }
+
       // 1. 검색어 매칭 검사
       const searchOk = matchesSearch(sb);
       if (!searchOk) return false;
