@@ -1024,11 +1024,7 @@ export default function Materials() {
           }
         } else if (activeLine !== "all") {
           const line = activeTab === "마루" ? m.displayLine : getNormalizedLine(m, activeTab, activeBrand);
-          if (activeTab === "마루" && m.brand === "구정" && m.series === "노블레스") {
-            lineOk = (line === activeLine || (m.sizeOptions && m.sizeOptions.some(o => o.label === activeLine)));
-          } else {
-            lineOk = (line === activeLine);
-          }
+          lineOk = (line === activeLine);
           if (lineOk && isLxDecotile && activeLine === "에코노플러스" && activeLxEconoSpec !== "all") {
             const spec = m.spec_type || m.shape || getLxEconoPlusSpecType(m);
             if (spec !== activeLxEconoSpec) lineOk = false;

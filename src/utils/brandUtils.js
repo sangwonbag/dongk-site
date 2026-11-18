@@ -415,7 +415,7 @@ export function getMaterialTypeAndLine(m) {
   if (displayLine && displayLine.includes('_')) {
     const parts = displayLine.split('_').map(p => p.trim());
     if (["강마루", "원목마루", "천연마루", "타일마루", "강화마루"].includes(parts[0])) {
-      materialType = parts[0];
+      materialType = (parts[0] === "타일마루" && (m.brand === "구정" || (m.brand && m.brand.includes("구정")))) ? "강마루" : parts[0];
       
       if (parts.length > 1) {
         let linePart = parts.slice(1).join(' ');

@@ -111,6 +111,16 @@ export default function SampleBooks() {
         }
       }
 
+      // 구정마루는 강마루 및 천연마루 샘플북만 노출 (원목마루 제외)
+      if (sb.brand === '구정' || sbComputedBrand === '구정' || (sb.title && sb.title.includes('구정'))) {
+        const isWonmok = (sb.title && sb.title.includes('원목')) || (sb.description && sb.description.includes('원목'));
+        const isGangOrCheon = (sb.title && (sb.title.includes('강마루') || sb.title.includes('천연마루') || sb.title.includes('마뷸러스') || sb.title.includes('모던강') || sb.title.includes('구정강') || sb.title.includes('블론테') || sb.title.includes('텍스쳐') || sb.title.includes('프레스티지') || sb.title.includes('브러쉬'))) ||
+                              (sb.description && (sb.description.includes('강마루') || sb.description.includes('천연마루') || sb.description.includes('온돌마루')));
+        if (isWonmok || !isGangOrCheon) {
+          return false;
+        }
+      }
+
       // 1. 검색어 매칭 검사
       const searchOk = matchesSearch(sb);
       if (!searchOk) return false;
