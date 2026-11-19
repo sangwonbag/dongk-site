@@ -1,9 +1,10 @@
 import React, { memo, useEffect, useMemo, useState } from 'react';
 import { Link } from 'react-router-dom';
-import { ArrowUpRight, CalendarDays, MapPin, Package } from 'lucide-react';
+import { ArrowUpRight, MapPin, Package } from 'lucide-react';
 import { fetchPublishedCases } from '../../utils/constructionCasesService';
 import { getCaseImageUrl } from '../../utils/caseImageUtils';
 import { getConstructionCaseMatch } from '../../utils/constructionCaseMatcher';
+import { formatCaseTitle } from '../../utils/caseTitleUtils';
 import './ConstructionCaseExamples.css';
 
 export { isCaseForMaterial } from '../../utils/constructionCaseMatcher';
@@ -44,32 +45,30 @@ function CaseImage({ source, alt, size = '800', eager = false }) {
 function CasePhotoCard({ caseItem, matchType }) {
   const photos = useMemo(() => getCasePhotos(caseItem), [caseItem]);
   const destination = '/cases?id=' + encodeURIComponent(caseItem.id);
-  const constructedLabel = caseItem.constructed_at
-    ? new Date(caseItem.constructed_at).toLocaleDateString('ko-KR', { year: 'numeric', month: 'long' })
-    : '';
+  const displayTitle = useMemo(() => formatCaseTitle(caseItem), [caseItem]);
 
   return (
     <article className="real-case-card">
-      <Link to={destination} className="real-case-main-photo" aria-label={caseItem.title + ' 전체 시공 사진 보기'}>
-        <CaseImage source={photos[0]} alt={caseItem.title + ' 실제 시공 사진'} />
+      <Link to={destination} className="real-case-main-photo" aria-label={displayTitle + ' 전체 시공 사진 보기'}>
+        <CaseImage source={photos[0]} alt={displayTitle + ' 실제 시공 사진'} />
         <span className="real-case-photo-label">실제 시공 현장</span>
         {photos.length > 1 && <span className="real-case-photo-count">사진 {photos.length}장</span>}
       </Link>
       <div className="real-case-info">
         {caseItem.category && <span className="real-case-category">{caseItem.category}</span>}
-        <h3><Link to={destination}>{caseItem.title}</Link></h3>
+        <h3><Link to={destination}>{displayTitle}</Link></h3>
         {caseItem.description && <p className="real-case-description">{caseItem.description}</p>}
 
         {photos.length > 1 && (
-          <div className="real-case-gallery" aria-label={caseItem.title + ' 현장 사진 미리보기'}>
+          <div className="real-case-gallery" aria-label={displayTitle + ' 현장 사진 미리보기'}>
             {photos.slice(0, 3).map((photo, index) => (
               <Link
                 key={photo}
                 to={destination}
                 className="real-case-thumb"
-                aria-label={caseItem.title + ' 시공사례 전체 사진 보기'}
+                aria-label={displayTitle + ' 시공사례 전체 사진 보기'}
               >
-                <CaseImage source={photo} size="400" alt={caseItem.title + ' 사진 ' + (index + 1)} />
+                <CaseImage source={photo} size="400" alt={displayTitle + ' 사진 ' + (index + 1)} />
                 {index === 2 && photos.length > 3 &&
                   <span className="real-case-more-photos">+{photos.length - 3}장</span>}
               </Link>
@@ -83,9 +82,6 @@ function CasePhotoCard({ caseItem, matchType }) {
           )}
           {caseItem.material_summary && (
             <div><dt><Package size={14} aria-hidden="true" />사용 자재</dt><dd>{caseItem.material_summary}</dd></div>
-          )}
-          {constructedLabel && (
-            <div><dt><CalendarDays size={14} aria-hidden="true" />시공 연월</dt><dd>{constructedLabel}</dd></div>
           )}
         </dl>
 

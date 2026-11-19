@@ -1,8 +1,9 @@
 import React, { useState, memo, useMemo, useCallback } from 'react';
 import { Link } from 'react-router-dom';
-import { MapPin, Box, Calendar, Edit2, Eye, EyeOff, ArrowUpRight, ZoomIn } from 'lucide-react';
+import { MapPin, Box, Edit2, Eye, EyeOff, ArrowUpRight, ZoomIn } from 'lucide-react';
 import { getCaseImageUrl, getCaseImageSrcSet } from '../../utils/caseImageUtils';
 import { resolveCaseMaterialLinks } from '../../utils/caseMaterialUtils';
+import { formatCaseTitle } from '../../utils/caseTitleUtils';
 
 const MAX_VISIBLE_GALLERY = 3;
 
@@ -58,6 +59,7 @@ function CaseCardComponent({
   const galleryImages = useMemo(() => (Array.isArray(item.image_urls) ? item.image_urls : []), [item.image_urls]);
   const mainImageUrl = item.main_image_url || galleryImages[0] || '';
   const materialLinks = useMemo(() => resolveCaseMaterialLinks(item), [item]);
+  const displayTitle = useMemo(() => formatCaseTitle(item), [item]);
 
   const hasMoreGallery = galleryImages.length > MAX_VISIBLE_GALLERY;
   const displayGallery = useMemo(() => {
@@ -82,7 +84,7 @@ function CaseCardComponent({
           </span>
         )}
 
-        <CaseHeroImage key={mainImageUrl} rawUrl={mainImageUrl} alt={item.title} prioritize={index < 3} />
+        <CaseHeroImage key={mainImageUrl} rawUrl={mainImageUrl} alt={displayTitle} prioritize={index < 3} />
 
         <div className="case-zoom-hint" aria-hidden="true">
           <ZoomIn size={16} />
@@ -94,12 +96,12 @@ function CaseCardComponent({
 
       {/* Body Info */}
       <div className="case-body-info">
-        <h3 className="case-title-text">{item.title}</h3>
+        <h3 className="case-title-text" title={displayTitle}>{displayTitle}</h3>
         {item.description && <p className="case-desc-text">{item.description}</p>}
 
         {/* Optimized Gallery Thumbnails (Max 3 in card preview, all accessible in Lightbox) */}
         {displayGallery.length > 0 && (
-          <div className="case-gallery" aria-label={`${item.title} 현장 사진 목록`}>
+          <div className="case-gallery" aria-label={`${displayTitle} 현장 사진 목록`}>
             {displayGallery.map((rawUrl, idx) => {
               const thumbUrl = getCaseImageUrl(rawUrl, '400');
               const isLastMore = hasMoreGallery && idx === MAX_VISIBLE_GALLERY - 1;
@@ -111,11 +113,11 @@ function CaseCardComponent({
                   key={`${rawUrl}-${idx}`}
                   className="case-gallery-item-btn"
                   onClick={() => onOpenLightbox(item, idx)}
-                  aria-label={`${item.title} 현장 사진 ${idx + 1} 크게 보기`}
+                  aria-label={`${displayTitle} 현장 사진 ${idx + 1} 크게 보기`}
                 >
                   <img
                     src={thumbUrl}
-                    alt={`${item.title} 현장 사진 ${idx + 1}`}
+                    alt={`${displayTitle} 현장 사진 ${idx + 1}`}
                     loading="lazy"
                     decoding="async"
                     width="120"
@@ -172,16 +174,6 @@ function CaseCardComponent({
                   <span className="spec-value highlighted">{item.material_summary}</span>
                 )}
               </div>
-            </div>
-          )}
-
-          {item.constructed_at && (
-            <div className="spec-row">
-              <Calendar size={14} className="spec-icon" />
-              <span className="spec-label">시공 연월</span>
-              <span className="spec-value">
-                {new Date(item.constructed_at).toLocaleDateString('ko-KR', { year: 'numeric', month: 'long' })}
-              </span>
             </div>
           )}
         </div>

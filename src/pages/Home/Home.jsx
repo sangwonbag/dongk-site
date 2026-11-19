@@ -24,6 +24,7 @@ import {
 } from "lucide-react";
 import { getCaseImageUrl, getCaseImageSrcSet } from "../../utils/caseImageUtils";
 import { resolveCaseMaterialLinks } from "../../utils/caseMaterialUtils";
+import { formatCaseTitle } from "../../utils/caseTitleUtils";
 import { fetchPublishedCases, getRandomShowcaseCases } from "../../utils/constructionCasesService";
 import { FALLBACK_CASES } from "../../data/fallbackCases";
 import "./Home.css";
@@ -918,6 +919,7 @@ export default function Home() {
                   : item.material_summary || "";
               const SpaceIcon = getCaseSpaceIcon(item);
               const spaceTypeLabel = `${item.location ? item.location + " · " : ""}${item.category || "시공현장"}`;
+              const displayTitle = formatCaseTitle(item);
               const heroImgUrl = getCaseImageUrl(item.main_image_url, "1200");
               const heroSrcSet = getCaseImageSrcSet(item.main_image_url);
 
@@ -931,7 +933,7 @@ export default function Home() {
                     src={heroImgUrl}
                     srcSet={heroSrcSet || undefined}
                     sizes="100vw"
-                    alt={`${item.title} 실제 시공사례`}
+                    alt={`${displayTitle} 실제 시공사례`}
                     className="hero-case-bg-image"
                     loading={isActive || isNextOrFirst ? "eager" : "lazy"}
                     fetchPriority={isActive || slideIdx === 1 ? "high" : "auto"}
@@ -956,7 +958,7 @@ export default function Home() {
                         <span>{spaceTypeLabel}</span>
                       </div>
 
-                      <h2 className="hero-case-title">{item.title}</h2>
+                      <h2 className="hero-case-title">{displayTitle}</h2>
 
                       {materialText && (
                         <p className="hero-case-material-text">
@@ -1072,20 +1074,21 @@ export default function Home() {
                 const srcSet = getCaseImageSrcSet(item.main_image_url);
                 const SpaceIcon = getCaseSpaceIcon(item);
                 const spaceLabel = `${item.location ? item.location + ' · ' : ''}${item.category || '시공현장'}`;
+                const displayTitle = formatCaseTitle(item);
 
                 return (
                   <article 
                     key={item.id} 
                     className="project-case-card"
                     onClick={() => navigate(`/cases?id=${item.id}`)}
-                    title={`${item.title} 시공사례 상세 보기`}
+                    title={`${displayTitle} 시공사례 상세 보기`}
                   >
                     <div className="project-media-wrap">
                       <img 
                         src={thumbUrl} 
                         srcSet={srcSet || undefined}
                         sizes="(max-width: 767px) 82vw, (max-width: 1024px) 50vw, 400px"
-                        alt={item.title} 
+                        alt={displayTitle} 
                         loading={idx < 3 ? "eager" : "lazy"}
                         decoding="async"
                         width="560"
@@ -1128,7 +1131,7 @@ export default function Home() {
                         ) : null}
                       </div>
 
-                      <h3 className="project-case-title">{item.title}</h3>
+                      <h3 className="project-case-title">{displayTitle}</h3>
                       {item.description && <p className="project-case-desc">{item.description}</p>}
                       <span className="project-view-more">
                         시공사례 보기 <ChevronRight size={15} />

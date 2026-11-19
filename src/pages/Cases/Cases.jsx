@@ -8,6 +8,7 @@ import CaseCard from './CaseCard';
 import CaseLightboxModal from './CaseLightboxModal';
 import { FALLBACK_CASES } from '../../data/fallbackCases';
 import { invalidateCasesCache } from '../../utils/constructionCasesService';
+import { formatCaseTitle } from '../../utils/caseTitleUtils';
 import './Cases.css';
 
 // In-memory cache for instant zero-lag re-visits
@@ -119,7 +120,7 @@ export default function Cases() {
 
     setLightboxState({
       isOpen: true,
-      title: item.title,
+      title: formatCaseTitle(item),
       images,
       currentIndex: Math.max(0, Math.min(index, images.length - 1))
     });
