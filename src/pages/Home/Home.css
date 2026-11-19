@@ -92,6 +92,178 @@
   justify-content: center;
 }
 
+/* Crossfade Slide Layers (Zero CLS) */
+.hero-slide-layer {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+  transition: opacity 0.65s ease, visibility 0.65s ease;
+  z-index: 1;
+}
+
+.hero-slide-layer.is-active {
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
+  z-index: 2;
+}
+
+/* Construction Case Full-bleed Background Image */
+.hero-case-bg-image {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  z-index: 1;
+  background-color: #0b0f19;
+}
+
+/* Case Slide Content Overlay */
+.hero-case-overlay {
+  background:
+    linear-gradient(
+      90deg,
+      rgba(15, 23, 42, 0.20) 0%,
+      rgba(15, 23, 42, 0.44) 48%,
+      rgba(15, 23, 42, 0.78) 100%
+    ),
+    linear-gradient(
+      180deg,
+      rgba(15, 23, 42, 0.56) 0%,
+      rgba(15, 23, 42, 0.14) 34%,
+      rgba(15, 23, 42, 0.42) 100%
+    );
+}
+
+.hero-case-space-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 6px 14px;
+  background: rgba(15, 23, 42, 0.65);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  border: 1px solid rgba(255, 255, 255, 0.28);
+  border-radius: 9999px;
+  color: #ffffff;
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 0.4px;
+  margin-bottom: 14px;
+}
+
+.hero-case-title {
+  font-size: clamp(28px, 3vw, 44px);
+  font-weight: 800;
+  color: #ffffff;
+  line-height: 1.24;
+  letter-spacing: -0.6px;
+  margin: 0 0 12px 0;
+  text-shadow: 0 3px 16px rgba(0, 0, 0, 0.72);
+  word-break: keep-all;
+}
+
+.hero-case-material-text {
+  font-size: clamp(15px, 1.25vw, 18px);
+  font-weight: 600;
+  color: #f8e3b2;
+  line-height: 1.5;
+  margin: 0 0 22px 0;
+  text-shadow: 0 2px 10px rgba(0, 0, 0, 0.7);
+  word-break: keep-all;
+}
+
+/* Prev / Next Slider Arrows */
+.hero-slider-arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  background: rgba(15, 23, 42, 0.48);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  color: #ffffff;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  z-index: 12;
+  transition: all 0.2s ease;
+}
+
+.hero-slider-arrow.prev {
+  left: 20px;
+}
+
+.hero-slider-arrow.next {
+  right: 20px;
+}
+
+.hero-slider-arrow:hover {
+  background: rgba(15, 23, 42, 0.85);
+  border-color: var(--point-gold);
+  color: var(--point-gold);
+}
+
+/* Bottom Controls Bar (Pause/Play + Indicator Dots) */
+.hero-slider-bottom-controls {
+  position: absolute;
+  bottom: 16px;
+  left: 20px;
+  right: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  pointer-events: none;
+  z-index: 12;
+}
+
+.hero-slider-bottom-controls .hero-video-toggle-btn {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  pointer-events: auto;
+}
+
+.hero-slide-dots {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 6px 12px;
+  background: rgba(15, 23, 42, 0.45);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  border-radius: 9999px;
+  pointer-events: auto;
+}
+
+.hero-slide-dot {
+  width: 8px;
+  height: 8px;
+  min-width: 0 !important;
+  min-height: 0 !important;
+  padding: 0 !important;
+  border: none;
+  border-radius: 9999px;
+  background: rgba(255, 255, 255, 0.45);
+  cursor: pointer;
+  transition: all 0.25s ease;
+}
+
+.hero-slide-dot.active {
+  width: 24px;
+  background: var(--point-gold);
+}
+
 /* Single 12s MP4 HTML5 Video */
 .home-hero-video,
 .hero-video-fallback {
@@ -646,10 +818,15 @@
    3. REAL PROJECTS (CONSTRUCTION CASES) SECTION
    ========================================================================== */
 .showroom-projects-section {
-  padding: 56px 0;
+  padding: 36px 0 48px;
   background-color: var(--bg-subtle);
   border-top: 1px solid var(--border-subtle);
   border-bottom: 1px solid var(--border-subtle);
+}
+
+.projects-cards-grid.preview-three-grid {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 24px;
 }
 
 .link-projects-all {
@@ -1101,11 +1278,67 @@
   }
 
   .hero-video-toggle-btn {
-    bottom: 10px;
-    left: 12px;
+    bottom: 0;
+    left: 0;
     right: auto;
     padding: 4px 10px;
     font-size: 10px;
+  }
+
+  .hero-case-bg-image {
+    object-position: center 45%;
+  }
+
+  .hero-case-space-badge {
+    font-size: 11px;
+    padding: 4px 10px;
+    margin-bottom: 8px;
+  }
+
+  .hero-case-title {
+    font-size: clamp(20px, 5.5vw, 24px);
+    margin-bottom: 8px;
+  }
+
+  .hero-case-material-text {
+    font-size: 12px;
+    margin-bottom: 14px;
+  }
+
+  .hero-slider-arrow {
+    width: 32px;
+    height: 32px;
+    min-width: 0 !important;
+    min-height: 0 !important;
+    padding: 0 !important;
+  }
+
+  .hero-slider-arrow.prev {
+    left: 8px;
+  }
+
+  .hero-slider-arrow.next {
+    right: 8px;
+  }
+
+  .hero-slider-bottom-controls {
+    bottom: 10px;
+    left: 12px;
+    right: 12px;
+  }
+
+  .hero-slide-dots {
+    gap: 6px;
+    padding: 5px 10px;
+  }
+
+  .hero-slide-dot {
+    width: 7px;
+    height: 7px;
+  }
+
+  .hero-slide-dot.active {
+    width: 18px;
   }
 
   .showroom-collection-section {
@@ -1179,6 +1412,25 @@
   .projects-cards-grid {
     grid-template-columns: repeat(2, minmax(0, 1fr));
     gap: 12px;
+  }
+
+  .projects-cards-grid.preview-three-grid {
+    display: flex;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    -webkit-overflow-scrolling: touch;
+    gap: 12px;
+    padding-bottom: 6px;
+    scrollbar-width: none;
+  }
+
+  .projects-cards-grid.preview-three-grid::-webkit-scrollbar {
+    display: none;
+  }
+
+  .projects-cards-grid.preview-three-grid .project-case-card {
+    flex: 0 0 80%;
+    scroll-snap-align: start;
   }
 
   .project-body-wrap {

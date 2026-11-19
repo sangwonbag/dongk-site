@@ -8,6 +8,7 @@ import { preloadRoute, setupIdlePreload } from "../../utils/routePreloader";
 import { 
   ArrowRight, 
   ArrowUpRight,
+  ChevronLeft,
   ChevronRight, 
   Play, 
   Pause, 
@@ -587,23 +588,62 @@ const LX_JANGPAN_COLLECTION = [
 ];
 
 const CASES_HISTORY_KEY = 'dk_home_cases_history';
-const SHOWCASE_COUNT = 4;
+const HERO_CASE_COUNT = 5;
+const PREVIEW_CASE_COUNT = 3;
+const HERO_SLIDE_INTERVAL_MS = 6000;
+
+function getCaseSpaceIcon(item) {
+  if (item?.title?.includes('헬스장') || item?.title?.includes('피트니스')) return Dumbbell;
+  if (item?.category === '주거공간') return HomeIcon;
+  if (item?.category === '사무공간') return Briefcase;
+  return Building2;
+}
 
 export default function Home() {
   const navigate = useNavigate();
   const videoRef = useRef(null);
   const userPausedRef = useRef(false);
+  const touchStartXRef = useRef(null);
 
   const [isPlaying, setIsPlaying] = useState(true);
   const [videoError, setVideoError] = useState(false);
-  const [scrollProgress, setScrollProgress] = useState(0);
   const [recommendedCategory, setRecommendedCategory] = useState("decotile");
 
-  // Use deterministic initial markup for prerendering; randomize once per home visit.
-  const [showcaseCases, setShowcaseCases] = useState(() => FALLBACK_CASES.slice(0, SHOWCASE_COUNT));
+  // Hero slider state (Video slide + randomized published construction cases)
+  const [activeSlideIndex, setActiveSlideIndex] = useState(0);
+  const [prefersReducedMotion, setPrefersReducedMotion] = useState(() => {
+    if (typeof window === 'undefined' || !window.matchMedia) return false;
+    return window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  });
+  const [isSlidePaused, setIsSlidePaused] = useState(() => {
+    if (typeof window === 'undefined' || !window.matchMedia) return false;
+    return window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  });
+
+  // Deterministic initial markup for prerendering; randomize once per home visit and keep stable while viewing.
+  const [heroCases, setHeroCases] = useState(() =>
+    FALLBACK_CASES.filter((c) => c && c.main_image_url).slice(0, HERO_CASE_COUNT)
+  );
+  const [showcaseCases, setShowcaseCases] = useState(() => FALLBACK_CASES.slice(0, PREVIEW_CASE_COUNT));
+  const casesInitializedRef = useRef(false);
+
+  // Listen to prefers-reduced-motion changes
+  useEffect(() => {
+    if (typeof window === 'undefined' || !window.matchMedia) return undefined;
+    const mq = window.matchMedia('(prefers-reduced-motion: reduce)');
+    const handleChange = (e) => {
+      setPrefersReducedMotion(e.matches);
+      if (e.matches) setIsSlidePaused(true);
+    };
+    mq.addEventListener?.('change', handleChange);
+    return () => mq.removeEventListener?.('change', handleChange);
+  }, []);
 
   useEffect(() => {
+    if (casesInitializedRef.current) return undefined;
+    casesInitializedRef.current = true;
     let isMounted = true;
+
     async function loadShowcaseCases() {
       let previousIds = [];
       try {
@@ -616,11 +656,27 @@ export default function Home() {
       const allCases = await fetchPublishedCases();
       if (!isMounted) return;
 
-      const selected = getRandomShowcaseCases(allCases, SHOWCASE_COUNT, previousIds);
-      if (selected.length > 0) {
-        setShowcaseCases(selected);
+      // Deduplicate by id and keep valid cases with images for hero slides
+      const seenIds = new Set();
+      const uniqueCases = (allCases || []).filter((c) => {
+        if (!c || c.is_published === false || c.is_active === false) return false;
+        const key = String(c.id);
+        if (seenIds.has(key)) return false;
+        seenIds.add(key);
+        return true;
+      });
+
+      const randomPool = getRandomShowcaseCases(uniqueCases, Math.max(HERO_CASE_COUNT, PREVIEW_CASE_COUNT), previousIds);
+      if (randomPool.length > 0) {
+        const validHeroSlides = randomPool.filter((c) => Boolean(c.main_image_url)).slice(0, HERO_CASE_COUNT);
+        if (validHeroSlides.length > 0) {
+          setHeroCases(validHeroSlides);
+        }
+        const previewItems = randomPool.slice(0, PREVIEW_CASE_COUNT);
+        setShowcaseCases(previewItems);
+
         try {
-          window.sessionStorage.setItem(CASES_HISTORY_KEY, JSON.stringify(selected.map((c) => c.id)));
+          window.sessionStorage.setItem(CASES_HISTORY_KEY, JSON.stringify(previewItems.map((c) => c.id)));
         } catch {
           // Storage is optional
         }
@@ -632,6 +688,48 @@ export default function Home() {
       isMounted = false;
     };
   }, []);
+
+  // Build combined slides: Slide 0 (Brand Video) + Randomized Construction Case Slides
+  const totalSlides = 1 + heroCases.length;
+
+  // Clamp activeSlideIndex if totalSlides changes
+  useEffect(() => {
+    if (activeSlideIndex >= totalSlides) {
+      setActiveSlideIndex(0);
+    }
+  }, [activeSlideIndex, totalSlides]);
+
+  // Auto-advance hero carousel every 6 seconds (disabled when paused or prefers-reduced-motion)
+  useEffect(() => {
+    if (isSlidePaused || prefersReducedMotion || totalSlides <= 1) return undefined;
+    const timer = window.setInterval(() => {
+      setActiveSlideIndex((prev) => (prev + 1) % totalSlides);
+    }, HERO_SLIDE_INTERVAL_MS);
+    return () => window.clearInterval(timer);
+  }, [isSlidePaused, prefersReducedMotion, totalSlides]);
+
+  const handlePrevSlide = () => {
+    setActiveSlideIndex((prev) => (prev - 1 + totalSlides) % totalSlides);
+  };
+
+  const handleNextSlide = () => {
+    setActiveSlideIndex((prev) => (prev + 1) % totalSlides);
+  };
+
+  const handleHeroTouchStart = (e) => {
+    touchStartXRef.current = e.touches?.[0]?.clientX ?? null;
+  };
+
+  const handleHeroTouchEnd = (e) => {
+    if (touchStartXRef.current === null) return;
+    const endX = e.changedTouches?.[0]?.clientX ?? touchStartXRef.current;
+    const diff = touchStartXRef.current - endX;
+    touchStartXRef.current = null;
+    if (Math.abs(diff) > 45) {
+      if (diff > 0) handleNextSlide();
+      else handlePrevSlide();
+    }
+  };
 
   // Use deterministic initial markup for prerendering; randomize once per home visit.
   const [trendyProducts, setTrendyProducts] = useState(() => KCC_COLLECTION.slice(0, TRENDY_DISPLAY_COUNT));
@@ -698,49 +796,27 @@ export default function Home() {
     return () => observer.disconnect();
   }, []);
 
-  // Scroll Motion Transformation
-  useEffect(() => {
-    let ticking = false;
-
-    const handleScroll = () => {
-      if (!ticking) {
-        window.requestAnimationFrame(() => {
-          const y = window.scrollY || 0;
-          // Progress from 0 to 1 over first 450px of scroll
-          const progress = Math.min(1, Math.max(0, y / 450));
-          setScrollProgress(progress);
-          ticking = false;
-        });
-        ticking = true;
+  // Combined Hero Slide & Video Pause/Play Toggle
+  const toggleSlidePause = () => {
+    setIsSlidePaused((prev) => {
+      const nextPaused = !prev;
+      const video = videoRef.current;
+      if (video) {
+        if (nextPaused) {
+          userPausedRef.current = true;
+          video.pause();
+          setIsPlaying(false);
+        } else {
+          userPausedRef.current = false;
+          if (activeSlideIndex === 0) {
+            video.play().catch(() => {});
+            setIsPlaying(true);
+          }
+        }
       }
-    };
-
-    handleScroll();
-    window.addEventListener("scroll", handleScroll, { passive: true });
-    return () => window.removeEventListener("scroll", handleScroll);
-  }, []);
-
-  // Video Play / Pause Toggle
-  const togglePlay = () => {
-    const video = videoRef.current;
-    if (!video) return;
-
-    if (video.paused) {
-      userPausedRef.current = false;
-      video.play().catch(() => {});
-      setIsPlaying(true);
-    } else {
-      userPausedRef.current = true;
-      video.pause();
-      setIsPlaying(false);
-    }
+      return nextPaused;
+    });
   };
-
-  // Dynamic Scroll Styles for Hero Video Frame and Overlay Text
-  const heroTextOpacity = Math.max(0, 1 - scrollProgress * 1.3);
-  const heroTextTranslateY = -scrollProgress * 40;
-  const heroVideoScale = Math.max(0.94, 1 - scrollProgress * 0.06);
-  const heroVideoRadius = Math.min(28, scrollProgress * 28);
 
   return (
     <MainLayout>
@@ -753,88 +829,319 @@ export default function Home() {
 
       <div className="premium-showroom-home">
 
-        {/* ================= 1. WIDE VIDEO HERO BANNER ================= */}
-        <section className="showroom-hero-section">
+        {/* ================= 1. WIDE VIDEO + REAL CONSTRUCTION CASES HERO SLIDER ================= */}
+        <section
+          className="showroom-hero-section"
+          aria-roledescription="carousel"
+          aria-label="동경바닥재 브랜드 영상 및 실제 시공사례 슬라이드"
+          onTouchStart={handleHeroTouchStart}
+          onTouchEnd={handleHeroTouchEnd}
+        >
           <div className="hero-video-stage">
-            {/* HTML5 Video Element */}
-            {!videoError ? (
-              <video
-                ref={videoRef}
-                autoPlay
-                muted
-                loop
-                playsInline
-                preload="metadata"
-                className="home-hero-video"
-                onError={() => setVideoError(true)}
-              >
-                <source src="/videos/home-hero.mp4" type="video/mp4" />
-              </video>
-            ) : (
-              <div className="hero-video-fallback">
-                <img 
-                  src="/images/home-interior/korea-apt-living-01.webp" 
-                  alt="동경바닥재 프리미엄 인테리어 쇼룸" 
-                  className="fallback-image"
-                />
-              </div>
-            )}
+            {/* Slide 0: Brand Promo Video */}
+            <div
+              className={`hero-slide-layer ${activeSlideIndex === 0 ? "is-active" : ""}`}
+              aria-hidden={activeSlideIndex !== 0}
+            >
+              {!videoError ? (
+                <video
+                  ref={videoRef}
+                  autoPlay={!prefersReducedMotion}
+                  muted
+                  loop
+                  playsInline
+                  preload="metadata"
+                  className="home-hero-video"
+                  onError={() => setVideoError(true)}
+                >
+                  <source src="/videos/home-hero.mp4" type="video/mp4" />
+                </video>
+              ) : (
+                <div className="hero-video-fallback">
+                  <img 
+                    src="/images/home-interior/korea-apt-living-01.webp" 
+                    alt="동경바닥재 프리미엄 인테리어 쇼룸" 
+                    className="fallback-image"
+                    fetchPriority="high"
+                  />
+                </div>
+              )}
 
-            {/* Cinematic Gradient Tint Overlay */}
-            <div className="hero-cinematic-overlay" />
+              <div className="hero-cinematic-overlay" />
 
-            {/* Video Play / Pause Toggle Button */}
-            {!videoError && (
-              <button 
-                type="button"
-                className="hero-video-toggle-btn"
-                onClick={togglePlay}
-                aria-label={isPlaying ? "영상 일시정지" : "영상 재생"}
-              >
-                {isPlaying ? <Pause size={14} /> : <Play size={14} />}
-                <span>{isPlaying ? "PAUSE" : "PLAY"}</span>
-              </button>
-            )}
+              <div className="hero-content-wrap">
+                <div className="hero-inner-container">
+                  <p className="hero-brand-kicker">KCC FLOORING</p>
 
-            {/* Right-aligned Brand Copy Block & CTA */}
-            <div className="hero-content-wrap">
-              <div className="hero-inner-container">
-                <p className="hero-brand-kicker">KCC FLOORING</p>
+                  <h1 className="hero-main-title">DONG KYUNG</h1>
 
-                <h1 className="hero-main-title">DONG KYUNG</h1>
+                  <p className="hero-sub-description">
+                    <span>KCC바닥재 취급점/시공 전문업체</span>
+                    <span>바닥재, 마루, 마루공사, 마루시공, 마루자재 판매</span>
+                  </p>
 
-                <p className="hero-sub-description">
-                  <span>KCC바닥재 취급점/시공 전문업체</span>
-                  <span>바닥재, 마루, 마루공사, 마루시공, 마루자재 판매</span>
-                </p>
+                  <div className="hero-cta-group">
+                    <Link 
+                      to="/materials" 
+                      className="btn-hero-primary"
+                      onMouseEnter={() => preloadRoute('/materials')}
+                      onTouchStart={() => preloadRoute('/materials')}
+                    >
+                      <ShoppingBag size={17} />
+                      <span>자재 찾기 →</span>
+                    </Link>
 
-                <div className="hero-cta-group">
-                  <Link 
-                    to="/materials" 
-                    className="btn-hero-primary"
-                    onMouseEnter={() => preloadRoute('/materials')}
-                    onTouchStart={() => preloadRoute('/materials')}
-                  >
-                    <ShoppingBag size={17} />
-                    <span>자재 찾기 →</span>
-                  </Link>
-
-                  <Link 
-                    to="/estimate/request" 
-                    className="btn-hero-glass"
-                    onMouseEnter={() => preloadRoute('/estimate')}
-                    onTouchStart={() => preloadRoute('/estimate')}
-                  >
-                    <FileText size={17} />
-                    <span>견적문의 →</span>
-                  </Link>
+                    <Link 
+                      to="/estimate/request" 
+                      className="btn-hero-glass"
+                      onMouseEnter={() => preloadRoute('/estimate')}
+                      onTouchStart={() => preloadRoute('/estimate')}
+                    >
+                      <FileText size={17} />
+                      <span>견적문의 →</span>
+                    </Link>
+                  </div>
                 </div>
               </div>
+            </div>
+
+            {/* Slides 1..N: Randomized Published Construction Cases */}
+            {heroCases.map((item, idx) => {
+              const slideIdx = idx + 1;
+              const isActive = activeSlideIndex === slideIdx;
+              const isNextOrFirst = slideIdx === 1 || slideIdx === ((activeSlideIndex + 1) % totalSlides);
+              const materialLinks = resolveCaseMaterialLinks(item);
+              const directMaterialLink = materialLinks.find((l) => l.isDirectDetail);
+              const materialText =
+                materialLinks.length > 0
+                  ? materialLinks.map((l) => l.label).join(" · ")
+                  : item.material_summary || "";
+              const SpaceIcon = getCaseSpaceIcon(item);
+              const spaceTypeLabel = `${item.location ? item.location + " · " : ""}${item.category || "시공현장"}`;
+              const heroImgUrl = getCaseImageUrl(item.main_image_url, "1200");
+              const heroSrcSet = getCaseImageSrcSet(item.main_image_url);
+
+              return (
+                <div
+                  key={`hero-case-${item.id}`}
+                  className={`hero-slide-layer hero-case-slide ${isActive ? "is-active" : ""}`}
+                  aria-hidden={!isActive}
+                >
+                  <img
+                    src={heroImgUrl}
+                    srcSet={heroSrcSet || undefined}
+                    sizes="100vw"
+                    alt={`${item.title} 실제 시공사례`}
+                    className="hero-case-bg-image"
+                    loading={isActive || isNextOrFirst ? "eager" : "lazy"}
+                    fetchPriority={isActive || slideIdx === 1 ? "high" : "auto"}
+                    decoding="async"
+                    onError={(e) => {
+                      if (e.target.dataset.triedRaw !== "true" && item.main_image_url && item.main_image_url !== heroImgUrl) {
+                        e.target.dataset.triedRaw = "true";
+                        e.target.src = item.main_image_url;
+                      } else {
+                        e.target.onerror = null;
+                        e.target.src = "/images/home-interior/korea-apt-living-01.webp";
+                      }
+                    }}
+                  />
+
+                  <div className="hero-cinematic-overlay hero-case-overlay" />
+
+                  <div className="hero-content-wrap hero-case-content-wrap">
+                    <div className="hero-inner-container hero-case-inner">
+                      <div className="hero-case-space-badge">
+                        <SpaceIcon size={14} />
+                        <span>{spaceTypeLabel}</span>
+                      </div>
+
+                      <h2 className="hero-case-title">{item.title}</h2>
+
+                      {materialText && (
+                        <p className="hero-case-material-text">
+                          사용 자재: {materialText}
+                        </p>
+                      )}
+
+                      <div className="hero-cta-group">
+                        <Link
+                          to={`/cases?id=${item.id}`}
+                          className="btn-hero-primary"
+                          onMouseEnter={() => preloadRoute("/cases")}
+                        >
+                          <span>시공사례 보기 →</span>
+                        </Link>
+
+                        {directMaterialLink && (
+                          <Link
+                            to={directMaterialLink.path}
+                            className="btn-hero-glass"
+                            onMouseEnter={() => preloadRoute(directMaterialLink.path)}
+                          >
+                            <ShoppingBag size={16} />
+                            <span>사용 자재 보기 →</span>
+                          </Link>
+                        )}
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              );
+            })}
+
+            {/* Slider Prev / Next Controls */}
+            {totalSlides > 1 && (
+              <>
+                <button
+                  type="button"
+                  className="hero-slider-arrow prev"
+                  onClick={handlePrevSlide}
+                  aria-label="이전 슬라이드"
+                >
+                  <ChevronLeft size={22} />
+                </button>
+                <button
+                  type="button"
+                  className="hero-slider-arrow next"
+                  onClick={handleNextSlide}
+                  aria-label="다음 슬라이드"
+                >
+                  <ChevronRight size={22} />
+                </button>
+              </>
+            )}
+
+            {/* Bottom Control Bar: Pause/Play + Page Indicators */}
+            <div className="hero-slider-bottom-controls">
+              <button
+                type="button"
+                className="hero-video-toggle-btn"
+                onClick={toggleSlidePause}
+                aria-label={isSlidePaused ? "슬라이드 자동재생 시작" : "슬라이드 일시정지"}
+              >
+                {isSlidePaused ? <Play size={13} /> : <Pause size={13} />}
+                <span>{isSlidePaused ? "PLAY" : "PAUSE"}</span>
+              </button>
+
+              {totalSlides > 1 && (
+                <div className="hero-slide-dots" role="tablist" aria-label="슬라이드 페이지 선택">
+                  {Array.from({ length: totalSlides }).map((_, idx) => (
+                    <button
+                      key={`dot-${idx}`}
+                      type="button"
+                      role="tab"
+                      aria-selected={activeSlideIndex === idx}
+                      aria-label={idx === 0 ? "브랜드 홍보 영상 슬라이드" : `실제 시공사례 ${idx}번 슬라이드`}
+                      className={`hero-slide-dot ${activeSlideIndex === idx ? "active" : ""}`}
+                      onClick={() => setActiveSlideIndex(idx)}
+                    />
+                  ))}
+                </div>
+              )}
             </div>
           </div>
         </section>
 
-        {/* ================= 2. RECOMMENDED COLLECTION (추천 자재) ================= */}
+        {/* ================= 2. REAL PROJECTS PREVIEW (실제 시공사례 미리보기 3개) ================= */}
+        <section className="showroom-projects-section">
+          <div className="container">
+            <div className="section-head-block row-header">
+              <div>
+                <h2 className="section-primary-title">실제 시공사례</h2>
+                <p className="section-sub-copy">
+                  동경바닥재가 직접 완공한 실제 바닥 시공 현장과 사용 자재를 확인해보세요.
+                </p>
+              </div>
+              <Link 
+                to="/cases" 
+                className="link-projects-all"
+                onMouseEnter={() => preloadRoute('/cases')}
+              >
+                <span>전체 시공사례 보기</span>
+                <ArrowRight size={16} />
+              </Link>
+            </div>
+
+            {/* Randomized verified construction cases preview (3 cards) */}
+            <div className="projects-cards-grid preview-three-grid">
+              {showcaseCases.map((item, idx) => {
+                const materialLinks = resolveCaseMaterialLinks(item);
+                const directLinks = materialLinks.filter((l) => l.isDirectDetail);
+                const thumbUrl = getCaseImageUrl(item.main_image_url, '800');
+                const srcSet = getCaseImageSrcSet(item.main_image_url);
+                const SpaceIcon = getCaseSpaceIcon(item);
+                const spaceLabel = `${item.location ? item.location + ' · ' : ''}${item.category || '시공현장'}`;
+
+                return (
+                  <article 
+                    key={item.id} 
+                    className="project-case-card"
+                    onClick={() => navigate(`/cases?id=${item.id}`)}
+                    title={`${item.title} 시공사례 상세 보기`}
+                  >
+                    <div className="project-media-wrap">
+                      <img 
+                        src={thumbUrl} 
+                        srcSet={srcSet || undefined}
+                        sizes="(max-width: 767px) 82vw, (max-width: 1024px) 50vw, 400px"
+                        alt={item.title} 
+                        loading={idx < 3 ? "eager" : "lazy"}
+                        decoding="async"
+                        width="560"
+                        height="360"
+                        onError={(e) => {
+                          if (e.target.dataset.triedRaw !== 'true' && item.main_image_url && item.main_image_url !== thumbUrl) {
+                            e.target.dataset.triedRaw = 'true';
+                            e.target.src = item.main_image_url;
+                          } else {
+                            e.target.onerror = null;
+                            e.target.src = "/images/no-image.svg";
+                          }
+                        }}
+                      />
+                      <div className="project-space-tag">
+                        <SpaceIcon size={14} />
+                        <span>{spaceLabel}</span>
+                      </div>
+                    </div>
+
+                    <div className="project-body-wrap">
+                      {/* Clickable Material Links */}
+                      <div className="project-material-links-wrap" onClick={(e) => e.stopPropagation()}>
+                        {directLinks.length > 0 ? (
+                          directLinks.map((linkItem, lIdx) => (
+                            <Link
+                              key={lIdx}
+                              to={linkItem.path}
+                              className="project-material-badge-link"
+                              title={`${linkItem.label} 자재 상세페이지로 이동`}
+                            >
+                              <span>{linkItem.label}</span>
+                              <ArrowUpRight size={12} className="material-link-arrow" />
+                            </Link>
+                          ))
+                        ) : item.material_summary ? (
+                          <span className="project-material-summary">
+                            {item.material_summary}
+                          </span>
+                        ) : null}
+                      </div>
+
+                      <h3 className="project-case-title">{item.title}</h3>
+                      {item.description && <p className="project-case-desc">{item.description}</p>}
+                      <span className="project-view-more">
+                        시공사례 보기 <ChevronRight size={15} />
+                      </span>
+                    </div>
+                  </article>
+                );
+              })}
+            </div>
+          </div>
+        </section>
+
+        {/* ================= 3. RECOMMENDED COLLECTION (추천 자재) ================= */}
         <section className="showroom-collection-section">
           <div className="container">
             <div className="section-head-block row-header collection-header-bar">
@@ -1017,119 +1324,6 @@ export default function Home() {
             )}
           </div>
         </section>
-
-        {/* ================= 3. REAL PROJECTS (CONSTRUCTION CASES) ================= */}
-        <LazySection minHeight="480px">
-          <section className="showroom-projects-section">
-            <div className="container">
-              <div className="section-head-block row-header">
-                <div>
-                  <h2 className="section-primary-title">실제 시공사례</h2>
-                  <p className="section-sub-copy">
-                    동경바닥재가 직접 완공한 헬스장, 아파트, 오피스텔 등 실제 바닥 시공 현장을 확인해보세요.
-                  </p>
-                </div>
-                <Link 
-                  to="/cases" 
-                  className="link-projects-all"
-                  onMouseEnter={() => preloadRoute('/cases')}
-                >
-                  <span>시공사례 전체 보기</span>
-                  <ArrowRight size={16} />
-                </Link>
-              </div>
-
-              {/* Randomized verified construction cases showcase */}
-              <div className="projects-cards-grid">
-                {showcaseCases.map((item) => {
-                  const materialLinks = resolveCaseMaterialLinks(item);
-                  const thumbUrl = getCaseImageUrl(item.main_image_url, '800');
-                  const srcSet = getCaseImageSrcSet(item.main_image_url);
-
-                  let SpaceIcon = Building2;
-                  if (item.title?.includes('헬스장') || item.title?.includes('피트니스')) {
-                    SpaceIcon = Dumbbell;
-                  } else if (item.category === '주거공간') {
-                    SpaceIcon = HomeIcon;
-                  } else if (item.category === '사무공간') {
-                    SpaceIcon = Briefcase;
-                  }
-
-                  const spaceLabel = `${item.location ? item.location + ' · ' : ''}${item.category || '시공현장'}`;
-
-                  return (
-                    <article 
-                      key={item.id} 
-                      className="project-case-card"
-                      onClick={() => navigate(`/cases?id=${item.id}`)}
-                      title={`${item.title} 시공사례 상세 보기`}
-                    >
-                      <div className="project-media-wrap">
-                        <img 
-                          src={thumbUrl} 
-                          srcSet={srcSet || undefined}
-                          sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 320px"
-                          alt={item.title} 
-                          loading="lazy"
-                          decoding="async"
-                          width="560"
-                          height="360"
-                          onError={(e) => {
-                            if (e.target.dataset.triedRaw !== 'true' && item.main_image_url && item.main_image_url !== thumbUrl) {
-                              e.target.dataset.triedRaw = 'true';
-                              e.target.src = item.main_image_url;
-                            } else {
-                              e.target.onerror = null;
-                              e.target.src = "/images/no-image.svg";
-                            }
-                          }}
-                        />
-                        <div className="project-space-tag">
-                          <SpaceIcon size={14} />
-                          <span>{spaceLabel}</span>
-                        </div>
-                      </div>
-
-                      <div className="project-body-wrap">
-                        {/* Clickable Material Links */}
-                        <div className="project-material-links-wrap" onClick={(e) => e.stopPropagation()}>
-                          {materialLinks.length > 0 ? (
-                            materialLinks.map((linkItem, idx) => (
-                              <Link
-                                key={idx}
-                                to={linkItem.path}
-                                className="project-material-badge-link"
-                                title={`${linkItem.label} ${linkItem.isDirectDetail ? '자재 상세페이지' : '자재 검색 결과'}로 이동`}
-                              >
-                                <span>{linkItem.label}</span>
-                                <ArrowUpRight size={12} className="material-link-arrow" />
-                              </Link>
-                            ))
-                          ) : item.material_summary ? (
-                            <Link
-                              to={`/materials?search=${encodeURIComponent(item.material_summary)}`}
-                              className="project-material-badge-link"
-                              title={`${item.material_summary} 자재 검색하기`}
-                            >
-                              <span>{item.material_summary}</span>
-                              <ArrowUpRight size={12} className="material-link-arrow" />
-                            </Link>
-                          ) : null}
-                        </div>
-
-                        <h3 className="project-case-title">{item.title}</h3>
-                        {item.description && <p className="project-case-desc">{item.description}</p>}
-                        <span className="project-view-more">
-                          현장 시공사례 보기 <ChevronRight size={15} />
-                        </span>
-                      </div>
-                    </article>
-                  );
-                })}
-              </div>
-            </div>
-          </section>
-        </LazySection>
 
         {/* ================= 4. ABOUT DONGKYUNG BRAND STORY ================= */}
         <LazySection minHeight="420px">
