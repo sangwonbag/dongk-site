@@ -271,10 +271,8 @@ export default function SampleBookViewer({ book, onClose }) {
               {book.materialType && (
                 <span className="sb-viewer-material-tag">{book.materialType}</span>
               )}
-              {target.isVerified ? (
-                <span className="sb-viewer-status-badge verified">공식 E-카탈로그 인증</span>
-              ) : (
-                <span className="sb-viewer-status-badge unverified">공식 카탈로그 확인 중</span>
+              {!target.isVerified && (
+                <span className="sb-viewer-status-badge unverified">샘플북 확인 중</span>
               )}
             </div>
 
@@ -287,7 +285,7 @@ export default function SampleBookViewer({ book, onClose }) {
               <div className="sb-viewer-notice-box verified">
                 <div className="sb-notice-header">
                   <span className="sb-notice-icon">✓</span>
-                  <strong>제조사 공식 온라인 E-카탈로그</strong>
+                  <strong>샘플북 열람 안내</strong>
                 </div>
                 <p className="sb-notice-desc">
                   제조사({target.provider})에서 직접 제공하는 공식 웹 뷰어로 이동하여 고해상도 샘플북과 제품 스펙을 열람하실 수 있습니다.

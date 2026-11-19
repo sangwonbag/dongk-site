@@ -50,7 +50,6 @@ const SampleBookCard = ({ book, onClick }) => {
                 </div>
 
                 <div className="sb-badges">
-                    {target.isVerified && <div className="sb-badge-official">공식 E-카탈로그</div>}
                     {book.isRecommended && <div className="sb-badge-rec">추천</div>}
                     {book.isNew && <div className="sb-badge-new">NEW</div>}
                 </div>
