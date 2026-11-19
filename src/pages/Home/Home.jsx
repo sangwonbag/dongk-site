@@ -530,16 +530,17 @@ const KCC_COLLECTION = [
 ];
 
 const TRENDY_HISTORY_KEY = 'dk-home-trendy-products-v1';
+const TRENDY_DISPLAY_COUNT = 4;
 
 function pickTrendyProducts(previousIds = []) {
   const previous = new Set(previousIds);
   const fresh = KCC_COLLECTION.filter((item) => !previous.has(item.id));
-  const pool = [...(fresh.length >= 3 ? fresh : KCC_COLLECTION)];
+  const pool = [...(fresh.length >= TRENDY_DISPLAY_COUNT ? fresh : KCC_COLLECTION)];
   for (let i = pool.length - 1; i > 0; i -= 1) {
     const j = Math.floor(Math.random() * (i + 1));
     [pool[i], pool[j]] = [pool[j], pool[i]];
   }
-  return pool.slice(0, 3);
+  return pool.slice(0, TRENDY_DISPLAY_COUNT);
 }
 
 // LX Flagship Sheet Flooring Lineups (Ordered: 뉴청맥 1.8T -> 지아자연애 2.2T -> 엑스컴포트 5.0T)
@@ -633,7 +634,7 @@ export default function Home() {
   }, []);
 
   // Use deterministic initial markup for prerendering; randomize once per home visit.
-  const [trendyProducts, setTrendyProducts] = useState(() => KCC_COLLECTION.slice(0, 3));
+  const [trendyProducts, setTrendyProducts] = useState(() => KCC_COLLECTION.slice(0, TRENDY_DISPLAY_COUNT));
   const trendyInitializedRef = useRef(false);
   useEffect(() => {
     if (trendyInitializedRef.current) return;
@@ -752,17 +753,9 @@ export default function Home() {
 
       <div className="premium-showroom-home">
 
-        {/* ================= 1. PREMIUM FULLSCREEN VIDEO HERO ================= */}
+        {/* ================= 1. WIDE VIDEO HERO BANNER ================= */}
         <section className="showroom-hero-section">
-          {/* Transforming Video Stage Container */}
-          <div 
-            className="hero-video-stage"
-            style={{
-              transform: `scale(${heroVideoScale})`,
-              borderRadius: `${heroVideoRadius}px`,
-              boxShadow: scrollProgress > 0.08 ? `0 24px 60px rgba(0, 0, 0, ${scrollProgress * 0.4})` : 'none'
-            }}
-          >
+          <div className="hero-video-stage">
             {/* HTML5 Video Element */}
             {!videoError ? (
               <video
@@ -798,38 +791,23 @@ export default function Home() {
                 onClick={togglePlay}
                 aria-label={isPlaying ? "영상 일시정지" : "영상 재생"}
               >
-                {isPlaying ? <Pause size={15} /> : <Play size={15} />}
+                {isPlaying ? <Pause size={14} /> : <Play size={14} />}
                 <span>{isPlaying ? "PAUSE" : "PLAY"}</span>
               </button>
             )}
 
-            {/* Central Brand Headline & Call to Action (Fades on Scroll) */}
-            <div 
-              className="hero-content-wrap"
-              style={{
-                opacity: heroTextOpacity,
-                transform: `translate3d(0, ${heroTextTranslateY}px, 0)`,
-                pointerEvents: heroTextOpacity < 0.15 ? 'none' : 'auto'
-              }}
-            >
-              <div className="container hero-inner-container">
-                {/* 0.2s: Brand Fade In */}
-                <div className="hero-brand-tag">
-                  <span className="brand-dot" />
-                  <span>DONGKYUNG FLOORING</span>
-                </div>
+            {/* Right-aligned Brand Copy Block & CTA */}
+            <div className="hero-content-wrap">
+              <div className="hero-inner-container">
+                <p className="hero-brand-kicker">KCC FLOORING</p>
 
-                {/* 0.6s: Main Title Slide Up */}
-                <h1 className="hero-main-title">
-                  공간의 가치를 완성하는 바닥재
-                </h1>
+                <h1 className="hero-main-title">DONG KYUNG</h1>
 
-                {/* 1.1s: Subtitle Appear */}
                 <p className="hero-sub-description">
-                  좋은 공간의 시작, 자재 선택부터 시공까지.
+                  <span>KCC바닥재 취급점/시공 전문업체</span>
+                  <span>바닥재, 마루, 마루공사, 마루시공, 마루자재 판매</span>
                 </p>
 
-                {/* 1.5s: Action Buttons Appear */}
                 <div className="hero-cta-group">
                   <Link 
                     to="/materials" 
@@ -837,7 +815,7 @@ export default function Home() {
                     onMouseEnter={() => preloadRoute('/materials')}
                     onTouchStart={() => preloadRoute('/materials')}
                   >
-                    <ShoppingBag size={18} />
+                    <ShoppingBag size={17} />
                     <span>자재 찾기 →</span>
                   </Link>
 
@@ -847,37 +825,27 @@ export default function Home() {
                     onMouseEnter={() => preloadRoute('/estimate')}
                     onTouchStart={() => preloadRoute('/estimate')}
                   >
-                    <FileText size={18} />
+                    <FileText size={17} />
                     <span>견적문의 →</span>
                   </Link>
                 </div>
               </div>
             </div>
-
-            {/* Subtle Scroll Cue */}
-            <div 
-              className="hero-scroll-cue"
-              style={{ opacity: heroTextOpacity }}
-            >
-              <span className="cue-line" />
-              <span className="cue-text">SCROLL</span>
-            </div>
           </div>
         </section>
 
-        {/* ================= 2. RECOMMENDED COLLECTION (데코타일: KCC / 장판: LX) ================= */}
+        {/* ================= 2. RECOMMENDED COLLECTION (추천 자재) ================= */}
         <section className="showroom-collection-section">
           <div className="container">
-            <div className="section-head-block center">
-              <span className="section-eyebrow">OUR COLLECTION</span>
-              <h2 className="section-primary-title">
-                공간에 어울리는 바닥재를 만나보세요.
-              </h2>
-              <p className="section-sub-copy">
-                {recommendedCategory === "decotile"
-                  ? "KCC 센스타일 트랜디의 다양한 패턴을 만나보세요."
-                  : "동경바닥재가 추천하는 LX하우시스 대표 친환경·고기능 륨 장판 라인업"}
-              </p>
+            <div className="section-head-block row-header collection-header-bar">
+              <div>
+                <h2 className="section-primary-title">추천 자재</h2>
+                <p className="section-sub-copy">
+                  {recommendedCategory === "decotile"
+                    ? "KCC 센스타일 트랜디의 다양한 패턴을 만나보세요."
+                    : "LX하우시스 대표 친환경·고기능 륨 장판 라인업"}
+                </p>
+              </div>
 
               {/* Category Switcher Tabs */}
               <div className="collection-category-tabs">
@@ -903,7 +871,11 @@ export default function Home() {
             {/* Flagship Cards Grid */}
             <div className="collection-cards-grid">
               {(recommendedCategory === "decotile" ? trendyProducts : LX_JANGPAN_COLLECTION).map((item, idx) => (
-                <article key={item.id} className="collection-card">
+                <article
+                  key={item.id}
+                  className="collection-card"
+                  onClick={() => navigate(item.detailUrl)}
+                >
                   {/* Card Thumbnail Image with Hover Zoom */}
                   <div className="collection-card-media">
                     <img 
@@ -925,6 +897,7 @@ export default function Home() {
                   <div className="collection-card-body">
                     <div className="card-brand-row">
                       <span className="brand-chip">{item.brand || "KCC"}</span>
+                      {item.code && <span className="code-chip">{item.code}</span>}
                       <span className="subline-chip">{item.subLine}</span>
                     </div>
 
@@ -942,7 +915,7 @@ export default function Home() {
                       </div>
                     </div>
 
-                    <div className="card-action-bar">
+                    <div className="card-action-bar" onClick={(e) => e.stopPropagation()}>
                       <Link 
                         to={item.detailUrl} 
                         className="btn-card-detail"
@@ -1051,8 +1024,7 @@ export default function Home() {
             <div className="container">
               <div className="section-head-block row-header">
                 <div>
-                  <span className="section-eyebrow">REAL PROJECTS</span>
-                  <h2 className="section-primary-title">우리가 완성한 공간들</h2>
+                  <h2 className="section-primary-title">실제 시공사례</h2>
                   <p className="section-sub-copy">
                     동경바닥재가 직접 완공한 헬스장, 아파트, 오피스텔 등 실제 바닥 시공 현장을 확인해보세요.
                   </p>
