@@ -356,6 +356,7 @@ export function mapProductRow(p) {
     brand: brandName,
     category: categoryName,
     price: p.price || 0,
+    unit: p.unit || null,
     thickness: p.thickness || "",
     specs: {
       thickness: p.thickness || "",
