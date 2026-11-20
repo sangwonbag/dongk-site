@@ -1,6 +1,6 @@
 import React from "react";
 import { useNavigate, useLocation, Link } from "react-router-dom";
-import { ArrowLeft, Search, ShoppingCart, Home } from "lucide-react";
+import { ArrowLeft, Search, ShoppingCart, Share2 } from "lucide-react";
 import { useEstimateCart } from "../../contexts/EstimateCartContext";
 import "./MobileAppHeader.css";
 
@@ -9,6 +9,8 @@ export default function MobileAppHeader() {
   const location = useLocation();
   const { cartCount } = useEstimateCart();
 
+  const isNativeApp = typeof window !== 'undefined' &&
+    Boolean(window.Capacitor?.isNativePlatform?.());
   const isHome = location.pathname === "/";
   const isMaterials = location.pathname === "/materials";
   const isDetail = location.pathname.startsWith("/materials/");
@@ -38,6 +40,23 @@ export default function MobileAppHeader() {
       navigate(-1);
     } else {
       navigate("/");
+    }
+  };
+
+  const shareProduct = async () => {
+    const url = new URL(location.pathname + location.search, 'https://dkfloor.co.kr').href;
+    try {
+      const nativeShare = window.Capacitor?.Plugins?.Share;
+      if (isNativeApp && nativeShare?.share) {
+        await nativeShare.share({ title: '동경바닥재 상품', url, dialogTitle: '상품 공유' });
+      } else if (navigator.share) {
+        await navigator.share({ title: '동경바닥재 상품', url });
+      } else if (navigator.clipboard?.writeText) {
+        await navigator.clipboard.writeText(url);
+        window.alert('상품 링크를 복사했습니다.');
+      }
+    } catch (error) {
+      if (error?.name !== 'AbortError') console.warn('[Store App] 공유 취소 또는 실패:', error);
     }
   };
 
@@ -78,6 +97,11 @@ export default function MobileAppHeader() {
 
         {/* Right Action Icons */}
         <div className="mobile-header-right">
+          {isNativeApp && isDetail && (
+            <button type="button" className="mobile-icon-btn" onClick={shareProduct} aria-label="상품 공유">
+              <Share2 size={20} />
+            </button>
+          )}
           <Link to="/materials" className="mobile-icon-btn" aria-label="검색">
             <Search size={20} />
           </Link>

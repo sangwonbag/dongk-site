@@ -1,6 +1,6 @@
 import React from "react";
 import { Link, useLocation, useNavigate } from "react-router-dom";
-import { Home, Layers, FileText, ShoppingCart, User } from "lucide-react";
+import { Home, Layers, FileText, ShoppingCart, User, LayoutDashboard } from "lucide-react";
 import { useEstimateCart } from "../../contexts/EstimateCartContext";
 import { useAuth } from "../../contexts/AuthContext";
 import "./MobileBottomNavigation.css";
@@ -10,6 +10,7 @@ export default function MobileBottomNavigation() {
   const navigate = useNavigate();
   const { cartCount } = useEstimateCart();
   const { user, openLoginModal } = useAuth();
+  const isOperator = user?.role === 'admin' || user?.role === 'staff';
 
   const pathname = location.pathname;
 
@@ -29,6 +30,11 @@ export default function MobileBottomNavigation() {
   const handleEstimateClick = (e) => {
     e.preventDefault();
     navigate("/estimate/request");
+  };
+
+  const handleManagementClick = (e) => {
+    e.preventDefault();
+    navigate("/admin");
   };
 
   const navItems = [
@@ -64,11 +70,13 @@ export default function MobileBottomNavigation() {
     },
     {
       id: "mypage",
-      label: "마이페이지",
-      path: "/mypage",
-      icon: User,
-      isActive: pathname === "/mypage" || pathname === "/login",
-      onClick: handleMyPageClick,
+      label: isOperator ? "통합관리" : "마이페이지",
+      path: isOperator ? "/admin" : "/mypage",
+      icon: isOperator ? LayoutDashboard : User,
+      isActive: isOperator
+        ? (pathname === "/admin" || pathname.startsWith("/admin/") || pathname === "/admin-orders")
+        : (pathname === "/mypage" || pathname === "/login"),
+      onClick: isOperator ? handleManagementClick : handleMyPageClick,
     },
   ];
 

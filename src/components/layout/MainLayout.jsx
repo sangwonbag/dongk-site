@@ -9,6 +9,7 @@ import RightFloatingBox from "../ui/RightFloatingBox";
 import AdminOrderNotifier from "../admin/AdminOrderNotifier";
 import ScrollRevealMenu from "./ScrollRevealMenu";
 import "./MainLayout.css";
+import InstallAppBanner from "../pwa/InstallAppBanner";
 
 export default function MainLayout({ children, className = "" }) {
     const location = useLocation();
@@ -25,6 +26,7 @@ export default function MainLayout({ children, className = "" }) {
             </main>
             <Footer />
             <MobileBottomNavigation />
+            <InstallAppBanner />
             <FloatingPhoneButton />
             <RightFloatingBox />
             <AdminOrderNotifier />
