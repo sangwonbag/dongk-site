@@ -271,6 +271,7 @@ const MaterialCard = ({ material, priority = false, hidePrice = false }) => {
                 onClick={handleGoDetail}
             >
                 <ProductImage
+                    product={material}
                     src={coverUrl}
                     candidates={imageCandidates}
                     alt={displayName || material.code}

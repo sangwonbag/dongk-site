@@ -797,3 +797,54 @@
   color: var(--text-muted);
   margin-bottom: 4px;
 }
+
+
+/* Upload Error Alert & Disabled Save State */
+.upload-error-alert {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 10px;
+  padding: 12px 14px;
+  border-radius: 8px;
+  background-color: #fef2f2;
+  border: 1px solid #fecaca;
+  color: #b91c1c;
+  font-size: 0.82rem;
+  line-height: 1.45;
+  margin-bottom: 14px;
+}
+
+.upload-error-alert-content {
+  display: flex;
+  align-items: flex-start;
+  gap: 8px;
+  min-width: 0;
+  word-break: keep-all;
+}
+
+.upload-error-alert-content svg {
+  flex-shrink: 0;
+  margin-top: 2px;
+}
+
+.upload-error-dismiss {
+  background: transparent;
+  border: none;
+  color: #991b1b;
+  font-size: 0.75rem;
+  font-weight: 700;
+  cursor: pointer;
+  white-space: nowrap;
+  padding: 2px 6px;
+  border-radius: 4px;
+}
+
+.upload-error-dismiss:hover {
+  background-color: #fee2e2;
+}
+
+.btn-save:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}

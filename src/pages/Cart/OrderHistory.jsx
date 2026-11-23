@@ -297,7 +297,12 @@ export default function OrderHistory() {
                                       src={item.image_url} 
                                       alt={item.product_name} 
                                       className="item-thumbnail" 
-                                      onError={(e) => e.target.style.display = 'none'}
+                                      loading="lazy"
+                                      decoding="async"
+                                      onError={(e) => {
+                                        e.currentTarget.onerror = null;
+                                        e.currentTarget.src = '/images/no-image.svg';
+                                      }}
                                     />
                                   )}
                                   <div className="item-txt-info">

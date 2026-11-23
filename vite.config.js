@@ -1,27 +1,42 @@
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
+import path from 'path'
+import { pathToFileURL } from 'url'
 
 function apiDevPlugin() {
   return {
     name: 'api-dev-server',
     configureServer(server) {
       server.middlewares.use(async (req, res, next) => {
-        if (req.url && req.url.startsWith('/api/detail-images')) {
+        const apiRouteMap = {
+          '/api/detail-images': 'api/detail-images.js',
+          '/api/construction-case-images': 'api/construction-case-images.js',
+        };
+        const matchedPrefix = Object.keys(apiRouteMap).find((prefix) => req.url && req.url.startsWith(prefix));
+        if (matchedPrefix) {
           try {
             const parsedUrl = new URL(req.url, 'http://localhost');
             req.query = Object.fromEntries(parsedUrl.searchParams.entries());
             let body = '';
             req.on('data', chunk => { body += chunk; });
             req.on('end', async () => {
-              try { req.body = body ? JSON.parse(body) : {}; } catch { req.body = body; }
-              const { default: handler } = await import('./api/detail-images.js');
-              res.status = (code) => { res.statusCode = code; return res; };
-              res.json = (data) => {
+              try {
+                try { req.body = body ? JSON.parse(body) : {}; } catch { req.body = body; }
+                const moduleUrl = pathToFileURL(path.resolve(process.cwd(), apiRouteMap[matchedPrefix])).href;
+                const { default: handler } = await import(moduleUrl);
+                res.status = (code) => { res.statusCode = code; return res; };
+                res.json = (data) => {
+                  res.setHeader('Content-Type', 'application/json');
+                  res.end(JSON.stringify(data));
+                  return res;
+                };
+                await handler(req, res);
+              } catch (innerErr) {
+                console.error('[Vite Dev API Handler Error]:', innerErr);
+                res.statusCode = 500;
                 res.setHeader('Content-Type', 'application/json');
-                res.end(JSON.stringify(data));
-                return res;
-              };
-              await handler(req, res);
+                res.end(JSON.stringify({ success: false, error: innerErr.message }));
+              }
             });
             return;
           } catch (e) {

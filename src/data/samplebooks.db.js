@@ -154,22 +154,6 @@ export const sampleBooks = [
         ]
     },
     {
-        "id": "lx-editon-stone-2025",
-        "title": "2025 LX 에디톤 스톤",
-        "brand": "LX",
-        "category": "데코타일",
-        "cover": "/images/Thumbnail_Image/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC/LX/LX%ED%95%98%EC%9A%B0%EC%8A%A4/HOT%200065%20%EB%9D%BC%EC%9E%84%20%EC%8A%A4%ED%86%A4%20%EB%AF%B8%EC%8A%A4%ED%8A%B8.jpg",
-        "pdf": "/samplebook-assets/데코타일/LX/2025 에디톤 스톤.pdf",
-        "description": "고급스러운 스톤 디자인 데코타일",
-        "isRecommended": false,
-        "catalogUrl": "https://www.b2bzincatalog.com/digital/samplebook/editonestone/",
-        "catalogType": "external_viewer",
-        "catalogProvider": "LX하우시스",
-        "catalogStatus": "verified",
-        "verifiedAt": "2026-10-12",
-        "unverifiedReason": null
-    },
-    {
         "id": "lx-econoplus-2025",
         "title": "2025 LX 에코노플러스",
         "brand": "LX",

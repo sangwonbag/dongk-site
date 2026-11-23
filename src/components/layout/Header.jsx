@@ -46,14 +46,25 @@ const HighlightText = ({ text, highlight }) => {
   );
 };
 
+const HEADER_SEARCH_CATEGORIES = [
+  { value: "all", label: "전체 카테고리" },
+  { value: "데코타일", label: "데코타일" },
+  { value: "장판", label: "장판" },
+  { value: "마루", label: "마루" },
+  { value: "벽지", label: "벽지" },
+  { value: "카페트타일", label: "카페트타일" },
+  { value: "부자재", label: "부자재" }
+];
+
 export default function Header() {
   const nav = useNavigate();
   const location = useLocation();
 
   const [q, setQ] = useState(() => {
     const params = new URLSearchParams(location.search);
-    return params.get("search") || "";
+    return params.get("q") || params.get("search") || "";
   });
+  const [searchCategory, setSearchCategory] = useState("all");
   const [isFocused, setIsFocused] = useState(false);
   const dropdownRef = useRef(null);
   const mallHeaderRef = useRef(null);
@@ -190,14 +201,14 @@ export default function Header() {
       const mallHeader = mallHeaderRef.current;
       const noticeBar = noticeRef.current;
 
-      const headerHeight = mallHeader ? mallHeader.getBoundingClientRect().height : 80;
+      const headerHeight = mallHeader ? mallHeader.getBoundingClientRect().height : 112;
       const noticeHeight = noticeBar ? noticeBar.getBoundingClientRect().height : 0;
 
-      document.documentElement.style.setProperty('--header-height', `${headerHeight}px`);
-      document.documentElement.style.setProperty('--notice-height', `${noticeHeight}px`);
-      
-      // Keep --mobile-header-height for backwards compatibility
-      document.documentElement.style.setProperty('--mobile-header-height', `${headerHeight + noticeHeight}px`);
+      if (headerHeight > 0) {
+        document.documentElement.style.setProperty('--header-height', `${headerHeight}px`);
+        document.documentElement.style.setProperty('--notice-height', `${noticeHeight}px`);
+        document.documentElement.style.setProperty('--total-header-height', `${headerHeight + noticeHeight}px`);
+      }
     };
 
     updateHeights();
@@ -248,17 +259,25 @@ export default function Header() {
     e.preventDefault();
     const keyword = q.trim();
     if (!keyword) {
-      if (location.pathname === "/materials") {
+      if (searchCategory && searchCategory !== "all") {
+        nav(`/materials?category=${encodeURIComponent(searchCategory)}`);
+      } else if (location.pathname === "/materials") {
         const sp = new URLSearchParams(location.search);
         sp.delete("search");
         sp.delete("q");
         nav(`/materials?${sp.toString()}`);
+      } else {
+        nav("/materials");
       }
       setIsFocused(false);
       return;
     }
-    
-    handleSearchRedirect(keyword, nav);
+
+    if (searchCategory && searchCategory !== "all") {
+      nav(`/materials?category=${encodeURIComponent(searchCategory)}&q=${encodeURIComponent(keyword)}`);
+    } else {
+      nav(`/materials?category=all&q=${encodeURIComponent(keyword)}`);
+    }
     setIsFocused(false);
   };
 
@@ -273,81 +292,36 @@ export default function Header() {
   };
 
   return (
-    <div className={`header-wrapper ${isHome ? "is-home" : ""} ${isHome && !isScrolled ? "is-home-transparent" : "is-scrolled"}`}>
-      {/* Top Banner Notice */}
-      {!location.pathname.startsWith('/admin') && (
-        <div className="top-notice-bar">
-          <div className="container notice-container">
-            <div className="notice-text">
-              <span className="speaker-icon">📢</span>
-              <span>전문 시공팀과 함께 자재 공급부터 시공까지 원스톱 서비스를 제공합니다.</span>
-            </div>
-          </div>
-        </div>
-      )}
-
-      <header ref={mallHeaderRef} className="mall-header">
-        <div className="container header-row">
+    <div className={`header-wrapper ${isHome ? "is-home" : ""} is-scrolled`}>
+      <header ref={mallHeaderRef} className="mall-header mall-header-search-centric">
+        {/* Row 1: Logo + Large Coupang-style Unified Search Bar + Account/Cart */}
+        <div className="container header-row header-top-row">
           {/* Logo */}
           <Link to="/" className="header-logo" onMouseEnter={() => preloadRoute('/')}>
             <span className="logo-title">DK Floor</span>
             <span className="logo-subtitle">동경바닥재</span>
           </Link>
 
-          {/* Desktop Navigation Links - Spruce Showroom Style */}
-          <nav className="header-menu-links">
-            <Link 
-              to="/materials"
-              className={`menu-link ${location.pathname === '/materials' ? 'active' : ''}`} 
-              onMouseEnter={prefetchMaterials}
-              onTouchStart={prefetchMaterials}
-            >
-              자재찾기
-            </Link>
-
-            <Link 
-              to="/samplebooks"
-              className={`menu-link ${location.pathname === '/samplebooks' ? 'active' : ''}`} 
-              onMouseEnter={() => preloadRoute('/samplebooks')}
-              onTouchStart={() => preloadRoute('/samplebooks')}
-            >
-              샘플북
-            </Link>
-
-            <Link 
-              to="/guide"
-              className={`menu-link ${location.pathname.startsWith('/guide') ? 'active' : ''}`} 
-              onMouseEnter={() => preloadRoute('/guide')}
-              onTouchStart={() => preloadRoute('/guide')}
-            >
-              바닥재 가이드
-            </Link>
-
-            <Link 
-              to="/estimate/request"
-              className={`menu-link ${location.pathname === '/estimate/request' || location.pathname === '/estimate' ? 'active' : ''}`} 
-              onMouseEnter={() => preloadRoute('/estimate')}
-              onTouchStart={() => preloadRoute('/estimate')}
-            >
-              견적문의
-            </Link>
-
-            <Link 
-              to="/cases"
-              className={`menu-link ${location.pathname.startsWith('/cases') ? 'active' : ''}`} 
-              onMouseEnter={() => preloadRoute('/cases')}
-              onTouchStart={() => preloadRoute('/cases')}
-            >
-              시공사례
-            </Link>
-          </nav>
-
-          {/* Search Bar */}
-          <div className="header-search" ref={dropdownRef}>
-            <form onSubmit={onSearch}>
+          {/* Large Unified Search Bar */}
+          <div className="header-search header-search-wide" ref={dropdownRef}>
+            <form onSubmit={onSearch} className="header-search-form-wide">
+              <select
+                className="header-search-category-select"
+                value={searchCategory}
+                onChange={(e) => setSearchCategory(e.target.value)}
+                aria-label="검색 카테고리 선택"
+              >
+                {HEADER_SEARCH_CATEGORIES.map((cat) => (
+                  <option key={cat.value} value={cat.value}>
+                    {cat.label}
+                  </option>
+                ))}
+              </select>
+              <span className="header-search-divider" aria-hidden="true" />
               <input
                 type="text"
-                placeholder="상품코드, 색상, 패턴, 공간 분위기 검색"
+                className="header-search-input-wide"
+                placeholder="상품번호, 브랜드, 색상, 자재명을 검색하세요"
                 value={q}
                 onChange={(e) => {
                   const val = e.target.value;
@@ -382,8 +356,9 @@ export default function Header() {
                   <X size={15} />
                 </button>
               )}
-              <button type="submit" aria-label="검색 실행">
-                <Search size={18} />
+              <button type="submit" className="header-search-submit-btn" aria-label="검색 실행">
+                <span>검색</span>
+                <Search size={17} />
               </button>
             </form>
 
@@ -455,7 +430,7 @@ export default function Header() {
           {/* Desktop Nav Icons / Account Controls */}
           <nav className="header-nav">
             <button className="cart-nav-btn" onClick={() => nav("/cart")} style={{ position: 'relative' }} title="장바구니" aria-label="장바구니">
-              <ShoppingCart size={22} />
+              <ShoppingCart size={20} />
               <span>장바구니</span>
               {currentUser && estimateCount > 0 && <span className="estimate-badge">{estimateCount}</span>}
             </button>
@@ -464,22 +439,22 @@ export default function Header() {
               <>
                 {currentUser.role === 'admin' && (
                   <button className="admin-nav-btn" onClick={() => nav("/admin")} title="관리" aria-label="관리">
-                    <Settings size={22} />
+                    <Settings size={20} />
                     <span>관리</span>
                   </button>
                 )}
                 <button className="mypage-nav-btn" onClick={() => nav("/mypage")} title="마이페이지" aria-label="마이페이지">
-                  <User size={22} />
+                  <User size={20} />
                   <span>마이페이지</span>
                 </button>
                 <button className="logout-nav-btn" onClick={handleLogout} title="로그아웃" aria-label="로그아웃">
-                  <LogOut size={22} />
+                  <LogOut size={20} />
                   <span>로그아웃</span>
                 </button>
               </>
             ) : (
               <button className="login-nav-btn" onClick={openLoginModal} title="로그인" aria-label="로그인">
-                <User size={22} />
+                <User size={20} />
                 <span>로그인</span>
               </button>
             )}
@@ -495,6 +470,64 @@ export default function Header() {
             <span className="hamburger-line"></span>
             <span className="hamburger-line"></span>
           </button>
+        </div>
+
+        {/* Row 2: High-Contrast Primary Navigation Links */}
+        <div className="header-subnav-bar">
+          <div className="container header-subnav-row">
+            <nav className="header-menu-links" aria-label="주요 메뉴">
+              <Link 
+                to="/materials"
+                className={`menu-link ${location.pathname === '/materials' ? 'active' : ''}`} 
+                onMouseEnter={prefetchMaterials}
+                onTouchStart={prefetchMaterials}
+              >
+                자재찾기
+              </Link>
+
+              <Link 
+                to="/samplebooks"
+                className={`menu-link ${location.pathname === '/samplebooks' ? 'active' : ''}`} 
+                onMouseEnter={() => preloadRoute('/samplebooks')}
+                onTouchStart={() => preloadRoute('/samplebooks')}
+              >
+                샘플북
+              </Link>
+
+              <Link 
+                to="/guide"
+                className={`menu-link ${location.pathname.startsWith('/guide') ? 'active' : ''}`} 
+                onMouseEnter={() => preloadRoute('/guide')}
+                onTouchStart={() => preloadRoute('/guide')}
+              >
+                바닥재 가이드
+              </Link>
+
+              <Link 
+                to="/estimate/request"
+                className={`menu-link ${location.pathname === '/estimate/request' || location.pathname === '/estimate' ? 'active' : ''}`} 
+                onMouseEnter={() => preloadRoute('/estimate')}
+                onTouchStart={() => preloadRoute('/estimate')}
+              >
+                견적문의
+              </Link>
+
+              <Link 
+                to="/cases"
+                className={`menu-link ${location.pathname.startsWith('/cases') ? 'active' : ''}`} 
+                onMouseEnter={() => preloadRoute('/cases')}
+                onTouchStart={() => preloadRoute('/cases')}
+              >
+                시공사례
+              </Link>
+            </nav>
+
+            <div className="header-subnav-info">
+              <span>자재 공급·시공 원스톱</span>
+              <span className="header-subnav-sep">·</span>
+              <a href="tel:024879775" className="header-subnav-tel">02-487-9775</a>
+            </div>
+          </div>
         </div>
       </header>
 

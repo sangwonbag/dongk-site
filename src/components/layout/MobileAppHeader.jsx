@@ -56,7 +56,7 @@ export default function MobileAppHeader() {
   }, [isHome]);
 
   return (
-    <header className={`mobile-app-header ${isHome ? "is-home" : ""} ${isHome && !isScrolled ? "is-home-transparent" : "is-scrolled"}`}>
+    <header className={`mobile-app-header ${isHome ? "is-home" : ""} is-scrolled`}>
       <div className="mobile-app-header-inner">
         {/* Left Action */}
         <div className="mobile-header-left">

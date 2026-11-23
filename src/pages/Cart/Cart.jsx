@@ -12,6 +12,7 @@ import { isMaterialItem, isAccessoryItem } from "../../utils/productClassificati
 import SEO from "../../components/seo/SEO";
 import { HIDE_SUB_MATERIALS, isSubMaterialCategory } from "../../config/categoryConfig";
 import { isProductSoldOut } from "../../utils/soldOutUtils";
+import { getProductImageUrl } from "../../utils/productImageResolver";
 import "./Cart.css";
 
 export default function Cart() {
@@ -226,9 +227,11 @@ export default function Cart() {
                         <div className="cart-item-img-wrapper">
                           <img 
                             className="cart-item-img"
-                            src={item.thumbnail || item.image || "/images/no-image.svg"} 
+                            src={getProductImageUrl(item)} 
                             alt={item.name}
-                            onError={(e) => { e.currentTarget.onerror = null; e.currentTarget.src = "/images/placeholder-material.jpg"; }}
+                            loading="lazy"
+                            decoding="async"
+                            onError={(e) => { e.currentTarget.onerror = null; e.currentTarget.src = "/images/no-image.svg"; }}
                           />
                         </div>
 

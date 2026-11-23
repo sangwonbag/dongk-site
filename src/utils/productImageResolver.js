@@ -6,6 +6,21 @@ let syncMappedManifest = null;
 let mappedImageManifestCache = syncMappedManifest;
 let generatedImageManifestCache = syncGeneratedManifest;
 let manifestPromise = null;
+const manifestListeners = new Set();
+
+export function isManifestLoaded() {
+  return Boolean(mappedImageManifestCache);
+}
+
+export function subscribeManifestLoaded(listener) {
+  if (typeof listener !== 'function') return () => {};
+  manifestListeners.add(listener);
+  return () => manifestListeners.delete(listener);
+}
+
+export function getMappedImageManifest() {
+  return mappedImageManifestCache;
+}
 
 let generatedManifestCodeIndex = null;
 let generatedManifestNameIndex = null;
@@ -87,13 +102,31 @@ export async function ensureManifestsLoaded() {
     ]).then(([mapped, generated]) => {
       mappedImageManifestCache = mapped;
       generatedImageManifestCache = generated;
+      manifestListeners.forEach((cb) => {
+        try { cb(); } catch { /* ignore */ }
+      });
       return { mapped, generated };
     });
   }
   return manifestPromise;
 }
 
-const SUPABASE_PUBLIC_URL_PREFIX = "https://ymoshkaiwvnmhhcglpjj.supabase.co/storage/v1/object/public/materials/";
+const DEFAULT_SUPABASE_URL = "https://ymoshkaiwvnmhhcglpjj.supabase.co";
+const SUPABASE_ORIGIN = (
+  (typeof import.meta !== 'undefined' && import.meta.env?.VITE_SUPABASE_URL) ||
+  DEFAULT_SUPABASE_URL
+).replace(/\/+$/, '');
+const PUBLIC_STORAGE_BUCKETS = new Set(['materials', 'portfolio-images', 'product-images', 'samplebooks']);
+const SUPABASE_PUBLIC_URL_PREFIX = `${SUPABASE_ORIGIN}/storage/v1/object/public/materials/`;
+
+export function getStoragePublicUrl(objectPath, bucket = 'materials') {
+  if (!objectPath || typeof objectPath !== 'string') return '/images/no-image.svg';
+  const trimmed = objectPath.trim();
+  if (trimmed.startsWith('http://') || trimmed.startsWith('https://')) return trimmed;
+  if (!PUBLIC_STORAGE_BUCKETS.has(bucket)) return '/images/no-image.svg';
+  const clean = trimmed.replace(new RegExp(`^/?${bucket}/`), '').replace(/^\/+/, '');
+  return `${SUPABASE_ORIGIN}/storage/v1/object/public/${bucket}/${clean}`;
+}
 
 /**
  * Safely normalizes any input image URL string.
@@ -255,8 +288,15 @@ export function getProductImageCandidates(product) {
     Array.isArray(product.detailImages) && product.detailImages.length > 0 ? product.detailImages[0] : null
   ];
 
+  const deferredLocalMaterialPaths = [];
   for (const field of dbFields) {
-    if (field) addCandidate(String(field));
+    if (!field) continue;
+    const str = String(field).trim();
+    if (str.startsWith('/images/Thumbnail_Image/materials/')) {
+      deferredLocalMaterialPaths.push(str);
+    } else {
+      addCandidate(str);
+    }
   }
 
   // 2. Fast Indexed Generated manifest lookup (materialImageManifest.generated.js)
@@ -306,6 +346,10 @@ export function getProductImageCandidates(product) {
         }
       }
     }
+  }
+
+  for (const localPath of deferredLocalMaterialPaths) {
+    addCandidate(localPath);
   }
 
   if (candidates.length === 0) {

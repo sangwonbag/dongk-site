@@ -19,7 +19,7 @@
 }
 
 .main-content.home-main-content {
-    padding-top: 0 !important;
+    padding-top: calc(env(safe-area-inset-top, 0px) + var(--total-header-height));
 }
 
 .main-content.admin-main-content {
@@ -33,7 +33,7 @@
     }
 
     .main-content.home-main-content {
-        padding-top: 0 !important;
+        padding-top: calc(var(--mobile-header-height) + env(safe-area-inset-top, 0px));
     }
 
     .main-content.admin-main-content {

@@ -3,18 +3,17 @@ import { Link, useNavigate } from "react-router-dom";
 import MainLayout from "../../components/layout/MainLayout";
 import LazySection from "../../components/common/LazySection";
 import SEO from "../../components/seo/SEO";
+import { ProductImage } from "../../components/ui";
 import { KAKAO_CHAT_URL, OFFICE_PHONE } from "../../constants/contact";
 import { preloadRoute, setupIdlePreload } from "../../utils/routePreloader";
 import { 
   ArrowRight, 
   ArrowUpRight,
-  ChevronLeft,
   ChevronRight, 
-  Play, 
-  Pause, 
-  ShoppingBag, 
+  Search,
+  Megaphone,
+  X,
   FileText, 
-  CheckCircle2, 
   Building2, 
   Briefcase, 
   Dumbbell, 
@@ -24,8 +23,9 @@ import {
 } from "lucide-react";
 import { getCaseImageUrl, getCaseImageSrcSet } from "../../utils/caseImageUtils";
 import { resolveCaseMaterialLinks } from "../../utils/caseMaterialUtils";
-import { formatCaseTitle } from "../../utils/caseTitleUtils";
-import { fetchPublishedCases, getRandomShowcaseCases } from "../../utils/constructionCasesService";
+import { formatCaseSlashTitle } from "../../utils/caseTitleUtils";
+import { fetchPublishedCases } from "../../utils/constructionCasesService";
+import { fetchPublishedNotices, STATIC_OPERATIONAL_NOTICES } from "../../utils/noticesService";
 import { FALLBACK_CASES } from "../../data/fallbackCases";
 import "./Home.css";
 
@@ -58,7 +58,7 @@ const KCC_COLLECTION = [
     "spec": "457.2×457.2mm · 3.0T",
     "packaging": "16매 / 3.34㎡ (1BOX)",
     "description": "센스타일 트랜디 450각 · 우븐",
-    "image": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/KCC_센스타일_트랜디_450각_이미지/TS5502P.webp",
+    "image": "https://ymoshkaiwvnmhhcglpjj.supabase.co/storage/v1/object/public/materials/a524fd288cf738d96a552b448c80d3a8.webp",
     "detailUrl": "/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC-kcc-kcc_square-ts5502p"
   },
   {
@@ -70,7 +70,7 @@ const KCC_COLLECTION = [
     "spec": "457.2×457.2mm · 3.0T",
     "packaging": "16매 / 3.34㎡ (1BOX)",
     "description": "센스타일 트랜디 450각 · 우븐",
-    "image": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/KCC_센스타일_트랜디_450각_이미지/TS5503P.webp",
+    "image": "https://ymoshkaiwvnmhhcglpjj.supabase.co/storage/v1/object/public/materials/9c1b09eaf8a06136327acc3e5dff76df.webp",
     "detailUrl": "/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC-kcc-kcc_square-ts5503p"
   },
   {
@@ -82,7 +82,7 @@ const KCC_COLLECTION = [
     "spec": "457.2×457.2mm · 3.0T",
     "packaging": "16매 / 3.34㎡ (1BOX)",
     "description": "센스타일 트랜디 450각 · 카펫",
-    "image": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/KCC_센스타일_트랜디_450각_이미지/TS5510P.webp",
+    "image": "https://ymoshkaiwvnmhhcglpjj.supabase.co/storage/v1/object/public/materials/ff973c3456d2b36577c22cc8bc83d9d4.webp",
     "detailUrl": "/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC-kcc-kcc_square-ts5510p"
   },
   {
@@ -94,7 +94,7 @@ const KCC_COLLECTION = [
     "spec": "457.2×457.2mm · 3.0T",
     "packaging": "16매 / 3.34㎡ (1BOX)",
     "description": "센스타일 트랜디 450각 · 카펫",
-    "image": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/KCC_센스타일_트랜디_450각_이미지/TS5511P.webp",
+    "image": "https://ymoshkaiwvnmhhcglpjj.supabase.co/storage/v1/object/public/materials/c94d875b2ebb52829807ae070ccb5a06.webp",
     "detailUrl": "/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC-kcc-kcc_square-ts5511p"
   },
   {
@@ -106,7 +106,7 @@ const KCC_COLLECTION = [
     "spec": "457.2×457.2mm · 3.0T",
     "packaging": "16매 / 3.34㎡ (1BOX)",
     "description": "센스타일 트랜디 450각 · 마블",
-    "image": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/KCC_센스타일_트랜디_450각_이미지/TS5516P.webp",
+    "image": "https://ymoshkaiwvnmhhcglpjj.supabase.co/storage/v1/object/public/materials/b33d0c0c97bd12809a3851db630180a1.webp",
     "detailUrl": "/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC-kcc-kcc_square-ts5516p"
   },
   {
@@ -118,7 +118,7 @@ const KCC_COLLECTION = [
     "spec": "457.2×457.2mm · 3.0T",
     "packaging": "16매 / 3.34㎡ (1BOX)",
     "description": "센스타일 트랜디 450각 · 콘크리트",
-    "image": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/KCC_센스타일_트랜디_450각_이미지/TS5518P.webp",
+    "image": "https://ymoshkaiwvnmhhcglpjj.supabase.co/storage/v1/object/public/materials/faf76285e1aa9b33a9bbb39d5ce8604c.webp",
     "detailUrl": "/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC-kcc-kcc_square-ts5518p"
   },
   {
@@ -130,7 +130,7 @@ const KCC_COLLECTION = [
     "spec": "457.2×457.2mm · 3.0T",
     "packaging": "16매 / 3.34㎡ (1BOX)",
     "description": "센스타일 트랜디 450각 · 콘크리트",
-    "image": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/KCC_센스타일_트랜디_450각_이미지/TS5519P.webp",
+    "image": "https://ymoshkaiwvnmhhcglpjj.supabase.co/storage/v1/object/public/materials/ea67c5f60daf33f5a50800ae84e5408c.webp",
     "detailUrl": "/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC-kcc-kcc_square-ts5519p"
   },
   {
@@ -142,7 +142,7 @@ const KCC_COLLECTION = [
     "spec": "600×600mm · 3.0T",
     "packaging": "9매 / 3.24㎡ (1BOX)",
     "description": "센스타일 트랜디 600각 · 오닉스",
-    "image": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/KCC_센스타일_트랜디_600각_이미지/TS5531M.png",
+    "image": "https://ymoshkaiwvnmhhcglpjj.supabase.co/storage/v1/object/public/materials/fa3d6e3a9c845f6509ab1805d1441464.png",
     "detailUrl": "/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC-kcc-kcc_square-ts5531m"
   },
   {
@@ -154,7 +154,7 @@ const KCC_COLLECTION = [
     "spec": "600×600mm · 3.0T",
     "packaging": "9매 / 3.24㎡ (1BOX)",
     "description": "센스타일 트랜디 600각 · 파라디소",
-    "image": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/KCC_센스타일_트랜디_600각_이미지/TS5532M.png",
+    "image": "https://ymoshkaiwvnmhhcglpjj.supabase.co/storage/v1/object/public/materials/84ebacf818dd4d3a615603c63aab1449.png",
     "detailUrl": "/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC-kcc-kcc_square-ts5532m"
   },
   {
@@ -166,7 +166,7 @@ const KCC_COLLECTION = [
     "spec": "600×600mm · 3.0T",
     "packaging": "9매 / 3.24㎡ (1BOX)",
     "description": "센스타일 트랜디 600각 · 파라디소",
-    "image": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/KCC_센스타일_트랜디_600각_이미지/TS5533M.png",
+    "image": "https://ymoshkaiwvnmhhcglpjj.supabase.co/storage/v1/object/public/materials/863b1c55a13e9fa60a82c029fa3abfd6.png",
     "detailUrl": "/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC-kcc-kcc_square-ts5533m"
   },
   {
@@ -178,7 +178,7 @@ const KCC_COLLECTION = [
     "spec": "600×600mm · 3.0T",
     "packaging": "9매 / 3.24㎡ (1BOX)",
     "description": "센스타일 트랜디 600각 · 파라디소",
-    "image": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/KCC_센스타일_트랜디_600각_이미지/TS5534M.png",
+    "image": "https://ymoshkaiwvnmhhcglpjj.supabase.co/storage/v1/object/public/materials/afda9693cf91b0270130bab0b6c01c01.png",
     "detailUrl": "/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC-kcc-kcc_square-ts5534m"
   },
   {
@@ -190,7 +190,7 @@ const KCC_COLLECTION = [
     "spec": "600×600mm · 3.0T",
     "packaging": "9매 / 3.24㎡ (1BOX)",
     "description": "센스타일 트랜디 600각 · 어반 콘크리트",
-    "image": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/KCC_센스타일_트랜디_600각_이미지/TS5535M.png",
+    "image": "https://ymoshkaiwvnmhhcglpjj.supabase.co/storage/v1/object/public/materials/580de52faafdd44d2fd9847930ff475e.png",
     "detailUrl": "/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC-kcc-kcc_square-ts5535m"
   },
   {
@@ -202,7 +202,7 @@ const KCC_COLLECTION = [
     "spec": "600×600mm · 3.0T",
     "packaging": "9매 / 3.24㎡ (1BOX)",
     "description": "센스타일 트랜디 600각 · 어반 콘크리트",
-    "image": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/KCC_센스타일_트랜디_600각_이미지/TS5536M.png",
+    "image": "https://ymoshkaiwvnmhhcglpjj.supabase.co/storage/v1/object/public/materials/aafb39cd3cfb83527f3efbc7b6bc53ef.png",
     "detailUrl": "/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC-kcc-kcc_square-ts5536m"
   },
   {
@@ -214,7 +214,7 @@ const KCC_COLLECTION = [
     "spec": "600×600mm · 3.0T",
     "packaging": "9매 / 3.24㎡ (1BOX)",
     "description": "센스타일 트랜디 600각 · 어반 콘크리트",
-    "image": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/KCC_센스타일_트랜디_600각_이미지/TS5537M.png",
+    "image": "https://ymoshkaiwvnmhhcglpjj.supabase.co/storage/v1/object/public/materials/7f3de3c1e7b30a95b9511bb95bd2cf7d.png",
     "detailUrl": "/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC-kcc-kcc_square-ts5537m"
   },
   {
@@ -226,7 +226,7 @@ const KCC_COLLECTION = [
     "spec": "457.2×457.2mm · 3.0T",
     "packaging": "16매 / 3.34㎡ (1BOX)",
     "description": "센스타일 트랜디 450각 · 슬레이트",
-    "image": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/KCC_센스타일_트랜디_450각_이미지/TS5541P.webp",
+    "image": "https://ymoshkaiwvnmhhcglpjj.supabase.co/storage/v1/object/public/materials/83c5c74f5ababbd58b8f4bee49704e2e.webp",
     "detailUrl": "/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC-kcc-kcc_square-ts5541p"
   },
   {
@@ -238,7 +238,7 @@ const KCC_COLLECTION = [
     "spec": "457.2×457.2mm · 3.0T",
     "packaging": "16매 / 3.34㎡ (1BOX)",
     "description": "센스타일 트랜디 450각 · 슬레이트",
-    "image": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/KCC_센스타일_트랜디_450각_이미지/TS5542P.webp",
+    "image": "https://ymoshkaiwvnmhhcglpjj.supabase.co/storage/v1/object/public/materials/bd9c12ebe639df9becbfffc9234df844.webp",
     "detailUrl": "/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC-kcc-kcc_square-ts5542p"
   },
   {
@@ -250,7 +250,7 @@ const KCC_COLLECTION = [
     "spec": "457.2×457.2mm · 3.0T",
     "packaging": "16매 / 3.34㎡ (1BOX)",
     "description": "센스타일 트랜디 450각 · 슬레이트",
-    "image": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/KCC_센스타일_트랜디_450각_이미지/TS5543P.webp",
+    "image": "https://ymoshkaiwvnmhhcglpjj.supabase.co/storage/v1/object/public/materials/d5b1317d42d32df1f082359b03cc86df.webp",
     "detailUrl": "/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC-kcc-kcc_square-ts5543p"
   },
   {
@@ -262,7 +262,7 @@ const KCC_COLLECTION = [
     "spec": "457.2×457.2mm · 3.0T",
     "packaging": "16매 / 3.34㎡ (1BOX)",
     "description": "센스타일 트랜디 450각 · 슬레이트",
-    "image": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/KCC_센스타일_트랜디_450각_이미지/TS5544P.webp",
+    "image": "https://ymoshkaiwvnmhhcglpjj.supabase.co/storage/v1/object/public/materials/92709517b5d44ca995b545dd274d92b7.webp",
     "detailUrl": "/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC-kcc-kcc_square-ts5544p"
   },
   {
@@ -274,7 +274,7 @@ const KCC_COLLECTION = [
     "spec": "457.2×457.2mm · 3.0T",
     "packaging": "16매 / 3.34㎡ (1BOX)",
     "description": "센스타일 트랜디 450각 · 테라죠",
-    "image": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/KCC_센스타일_트랜디_450각_이미지/TS5545P.webp",
+    "image": "https://ymoshkaiwvnmhhcglpjj.supabase.co/storage/v1/object/public/materials/4449b5cf46be13ce5652be7ccd8f030f.webp",
     "detailUrl": "/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC-kcc-kcc_square-ts5545p"
   },
   {
@@ -286,7 +286,7 @@ const KCC_COLLECTION = [
     "spec": "457.2×457.2mm · 3.0T",
     "packaging": "16매 / 3.34㎡ (1BOX)",
     "description": "센스타일 트랜디 450각 · 테라죠",
-    "image": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/KCC_센스타일_트랜디_450각_이미지/TS5546P.webp",
+    "image": "https://ymoshkaiwvnmhhcglpjj.supabase.co/storage/v1/object/public/materials/81eba327b011be60f753cd7edfd76eb3.webp",
     "detailUrl": "/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC-kcc-kcc_square-ts5546p"
   },
   {
@@ -298,7 +298,7 @@ const KCC_COLLECTION = [
     "spec": "457.2×457.2mm · 3.0T",
     "packaging": "16매 / 3.34㎡ (1BOX)",
     "description": "센스타일 트랜디 450각 · 비앙코",
-    "image": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/KCC_센스타일_트랜디_450각_이미지/TS5547P.webp",
+    "image": "https://ymoshkaiwvnmhhcglpjj.supabase.co/storage/v1/object/public/materials/2f657d5dbd5ab01cfda219b032cd5a0e.webp",
     "detailUrl": "/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC-kcc-kcc_square-ts5547p"
   },
   {
@@ -310,7 +310,7 @@ const KCC_COLLECTION = [
     "spec": "457.2×457.2mm · 3.0T",
     "packaging": "16매 / 3.34㎡ (1BOX)",
     "description": "센스타일 트랜디 450각 · 샌드스톤",
-    "image": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/KCC_센스타일_트랜디_450각_이미지/TS5548P.webp",
+    "image": "https://ymoshkaiwvnmhhcglpjj.supabase.co/storage/v1/object/public/materials/a8f769bb13b2d3d3389862729670b1bd.webp",
     "detailUrl": "/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC-kcc-kcc_square-ts5548p"
   },
   {
@@ -322,7 +322,7 @@ const KCC_COLLECTION = [
     "spec": "457.2×457.2mm · 3.0T",
     "packaging": "16매 / 3.34㎡ (1BOX)",
     "description": "센스타일 트랜디 450각 · 샌드스톤",
-    "image": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/KCC_센스타일_트랜디_450각_이미지/TS5549P.webp",
+    "image": "https://ymoshkaiwvnmhhcglpjj.supabase.co/storage/v1/object/public/materials/0a8962314ea09781411386f9fab163a2.webp",
     "detailUrl": "/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC-kcc-kcc_square-ts5549p"
   },
   {
@@ -334,7 +334,7 @@ const KCC_COLLECTION = [
     "spec": "457.2×457.2mm · 3.0T",
     "packaging": "16매 / 3.34㎡ (1BOX)",
     "description": "센스타일 트랜디 450각 · 콘크리트",
-    "image": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/KCC_센스타일_트랜디_450각_이미지/TS5550P.webp",
+    "image": "https://ymoshkaiwvnmhhcglpjj.supabase.co/storage/v1/object/public/materials/ccef9d9f86b501d7ebd35335d81ca011.webp",
     "detailUrl": "/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC-kcc-kcc_square-ts5550p"
   },
   {
@@ -346,7 +346,7 @@ const KCC_COLLECTION = [
     "spec": "457.2×457.2mm · 3.0T",
     "packaging": "16매 / 3.34㎡ (1BOX)",
     "description": "센스타일 트랜디 450각 · 베이직 카펫",
-    "image": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/KCC_센스타일_트랜디_450각_이미지/TS5551P.webp",
+    "image": "https://ymoshkaiwvnmhhcglpjj.supabase.co/storage/v1/object/public/materials/c85cd2e127dffc7253ff83e77c399f70.webp",
     "detailUrl": "/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC-kcc-kcc_square-ts5551p"
   },
   {
@@ -358,7 +358,7 @@ const KCC_COLLECTION = [
     "spec": "457.2×457.2mm · 3.0T",
     "packaging": "16매 / 3.34㎡ (1BOX)",
     "description": "센스타일 트랜디 450각 · 베이직 카펫",
-    "image": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/KCC_센스타일_트랜디_450각_이미지/TS5552P.webp",
+    "image": "https://ymoshkaiwvnmhhcglpjj.supabase.co/storage/v1/object/public/materials/886d75684972a16b33195e2eb765776a.webp",
     "detailUrl": "/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC-kcc-kcc_square-ts5552p"
   },
   {
@@ -370,7 +370,7 @@ const KCC_COLLECTION = [
     "spec": "184×950mm · 3.0T",
     "packaging": "19매 / 3.32㎡ (1BOX)",
     "description": "센스타일 트랜디 우드 · 파인",
-    "image": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/KCC_센스타일_트랜디_우드_이미지/TW5102G.png",
+    "image": "https://ymoshkaiwvnmhhcglpjj.supabase.co/storage/v1/object/public/materials/21a14dc0c1b8a1ede51541bd953aae6c.png",
     "detailUrl": "/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC-kcc-kcc_wood-tw-5102g"
   },
   {
@@ -382,7 +382,7 @@ const KCC_COLLECTION = [
     "spec": "184×950mm · 3.0T",
     "packaging": "19매 / 3.32㎡ (1BOX)",
     "description": "센스타일 트랜디 우드 · 워시 오크",
-    "image": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/KCC_센스타일_트랜디_우드_이미지/TW5103G.png",
+    "image": "https://ymoshkaiwvnmhhcglpjj.supabase.co/storage/v1/object/public/materials/fcd08fbe3a7c118bcd5e2b5f069b2c3f.png",
     "detailUrl": "/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC-kcc-kcc_wood-tw-5103g"
   },
   {
@@ -394,7 +394,7 @@ const KCC_COLLECTION = [
     "spec": "184×950mm · 3.0T",
     "packaging": "19매 / 3.32㎡ (1BOX)",
     "description": "센스타일 트랜디 우드 · 오크",
-    "image": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/KCC_센스타일_트랜디_우드_이미지/TW5104G.png",
+    "image": "https://ymoshkaiwvnmhhcglpjj.supabase.co/storage/v1/object/public/materials/fdf76710b8f7a1e48c07bf3b86d18857.png",
     "detailUrl": "/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC-kcc-kcc_wood-tw-5104g"
   },
   {
@@ -406,7 +406,7 @@ const KCC_COLLECTION = [
     "spec": "184×950mm · 3.0T",
     "packaging": "19매 / 3.32㎡ (1BOX)",
     "description": "센스타일 트랜디 우드 · 오크",
-    "image": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/KCC_센스타일_트랜디_우드_이미지/TW5105G.png",
+    "image": "https://ymoshkaiwvnmhhcglpjj.supabase.co/storage/v1/object/public/materials/c0a5df7d4bb5986f9f5b4f58c48cd7cb.png",
     "detailUrl": "/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC-kcc-kcc_wood-tw-5105g"
   },
   {
@@ -418,7 +418,7 @@ const KCC_COLLECTION = [
     "spec": "184×950mm · 3.0T",
     "packaging": "19매 / 3.32㎡ (1BOX)",
     "description": "센스타일 트랜디 우드 · 엘름",
-    "image": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/KCC_센스타일_트랜디_우드_이미지/TW5106G.png",
+    "image": "https://ymoshkaiwvnmhhcglpjj.supabase.co/storage/v1/object/public/materials/6c41840a52422b6d3443cd684d4fa759.png",
     "detailUrl": "/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC-kcc-kcc_wood-tw-5106g"
   },
   {
@@ -430,7 +430,7 @@ const KCC_COLLECTION = [
     "spec": "184×950mm · 3.0T",
     "packaging": "19매 / 3.32㎡ (1BOX)",
     "description": "센스타일 트랜디 우드 · 오크",
-    "image": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/KCC_센스타일_트랜디_우드_이미지/TW5107G.png",
+    "image": "https://ymoshkaiwvnmhhcglpjj.supabase.co/storage/v1/object/public/materials/8344139e7f8eecb475c3f2427d20d817.png",
     "detailUrl": "/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC-kcc-kcc_wood-tw-5107g"
   },
   {
@@ -442,7 +442,7 @@ const KCC_COLLECTION = [
     "spec": "184×950mm · 3.0T",
     "packaging": "19매 / 3.32㎡ (1BOX)",
     "description": "센스타일 트랜디 우드 · 오크",
-    "image": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/KCC_센스타일_트랜디_우드_이미지/TW5108G.png",
+    "image": "https://ymoshkaiwvnmhhcglpjj.supabase.co/storage/v1/object/public/materials/f47748118a95ec6d1dd69326c1c7258c.png",
     "detailUrl": "/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC-kcc-kcc_wood-tw-5108g"
   },
   {
@@ -454,7 +454,7 @@ const KCC_COLLECTION = [
     "spec": "184×950mm · 3.0T",
     "packaging": "19매 / 3.32㎡ (1BOX)",
     "description": "센스타일 트랜디 우드 · 메이플",
-    "image": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/KCC_센스타일_트랜디_우드_이미지/TW5109G.png",
+    "image": "https://ymoshkaiwvnmhhcglpjj.supabase.co/storage/v1/object/public/materials/85ff2e9b257aadc21565ec0d1d28c059.png",
     "detailUrl": "/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC-kcc-kcc_wood-tw-5109g"
   },
   {
@@ -466,7 +466,7 @@ const KCC_COLLECTION = [
     "spec": "184×950mm · 3.0T",
     "packaging": "19매 / 3.32㎡ (1BOX)",
     "description": "센스타일 트랜디 우드 · 오크",
-    "image": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/KCC_센스타일_트랜디_우드_이미지/TW5110G.png",
+    "image": "https://ymoshkaiwvnmhhcglpjj.supabase.co/storage/v1/object/public/materials/fd7673ff201cbcf721e4780bcd7a73cd.png",
     "detailUrl": "/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC-kcc-kcc_wood-tw-5110g"
   },
   {
@@ -478,7 +478,7 @@ const KCC_COLLECTION = [
     "spec": "184×950mm · 3.0T",
     "packaging": "19매 / 3.32㎡ (1BOX)",
     "description": "센스타일 트랜디 우드 · 워시 오크",
-    "image": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/KCC_센스타일_트랜디_우드_이미지/TW5111G.png",
+    "image": "https://ymoshkaiwvnmhhcglpjj.supabase.co/storage/v1/object/public/materials/ecb2b96fac97624ee1e7960ce24fdb77.png",
     "detailUrl": "/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC-kcc-kcc_wood-tw-5111g"
   },
   {
@@ -490,7 +490,7 @@ const KCC_COLLECTION = [
     "spec": "184×950mm · 3.0T",
     "packaging": "19매 / 3.32㎡ (1BOX)",
     "description": "센스타일 트랜디 우드 · 오크",
-    "image": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/KCC_센스타일_트랜디_우드_이미지/TW5112G.png",
+    "image": "https://ymoshkaiwvnmhhcglpjj.supabase.co/storage/v1/object/public/materials/11b450b58afc13d61bc75359e503eb22.png",
     "detailUrl": "/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC-kcc-kcc_wood-tw-5112g"
   },
   {
@@ -502,7 +502,7 @@ const KCC_COLLECTION = [
     "spec": "184×950mm · 3.0T",
     "packaging": "19매 / 3.32㎡ (1BOX)",
     "description": "센스타일 트랜디 우드 · 오크",
-    "image": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/KCC_센스타일_트랜디_우드_이미지/TW5119G.png",
+    "image": "https://ymoshkaiwvnmhhcglpjj.supabase.co/storage/v1/object/public/materials/e73927040f02a92e7cdc9993f5f6dfcc.png",
     "detailUrl": "/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC-kcc-kcc_wood-tw-5119g"
   },
   {
@@ -514,7 +514,7 @@ const KCC_COLLECTION = [
     "spec": "184×950mm · 3.0T",
     "packaging": "19매 / 3.32㎡ (1BOX)",
     "description": "센스타일 트랜디 우드 · 오크",
-    "image": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/KCC_센스타일_트랜디_우드_이미지/TW5120G.png",
+    "image": "https://ymoshkaiwvnmhhcglpjj.supabase.co/storage/v1/object/public/materials/63579e8ebf50082fb02fa86ab2362750.png",
     "detailUrl": "/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC-kcc-kcc_wood-tw-5120g"
   },
   {
@@ -526,7 +526,7 @@ const KCC_COLLECTION = [
     "spec": "457.2×457.2mm · 3.0T",
     "packaging": "16매 / 3.34㎡ (1BOX)",
     "description": "센스타일 트랜디 450각 · 브러쉬 카펫",
-    "image": "/images/Thumbnail_Image/materials/데코타일/KCC/트렌디/KCC_센스타일_트랜디_450각_이미지/TS5508P.webp",
+    "image": "https://ymoshkaiwvnmhhcglpjj.supabase.co/storage/v1/object/public/materials/093d16e24be56ca83163f64425b1e831.webp",
     "detailUrl": "/materials/%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC-kcc-%EC%84%BC%EC%8A%A4%ED%83%80%EC%9D%BC_%ED%8A%B8%EB%9E%9C%EB%94%94-ts5508p"
   }
 ];
@@ -556,7 +556,7 @@ const LX_JANGPAN_COLLECTION = [
     spec: "1.8mm(T) × 1,830mm · 1.8T",
     packaging: "35m / Roll",
     description: "합리적인 가격과 검증된 품질로 대중적인 신뢰를 받는 대표 베스트셀러 1.8T 주거용 륨 장판",
-    image: "/images/Thumbnail_Image/materials/장판/LX/LX하우시스_뉴청맥_1.8T/CM21882.jpg",
+    image: "https://ymoshkaiwvnmhhcglpjj.supabase.co/storage/v1/object/public/materials/b2a48f218c9a268ee34ad6db324fbf4a.jpg",
     detailUrl: "/materials/CM21882",
     browseUrl: "/materials?category=장판&brand=LX하우시스&line=뉴청맥"
   },
@@ -569,7 +569,7 @@ const LX_JANGPAN_COLLECTION = [
     spec: "2.2mm(T) × 1,830mm · 2.2T",
     packaging: "30m / Roll",
     description: "옥수수 유래 식물성 지아(Zea) 원료 층 적용, 친환경성과 풍부한 쿠션감을 갖춘 2.2T 프리미엄 장판",
-    image: "/images/Thumbnail_Image/materials/장판/LX/LX하우시스_지아자연애_2.2T/ZJ43601-22.jpg",
+    image: "https://ymoshkaiwvnmhhcglpjj.supabase.co/storage/v1/object/public/materials/e7e926483f0933094e7520cceec28946.jpg",
     detailUrl: "/materials/ZJ43601-22",
     browseUrl: "/materials?category=장판&brand=LX하우시스&line=지아자연애"
   },
@@ -582,16 +582,23 @@ const LX_JANGPAN_COLLECTION = [
     spec: "5.0mm(T) × 1,830mm · 5.0T",
     packaging: "20m / Roll",
     description: "5.0T 고탄성 2중 쿠션층으로 탁월한 충격 흡수와 층간소음 저감 효과를 제공하는 하이엔드 장판",
-    image: "/images/Thumbnail_Image/materials/장판/LX/LX하우시스_엑스컴포트_5.0T/XCF3441.jpg",
+    image: "https://ymoshkaiwvnmhhcglpjj.supabase.co/storage/v1/object/public/materials/72b5851371695dc8d536dfc907275c13.jpg",
     detailUrl: "/materials/XCF3441",
     browseUrl: "/materials?category=장판&brand=LX하우시스&line=엑스컴포트"
   }
 ];
 
-const CASES_HISTORY_KEY = 'dk_home_cases_history';
-const HERO_CASE_COUNT = 5;
 const PREVIEW_CASE_COUNT = 3;
-const HERO_SLIDE_INTERVAL_MS = 6000;
+
+const QUICK_CATEGORIES = [
+  { key: "all", label: "전체 자재", path: "/materials?category=all&brand=all" },
+  { key: "데코타일", label: "데코타일", path: "/materials?category=%EB%8D%B0%EC%BD%94%ED%83%80%EC%9D%BC" },
+  { key: "장판", label: "장판", path: "/materials?category=%EC%9E%A5%ED%8C%90" },
+  { key: "마루", label: "마루", path: "/materials?category=%EB%A7%88%EB%A3%A8" },
+  { key: "벽지", label: "벽지", path: "/materials?category=%EB%B2%BD%EC%A7%80" },
+  { key: "카페트타일", label: "카페트타일", path: "/materials?category=%EC%B9%B4%ED%8E%98%ED%8A%B8%ED%83%80%EC%9D%BC" },
+  { key: "부자재", label: "부자재", path: "/materials?category=%EB%B6%80%EC%9E%90%EC%9E%AC" }
+];
 
 function getCaseSpaceIcon(item) {
   if (item?.title?.includes('헬스장') || item?.title?.includes('피트니스')) return Dumbbell;
@@ -600,137 +607,67 @@ function getCaseSpaceIcon(item) {
   return Building2;
 }
 
+function getRecentPublishedCases(cases, count = PREVIEW_CASE_COUNT) {
+  if (!Array.isArray(cases)) return [];
+  const seenIds = new Set();
+  const valid = cases.filter((c) => {
+    if (!c || c.is_published === false || c.is_active === false) return false;
+    const key = String(c.id);
+    if (seenIds.has(key)) return false;
+    seenIds.add(key);
+    return true;
+  });
+  return [...valid]
+    .sort((a, b) => {
+      const timeA = a.created_at ? new Date(a.created_at).getTime() : 0;
+      const timeB = b.created_at ? new Date(b.created_at).getTime() : 0;
+      if (timeB !== timeA) return timeB - timeA;
+      return Number(b.id || 0) - Number(a.id || 0);
+    })
+    .slice(0, count);
+}
+
 export default function Home() {
   const navigate = useNavigate();
-  const videoRef = useRef(null);
-  const userPausedRef = useRef(false);
-  const touchStartXRef = useRef(null);
 
-  const [isPlaying, setIsPlaying] = useState(true);
-  const [videoError, setVideoError] = useState(false);
   const [recommendedCategory, setRecommendedCategory] = useState("decotile");
+  const [mobileSearchQuery, setMobileSearchQuery] = useState("");
+  const [mobileSearchCategory, setMobileSearchCategory] = useState("all");
 
-  // Hero slider state (Video slide + randomized published construction cases)
-  const [activeSlideIndex, setActiveSlideIndex] = useState(0);
-  const [prefersReducedMotion, setPrefersReducedMotion] = useState(() => {
-    if (typeof window === 'undefined' || !window.matchMedia) return false;
-    return window.matchMedia('(prefers-reduced-motion: reduce)').matches;
-  });
-  const [isSlidePaused, setIsSlidePaused] = useState(() => {
-    if (typeof window === 'undefined' || !window.matchMedia) return false;
-    return window.matchMedia('(prefers-reduced-motion: reduce)').matches;
-  });
-
-  // Deterministic initial markup for prerendering; randomize once per home visit and keep stable while viewing.
-  const [heroCases, setHeroCases] = useState(() =>
-    FALLBACK_CASES.filter((c) => c && c.main_image_url).slice(0, HERO_CASE_COUNT)
+  // Recent 3 construction cases (latest registered order)
+  const [recentCases, setRecentCases] = useState(() =>
+    getRecentPublishedCases(FALLBACK_CASES, PREVIEW_CASE_COUNT)
   );
-  const [showcaseCases, setShowcaseCases] = useState(() => FALLBACK_CASES.slice(0, PREVIEW_CASE_COUNT));
-  const casesInitializedRef = useRef(false);
 
-  // Listen to prefers-reduced-motion changes
-  useEffect(() => {
-    if (typeof window === 'undefined' || !window.matchMedia) return undefined;
-    const mq = window.matchMedia('(prefers-reduced-motion: reduce)');
-    const handleChange = (e) => {
-      setPrefersReducedMotion(e.matches);
-      if (e.matches) setIsSlidePaused(true);
-    };
-    mq.addEventListener?.('change', handleChange);
-    return () => mq.removeEventListener?.('change', handleChange);
-  }, []);
+  // Notices (Supabase `notices` if present, otherwise clean static operational notices)
+  const [notices, setNotices] = useState(() => STATIC_OPERATIONAL_NOTICES);
+  const [allNotices, setAllNotices] = useState(() => STATIC_OPERATIONAL_NOTICES);
+  const [selectedNotice, setSelectedNotice] = useState(null);
+  const [showAllNoticesModal, setShowAllNoticesModal] = useState(false);
 
   useEffect(() => {
-    if (casesInitializedRef.current) return undefined;
-    casesInitializedRef.current = true;
     let isMounted = true;
 
-    async function loadShowcaseCases() {
-      let previousIds = [];
-      try {
-        const saved = JSON.parse(window.sessionStorage.getItem(CASES_HISTORY_KEY) || '[]');
-        if (Array.isArray(saved)) previousIds = saved;
-      } catch {
-        // Storage is optional
-      }
-
-      const allCases = await fetchPublishedCases();
+    fetchPublishedCases().then((allCases) => {
       if (!isMounted) return;
-
-      // Deduplicate by id and keep valid cases with images for hero slides
-      const seenIds = new Set();
-      const uniqueCases = (allCases || []).filter((c) => {
-        if (!c || c.is_published === false || c.is_active === false) return false;
-        const key = String(c.id);
-        if (seenIds.has(key)) return false;
-        seenIds.add(key);
-        return true;
-      });
-
-      const randomPool = getRandomShowcaseCases(uniqueCases, Math.max(HERO_CASE_COUNT, PREVIEW_CASE_COUNT), previousIds);
-      if (randomPool.length > 0) {
-        const validHeroSlides = randomPool.filter((c) => Boolean(c.main_image_url)).slice(0, HERO_CASE_COUNT);
-        if (validHeroSlides.length > 0) {
-          setHeroCases(validHeroSlides);
-        }
-        const previewItems = randomPool.slice(0, PREVIEW_CASE_COUNT);
-        setShowcaseCases(previewItems);
-
-        try {
-          window.sessionStorage.setItem(CASES_HISTORY_KEY, JSON.stringify(previewItems.map((c) => c.id)));
-        } catch {
-          // Storage is optional
-        }
+      const latest = getRecentPublishedCases(allCases, PREVIEW_CASE_COUNT);
+      if (latest.length > 0) {
+        setRecentCases(latest);
       }
-    }
+    });
 
-    loadShowcaseCases();
+    fetchPublishedNotices(3).then(({ items, allItems, isFromDb }) => {
+      if (!isMounted) return;
+      if (isFromDb && items.length > 0) {
+        setNotices(items);
+        setAllNotices(allItems);
+      }
+    });
+
     return () => {
       isMounted = false;
     };
   }, []);
-
-  // Build combined slides: Slide 0 (Brand Video) + Randomized Construction Case Slides
-  const totalSlides = 1 + heroCases.length;
-
-  // Clamp activeSlideIndex if totalSlides changes
-  useEffect(() => {
-    if (activeSlideIndex >= totalSlides) {
-      setActiveSlideIndex(0);
-    }
-  }, [activeSlideIndex, totalSlides]);
-
-  // Auto-advance hero carousel every 6 seconds (disabled when paused or prefers-reduced-motion)
-  useEffect(() => {
-    if (isSlidePaused || prefersReducedMotion || totalSlides <= 1) return undefined;
-    const timer = window.setInterval(() => {
-      setActiveSlideIndex((prev) => (prev + 1) % totalSlides);
-    }, HERO_SLIDE_INTERVAL_MS);
-    return () => window.clearInterval(timer);
-  }, [isSlidePaused, prefersReducedMotion, totalSlides]);
-
-  const handlePrevSlide = () => {
-    setActiveSlideIndex((prev) => (prev - 1 + totalSlides) % totalSlides);
-  };
-
-  const handleNextSlide = () => {
-    setActiveSlideIndex((prev) => (prev + 1) % totalSlides);
-  };
-
-  const handleHeroTouchStart = (e) => {
-    touchStartXRef.current = e.touches?.[0]?.clientX ?? null;
-  };
-
-  const handleHeroTouchEnd = (e) => {
-    if (touchStartXRef.current === null) return;
-    const endX = e.changedTouches?.[0]?.clientX ?? touchStartXRef.current;
-    const diff = touchStartXRef.current - endX;
-    touchStartXRef.current = null;
-    if (Math.abs(diff) > 45) {
-      if (diff > 0) handleNextSlide();
-      else handlePrevSlide();
-    }
-  };
 
   // Use deterministic initial markup for prerendering; randomize once per home visit.
   const [trendyProducts, setTrendyProducts] = useState(() => KCC_COLLECTION.slice(0, TRENDY_DISPLAY_COUNT));
@@ -758,301 +695,140 @@ export default function Home() {
     };
   }, []);
 
-  // Video Autoplay and Viewport Intersection Observer
-  useEffect(() => {
-    const video = videoRef.current;
-    if (!video) return;
-
-    // Browser policy: muted autoplay
-    const playPromise = video.play();
-    if (playPromise !== undefined) {
-      playPromise
-        .then(() => setIsPlaying(true))
-        .catch((err) => {
-          console.warn("Video autoplay prevented by browser policy:", err);
-          setIsPlaying(false);
-        });
-    }
-
-    const observer = new IntersectionObserver(
-      (entries) => {
-        entries.forEach((entry) => {
-          if (entry.isIntersecting) {
-            if (!userPausedRef.current && video.paused) {
-              video.play().catch(() => {});
-              setIsPlaying(true);
-            }
-          } else {
-            if (!video.paused) {
-              video.pause();
-              setIsPlaying(false);
-            }
-          }
-        });
-      },
-      { threshold: 0.15 }
-    );
-
-    observer.observe(video);
-    return () => observer.disconnect();
-  }, []);
-
-  // Combined Hero Slide & Video Pause/Play Toggle
-  const toggleSlidePause = () => {
-    setIsSlidePaused((prev) => {
-      const nextPaused = !prev;
-      const video = videoRef.current;
-      if (video) {
-        if (nextPaused) {
-          userPausedRef.current = true;
-          video.pause();
-          setIsPlaying(false);
-        } else {
-          userPausedRef.current = false;
-          if (activeSlideIndex === 0) {
-            video.play().catch(() => {});
-            setIsPlaying(true);
-          }
-        }
+  const handleMobileSearchSubmit = (e) => {
+    e.preventDefault();
+    const keyword = mobileSearchQuery.trim();
+    if (!keyword) {
+      if (mobileSearchCategory !== "all") {
+        navigate(`/materials?category=${encodeURIComponent(mobileSearchCategory)}`);
+      } else {
+        navigate("/materials");
       }
-      return nextPaused;
-    });
+      return;
+    }
+    if (mobileSearchCategory !== "all") {
+      navigate(`/materials?category=${encodeURIComponent(mobileSearchCategory)}&q=${encodeURIComponent(keyword)}`);
+    } else {
+      navigate(`/materials?category=all&q=${encodeURIComponent(keyword)}`);
+    }
+  };
+
+  const formatNoticeDate = (dateStr) => {
+    if (!dateStr) return "";
+    const d = new Date(dateStr);
+    if (Number.isNaN(d.getTime())) return "";
+    return `${d.getFullYear()}.${String(d.getMonth() + 1).padStart(2, "0")}.${String(d.getDate()).padStart(2, "0")}`;
   };
 
   return (
     <MainLayout>
       <SEO 
-        title="동경바닥재 | KCC 프리미엄 바닥재 쇼룸 · 데코타일·마루·장판 유통 및 시공"
-        description="동경바닥재 - KCC 주력 센스타일 트랜디, 센스타일 프로, 센스레이 공식 공급. 자재 구매부터 견적 상담, 전문 시공 연계까지 한곳에서 진행하세요."
+        title="동경바닥재 | KCC·LX 바닥재 통합검색 쇼핑몰 · 데코타일·마루·장판 유통 및 시공"
+        description="동경바닥재 - 상품번호, 브랜드, 색상별 통합 자재 검색. KCC 센스타일, LX하우시스, 동신, 동화 등 바닥재 유통부터 실제 시공사례 확인·견적 상담까지."
         canonical="https://dkfloor.co.kr/"
         jsonLd={HOME_JSON_LD}
       />
 
-      <div className="premium-showroom-home">
+      <div className="premium-showroom-home home-shopping-redesign">
 
-        {/* ================= 1. WIDE VIDEO + REAL CONSTRUCTION CASES HERO SLIDER ================= */}
-        <section
-          className="showroom-hero-section"
-          aria-roledescription="carousel"
-          aria-label="동경바닥재 브랜드 영상 및 실제 시공사례 슬라이드"
-          onTouchStart={handleHeroTouchStart}
-          onTouchEnd={handleHeroTouchEnd}
-        >
-          <div className="hero-video-stage">
-            {/* Slide 0: Brand Promo Video */}
-            <div
-              className={`hero-slide-layer ${activeSlideIndex === 0 ? "is-active" : ""}`}
-              aria-hidden={activeSlideIndex !== 0}
-            >
-              {!videoError ? (
-                <video
-                  ref={videoRef}
-                  autoPlay={!prefersReducedMotion}
-                  muted
-                  loop
-                  playsInline
-                  preload="metadata"
-                  className="home-hero-video"
-                  onError={() => setVideoError(true)}
+        {/* ================= 1. MOBILE TOP SEARCH BAR ================= */}
+        <section className="home-mobile-search-bar" aria-label="모바일 통합 자재 검색">
+          <div className="container">
+            <form onSubmit={handleMobileSearchSubmit} className="mobile-search-form">
+              <select
+                className="mobile-search-select"
+                value={mobileSearchCategory}
+                onChange={(e) => setMobileSearchCategory(e.target.value)}
+                aria-label="카테고리 선택"
+              >
+                <option value="all">전체</option>
+                <option value="데코타일">데코타일</option>
+                <option value="장판">장판</option>
+                <option value="마루">마루</option>
+                <option value="벽지">벽지</option>
+                <option value="카페트타일">카페트타일</option>
+                <option value="부자재">부자재</option>
+              </select>
+              <input
+                type="text"
+                className="mobile-search-input"
+                placeholder="상품번호, 브랜드, 색상, 자재명 검색"
+                value={mobileSearchQuery}
+                onChange={(e) => setMobileSearchQuery(e.target.value)}
+              />
+              <button type="submit" className="mobile-search-btn" aria-label="검색">
+                <Search size={18} />
+              </button>
+            </form>
+          </div>
+        </section>
+
+        {/* ================= 2. CATEGORY QUICK NAVIGATION ================= */}
+        <section className="home-category-quick-section" aria-label="카테고리 빠른 이동">
+          <div className="container">
+            <nav className="home-category-quick-nav">
+              {QUICK_CATEGORIES.map((cat) => (
+                <Link
+                  key={cat.key}
+                  to={cat.path}
+                  className={`home-quick-cat-link ${cat.key === "all" ? "is-primary" : ""}`}
+                  onMouseEnter={() => preloadRoute('/materials')}
                 >
-                  <source src="/videos/home-hero.mp4" type="video/mp4" />
-                </video>
-              ) : (
-                <div className="hero-video-fallback">
-                  <img 
-                    src="/images/home-interior/korea-apt-living-01.webp" 
-                    alt="동경바닥재 프리미엄 인테리어 쇼룸" 
-                    className="fallback-image"
-                    fetchPriority="high"
-                  />
-                </div>
-              )}
+                  {cat.label}
+                </Link>
+              ))}
+            </nav>
+          </div>
+        </section>
 
-              <div className="hero-cinematic-overlay" />
-
-              <div className="hero-content-wrap">
-                <div className="hero-inner-container">
-                  <p className="hero-brand-kicker">KCC FLOORING</p>
-
-                  <h1 className="hero-main-title">DONG KYUNG</h1>
-
-                  <p className="hero-sub-description">
-                    <span>KCC바닥재 취급점/시공 전문업체</span>
-                    <span>바닥재, 마루, 마루공사, 마루시공, 마루자재 판매</span>
-                  </p>
-
-                  <div className="hero-cta-group">
-                    <Link 
-                      to="/materials" 
-                      className="btn-hero-primary"
-                      onMouseEnter={() => preloadRoute('/materials')}
-                      onTouchStart={() => preloadRoute('/materials')}
-                    >
-                      <ShoppingBag size={17} />
-                      <span>자재 찾기 →</span>
-                    </Link>
-
-                    <Link 
-                      to="/estimate/request" 
-                      className="btn-hero-glass"
-                      onMouseEnter={() => preloadRoute('/estimate')}
-                      onTouchStart={() => preloadRoute('/estimate')}
-                    >
-                      <FileText size={17} />
-                      <span>견적문의 →</span>
-                    </Link>
-                  </div>
-                </div>
+        {/* ================= 3. COMPACT NOTICE BAR (공지사항) ================= */}
+        <section className="home-notice-section" aria-label="공지사항">
+          <div className="container">
+            <div className="home-notice-bar">
+              <div className="home-notice-badge">
+                <Megaphone size={15} />
+                <span>공지사항</span>
               </div>
-            </div>
 
-            {/* Slides 1..N: Randomized Published Construction Cases */}
-            {heroCases.map((item, idx) => {
-              const slideIdx = idx + 1;
-              const isActive = activeSlideIndex === slideIdx;
-              const isNextOrFirst = slideIdx === 1 || slideIdx === ((activeSlideIndex + 1) % totalSlides);
-              const materialLinks = resolveCaseMaterialLinks(item);
-              const directMaterialLink = materialLinks.find((l) => l.isDirectDetail);
-              const materialText =
-                materialLinks.length > 0
-                  ? materialLinks.map((l) => l.label).join(" · ")
-                  : item.material_summary || "";
-              const SpaceIcon = getCaseSpaceIcon(item);
-              const spaceTypeLabel = `${item.location ? item.location + " · " : ""}${item.category || "시공현장"}`;
-              const displayTitle = formatCaseTitle(item);
-              const heroImgUrl = getCaseImageUrl(item.main_image_url, "1200");
-              const heroSrcSet = getCaseImageSrcSet(item.main_image_url);
-
-              return (
-                <div
-                  key={`hero-case-${item.id}`}
-                  className={`hero-slide-layer hero-case-slide ${isActive ? "is-active" : ""}`}
-                  aria-hidden={!isActive}
-                >
-                  <img
-                    src={heroImgUrl}
-                    srcSet={heroSrcSet || undefined}
-                    sizes="100vw"
-                    alt={`${displayTitle} 실제 시공사례`}
-                    className="hero-case-bg-image"
-                    loading={isActive || isNextOrFirst ? "eager" : "lazy"}
-                    fetchPriority={isActive || slideIdx === 1 ? "high" : "auto"}
-                    decoding="async"
-                    onError={(e) => {
-                      if (e.target.dataset.triedRaw !== "true" && item.main_image_url && item.main_image_url !== heroImgUrl) {
-                        e.target.dataset.triedRaw = "true";
-                        e.target.src = item.main_image_url;
-                      } else {
-                        e.target.onerror = null;
-                        e.target.src = "/images/home-interior/korea-apt-living-01.webp";
-                      }
-                    }}
-                  />
-
-                  <div className="hero-cinematic-overlay hero-case-overlay" />
-
-                  <div className="hero-content-wrap hero-case-content-wrap">
-                    <div className="hero-inner-container hero-case-inner">
-                      <div className="hero-case-space-badge">
-                        <SpaceIcon size={14} />
-                        <span>{spaceTypeLabel}</span>
-                      </div>
-
-                      <h2 className="hero-case-title">{displayTitle}</h2>
-
-                      {materialText && (
-                        <p className="hero-case-material-text">
-                          사용 자재: {materialText}
-                        </p>
+              <ul className="home-notice-list">
+                {notices.slice(0, 3).map((notice) => (
+                  <li key={notice.id} className="home-notice-item">
+                    <button
+                      type="button"
+                      className="home-notice-link-btn"
+                      onClick={() => setSelectedNotice(notice)}
+                    >
+                      {notice.is_pinned && <span className="notice-pin-tag">중요</span>}
+                      {notice.tag && !notice.is_pinned && <span className="notice-cat-tag">{notice.tag}</span>}
+                      <span className="notice-title-text">{notice.title}</span>
+                      {notice.created_at && (
+                        <span className="notice-date-text">{formatNoticeDate(notice.created_at)}</span>
                       )}
+                    </button>
+                  </li>
+                ))}
+              </ul>
 
-                      <div className="hero-cta-group">
-                        <Link
-                          to={`/cases?id=${item.id}`}
-                          className="btn-hero-primary"
-                          onMouseEnter={() => preloadRoute("/cases")}
-                        >
-                          <span>시공사례 보기 →</span>
-                        </Link>
-
-                        {directMaterialLink && (
-                          <Link
-                            to={directMaterialLink.path}
-                            className="btn-hero-glass"
-                            onMouseEnter={() => preloadRoute(directMaterialLink.path)}
-                          >
-                            <ShoppingBag size={16} />
-                            <span>사용 자재 보기 →</span>
-                          </Link>
-                        )}
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              );
-            })}
-
-            {/* Slider Prev / Next Controls */}
-            {totalSlides > 1 && (
-              <>
-                <button
-                  type="button"
-                  className="hero-slider-arrow prev"
-                  onClick={handlePrevSlide}
-                  aria-label="이전 슬라이드"
-                >
-                  <ChevronLeft size={22} />
-                </button>
-                <button
-                  type="button"
-                  className="hero-slider-arrow next"
-                  onClick={handleNextSlide}
-                  aria-label="다음 슬라이드"
-                >
-                  <ChevronRight size={22} />
-                </button>
-              </>
-            )}
-
-            {/* Bottom Control Bar: Pause/Play + Page Indicators */}
-            <div className="hero-slider-bottom-controls">
               <button
                 type="button"
-                className="hero-video-toggle-btn"
-                onClick={toggleSlidePause}
-                aria-label={isSlidePaused ? "슬라이드 자동재생 시작" : "슬라이드 일시정지"}
+                className="home-notice-more-btn"
+                onClick={() => setShowAllNoticesModal(true)}
               >
-                {isSlidePaused ? <Play size={13} /> : <Pause size={13} />}
-                <span>{isSlidePaused ? "PLAY" : "PAUSE"}</span>
+                <span>전체보기</span>
+                <ChevronRight size={14} />
               </button>
-
-              {totalSlides > 1 && (
-                <div className="hero-slide-dots" role="tablist" aria-label="슬라이드 페이지 선택">
-                  {Array.from({ length: totalSlides }).map((_, idx) => (
-                    <button
-                      key={`dot-${idx}`}
-                      type="button"
-                      role="tab"
-                      aria-selected={activeSlideIndex === idx}
-                      aria-label={idx === 0 ? "브랜드 홍보 영상 슬라이드" : `실제 시공사례 ${idx}번 슬라이드`}
-                      className={`hero-slide-dot ${activeSlideIndex === idx ? "active" : ""}`}
-                      onClick={() => setActiveSlideIndex(idx)}
-                    />
-                  ))}
-                </div>
-              )}
             </div>
           </div>
         </section>
 
-        {/* ================= 2. REAL PROJECTS PREVIEW (실제 시공사례 미리보기 3개) ================= */}
-        <section className="showroom-projects-section">
+        {/* ================= 4. REAL CONSTRUCTION CASES (실제 시공사례 최근 3건) ================= */}
+        <section className="showroom-projects-section home-cases-first-screen">
           <div className="container">
-            <div className="section-head-block row-header">
+            <div className="section-head-block row-header home-cases-header">
               <div>
-                <h2 className="section-primary-title">실제 시공사례</h2>
+                <h1 className="section-primary-title">실제 시공사례</h1>
                 <p className="section-sub-copy">
-                  동경바닥재가 직접 완공한 실제 바닥 시공 현장과 사용 자재를 확인해보세요.
+                  최근 완공된 실제 시공 현장과 사용 자재를 바로 확인해 보세요.
                 </p>
               </div>
               <Link 
@@ -1060,38 +836,38 @@ export default function Home() {
                 className="link-projects-all"
                 onMouseEnter={() => preloadRoute('/cases')}
               >
-                <span>전체 시공사례 보기</span>
+                <span>전체보기</span>
                 <ArrowRight size={16} />
               </Link>
             </div>
 
-            {/* Randomized verified construction cases preview (3 cards) */}
-            <div className="projects-cards-grid preview-three-grid">
-              {showcaseCases.map((item, idx) => {
+            <div className="projects-cards-grid preview-three-grid home-cases-grid-16x9">
+              {recentCases.map((item) => {
                 const materialLinks = resolveCaseMaterialLinks(item);
                 const directLinks = materialLinks.filter((l) => l.isDirectDetail);
                 const thumbUrl = getCaseImageUrl(item.main_image_url, '800');
                 const srcSet = getCaseImageSrcSet(item.main_image_url);
                 const SpaceIcon = getCaseSpaceIcon(item);
                 const spaceLabel = `${item.location ? item.location + ' · ' : ''}${item.category || '시공현장'}`;
-                const displayTitle = formatCaseTitle(item);
+                const displayTitle = formatCaseSlashTitle(item);
 
                 return (
                   <article 
                     key={item.id} 
-                    className="project-case-card"
+                    className="project-case-card home-case-card-compact"
                     onClick={() => navigate(`/cases?id=${item.id}`)}
-                    title={`${displayTitle} 시공사례 상세 보기`}
+                    title={`${displayTitle} 상세 보기`}
                   >
-                    <div className="project-media-wrap">
+                    <div className="project-media-wrap aspect-16-9">
                       <img 
                         src={thumbUrl} 
                         srcSet={srcSet || undefined}
-                        sizes="(max-width: 767px) 82vw, (max-width: 1024px) 50vw, 400px"
+                        sizes="(max-width: 767px) 84vw, (max-width: 1024px) 50vw, 410px"
                         alt={displayTitle} 
-                        loading={idx < 3 ? "eager" : "lazy"}
+                        loading="eager"
+                        fetchPriority="high"
                         decoding="async"
-                        width="560"
+                        width="640"
                         height="360"
                         onError={(e) => {
                           if (e.target.dataset.triedRaw !== 'true' && item.main_image_url && item.main_image_url !== thumbUrl) {
@@ -1104,13 +880,14 @@ export default function Home() {
                         }}
                       />
                       <div className="project-space-tag">
-                        <SpaceIcon size={14} />
+                        <SpaceIcon size={13} />
                         <span>{spaceLabel}</span>
                       </div>
                     </div>
 
-                    <div className="project-body-wrap">
-                      {/* Clickable Material Links */}
+                    <div className="project-body-wrap home-case-body-compact">
+                      <h2 className="project-case-title">{displayTitle}</h2>
+
                       <div className="project-material-links-wrap" onClick={(e) => e.stopPropagation()}>
                         {directLinks.length > 0 ? (
                           directLinks.map((linkItem, lIdx) => (
@@ -1131,8 +908,6 @@ export default function Home() {
                         ) : null}
                       </div>
 
-                      <h3 className="project-case-title">{displayTitle}</h3>
-                      {item.description && <p className="project-case-desc">{item.description}</p>}
                       <span className="project-view-more">
                         시공사례 보기 <ChevronRight size={15} />
                       </span>
@@ -1144,7 +919,7 @@ export default function Home() {
           </div>
         </section>
 
-        {/* ================= 3. RECOMMENDED COLLECTION (추천 자재) ================= */}
+        {/* ================= 5. RECOMMENDED COLLECTION (추천 자재: 1. 데코타일 / 2. 장판) ================= */}
         <section className="showroom-collection-section">
           <div className="container">
             <div className="section-head-block row-header collection-header-bar">
@@ -1188,17 +963,12 @@ export default function Home() {
                 >
                   {/* Card Thumbnail Image with Hover Zoom */}
                   <div className="collection-card-media">
-                    <img 
-                      src={item.image} 
-                      alt={item.lineup} 
-                      loading="lazy"
-                      decoding="async"
-                      width="420"
-                      height="340"
-                      onError={(e) => {
-                        e.target.onerror = null;
-                        e.target.src = "/images/no-image.svg";
-                      }}
+                    <ProductImage
+                      product={item}
+                      src={item.image}
+                      alt={item.lineup}
+                      fit="cover"
+                      priority={idx < 4}
                     />
                     <span className="collection-index-pill">0{idx + 1}</span>
                   </div>
@@ -1422,6 +1192,79 @@ export default function Home() {
             </div>
           </div>
         </section>
+
+        {/* Notice Detail / All Notices Modal */}
+        {(selectedNotice || showAllNoticesModal) && (
+          <div
+            className="home-notice-modal-overlay"
+            role="dialog"
+            aria-modal="true"
+            aria-label="공지사항 상세"
+            onClick={() => {
+              setSelectedNotice(null);
+              setShowAllNoticesModal(false);
+            }}
+          >
+            <div className="home-notice-modal" onClick={(e) => e.stopPropagation()}>
+              <div className="home-notice-modal-header">
+                <h3>{selectedNotice ? "공지사항" : "전체 공지사항"}</h3>
+                <button
+                  type="button"
+                  className="home-notice-modal-close"
+                  aria-label="닫기"
+                  onClick={() => {
+                    setSelectedNotice(null);
+                    setShowAllNoticesModal(false);
+                  }}
+                >
+                  <X size={20} />
+                </button>
+              </div>
+
+              {selectedNotice ? (
+                <div className="home-notice-modal-body">
+                  <div className="home-notice-modal-meta">
+                    {selectedNotice.is_pinned && <span className="notice-pin-tag">중요</span>}
+                    {selectedNotice.tag && !selectedNotice.is_pinned && (
+                      <span className="notice-cat-tag">{selectedNotice.tag}</span>
+                    )}
+                    {selectedNotice.created_at && (
+                      <span className="notice-date-text">{formatNoticeDate(selectedNotice.created_at)}</span>
+                    )}
+                  </div>
+                  <h4 className="home-notice-modal-title">{selectedNotice.title}</h4>
+                  <p className="home-notice-modal-content">{selectedNotice.content}</p>
+                </div>
+              ) : (
+                <div className="home-notice-modal-body">
+                  <ul className="home-notice-all-list">
+                    {allNotices.map((n) => (
+                      <li key={n.id}>
+                        <button
+                          type="button"
+                          className="home-notice-all-item"
+                          onClick={() => {
+                            setShowAllNoticesModal(false);
+                            setSelectedNotice(n);
+                          }}
+                        >
+                          <div className="home-notice-all-left">
+                            {n.is_pinned && <span className="notice-pin-tag">중요</span>}
+                            {n.tag && !n.is_pinned && <span className="notice-cat-tag">{n.tag}</span>}
+                            <span className="home-notice-all-title">{n.title}</span>
+                          </div>
+                          {n.created_at && (
+                            <span className="notice-date-text">{formatNoticeDate(n.created_at)}</span>
+                          )}
+                        </button>
+                      </li>
+                    ))}
+                  </ul>
+                </div>
+              )}
+            </div>
+          </div>
+        )}
 
       </div>
     </MainLayout>

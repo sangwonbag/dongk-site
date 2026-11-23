@@ -154,3 +154,25 @@ export function formatCaseTitle(caseItem) {
   }
   return `${parts.join(' ')} 시공`;
 }
+
+/**
+ * Formats a construction case item into the slash-delimited Home card format:
+ * [현장 유형] / [브랜드] / [제품번호] / [데코타일 또는 장판] 시공
+ * e.g. "학원 / KCC / 5537 / 데코타일 시공"
+ */
+export function formatCaseSlashTitle(caseItem) {
+  if (!caseItem) return '';
+  if (typeof caseItem === 'string') return caseItem;
+
+  const spaceType = extractSpaceType(caseItem);
+  const brand = extractBrand(caseItem);
+  const codes = extractProductCodes(caseItem, brand);
+  const materialType = extractMaterialType(caseItem, brand, codes);
+
+  const parts = [spaceType, brand, codes, materialType].filter(Boolean);
+  if (parts.length === 0) {
+    const raw = String(caseItem.title || '').trim();
+    return raw.endsWith('시공') ? raw : `${raw} 시공`.trim();
+  }
+  return `${parts.join(' / ')} 시공`;
+}

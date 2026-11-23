@@ -3,10 +3,41 @@ import { useNavigate } from 'react-router-dom';
 import MainLayout from '../../components/layout/MainLayout';
 import { supabase } from '../../lib/supabaseClient';
 import { useAuth } from '../../contexts/AuthContext';
-import { ArrowLeft, Plus, Search, Edit2, Trash2, Save, X, Upload, Eye, Image as ImageIcon, Loader2 } from 'lucide-react';
+import { ArrowLeft, Plus, Search, Edit2, Trash2, Save, X, Upload, Image as ImageIcon, Loader2, AlertCircle } from 'lucide-react';
 import { searchMaterialsForAdmin, findSupabaseProductId } from '../../utils/caseMaterialUtils';
 import { invalidateCasesCache } from '../../utils/constructionCasesService';
 import './AdminConstructionCases.css';
+
+const CASE_IMAGE_BUCKET = 'portfolio-images';
+const MAX_UPLOAD_SIZE_BYTES = 20 * 1024 * 1024; // 20MB
+const ALLOWED_IMAGE_EXTENSIONS = new Set(['jpg', 'jpeg', 'png', 'webp', 'gif', 'heic', 'heif', 'avif']);
+
+function inferImageMimeType(file) {
+  if (file?.type && file.type.startsWith('image/')) return file.type;
+  const ext = String(file?.name || '').split('.').pop()?.toLowerCase() || '';
+  const mimeByExt = {
+    jpg: 'image/jpeg',
+    jpeg: 'image/jpeg',
+    png: 'image/png',
+    webp: 'image/webp',
+    gif: 'image/gif',
+    heic: 'image/heic',
+    heif: 'image/heif',
+    avif: 'image/avif',
+  };
+  return mimeByExt[ext] || '';
+}
+
+function isValidImageFile(file) {
+  if (!file) return false;
+  const ext = String(file.name || '').split('.').pop()?.toLowerCase() || '';
+  const hasImageMime = Boolean(file.type && file.type.startsWith('image/'));
+  const hasImageExt = ALLOWED_IMAGE_EXTENSIONS.has(ext);
+  // Mobile Safari may omit file.type for HEIC/camera files; allow valid image extension when MIME is empty
+  if (hasImageMime) return true;
+  if (!file.type && hasImageExt) return true;
+  return false;
+}
 
 export default function AdminConstructionCases() {
   const navigate = useNavigate();
@@ -24,6 +55,7 @@ export default function AdminConstructionCases() {
   const [editingCase, setEditingCase] = useState(null);
   const [submitting, setSubmitting] = useState(false);
   const [uploading, setUploading] = useState(false);
+  const [uploadError, setUploadError] = useState('');
 
   // Form Fields
   const [title, setTitle] = useState('');
@@ -106,6 +138,7 @@ export default function AdminConstructionCases() {
     setSortOrder(0);
     setMainImageUrl('');
     setImageUrls([]);
+    setUploadError('');
 
     // Set default date to today in YYYY-MM-DD
     const today = new Date().toISOString().substring(0, 10);
@@ -131,7 +164,8 @@ export default function AdminConstructionCases() {
     setSortOrder(item.sort_order || 0);
     setMainImageUrl(item.main_image_url || '');
     setConstructedAt(item.constructed_at || '');
-    setImageUrls(item.image_urls || []);
+    setImageUrls(Array.isArray(item.image_urls) ? item.image_urls : []);
+    setUploadError('');
     setIsModalOpen(true);
   };
 
@@ -190,38 +224,104 @@ export default function AdminConstructionCases() {
     }
   };
 
+  const buildAdminApiHeaders = async () => {
+    const headers = {
+      'Content-Type': 'application/json',
+      'X-Admin-User-Id': String(user?.id || ''),
+      'X-Admin-Username': String(user?.username || ''),
+    };
+    try {
+      const { data: sessionData } = await supabase.auth.getSession();
+      const accessToken = sessionData?.session?.access_token;
+      if (accessToken) {
+        headers.Authorization = `Bearer ${accessToken}`;
+      }
+    } catch {
+      // Fallback to verified admin profile headers
+    }
+    return headers;
+  };
+
+  const uploadSingleCaseImage = async (file) => {
+    if (!supabase) throw new Error('Supabase 클라이언트가 초기화되지 않았습니다.');
+    if (!user || user.role !== 'admin') throw new Error('관리자 권한이 확인되지 않았습니다.');
+    if (!isValidImageFile(file)) {
+      throw new Error(`이미지 파일만 업로드할 수 있습니다. (선택된 파일: ${file?.name || '알 수 없음'})`);
+    }
+    if (file.size > MAX_UPLOAD_SIZE_BYTES) {
+      throw new Error(`파일 용량이 20MB를 초과합니다. (${file.name})`);
+    }
+
+    const contentType = inferImageMimeType(file) || 'application/octet-stream';
+    const headers = await buildAdminApiHeaders();
+
+    const signResp = await fetch('/api/construction-case-images', {
+      method: 'POST',
+      headers,
+      body: JSON.stringify({
+        fileName: file.name,
+        contentType,
+        fileSize: file.size,
+      }),
+    });
+
+    const signJson = await signResp.json().catch(() => ({}));
+    if (!signResp.ok || !signJson.success || !signJson.path || !signJson.token) {
+      throw new Error(signJson.error || `업로드 서명 URL 발급 실패 (HTTP ${signResp.status})`);
+    }
+
+    const targetBucket = signJson.bucket || CASE_IMAGE_BUCKET;
+    const { error: uploadErr } = await supabase.storage
+      .from(targetBucket)
+      .uploadToSignedUrl(signJson.path, signJson.token, file, {
+        cacheControl: '3600',
+        contentType,
+      });
+
+    if (uploadErr) {
+      throw new Error(uploadErr.message || `Storage(${targetBucket}) 업로드 실패`);
+    }
+
+    if (signJson.publicUrl) return signJson.publicUrl;
+    const { data } = supabase.storage.from(targetBucket).getPublicUrl(signJson.path);
+    return data.publicUrl;
+  };
+
   const handleImageUpload = async (e, type = 'main') => {
-    const files = Array.from(e.target.files || []);
+    const inputEl = e.target;
+    const files = Array.from(inputEl.files || []);
     if (files.length === 0) return;
 
     setUploading(true);
+    setUploadError('');
     try {
-      if (!supabase) throw new Error('Supabase client is not initialized.');
-
+      const targetFiles = type === 'main' ? files.slice(0, 1) : files;
       const uploadedUrls = [];
-      for (const file of (type === 'main' ? files.slice(0, 1) : files)) {
-        if (!file.type.startsWith('image/')) throw new Error('이미지 파일만 업로드할 수 있습니다.');
-        const fileExt = file.name.split('.').pop()?.toLowerCase() || 'jpg';
-        const fileName = `${Date.now()}_${Math.random().toString(36).substring(2, 10)}.${fileExt}`;
-        const filePath = `cases/${fileName}`;
-        const { error: uploadError } = await supabase.storage
-          .from('construction-cases')
-          .upload(filePath, file, { cacheControl: '3600', upsert: false, contentType: file.type });
-        if (uploadError) throw uploadError;
-        const { data } = supabase.storage.from('construction-cases').getPublicUrl(filePath);
-        uploadedUrls.push(data.publicUrl);
+
+      for (const file of targetFiles) {
+        const publicUrl = await uploadSingleCaseImage(file);
+        uploadedUrls.push(publicUrl);
       }
+
       if (type === 'main') {
         setMainImageUrl(uploadedUrls[0]);
       } else {
-        setImageUrls(prev => [...prev, ...uploadedUrls]);
+        setImageUrls((prev) => {
+          const existing = Array.isArray(prev) ? prev : [];
+          const merged = [...existing];
+          for (const url of uploadedUrls) {
+            if (url && !merged.includes(url)) merged.push(url);
+          }
+          return merged;
+        });
       }
     } catch (err) {
       console.error('[Upload Error]', err);
-      alert('이미지 업로드에 실패했습니다: ' + err.message);
+      const exactMsg = err?.message || '알 수 없는 오류가 발생했습니다.';
+      setUploadError(exactMsg);
     } finally {
       setUploading(false);
-      e.target.value = '';
+      if (inputEl) inputEl.value = '';
     }
   };
 
@@ -231,6 +331,9 @@ export default function AdminConstructionCases() {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
+    if (uploading || uploadError) {
+      return;
+    }
     if (!title.trim()) {
       alert('제목을 입력해주세요.');
       return;
@@ -245,9 +348,18 @@ export default function AdminConstructionCases() {
         finalProductId = await findSupabaseProductId(supabase, selectedMaterials[0]);
       }
 
+      const cleanMainImageUrl = mainImageUrl?.trim() || null;
+      const cleanGalleryUrls = Array.from(
+        new Set(
+          (Array.isArray(imageUrls) ? imageUrls : [])
+            .map((u) => (typeof u === 'string' ? u.trim() : ''))
+            .filter(Boolean)
+        )
+      );
+
       // Construct payload
       const payload = {
-        title,
+        title: title.trim(),
         location: location || null,
         material_summary: materialSummary || null,
         product_id: finalProductId || null,
@@ -257,36 +369,29 @@ export default function AdminConstructionCases() {
         is_published: isActive, // Maintain both fields dynamically
         is_featured: isFeatured,
         sort_order: sortOrder,
-        main_image_url: mainImageUrl || null,
+        main_image_url: cleanMainImageUrl,
         constructed_at: constructedAt || null,
-        image_urls: imageUrls,
+        image_urls: cleanGalleryUrls,
         updated_at: new Date().toISOString()
       };
 
-      if (editingCase) {
-        // UPDATE
-        const { error } = await supabase
-          .from('construction_cases')
-          .update(payload)
-          .eq('id', editingCase.id);
-
-        if (error) throw error;
-        alert('시공사례가 성공적으로 수정되었습니다.');
-      } else {
-        // INSERT
-        const { error } = await supabase
-          .from('construction_cases')
-          .insert({
-            ...payload,
-            created_at: new Date().toISOString()
-          });
-
-        if (error) throw error;
-        invalidateCasesCache();
-        alert('시공사례가 성공적으로 등록되었습니다.');
+      const headers = await buildAdminApiHeaders();
+      const saveResp = await fetch('/api/construction-case-images', {
+        method: 'POST',
+        headers,
+        body: JSON.stringify({
+          action: 'save-case',
+          id: editingCase ? editingCase.id : null,
+          payload,
+        }),
+      });
+      const saveJson = await saveResp.json().catch(() => ({}));
+      if (!saveResp.ok || !saveJson.success) {
+        throw new Error(saveJson.error || `저장에 실패했습니다. (HTTP ${saveResp.status})`);
       }
 
       invalidateCasesCache();
+      alert(editingCase ? '시공사례가 성공적으로 수정되었습니다.' : '시공사례가 성공적으로 등록되었습니다.');
       setIsModalOpen(false);
       fetchCases();
     } catch (err) {
@@ -304,12 +409,19 @@ export default function AdminConstructionCases() {
 
     try {
       if (!supabase) throw new Error('Supabase client is not initialized.');
-      const { error } = await supabase
-        .from('construction_cases')
-        .delete()
-        .eq('id', id);
-
-      if (error) throw error;
+      const headers = await buildAdminApiHeaders();
+      const delResp = await fetch('/api/construction-case-images', {
+        method: 'POST',
+        headers,
+        body: JSON.stringify({
+          action: 'delete-case',
+          id,
+        }),
+      });
+      const delJson = await delResp.json().catch(() => ({}));
+      if (!delResp.ok || !delJson.success) {
+        throw new Error(delJson.error || `삭제에 실패했습니다. (HTTP ${delResp.status})`);
+      }
       invalidateCasesCache();
       alert('성공적으로 삭제되었습니다.');
       fetchCases();
@@ -613,6 +725,22 @@ export default function AdminConstructionCases() {
 
                   {/* Right Column: images upload */}
                   <div className="form-right-col">
+                    {uploadError && (
+                      <div className="upload-error-alert" role="alert">
+                        <div className="upload-error-alert-content">
+                          <AlertCircle size={16} />
+                          <span>이미지 업로드 실패: {uploadError}</span>
+                        </div>
+                        <button
+                          type="button"
+                          className="upload-error-dismiss"
+                          onClick={() => setUploadError('')}
+                        >
+                          오류 해제
+                        </button>
+                      </div>
+                    )}
+
                     {/* Main image upload */}
                     <div className="image-upload-box">
                       <label>대표 이미지 *</label>
@@ -638,7 +766,7 @@ export default function AdminConstructionCases() {
                           <Upload size={14} /> 대표사진 선택
                           <input
                             type="file"
-                            accept="image/*"
+                            accept="image/*,.heic,.heif"
                             onChange={(e) => handleImageUpload(e, 'main')}
                             style={{ display: 'none' }}
                             disabled={uploading}
@@ -649,7 +777,10 @@ export default function AdminConstructionCases() {
                           className="img-url-input"
                           placeholder="직접 이미지 URL 입력도 가능"
                           value={mainImageUrl}
-                          onChange={(e) => setMainImageUrl(e.target.value)}
+                          onChange={(e) => {
+                            setMainImageUrl(e.target.value);
+                            if (uploadError) setUploadError('');
+                          }}
                         />
                       </div>
                     </div>
@@ -677,7 +808,7 @@ export default function AdminConstructionCases() {
                           <span>추가</span>
                           <input
                             type="file"
-                            accept="image/*"
+                            accept="image/*,.heic,.heif"
                             multiple
                             onChange={(e) => handleImageUpload(e, 'gallery')}
                             style={{ display: 'none' }}
@@ -701,7 +832,8 @@ export default function AdminConstructionCases() {
                   <button
                     type="submit"
                     className="btn-save"
-                    disabled={submitting || uploading}
+                    disabled={submitting || uploading || Boolean(uploadError)}
+                    title={uploadError ? '이미지 업로드 오류를 해결한 후 저장할 수 있습니다.' : undefined}
                   >
                     {submitting ? (
                       <>
