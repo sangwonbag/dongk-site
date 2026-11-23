@@ -4,6 +4,7 @@ import MainLayout from "../../components/layout/MainLayout";
 import LazySection from "../../components/common/LazySection";
 import SEO from "../../components/seo/SEO";
 import { ProductImage } from "../../components/ui";
+import HomePromoBanner from "../../components/home/HomePromoBanner";
 import { KAKAO_CHAT_URL, OFFICE_PHONE } from "../../constants/contact";
 import { preloadRoute, setupIdlePreload } from "../../utils/routePreloader";
 import { 
@@ -781,6 +782,9 @@ export default function Home() {
           </div>
         </section>
 
+        {/* ================= 2.5. AUTO-ROTATING PROMO BANNER (중앙 자동 전환 홍보 배너) ================= */}
+        <HomePromoBanner recentCases={recentCases} />
+
         {/* ================= 3. COMPACT NOTICE BAR (공지사항) ================= */}
         <section className="home-notice-section" aria-label="공지사항">
           <div className="container">
@@ -821,105 +825,7 @@ export default function Home() {
           </div>
         </section>
 
-        {/* ================= 4. REAL CONSTRUCTION CASES (실제 시공사례 최근 3건) ================= */}
-        <section className="showroom-projects-section home-cases-first-screen">
-          <div className="container">
-            <div className="section-head-block row-header home-cases-header">
-              <div>
-                <h1 className="section-primary-title">실제 시공사례</h1>
-                <p className="section-sub-copy">
-                  최근 완공된 실제 시공 현장과 사용 자재를 바로 확인해 보세요.
-                </p>
-              </div>
-              <Link 
-                to="/cases" 
-                className="link-projects-all"
-                onMouseEnter={() => preloadRoute('/cases')}
-              >
-                <span>전체보기</span>
-                <ArrowRight size={16} />
-              </Link>
-            </div>
-
-            <div className="projects-cards-grid preview-three-grid home-cases-grid-16x9">
-              {recentCases.map((item) => {
-                const materialLinks = resolveCaseMaterialLinks(item);
-                const directLinks = materialLinks.filter((l) => l.isDirectDetail);
-                const thumbUrl = getCaseImageUrl(item.main_image_url, '800');
-                const srcSet = getCaseImageSrcSet(item.main_image_url);
-                const SpaceIcon = getCaseSpaceIcon(item);
-                const spaceLabel = `${item.location ? item.location + ' · ' : ''}${item.category || '시공현장'}`;
-                const displayTitle = formatCaseSlashTitle(item);
-
-                return (
-                  <article 
-                    key={item.id} 
-                    className="project-case-card home-case-card-compact"
-                    onClick={() => navigate(`/cases?id=${item.id}`)}
-                    title={`${displayTitle} 상세 보기`}
-                  >
-                    <div className="project-media-wrap aspect-16-9">
-                      <img 
-                        src={thumbUrl} 
-                        srcSet={srcSet || undefined}
-                        sizes="(max-width: 767px) 84vw, (max-width: 1024px) 50vw, 410px"
-                        alt={displayTitle} 
-                        loading="eager"
-                        fetchPriority="high"
-                        decoding="async"
-                        width="640"
-                        height="360"
-                        onError={(e) => {
-                          if (e.target.dataset.triedRaw !== 'true' && item.main_image_url && item.main_image_url !== thumbUrl) {
-                            e.target.dataset.triedRaw = 'true';
-                            e.target.src = item.main_image_url;
-                          } else {
-                            e.target.onerror = null;
-                            e.target.src = "/images/no-image.svg";
-                          }
-                        }}
-                      />
-                      <div className="project-space-tag">
-                        <SpaceIcon size={13} />
-                        <span>{spaceLabel}</span>
-                      </div>
-                    </div>
-
-                    <div className="project-body-wrap home-case-body-compact">
-                      <h2 className="project-case-title">{displayTitle}</h2>
-
-                      <div className="project-material-links-wrap" onClick={(e) => e.stopPropagation()}>
-                        {directLinks.length > 0 ? (
-                          directLinks.map((linkItem, lIdx) => (
-                            <Link
-                              key={lIdx}
-                              to={linkItem.path}
-                              className="project-material-badge-link"
-                              title={`${linkItem.label} 자재 상세페이지로 이동`}
-                            >
-                              <span>{linkItem.label}</span>
-                              <ArrowUpRight size={12} className="material-link-arrow" />
-                            </Link>
-                          ))
-                        ) : item.material_summary ? (
-                          <span className="project-material-summary">
-                            {item.material_summary}
-                          </span>
-                        ) : null}
-                      </div>
-
-                      <span className="project-view-more">
-                        시공사례 보기 <ChevronRight size={15} />
-                      </span>
-                    </div>
-                  </article>
-                );
-              })}
-            </div>
-          </div>
-        </section>
-
-        {/* ================= 5. RECOMMENDED COLLECTION (추천 자재: 1. 데코타일 / 2. 장판) ================= */}
+        {/* ================= 4. RECOMMENDED COLLECTION (추천 자재: 1. 데코타일 / 2. 장판) ================= */}
         <section className="showroom-collection-section">
           <div className="container">
             <div className="section-head-block row-header collection-header-bar">
@@ -1095,6 +1001,103 @@ export default function Home() {
                 </div>
               </div>
             )}
+          </div>
+        </section>
+
+        {/* ================= 5. REAL CONSTRUCTION CASES (실제 시공사례 최근 3건) ================= */}
+        <section className="showroom-projects-section home-cases-first-screen">
+          <div className="container">
+            <div className="section-head-block row-header home-cases-header">
+              <div>
+                <h1 className="section-primary-title">실제 시공사례</h1>
+                <p className="section-sub-copy">
+                  최근 완공된 실제 시공 현장과 사용 자재를 바로 확인해 보세요.
+                </p>
+              </div>
+              <Link 
+                to="/cases" 
+                className="link-projects-all"
+                onMouseEnter={() => preloadRoute('/cases')}
+              >
+                <span>전체보기</span>
+                <ArrowRight size={16} />
+              </Link>
+            </div>
+
+            <div className="projects-cards-grid preview-three-grid home-cases-grid-16x9">
+              {recentCases.map((item) => {
+                const materialLinks = resolveCaseMaterialLinks(item);
+                const directLinks = materialLinks.filter((l) => l.isDirectDetail);
+                const thumbUrl = getCaseImageUrl(item.main_image_url, '800');
+                const srcSet = getCaseImageSrcSet(item.main_image_url);
+                const SpaceIcon = getCaseSpaceIcon(item);
+                const spaceLabel = `${item.location ? item.location + ' · ' : ''}${item.category || '시공현장'}`;
+                const displayTitle = formatCaseSlashTitle(item);
+
+                return (
+                  <article 
+                    key={item.id} 
+                    className="project-case-card home-case-card-compact"
+                    onClick={() => navigate(`/cases?id=${item.id}`)}
+                    title={`${displayTitle} 상세 보기`}
+                  >
+                    <div className="project-media-wrap aspect-16-9">
+                      <img 
+                        src={thumbUrl} 
+                        srcSet={srcSet || undefined}
+                        sizes="(max-width: 767px) 84vw, (max-width: 1024px) 50vw, 410px"
+                        alt={displayTitle} 
+                        loading="lazy"
+                        decoding="async"
+                        width="640"
+                        height="360"
+                        onError={(e) => {
+                          if (e.target.dataset.triedRaw !== 'true' && item.main_image_url && item.main_image_url !== thumbUrl) {
+                            e.target.dataset.triedRaw = 'true';
+                            e.target.src = item.main_image_url;
+                          } else {
+                            e.target.onerror = null;
+                            e.target.src = "/images/no-image.svg";
+                          }
+                        }}
+                      />
+                      <div className="project-space-tag">
+                        <SpaceIcon size={13} />
+                        <span>{spaceLabel}</span>
+                      </div>
+                    </div>
+
+                    <div className="project-body-wrap home-case-body-compact">
+                      <h2 className="project-case-title">{displayTitle}</h2>
+
+                      <div className="project-material-links-wrap" onClick={(e) => e.stopPropagation()}>
+                        {directLinks.length > 0 ? (
+                          directLinks.map((linkItem, lIdx) => (
+                            <Link
+                              key={lIdx}
+                              to={linkItem.path}
+                              className="project-material-badge-link"
+                              title={`${linkItem.label} 자재 상세페이지로 이동`}
+                            >
+                              <span>{linkItem.label}</span>
+                              <ArrowUpRight size={12} className="material-link-arrow" />
+                            </Link>
+                          ))
+                        ) : item.material_summary ? (
+                          <span className="project-material-summary">
+                            {item.material_summary}
+                          </span>
+                        ) : null}
+                      </div>
+
+                      <span className="project-view-more">
+                        시공사례 보기 <ChevronRight size={15} />
+                      </span>
+                    </div>
+                  </article>
+                );
+              })}
+            </div>
           </div>
         </section>
 
