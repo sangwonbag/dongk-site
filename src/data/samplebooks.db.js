@@ -204,7 +204,7 @@ export const sampleBooks = [
         "category": "데코타일",
         "pdf": "/samplebook-assets/데코타일/LX/2025 프레스티지.pdf",
         "description": "프리미엄 데코타일 컬렉션",
-        "cover": "/images/샘플북/썸네일/데코타일/LX/2025 프레스티지/01.jpg",
+        "cover": "/images/샘플북/썸네일/데코타일/LX/2025 프레스티지/02.jpg",
         "catalogUrl": "https://www.b2bzincatalog.com/digital/samplebook/prestg/",
         "catalogType": "internal_pages",
         "catalogProvider": "LX하우시스",
