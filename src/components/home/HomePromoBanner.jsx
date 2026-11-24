@@ -12,12 +12,12 @@ const AUTO_PLAY_MS = 5000;
 const PROMO_SLIDES = [
   {
     id: "pro-construction",
-    title: "바닥재 전문 시공업체 연계",
-    fallbackSubtitle: "주택 · 상가 · 사무실 · 학원 · 헬스장 전문 시공 연계",
+    title: "바닥재 전문 시공업체",
+    fallbackSubtitle: "주택 · 상가 · 사무실 · 학원 · 헬스장 바닥재 전문 시공",
     to: "/cases",
     preloadPath: "/cases",
     imageUrl: promoBanner3Construction,
-    imageAlt: "동경바닥재 바닥재 전문 시공업체 연계 - 주택 · 상가 · 사무실 · 학원 · 헬스장",
+    imageAlt: "동경바닥재 바닥재 전문 시공업체 - 주택 · 상가 · 사무실 · 학원 · 헬스장",
   },
   {
     id: "kcc-distributor",
