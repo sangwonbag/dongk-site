@@ -36,11 +36,12 @@ export default function GuideDetail() {
         const recommendedCodes = Array.isArray(article.recommendedCodes) ? article.recommendedCodes : [];
 
         // 1. Strict filter: Exclude Hyundai from guide recommendations as requested
-        const categoryProducts = all.filter(p => {
-          if (!p.category) return false;
+        const allowedProducts = all.filter(p => {
           const b = (p.brand || '').toLowerCase();
-          if (b.includes('현대')) return false;
-
+          return !b.includes('현대');
+        });
+        const categoryProducts = allowedProducts.filter(p => {
+          if (!p.category) return false;
           if (categoryTarget === "마루" || categoryTarget === "강마루") {
             return p.category.includes("마루") || p.category.includes("강마루");
           }
@@ -49,13 +50,17 @@ export default function GuideDetail() {
 
         let finalProducts = [];
 
-        // 2. Pick explicitly curated products by code if defined
+        // 2. Pick explicitly curated products by code (supports cross-category picks like 동신 차음/하우스 in apartment guide)
         if (recommendedCodes.length > 0) {
+          const norm = (val) => String(val || '').replace(/\s+/g, '').toUpperCase();
           for (const code of recommendedCodes) {
-            const found = categoryProducts.find(p => {
-              const c = (p.product_code || p.code || '').toUpperCase();
-              return c.includes(code.toUpperCase());
-            });
+            const targetNorm = norm(code);
+            const matcher = (p) => {
+              const c = norm(p.product_code || p.code || '');
+              const n = norm(p.name || '');
+              return c === targetNorm || c.includes(targetNorm) || n.includes(targetNorm);
+            };
+            const found = categoryProducts.find(matcher) || allowedProducts.find(matcher);
             if (found && !finalProducts.some(p => p.id === found.id)) {
               finalProducts.push(found);
             }

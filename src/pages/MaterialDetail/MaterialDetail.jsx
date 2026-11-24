@@ -1563,6 +1563,41 @@ export default function MaterialDetail() {
     setShowCartModal(true);
   };
 
+  const handleInstallationConsult = () => {
+    const itemUnitPrice =
+      typeof item?.price === 'number'
+        ? item.price
+        : (parseInt(String(item?.price || 0).replace(/[^0-9]/g, ""), 10) || 0);
+    setIsSubmitting(true);
+    try {
+      navigate(`/estimate/request?materialId=${encodeURIComponent(item.id)}`, {
+        state: {
+          fromProduct: true,
+          materialId: item.id,
+          selectedMaterial: {
+            id: item.id,
+            code: item.code,
+            name: displayName,
+            brand: getComputedBrand(item),
+            category: item.category,
+            line: item.line || '',
+            spec: selectedOption ? selectedOption.spec : (item.specs?.size || item.spec || ''),
+            thickness: item.thickness || (item.specs?.thickness) || '',
+            price: itemUnitPrice,
+            unit: getProductUnit(item),
+            thumbnail: getMaterialImagePath(item)
+          },
+          selectedSize: selectedOption ? selectedOption.label : undefined
+        }
+      });
+    } catch (err) {
+      console.error("Navigation error:", err);
+      alert("견적 화면 이동 중 오류가 발생했습니다. 다시 시도해 주세요.");
+    } finally {
+      setIsSubmitting(false);
+    }
+  };
+
   const handleDirectBuy = () => {
     if (isSoldOut) {
       alert("현재 본 제품은 제조사/공급사 사정으로 일시 품절되었습니다. 견적문의를 이용해 주시기 바랍니다.");
@@ -2478,37 +2513,6 @@ export default function MaterialDetail() {
               {(() => {
                 const isAccessory = item.category === '부자재' || item.category === '부자재류';
                 const itemUnitPrice = typeof item.price === 'number' ? item.price : (parseInt(String(item.price || 0).replace(/[^0-9]/g, ""), 10) || 0);
-
-                const handleInstallationConsult = () => {
-                  setIsSubmitting(true);
-                  try {
-                    navigate(`/estimate/request?materialId=${encodeURIComponent(item.id)}`, {
-                      state: {
-                        fromProduct: true,
-                        materialId: item.id,
-                        selectedMaterial: {
-                          id: item.id,
-                          code: item.code,
-                          name: displayName,
-                          brand: getComputedBrand(item),
-                          category: item.category,
-                          line: item.line || '',
-                          spec: selectedOption ? selectedOption.spec : (item.specs?.size || item.spec || ''),
-                          thickness: item.thickness || (item.specs?.thickness) || '',
-                          price: itemUnitPrice,
-                          unit: getProductUnit(item),
-                          thumbnail: getMaterialImagePath(item)
-                        },
-                        selectedSize: selectedOption ? selectedOption.label : undefined
-                      }
-                    });
-                  } catch (err) {
-                    console.error("Navigation error:", err);
-                    alert("견적 화면 이동 중 오류가 발생했습니다. 다시 시도해 주세요.");
-                  } finally {
-                    setIsSubmitting(false);
-                  }
-                };
 
                 return (
                   <div className="showroom-cta-block-group">

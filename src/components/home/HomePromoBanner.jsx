@@ -11,6 +11,15 @@ const AUTO_PLAY_MS = 5000;
 
 const PROMO_SLIDES = [
   {
+    id: "pro-construction",
+    title: "바닥재 전문 시공업체 연계",
+    fallbackSubtitle: "주택 · 상가 · 사무실 · 학원 · 헬스장 전문 시공 연계",
+    to: "/cases",
+    preloadPath: "/cases",
+    imageUrl: promoBanner3Construction,
+    imageAlt: "동경바닥재 바닥재 전문 시공업체 연계 - 주택 · 상가 · 사무실 · 학원 · 헬스장",
+  },
+  {
     id: "kcc-distributor",
     title: "KCC 바닥재 총판",
     fallbackSubtitle: "센스타일 트랜디 · 프로 · 센스레이 취급 · 데코타일 상담 · 주문 · 시공 연계 가능",
@@ -27,15 +36,6 @@ const PROMO_SLIDES = [
     preloadPath: "/materials",
     imageUrl: promoBanner2FreeDelivery,
     imageAlt: "동경바닥재 데코타일 50평 이상 무료배송 - 동일 브랜드 기준 50평 이상 주문 시 무료배송",
-  },
-  {
-    id: "pro-construction",
-    title: "바닥재 전문 시공업체 연계",
-    fallbackSubtitle: "주택 · 상가 · 사무실 · 학원 · 헬스장 전문 시공 연계",
-    to: "/cases",
-    preloadPath: "/cases",
-    imageUrl: promoBanner3Construction,
-    imageAlt: "동경바닥재 바닥재 전문 시공업체 연계 - 주택 · 상가 · 사무실 · 학원 · 헬스장",
   },
 ];
 
