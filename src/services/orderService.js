@@ -726,7 +726,7 @@ export const getMyOrders = async () => {
     throw new Error('로그인이 필요합니다.');
   }
 
-  const validUserId = await resolveValidUserId(user, user.email);
+  if (!UUID_REGEX.test(user.id || "") || user.id === DEFAULT_STORE_USER_ID) return [];
 
   const { data, error } = await withTimeout(
     supabase
@@ -735,7 +735,7 @@ export const getMyOrders = async () => {
         *,
         order_items (*)
       `)
-      .eq('user_id', validUserId)
+      .eq('user_id', user.id)
       .order('created_at', { ascending: false }),
     8000,
     '내 주문 목록 조회'
