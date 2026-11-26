@@ -853,7 +853,7 @@ export default function MaterialDetail() {
       }
 
       try {
-        const fetchedItem = await fetchProductDetailBySlugOrId(routeParam, controller.signal, { forceRefresh: retryKey > 0 });
+        const fetchedItem = await fetchProductDetailBySlugOrId(routeParam, controller.signal, { forceRefresh: retryKey > 0 || isPrivilegedViewer });
 
         if (controller.signal.aborted || disposed) return;
 
@@ -903,7 +903,7 @@ export default function MaterialDetail() {
       clearTimeout(watchdog);
       controller.abort();
     };
-  }, [rawId, retryKey]);
+  }, [rawId, retryKey, isPrivilegedViewer]);
 
   // 2. Load Gallery Images
   useEffect(() => {
