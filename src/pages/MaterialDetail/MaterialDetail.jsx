@@ -714,14 +714,15 @@ export default function MaterialDetail() {
 
   const [item, setItem] = useState(() => enrichProduct(initialData));
   const isSoldOut = useMemo(() => isProductSoldOut(item), [item]);
-  // 매출가가 등록된 제품은 일반 고객에게도 판매가를 표시한다. 미등록가는 문의로 유지한다.
+  // 관리자·직원은 DB에 등록된 상품 매출가를 볼 수 있다. 다른 고객의 가격 노출은 기존 KCC 정책만 유지한다.
   const isKccDeco = isKccDecotileProduct(item);
+  const isPrivilegedViewer = currentUser?.role === 'admin' || currentUser?.role === 'staff';
   const parseDisplayPrice = (v) => {
     const n = Number(String(v ?? 0).replace(/,/g, ''));
     return Number.isFinite(n) && n > 0 ? n : 0;
   };
   const displayedPrice = parseDisplayPrice(item?.price) || parseDisplayPrice(item?.rawPrice);
-  const showPrice = currentUser?.role === 'admin' || displayedPrice > 0;
+  const showPrice = (isPrivilegedViewer || isKccDeco) && displayedPrice > 0;
   const [loading, setLoading] = useState(() => !initialData);
   const [error, setError] = useState(null);
   const [retryKey, setRetryKey] = useState(0);
@@ -2143,17 +2144,17 @@ export default function MaterialDetail() {
                     <strong className="price-num" style={{ fontSize: '18px', color: 'var(--text)', display: 'block', marginBottom: '8px' }}>1 {getProductUnit(item)}</strong>
                     <span className="price-vat" style={{ fontSize: '11px', color: 'var(--text-muted)' }}>({getProductUnit(item)} 단위 판매 / VAT 10% 포함)</span>
                   </div>
-                ) : currentUser?.role === 'admin' ? (
+                ) : isPrivilegedViewer ? (
                   <div className="admin-price-box">
                     <div className="showroom-detail-price" style={{ marginBottom: "16px", borderBottom: "1px solid var(--border-showroom-light)", paddingBottom: "16px" }}>
                       <span style={{ fontSize: "14px", color: "var(--text-light-gray)", marginRight: "8px" }}>가격:</span>
                       <strong style={{ fontSize: "22px", color: "var(--accent-showroom-green)" }}>
-                        {item.price ? `₩${item.price.toLocaleString()}원${item.category === '장판' ? '/m' : ''}` : "가격문의"}
+                        {displayedPrice > 0 ? `₩${displayedPrice.toLocaleString('ko-KR')}원 / ${getProductUnit(item)}` : "가격문의"}
                       </strong>
                     </div>
-                    <span className="price-tag-label">관리자 전용 대리점가</span>
-                    <strong className="price-num">{item.price ? `${item.price.toLocaleString()}원${item.category === '장판' ? '/m' : ''}` : "단가 문의"}</strong>
-                    <span className="price-vat">(평당 단가 / VAT 10% 별도)</span>
+                    <span className="price-tag-label">등록 판매가</span>
+                    <strong className="price-num">{displayedPrice > 0 ? `${displayedPrice.toLocaleString('ko-KR')}원 / ${getProductUnit(item)}` : "단가 문의"}</strong>
+                    <span className="price-vat">(판매 단위: {getProductUnit(item)})</span>
                   </div>
                 ) : (
                   <div className="client-consulting-box">
