@@ -860,7 +860,13 @@ export const getProductUnit = (product) => {
   if (product.category === '장판') return 'm';
   if (product.category === '데코타일') return 'BOX';
   if (product.category === '마루') return '평';
-  if (product.category === '카페트타일') return /스완|SWAN/i.test(String(product.brand || '')) ? 'BOX' : (product.unit || '평');
+  if (product.category === '카페트타일') {
+    if (/스완|SWAN/i.test(String(product.brand || ''))) {
+      const unit = String(product.unit || '');
+      return unit.includes('㎡') && !unit.includes('박스') ? '㎡' : 'BOX';
+    }
+    return product.unit || '평';
+  }
   if (product.category === '부자재') return product.unit || '개';
   if (product.category === '벽지') {
     const brand = product.brand || "";
