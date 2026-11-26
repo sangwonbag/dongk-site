@@ -28,10 +28,12 @@ const MaterialCard = ({ material, priority = false, hidePrice = false }) => {
     const currentQuery = (searchParams.get('q') || searchParams.get('search') || '').trim();
     const { addToCart } = useEstimateCart();
     const { user: currentUser, openLoginModal } = useAuth();
-    // KCC 데코타일 제외 전 상품 가격 비노출 (관리자 제외)
+    // 관리자·직원은 등록된 모든 상품 매출가를 조회할 수 있다.
+    // 기존 KCC 데코타일 공개 가격 정책은 유지하며, 다른 고객에게는 단가를 공개하지 않는다.
     const isKccDeco = isKccDecotileProduct(material);
+    const isPrivilegedViewer = currentUser?.role === 'admin' || currentUser?.role === 'staff';
     const isSoldOut = isProductSoldOut(material);
-    const hidePublicPrice = hidePrice || (!isKccDeco && currentUser?.role !== 'admin');
+    const hidePublicPrice = hidePrice || (!isKccDeco && !isPrivilegedViewer);
     
     const [qty, setQty] = useState(1);
 
@@ -84,6 +86,8 @@ const MaterialCard = ({ material, priority = false, hidePrice = false }) => {
         const parsed = parseInt(cleanStr, 10);
         return isNaN(parsed) ? null : parsed;
     };
+    const registeredPrice = parsePrice(material.price) || (isPrivilegedViewer ? parsePrice(material.rawPrice) : 0) || 0;
+    const canDisplayPrice = !hidePublicPrice && registeredPrice > 0 && (isPrivilegedViewer || !isNoxConsultingProduct(material));
 
     const handleInquiry = (e) => {
         if (e) e.stopPropagation();
@@ -506,11 +510,9 @@ const MaterialCard = ({ material, priority = false, hidePrice = false }) => {
                 <div className="card-price-row">
                     <div className="card-price-container" data-nosnippet="">
                         <span className="card-price">
-                            {!isKccDeco || isNoxConsultingProduct(material) || material.isPriceInquiry || hidePublicPrice
-                                ? "가격문의"
-                                : (material.price > 0 ? `${material.price.toLocaleString()}원` : "가격문의")}
+                            {canDisplayPrice ? `${registeredPrice.toLocaleString('ko-KR')}원` : "가격문의"}
                         </span>
-                        {isKccDeco && !hidePublicPrice && material.price > 0 && (
+                        {canDisplayPrice && (
                             <span className="card-price-unit">
                                 {`/${getProductUnit(material)}`}
                             </span>
