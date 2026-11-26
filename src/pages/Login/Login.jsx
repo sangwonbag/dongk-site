@@ -3,7 +3,7 @@ import { useNavigate, useLocation } from "react-router-dom";
 import MainLayout from "../../components/layout/MainLayout";
 import { useAuth } from "../../contexts/AuthContext";
 import { useEstimateCart } from "../../contexts/EstimateCartContext";
-import { supabase } from "../../lib/supabaseClient";
+import { startKakaoLogin } from "../../lib/kakaoLogin";
 import { findUsernameByEmail, requestPasswordReset } from "../../lib/auth";
 import SEO from "../../components/seo/SEO";
 import { Eye, EyeOff, Mail, X, CheckCircle, AlertCircle, ArrowRight } from "lucide-react";
@@ -81,25 +81,8 @@ export default function Login() {
     const handleKakaoLogin = async () => {
         try {
             setErrorMsg("");
-            const searchParams = new URLSearchParams(location.search);
-            const redirectUrl = getSafeRedirectUrl(searchParams.get("redirect"), "/");
-            
-            if (!supabase) {
-                throw new Error("Supabase 클라이언트가 초기화되지 않았습니다.");
-            }
-
-            const isLocalhost = window.location.hostname === "localhost" || window.location.hostname === "127.0.0.1";
-            const baseRedirectUrl = isLocalhost 
-                ? `${window.location.origin}/login-callback` 
-                : "https://dkfloor.co.kr/login-callback";
-
-            await supabase.auth.signInWithOAuth({
-                provider: "kakao",
-                options: {
-                    redirectTo: `${baseRedirectUrl}?redirect=${encodeURIComponent(redirectUrl)}`,
-                    scopes: "profile_nickname profile_image"
-                }
-            });
+            const returnTo = new URLSearchParams(location.search).get("redirect");
+            await startKakaoLogin(returnTo);
         } catch (err) {
             console.error("Kakao login request error:", err);
             setErrorMsg(`카카오 로그인 연결 중 오류가 발생했습니다. (${err.message || err.toString()})`);
