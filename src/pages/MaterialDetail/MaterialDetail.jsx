@@ -714,9 +714,14 @@ export default function MaterialDetail() {
 
   const [item, setItem] = useState(() => enrichProduct(initialData));
   const isSoldOut = useMemo(() => isProductSoldOut(item), [item]);
-  // KCC 데코타일 제외 전 상품 가격 비노출 (관리자 제외)
+  // 매출가가 등록된 제품은 일반 고객에게도 판매가를 표시한다. 미등록가는 문의로 유지한다.
   const isKccDeco = isKccDecotileProduct(item);
-  const showPrice = (currentUser?.role === 'admin') || isKccDeco;
+  const parseDisplayPrice = (v) => {
+    const n = Number(String(v ?? 0).replace(/,/g, ''));
+    return Number.isFinite(n) && n > 0 ? n : 0;
+  };
+  const displayedPrice = parseDisplayPrice(item?.price) || parseDisplayPrice(item?.rawPrice);
+  const showPrice = currentUser?.role === 'admin' || displayedPrice > 0;
   const [loading, setLoading] = useState(() => !initialData);
   const [error, setError] = useState(null);
   const [retryKey, setRetryKey] = useState(0);
@@ -2155,7 +2160,7 @@ export default function MaterialDetail() {
                     <div className="showroom-detail-price" style={{ marginBottom: "16px", borderBottom: "1px solid var(--border-showroom-light)", paddingBottom: "16px" }}>
                       <span style={{ fontSize: "14px", color: "var(--text-light-gray)", marginRight: "8px" }}>가격:</span>
                       <strong style={{ fontSize: "22px", color: "var(--accent-showroom-green)" }}>
-                        가격문의
+                        {`₩${displayedPrice.toLocaleString('ko-KR')}원 / ${getProductUnit(item)}`}
                       </strong>
                     </div>
                     <span className="consulting-title">시공 견적 및 공급가 문의</span>
@@ -3385,7 +3390,7 @@ export default function MaterialDetail() {
       <div className="mobile-cta-fixed-bar">
         <div className="mobile-cta-summary-row" style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', padding: '2px 4px', fontSize: '13px' }}>
           <span style={{ color: 'var(--text-muted)' }}>선택 수량: <strong style={{ color: 'var(--primary)' }}>{qty} {getProductUnit(item)}</strong></span>
-          <span style={{ fontSize: '14px', color: 'var(--text-muted)' }}>예상금액: <strong style={{ color: 'var(--point-gold)', fontSize: '16px', fontWeight: '800' }}>{showPrice && !isNoxConsultingProduct(item) && item?.price > 0 ? (item.price * (parseInt(qty, 10) || 1)).toLocaleString() + '원' : '견적문의'}</strong></span>
+          <span style={{ fontSize: '14px', color: 'var(--text-muted)' }}>예상금액: <strong style={{ color: 'var(--point-gold)', fontSize: '16px', fontWeight: '800' }}>{displayedPrice > 0 ? (displayedPrice * (parseInt(qty, 10) || 1)).toLocaleString() + '원' : '견적문의'}</strong></span>
         </div>
         <div className="mobile-cta-sub-row">
           <button className="mobile-cta-sub-btn" onClick={handleEstimate}>
