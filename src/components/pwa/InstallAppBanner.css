@@ -1,0 +1,19 @@
+.dk-install-banner { display: none; }
+@media (max-width: 768px) {
+  .dk-install-banner {
+    display: flex; position: fixed; left: 12px; right: 12px;
+    bottom: calc(82px + env(safe-area-inset-bottom, 0px));
+    z-index: 1200; padding: 12px 42px 12px 12px;
+    flex-direction: column; gap: 10px; background: #fff; color: #171717;
+    border: 1px solid #dfdcd7; border-radius: 12px;
+    box-shadow: 0 6px 28px rgba(0,0,0,.15);
+  }
+  .dk-install-close { position: absolute; top: 10px; right: 10px; width: 30px; height: 30px; display: grid; place-items: center; border: 0; background: transparent; cursor: pointer; }
+  .dk-install-body { display: flex; align-items: center; gap: 10px; min-width: 0; }
+  .dk-install-body img { flex: 0 0 auto; border-radius: 10px; }
+  .dk-install-copy { display: flex; flex-direction: column; min-width: 0; }
+  .dk-install-copy strong { font-size: 14px; font-weight: 750; }
+  .dk-install-copy span { font-size: 12px; color: #595959; line-height: 1.5; }
+  .dk-install-action { display: inline-flex; justify-content: center; align-items: center; gap: 7px; min-height: 40px; border: 0; border-radius: 7px; color: #fff; background: #171717; font-weight: 700; font-size: 13px; cursor: pointer; }
+  .dk-install-help { font-size: 12px; line-height: 1.6; color: #484848; }
+}

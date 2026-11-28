@@ -4,8 +4,8 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "predev": "node scripts/generateImageManifest.cjs && node scripts/generate-image-manifest.mjs",
-    "prebuild": "node scripts/generateImageManifest.cjs && node scripts/generate-image-manifest.mjs",
+    "predev": "node scripts/generateImageManifest.cjs && node scripts/generate-image-manifest.mjs && node scripts/generate-pwa-icons.cjs",
+    "prebuild": "node scripts/generateImageManifest.cjs && node scripts/generate-image-manifest.mjs && node scripts/generate-pwa-icons.cjs",
     "dev": "vite",
     "build": "vite build",
     "postbuild": "node scripts/generateSitemap.mjs && node scripts/prerender.mjs",

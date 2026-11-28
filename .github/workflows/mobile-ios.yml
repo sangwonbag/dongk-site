@@ -1,0 +1,29 @@
+name: DK Floor iOS simulator build
+on:
+  workflow_dispatch:
+  push:
+    branches: [feature/mobile-storefront-pwa-20261112]
+    paths:
+      - 'mobile/**'
+      - '.github/workflows/mobile-ios.yml'
+permissions:
+  contents: read
+jobs:
+  ios-simulator:
+    runs-on: macos-26
+    timeout-minutes: 35
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Install native dependencies
+        working-directory: mobile
+        run: npm install --no-audit --no-fund
+      - name: Generate iOS project
+        working-directory: mobile
+        run: npm run prepare:ios
+      - name: Build unsigned simulator app
+        working-directory: mobile
+        run: |
+          xcodebuild -project ios/App/App.xcodeproj -scheme App -configuration Debug -sdk iphonesimulator -destination 'generic/platform=iOS Simulator' CODE_SIGNING_ALLOWED=NO build

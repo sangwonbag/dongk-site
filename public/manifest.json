@@ -1,34 +1,74 @@
 {
-  "name": "동경바닥재",
+  "id": "/",
+  "name": "동경바닥재 자재몰",
   "short_name": "동경바닥재",
-  "description": "데코타일, 장판, 마루, 벽지 등 프리미엄 바닥재 전문 브랜드 DK Floor",
+  "description": "KCC·LX·동신 바닥재와 벽지 검색, 장바구니, 주문·결제를 이용하는 동경바닥재 공식 모바일 자재몰",
+  "lang": "ko",
   "start_url": "/",
+  "scope": "/",
   "display": "standalone",
-  "orientation": "portrait",
   "background_color": "#ffffff",
-  "theme_color": "#3A2A1E",
+  "theme_color": "#171717",
+  "categories": [
+    "shopping",
+    "business"
+  ],
   "icons": [
     {
-      "src": "/dk-favicon-transparent-32x32.png",
-      "sizes": "32x32",
-      "type": "image/png"
-    },
-    {
-      "src": "/dk-apple-touch-icon-transparent.png",
-      "sizes": "180x180",
-      "type": "image/png"
-    },
-    {
-      "src": "/dk-apple-touch-icon-transparent.png",
+      "src": "/dk-app-icon-192.png",
       "sizes": "192x192",
       "type": "image/png",
-      "purpose": "any maskable"
+      "purpose": "any"
     },
     {
-      "src": "/dk-apple-touch-icon-transparent.png",
+      "src": "/dk-app-icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "/dk-app-icon-512.png",
       "sizes": "512x512",
       "type": "image/png",
-      "purpose": "any maskable"
+      "purpose": "any"
+    },
+    {
+      "src": "/dk-app-icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "자재찾기",
+      "url": "/materials",
+      "icons": [
+        {
+          "src": "/dk-app-icon-192.png",
+          "sizes": "192x192"
+        }
+      ]
+    },
+    {
+      "name": "장바구니",
+      "url": "/cart",
+      "icons": [
+        {
+          "src": "/dk-app-icon-192.png",
+          "sizes": "192x192"
+        }
+      ]
+    },
+    {
+      "name": "주문내역",
+      "url": "/orders",
+      "icons": [
+        {
+          "src": "/dk-app-icon-192.png",
+          "sizes": "192x192"
+        }
+      ]
     }
   ]
 }
