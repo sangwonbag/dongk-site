@@ -664,7 +664,8 @@ export const createOrder = async ({ cartItems, customer, paymentMethod }) => {
     const unitPrice = Math.max(0, parseFloat(item.price || item.unit_price) || 0);
     
     // product_id 타입 안전 처리 (정수형 체크)
-    const productId = /^\d+$/.test(item.id) ? parseInt(item.id, 10) : null;
+    const numericProductId = item.product_id ?? item.productId ?? item.id;
+    const productId = /^\d+$/.test(String(numericProductId || "")) ? Number(numericProductId) : null;
     
     return {
       order_id: orderId,
