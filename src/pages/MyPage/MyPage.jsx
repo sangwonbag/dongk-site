@@ -3,6 +3,7 @@ import { useNavigate } from "react-router-dom";
 import MainLayout from "../../components/layout/MainLayout";
 import { getCurrentUser, logout } from "../../lib/auth";
 import { getCustomerEstimates } from "../../services/estimateInquiryService";
+import BusinessVerification from "./BusinessVerification";
 import CustomerEstimateView from "./CustomerEstimateView";
 import SEO from "../../components/seo/SEO";
 import { FileText, ChevronRight, X, Clock, CheckCircle2 } from "lucide-react";
@@ -89,6 +90,17 @@ export default function MyPage() {
                             )}
                         </div>
                     </section>
+
+                    <section className="mypage-section">
+                        <h2 className="section-title">주문내역</h2>
+                        <div className="info-card">
+                            <button type="button" className="btn-go-estimate" onClick={() => nav('/orders')}>
+                                내 주문내역 보기
+                            </button>
+                        </div>
+                    </section>
+
+                    <BusinessVerification key={user.id} userId={user.id} />
 
                     {/* Customer Estimate Inquiry List Section */}
                     <section className="mypage-section">
