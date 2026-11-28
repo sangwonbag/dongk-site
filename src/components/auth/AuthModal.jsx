@@ -1,7 +1,7 @@
 import React, { useState, useRef, useEffect } from "react";
 import { X, Eye, EyeOff, Mail, ArrowLeft, CheckCircle } from "lucide-react";
 import { useAuth } from "../../contexts/AuthContext";
-import { supabase } from "../../lib/supabaseClient";
+import { startKakaoLogin } from "../../lib/kakaoLogin";
 import { findUsernameByEmail, requestPasswordReset } from "../../lib/auth";
 import "./AuthModal.css";
 
@@ -58,22 +58,8 @@ export default function AuthModal({ isOpen, onClose, onSuccess }) {
 
   const handleKakaoLogin = async () => {
     try {
-      if (!supabase) throw new Error("Supabase 클라이언트가 초기화되지 않았습니다.");
       setLoginError("");
-      const isLocalhost = typeof window !== "undefined" && 
-        (window.location.hostname === "localhost" || window.location.hostname === "127.0.0.1");
-      const baseRedirectUrl = isLocalhost 
-        ? `${window.location.origin}/login-callback` 
-        : "https://dkfloor.co.kr/login-callback";
-      
-      const currentPath = window.location.pathname + window.location.search;
-      await supabase.auth.signInWithOAuth({
-        provider: "kakao",
-        options: {
-          redirectTo: `${baseRedirectUrl}?redirect=${encodeURIComponent(currentPath)}`,
-          scopes: "profile_nickname profile_image"
-        }
-      });
+      await startKakaoLogin(window.location.pathname + window.location.search);
     } catch (err) {
       console.error("Kakao login error:", err);
       setLoginError(`카카오 로그인 연결 중 오류가 발생했습니다. (${err.message || err.toString()})`);

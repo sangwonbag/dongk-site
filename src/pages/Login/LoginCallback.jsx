@@ -19,9 +19,14 @@ export default function LoginCallback() {
           throw new Error("Supabase 클라이언트가 초기화되지 않았습니다.");
         }
 
+        const searchParams = new URLSearchParams(location.search);
+        const hashParams = new URLSearchParams(location.hash.slice(1));
+        if (searchParams.has("error") || hashParams.has("error")) {
+          throw new Error("카카오에서 로그인이 취소되었거나 연결에 실패했습니다.");
+        }
+
         // 0. PKCE code exchange check
-        const urlParams = new URLSearchParams(window.location.search);
-        const code = urlParams.get("code");
+        const code = searchParams.get("code");
         if (code && supabase.auth.exchangeCodeForSession) {
           try {
             await supabase.auth.exchangeCodeForSession(code);
@@ -130,7 +135,6 @@ export default function LoginCallback() {
         setStatusMsg("로그인 완료! 화면을 이동하고 있습니다...");
         
         // Retrieve redirect target URL
-        const searchParams = new URLSearchParams(location.search);
         const redirectUrl = getSafeRedirectUrl(searchParams.get("redirect"), "/");
         
         setTimeout(() => {
